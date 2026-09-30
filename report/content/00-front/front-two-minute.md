@@ -14,7 +14,7 @@ charts: []
 
 # The report in two minutes
 
-> **Draft for review.** Version 0.6. Not for citation.
+> **Draft for review.** Version 0.7. Not for citation.
 
 **Why Vietnam.** Vietnam makes pork, poultry, eggs, fish and shrimp at scale on imported plant protein: about 99% of the soy protein in its feed is imported, for a feed-ingredient import bill of about USD 10 billion in 2025. The case for alternative protein here is food and feed security, industrial value and trade ([[ch01-why-vietnam]]).
 

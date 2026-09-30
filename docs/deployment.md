@@ -43,7 +43,7 @@ To repeat this on a fresh database: export the current one, `wrangler d1 create 
 
 ## 4. Content updates from a new package
 
-Deploying never changes page text in the CMS. After deploying a new package, run `scripts/sync-content.mjs` as described in the README (plan first, then `--apply`), with an EmDash API token created by an administrator. Moving from edition 1.1 (57 pages) to v0.6 (81 pages) creates 66 pages, updates 15 and moves the 42 pages whose ids changed to the trash; their old URLs redirect (`src/lib/redirects.ts`).
+Deploying never changes page text in the CMS. After deploying a new package, run `scripts/sync-content.mjs` as described in the README (plan first, then `--apply`), with an EmDash API token created by an administrator. Moving from edition 1.1 (57 pages) to v0.6 (81 pages) creates 66 pages, updates 15 and moves the 42 pages whose ids changed to the trash; their old URLs redirect (`src/lib/redirects.ts`). Moving from v0.6 to v0.7 updates 79 pages and leaves 2 unchanged; it creates and trashes none.
 
 ## 5. Subsequent deploys
 
@@ -57,6 +57,16 @@ pnpm exec wrangler versions list --env production
 ```
 
 A code rollback does not undo data migrations or content edits. Recover content through EmDash revisions and backups.
+
+## 6. EmDash 1.0 (September 2026)
+
+The site moved from EmDash 0.38 to 1.0.1. It uses none of the APIs that 1.0 removed ([upgrade guide](https://docs.emdashcms.com/upgrade-to-v1/)). On the first request after the deploy, the Worker applies twelve core migrations (up to `089_auto_seed_completion`) to the production D1. They have no undo step, so export the database before merging:
+
+```sh
+pnpm exec wrangler d1 export altprotein-scoping-v2 --remote --env production --output <private-backup-path.sql>
+```
+
+A code rollback to 0.38 does not reverse the migrations. To go back, restore the database to its state before the deploy (from the export or D1 Time Travel) and redeploy the previous version at the same time. Tested locally: a 0.38 database holding the v0.7 pages migrated on first start, the browser tests passed, and `scripts/sync-content.mjs` moved the pages from v0.6 to v0.7 and back.
 
 ## Notes
 

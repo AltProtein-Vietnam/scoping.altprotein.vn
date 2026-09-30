@@ -5,7 +5,7 @@
   {
    "id": "chart-feed-import-dependence",
    "title": "How much of Vietnam's feed protein and grain is imported",
-   "subtitle": "Share of 2025 supply imported, by ingredient",
+   "subtitle": "Imports as share of imports plus domestic production, 2025 (our calculation)",
    "type": "horizontal-bar",
    "data": {
     "file": "charts/data/feed_import_dependence.csv"
@@ -27,7 +27,7 @@
     "Reference line at 100%.",
     "Highlight the \"Soy protein\" bar."
    ],
-   "notes": "Soybean meal share is of meal supply; the soy-protein row is the headline figure.",
+   "notes": "Shares are imports over imports plus domestic production, not over total supply including stocks. Soybean meal: imports over imports plus local crush. The soy-protein row (about 99%) is our calculation and the headline figure. Maize combines calendar-year customs imports with USDA market-year production.",
    "source_ids": [
     "MAC-04",
     "MAC-08",
@@ -143,7 +143,8 @@
     "FS-40",
     "FS-37",
     "FS-44",
-    "FS-24"
+    "FS-24",
+    "FS-14"
    ],
    "evidence": "VN-direct",
    "confidence": "Medium",
@@ -152,7 +153,8 @@
     "app-s4-feedstocks"
    ],
    "alt_text": "Range bars comparing paddy 43.5 Mt, sugarcane 13.3 Mt, cassava roots 10.2 Mt, cassava pulp about 4 to 8 Mt wet, rice bran 4.35 Mt, spent grain under 1 Mt, against 7.2 Mt of soybean meal fed.",
-   "render": "Inline SVG generated at build time (no Chart.js). Accessible: include <title> and <desc>, and a visually hidden data table. Respect light and dark themes."
+   "render": "Inline SVG generated at build time (no Chart.js). Accessible: include <title> and <desc>, and a visually hidden data table. Respect light and dark themes.",
+   "notes": "Cassava roots imported for processing (about 8 Mt): from FS-14 (cassava supply over 18 Mt, about 42% imported), not FS-01."
   },
   {
    "id": "chart-feedstock-map",
@@ -211,7 +213,11 @@
     "IND-39",
     "VCO-03",
     "INF-02",
-    "INF-03"
+    "INF-03",
+    "IND-01",
+    "IND-08",
+    "IND-13",
+    "BUY-05"
    ],
    "evidence": "VN-direct",
    "confidence": "Medium",
@@ -220,7 +226,8 @@
     "app-s5-facilities"
    ],
    "alt_text": "Table of 13 capabilities: aerobic fermentation exists but is closed; food extrusion, protein isolation and food-grade contract fermentation were not found; feed mills, co-packers and accredited testing are available.",
-   "render": "Inline SVG generated at build time (no Chart.js). Accessible: include <title> and <desc>, and a visually hidden data table. Respect light and dark themes."
+   "render": "Inline SVG generated at build time (no Chart.js). Accessible: include <title> and <desc>, and a visually hidden data table. Respect light and dark themes.",
+   "notes": "Row sources: feed mills IND-39; glucose and fermentation VCO-03, IND-01, IND-08, IND-13; chay co-packing BUY-05; pilot plant INF-02; testing INF-03. Feed-mill utilisation (about 48%) is derived (our calculation), not stated in IND-39. Amino-acid analysis by HPLC exists at NACEFA (INF-03); digestibility (DIAAS) testing not found. UHT filling, GMP biologics and MAE trial rows are not yet sourced."
   },
   {
    "id": "chart-retail-protein-archetypes",
@@ -266,7 +273,7 @@
    "type": "horizontal-bar-with-bands",
    "data": {
     "file": "data/retail_audit_summary_price_per_protein_by_type.csv",
-    "reference": "charts/data/price_to_beat.csv is not used; use bands eggs 34,000 to 40,000; chicken breast 39,500 to 45,500; lean pork 63,000 to 69,500 VND (from COST-39 to COST-41)"
+    "reference": "charts/data/price_to_beat.csv is not used; use bands eggs 34,000 to 40,000; chicken breast 39,500 to 45,500; lean pork about 70,900 VND (from COST-39 to COST-41)"
    },
    "encoding": {
     "y": "product_type",
@@ -341,15 +348,47 @@
     ],
     "status_colour": "clear route = green; route with legal risk = amber; no route or unpublished timeline = red (assign from route text; see notes)"
    },
-   "notes": "Colour rule: self-declaration or listed feed = green; self-declaration with legal risk, or aquafeed trial ambiguity = amber; GMO closed-production, cultivated or new microbial biomass = red.",
+   "notes": "Colour rule (our classification): self-declaration or listed feed = green; self-declaration with legal risk, or aquafeed trial ambiguity = amber; GMO closed-production, cultivated or new microbial biomass = red.",
    "source_ids": [
+    "REG2-05",
+    "REG2-06",
+    "REG2-24",
+    "REG2-25",
+    "REG-01",
     "REG-02",
-    "REG-29",
-    "REG-34",
-    "REG2-01",
-    "REG2-10",
+    "REG-06",
+    "REG-07",
+    "REG-26",
+    "REG2-04",
     "REG2-11",
-    "REG2-16"
+    "REG-18",
+    "REG-19",
+    "REG-25",
+    "REG2-12",
+    "REG-58",
+    "REG2-13",
+    "REG2-15",
+    "REG2-16",
+    "REG2-17",
+    "REG-48",
+    "REG-29",
+    "REG-30",
+    "REG-32",
+    "REG-36",
+    "REG-41",
+    "REG-44",
+    "REG2-01",
+    "REG2-02",
+    "REG-37",
+    "REG-38",
+    "REG-40",
+    "REG2-07",
+    "REG2-09",
+    "REG-33",
+    "REG2-08",
+    "REG2-10",
+    "REG-34",
+    "REG-35"
    ],
    "evidence": "VN-direct",
    "confidence": "Medium",
@@ -468,7 +507,7 @@
     "row_highlight": "Vietnam",
     "label": "score_0_100"
    },
-   "notes": "Scores are relative ranks among nine countries, not cost estimates. See ch03 critique.",
+   "notes": "Scores are relative scores (min-max normalised) among nine countries, not cost estimates. See ch03 critique.",
    "source_ids": [
     "RGN-01"
    ],
@@ -484,7 +523,7 @@
   },
   {
    "id": "chart-regional-approvals",
-   "title": "Novel-protein approvals in the region",
+   "title": "Novel-protein approvals in the region and the US",
    "subtitle": "Approvals by date, country and category",
    "type": "timeline-dots",
    "data": {
@@ -507,7 +546,7 @@
     "RGN-20"
    ],
    "evidence": "VN-adjacent",
-   "confidence": "High",
+   "confidence": "Medium",
    "placement": [
     "ch03-regional",
     "app-s3-regional"
@@ -556,7 +595,7 @@
   },
   {
    "id": "chart-cost-stack-fungal",
-   "title": "Capital is most of the cost of fermentation protein",
+   "title": "Capital charges and maintenance are most of the cost of fermentation protein",
    "subtitle": "Indicative cost of fungal feed protein made in Vietnam, USD per tonne of product, low and high cases",
    "type": "stacked-bar",
    "data": {
@@ -576,7 +615,7 @@
    "annotations": [
     "Group capital charge plus maintenance and label their share: 54% (low) and 67% (high)."
    ],
-   "notes": "Indicative, not a feasibility study.",
+   "notes": "Indicative, not a feasibility study. Capex and capital charge are assumed (capex USD 8,000 to 20,000 per annual tonne). The capital charge alone is 43% (low) and 54% (high) of the total.",
    "source_ids": [
     "COST-01",
     "COST-19",
@@ -584,7 +623,17 @@
     "COST-33",
     "COST-43",
     "COST-44",
-    "COST-47"
+    "COST-47",
+    "COST-06",
+    "COST-10",
+    "COST-13",
+    "COST-14",
+    "COST-16",
+    "COST-17",
+    "COST-20",
+    "COST-30",
+    "COST-50",
+    "COST-51"
    ],
    "evidence": "VN-direct",
    "confidence": "Low",
@@ -616,7 +665,11 @@
     "FM-01",
     "COST-43",
     "COST-44",
-    "COST-47"
+    "COST-47",
+    "COST-01",
+    "COST-19",
+    "COST-21",
+    "COST-33"
    ],
    "evidence": "VN-direct",
    "confidence": "Low",
@@ -627,12 +680,13 @@
     "app-s6-feed-market"
    ],
    "alt_text": "Range bars: soybean meal protein USD 796 to 876 per tonne; fishmeal protein 2,625 to 3,846; indicative Vietnamese fungal protein 4,050 to 14,700.",
-   "render": "Inline SVG generated at build time (no Chart.js). Accessible: include <title> and <desc>, and a visually hidden data table. Respect light and dark themes."
+   "render": "Inline SVG generated at build time (no Chart.js). Accessible: include <title> and <desc>, and a visually hidden data table. Respect light and dark themes.",
+   "notes": "Benchmark endpoints: 2025 average and August 2026 (World Bank Pink Sheet)."
   },
   {
    "id": "chart-capex-per-tonne",
    "title": "Capital cost per annual tonne of capacity",
-   "subtitle": "USD per tonne of annual capacity; published benchmarks and our assumptions",
+   "subtitle": "USD per tonne of annual capacity; published benchmarks (COST-43, COST-44, COST-47) and our assumptions (unsourced)",
    "type": "range-bar",
    "data": {
     "file": "charts/data/capex_per_tonne.csv"
@@ -652,13 +706,14 @@
     "COST-47"
    ],
    "evidence": "general",
-   "confidence": "High",
+   "confidence": "Medium",
    "placement": [
     "ch09-economics",
     "app-s12-costs"
    ],
-   "alt_text": "Log-scale bars: parity needs capex below about USD 6,000 per annual tonne, against 16,000 to 23,000 in published SCP and mycoprotein studies and 96,000 for cultivated meat.",
-   "render": "Inline SVG generated at build time (no Chart.js). Accessible: include <title> and <desc>, and a visually hidden data table. Respect light and dark themes."
+   "alt_text": "Log-scale bars: parity needs capex below about USD 6,000 per annual tonne (our estimate), against 16,000 to 23,000 in published SCP and mycoprotein studies and 48,000 to 96,000 for cultivated meat (fed-batch to perfusion).",
+   "render": "Inline SVG generated at build time (no Chart.js). Accessible: include <title> and <desc>, and a visually hidden data table. Respect light and dark themes.",
+   "notes": "The parity threshold (USD 6,000) and the Vietnamese assumption (USD 8,000 to 20,000) are our estimates, not sourced. Cultivated meat: Humbird's perfusion case is about USD 96,000 per annual tonne; his fed-batch case is about USD 48,000."
   },
   {
    "id": "chart-technology-fit-matrix",
@@ -805,15 +860,48 @@
     ]
    },
    "annotations": [
-    "Shade October to November 2026: Food Safety Law session."
+    "Shade October to November 2026: Food Safety Law session.",
+    "Omit MS-012 (China 15th Five-Year Plan): not verified, no source."
    ],
    "source_ids": [
-    "GT-01",
     "GT-04",
-    "GT-10",
+    "GT-05",
+    "GT-06",
+    "GT-07",
+    "GT-08",
+    "GT-09",
     "GT-11",
+    "GT-01",
+    "GT-02",
+    "GT-03",
+    "REG-48",
+    "REG-45",
+    "RGN-35",
+    "REG-63",
+    "RGN-05",
+    "RGN-19",
+    "RGN-21",
+    "GT-10",
+    "REG-43",
+    "REG-61",
+    "GT-14",
+    "FS-10",
+    "REG-47",
+    "REG-56",
+    "GT-15",
     "REG-12",
-    "REG-18"
+    "REG-14",
+    "APR-07",
+    "REG-06",
+    "REG-59",
+    "REG-50",
+    "REG-51",
+    "REG-54",
+    "MAC-23",
+    "GT-12",
+    "GT-13",
+    "GT-16",
+    "CLM-05"
    ],
    "evidence": "VN-direct",
    "confidence": "Medium",
@@ -960,12 +1048,25 @@
    ],
    "notes": "Windows are estimates with conditions, not forecasts.",
    "source_ids": [
-    "FTG-01",
+    "FTB-06",
+    "FTB-11",
+    "HSC-06",
+    "FTB-38",
+    "REG-12",
+    "FTG-03",
     "FTB-18",
     "FTB-21",
-    "FTB-38",
+    "HSC-14",
+    "AQF-19",
+    "AQF-23",
+    "FTB-31",
+    "AQF-22",
     "NGF-11",
-    "AQF-23"
+    "NGF-12",
+    "FTB-24",
+    "HSC-01",
+    "FTG-01",
+    "FTB-35"
    ],
    "evidence": "VN-direct",
    "confidence": "Low",
@@ -1091,7 +1192,7 @@
     "Vertical reference line at 10.4 Mt.",
     "Highlight the top two bars (formulation and feed conversion)."
    ],
-   "notes": "Tornado chart: bars run from the low-case to the high-case value.",
+   "notes": "Tornado chart: bars run from the low-case to the high-case value. Source: our balance model (tools/balance_model.py; ch22 sensitivity table), with inputs from OECD-FAO to 2035 (QNT-01).",
    "source_ids": [
     "QNT-01"
    ],
@@ -1212,7 +1313,7 @@
     "Lanes in this order: Measure, Rules, Places, Money, Economise, Diversify, Specialise, Decarbonise, Review.",
     "Badge the whole chart \"Vision, not forecast\"."
    ],
-   "notes": "Periods follow Vietnam's five-year plans.",
+   "notes": "Periods follow Vietnam's five-year plans. Milestones are this report's proposals, informed by foreign analogues.",
    "source_ids": [
     "VIS-15",
     "VIS-18",
@@ -1291,14 +1392,21 @@
     "Shade a band from 34,000 to 45,000 labelled \"eggs and chicken: the mass price to beat\".",
     "Mark lean pork (70,900) as \"mainstream meat reference\"."
    ],
-   "notes": "Composition-table protein except the audit rows (label protein). Ranges: beef 130,000 to 143,000; shrimp 199,000 to 204,000; analogues 542,000 to 622,000.",
+   "notes": "Composition-table protein except the audit rows (label protein). Ranges: beef 119,000 to 143,000; shrimp 199,000 to 204,000; analogues 542,000 to 622,000.",
    "source_ids": [
     "COST-39",
     "COST-40",
     "COST-41",
     "DIE-12",
     "DIE-05",
-    "FORM-01"
+    "FORM-01",
+    "DIE-13",
+    "DIE-15",
+    "DIE-16",
+    "DIE-18",
+    "DIE-20",
+    "DIE-22",
+    "DIE-23"
    ],
    "evidence": "VN-direct",
    "confidence": "Medium",
@@ -1405,7 +1513,8 @@
    ],
    "notes": "Stated evidence from an online panel in the Hanoi region and Ho Chi Minh City.",
    "source_ids": [
-    "CON-02"
+    "CON-02",
+    "CON-03"
    ],
    "evidence": "VN-direct",
    "confidence": "Medium",
@@ -1418,8 +1527,8 @@
   },
   {
    "id": "chart-price-parity-choice",
-   "title": "Stated interest halves by +50%",
-   "subtitle": "Share who would choose plant-based meat over meat for a dish, by price relative to meat, 2023",
+   "title": "Stated interest falls by over a third at +50%",
+   "subtitle": "Share who would choose plant-based meat over meat at a grocery shop, by price relative to meat, 2023",
    "type": "line",
    "data": {
     "file": "charts/data/price_parity_choice.csv"
@@ -1509,12 +1618,15 @@
    "annotations": [
     "Draw the two bands as vertical shaded areas."
    ],
-   "notes": "Our calculation: price per 100 g of protein divided by 5. Benchmarks from chapter 11.",
+   "notes": "Our calculation: price per 100 g of protein divided by 5. Benchmarks from chapter 11. Canteen band: our assumption of a 60 to 80% food share, with half going to the protein dish.",
    "source_ids": [
     "FORM-01",
     "DIE-12",
     "CHY-40",
-    "CHN-39"
+    "CHN-39",
+    "COST-39",
+    "COST-40",
+    "COST-41"
    ],
    "evidence": "VN-direct",
    "confidence": "Medium",
@@ -1543,7 +1655,7 @@
     ]
    },
    "annotations": [
-    "Note: household penetration fell from 19% (2021) to 11% (2025) while repeat stayed near 60%."
+    "Note: household penetration fell from 20% (2021, as restated by GFI) to 11% (2025) while repeat stayed near 60%."
    ],
    "notes": "SPINS data published by GFI.",
    "source_ids": [
@@ -1581,7 +1693,7 @@
    "annotations": [
     "Label each bar with its range."
    ],
-   "notes": "Canteens: 4.15 million workers x about 300 days; schools: budget divided by subsidy; tourists: 5.5 million visitors x 4 nights x 2 meals x 2 to 5%.",
+   "notes": "Canteens: 4.15 million workers x about 300 days; schools: budget divided by subsidy; tourists: 5.5 million international arrivals to Khanh Hoa (2025) x 4 nights x 2 meals x 2 to 5% vegetarian (nights, meals and vegetarian share are our assumptions).",
    "source_ids": [
     "CHN-37",
     "CHN-39",
@@ -1618,7 +1730,7 @@
     "Label totals: 18,375 t (2019) and 53,976 t (2025).",
     "Note: the 2024 jump in HS 3504 is probably partly feed-grade."
    ],
-   "notes": "Partner-reported (mirror) data from UN Comtrade.",
+   "notes": "Partner-reported (mirror) data from UN Comtrade: the China-reported (reporter 156) rows of BUY-02. HS 3504 is not plant-only.",
    "source_ids": [
     "BUY-02"
    ],
@@ -1648,7 +1760,7 @@
    "annotations": [
     "Mark the gap between about USD 2.4 and USD 7 as the choice a new ingredient must make."
    ],
-   "notes": "FOB unit values and sampled shipments; protein shares are typical-grade assumptions.",
+   "notes": "FOB unit values and sampled shipments; protein shares are typical-grade assumptions. Volza ranges are selected shipments: the Chinese isolate sample also includes USD 1.80 per kg (2.00 per kg of protein), and Chinese pea USD 1.70 and 3.55 per kg (2.13 to 4.44 per kg of protein).",
    "source_ids": [
     "BUY-02",
     "BUY-07",
@@ -1666,7 +1778,7 @@
   {
    "id": "chart-tariff-edge",
    "title": "Vietnam's tariff edge in Europe and Japan",
-   "subtitle": "Import duty, %: Vietnamese goods against Thai and Chinese goods (MFN, or RCEP for China into Japan), September 2026",
+   "subtitle": "Import duty, %: Vietnamese goods against Thai and Chinese goods in the EU and UK (MFN) and Chinese goods in Japan (RCEP), September 2026; Thai goods also enter Japan free",
    "type": "grouped-bar",
    "data": {
     "file": "charts/data/tariff_edge.csv"
@@ -1682,7 +1794,7 @@
    "annotations": [
     "Note: EU food preparations also carry an agricultural component; UK rates 6 to 12% by line (upper value shown); US charges Vietnamese goods an extra 12.5%."
    ],
-   "notes": "EU TARIC and UK tariff read on 24 September 2026; Japanese lines read programmatically, to be confirmed.",
+   "notes": "EU TARIC and UK tariff read on 24 September 2026; Japanese lines read programmatically from the Japan tariff schedule.",
    "source_ids": [
     "EXP-23",
     "EXP-24",
@@ -1767,7 +1879,7 @@
     "Mark the S-ALT food assumption for each year as a dot labelled \"S-ALT (meat replaced)\".",
     "Note: delivered protein is not displaced meat; see the next chart."
    ],
-   "notes": "Demand model; scenarios, not forecasts.",
+   "notes": "Demand model outputs (app-d8-demand-model; data/demand_outputs.csv); scenarios, not forecasts. BUY-02, CHY-06, CHN-37 and GLB-09 are model inputs, not sources of the plotted values.",
    "source_ids": [
     "BUY-02",
     "CHY-06",
@@ -1805,7 +1917,7 @@
    "annotations": [
     "Style existing chay days as a hatched bar labelled \"already in the baseline\"."
    ],
-   "notes": "Uneven year spacing.",
+   "notes": "Uneven year spacing. Values are demand model outputs (charts/data/displacement_vs_salt.csv; data/demand_outputs.csv); S-ALT values come from Part IV. CHY-06, GLB-19 and GLB-39 are input sources.",
    "source_ids": [
     "CHY-06",
     "GLB-19",
@@ -1841,7 +1953,7 @@
    "annotations": [
     "Add a note: S-ALT assumes 39.3 kt in 2035, off the scale."
    ],
-   "notes": "One-at-a-time sensitivity.",
+   "notes": "One-at-a-time sensitivity. Values are demand model outputs (charts/data/demand_tornado.csv; data/demand_assumptions.csv). Inputs from CHN-37 and BUY-04; the chay-keeper share is assumed (Pew, CHY-06, gives religion only).",
    "source_ids": [
     "CHY-06",
     "BUY-04",
@@ -1879,13 +1991,8 @@
    "annotations": [
     "One question answered in full across all groups."
    ],
-   "notes": "Our coding of actor questions against Part III, v0.3.",
-   "source_ids": [
-    "AFN-05",
-    "AIS-01",
-    "AIB-01",
-    "APR-01"
-   ],
+   "notes": "Our coding of actor questions against Part III, v0.3 (actor-coding table in ch29-actor-check; data/actor_questions.csv).",
+   "source_ids": [],
    "evidence": "VN-direct",
    "confidence": "Medium",
    "placement": [
@@ -2002,7 +2109,7 @@
   {
    "id": "chart-altprotein-investment-by-year",
    "title": "Alternative protein investment: boom, then correction",
-   "subtitle": "Private investment raised by alternative protein companies, USD million, 2019 to first half of 2026",
+   "subtitle": "Investment raised by alternative protein companies (private and public), USD million, 2019 to first half of 2026",
    "type": "stacked-bar",
    "data": {
     "file": "charts/data/altprotein_investment_by_year.csv"
@@ -2019,7 +2126,7 @@
     "2021 peak: about USD 7 billion in GFI's current series (USD 5.0 billion as first reported).",
     "First half of 2026 is half a year."
    ],
-   "notes": "GFI analysis of Net Zero Insights data (advocacy source). Plant-based 2019 to 2023 from GFI's June 2025 series; fermentation and cultivated from its April 2026 reports; plant-based 2020 to 2022 and all 2021 values rounded to USD 0.1 billion; cultivated counts privately held companies only. Sources disagree on 2024 pillars (see data/prologue_investment_by_year.csv).",
+   "notes": "GFI analysis of Net Zero Insights data (advocacy source). Plant-based 2019 to 2023 from GFI's June 2025 series; fermentation and cultivated from its April 2026 reports; plant-based 2020 to 2022 and all 2021 values rounded to USD 0.1 billion; cultivated counts privately held companies only. Sources disagree on 2024 pillars (see data/prologue_investment_by_year.csv). The 2021 pillar values sum to USD 7.1 billion; GFI reports a 2021 total of USD 6.9 billion (pillars from separate series, rounded).",
    "source_ids": [
     "CAP-51",
     "PRC-01",

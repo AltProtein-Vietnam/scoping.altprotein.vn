@@ -30,18 +30,20 @@ Terms: *VN-affiliated* means at least one author works at a Vietnamese instituti
 2. **The gap remains after adjusting for research size.** Per 10,000 publications: Vietnam 0.37, Philippines 0.62, Malaysia 1.02, Thailand 1.58, Singapore 2.94 [@BIB-01] {VN-direct|Medium}. Vietnam's intensity is about a quarter of Thailand's and an eighth of Singapore's (our calculation from the same counts). A second database, on a broader core basket, OpenAlex gives 4.1 works per 10,000 national publications for Vietnam against 13.4 for Thailand (2015 to 2025), about 31% [@HSC-01] {VN-direct|Medium}. We therefore say "about a quarter to a third of Thailand's".
 3. **In feed-side protein, Vietnam is at the regional level.** Fishmeal-replacement records per 10,000: Vietnam 0.42, Thailand 0.45, Malaysia 0.47, Philippines 0.68 [@BIB-01] {VN-direct|Medium}. The Vietnam figure is an undercount: a broader wave 1 search found about 20 Vietnamese aquafeed replacement papers [@RD-01] {VN-direct|Medium}.
 4. **Vietnam has zero or near-zero records in six core technologies** after reading the titles: precision fermentation (0), mycoprotein (0 to 1), fish or shrimp cell lines for food (0), cultivated meat (1, a legal analysis), texturised or extruded protein (1, a 2026 review) and mung bean protein (0 to 1) [@BIB-01; @RD-01] {VN-direct|Medium}.
-5. **Plant-based meat research is about 5 on-topic papers from 2015 to 2026, and no Vietnamese extrusion study** (the one candidate is Taiwanese; see the correction below) [@BIB-01; @HSC-01] {VN-direct|Medium}.
+5. **Plant-based meat research is about 6 on-topic papers from 2015 to 2026, with one extrusion study, Taiwan-led with a first author also at Can Tho University of Technology** (see the corrections below) [@BIB-01; @HSC-01] {VN-direct|Medium}. A 2026 high-moisture meat analogue paper from the Industrial University of Ho Chi Minh City (IUH), found later, is not in these counts [@TIC-21] {VN-direct|Medium}.
 6. **Vietnam's real strengths sit next to alternative protein:** aquafeed nutrition trials (Can Tho University, Nha Trang University), *Pichia pastoris* expression (VNU-HCM University of Science), human stem-cell culture including serum-free media (Vinmec, VNU-HCM Stem Cell Institute), fungal genetic tools for koji mould and *Cordyceps* (VNU Hanoi University of Science) and microalgae cultivation (Institute of Biotechnology VAST, VNUA) [@RD-01] {VN-direct|Medium}.
 7. **Spirulina is Vietnam's biggest topic (87 records, 3.62 per 10,000), but the most-cited papers are about wastewater, diesel-engine fuel and nanoparticles**; only one surfaced paper extracts spirulina protein as an ingredient [@BIB-01] {VN-direct|Medium}.
 8. **Output is rising from a very low base:** 7 records in 2015 to 2019, 14 in 2020 to 2022 and 21 in 2023 to September 2026, across the topic sets read in full [@BIB-01] {VN-direct|Low}.
 9. **No Vietnamese DIAAS or PDCAAS study was found**, although Vietnamese groups do measure in vitro digestibility, RNA reduction and aflatoxin [@RD-01; @RD-23; @RD-31; @RD-61] {VN-direct|Medium}.
-10. **Research money is national and small-grant based.** NAFOSTED is the funder most often acknowledged; international money (ACIAR, SATREPS, EU, Dutch) is present but not aimed at alternative protein; no GFI grantee in Vietnam was found [@RD-06; @RD-12; @RD-04; @RD-02] {VN-direct|Medium}.
+10. **Research money is national and small-grant based.** NAFOSTED is a leading acknowledged funder; international money (ACIAR, SATREPS, EU, Dutch) is present but not aimed at alternative protein; no GFI grantee in Vietnam was found [@RD-06; @RD-12; @RD-04; @RD-11; @RD-56; @RD-57; @RD-58; @RD-03] {VN-direct|Medium}.
+
+> **Correction.** In v0.6 finding 5 said about 5 on-topic plant-based meat papers and no Vietnamese extrusion study; the source shows about 6, and the one extrusion study found has a first author also at Can Tho University of Technology [@HSC-01] {VN-direct|Medium}.
 
 ## S7.2 How the counts were made
 
-> **Method note.** All Vietnam counts are **lower bounds**. Scite's affiliation data are incomplete, and OpenAIRE's country tagging misses several Vietnamese papers found in wave 1 (for example HUST's rice distillers' grain protein papers) [@RD-01; @BIB-01] {VN-direct|High}. Both databases index Vietnamese-language journals only in part. OpenAIRE counts also contain false positives: in the Vietnam sets read in full, about 3 in 10 records were off-topic or had a doubtful Vietnam link [@BIB-01] {VN-direct|Medium}. Compare countries by order of magnitude, not to the decimal.
+> **Method note.** All Vietnam counts are **lower bounds**. Scite's affiliation data are incomplete, and OpenAIRE's country tagging misses at least one Vietnamese paper found in wave 1 (HUST's rice distillers' grain protein preprint) [@RD-01; @BIB-01] {VN-direct|High}. Both databases index Vietnamese-language journals only in part. OpenAIRE counts also contain false positives: in the Vietnam sets read in full, about 3 in 10 records were off-topic or had a doubtful Vietnam link [@BIB-01] {VN-direct|Medium}. Compare countries by order of magnitude, not to the decimal.
 
-> **Correction.** The brief for wave 2 asked for OpenAlex counts. OpenAlex returned HTTP 429 ("too many requests") on all 4 attempts between 15:52 and 15:58 UTC on 23 September 2026; users without an API key now get a budget of USD 0.10 a day, most likely already used by the shared connection [@BIB-02; @BIB-03] {general|High}. Europe PMC was also refused [@BIB-04] {general|High}. Wave 2 therefore used the OpenAIRE Graph API [@BIB-01] {general|High}. Wave 1's Scite counts should not be used for country benchmarking: a Scite query for cultivated meat with the affiliation "Thailand" returned 1 paper, while OpenAIRE returned 49 Thai records for a comparable query [@BIB-05; @BIB-01] {general|High}. Section S7.13 gives the full method notes.
+> **Correction.** The brief for wave 2 asked for OpenAlex counts. OpenAlex returned HTTP 429 ("too many requests") on all 4 attempts between 15:52 and 15:58 UTC on 23 September 2026; users without an API key now get a budget of USD 0.10 a day, most likely already used by the shared connection [@BIB-02; @BIB-03] {general|High}. Europe PMC was also refused (our run log, `working-papers/wave2/biblio/bibliometrics.md`) {general|High}. Wave 2 therefore used the OpenAIRE Graph API [@BIB-01] {general|High}. Wave 1's Scite counts should not be used for country benchmarking: a Scite query for cultivated meat with the affiliation "Thailand" returned 1 paper, while OpenAIRE returned 49 Thai records for a comparable query [@BIB-05; @BIB-01] {general|High}. Section S7.13 gives the full method notes.
 
 ## S7.3 Topic-by-topic depth
 
@@ -105,7 +107,7 @@ By period: 7 records in 2015 to 2019, 14 in 2020 to 2022 and 21 in 2023 to Septe
 
 **Food-grade side-stream protein (HUST)** [@RD-22; @RD-23; @RD-32] {VN-direct|Medium}:
 
-- rice-based dried distillers' grains from Vietnamese ethanol plants hold 55 to 80% protein (dry matter); cassava distillers' grains only 13 to 16% (preprint, 2024);
+- rice-based dried distillers' grains from Vietnamese ethanol plants hold 50 to 80% protein (dry matter); cassava distillers' grains only 13 to 16% (preprint, 2024);
 - alkaline extraction recovered 90% of the protein, and enzymatically extracted protein was 77.1% digestible in vitro (2025);
 - spent brewer's yeast protein was recovered at 84.9% and made into an energy bar with 14.9 g protein (2024).
 
@@ -115,7 +117,7 @@ By period: 7 records in 2015 to 2019, 14 in 2020 to 2022 and 21 in 2023 to Septe
 
 **Microalgae cultivation** [@RD-21; @RD-20] {VN-direct|Medium}. A salt-tolerant Spirulina strain reached 48.73% protein (dry weight) in a 42 ppt medium (2023). VNUA published a review of Arthrospira production in Vietnam (2021).
 
-**Mid-sized clusters that sit next to alternative protein** (OpenAIRE, VN-tagged): black soldier fly 34 records (the four most cited are about biodiesel from larval fat), *Pichia* 25 (mostly vaccine antigens and enzymes), *A. oryzae* 23 (mostly fungal genetic tools), duckweed 23 (mostly genomics and taxonomy) and "alternative protein" 20 (mostly feed) [@BIB-01] {VN-direct|Medium}. None of the ten most-cited papers in the *Pichia*, *A. oryzae* or duckweed clusters produces a food protein.
+**Mid-sized clusters that sit next to alternative protein** (OpenAIRE, VN-tagged): black soldier fly 34 records (the three most cited are about biodiesel from larval fat), *Pichia* 25 (mostly vaccine antigens and enzymes), *A. oryzae* 23 (mostly fungal genetic tools), duckweed 23 (mostly genomics and taxonomy) and "alternative protein" 20 (mostly feed) [@BIB-01] {VN-direct|Medium}. None of the ten most-cited papers in the *Pichia*, *A. oryzae* or duckweed clusters produces a food protein.
 
 ## S7.7 Representative papers
 
@@ -124,15 +126,15 @@ A selection from `publications.csv`. Citation counts are OpenAIRE counts from wa
 | DOI | Year | Topic | Institution | Key result | Citations | Evidence |
 |---|---|---|---|---|---|---|
 | 10.1002/apj.70043 | 2025 | Rice distillers' grain protein | HUST | 90% alkaline extraction; enzyme-extracted protein 77.1% digestible in vitro | n/a | [@RD-23] {VN-direct\|High} |
-| 10.21203/rs.3.rs-3171967/v1 | 2024 | Rice distillers' grain | HUST | 55 to 80% protein (dry matter); preprint | n/a | [@RD-22] {VN-direct\|Medium} |
+| 10.21203/rs.3.rs-3171967/v1 | 2024 | Rice distillers' grain | HUST | 50 to 80% protein (dry matter); preprint | n/a | [@RD-22] {VN-direct\|Medium} |
 | 10.51316/jst.178.etsd.2024.34.5.4 | 2024 | Spent brewer's yeast protein | HUST | 84.9% protein recovery; energy bar with 14.9 g protein | n/a | [@RD-32] {VN-direct\|High} |
 | 10.15625/2525-2518/55/5a/12192 | 2018 | Yeast RNA reduction | HUST (probable) | Nucleic acid reduction in spent-yeast hydrolysate | n/a | [@RD-31] {VN-direct\|Medium} |
 | 10.1016/j.ifset.2021.102692 | 2021 | Rice protein recovery | HCMUT (probable) | Ultrafiltration recovery of rice protein | 22 | [@RD-24; @BIB-01] {VN-direct\|Medium} |
 | 10.15625/0866-7160/v37n4.7091 | 2016 | Rice bran protein isolate | IBT VAST | Laboratory method for rice bran protein isolate | n/a | [@RD-25] {VN-direct\|High} |
 | 10.1111/ijfs.17089 | 2024 | Hybrid meat | not established | 10 to 15% of meat replaced with germinated mung bean flour was accepted in sausage | 9 | [@RD-26; @BIB-01] {VN-direct\|Medium} |
 | 10.17113/ftb.63.01.25.8629 | 2025 | Plant-based meat | not established | Mangosteen peel extract extends the shelf life of soy burgers | 3 | [@RD-27; @BIB-01] {VN-direct\|Medium} |
-| 10.1093/ijfood/vvae080 | 2025 | Meat-analogue extrudates | Taiwan | The only VN-tagged extrusion experiment; all three authors at National Pingtung University of Science and Technology, so not Vietnamese | 9 | [@BIB-01; @HSC-01] {VN-direct\|Medium} |
-| 10.1111/jfpe.70365 | 2026 | Plant-based fish analogues (review) | first author with a Vietnamese name; affiliation not verified | Review | 0 | [@RD-66; @BIB-01] {VN-direct\|Medium} |
+| 10.1093/ijfood/vvae080 | 2025 | Meat-analogue extrudates | Taiwan (with Vietnam co-affiliation) | The only VN-tagged extrusion experiment; Taiwan-led, first author also at Can Tho University of Technology | 9 | [@BIB-01; @HSC-01] {VN-direct\|Medium} |
+| 10.1111/jfpe.70365 | 2026 | Plant-based fish analogues (review) | Duy Tan University, Da Nang (OpenAlex) | Review | 0 | [@RD-66; @BIB-01] {VN-direct\|Medium} |
 | 10.15625/1811-4989/14/3/9876 | 2016 | Methanotroph single-cell protein | VNU Hanoi IMBT | Methane-oxidising bacterium isolated; no follow-up found | 1 | [@RD-28; @BIB-01] {VN-direct\|Medium} |
 | 10.20944/preprints202503.1319.v1 | 2025 | Fungal fermentation of cassava residue | not established | *Pleurotus* mycelium on cassava plus soy residue raised protein 1.84-fold; preprint | n/a | [@RD-29] {VN-direct\|Medium} |
 | 10.1007/s12649-022-01724-x | 2022 | Cassava bagasse with *Aspergillus* co-culture | not verified | Closest item to cassava-to-protein; protein enrichment not yet checked | 8 | [@BIB-01] {VN-direct\|Medium} |
@@ -151,49 +153,51 @@ A selection from `publications.csv`. Citation counts are OpenAIRE counts from wa
 | 10.22144/ctu.jen.2022.029 | 2022 | Duckweed diversity | Can Tho University journal | Over 100 wild duckweed samples collected nationwide | n/a | [@RD-44] {VN-direct\|Medium} |
 | 10.1038/s41598-020-75728-9 | 2020 | Duckweed genome | Vietnamese first author with IPK Gatersleben | Chromosome-scale *Spirodela intermedia* genome | 37 | [@RD-71; @BIB-01] {VN-direct\|High} |
 | 10.1111/are.13147 | 2016 | SPC in snakehead feed | Can Tho University | 40% of fishmeal protein replaced without growth loss | 23 | [@RD-47; @BIB-01] {VN-direct\|High} |
-| 10.1111/anu.12648 | 2018 | Fermented soybean meal in shrimp feed | Nha Trang University (probable) | 88.8% protein digestibility; optimum 253.6 g/kg replacement | n/a | [@RD-46] {VN-direct\|Medium} |
-| 10.1111/anu.12915 | 2019 | Brewer's yeast in prawn feed | Can Tho University with Swedish partners | Up to 60% of fishmeal protein replaced | n/a | [@RD-48] {VN-direct\|High} |
+| 10.1111/anu.12648 | 2018 | Fermented soybean meal in shrimp feed | RIA2 and Nong Lam University HCMC | 88.8% crude protein digestibility; optimum fishmeal replacement 253.6 g/kg | n/a | [@RD-46] {VN-direct\|Medium} |
+| 10.1111/anu.12915 | 2019 | Brewer's yeast in prawn feed | An Giang University with the Swedish University of Agricultural Sciences | Up to 60% of fishmeal protein replaced | n/a | [@RD-48] {VN-direct\|High} |
 | 10.1007/s10811-018-1457-7 | 2018 | Seaweed protein in shrimp feed | Can Tho University | *Cladophora* protein partly replaced fishmeal in black tiger shrimp postlarvae | 25 | [@RD-50; @BIB-01] {VN-direct\|Medium} |
 | 10.3390/aquacj5010007 | 2025 | Black soldier fly larvae in eel feed | VNUA | 30% larvae meal best in swamp eel; feed conversion ratio 2.33 | n/a | [@RD-54] {VN-direct\|High} |
 | 10.3390/foods11111531 | 2022 | Catfish side-stream protein | Nha Trang University | pH-shift recovery of protein from tra catfish side streams | n/a | [@RD-52] {VN-direct\|High} |
 | 10.47866/2615-9252/vjfc.4588 | 2025 | Traditional soy sauce safety | NIFC journal | Aflatoxin tested in 38 *tương* (fermented soybean paste) samples | n/a | [@RD-61] {VN-direct\|Medium} |
 
+> **Correction.** In v0.6 this table said the extrusion study 10.1093/ijfood/vvae080 had no Vietnamese author and that the brewer's yeast prawn trial 10.1111/anu.12915 came from Can Tho University; the extrusion study's first author is also at Can Tho University of Technology, and the yeast trial is from An Giang University with SLU [@HSC-01; @RD-48] {VN-direct|Medium}.
+
 ## S7.8 Institutions and their capabilities
 
-Summary from `institutions.csv` (31 rows). Location is the current province [@RD-01] {VN-direct|Medium}.
+Summary from `institutions.csv` (31 rows). Location is the current province {VN-direct|Medium}.
 
 | Institution | Location | Relevant capability | Evidence strength | Sources |
 |---|---|---|---|---|
 | Hanoi University of Science and Technology (HUST), biotechnology and food technology | Hanoi | Protein extraction and characterisation (SDS-PAGE, DSC, in vitro digestibility); enzymatic hydrolysis; yeast fermentation; ethanol processes | Medium; strongest group on food-grade side-stream protein | [@RD-22; @RD-23; @RD-31; @RD-32; @RD-56] {VN-direct\|Medium} |
 | VNU Hanoi University of Science (HUS), fungal molecular biology | Hanoi | *A. oryzae*, *Penicillium* and *Cordyceps* transformation and markers | Medium; attribution probable | [@RD-33; @RD-34] {VN-direct\|Medium} |
 | VNU Hanoi Institute of Microbiology and Biotechnology (IMBT) and the Vietnam Type Culture Collection (VTCC) | Hanoi | Culture collection supplying strains used in Vietnamese papers; methanotroph isolation | Medium | [@RD-01; @RD-28] {VN-direct\|Medium} |
-| VNU-HCM University of Science (HCMUS) | Ho Chi Minh City | *Pichia* expression (multi-copy strains, fed-batch); growth factors; bacteriocins; phytase; CRISPR yeast | Medium | [@RD-35; @RD-36; @RD-37; @RD-38] {VN-direct\|Medium} |
+| VNU-HCM University of Science (HCMUS) | Ho Chi Minh City | *Pichia* expression (multi-copy strains, fed-batch); growth factors; bacteriocins; phytase; CRISPR yeast | Medium | [@RD-35; @RD-36; @RD-37; @RD-38; @RD-63] {VN-direct\|Medium} |
 | Stem Cell Institute, VNU-HCM University of Science | Ho Chi Minh City | Stem-cell isolation and expansion, spheroids, scaffolds | Medium; human biomedical focus | [@RD-41] {VN-direct\|Medium} |
 | Vinmec Research Institute of Stem Cell and Gene Technology | Hanoi | GMP-oriented stem-cell culture; serum- and xeno-free media testing | Medium; no food or animal-cell work | [@RD-39; @RD-40] {VN-direct\|Medium} |
 | VNU-HCM International University (IU), School of Biotechnology | Ho Chi Minh City | Germination, starch and protein chemistry; porcine germline stem cells | Low; attribution from author groups | [@RD-42] {VN-direct\|Low} |
 | Ho Chi Minh City University of Technology (HCMUT) | Ho Chi Minh City | Ultrafiltration of rice protein; fermentation of defatted rice bran | Medium | [@RD-24] {VN-direct\|Medium} |
 | Institute of Biotechnology (IBT), VAST | Hanoi | Microalgae strain collection and cultivation; *Pichia* and *A. niger* expression; rice bran protein isolate | Medium | [@RD-21; @RD-25] {VN-direct\|Medium} |
-| Vietnam National University of Agriculture (VNUA) | Hanoi | Mushroom strains and cultivation; spirulina; fish and poultry feeding trials | High (880 Scite affiliation records) | [@RD-20; @RD-01] {VN-direct\|High} |
-| Can Tho University (CTU), College of Aquaculture and Fisheries | Can Tho | Fish and shrimp nutrition and digestibility trials; seaweed and Artemia protein; duckweed germplasm survey | High; strongest publisher on alternative aquafeed protein | [@RD-10; @RD-47; @RD-48; @RD-50] {VN-direct\|High} |
-| Nha Trang University (NTU) | Khanh Hoa | Fish side-stream protein (pH-shift); hydrolysates; marine fish nutrition trials | Medium (183 Scite affiliation records) | [@RD-46; @RD-52; @RD-53] {VN-direct\|Medium} |
+| Vietnam National University of Agriculture (VNUA) | Hanoi | Mushroom strains and cultivation; spirulina; fish feeding trials | High (880 Scite affiliation records) | [@RD-20; @RD-54; @RD-01] {VN-direct\|High} |
+| Can Tho University (CTU), College of Aquaculture and Fisheries | Can Tho | Fish and shrimp nutrition and digestibility trials; seaweed and Artemia protein; duckweed germplasm survey | High; strongest publisher on alternative aquafeed protein | [@RD-10; @RD-47; @RD-50; @RD-51] {VN-direct\|High} |
+| Nha Trang University (NTU) | Khanh Hoa | Fish side-stream protein (pH-shift); hydrolysates; marine fish nutrition trials | Medium (183 Scite affiliation records) | [@RD-52; @RD-53; @RD-01] {VN-direct\|Medium} |
 | Food Industries Research Institute (FIRI), under MOIT | Hanoi | Online microbial culture collection; pilot production and technology transfer centre; enzyme and protein technology department; accredited testing | High for structure; equipment sizes not published | [@RD-07] {VN-direct\|High} |
 | National Institute for Food Control (NIFC), under MOH | Hanoi | Mycotoxin, contaminant and nutritional analysis (aflatoxin limit of detection 0.74 µg/kg reported in its journal) | Medium | [@RD-61] {VN-direct\|Medium} |
 | Agricultural Genetics Institute (AGI), VAAS | Hanoi | Duckweed regeneration and transformation (vaccine antigen) | Low; attribution probable | [@RD-01] {VN-direct\|Low} |
 | Research Institutes for Aquaculture No. 1, 2 and 3 (RIA1 to RIA3), under MAE | Bac Ninh; Ho Chi Minh City; Khanh Hoa | Aquaculture research; nutrition work not visible in Scite | Low | [@RD-01] {VN-direct\|Low} |
-| Ho Chi Minh City Biotechnology Center | Ho Chi Minh City | Claimed pilot fermentation services (not verified; see [[app-s8-labs-talent]]) | Low | [@RD-01] {VN-direct\|Low} |
+| Ho Chi Minh City Biotechnology Center | Ho Chi Minh City | Lists agriculture and aquaculture technology transfer; no pilot fermentation service found (see [[app-s8-labs-talent]]) | Low | [@INF-05] {VN-direct\|Low} |
 
-Named institutions with **no relevant output found** in the Scite search: University of Danang, IUH, Van Lang, VinUni, RMIT Vietnam, Fulbright, Phenikaa, Hue University (one unconfirmed attribution), the Field Crops Research Institute (breeding only), and Nong Lam University (not searched by affiliation) [@RD-01] {VN-direct|Low}. This is evidence of low visibility in indexed journals, not proof that they do no relevant work.
+Named institutions with **no relevant output found** in the Scite search: University of Danang, Van Lang, VinUni, RMIT Vietnam, Fulbright, Phenikaa, Hue University (one unconfirmed attribution), the Field Crops Research Institute (breeding only), and Nong Lam University (not searched by affiliation) [@RD-01] {VN-direct|Low}. This is evidence of low visibility in indexed journals, not proof that they do no relevant work. The Industrial University of Ho Chi Minh City (IUH), listed here in earlier drafts, published a high-moisture meat analogue paper in 2026 [@TIC-21] {VN-direct|Medium}.
 
 A count-based institution ranking was not possible without OpenAlex. The wave 2 qualitative order, built from wave 1 attributions and the DOIs surfaced, is: VNU Hanoi HUS (*A. oryzae* tools), VNU-HCM HCMUS (*Pichia*), IBT VAST (microalgae), HUST (side-stream protein), Can Tho University (aquafeed), Nha Trang University (aquafeed), VNUA (spirulina, black soldier fly), HCMUT (rice protein), VNU Hanoi IMBT (methanotroph), HCMUTE (spirulina protein) [@BIB-01] {VN-direct|Low}. HUST is under-represented in OpenAIRE's Vietnam tag.
 
-After the 2025 reforms, RIA1 to RIA3 and VAAS sit under the Ministry of Agriculture and Environment (MAE), FIRI under MOIT, NIFC under MOH and NAFOSTED under MOST [@RD-01] {VN-direct|Medium}. These mappings were not re-verified.
+After the 2025 reforms, RIA1 to RIA3 and VAAS sit under the Ministry of Agriculture and Environment (MAE), FIRI under MOIT, NIFC under MOH and NAFOSTED under MOST [@REG-42; @RD-07; @RD-06] {VN-direct|Medium}. These mappings were not re-verified.
 
 ## S7.9 International collaborations
 
 | Partner | Vietnamese partner | Topic | Evidence |
 |---|---|---|---|
 | Wageningen University and Research (Netherlands) | Can Tho University | Pangasius digestion and faecal waste; seaweed for livestock methane reduction (2022 seed study) | 10.1111/anu.12632; 10.18174/566553 [@RD-58; @RD-57] {VN-direct\|High} |
-| Swedish University of Agricultural Sciences (SLU) | Can Tho University | Brewer's yeast replacing fishmeal and soybean meal in prawn and tilapia | 10.1111/anu.12915; 10.3390/aquacj4040019 [@RD-48; @RD-49] {VN-direct\|High} |
+| Swedish University of Agricultural Sciences (SLU) | An Giang University (VNU-HCM) | Brewer's yeast replacing fishmeal and soybean meal in prawn and tilapia | 10.1111/anu.12915; 10.3390/aquacj4040019 [@RD-48; @RD-49] {VN-direct\|High} |
 | Deakin University (Australia) | Nha Trang University | High plant-protein diets with fish protein hydrolysate in barramundi | 10.1111/anu.13404 [@RD-53] {VN-direct\|High} |
 | Agreenium / Institut Agro Dijon (France), Erasmus+ AsiFood | HUST and others | Tropical Fermentation Network: starters, safety, by-product use | 10.3389/fmicb.2018.02278 [@RD-56] {VN-direct\|High} |
 | IPK Gatersleben (Germany) | Vietnamese duckweed researcher | Duckweed genomics | 10.1038/s41598-020-75728-9 [@RD-71] {VN-direct\|High} |
@@ -205,6 +209,8 @@ After the 2025 reforms, RIA1 to RIA3 and VAAS sit under the Ministry of Agricult
 | FiBL (Switzerland) | Binca Seafoods (prior lead) | Duckweed | No Vietnam publication found; FiBL duckweed papers are European trials [@RD-59] {VN-adjacent\|Medium} |
 | Japanese koji partners; Korean institutes | none found | none | Gap [@RD-01] {VN-direct\|Low} |
 
+> **Correction.** In v0.6 this table named Can Tho University as SLU's Vietnamese partner on brewer's yeast; both papers are with An Giang University (VNU-HCM) [@RD-48; @RD-49] {VN-direct|High}.
+
 The share of Vietnamese papers with international co-authors was not measured: OpenAIRE returned no affiliations [@BIB-01] {VN-direct|High}. Qualitatively, the most-cited VN-tagged records in microalgae, spirulina and black soldier fly come from international networks (Malaysia-led microalgae groups, a Taiwan-based black soldier fly biodiesel group, the IPK duckweed network) [@BIB-01] {VN-direct|Low}. Work led from inside Vietnam on protein ingredients typically has 0 to 25 citations [@BIB-01] {VN-direct|Low}.
 
 ## S7.10 Research funding programmes
@@ -213,19 +219,19 @@ From `research_funding.csv` (16 rows). Capital-side programmes (venture funds, N
 
 | Programme | Funder | Relevant scope | Amount | Status in 2026 | Evidence |
 |---|---|---|---|---|---|
-| NAFOSTED basic research grants | NAFOSTED (MOST) | Basic and applied research, technology development, international cooperation | Typical size not established | Operating; the funder most often acknowledged (255 Scite records matched NAFOSTED with protein, fermentation or aquafeed terms) | [@RD-06; @RD-12] {VN-direct\|Medium} |
+| NAFOSTED basic research grants | NAFOSTED (MOST) | Basic and applied research, technology development, international cooperation | Typical size not established | Operating; a leading acknowledged funder (255 Scite records matched NAFOSTED with protein, fermentation or aquafeed terms) | [@RD-06; @RD-12] {VN-direct\|Medium} |
 | NAFOSTED international joint calls | NAFOSTED with foreign agencies | Joint projects | not established | Category listed; 2025 to 2026 partner calls not verified | [@RD-06] {VN-direct\|Low} |
 | Vingroup Innovation Foundation (VINIF) | Vingroup | Research projects (Big Data emphasis); Master's, PhD and postdoctoral support | 2018 to 2023: more than 3,000 scientists supported; about 1,300 Master's and PhD scholarships; 180 postdoctoral fellowships; 117 projects | 2025 to 2026 status not shown; appears in relevant papers mainly as scholarship support | [@RD-05; @RD-12] {VN-direct\|Medium} |
 | Law on Science, Technology and Innovation 93/2025/QH15 | National Assembly | Specialised funds with state capital (Art 6); research-risk exemption (Art 9(3)); controlled testing or sandbox (Arts 21 to 23) | n/a | Issued 27 June 2025; effective date not verified | [@RD-08] {VN-direct\|Medium} |
-| Resolution 57-NQ/TW (2024) and Resolution 36-NQ/TW (2023) | Politburo | Science, technology and biotechnology budget expansion | Targets not verified; not quoted | In force | [@RD-13] {VN-direct\|Low} |
-| Ministerial biotechnology programmes (MAE, MOIT) | Ministries | Agricultural and industrial biotechnology | not established | Decision numbers not retrieved | [@RD-13] {VN-direct\|Low} |
-| Provincial science and technology funding | Provincial departments of science and technology (34 provinces) | Applied projects with local industry | not established | Operating; budgets not retrieved | [@RD-13] {VN-direct\|Low} |
+| Resolution 57-NQ/TW (2024) and Resolution 36-NQ/TW (2023) | Politburo | Science, technology and innovation spending targets (57); biotechnology development (36) | Targets not verified; not quoted | In force | [@NTS-03; @NTS-01] {VN-direct\|Low} |
+| Ministerial biotechnology programmes (MAE, MOIT) | Ministries | Agricultural and industrial biotechnology | not established | Decision numbers not retrieved | Agent knowledge, not verified {VN-direct\|Low} |
+| Provincial science and technology funding | Provincial departments of science and technology (34 provinces) | Applied projects with local industry | not established | Operating (agent knowledge); budgets not retrieved | [@GT-01] {VN-direct\|Low} |
 | GFI Research Grant Program | Good Food Institute | Plant-based, fermentation, cultivated | USD 27 million or more in 141 grants in 26 countries since 2019 | Not accepting submissions; no grantee in Vietnam or Southeast Asia shown on the page read | [@RD-02; @RD-03] {general\|High} |
 | ACIAR Vietnam programme | Australian Centre for International Agricultural Research | Aquaculture (including grouper manufactured feed), pangasius food loss, cassava disease, livestock | AUD 5.4 million across 23 projects in FY2025-26 | Active; commissioned through Australian partners, not open calls | [@RD-04] {VN-direct\|High} |
 | SATREPS | JST and JICA | Research for development | not established | 203 projects in 60 countries (April 2026); Vietnamese projects on biomass energy and pig genetics, not protein | [@RD-11] {VN-adjacent\|Medium} |
 | EU Erasmus+ AsiFood; Horizon Europe | European Union | Fermentation training; collaborative research | not established | AsiFood ended; no Vietnamese alt-protein Horizon Europe participation found | [@RD-56] {VN-direct\|Medium} |
 | Dutch Nuffic/NICHE fellowships and Top Sector seed money | Netherlands | Pangasius nutrition PhDs; seaweed for methane (2022) | not established | Historical collaboration path to Wageningen | [@RD-57; @RD-58] {VN-direct\|Medium} |
-| Newton Fund (UK), USAID (US) | UK, US | Legacy cooperation | not established | Not verified as live; do not rely on them | [@RD-13] {VN-adjacent\|Low} |
+| Newton Fund (UK), USAID (US) | UK, US | Legacy cooperation | not established | Not verified as live; do not rely on them | No source (agent knowledge) {VN-adjacent\|Low} |
 | KOICA and Korean institutes | Korea | none on alt protein found | not established | Not verified | [@RD-01] {VN-adjacent\|Low} |
 
 ## S7.11 Eleven research gaps Vietnam is well placed to fill
@@ -246,24 +252,24 @@ Each gap meets three tests: Vietnam holds a scarce raw material, species or skil
 
 > **Correction.** A prior lead pointed to Indian ICAR-NBFGR pangasius cell lines as a transfer route for gap 1. The striped catfish thymus line PHT (NRFC-078) is real, but it is a serum-dependent (20% foetal bovine serum), adherent, epithelial line made for virology and toxicology, not a food cell line [@SCI-10] {VN-adjacent|High}. The shrimp line PmLyO-Sf9 is a black tiger shrimp and insect (Sf9) hybrid from Cochin University of Science and Technology, not ICAR-NBFGR, and contains an insect genome [@SCI-12] {general|High}. Neither removes the gap.
 
-> **Correction.** For gap 6, note the regulatory evidence abroad: EFSA could not establish the safety of whole *Wolffia globosa* powder (manganese intake) in 2021, but found a *Lemna* protein concentrate safe in 2023 [@SCI-28; @SCI-30] {general|High}. The "PDCAAS 0.89" figure for duckweed in earlier drafts is not supported by any primary source found and must not be used [@SCI-34] {general|Low}. Protein extraction, not whole-plant powder, is the safer research target. See [[app-s13-science]].
+> **Correction.** For gap 6, note the regulatory evidence abroad: EFSA could not establish the safety of whole *Wolffia globosa* powder (manganese intake) in 2021, but found a *Lemna* protein concentrate safe in 2023 [@SCI-28; @SCI-30] {general|High}. The "PDCAAS 0.89" figure for duckweed in earlier drafts traces to an applicant rat study of *Wolffia globosa* powder summarised by EFSA in 2021 (PDCAAS 89%); use it only with that caveat [@SCI-28] {general|Medium}. Protein extraction, not whole-plant powder, is the safer research target. See [[app-s13-science]].
 
-Quickest to publish, in the wave 1 agent's judgement: the DIAAS dataset, duckweed protein from the national collection, rice distillers' grain texturisation, and *Pichia* growth factors tested on fish cells [@RD-01] {VN-direct|Low}.
+Quickest to publish, in the wave 1 agent's judgement (wave 1 working paper `working-papers/wave1/rnd/m6-rnd-capacity.md`): the DIAAS dataset, duckweed protein from the national collection, rice distillers' grain texturisation, and *Pichia* growth factors tested on fish cells {VN-direct|Low}.
 
 ## S7.12 Retraction and data-quality flags
 
 - **Retracted.** The 2023 paper on single-cell protein and nanocellulose from bamboo cellulose (10.1051/e3sconf/202342009003) is retracted, and a duplicate record of it (10.60692/0q29a-9j360) is still indexed. Both are excluded from every count and capability claim [@RD-30; @BIB-01] {VN-direct|High}.
-- **Probable false positives among top-cited "Vietnamese" items.** A 240-citation 2021 review of plant-based meat analogues (10.1007/s00217-021-03810-1) is VN-tagged, but its author team appears Korea- or Malaysia-based [@BIB-01] {VN-direct|Low}. An 821-citation 2019 microalgae review (10.1016/j.fshw.2019.03.001) is a Malaysia-led network paper with a Vietnamese co-author, not led from Vietnam [@BIB-01] {VN-direct|Low}.
+- **Probable false positives among top-cited "Vietnamese" items.** A 240-citation 2021 review of plant-based meat analogues (10.1007/s00217-021-03810-1) is VN-tagged, but it is from an India-led team with one Vietnam-affiliated co-author [@BIB-01; @HSC-01] {VN-direct|Low}. An 821-citation 2019 microalgae review (10.1016/j.fshw.2019.03.001) is a Malaysia-led network paper with a Vietnamese co-author, not led from Vietnam [@BIB-01] {VN-direct|Low}.
 - **Doubtful tags inside small topic sets.** The single mung bean protein hit is an Indonesian journal study (10.22437/ifstj.v9i1.45748); one fishmeal-replacement hit looks like a wrong Vietnam tag (an *Azolla* preprint on *Etroplus*); the Indian-journal trial on *Leucaena* is a genuine Tra Vinh University study ([@HSC-01]); two tempeh hits are Indonesian peptide papers [@BIB-01] {VN-direct|Medium}.
-- **Affiliation now checked.** The only VN-tagged extrusion experiment (10.1093/ijfood/vvae080, 2025) is from a Taiwanese university, so we found no Vietnamese extrusion study [@HSC-01] {VN-direct|Medium}.
+- **Affiliation now checked.** The only VN-tagged extrusion experiment (10.1093/ijfood/vvae080, 2025) is Taiwan-led (National Pingtung University of Science and Technology), with a Vietnamese co-affiliation for the first author (Can Tho University of Technology); we found no fully Vietnamese extrusion study in the wave 2 sets [@HSC-01] {VN-direct|Medium}.
 - **Preprints.** Three wave 1 records are preprints, not peer-reviewed: 10.21203/rs.3.rs-3171967/v1, 10.21203/rs.3.rs-7881609/v1 and 10.20944/preprints202503.1319.v1 [@RD-22; @RD-29] {VN-direct|Medium}.
 - **Probable attributions.** Many institution attributions in `publications.csv` were inferred from author groups, not read from paper headers; the `institutions` column says "probable" or "not established" where so [@RD-01] {VN-direct|Medium}.
 
 > **Correction.** Earlier drafts said "no Vietnamese study has reported RNA reduction protocols, mycotoxin testing or amino acid digestibility". This is too strong. HUST studied nucleic acid reduction in spent-yeast hydrolysate (2018), a 2025 paper in the NIFC journal tested aflatoxin in 38 *tương* samples, and HUST measured in vitro digestibility of rice distillers' grain protein (2025) [@RD-31; @RD-61; @RD-23] {VN-direct|Medium}. The accurate statement is narrower: none of these methods has been applied to a novel microbial biomass, and no Vietnamese DIAAS or PDCAAS study was found.
 
-> **Correction.** Wave 1 found 2 Vietnam-affiliated plant-based meat papers and "none" on extrusion. Wave 2 found about 6 on-topic plant-based meat records and one VN-tagged extrudate texture study with an unverified affiliation. The report uses "about 6 (2015 to 2026), including 2 reviews" and "at most one extrusion study" [@BIB-01] {VN-direct|Medium}. For fishmeal replacement, wave 2's 10 records are lower than wave 1's term-search count of about 20; the report keeps about 20 as the better floor [@RD-01; @BIB-01] {VN-direct|Medium}. All are logged in [[app-r2-disagreements]].
+> **Correction.** Wave 1 found 2 Vietnam-affiliated plant-based meat papers and "none" on extrusion. Wave 2 found about 6 on-topic plant-based meat records and one VN-tagged extrudate texture study whose first author is also at Can Tho University of Technology. The report uses "about 6 (2015 to 2026), including 2 reviews" and "at most one extrusion study" [@RD-01; @BIB-01; @HSC-01] {VN-direct|Medium}. For fishmeal replacement, wave 2's 10 records match wave 1's fishmeal term search (10); wave 1's broader aquafeed-protein screen found about 20, which the report keeps as the floor [@RD-01; @BIB-01] {VN-direct|Medium}. All are logged in [[app-r2-disagreements]].
 
-> **Correction.** OpenAlex author records show that the only VN-tagged extrusion experiment (10.1093/ijfood/vvae080) lists three authors at National Pingtung University of Science and Technology (Taiwan). Vietnam's count of extrusion studies is therefore zero and of on-topic plant-based meat papers about 5. Conversely, the *Leucaena* shrimp-feed trial (10.21077/ijf.2023.70.1.129063-09), listed above as a probable wrong tag, has both authors at Tra Vinh University and is a genuine Vietnamese study [@HSC-01] {VN-direct|Medium}.
+> **Correction.** OpenAlex author records show that the only VN-tagged extrusion experiment (10.1093/ijfood/vvae080) lists three authors at National Pingtung University of Science and Technology (Taiwan), the first also at Can Tho University of Technology. Vietnam's extrusion count is therefore one co-affiliated study, and on-topic plant-based meat papers about 6. Conversely, the *Leucaena* shrimp-feed trial (10.21077/ijf.2023.70.1.129063-09), listed above as a probable wrong tag, has both authors at Tra Vinh University and is a genuine Vietnamese study [@HSC-01] {VN-direct|Medium}.
 
 ## S7.13 Method notes: Scite and OpenAIRE
 

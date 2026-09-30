@@ -1,5 +1,5 @@
 record_id,stream,market_location,price,unit,date,basis,source_ids,evidence_label,confidence,notes
-FSP-001,Cassava fresh root (30% starch),Tay Ninh,3000-3500,VND/kg,2026-04-09,factory-gate purchase,FS-11,VN-direct,Medium,"Up 1,000-1,500 VND/kg (~75%) vs Apr 2025"
+FSP-001,Cassava fresh root (30% starch),Tay Ninh,3000-3500,VND/kg,2026-04-09,factory-gate purchase,FS-11,VN-direct,Medium,"Up 1,000-1,500 VND/kg (about 50 to 75%) vs Apr 2025"
 FSP-002,Cassava fresh root (30% starch),Dak Lak,3000-3498,VND/kg,2026-04-09,factory-gate purchase,FS-11,VN-direct,Medium,"Apr 2025: 1,800-1,998"
 FSP-003,Cassava fresh root (30% starch),Quang Ngai,3099-3300,VND/kg,2026-04-09,factory-gate purchase,FS-11,VN-direct,Medium,
 FSP-004,Cassava fresh root (30% starch),Gia Lai,3399-3549,VND/kg,2026-04-09,factory-gate purchase,FS-11,VN-direct,Medium,"Apr 2025: 1,800-1,950"
@@ -23,7 +23,7 @@ FSP-021,"Broken rice (fragrant, grade 3-4)",An Giang,8500-8600,VND/kg,2026-09-19
 FSP-022,Broken rice (100% broken),Vietnam export,368-372,USD/t,2026-09-19,export FOB,FS-26,VN-direct,Medium,
 FSP-023,Rice (5% broken),Vietnam export,440-445,USD/t,2026-09-19,export FOB,FS-26,VN-direct,Medium,Context for broken-rice discount
 FSP-024,"Paddy (fresh, IR 50404 / OM varieties)",An Giang,5700-6200,VND/kg,2026-09-19,farm-gate,FS-26,VN-direct,Medium,Context
-FSP-025,Refined sugar,Domestic average,~16505,VND/kg,2026-06,wholesale,FS-31,VN-direct,Medium,"3-year low; regional prices 19,600-27,300 VND/kg"
+FSP-025,Refined sugar,Domestic average,16900-17200,VND/kg,2026-06,wholesale,FS-31,VN-direct,Medium,"3-year low; refined sugar 16,900-17,200 VND/kg (national average for all sugar about 16,505); regional prices 19,646-27,315 VND/kg"
 FSP-026,Molasses,Retail (35-kg can),~9970,VND/kg,2023-12,retail,FS-36,VN-direct,Low,Retail environmental-microbe supply price; bulk mill-gate price not found; older than 12 months
 FSP-027,Brewer's spent grain (fresh),Hanoi,6000-6500,VND/kg,2026-03,retail,FS-42,VN-direct,Low,Single retailer page; high for a ~80%-moisture product; verify with brewery tender prices
 FSP-028,Brewer's spent grain (dried/processed),Hanoi,~5500,VND/kg,2026-03,retail,FS-42,VN-direct,Low,"Reported lower than fresh, which is implausible on a dry-matter basis"

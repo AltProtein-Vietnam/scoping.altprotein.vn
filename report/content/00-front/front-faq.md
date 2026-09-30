@@ -14,7 +14,7 @@ charts: []
 
 # Frequently asked questions
 
-> **Draft for review.** Version 0.6. Not for citation.
+> **Draft for review.** Version 0.7. Not for citation.
 
 ## About this report
 
@@ -25,7 +25,7 @@ A scoping study of what Vietnam could produce in alternative protein for food an
 Investors, policy makers, startups, food and feed manufacturers, universities and research institutes, and international organisations. Each has a short brief; the list is on the [[front-cover]].
 
 **Why is it a draft, and what is version 1.0?**
-This is version 0.6, shared for review. Numbers and wording may still change, so please do not cite it. Version 1.0 will be the public launch. Every change between drafts is recorded in [[app-m5-changelog]].
+This is version 0.7, shared for review. Numbers and wording may still change, so please do not cite it. Version 1.0 will be the public launch. Every change between drafts is recorded in [[app-m5-changelog]].
 
 **Why is it called a supply-side study when it also covers demand?**
 The question it started from is what Vietnam can make. Demand is treated as a design input for that question: who would buy, at what price and in what form. The report does not plan consumer marketing and gives no market-size forecast ([[front-how-to-read]]).
@@ -57,7 +57,7 @@ Foods with a long history of safe use are regulated like any other food. Genuine
 Most is not. Proteins made by engineered microbes (precision fermentation) probably count as products of a genetically modified organism under a January 2026 decree, even when the final protein is purified. The GMO label applies only when such ingredients make up more than 5% of the ingredients ([[ch07-rules]], [[ch27-policy-options]]).
 
 **Is it healthier than meat?**
-It depends on the product and what it replaces. Some plant-based meats have less protein, zinc and vitamin B12 and more salt than the meat they copy; blends keep protein quality high. The prologue sets out both sides ([[front-prologue]]).
+It depends on the product and what it replaces. Some plant-based meats have less protein, zinc and vitamin B12 than the meat they copy, and many are high in salt; blends keep protein quality high. The prologue sets out both sides ([[front-prologue]]).
 
 **Why does the report not recommend insect protein?**
 Insect meal is already made in Vietnam for feed, so the report uses it as a benchmark that other feed proteins must match. Recommending insect plays is outside the report's scope ([[ch10-technology-fit]]).
@@ -71,7 +71,7 @@ Vietnam is one of Asia's largest producers of pork, poultry, eggs, farmed fish a
 Three plays lead under almost any weighting: a cassava-starch-to-sugar hub (T4, first or second under every weighting), domestic textured plant protein to replace Chinese imports (T1), and functional microbial feed ingredients for shrimp and pangasius (T2). Shared pilot fermentation (T5) is what most other fermentation plays need first ([[ch26-plays]]).
 
 **Will Vietnamese consumers buy plant-based meat?**
-They say yes more often than they buy. In an urban online survey 74% would choose plant-based meat at the same price as meat, but only 3% eat it weekly. Imported analogues cost 12 to 18 times as much per gram of protein as eggs and chicken. Plant milk, priced at or below dairy, is the one modern plant category at scale ([[ch13-consumers]]).
+They say yes more often than they buy. In an urban online survey 74% would choose plant-based meat at the same price as meat, but only 3% eat it weekly. Imported analogues cost 12 to 18 times as much per gram of protein as eggs and chicken. Plant milk, with soy milk priced at or below dairy and nut milk at premium-dairy prices, is the one modern plant category at scale ([[ch13-consumers]]).
 
 **How big is the market?**
 We give no market forecast. On a benchmark path, the demand routes we describe add up to about 19,000 t of protein a year by 2035, of which about 11,000 to 17,000 t made in Vietnam for the home market, mostly replacing imported ingredients. That would displace about 0.2% of the meat protein Vietnam eats ([[ch18-demand-sizing]]).
@@ -86,7 +86,7 @@ It is a research topic for this decade. Only a few countries have approved it, v
 Four cheap steps: a clause on new foods in the Food Safety Law while the draft is revised between the October 2026 first reading and the vote considered in May 2027; a joint note on the GMO status of purified precision-fermented proteins; a raw-material section in the aquafeed list; and generic entries for microbial biomass in the livestock feed list. The larger outlays are a shared pilot fermentation line, public feed trials and a protein-quality laboratory ([[ch27-policy-options]]).
 
 **Is there money for this?**
-Not much yet. One alternative-protein deal in Vietnam has exceeded USD 5 million: Entobel's USD 32.5 million insect-meal plant. Agritech venture capital in Vietnam was about USD 1 million in 2025. Only 4 of the original 19 demand moves have an outside funder whose rules fit and that works in Vietnam ([[ch08-capital]], [[ch29-actor-check]]).
+Not much yet. One alternative-protein deal in Vietnam has exceeded USD 5 million: Entobel's USD 32.5 million insect-meal plant. Agritech venture capital in Vietnam was about USD 1 million in 2025. In our assessment, only 4 of the original 19 demand moves have an outside funder whose rules fit and that works in Vietnam ([[ch08-capital]], [[ch29-actor-check]]).
 
 **Would domestic production make Vietnam self-sufficient?**
 Not by itself. A domestic textured-protein plant would still run on imported soy flour, and Chinese and ASEAN protein ingredients enter duty-free, so the plant must compete on cost ([[ch09-economics]], [[ch16-business-buyers]]).

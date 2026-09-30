@@ -1,6 +1,6 @@
 record_id,indicator,value,unit,horizon_year,type,source_ids,evidence_label,confidence,notes
 VEI-001,"Grid emission factor, official latest",0.6592,t CO2 per MWh,2023,actual,COST-08 (v0.1),VN-direct,High,"Announced 3 Dec 2024. Unofficial estimates 0.6811 (2024), 0.6235 (2025) (v0.1 COST-09)."
-VEI-002,Blended industrial power price for a 24/7 plant at 22 kV,"1,952 (about USD 75)",VND per kWh (USD per MWh),2026,actual,COST-01; COST-03 (v0.1),VN-direct,High,Excludes VAT and any future capacity charge.
+VEI-002,Blended industrial power price for a 24/7 plant at 22 kV,"1,952 (about USD 75)",VND per kWh (USD per MWh),2026,actual,COST-01; COST-03 (v0.1),VN-direct,Medium,"Our calculation: Decision 1279 tariffs weighted by Decision 963 peak, normal and off-peak hours. Excludes VAT and any future capacity charge."
 VEI-003,Non-hydro renewable share of electricity,28 to 36,%,2030,target,FTG-15,VN-direct,High,Decision 768/QD-TTg (15 Apr 2025).
 VEI-004,Non-hydro renewable share of electricity,74 to 75,%,2050,target,FTG-15,VN-direct,High,Excludes hydropower. A first page read returned 67.5 to 71.5%; the verbatim quote gives 74 to 75%.
 VEI-005,Solar capacity,46.5 to 73.4,GW,2030,target,FTG-15,VN-direct,High,"46,459 to 73,416 MW including rooftop."
@@ -26,13 +26,13 @@ VEI-024,Hydrogen production capacity from renewables or with carbon capture,10 t
 VEI-025,Green hydrogen projects in development (four Mekong projects),about 120,kt H2 per year,2025 status,signal,FTG-17,VN-direct,Medium,"Vinh Long (former Tra Vinh; former Ben Tre), Ca Mau (former Bac Lieu), Dong Thap (former Tien Giang), about 30 kt each; most in preparation."
 VEI-026,Tra Vinh Green Hydrogen plant,"24,000 H2; 182,500 ammonia",t per year,Planned; delayed,signal,FTG-27,VN-direct,Medium,Vinh Long (former Tra Vinh). Ground broken 30 Mar 2023; only perimeter works by May 2026.
 VEI-027,Utility solar LCOE,53 to 105,USD per MWh (real 2022),2023,projection,FTG-19,VN-direct,Medium,"BloombergNEF, solar capacity factor 17%."
-VEI-028,Utility solar LCOE,29 to 85,USD per MWh (real 2022),2030,projection,FTG-19,VN-direct,Medium,BloombergNEF.
-VEI-029,Utility solar LCOE,18 to 64,USD per MWh (real 2022),2050,projection,FTG-19,VN-direct,Medium,BloombergNEF.
+VEI-028,Utility solar LCOE,29 to 52,USD per MWh (real 2022),2030,projection,FTG-19,VN-direct,Medium,BloombergNEF.
+VEI-029,Utility solar LCOE,18 to 25,USD per MWh (real 2022),2050,projection,FTG-19,VN-direct,Medium,BloombergNEF.
 VEI-030,Onshore wind LCOE,39 to 104,USD per MWh (real 2022),2030,projection,FTG-19,VN-direct,Medium,Capacity factor 29% rising to 35% by 2050.
 VEI-031,Onshore wind LCOE,22 to 79,USD per MWh (real 2022),2050,projection,FTG-19,VN-direct,Medium,
 VEI-032,Offshore wind LCOE,121 to 218,USD per MWh (real 2022),2023,projection,FTG-19,VN-direct,Medium,Capacity factor 43% rising to 51.4% by 2050.
 VEI-033,Offshore wind LCOE,53 to 99,USD per MWh (real 2022),2050,projection,FTG-19,VN-direct,Medium,
-VEI-034,Hurdle rates for power projects,8.5 to 16,% IRR,2023,projection,FTG-19,VN-direct,Medium,Coal WACC 7.75%. We use a WACC of 9 to 11% for Vietnamese bioprocess plants (assumption).
+VEI-034,Hurdle rates for utility-scale solar projects,12 (2030); 8.5 (2050),% IRR,2030 to 2050,projection,FTG-19,VN-direct,Medium,Coal WACC 7.75%. We use a WACC of 9 to 11% for Vietnamese bioprocess plants (assumption).
 VEI-035,"Solar irradiance, south (Tay Ninh, Lam Dong (former Binh Thuan))","1,868 to 2,002",kWh per m2 per year,current,actual,FTG-18,VN-direct,Medium,"North (Ha Noi, Cao Bang) 1,500 to 1,700."
 VEI-036,"Levelised cost of hydrogen, PV plus PEM electrolysis, south",2.81 to 2.85,USD per kg,2026 study,projection,FTG-18,VN-direct,Low,"6% discount rate, PV USD 0.69 per W, PEM USD 1.287 per W. Optimistic for PV-only operation. North 3.76 to 3.88."
 VEI-037,"Levelised cost of hydrogen, Vietnam (cited in FTG-18)",3.05,USD per kg,2030,projection,FTG-18,VN-direct,Low,Secondary citation; original study not read.

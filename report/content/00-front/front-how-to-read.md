@@ -14,7 +14,7 @@ charts: []
 
 # How to read this report
 
-> **Draft for review.** Version 0.6. Not for citation. Changes between drafts are listed in [[app-m5-changelog]].
+> **Draft for review.** Version 0.7. Not for citation. Changes between drafts are listed in [[app-m5-changelog]].
 
 ## What it covers
 

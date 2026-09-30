@@ -41,8 +41,10 @@ Source: [@RGN-01] {VN-direct\|High}.
 Three readings matter more than the ranks.
 
 1. **Vietnam is not unique on cost.** Indonesia scores the same or better on labour, utilities and construction. Thailand scores 81 to 99 on cost and much higher on sugar (100), business environment (74) and rules (50). No country in the study combines low cost with regulatory readiness; Thailand comes closest [@RGN-01] {VN-direct|High}.
-2. **Cost advantage acts on a small share of cost.** In the study's representative plant models, labour is 7% (biomass, 80,000 t a year) and 17% (precision fermentation, 10,000 t a year) of production cost, and utilities 4 to 5%. Capital depreciation is 37 to 56%. The models were run for a US Midwest plant on corn glucose, not an Asian site [@RGN-01] {general|High}. The same report also cites other studies in which feedstock is 30 to 65% of cost; either way, labour and power are minor ([[ch09-economics]]).
+2. **Cost advantage acts on a small share of cost.** In the study's representative plant models, labour is 5% (biomass, 80,000 t a year) and 4% (precision fermentation, 10,000 t a year) of production cost, utilities 7% and 17%, and capital depreciation 10% and 18%. Feedstock, at 56% and 37%, is the largest line. The models were run for a US Midwest plant on corn glucose, not an Asian site [@RGN-01] {general|High}. The same report also cites other studies in which feedstock is 30 to 65% of cost; either way, labour and power together are only about 12 to 21% of cost ([[ch09-economics]]).
 3. **The sugar index understates Vietnam.** It counts only cane sugar and ignores cassava starch, Vietnam's main fermentable carbohydrate ([[ch04-asset-map]]). But that starch is already sold abroad (section 3.5).
+
+> **Correction.** In v0.6 this said labour was 7% and 17% of production cost and capital depreciation 37 to 56%; the source gives labour 5% and 4%, utilities 7% and 17%, depreciation 10% and 18%, and feedstock 56% and 37%.
 
 The study's three recommendations for Vietnam are all about rules and delivery: fund Resolution 36 on biotechnology through programmes with named agency mandates; clarify incentive eligibility and timelines for biomanufacturing sites; and "publish regulatory procedures and statutory timelines for novel food approvals" [@RGN-01] {VN-direct|High}. It also finds that a 50% capital grant, a 10% cut in feedstock cost or a loan guarantee does more for project value than a tax holiday [@RGN-01] {general|High}.
 
@@ -53,20 +55,20 @@ The study's three recommendations for Vietnam are all about rules and delivery: 
 | Country | Novel-food route | Cultivated meat | Approvals of novel proteins (Sept 2026) | Sources |
 |---|---|---|---|---|
 | Singapore | Pre-market approval since 2019; codified in the Food Safety and Security Act, novel-food provisions in force 28 Nov 2025 | Yes | 18 items on the SFA list | [@RGN-04; @REG-63] {VN-adjacent\|High} |
-| Thailand | Ministry of Public Health Notification 376 (2016); safety assessment by FDA-recognised assessment units; mycoprotein guideline; approved list updated Sept 2025 | Dossiers accepted; first filed Dec 2024 | No cultivated approval found | [@REG2-26; @RGN-32] {VN-adjacent\|Medium} |
+| Thailand | Ministry of Public Health Notification 376 (2016); safety assessment by FDA-recognised assessment units; mycoprotein guideline; approved list updated Sept 2026 | Dossiers accepted; first filed Dec 2024 | No cultivated approval found | [@REG2-26; @RGN-32] {VN-adjacent\|Medium} |
 | South Korea | "Temporary standards" for new food ingredients, extended to cell and microbial culture Feb 2024; Food Tech Industry Promotion Act in force Dec 2025 | Yes (fee reported KRW 45 million; review up to 270 working days) | None found | [@RGN-19; @RGN-21; @RGN-34] {VN-adjacent\|Medium} |
 | Japan | Food Sanitation Act, case by case | Draft safety checkpoints May 2026 | None found | [@RGN-33] {VN-adjacent\|Medium} |
 | China | New food raw material approvals (NHC); cultivated framework expected from late 2026 | Not yet | Mycoprotein and yeast protein reported (dates not verified) | [@RGN-24; @RGN-25] {general\|Low} |
 | Australia and New Zealand | Novel food standards plus new cell-cultured food standards | Yes | Vow quail (2025) | [@RGN-18; @RGN-20] {general\|Medium} |
 | Malaysia | General novel-food provision; no fermentation or cultivated guidance | No | None found | [@RGN-19; @RGN-20] {VN-adjacent\|Low} |
 | Indonesia, Philippines | No novel-food category | No | None | [@RGN-01; @RGN-19] {VN-adjacent\|Medium} |
-| **Vietnam** | **No novel-food category** ([[ch07-rules]]) | **No** | **None** | [@RGN-01] {VN-direct\|High} |
+| **Vietnam** | **No novel-food category** ([[ch07-rules]]) | **No** | **None** | [@RGN-01] {VN-direct\|Medium} |
 
 **Singapore's list** (dated 14 August 2026) has 6 cultivated meats (including Parima's duck, 10 April 2026, and Aleph Farms' beef, 22 July 2026), 6 fungal or bacterial biomass proteins (including Solar Foods' Solein, 2022), 3 precision-fermented ingredients, 2 microalgae and 1 synthetic compound [@RGN-04; @RGN-29] {VN-adjacent|High}. In the United States the FDA completed its review of Wildtype's cultivated coho salmon on 28 May 2025, the first cultivated seafood cleared there [@RGN-03] {general|High}.
 
 {{chart:chart-regional-approvals}}
 
-**A route is not an approval.** Korea opened applications in February 2024 and Thailand received its first cultivated dossier in December 2024; neither had approved a cultivated product by September 2026 [@RGN-21; @RGN-32; @RGN-34] {VN-adjacent|Medium}. Staff, assessor capacity and published review times matter as much as the legal text.
+**A route is not an approval.** Korea opened applications in February 2024 and Thailand received its first cultivated dossier in December 2024; neither had approved a cultivated product by September 2026 [@RGN-20; @RGN-21; @RGN-32; @RGN-34] {VN-adjacent|Medium}. Staff, assessor capacity and published review times matter as much as the legal text.
 
 **Halal.** In December 2025 Malaysia became the first Muslim-majority country to rule that cultivated meat can be halal, and Singapore's Islamic authority has set out a path. Aleph Farms plans to use capacity in Penang to supply the region [@RGN-20; @RGN-28; @RGN-30] {VN-adjacent|Medium}. This matters for any Vietnamese fermentation or cultivated product aimed at Malaysian, Indonesian or Middle Eastern buyers.
 
@@ -75,21 +77,21 @@ The study's three recommendations for Vietnam are all about rules and delivery: 
 | Country | Instrument | Money found | Sources |
 |---|---|---|---|
 | Singapore | Singapore Food Story 2 (Nov 2025) replaced "30 by 30"; 2035 local targets (30% of protein as eggs and seafood, 20% of fibre) exclude alternative protein "given the nascency of the sector" | S$144 M R&D programme (2019); S$42 M for 11 future-food projects (2025) | [@RGN-08; @RGN-09; @RGN-22] {VN-adjacent\|Medium} |
-| Thailand | Biotechnology Industry Development Framework 2026 to 2035 (NXPO, Nov 2025): "future food and alternative proteins" one of four target sub-industries; GMP precision-fermentation pilot plant; CDMO network | 500 M baht a year for 10 years for synthetic biology research | [@RGN-35] {VN-adjacent\|Medium} |
+| Thailand | Biotechnology Industry Development Framework 2026 to 2035 (NXPO, Nov 2025): "future food and alternative proteins" one of four target sub-industries; proposed GMP upgrade of a precision-fermentation pilot plant; proposed CDMO network | Proposed target of 500 M baht a year for 10 years for synthetic biology research | [@RGN-35] {VN-adjacent\|Medium} |
 | South Korea | Food Tech Industry Promotion Act; Gyeongbuk regulation-free zone for cell-cultured food; public cultivated-meat research centre in Uiseong (2027) | KRW 14.5 bn (about USD 10 M) for the Uiseong centre | [@RGN-19; @RGN-21] {VN-adjacent\|Medium} |
-| China | 2021 plan to reduce corn and soybean meal in feed names single-cell protein; 15th Five-Year Plan preparatory text on "new types of food"; Shanghai novel-food plan | About USD 1 bn from SDIC into biotech facilities (2025, per GFI) | [@RGN-22; @RGN-24; @RGN-25; @RGN-43; @RGN-56] {general\|Medium} |
-| Vietnam | Resolution 36-NQ/TW (2023) on biotechnology; high-tech incentives ([[ch07-rules]]) | No alternative-protein line found | [@RGN-01] {VN-direct\|High} |
+| China | 2021 plan to reduce corn and soybean meal in feed names single-cell protein; 2024 State Council document on a diversified food supply ("new types of food"); Shanghai novel-food plan | About USD 1 bn from SDIC into biotech facilities (2025, per GFI) | [@RGN-22; @RGN-24; @RGN-25; @RGN-43; @RGN-56] {general\|Medium} |
+| Vietnam | Resolution 36-NQ/TW (2023) on biotechnology; high-tech incentives ([[ch07-rules]]) | No alternative-protein line found | [@RGN-01] {VN-direct\|Medium} |
 
 Two regional moves are directly relevant to Vietnam.
 
 - **Thailand is responding to the same ranking.** Its new framework cites the GFI and Hawkwood study, and plans public pilot and contract-manufacturing capacity [@RGN-35] {VN-adjacent|Medium}. If Thailand delivers, a Vietnamese project competes with a neighbour that has cheaper sugar, a working approval route and public pilot plants.
-- **Singapore has stepped back from production.** It now acts as regulator, research hub and financier rather than a manufacturing base [@RGN-08; @RGN-09] {VN-adjacent|High}. That leaves room for lower-cost neighbours to host manufacturing for Singapore-approved products, if their plants meet Singapore's import rules (not yet checked; see [[ch30-unknowns]]).
+- **Singapore has stepped back from production.** It now acts as regulator, research hub and financier rather than a manufacturing base [@RGN-08; @RGN-09] {VN-adjacent|Medium}. That leaves room for lower-cost neighbours to host manufacturing for Singapore-approved products, if their plants meet Singapore's import rules (not yet checked; see [[ch30-unknowns]]).
 
 ## 3.4 Pilot and contract capacity a Vietnamese company can use
 
 | Facility | Country | What | Food status | Sources |
 |---|---|---|---|---|
-| ScaleUp Bio | Singapore | Up to 10,000 L fermentation plus downstream processing; changed shareholders March 2026 (Fusionopolis Ventures joined ADM) and widened scope beyond food | SFA food manufacturing licence (May 2024) | [@RGN-10; @RGN-11; @RGN-12; @RGN-13] {VN-adjacent\|High} |
+| ScaleUp Bio | Singapore | Up to 10,000 L fermentation plus downstream processing; new shareholder announced March 2026 (Fusionopolis Ventures to join ADM) and widened scope beyond food | SFA food manufacturing licence (May 2024) | [@RGN-10; @RGN-11; @RGN-12; @RGN-13] {VN-adjacent\|High} |
 | EECi Biorefinery Pilot Plant | Thailand | 12 fermenters, including 2 × 15,000 L; contract manufacturing and tech transfer | Not stated | [@RGN-36] {VN-adjacent\|Medium} |
 | Esco Aster | Singapore | Licensed for cultured animal cells (2021); now mostly cell therapy | Licensed (cells) | [@RGN-15; @RGN-16] {VN-adjacent\|Medium} |
 | Chinese pharma and food CDMOs | China | Largest and cheapest; client keeps strain, CDMO may own process improvements | Varies | [@RGN-24] {general\|Medium} |
@@ -97,7 +99,7 @@ Two regional moves are directly relevant to Vietnam.
 
 Vietnam has no equivalent open food-grade pilot plant ([[ch05-industrial-base]], [[app-s8-labs-talent]]). A Vietnamese precision-fermentation or biomass startup today scales up abroad: in Singapore (food-licensed, dearer), Thailand (larger tanks, food status to confirm) or China (largest and cheapest, with more exposure of know-how).
 
-**China sets the price.** Angel Yeast makes more than 11,000 t a year of yeast protein; Fushine is expanding mycoprotein from 1,200 to 20,000 t a year; a 20,000 t a year mycoprotein plant (More Meat with Guangzhou Shuangqiao, a starch-sugar maker) began commercial runs in June 2026. One foreign client said scale-up in China took half the time and half the cost of alternatives [@RGN-24] {general|Medium}. Chinese gas-fermentation protein made from steel-mill off-gas is in commercial feed trials [@RGN-57] {general|Medium}. Any Vietnamese microbial protein, for food or feed, will be priced against these plants.
+**China sets the price.** Angel Yeast makes about 11,000 t a year of yeast protein; Fushine is expanding mycoprotein from 1,200 to 20,000 t a year; a 20,000 t a year mycoprotein plant (More Meat with Guangzhou Shuangqiao, a starch-sugar maker) began commercial runs in June 2026. One foreign client said scale-up in China took half the time and half the cost of alternatives [@RGN-24] {general|Medium}. Chinese gas-fermentation protein made from steel-mill off-gas is in feed trials [@RGN-57] {general|Medium}. Any Vietnamese microbial protein, for food or feed, will be priced against these plants.
 
 ## 3.5 Trade: Vietnam sells starch, not fermentation sugar
 
@@ -107,15 +109,15 @@ Vietnam has no equivalent open food-grade pilot plant ([[ch05-industrial-base]],
 
 {{chart:chart-cassava-starch-trade}}
 
-**Reading.** For exported carbohydrate, the conversion of starch to glucose, the feedstock of every fermentation plant, happens in China. Glucose is made in Vietnam, but for captive or domestic use: Vedan alone built about 140,000 t a year of glucose syrup capacity [@VCO-03] {VN-direct|Medium}. Some of that glucose may already feed Chinese yeast-protein or mycoprotein plants: the 20,000 t mycoprotein joint venture's partner is a starch-sugar maker. We could not confirm whether it uses Vietnamese starch [@RGN-24] {general|Low}. Moving part of that step to Vietnam, for Vietnamese or foreign fermenters, is the most direct way for Vietnam to "plug in" to the regional build-out ([[ch26-plays]], play T4).
+**Reading.** For exported carbohydrate, the conversion of starch to glucose, the feedstock of every fermentation plant, happens in China. Glucose is made in Vietnam, but for captive or domestic use: Vedan alone built a glucose syrup plant of about 140,000 t a year in 1995 [@VCO-03] {VN-direct|Medium}. Some of that glucose may already feed Chinese yeast-protein or mycoprotein plants: the 20,000 t mycoprotein joint venture's partner is a starch-sugar maker. We could not confirm whether it uses Vietnamese starch [@RGN-24] {general|Low}. Moving part of that step to Vietnam, for Vietnamese or foreign fermenters, is the most direct way for Vietnam to "plug in" to the regional build-out ([[ch26-plays]], play T4).
 
 ## 3.6 Regional companies with a Vietnam foothold
 
 | Company | Alternative-protein activity | Vietnam link | Sources |
 |---|---|---|---|
-| Ajinomoto | Partner of Solar Foods; Solein products launched in Japan (2025) and Singapore (Dec 2025) | Large MSG and seasoning fermentation in Vietnam ([[ch05-industrial-base]]) | [@RGN-40; @RGN-60] {VN-adjacent\|Medium} |
-| Thai Union | Early investor in Aleph Farms | Owns Vietnamese seafood canner Yueh Chyang | [@RGN-32; @RGN-58] {VN-adjacent\|Medium} |
-| CJ CheilJedang, Daesang | Korean majors developing cultivated meat and partnering startups | Daesang runs an MSG fermentation plant and a starch plant in Vietnam; CJ runs food operations (CJ Foods Vietnam) and sold its feed business to De Heus in March 2026 | [@RGN-19; @RGN-34; @IND-11; @VCO-08] {VN-adjacent\|Medium} |
+| Ajinomoto | Partner of Solar Foods; Solein products launched in Japan (2025) and Singapore (Dec 2025) | Large MSG and seasoning fermentation in Vietnam ([[ch05-industrial-base]]) | [@RGN-40; @RGN-60; @IND-10] {VN-adjacent\|Medium} |
+| Thai Union | Early investor in Aleph Farms | Took a majority stake in Vietnamese seafood canner Yueh Chyang (2008) | [@RGN-32; @RGN-58] {VN-adjacent\|Medium} |
+| CJ CheilJedang, Daesang | Korean majors developing cultivated meat and partnering startups | Daesang runs an MSG fermentation plant and a starch plant in Vietnam; CJ runs food operations (CJ Foods Vietnam) and sold its feed business to De Heus in March 2026 | [@RGN-19; @RGN-34; @IND-11; @VCO-08; @FORM-24] {VN-adjacent\|Medium} |
 | Guangzhou Shuangqiao | Starch-sugar partner in a 20,000 t mycoprotein JV | Possible buyer of Vietnamese starch (not established) | [@RGN-24] {general\|Low} |
 
 These firms already own fermentation, feed or seafood assets in Vietnam. They are the most likely hosts for a first tolling or pilot arrangement ([[ch26-plays]], play T5).
@@ -142,7 +144,7 @@ Sources: [@RGN-04; @RGN-19; @RGN-32; @RGN-34; @RGN-44; @REG2-26] {VN-adjacent\|M
 - **Investors:** Vietnam is a cost story without a food approval route. Until one exists, a Vietnamese novel-protein plant is justified only for feed, or for export under another country's approval. Price any microbial protein against Chinese plants of 11,000 to 20,000 t a year.
 - **Policy makers:** the region's clearest message is to publish a novel-food procedure with a statutory timeline and pair it with capital grants rather than tax holidays. Thailand is already acting on the same study.
 - **Startups:** plan scale-up in Singapore, Thailand or China and use a Singapore approval as the regional credential. Budget 9 to 12 months or more after a complete dossier [@RGN-17] {VN-adjacent|Low}.
-- **Manufacturers:** food-grade protein ingredient imports are small (about USD 56 million), and mostly Chinese. The bigger lever is the starch Vietnam already ships to China each year.
+- **Manufacturers:** food-grade protein ingredient imports are small (about USD 56 million), with the United States and China the largest suppliers. The bigger lever is the starch Vietnam already ships to China each year.
 - **Research bodies:** Chinese cassava-to-protein and gas-to-protein feed work, and Thai pilot capacity, are the fastest partnerships for catching up.
 - **International bodies:** help draft the procedure (through SFA's regulator agreements or FAO's food-safety work) and consider a Thailand-Vietnam pilot-plant access arrangement.
 

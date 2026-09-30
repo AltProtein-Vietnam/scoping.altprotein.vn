@@ -277,7 +277,11 @@ function parseSpan(s) {
   return [parseDate(s)];
 }
 export function milestonesTimeline(spec, D) {
-  const rows = D.csv(spec.data.file);
+  // annotations such as "Omit MS-012 (...): not verified, no source." drop those records
+  const omit = new Set(
+    (spec.annotations || []).flatMap((a) => (/^Omit /.test(a) ? a.match(/MS-\d+/g) || [] : [])),
+  );
+  const rows = D.csv(spec.data.file).filter((r) => !omit.has(r.record_id));
   const jur = uniq(rows.map((r) => r.jurisdiction));
   const norm = (s) => s.replace(/\s*\(.*\)$/, '');
   const statusOrder = [

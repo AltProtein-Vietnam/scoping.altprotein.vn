@@ -8,14 +8,15 @@
   "value_high": 99,
   "unit": "%",
   "as_of": "2025",
-  "context": "In 2025 Vietnam imported 2.61 Mt of soybeans (98.4% of supply) and 5.70 Mt of soybean meal. Domestic crushing uses imported beans, so it does not reduce protein import dependence.",
+  "context": "In 2025 Vietnam imported 2.61 Mt of soybeans (98.4% of imports plus domestic output) and 5.70 Mt of soybean meal; about 99% is our calculation. Domestic crushing uses imported beans, so it does not reduce protein import dependence.",
   "source_ids": [
    "MAC-04",
-   "MAC-09"
+   "MAC-09",
+   "MAC-01"
   ],
-  "derived": false,
+  "derived": true,
   "evidence": "VN-direct",
-  "confidence": "High",
+  "confidence": "Medium",
   "primary_page": "ch01-why-vietnam",
   "pages": [
    "brief-policy",
@@ -89,14 +90,15 @@
   "value_high": 22,
   "unit": "Mt",
   "as_of": "2025",
-  "context": "Industrial livestock and poultry feed, up from 21.5 Mt in 2024. It excludes aquafeed, for which 2025 estimates disagree: 3.9 to 4.8 Mt (industry) against 6.5 Mt (USDA).",
+  "context": "Industrial livestock and poultry feed, up from 21.5 Mt in 2024. It excludes aquafeed, for which 2025 estimates disagree: 3.9 to 4.8 Mt (industry: shrimp up to 0.92 Mt plus fish 3.0 to 3.9 Mt, our sum) against 6.5 Mt (USDA).",
   "source_ids": [
    "MAC-01",
-   "MAC-28"
+   "MAC-28",
+   "MAC-06"
   ],
   "derived": false,
   "evidence": "VN-direct",
-  "confidence": "High",
+  "confidence": "Medium",
   "primary_page": "ch01-why-vietnam",
   "pages": [
    "app-s6-feed-market",
@@ -178,14 +180,14 @@
  },
  {
   "id": "kn-livestock-ghg-share",
-  "label": "Livestock share of national greenhouse-gas emissions",
-  "label_vi": "Tỷ trọng phát thải khí nhà kính của ngành chăn nuôi",
+  "label": "Livestock share of net national greenhouse-gas emissions",
+  "label_vi": "Tỷ trọng của chăn nuôi trong tổng phát thải khí nhà kính ròng quốc gia",
   "value": "5.8%",
   "value_low": 5.8,
   "value_high": 5.8,
   "unit": "%",
   "as_of": "2016 inventory",
-  "context": "Enteric fermentation plus manure was 18.5 MtCO2e in the 2016 inventory, against 49.7 MtCO2e from rice. The environmental case rests more on imported feed, manure and antimicrobial use.",
+  "context": "Enteric fermentation plus manure was 18.5 MtCO2e in the 2016 inventory, against 49.7 MtCO2e from rice. In our judgement, the environmental case rests more on imported feed, manure and antimicrobial use.",
   "source_ids": [
    "MAC-33"
   ],
@@ -206,9 +208,10 @@
   "value_high": 10.24,
   "unit": "Mt",
   "as_of": "2025",
-  "context": "Fresh roots harvested from 499,100 ha in 2025, down 18,600 ha on 2024. Starch factories also process roughly 8 Mt a year of roots imported from Cambodia and Laos.",
+  "context": "Fresh roots harvested from 499,100 ha in 2025, down 18,600 ha on 2024. Starch factories also process about 8 Mt a year of roots imported from Laos and Cambodia, about 42% of total root supply.",
   "source_ids": [
-   "FS-01"
+   "FS-01",
+   "FS-14"
   ],
   "derived": false,
   "evidence": "VN-direct",
@@ -229,12 +232,13 @@
   "value_high": 6,
   "unit": "Mt",
   "as_of": "2025",
-  "context": "Our 2025 estimate from Thai factory ratios and Vietnamese starch output: range 4 to 8 Mt wet, about 1.3 Mt dry matter. Pulp holds only 1.5% to 2.6% protein, so it is a carbon source.",
+  "context": "Our 2025 estimate from Thai factory ratios and Vietnamese starch output: range 4 to 8 Mt wet, about 1.2 Mt dry matter. Pulp holds only 1.55% to 2.6% protein (dry basis), so it is a carbon source.",
   "source_ids": [
    "FS-05",
    "FS-06",
    "FS-53",
-   "FS-01"
+   "FS-01",
+   "FS-18"
   ],
   "derived": true,
   "evidence": "VN-adjacent",
@@ -257,11 +261,12 @@
   "value_low": 65,
   "value_high": 68,
   "unit": "count",
-  "as_of": "2025",
-  "context": "Tay Ninh, which now includes former Long An, has about 6.4 Mt a year of root capacity (2024 to 2025 reports), the largest cassava cluster and the natural site for pulp-based fermentation.",
+  "as_of": "2024 to 2025",
+  "context": "Tay Ninh, which now includes former Long An, had 65 factories in 2025; before the merger, Tay Ninh had 68 and about 6.4 Mt a year of root capacity (2024). It is the largest cassava cluster and the natural site for pulp-based fermentation.",
   "source_ids": [
    "FS-03",
-   "FS-07"
+   "FS-07",
+   "GT-01"
   ],
   "derived": false,
   "evidence": "VN-direct",
@@ -281,10 +286,11 @@
   "value_high": 4.35,
   "unit": "Mt",
   "as_of": "2025",
-  "context": "Our estimate at 10% of 43.5 Mt of paddy in 2025. Bran is traded, not free: about 1.2 Mt was exported in 2025, mostly to China, and much of the rest goes into domestic feed.",
+  "context": "Our estimate at 10% of 43.5 Mt of paddy in 2025. Bran is traded, not free: about 1.2 Mt was exported in 2025, and much of the rest goes into domestic feed.",
   "source_ids": [
    "FS-27",
-   "FS-25"
+   "FS-25",
+   "FS-23"
   ],
   "derived": true,
   "evidence": "VN-direct",
@@ -304,11 +310,12 @@
   "value_high": 0.9,
   "unit": "Mt",
   "as_of": "2022",
-  "context": "Derived from beer output of 4 to 4.4 billion litres a year (2019 to 2022 reports). It holds only about 32 to 35 kt of protein and spoils within two to three days.",
+  "context": "Derived from beer output or consumption of 4 to 4.4 billion litres a year (2019 to 2022 reports). At about 20% dry matter and 20% protein (dry basis), it holds only about 32 to 35 kt of protein, and it spoils within two to three days.",
   "source_ids": [
    "FS-38",
    "FS-40",
-   "FS-41"
+   "FS-41",
+   "FS-42"
   ],
   "derived": true,
   "evidence": "VN-adjacent",
@@ -331,7 +338,8 @@
   "context": "Fresh roots at 30% starch reached VND 3,000 to 3,550 per kg in April 2026, about 75% above April 2025, after a supply shortfall. The E10 fuel-ethanol mandate, in force from June 2026, adds a new buyer.",
   "source_ids": [
    "FS-11",
-   "FS-12"
+   "FS-12",
+   "GT-10"
   ],
   "derived": false,
   "evidence": "VN-direct",
@@ -352,7 +360,7 @@
   "value_high": 34000,
   "unit": "m3",
   "as_of": "2026",
-  "context": "Our modelled 2026 estimate from published plant capacities for sterile, aerated tanks. Almost all of it sits inside Vedan, Ajinomoto and Daesang, and none is offered for contract fermentation.",
+  "context": "Our modelled 2026 estimate from published and assumed plant capacities for sterile, aerated tanks (Vedan's current capacity assumed; see fermentation_volume_estimate.csv). Almost all of it sits inside Vedan, Ajinomoto and Daesang, and we found no published offer of contract fermentation.",
   "source_ids": [
    "IND-08",
    "IND-01",
@@ -399,12 +407,12 @@
   "id": "kn-shrimp-feed-concentration",
   "label": "Share of shrimp feed made by six firms",
   "label_vi": "Thị phần thức ăn tôm của sáu doanh nghiệp dẫn đầu",
-  "value": "about 70%",
+  "value": "at least about 70%",
   "value_low": 70,
   "value_high": 70,
   "unit": "%",
   "as_of": "2025",
-  "context": "In 2025 Sheng Long (Haid), C.P., Uni-President, Tongwei, Grobest and Gromax supplied about 640 kt of shrimp feed, so a new feed protein has about six real buyers in shrimp.",
+  "context": "In 2025 Sheng Long, C.P., Uni-President, Tongwei, Grobest and Gromax supplied about 640 kt of shrimp feed, at least about 70% of a market of up to 920 kt (our calculation), so a new feed protein has about six real buyers in shrimp.",
   "source_ids": [
    "IND-41",
    "MAC-06"
@@ -428,7 +436,7 @@
   "value_high": 2.6,
   "unit": "Mt per year",
   "as_of": "Dec 2025",
-  "context": "Bunge and Wilmar's plant at Phu My, Ho Chi Minh City, after a USD 100 million second line in December 2025, probably design capacity. It crushes imported beans into feed-grade meal only.",
+  "context": "Bunge and Wilmar's plant at Phu My, Ho Chi Minh City, after a USD 100 million second line in December 2025, probably design capacity. It crushes mainly imported beans into oil and about 2 Mt of meal for the feed industry.",
   "source_ids": [
    "VCO-16",
    "FORM-10"
@@ -503,11 +511,13 @@
   "value_high": 7957,
   "unit": "t",
   "as_of": "2023",
-  "context": "China-reported 2023 exports under HS 2106.10 (protein concentrates and textured protein) at about USD 1.6 per kg (2023; USD 1.24 per kg FOB in 2025, about USD 1.29 to 1.38 landed duty-free), plus 10,028 t of HS 3504 and 10,338 t of gluten. Meat processors also use these.",
+  "context": "China-reported 2023 exports under HS 2106.10 (protein concentrates and textured protein) at about USD 1.6 per kg (2023; USD 1.24 per kg FOB in 2025, about USD 1.29 to 1.38 landed duty-free), plus 10,028 t of HS 3504 and 10,338 t of gluten.",
   "source_ids": [
    "FORM-05",
    "FORM-06",
-   "FORM-07"
+   "FORM-07",
+   "TIC-12",
+   "FTR-32"
   ],
   "derived": false,
   "evidence": "VN-direct",
@@ -527,10 +537,10 @@
   "value_high": 80,
   "unit": "%",
   "as_of": "2024",
-  "context": "Company or press-reported, not audited. Vinasoy had more than VND 4,100 billion of soy-milk revenue in 2024 and 390 million litres a year of capacity (2022), on imported soybeans.",
+  "context": "Company or press-reported, not audited. Vinasoy had more than VND 4,100 billion of soy-milk revenue in 2024 and 390 million litres a year of capacity (2025), on imported soybeans.",
   "source_ids": [
    "ECO-41",
-   "IND-48"
+   "CON-27"
   ],
   "derived": false,
   "evidence": "VN-direct",
@@ -574,13 +584,15 @@
   "value_high": 15000,
   "unit": "t",
   "as_of": "2025 to 2027",
-  "context": "Signed in February 2024 by the pangasius exporter: about 5,000 t a year, roughly 45% of Entobel's design capacity. It anchors the only financed alternative-protein plant in Vietnam.",
+  "context": "Announced in February 2024 by the pangasius exporter: about 5,000 t a year, roughly 45% of Entobel's 11,000 t a year design capacity in Vietnam.",
   "source_ids": [
-   "ECO-05"
+   "ECO-05",
+   "ECO-02",
+   "ECO-03"
   ],
   "derived": false,
   "evidence": "VN-direct",
-  "confidence": "High",
+  "confidence": "Medium",
   "primary_page": "ch02-alt-protein-today",
   "pages": [
    "app-s1-directory",
@@ -631,7 +643,7 @@
   "value_high": 40,
   "unit": "working days",
   "as_of": "2026",
-  "context": "Protocol approval and result recognition take 15 plus 5 working days each (Circular 94/2025). The trial and annual list update come on top; 6 to 18 months in total is our estimate.",
+  "context": "Protocol approval and result recognition take 15 plus 5 working days each (Circular 94/2025). The trial and listing of the material come on top; 6 to 18 months in total is our estimate.",
   "source_ids": [
    "REG-29",
    "REG-34"
@@ -654,7 +666,7 @@
   "value_high": 20,
   "unit": "VND million per material",
   "as_of": "Aug 2026",
-  "context": "Under Decree 211/2026, in force since 5 August 2026, plus one to three months' suspension of feed production and destruction of the material. The suspension costs more than the fine.",
+  "context": "Under Decree 211/2026, in force since 5 August 2026, plus one to three months' suspension of feed production and repurposing or, failing that, destruction of the material. The suspension costs more than the fine.",
   "source_ids": [
    "REG2-10"
   ],
@@ -694,11 +706,11 @@
   "label": "Novel-food research intensity relative to Thailand",
   "label_vi": "Cường độ nghiên cứu thực phẩm mới so với Thái Lan",
   "value": "about a quarter to a third of Thailand's",
-  "value_low": 0.23,
+  "value_low": 0.24,
   "value_high": 0.31,
   "unit": "ratio",
   "as_of": "2015 to Sep 2026",
-  "context": "Plant-based or cultivated meat records per 10,000 publications, 2015 to September 2026: Vietnam 0.37 against Thailand 1.58 on OpenAIRE, about 23% (our calculation). Version 0.2 adds OpenAlex: 4.1 against 13.4 core-basket works per 10,000 national publications, 2015 to 2025, about 31%. Counts are lower bounds.",
+  "context": "Plant-based or cultivated meat records per 10,000 publications, 2015 to September 2026: Vietnam 0.37 against Thailand 1.58 on OpenAIRE, about 24% (our calculation). Version 0.2 adds OpenAlex (queried 24 Sep 2026): 4.1 against 13.4 core-basket works per 10,000 national publications, 2015 to 2025, about 31%. Counts are lower bounds.",
   "source_ids": [
    "BIB-01",
    "HSC-01"
@@ -775,7 +787,7 @@
   "value_high": 509,
   "unit": "USD million",
   "as_of": "2025",
-  "context": "Raised across 103 deals in 2025; definitions differ between reports. With no technology IPOs in 2025 or the four years before, exits run through trade sales and buyouts.",
+  "context": "Raised across 103 deals in 2025; definitions differ between reports. With no VC- or PE-backed technology IPO in 2025 or the four years before, exits must come through sales to other investors or firms (our inference).",
   "source_ids": [
    "CAP-21",
    "CAP-22"
@@ -798,7 +810,7 @@
   "value_high": 1,
   "unit": "USD million",
   "as_of": "2025",
-  "context": "About 0.2% of the USD 509 million of venture capital raised in Vietnam in 2025. We found no disclosed venture round for a Vietnam-based plant-based or fermentation company.",
+  "context": "About 0.2% of the USD 509 million of venture capital raised in Vietnam in 2025. We found no disclosed institutional venture round for a Vietnam-based plant-based or fermentation company.",
   "source_ids": [
    "CAP-21"
   ],
@@ -897,9 +909,10 @@
   "value_high": 2.15,
   "unit": "Mt",
   "as_of": "2023",
-  "context": "In 2023, 93.5% went to China. China imported only USD 0.16 million of glucose syrup from Vietnam in 2024, so the starch-to-sugar step that feeds fermentation mostly happens after the starch leaves Vietnam.",
+  "context": "In 2023, 93.5% went to China. China bought only USD 0.16 million of glucose syrup from Vietnam in 2024, suggesting the starch-to-sugar step that feeds fermentation mostly happens after the starch leaves Vietnam.",
   "source_ids": [
-   "RGN-53"
+   "RGN-53",
+   "RGN-55"
   ],
   "derived": false,
   "evidence": "VN-direct",
@@ -940,12 +953,12 @@
   "id": "kn-labour-share-cost",
   "label": "Labour share of fermentation production cost",
   "label_vi": "Tỷ trọng chi phí nhân công trong giá thành lên men",
-  "value": "7% to 17%",
-  "value_low": 7,
-  "value_high": 17,
+  "value": "4% to 5%",
+  "value_low": 4,
+  "value_high": 5,
   "unit": "%",
   "as_of": "2025",
-  "context": "In the 2025 regional study's plant models, labour is 7% (biomass) and 17% (precision fermentation) of cost. The models are for a US Midwest plant, not an Asian site.",
+  "context": "In the 2025 regional study's plant models, labour is 5% (biomass) and 4% (precision fermentation) of cost; utilities are 7% and 17%. The models are for a US Midwest plant, not an Asian site.",
   "source_ids": [
    "RGN-01"
   ],
@@ -1014,7 +1027,7 @@
   "value_high": 0.66,
   "unit": "t CO2 per MWh",
   "as_of": "2023",
-  "context": "Latest official factor (2023); no official 2024 or 2025 factor was published by September 2026. Power-intensive processes carry a high carbon footprint without renewable supply.",
+  "context": "Latest official factor (2023); no official 2024 or 2025 factor had been published as of January 2026, and we found none in our September 2026 search. Power-intensive processes carry a high carbon footprint without renewable supply.",
   "source_ids": [
    "COST-08",
    "COST-09"
@@ -1045,7 +1058,9 @@
    "COST-33",
    "COST-43",
    "COST-44",
-   "COST-47"
+   "COST-47",
+   "FM-01",
+   "FM-02"
   ],
   "derived": true,
   "evidence": "VN-direct",
@@ -1069,7 +1084,7 @@
   "value_high": 3846,
   "unit": "USD per t protein",
   "as_of": "2025 to Aug 2026",
-  "context": "Our calculation at 65% protein from the World Bank series: 2025 average (USD 1,706 per t) and August 2026 (USD 2,500 per t). Soybean meal protein was about USD 880 per t.",
+  "context": "Our calculation at 65% protein from the World Bank series: 2025 average (USD 1,706 per t) and August 2026 (USD 2,500 per t). Soybean meal protein was about USD 800 to 880 per t (2025 to Aug 2026, at 46% protein).",
   "source_ids": [
    "FM-01",
    "FM-02"
@@ -1095,14 +1110,15 @@
   "value_high": 7900,
   "unit": "VND per 100 g protein",
   "as_of": "2026",
-  "context": "Our indicative 2026 full cost of domestic dry textured soy (USD 0.76 to 1.57 per kg) for 0.5 and 1 t per hour lines on imported food-grade soy flour, at 50 to 90% utilisation. Flour is 63 to 85% of cost; Chinese product lands at about USD 1.29 to 1.38 per kg at the 0% duty that applies, so the delivered flour price decides whether a line pays.",
+  "context": "Our indicative 2026 full cost of domestic dry textured soy (USD 0.76 to 1.57 per kg) for 0.5 and 1 t per hour lines on imported soy flour priced from trade unit values (low case assumes feed-grade meal prices), at 50 to 90% utilisation. Flour is 63 to 85% of cost; Chinese product lands at about USD 1.29 to 1.38 per kg at the 0% duty that applies, so the delivered flour price decides whether a line pays.",
   "source_ids": [
    "COST-01",
    "COST-19",
    "COST-21",
-   "COST-28",
    "TIC-12",
-   "TIC-13"
+   "TIC-13",
+   "FTR-32",
+   "COST-20"
   ],
   "derived": true,
   "evidence": "VN-direct",
@@ -1120,18 +1136,19 @@
   "id": "kn-retail-protein-floor",
   "label": "Retail price of egg and chicken protein",
   "label_vi": "Giá bán lẻ đạm từ trứng và thịt gà",
-  "value": "about 34,000 to 46,000 VND per 100 g protein",
+  "value": "about 34,000 to 45,000 VND per 100 g protein",
   "value_low": 34000,
-  "value_high": 46000,
+  "value_high": 45000,
   "unit": "VND per 100 g protein",
   "as_of": "Sep 2026",
-  "context": "Online grocery prices in Ho Chi Minh City on 23 September 2026. Eggs and chicken set the floor for mass-market plant-based products; lean pork is about 63,000 to 69,500 VND.",
+  "context": "Online grocery prices in Ho Chi Minh City on 24 September 2026, on food-table protein contents (our calculation). Eggs and chicken set the floor for mass-market plant-based products; lean pork is about 70,900 VND.",
   "source_ids": [
    "COST-39",
    "COST-40",
-   "COST-41"
+   "COST-41",
+   "DIE-12"
   ],
-  "derived": false,
+  "derived": true,
   "evidence": "VN-direct",
   "confidence": "Medium",
   "primary_page": "ch09-economics",
@@ -1150,14 +1167,14 @@
   "value_high": 180,
   "unit": "USD per t dry biomass",
   "as_of": "2026",
-  "context": "Our indicative 2026 estimate for southern Vietnam, where cooling water arrives at 31 to 33 °C. It adds about 2% to 4% to fungal feed protein cost; thermotolerant strains avoid most of it.",
+  "context": "Our indicative 2026 estimate for southern Vietnam, where we assume cooling water arrives at 31 to 33 °C. It adds about 2% to 4% to fungal feed protein cost; thermotolerant strains avoid most of it.",
   "source_ids": [
    "COST-50",
    "COST-51",
    "COST-52"
   ],
   "derived": true,
-  "evidence": "VN-direct",
+  "evidence": "general",
   "confidence": "Low",
   "primary_page": "ch09-economics",
   "pages": [
@@ -1168,24 +1185,23 @@
  },
  {
   "id": "kn-pf-titer-gap",
-  "label": "Best precision-fermentation titer vs bulk benchmark",
-  "label_vi": "Nồng độ protein lên men chính xác tốt nhất so với ngưỡng cần đạt",
+  "label": "Best published leghemoglobin titer vs bulk benchmark",
+  "label_vi": "Nồng độ leghemoglobin cao nhất đã công bố so với ngưỡng cần đạt",
   "value": "10.1 g/L vs above 50 g/L",
   "value_low": 10.1,
   "value_high": 10.1,
   "unit": "g/L",
   "as_of": "2026",
-  "context": "The best published leghemoglobin titers (2022 to 2026) are 3.5, 7.27 and 10.1 g/L, 5 to 15 times below the 50 g/L a leading review says bulk proteins need. That benchmark is an expert assertion.",
+  "context": "The best published leghemoglobin titers (2022 to 2026) are 3.5, 7.27 and 10.1 g/L, about 5 to 14 times below the 50 g/L a leading review says bulk proteins need. That benchmark is an expert assertion.",
   "source_ids": [
    "SCI-01",
-   "SCI-02",
    "SCI-03",
    "SCI-04",
    "SCI-05"
   ],
   "derived": false,
   "evidence": "general",
-  "confidence": "High",
+  "confidence": "Medium",
   "primary_page": "ch10-technology-fit",
   "pages": [
    "app-s13-science",
@@ -1196,14 +1212,14 @@
  },
  {
   "id": "kn-shrimp-fishmeal-replacement",
-  "label": "Fishmeal replaced by gas-fermentation protein in shrimp",
-  "label_vi": "Tỷ lệ bột cá thay được bằng đạm lên men khí trong thức ăn tôm",
-  "value": "about 30%",
+  "label": "Gas-fermentation protein in whiteleg shrimp diets without growth loss",
+  "label_vi": "Tỷ lệ đạm lên men khí trong khẩu phần tôm thẻ chân trắng mà không làm giảm tăng trưởng",
+  "value": "30% of the diet",
   "value_low": 30,
   "value_high": 30,
-  "unit": "%",
+  "unit": "% of diet",
   "as_of": "2023",
-  "context": "In whiteleg shrimp trials (2022 to 2023), bacterial protein from steel-mill off-gas replaced about 30% of fishmeal without growth loss; at 50% growth fell unless a bile acid was added.",
+  "context": "In a digestibility trial (2022 to 2023), bacterial protein from steel-mill off-gas made up 30% of the diet without growth loss. Replacing 50% of fishmeal cut growth unless 0.06% bile acid (CDCA) was added.",
   "source_ids": [
    "SCI-23",
    "SCI-24"
@@ -1230,7 +1246,6 @@
   "as_of": "2020",
   "context": "Measured in pigs on the older child and adult pattern (2020 study). Human digestibility of mung bean in children was about 20% lower. We found no Vietnamese DIAAS study.",
   "source_ids": [
-   "SCI-40",
    "SCI-41",
    "SCI-42"
   ],
@@ -1356,7 +1371,9 @@
   "context": "Set by the livestock strategy (Decision 1520/2020), against about 22 Mt of livestock and poultry feed in 2025. The feed scheme (Decision 1625/QD-TTg, 2023) indicates that the target covers livestock feed only (Medium confidence); see kn-feed-target-livestock-2030 for the comparison with our model.",
   "source_ids": [
    "REG-54",
-   "MAC-23"
+   "MAC-23",
+   "MAC-01",
+   "NTS-23"
   ],
   "derived": false,
   "evidence": "VN-direct",
@@ -1418,12 +1435,12 @@
   "id": "kn-open-questions",
   "label": "Open questions in the register",
   "label_vi": "Số câu hỏi còn bỏ ngỏ",
-  "value": "376",
-  "value_low": 376,
-  "value_high": 376,
+  "value": "446",
+  "value_low": 446,
+  "value_high": 446,
   "unit": "count",
   "as_of": "Sep 2026",
-  "context": "Our count from open_questions.csv (v0.4, September 2026), including 28 added by the futures round, 114 by the demand round and 107 by the actor check and expansion waves 7 to 9. Each question records why it matters, the cheapest way to close it and who to ask; chapter 30 ranks the twenty supply-side questions that matter most.",
+  "context": "Our count from open_questions.csv (v0.7, September 2026), including 28 added by the futures round, 114 by the demand round, 107 by the actor check and expansion waves 7 to 9 and 70 by the v0.7 citation check. Each question records why it matters, the cheapest way to close it and who to ask; chapter 30 ranks the twenty supply-side questions that matter most.",
   "source_ids": [],
   "derived": true,
   "evidence": "VN-direct",
@@ -1531,7 +1548,7 @@
   "value_high": 56,
   "unit": "MtCO2e",
   "as_of": "2022 (Decision 896)",
-  "context": "Official cap: 64 MtCO2e in 2030 and 56 MtCO2e in 2050, against a 2020 base of 104.5 MtCO2e, the NDC business-as-usual level (46% lower). Official livestock levers are feed rations, manure and biogas, not alternative protein.",
+  "context": "Official cap: 64 MtCO2e in 2030 and 56 MtCO2e in 2050, against a 2020 base of 104.5 MtCO2e, the NDC business-as-usual level (46% lower, our calculation). Official livestock levers are feed rations, manure and biogas, not alternative protein.",
   "source_ids": [
    "CLM-01",
    "CLM-08",
@@ -1587,9 +1604,11 @@
   "value_high": 86,
   "unit": "% chance in a given year",
   "as_of": "published model",
-  "context": "Probability that all four largest maize exporters (87% of world exports) lose more than 10% in the same year: near zero today, 7% at 2 °C of warming (around the 2040s), 86% at 4 °C. Vietnam imports about three-quarters of its maize.",
+  "context": "Probability that all four largest maize exporters (87% of world exports) lose more than 10% in the same year: near zero today, 7% at 2 °C of warming (possible from the 2040s, median mid-2050s under high emissions), 86% at 4 °C. Vietnam imports about three-quarters of its maize.",
   "source_ids": [
-   "CLM-24"
+   "CLM-24",
+   "MAC-08",
+   "MAC-01"
   ],
   "derived": false,
   "evidence": "general",
@@ -1602,7 +1621,7 @@
    "front-at-a-glance"
   ],
   "foresight_type": "projection",
-  "horizon": "2040s (2 °C)",
+  "horizon": "2040s to 2050s (2 °C)",
   "version": "0.2"
  },
  {
@@ -1642,11 +1661,10 @@
   "value_high": 20,
   "unit": "% per doubling of output",
   "as_of": "1975 to 2005 data",
-  "context": "US corn ethanol 13% (1983 to 2005); Brazilian cane ethanol 19 to 20% (1975 to 2005). No observed learning rate exists for any alternative protein.",
+  "context": "US corn ethanol 13% (1983 to 2005); Brazilian cane ethanol 19 to 20% (1975 to 2005). We found no observed learning rate for any alternative protein (OpenAlex search, 2026).",
   "source_ids": [
    "ECF-01",
    "ECF-02",
-   "ECF-05",
    "ECF-09"
   ],
   "derived": false,
@@ -1670,7 +1688,7 @@
   "value_high": 1870,
   "unit": "USD per t protein",
   "as_of": "2026 input prices",
-  "context": "Even with free capital, glucose and urea set this floor, so learning alone cannot close the gap to soybean-meal protein (USD 880 per t). Our calculation (working-papers/wave3/econ_policy/ecf_calc.py) on the chapter 9 cost stack.",
+  "context": "Low-cost case, excluding capital and maintenance (high case about USD 4,900). Glucose and urea set most of this floor, so learning alone cannot close the gap to soybean-meal protein (USD 880 per t). Our calculation (working-papers/wave3/econ_policy/ecf_calc.py) on the chapter 9 cost stack.",
   "source_ids": [
    "COST-01",
    "COST-19",
@@ -1678,7 +1696,8 @@
    "COST-33",
    "COST-43",
    "COST-44",
-   "COST-47"
+   "COST-47",
+   "FM-01"
   ],
   "derived": true,
   "evidence": "VN-direct",
@@ -1706,7 +1725,8 @@
   "source_ids": [
    "FTG-01",
    "FTG-15",
-   "FTG-16"
+   "FTG-16",
+   "FTG-19"
   ],
   "derived": true,
   "evidence": "VN-direct",
@@ -1729,7 +1749,7 @@
   "value_high": 2,
   "unit": "papers",
   "as_of": "2016 to 2026",
-  "context": "Publications on gas- or CO2-based microbial protein, 2016 to 2026: China 105, US 64, Denmark 47, Vietnam 2.",
+  "context": "OpenAlex, queried 24 Sep 2026: publications on gas- or CO2-based microbial protein, 2016 to 2026: China 105, US 64, Denmark 47, Vietnam 2.",
   "source_ids": [
    "FTG-14",
    "FTG-35"
@@ -1787,7 +1807,7 @@
   "value_high": 11.7,
   "unit": "Mt",
   "as_of": "2025 base",
-  "context": "S-EFF 7.0, S-ALT 8.8, S-BASE 10.4, S-HIGH 11.7 Mt. Only the efficiency scenario keeps imports at or below the 2025 level.",
+  "context": "S-EFF 7.0, S-ALT 8.8, S-BASE 10.4, S-HIGH 11.7 Mt. Only the efficiency scenario keeps soybean-meal import need (meal plus crushed beans) at or below the 2025 level of 7.2 Mt. Our estimate from the balance model (app-f4-balance-model); QNT-01 is used only for calibration to 2035.",
   "source_ids": [
    "QNT-01"
   ],
@@ -1840,7 +1860,7 @@
   "value_high": 3.4,
   "unit": "Mt soybean meal",
   "as_of": "2050",
-  "context": "Against trend, feed conversion improving 1.0% a year (livestock) and 0.8% (aquaculture) instead of 0.4% and 0.3%, and soybean-meal inclusion falling 1% a year, save 3.4 Mt in 2050; replacing 10% of soybean-meal protein, 40% of fishmeal protein and 10% of meat demand with alternatives saves 1.6 Mt. The two add up.",
+  "context": "Against trend, feed conversion improving 1.0% a year (livestock) and 0.8% (aquaculture) instead of 0.4% and 0.3%, and soybean-meal inclusion falling 1% a year, save 3.4 Mt in 2050; replacing 10% of soybean-meal protein, 40% of fishmeal protein and 10% of meat demand with alternatives saves 1.6 Mt. The two act through different channels (combined case not modelled). Our estimate from the balance model (tools/balance_model.py, app-f4-balance-model); QNT-01 is used only for 2025 to 2035 calibration.",
   "source_ids": [
    "QNT-01"
   ],
@@ -1872,7 +1892,9 @@
   "context": "S-ALT implies about 0.86 Mt of dry microbial feed product in 2050: about 78 times the combined design capacity of Entobel's two Vietnamese insect-meal plants (11 kt a year), or 43 plants of Calysseo's 20 kt size; about 9 times by 2030. Plus 0.29 Mt of food protein ingredient. Our arithmetic.",
   "source_ids": [
    "QNT-01",
-   "ECO-01"
+   "ECO-01",
+   "ECO-02",
+   "FM-13"
   ],
   "derived": true,
   "evidence": "VN-direct",
@@ -1896,10 +1918,11 @@
   "value_high": 40,
   "unit": "kt EPA plus DHA",
   "as_of": "2050",
-  "context": "About 11 kt today. Vietnam's pangasius fish oil is not an omega-3 source (0.17 to 0.31% EPA plus DHA), so the need must be imported or made. Our estimate.",
+  "context": "About 11 kt today. Pangasius oil holds only 0.17 to 0.31% EPA plus DHA in its fatty acids (Indonesian study), so the need must be imported or made. Our estimate.",
   "source_ids": [
    "AQF-16",
-   "AQF-29"
+   "AQF-29",
+   "AQF-18"
   ],
   "derived": true,
   "evidence": "VN-direct",
@@ -2003,11 +2026,12 @@
   "value_high": 8.8,
   "unit": "Mt",
   "as_of": "vision",
-  "context": "Normative goal, not a forecast: a credible ambitious range based on the efficiency and alternative-protein scenarios and on China's and Norway's achieved pace. Holding imports at 7.2 Mt is a stretch.",
+  "context": "Normative goal, not a forecast: a credible ambitious range based on the balance model's efficiency and alternative-protein scenarios (app-f4-balance-model) and on China's and Norway's achieved pace. Holding need at the 2025 level of 7.2 Mt is a stretch.",
   "source_ids": [
    "QNT-01",
    "VIS-19",
-   "GEO-11"
+   "GEO-11",
+   "MAC-04"
   ],
   "derived": true,
   "evidence": "VN-direct",
@@ -2033,11 +2057,10 @@
   "value_high": 8,
   "unit": "%",
   "as_of": "vision",
-  "context": "Normative goal: about 1% by 2030, 1 to 3% by 2035, 2 to 4% by 2040. No national feed system has reached 1% novel protein; Norway was at 0.4% in 2020. The top of the range is a stretch.",
+  "context": "Normative goal: about 1% by 2030, 1 to 3% by 2035, 2 to 4% by 2040. No feed sector we found has reached 1%; Norwegian salmon feed, the best documented, used 0.4% novel ingredients by mass in 2020. The top of the range is a stretch.",
   "source_ids": [
    "VIS-18",
-   "VIS-20",
-   "QNT-01"
+   "VIS-20"
   ],
   "derived": true,
   "evidence": "VN-direct",
@@ -2061,14 +2084,14 @@
   "value_high": 50,
   "unit": "%",
   "as_of": "vision",
-  "context": "Normative goal based on commercial algal and oilseed omega-3 oils; omega-3 canola oil has replaced all fish oil in low-fishmeal shrimp diets without growth loss.",
+  "context": "Normative goal based on commercial algal and oilseed omega-3 oils; in one trial, omega-3 canola oil replaced all fish oil in low-fishmeal shrimp diets without growth loss.",
   "source_ids": [
    "AQF-19",
    "AQF-23",
    "AQF-24"
   ],
   "derived": true,
-  "evidence": "VN-direct",
+  "evidence": "general",
   "confidence": "Low",
   "primary_page": "ch24-vision-2050",
   "pages": [
@@ -2094,7 +2117,12 @@
    "VIS-08",
    "VIS-25",
    "VIS-13",
-   "VIS-49"
+   "VIS-49",
+   "GEO-10",
+   "VIS-22",
+   "VIS-07",
+   "VIS-03",
+   "VIS-14"
   ],
   "derived": false,
   "evidence": "general",
@@ -2155,8 +2183,7 @@
    "COST-33",
    "COST-43",
    "COST-44",
-   "COST-47",
-   "RGN-01"
+   "COST-47"
   ],
   "derived": true,
   "evidence": "VN-direct",
@@ -2179,10 +2206,11 @@
   "value_high": 136.4,
   "unit": "g per person per day",
   "as_of": "2020",
-  "context": "National General Nutrition Survey 2019 to 2020; urban residents 155.3 g; 84 g in 2010. The national recommendation is 50 to 80 g.",
+  "context": "National General Nutrition Survey 2019 to 2020; urban residents 155.3 g; 84 g in 2010. The national recommendation is 50 to 80 g a day.",
   "source_ids": [
    "DIE-01",
-   "DIE-02"
+   "DIE-02",
+   "DIE-03"
   ],
   "derived": false,
   "evidence": "VN-direct",
@@ -2204,7 +2232,7 @@
   "value_high": 42,
   "unit": "%",
   "as_of": "2023",
-  "context": "43.2 of 102.2 g of protein per person per day (FAO food balance sheets); 21% in 1990 and 28% in 2000. Neighbours level off at 55 to 60%.",
+  "context": "43.2 of 102.2 g of protein per person per day (FAO food balance sheets); 21% in 1990 and 28% in 2000 (older FAO series). Richer neighbours (Japan, Korea, Taiwan, Malaysia) sit at 55 to 60%; China and Thailand are near 40%.",
   "source_ids": [
    "DIE-07",
    "DIE-08"
@@ -2254,12 +2282,14 @@
   "value_high": 45000,
   "unit": "VND per 100 g protein",
   "as_of": "September 2026",
-  "context": "Hen eggs 34,300; chicken thigh 39,000; chicken breast 44,800. Lean pork about 70,900; tofu about 30,000; beef 130,000 to 143,000. Bach Hoa Xanh, WinMart and Co.op online, 24 September 2026.",
+  "context": "Hen eggs 34,300; chicken thigh 39,000; chicken breast 44,800. Lean pork about 70,900; tofu about 30,000 (food-table basis; 35,000 to 86,000 on label protein); beef about 119,000 to 143,000. Bach Hoa Xanh and WinMart online, 24 September 2026.",
   "source_ids": [
    "COST-39",
    "COST-40",
    "COST-41",
-   "DIE-12"
+   "DIE-12",
+   "DIE-16",
+   "DIE-23"
   ],
   "derived": true,
   "evidence": "VN-direct",
@@ -2283,7 +2313,7 @@
   "value_high": 18,
   "unit": "times",
   "as_of": "September 2026",
-  "context": "VND 542,000 to 622,000 per 100 g of protein on shelf, against VND 34,000 to 45,000 for eggs and chicken. The premiums that coincided with stalling demand in the US and Europe were 35 to 100% per kg.",
+  "context": "VND 542,000 to 622,000 per 100 g of protein on shelf, against VND 34,000 to 45,000 for eggs and chicken. The meat-analogue premiums that coincided with stalling demand in the US and Germany were about 45 to 77% per kg.",
   "source_ids": [
    "FORM-01",
    "DIE-12",
@@ -2313,11 +2343,12 @@
   "value_high": 18,
   "unit": "%",
   "as_of": "2023",
-  "context": "32% among ethnic minority children (UNICEF 2027 to 2031 country programme); 19.6% in 2020 and 29.3% in 2010. Stunting is largely set before age two.",
+  "context": "32% among ethnic minority children (reported 2024; UNICEF 2027 to 2031 country programme); 19.6% in 2020 and 29.3% in 2010. UNICEF and the World Bank focus prevention on the first 1,000 days of life.",
   "source_ids": [
    "APR-27",
    "DIE-01",
-   "DIE-03"
+   "DIE-03",
+   "APR-44"
   ],
   "derived": false,
   "evidence": "VN-direct",
@@ -2368,12 +2399,12 @@
   "id": "kn-vu-lan-uplift",
   "label": "Chay sales in the seventh lunar month against normal",
   "label_vi": "Doanh số đồ chay trong tháng bảy âm lịch so với ngày thường",
-  "value": "2 to 3 times in specialist channels; +15 to 40% in mainstream retail",
-  "value_low": 1.15,
+  "value": "2 to 3 times in specialist channels; +20 to 40% in mainstream retail",
+  "value_low": 1.2,
   "value_high": 3,
   "unit": "times normal",
   "as_of": "2024 to 2026",
-  "context": "Synthesis of seller and retailer reports across four years and three regions; tofu makers raise output with prices unchanged, fresh mushroom prices roughly double.",
+  "context": "Synthesis of seller and retailer reports, 2024 to 2026, Hanoi and Ho Chi Minh City; one Ho Chi Minh City tofu shop raised output 15 to 20% with prices steady; fresh mushroom prices roughly double.",
   "source_ids": [
    "CHY-16",
    "CHY-17",
@@ -2521,9 +2552,9 @@
   "id": "kn-search-ratio",
   "label": "Search interest in nut milk against plant meat",
   "label_vi": "Mức quan tâm tìm kiếm sữa hạt so với thịt thực vật",
-  "value": "17 times",
+  "value": "about 17 to 19 times",
   "value_low": 17,
-  "value_high": 17,
+  "value_high": 19,
   "unit": "times",
   "as_of": "2019 to 2026",
   "context": "Google Trends, Vietnam: sữa hạt against thịt thực vật, average 2019 to September 2026. Nut milk has tripled since 2019; plant meat peaked in 2021 to 2022 and fell about 60%.",
@@ -2552,7 +2583,9 @@
   "context": "Median of filled chay wrappers in the retail audit, on label protein (our calculation). Tofu or dried textured soy about VND 13,000; frozen analogue about VND 56,000; eggs or chicken VND 7,000 to 9,000.",
   "source_ids": [
    "FORM-01",
-   "CHY-40"
+   "CHY-40",
+   "COST-40",
+   "COST-41"
   ],
   "derived": true,
   "evidence": "VN-direct",
@@ -2592,14 +2625,14 @@
  },
  {
   "id": "kn-west-ceiling",
-  "label": "Plant-based meat share of pre-packaged meat after about ten years",
-  "label_vi": "Tỷ trọng thịt thực vật trong thịt đóng gói sau khoảng mười năm",
+  "label": "Plant-based meat share of pre-packaged meat volume",
+  "label_vi": "Tỷ trọng thịt thực vật trong khối lượng thịt đóng gói bán ra",
   "value": "3.1 to 4.1%",
   "value_low": 3.1,
   "value_high": 4.1,
   "unit": "% of volume",
   "as_of": "2024",
-  "context": "Germany 3.1%, Netherlands 4.1% (down from 4.6% in 2022); well under 1% of total meat value; monthly buyers 8.6 to 9.7% of households.",
+  "context": "Germany 3.1%, Netherlands 4.1% (4.6% in 2022). Households buying 12 or more times a year: UK 8.6%, Germany 9.7%.",
   "source_ids": [
    "GLB-09",
    "GLB-10",
@@ -2624,9 +2657,12 @@
   "value_high": 84,
   "unit": "%",
   "as_of": "2021 (publication)",
-  "context": "Experimental auction in Vietnam. Precision-fermented proteins probably count as products of a GMO under Decree 43/2026, and their likely buyers market non-GMO.",
+  "context": "Experimental auction in Vietnam. Our reading: precision-fermented proteins probably count as products of a GMO under Decree 43/2026, and their likely buyers market non-GMO.",
   "source_ids": [
-   "NOV-08"
+   "NOV-08",
+   "REG2-11",
+   "BUY-16",
+   "AIB-07"
   ],
   "derived": false,
   "evidence": "VN-direct",
@@ -2672,7 +2708,7 @@
   "value_high": 75,
   "unit": "% animal meat",
   "as_of": "November 2025",
-  "context": "Singapore double-blind test of 20 blends; blends 1.8 times as likely as plant-based meat to be liked; a chicken mince with 30 to 50% plant protein beat 100% chicken.",
+  "context": "Singapore blind test of 20 blends (n=116); 57% of tasters preferred about 75% animal meat; blends 1.8 times as likely as plant-based meat to be liked; a chicken mince with 30 to 50% plant protein beat 100% chicken.",
   "source_ids": [
    "NOV-37",
    "NOV-39",
@@ -2692,12 +2728,12 @@
   "id": "kn-vissan-soy-share",
   "label": "Vissan meat formulations listing soy protein",
   "label_vi": "Tỷ lệ công thức sản phẩm thịt của Vissan có đạm đậu nành",
-  "value": "31% (19 of 61)",
-  "value_low": 31,
-  "value_high": 31,
+  "value": "33% (22 of 67)",
+  "value_low": 33,
+  "value_high": 33,
   "unit": "%",
   "as_of": "September 2026",
-  "context": "Online label audit of 118 products; 36% list at least one added protein (soy, wheat, milk or egg white), mostly in value lines. Vietnam already eats low-inclusion blends.",
+  "context": "Online label audit of 118 products (91 with a published list); 33% of 67 unique meat formulations list soy protein and 37% list at least one added protein (soy, wheat, milk or egg white), mostly in value lines. Vietnam already eats low-inclusion blends.",
   "source_ids": [
    "BUY-05"
   ],
@@ -2747,7 +2783,7 @@
   "value_high": 8753,
   "unit": "stores",
   "as_of": "mid-2026",
-  "context": "Bach Hoa Xanh 3,612 (end of August 2026) and WinCommerce 5,141 (mid-2026), each opening about 1,000 stores a year, now mostly rural.",
+  "context": "Bach Hoa Xanh 3,612 (end of August 2026) and WinCommerce 5,141 (mid-2026), each opening 1,000 or more stores a year, with a push into rural areas.",
   "source_ids": [
    "CHN-12",
    "CHN-15"
@@ -2798,11 +2834,15 @@
   "value_high": 14000,
   "unit": "VND per meal",
   "as_of": "2026",
-  "context": "20 g of protein costs VND 6,900 to 9,000 from eggs or chicken, VND 22,400 from a branded retail analogue and VND 740 to 2,140 from textured protein at indicative ex-factory cost. Our calculation.",
+  "context": "Assumes the protein dish takes about half of the meal's food budget (our assumption). 20 g of protein costs VND 6,900 to 9,000 from eggs or chicken, VND 22,400 from a branded retail analogue and VND 740 to 2,140 from textured protein at indicative ex-factory cost. Our calculation.",
   "source_ids": [
    "CHN-39",
    "CHN-41",
-   "FORM-01"
+   "FORM-01",
+   "COST-40",
+   "COST-41",
+   "FORM-05",
+   "FORM-06"
   ],
   "derived": true,
   "evidence": "VN-direct",
@@ -2852,7 +2892,8 @@
   "as_of": "2025",
   "context": "China-reported HS 3504, 2106.10 and 1109; USD 59.7 million in 2025. Part of the 2024 jump is probably feed-grade (not verified).",
   "source_ids": [
-   "BUY-02"
+   "BUY-02",
+   "TIC-12"
   ],
   "derived": false,
   "evidence": "VN-direct",
@@ -2878,7 +2919,7 @@
   "value_high": 2.4,
   "unit": "USD per kg protein",
   "as_of": "2025",
-  "context": "Chinese gluten, textured protein and soy isolate. Egg, dairy and Western pea proteins cost USD 7 to 11 per kg of protein.",
+  "context": "Chinese gluten, textured protein and soy isolate. Egg, dairy and Western pea proteins cost USD 7 to 18 per kg of protein (mostly 7 to 11).",
   "source_ids": [
    "BUY-02",
    "BUY-07",
@@ -2994,12 +3035,12 @@
   "id": "kn-demand-bench-2035",
   "label": "Benchmark path, 2035: protein delivered and meat protein displaced",
   "label_vi": "Kịch bản tham chiếu, 2035: lượng đạm cung ứng và lượng đạm thịt được thay thế",
-  "value": "about 19,000 t delivered; about 2,400 t (0.2%) displaced",
+  "value": "about 19,000 t delivered; about 2,350 t (0.2%) displaced",
   "value_low": 2.35,
   "value_high": 19.05,
   "unit": "kt protein",
   "as_of": "2035",
-  "context": "Demand model, scenario D-BENCH. Most delivered protein replaces imported ingredients; about 11,000 to 17,000 t of it would be made in Vietnam (v0.4 reading: only import substitution applies an explicit domestic share). Displacement falls to about 2,300 t if school sales into the plant-protein slot displace tofu, not meat. The Part IV S-ALT scenario assumes 39,300 t (3%) displaced in 2035. Our estimate, not a forecast.",
+  "context": "Demand model (demand_outputs.csv), scenario D-BENCH. Most delivered protein replaces imported ingredients; about 11,000 to 17,000 t of it would be made in Vietnam (v0.4 reading: only import substitution applies an explicit domestic share). Displacement falls to about 2,290 t if school sales into the plant-protein slot displace tofu, not meat. The Part IV S-ALT scenario assumes 39,300 t (3%) displaced in 2035. Our estimate, not a forecast.",
   "source_ids": [
    "BUY-02",
    "CHY-06",
@@ -3032,7 +3073,7 @@
   "value_high": 74,
   "unit": "% of processed meat",
   "as_of": "2030",
-  "context": "Alternatives: 39% of all canteen and school meal protein; about 131 million regular analogue buyers; or about 0.43 extra chay days per person per month. Our estimate.",
+  "context": "Alternatives: 39% of all canteen and school meal protein; about 131 million regular analogue buyers; or about 0.43 extra chay days per person per month. Our estimate (demand model, demand_outputs.csv).",
   "source_ids": [
    "BUY-04",
    "CHN-37",
@@ -3059,13 +3100,8 @@
   "value_high": 118,
   "unit": "questions",
   "as_of": "September 2026",
-  "context": "80 named actors in four groups; Part III partly answered 71 questions and did not answer 42; 4 were out of scope. Our assessment.",
-  "source_ids": [
-   "AFN-05",
-   "AIS-01",
-   "AIB-01",
-   "APR-01"
-  ],
+  "context": "80 named actors in four groups; Part III partly answered 71 questions and did not answer 42; 4 were out of scope. Our assessment (actor_questions.csv; ch29-actor-check).",
+  "source_ids": [],
   "derived": true,
   "evidence": "VN-direct",
   "confidence": "Medium",
@@ -3143,11 +3179,24 @@
   "value_high": 99.2,
   "unit": "meals",
   "as_of": "2026",
-  "context": "13 ethnic-minority boarding schools in five provinces, 22 published school-weeks; pork led 74% of main meals; 86% of breakfasts had little or no animal food.",
+  "context": "Our coding of published menus (upland_school_weeks.csv): 13 ethnic-minority boarding schools in five provinces, 22 published school-weeks; pork was in 102 of 124 lunches (82%); 86% of breakfasts had little or no animal food.",
   "source_ids": [
    "UPL-01",
-   "UPL-04",
-   "UPL-09"
+   "UPL-02",
+   "UPL-03",
+   "UPL-05",
+   "UPL-06",
+   "UPL-07",
+   "UPL-08",
+   "UPL-09",
+   "UPL-10",
+   "UPL-11",
+   "UPL-12",
+   "UPL-13",
+   "UPL-14",
+   "UPL-15",
+   "UPL-16",
+   "UPL-17"
   ],
   "derived": true,
   "evidence": "VN-direct",
@@ -3229,7 +3278,9 @@
   "source_ids": [
    "FTR-01",
    "FTR-02",
-   "FTR-05"
+   "FTR-05",
+   "FTR-17",
+   "FTR-18"
   ],
   "derived": false,
   "evidence": "VN-direct",
@@ -3304,7 +3355,7 @@
   "value_high": 19,
   "unit": "moves",
   "as_of": "September 2026",
-  "context": "Consumer-acceptance studies and a label test (Bezos Centre at NUS); naming and GMO rules (Nova Vista). Diet-change and culture-change work is excluded by Nova Vista and ACE Movement Grants; ReRoot Asia excludes Vietnam. Of the two moves added in v0.4, DMV-20 has no external payer and DMV-21 needs none.",
+  "context": "Our coding of funder scopes (funder_fit.csv). Consumer-acceptance studies and a label test are judged to fit the Bezos Centre at NUS; naming and novel-food rules fit Nova Vista. Diet-change and culture-change work is excluded by Nova Vista and ACE Movement Grants; ReRoot Asia has no Vietnam track. Of the two moves added in v0.4, DMV-20 has no external payer and DMV-21 needs none.",
   "source_ids": [
    "AFN-05",
    "AFN-15",
@@ -3336,11 +3387,12 @@
   "value_high": 1.4,
   "unit": "USD million",
   "as_of": "2026",
-  "context": "Lines of 0.5 to 1 t/h with dryer are listed at USD 11,000 to 100,000 (list prices, not quotes); working capital of USD 0.6 to 3.5 million is the larger need. Our calculation.",
+  "context": "Chinese lines of 0.2 to 1.5 t/h with dryer list at USD 11,000 to 100,000 (list prices, not quotes). Installed cost allows up to three times the list price plus auxiliaries, fit-out, certification and a 15% contingency. Working capital of 3 to 4 months of revenue at price parity, USD 0.6 to 3.5 million, is the larger need. Our calculation.",
   "source_ids": [
    "TIC-02",
    "TIC-03",
-   "TIC-07"
+   "TIC-07",
+   "COST-21"
   ],
   "derived": true,
   "evidence": "VN-direct",
@@ -3388,7 +3440,7 @@
   "value_high": 4,
   "unit": "firms",
   "as_of": "September 2026",
-  "context": "All three Vietnamese makers of traditional formats are active. Of 24 regional and Vietnamese firms since 2019, 7 are active, 4 pivoted (all towards private label, co-manufacturing or non-food), 2 exited and 11 are dormant.",
+  "context": "From our firm register (firm_outcomes.csv): all three Vietnamese makers of traditional formats are active. Of 24 regional and Vietnamese firms since 2019, 7 are active, 4 pivoted (all towards private label, co-manufacturing, a retail blend or non-food), 2 exited and 11 are dormant. One dormant firm (Bien Phuong) has an unknown first channel, so the channel rows in Appendix D4 sum to 23 firms and 10 dormant.",
   "source_ids": [
    "AIS-28",
    "AIS-39",
@@ -3438,10 +3490,11 @@
   "value_high": 10,
   "unit": "g protein per 100 g of solid food",
   "as_of": "2025",
-  "context": "TCVN 14429:2025 (voluntary, Codex-based): source at 5 g and high at 10 g per 100 g, or 2.5 g and 5 g per 100 kcal. 20 of 43 audited foods already meet the source condition; none makes the claim.",
+  "context": "TCVN 14429:2025 (voluntary, Codex-based): source at 5 g and high at 10 g per 100 g, or 2.5 g and 5 g per 100 kcal. 20 of 43 audited foods already meet the source condition per 100 g (27 by either route); none makes the claim.",
   "source_ids": [
    "LBL-03",
-   "FORM-01"
+   "FORM-01",
+   "LBL-04"
   ],
   "derived": false,
   "evidence": "VN-direct",
@@ -3461,7 +3514,7 @@
   "value_high": 9193,
   "unit": "t",
   "as_of": "2025",
-  "context": "8,729 t (95%) came in at below USD 2 per kg, averaging USD 1.10 per kg FOB; 464 t of specialty products averaged USD 8.55. 2.4 times the 2019 tonnage; the trade code does not separate feed from food. The revealed price a Vietnamese microbial feed ingredient must beat. Vietnam also exported 8,166 t.",
+  "context": "Partners reported exporting 9,193 t to Vietnam in 2025 (mirror data, incomplete; 2024: 9,336 t). 8,729 t (95%) came in at below USD 2 per kg, averaging USD 1.10 per kg FOB; 464 t of specialty products averaged USD 8.55. 2.4 times the 2019 tonnage; the trade code does not separate feed from food. The revealed price a Vietnamese microbial feed ingredient must beat. Partners also reported importing 8,166 t from Vietnam in 2025.",
   "source_ids": [
    "FBA-17"
   ],
@@ -3486,9 +3539,10 @@
   "value_high": 128.2,
   "unit": "USD million",
   "as_of": "2023",
-  "context": "HS 1902.20, 30,013 t; the existing export base for plant-protein wrapped foods. Vietnam out-supplies China in the UK, US and Korea.",
+  "context": "HS 1902.20, 30,013 t; the existing export base for plant-protein wrapped foods. In 2025, Vietnam out-supplied China in the UK, US and Korea (partner import data).",
   "source_ids": [
-   "XBA-29"
+   "XBA-29",
+   "XBA-28"
   ],
   "derived": false,
   "evidence": "VN-direct",
@@ -3511,11 +3565,14 @@
   "value_high": 16600,
   "unit": "VND per kg of product",
   "as_of": "2019 to 2020 hog prices",
-  "context": "Extension pays at every hog price since 2019; hydrated soy costs a sixth to a twelfth of lean trimmings. A new extender must beat soy, not meat. Our calculation.",
+  "context": "Extension pays at every annual hog price from 2019 to 2024; hydrated soy costs a sixth to a twelfth of lean trimmings. A new extender must beat soy, not meat. Our calculation: soy hydrated to 18% protein, lean priced at 1.8 times the live hog price, and the 2025 landed Chinese textured-soy price applied to 2019 to 2020 hog prices.",
   "source_ids": [
    "HXE-01",
    "DIE-25",
-   "TIC-12"
+   "TIC-12",
+   "HXE-10",
+   "BUY-02",
+   "FTR-32"
   ],
   "derived": true,
   "evidence": "VN-direct",
@@ -3530,8 +3587,8 @@
  },
  {
   "id": "kn-meat-in-chay-cases",
-  "label": "Confirmed reports of meat found in a Vietnamese chay product",
-  "label_vi": "Số vụ được xác nhận phát hiện thịt trong đồ chay",
+  "label": "Confirmed meat-in-chay cases found in our search",
+  "label_vi": "Số vụ phát hiện thịt trong đồ chay đã được xác nhận, theo tìm kiếm của chúng tôi",
   "value": "0 (2015 to 2026)",
   "value_low": 0,
   "value_high": 0,
@@ -3540,7 +3597,9 @@
   "context": "One unconfirmed 2021 seizure in An Giang; chay safety cases are about borax, microbes and unlabelled goods. Fake chay is a latent rumour, not a live scandal.",
   "source_ids": [
    "TRU-18",
-   "TRU-22"
+   "TRU-22",
+   "TRU-14",
+   "TRU-16"
   ],
   "derived": false,
   "evidence": "VN-direct",
@@ -3560,8 +3619,8 @@
   "value_low": 77,
   "value_high": 77,
   "unit": "% of world soy",
-  "as_of": "2018 to 2019",
-  "context": "About 6% of soy is eaten directly as food; 87% of soybeans are crushed and 99% of the meal goes to feed (USDA data via Our World in Data).",
+  "as_of": "2018",
+  "context": "About 6% of soy is eaten directly as food; 87% of soybeans are crushed and 99% of the meal goes to feed (2018; USDA data via Our World in Data and Fraanje and Garnett 2020).",
   "source_ids": [
    "PRA-21",
    "PRA-20"
@@ -3585,7 +3644,7 @@
   "value_high": 14.5,
   "unit": "% of anthropogenic emissions",
   "as_of": "2015 and 2005 reference years",
-  "context": "6.2 Gt CO2e for 2015 in FAO's latest estimate; 7.1 Gt for 2005 in its earlier one. The two use different reference years and model versions, so the lower figure is not evidence that emissions fell. Food systems as a whole: about 34% (2015).",
+  "context": "6.2 Gt CO2e for 2015 in FAO's latest estimate; 7.1 Gt for 2005 in its earlier one. The two use different reference years, so the lower figure is not evidence that emissions fell. Food systems as a whole: about 34% (2015).",
   "source_ids": [
    "PRB-07",
    "PRB-08",
@@ -3627,18 +3686,19 @@
  },
  {
   "id": "kn-altprotein-investment-2025",
-  "label": "Global private investment in alternative protein companies",
-  "label_vi": "Vốn đầu tư tư nhân toàn cầu vào doanh nghiệp protein thay thế",
+  "label": "Global investment in alternative protein companies",
+  "label_vi": "Vốn đầu tư toàn cầu vào doanh nghiệp protein thay thế",
   "value": "USD 881 million",
   "value_low": 881,
   "value_high": 881,
   "unit": "USD million",
   "as_of": "2025",
-  "context": "The first year below USD 1 billion since 2018; the 2021 peak was about USD 7 billion in GFI's current series. USD 359 million in the first half of 2026, 252 million of it for fermentation. GFI (advocacy) analysis of Net Zero Insights data.",
+  "context": "Of this, USD 734 million was private and USD 147 million was raised by publicly traded companies. The first year below USD 1 billion since 2018; the 2021 peak was about USD 7 billion in GFI's current series. USD 359 million in the first half of 2026, 252 million of it for fermentation. GFI (advocacy) analysis of Net Zero Insights data.",
   "source_ids": [
    "CAP-51",
    "PRC-01",
-   "HSC-10"
+   "HSC-10",
+   "FTB-24"
   ],
   "derived": false,
   "evidence": "general",

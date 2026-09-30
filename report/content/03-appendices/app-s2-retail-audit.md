@@ -32,14 +32,14 @@ Terms used in this appendix:
 
 1. **Most of the plant-protein shelf is not a protein product.** Plant milks (51 SKU rows, 27%) and filled wrappers such as spring rolls, dumplings and buns (47 rows, 25%) are the two largest groups among 186 SKU rows [@FORM-01] {VN-direct|High}. Across 43 unique hydrated foods with a label value, median protein is 4.7 g per 100 g; 53% have under 5 g and 16% reach 10 g [@FORM-01] {VN-direct|High}.
 2. **Chay has two protein tiers with little in between.** Filled wrappers with mung bean fillings carry 1.5 to 5.7 g protein per 100 g (median 4.0 g, 14 products). Gluten or TVP analogues carry 12 to 25 g hydrated (median 19 g, 5 products), and dried TVP or gluten slices 53 to 67 g as sold (median 64 g, 5 products) [@FORM-01] {VN-direct|High}.
-3. **Every locally made product with 10 g or more protein per 100 g runs on an imported protein ingredient.** All 10 such unique products (8 An Nhien, 1 Xuan Hong, 1 Au Lac) use soy protein, TVP, SPC or wheat gluten. Local foods whose main protein is domestic (mung bean, rice, vegetables) reach at most 4.6 g (median 3.0 g, n = 8) [@FORM-01] {VN-direct|High}.
+3. **Every locally made product with 10 g or more protein per 100 g runs on an imported protein ingredient.** All 10 such unique products (8 An Nhien, 1 Xuan Hong, 1 Au Lac) use (or, for three, almost certainly use) soy protein, TVP, SPC or wheat gluten. Local foods with no imported protein ingredient reach at most 4.6 g (median 3.0 g, n = 8) [@FORM-01] {VN-direct|High}.
 4. **About 77 to 88% of SKU rows depend on an imported main protein ingredient.** Of 170 SKU rows where the main protein ingredient could be identified, 77% rely on an imported one, 11% partly and 12% on a domestic one [@FORM-01] {VN-direct|Medium}.
-5. **China supplies most concentrated plant-protein ingredients.** China reported exports to Vietnam in 2023 of 7,957 t of protein concentrates and textured protein (HS 2106.10), 10,028 t of HS 3504 (which includes SPI) and 10,338 t of wheat gluten [@FORM-05; @FORM-06; @FORM-07] {VN-direct|High}.
-6. **We found no commercial TVP extrusion in Vietnam.** Distributors sell Chinese SPI and gluten in 20 to 25 kg bags; one An Nhien label names SPC from Serbia; Chinese extrusion lines are offered for sale [@FORM-11; @FORM-12; @FORM-01; @FORM-34] {VN-direct|Medium}. This is absence of evidence after a limited search.
+5. **China is a major supplier of concentrated plant-protein ingredients.** China reported exports to Vietnam in 2023 of 7,957 t of protein concentrates and textured protein (HS 2106.10), 10,028 t of HS 3504 (which includes SPI) and 10,338 t of wheat gluten [@FORM-05; @FORM-06; @FORM-07] {VN-direct|High}.
+6. **We found no commercial TVP extrusion in Vietnam.** Distributors sell Chinese SPI and gluten in 20 to 25 kg bags; one An Nhien label names soy protein from Serbia (logged as SPC); Chinese extrusion lines are offered for sale [@FORM-11; @FORM-12; @FORM-01; @FORM-34] {VN-direct|Medium}. This is absence of evidence after a limited search.
 7. **Protein is cheapest in the least processed soy and wheat formats.** Median price per 100 g of protein: tofu VND 66,265; dried TVP slices VND 64,584; hydrated gluten or TVP analogues VND 111,585; filled wrappers VND 368,798; cashew cheese VND 875,797 [@FORM-01] {VN-direct|Medium}.
 8. **The only "modern" SPC or SPI analogues are imported and cost about five times more per gram of protein** than local gluten or TVP analogues (VND 542,424 to 621,528 against a median of VND 111,585 per 100 g of protein) [@FORM-01] {VN-direct|Medium}.
 9. **The mainstream frozen chay shelf is split between Vietnamese firms and Korean-owned CJ Foods Vietnam**, which accounts for 20 of 186 SKU rows through Cau Tre and bibigo [@FORM-01; @FORM-24] {VN-direct|Medium}. Imported finished products (40 rows) sit mostly in premium stores [@FORM-01] {VN-direct|High}.
-10. **The natural first customers for a domestic protein ingredient are a short, Ho Chi Minh City-based list:** An Nhien, Au Lac, Xuan Hong, LC Foods, Cholimex, CJ Foods Vietnam, VISSAN, Thoai An, and co-packers such as GN Foods (section S2.13).
+10. **The natural first customers for a domestic protein ingredient are a short, Ho Chi Minh City-based list:** An Nhien, Au Lac, Xuan Hong (location not verified), LC Foods, Cholimex, CJ Foods Vietnam, VISSAN, Thoai An, and co-packers such as GN Foods (section S2.13).
 
 ## S2.2 Method
 
@@ -160,7 +160,7 @@ Readings:
 - **Tofu is not a fixed protein unit.** Co.op Select white tofu (300 g) shows 3.8 g per 100 g, against 8.9 to 9.3 g for firmer tofus [@FORM-01] {VN-direct|High}. Water content is a formulation choice.
 - **Seafood-style gel analogues** (crab stick, "seafood tofu") sit at about 3 g per 100 g [@FORM-01] {VN-direct|High}.
 - **Plant milks** carry 1.3 to 2.5 g protein per 100 ml for soy milks and 0.7 to 1.1 g for oat and nut milks. Vinamilk's *cao đạm* (high-protein) plant milk reaches 5 g per 100 ml with pea protein [@FORM-01] {VN-direct|High}.
-- One brand-wide average published for Fami soy milk (1.9 g per 100 ml) conflicts with the carton labels read in Ho Chi Minh City (2.5 g) [@FORM-01; @ECO-40] {VN-direct|Medium}. We use the carton value.
+- One brand-wide average quoted by the collector in the Nha Trang field log for Fami soy milk (1.9 g per 100 ml) conflicts with the carton labels read in Ho Chi Minh City (2.5 g) [@FORM-01] {VN-direct|Medium}. We use the carton value.
 
 ## S2.6 Formulation archetypes A0 to A15
 
@@ -229,7 +229,7 @@ The collector logged a conventional (meat) equivalent for five chay SKUs, all in
 
 Only the VISSAN pair is a high-confidence, same-brand comparison: the chay spring roll is 38% cheaper per 100 g than the meat version [@FORM-01] {VN-direct|Medium}. The other four pairs range from 52% cheaper to 19% dearer on low-confidence reads [@FORM-01] {VN-direct|Low}. The field notes stated a range of 17 to 38% cheaper for same-brand spring-roll pairs [@FORM-01] {VN-direct|Low}. Our position: chay is often cheaper than meat per 100 g of product for spring rolls; this is not established across categories (logged in [[app-r2-disagreements]]).
 
-No protein values were captured for the conventional products. Because most chay wrappers hold 3 to 5 g of protein per 100 g [@FORM-01] {VN-direct|High}, a cheaper pack is not cheaper protein. For supply-side purposes this matters: chay sells at or below the price of meat, so formulators have little room to pay more for protein ingredients.
+No protein values were captured for the conventional products. Because most chay wrappers hold about 2 to 6 g of protein per 100 g (median 4.3 g) [@FORM-01] {VN-direct|High}, a cheaper pack is not cheaper protein. For supply-side purposes this matters: chay sells at or below the price of meat, so formulators have little room to pay more for protein ingredients.
 
 ## S2.9 Import dependence of the main protein ingredient
 
@@ -245,7 +245,7 @@ Protein content by flag, unique locally made foods: N median 3.0 g per 100 g (ma
 
 Why soybeans count as imported:
 
-> **Correction.** The wave 1 formulation note used USDA Post estimates for marketing year 2024/25: about 42,000 t of domestic soybeans against about 2.5 Mt of imports, a domestic share of about 1.6% [@FORM-09] {VN-direct|High}. The report now uses calendar-year 2025 customs data: Vietnam imported 2.61 Mt of soybeans in 2025 (USD 1.21 billion), which is about 98.4% of supply against domestic output of 42 to 43 kt [@MAC-09; @MAC-04] {VN-direct|High}. Origins in 2025: Brazil 1.20 Mt (45.8%), United States 1.14 Mt (43.6%), Canada 0.19 Mt (7.3%) [@MAC-09] {VN-direct|High}. The conclusion does not change: soy protein in Vietnamese food is almost entirely imported.
+> **Correction.** The wave 1 formulation note used USDA Post estimates for marketing year 2024/25: about 42,000 t of domestic soybeans against about 2.5 Mt of imports, a domestic share of about 1.6% [@FORM-09] {VN-direct|High}. The report now uses calendar-year 2025 customs data: Vietnam imported 2.61 Mt of soybeans in 2025 (USD 1.21 billion), which is about 98.4% of imports plus domestic output (domestic output 42 to 43 kt) [@MAC-09; @MAC-04] {VN-direct|Medium}. Origins in 2025: Brazil 1.20 Mt (45.8%), United States 1.14 Mt (43.6%), Canada 0.19 Mt (7.3%) [@MAC-09] {VN-direct|High}. The conclusion does not change: soy protein in Vietnamese food is almost entirely imported.
 
 Why "domestic" mung bean is only partly domestic: Vietnam imported USD 138.3 million of mung and black gram beans (HS 0713.31) in 2023, mainly from Myanmar (65% of value), Cambodia (13%) and Argentina (8%) [@FORM-08] {VN-direct|Medium}. The reported tonnage (103,835 t) is imputed at a uniform unit value, so it is not a measurement [@FORM-08] {VN-direct|Medium}. Domestic mung bean production was not established. The import flag treats mung bean as domestic, so the shares above understate import dependence.
 
@@ -257,7 +257,7 @@ China reports its exports to Vietnam by tonnage. Vietnam's own reported tonnages
 
 | Ingredient (HS code) | Year | China-reported exports to Vietnam | Unit value | Vietnam-reported imports, all origins (value) | Main origins in Vietnam's data (share of value) | Sources |
 |---|---|---|---|---|---|---|
-| Protein concentrates and textured protein, incl. TVP and SPC (2106.10) | 2023 | 7,957 t, USD 12.63 million | USD 1.59/kg | USD 33.98 million | United States 46%, China 27%, "Other Asia" (Taiwan) 16%, India 5%, Netherlands 2%, Malaysia 2% | [@FORM-05; @FORM-02] {VN-direct\|High} |
+| Protein concentrates and textured protein, incl. TVP and SPC (2106.10) | 2023 | 7,957 t, USD 12.63 million | USD 1.59/kg | USD 33.98 million | United States 46%, China 27%, "Other Asia, nes" (usually read as Taiwan) 16%, India 5%, Netherlands 2%, Malaysia 2% | [@FORM-05; @FORM-02] {VN-direct\|High} |
 | Same (2106.10) | 2024 | 10,029 t, USD 13.16 million | USD 1.31/kg | not yet reported | n/a | [@RGN-49] {VN-direct\|Medium} |
 | Other protein substances, incl. SPI, peptones, collagen peptides (3504) | 2023 | 10,028 t, USD 16.31 million | USD 1.63/kg | USD 22.18 million | China 45%, United States 15%, Spain 12%, Japan 8% | [@FORM-06; @FORM-04] {VN-direct\|High} |
 | Same (3504) | 2024 | 25,267 t, USD 25.91 million | USD 1.03/kg | not yet reported | n/a | [@RGN-47] {VN-direct\|Medium} |
@@ -274,19 +274,19 @@ Cautions:
 
 - **No Vietnamese TVP extruder was identified** in wave 1 or wave 2 [@FORM-01; @VCO-26] {VN-direct|Medium}.
 - LC Foods specifies "soya TVP granule 4-7 mm" in a chay spring roll, a standard imported extrudate size; origin not stated [@FORM-28] {VN-direct|Medium}.
-- An An Nhien chicken-ball label names SPC from Serbia; a retailer listing gives a different recipe (SPI, corn starch, wheat fibre, soybean oil). We prefer the photographed label [@FORM-01; @FORM-18] {VN-direct|Medium}. The Serbian supplier is believed to be Sojaprotein (Becej), not verified.
+- An An Nhien chicken-ball label names soy protein from Serbia (logged as SPC); a retailer listing gives a different recipe (soy protein, corn starch, wheat fibre, soybean oil). We prefer the photographed label [@FORM-01; @FORM-18] {VN-direct|Medium}. The Serbian supplier is believed to be Sojaprotein (Becej), not verified.
 - Thanh Dung, a chay maker in Ho Chi Minh City (former Binh Duong) founded in 2009, lists TVP among its products and says its raw materials are imported from the USA, Australia and Canada. Whether it extrudes or repacks is unknown [@FORM-35] {VN-direct|Low}.
 - A Ho Chi Minh City machinery dealer, Tan Sao Bac A, sells Chinese soy-snack extrusion lines of 100 to 2,000 kg/h and 22 to 120 kW for dried chay "beef, chicken, fish, squid" [@FORM-34] {VN-direct|Medium}. This shows machines are on offer, not that TVP is made here.
 
 ### Soy protein isolate
 
-- VMC Group (Phu Gia Viet My; Hanoi head office; claims 19 branches) sells China-origin SPI in 20 kg bags for *giò chả*, sausages and vegetarian meat, and names Ingreda Vietnam and Luan Kha as other soy-protein distributors [@FORM-11; @FORM-39] {VN-direct|Medium}.
+- VMC Group (Phu Gia Viet My; Hanoi office; claims 19 branches) sells China-origin SPI in 20 kg bags for *giò chả*, sausages and vegetarian meat, and names Ingreda Vietnam and Luan Kha as other soy-protein distributors [@FORM-11; @FORM-39] {VN-direct|Medium}.
 - We found no SPI, SPC, pea or rice protein isolate plant in Vietnam [@FORM-01; @VCO-16] {VN-direct|Medium}.
 
 ### Wheat gluten
 
 - TDGIMEX (Hanoi) sells Chinese vital wheat gluten in 25 kg bags "for *mì căn* and vegetarian food"; VMC Group's Da Nang branch sells Xinrui (China) gluten in 25 kg bags [@FORM-12; @FORM-13] {VN-direct|Medium}.
-- Traditional *mì căn* can be washed out of wheat dough at small scale, but Vietnam grows no wheat, so both routes rest on imported wheat [@FORM-03] {VN-direct|Medium}. No Vietnamese wheat wet-milling (starch and gluten) plant was found. Uni-President Vietnam also mills wheat flour; whether it separates gluten was not checked [@VCO-29] {VN-direct|Low}.
+- Traditional *mì căn* can be washed out of wheat dough at small scale, but Vietnam grows no wheat, so both routes rest on imported wheat [@FORM-12; @MAC-01; @FORM-03] {VN-direct|Medium}. No Vietnamese wheat wet-milling (starch and gluten) plant was found. Uni-President Vietnam also mills wheat flour; whether it separates gluten was not checked [@VCO-29] {VN-direct|Low}.
 
 ### Tofu skin
 
@@ -296,7 +296,7 @@ Cautions:
 ### Soybeans and crushing
 
 - Soybeans for tofu, soy milk and tofu skin are imported (see the correction in S2.9). USDA Post estimated food use at 540,000 t (MY2024/25) rising to 550,000 t [@FORM-09] {VN-direct|High}.
-- **Domestic crushing is feed-grade.** VAL (Bunge-Wilmar joint venture) at Phu My 1 Industrial Park, Ho Chi Minh City (former Ba Ria-Vung Tau), reached 2.6 Mt of soybeans and nearly 2 Mt of meal a year after a USD 100 million second line (December 2025), and targets 30% of domestic soybean meal demand [@VCO-16; @FORM-10] {VN-direct|Medium}. It has no food-grade defatted flake or soy protein line on record [@VCO-16] {VN-direct|Medium}. A food-grade stream from such a crusher is the obvious domestic feedstock for Vietnamese TVP.
+- **Domestic crushing is feed-grade.** VAL (Bunge-Wilmar joint venture) at Phu My 1 Industrial Park, Ho Chi Minh City (former Ba Ria-Vung Tau), can crush 2.6 Mt of soybeans and make nearly 2 Mt of meal a year after a USD 100 million second line (December 2025), and is expected by a Ho Chi Minh City People's Committee official to supply about 30% of the domestic soybean meal market for feed [@VCO-16; @FORM-10] {VN-direct|Medium}. It has no food-grade defatted flake or soy protein line on record [@VCO-16] {VN-direct|Medium}. A food-grade stream from such a crusher is the obvious domestic feedstock for Vietnamese TVP.
 
 > **Correction.** The formulation note quoted soybean meal imports of "about 5.9 to 6 Mt a year" from the VAL press article [@FORM-10] {VN-direct|Medium}. The report uses 5.70 Mt of soybean meal imported in 2025 and 7.2 Mt fed [@MAC-04] {VN-direct|Medium}; see [[app-s6-feed-market]].
 
@@ -304,7 +304,7 @@ Cautions:
 
 ### Pea protein, chickpea, oats and nuts
 
-All are imported or rest on imported raw material. No Vietnamese pea protein producer was found; Vinamilk's pea protein origin is not disclosed [@FORM-01] {VN-direct|Low}. Cashew is processed in Vietnam, largely from imported raw nuts; this is counted as partial import dependence [@FORM-01] {VN-direct|Low}.
+All are imported or rest on imported raw material. No Vietnamese pea protein producer was found; Vinamilk's pea protein origin is not disclosed [@FORM-01] {VN-direct|Low}. Cashew is processed in Vietnam, largely from imported raw nuts; this is counted as partial import dependence [@FORM-01; @EXP-18] {VN-direct|Low}.
 
 ### A fragmented buyer base
 
@@ -312,10 +312,10 @@ A 2022 to 2023 survey covered 126 vegetarian food production, processing and tra
 
 ### Ingredient cost as a share of retail price
 
-- **Dried TVP retails at 8 to 12 times the import unit value.** Retail dried TVP costs VND 327,000 to 500,000 per kg [@FORM-01] {VN-direct|Medium}; the 2023 China export unit value for HS 2106.10 was USD 1.59/kg, about VND 41,300 per kg at VND 26,000 per USD (our calculation: 327,000 / 41,340 = 7.9; 500,000 / 41,340 = 12.1) [@FORM-05] {VN-direct|Low}.
+- **Dried TVP retails at 8 to 12 times the import unit value.** Retail dried TVP costs VND 327,000 to 500,000 per kg [@FORM-01] {VN-direct|Medium}; the 2023 China-reported unit value of HS 2106.10 exports to Vietnam was USD 1.59/kg, about VND 41,300 per kg at VND 26,000 per USD (our calculation: 327,000 / 41,340 = 7.9; 500,000 / 41,340 = 12.1) [@FORM-05] {VN-direct|Low}.
 - **Gluten is roughly 5 to 7% of the retail price of a 19 g protein gluten analogue** (our calculation). Inputs: analogue at VND 23,200 per 100 g (VND 232,000 per kg) and 19 g protein per 100 g [@FORM-01] {VN-direct|Medium}; vital wheat gluten assumed at about 75% protein and supplying all the protein, so about 253 g of gluten per kg of product; gluten at USD 1.73/kg (China-reported) to USD 2.52/kg (Vietnam-reported, all origins) [@FORM-07; @FORM-03] {VN-direct|High}, converted at VND 26,000 per USD. Result: VND 11,400 to 16,600 of gluten per kg, or 4.9 to 7.2% of the retail price {VN-direct|Low}. This is modelled arithmetic, not company cost data.
 
-Implication: a domestic TVP needs an ex-works price near the Chinese export unit value (USD 1.59/kg, about VND 41,300 per kg at VND 26,000 per USD, our calculation; before freight, duty and distributor margin) to compete head-on [@FORM-05] {VN-direct|Medium}. Formulators may pay a modest premium for consistency, non-GMO status, traceability or local supply security, but not a large one, because chay sells at or below meat prices (section S2.8).
+Implication: a domestic TVP needs an ex-works price near the China-reported unit value of exports to Vietnam (USD 1.59/kg, about VND 41,300 per kg at VND 26,000 per USD, our calculation; before freight, duty and distributor margin) to compete head-on [@FORM-05] {VN-direct|Medium}. Formulators may pay a modest premium for consistency, non-GMO status, traceability or local supply security, but not a large one, because chay sells at or below meat prices (section S2.8).
 
 ## S2.11 Technology level
 
@@ -332,7 +332,7 @@ Implication: a domestic TVP needs an ex-works price near the Chinese export unit
 
 | Owner group | Brands (SKU rows) | Notes and sources |
 |---|---|---|
-| Vietnamese | Vinamilk (17), Co.op Select (12), An Nhien (12), VISSAN (8), Fami / Vinasoy (8), Thoai An (5), Cholimex (4), Veyo / Vinasoy (4), SG Food (3), others | VISSAN: SATRA (Saigon Trading Group) held 67.8% (data dated August 2020) and Masan MEATLife 24.9% (December 2021) [@VCO-13] {VN-direct\|Medium}. Vinasoy is a unit of QNS [@FORM-33] {VN-direct\|High}. An Nhien is the brand of Pham Gia Phat, a registered trading company [@VCO-26] {VN-direct\|Medium}. |
+| Vietnamese | Vinamilk (17), Co.op Select (12), An Nhien (12), VISSAN (8), Fami / Vinasoy (8), Thoai An (5), Cholimex (4), Veyo / Vinasoy (4), SG Food (3), others | VISSAN: SATRA (Saigon Trading Group) held 67.8% (data dated August 2020) and Masan MEATLife 24.9% (December 2021) (our calculation from share counts and charter capital) [@VCO-13] {VN-direct\|Medium}. Vinasoy is a unit of QNS [@FORM-33] {VN-direct\|High}. An Nhien is the brand of Pham Gia Phat, a registered trading company [@VCO-26] {VN-direct\|Medium}. |
 | Korean | Cau Tre and bibigo under CJ Foods Vietnam (20), Choice L (Lotte Mart private label, 3), Pulmuone (2) | CJ Foods Vietnam describes itself as a business unit of CJ CheilJedang [@FORM-24; @VCO-12] {VN-direct\|Medium}. bibigo Healthy Mandu Chay was seen in 5 of 11 stores [@FORM-01] {VN-direct\|High}. |
 | Imported finished goods | Oatly, MilkLab, 137 Degrees, Oatside, Unconventional, Orgain and others (40 rows) | Concentrated in premium stores: Nam An Market 20 of 26 rows, Moonmilk 8 of 9, Annam Gourmet 4 of 11. Mass retailers (Co.opmart, Lotte Mart, GO!, Emart, WinMart) carry almost only Vietnam-made products [@FORM-01] {VN-direct\|High}. |
 | Disputed | Ong Cha Va / NOSAFOOD canned soy luncheon (4) | Labelled "Plant Based" in English. Nha Trang collector research says made in China; a Ho Chi Minh City row records Vietnam. The brand owner may be Vietnamese with contract manufacture in China. Unresolved [@FORM-01] {VN-direct\|Low}. |
@@ -351,32 +351,32 @@ When CJ acquired Cau Tre is **not verified**: the collector notes say 2006 and a
 | Au Lac | Au Lac Pure Vegetarian Trade Manufacturing Co., Ltd | Ho Chi Minh City, 735-737 Nguyen Kiem (former Go Vap district); the directory also records a site at Thoi An ward (former District 12) | [@FORM-20; @ECO-26] {VN-direct\|Medium} |
 | An Nhien | Pham Gia Phat Trading and Import-Export Co., Ltd | Head office Ho Chi Minh City, Hiep Thanh ward (former District 12); no plant disclosed | [@FORM-15; @VCO-26] {VN-direct\|Medium} |
 | Co.op Select (all five frozen chay dishes, including the gyoza-noodle meal); Co.op Select tofu | GN Foods JSC for Saigon Co.op (chay dishes); Thai Corp Inter.VN and Vi Nguyen (tofu) | Tay Ninh on the label; GN Foods' own address is Long Hau Extended Industrial Park, Tay Ninh (former Long An) | [@FORM-01; @ECO-35; @CPC-15] {VN-direct\|Medium} |
-| Cau Tre, bibigo | CJ Foods Vietnam Co., Ltd | Head office Ho Chi Minh City; plant claimed at Kizuna Industrial Park, Tay Ninh (former Long An), not verified | [@FORM-24; @ECO-34] {VN-direct\|Low} |
-| Fami, Veyo | Vinasoy unit of QNS | Quang Ngai; other plants in Bac Ninh and Ho Chi Minh City (former Binh Duong) | [@FORM-33; @ECO-41] {VN-direct\|Medium} |
+| Cau Tre, bibigo | CJ Foods Vietnam Co., Ltd | Head office Ho Chi Minh City (not verified); CJ CheilJedang plant at Kizuna Industrial Park, Tay Ninh (former Long An) | [@FORM-24; @ECO-34; @XBA-20] {VN-direct\|Low} |
+| Fami, Veyo | Vinasoy unit of QNS | Quang Ngai; other plants in Bac Ninh and Ho Chi Minh City (former Binh Duong) | [@FORM-33; @ECO-41; @FTR-17] {VN-direct\|Medium} |
 
-Mainstream makers minimise protein ingredients. The protein-dense segment is small, specialist and Ho Chi Minh City-based (An Nhien, Au Lac, Thoai An, Xuan Hong) [@FORM-01] {VN-direct|Medium}.
+Mainstream makers minimise protein ingredients. The protein-dense segment is small, specialist and Ho Chi Minh City-based (An Nhien, Au Lac, Thoai An; Xuan Hong's location is not verified) [@FORM-01] {VN-direct|Medium}.
 
 ## S2.13 First customers for a domestic protein ingredient
 
-Named buyers with label evidence of the ingredient they use today [@FORM-01] {VN-direct|Medium}:
+Named buyers with label or product-page evidence of the ingredient they use today, except Au Lac (inferred from protein level) [@FORM-01] {VN-direct|Medium}:
 
-1. **An Nhien / Pham Gia Phat**: soy protein, SPC and gluten; 12 SKU rows; dried and frozen analogues [@FORM-16; @FORM-17] {VN-direct|High}.
-2. **Au Lac**: a 25.1 g protein analogue implies gluten or soy protein; long-established Ho Chi Minh City maker with export claims [@FORM-20; @ECO-26] {VN-direct|Medium}.
+1. **An Nhien / Pham Gia Phat**: soy protein, SPC and gluten; 12 SKU rows; dried and frozen analogues [@FORM-01; @FORM-16; @FORM-17] {VN-direct|High}.
+2. **Au Lac**: a 25.1 g protein analogue implies gluten or soy protein; long-established Ho Chi Minh City maker with export claims [@FORM-01; @FORM-20; @ECO-26] {VN-direct|Medium}.
 3. **Xuan Hong and other dried-slice packers**: soy protein, soy flour and gluten; one label at 65.2 g protein per 100 g dry [@FORM-01] {VN-direct|Low}. The owner is not identified (see [[app-s1-directory]]).
 4. **LC Foods**: TVP granules 4-7 mm [@FORM-28] {VN-direct|High}.
-5. **Cholimex**: TVP "ribs" (*sườn non chay*) and soy flour in bun dough; bun label 5.74 g protein [@FORM-27] {VN-direct|High}.
+5. **Cholimex**: vegetarian "ribs" (*sườn non chay*, likely TVP) and soy flour in bun dough; bun label 5.74 g protein [@FORM-01; @FORM-27] {VN-direct|High}.
 6. **CJ Foods Vietnam**: soy protein in bibigo mandu and the Cau Tre crispy line; large volumes and multinational procurement standards [@FORM-01; @FORM-24] {VN-direct|Medium}.
-7. **VISSAN**: soy protein and tofu skin in spring rolls, canned vegan slices; also a large meat processor using SPI-type binders [@FORM-25] {VN-direct|High}.
+7. **VISSAN**: soy protein and tofu skin in spring rolls, canned vegan slices; also a large meat processor, probably using SPI-type binders (not verified) [@FORM-01; @FORM-25] {VN-direct|Medium}.
 8. **Thoai An**: gluten at 35% of its *chả lụa ớt xiêm chay*, plus soy protein [@FORM-26] {VN-direct|High}.
 9. **Retailer co-packers**, such as GN Foods (Tay Ninh), which Co.op Online names as the maker of all five Co.op Select frozen chay dishes [@FORM-01; @ECO-35; @CPC-15] {VN-direct|Medium}. A co-packer can take a protein upgrade to the retailer without a consumer brand.
-10. **Vinamilk and Vinasoy** for plant-milk proteins: pea protein today; okara and soy by-products are a separate lead [@FORM-01] {VN-direct|Medium}.
+10. **Vinamilk and Vinasoy** for plant-milk proteins: pea protein at Vinamilk and soy and oat at Vinasoy today; okara and soy by-products are a separate lead [@FORM-01] {VN-direct|Medium}.
 
 What a supplier could displace, in order of realism (our reading of the evidence):
 
 - **Textured soy granules, chunks and slices** in chay fillings, dried analogues and canned slices. The import pool is about 8,000 t a year of China-origin HS 2106.10 (2023), part of which is TVP [@FORM-05] {VN-direct|Medium}. A 5,000 to 10,000 t a year extruder would be sized to replace a large share of it if it matched price (our calculation on the same input; the TVP share of the code is unknown).
 - **Wheat gluten** in *chả*, *giò* and seafood analogues (10,000 to 12,000 t or more a year of imports) [@FORM-07; @FORM-03] {VN-direct|Medium}. Hard to displace: gluten gives an elastic bite that rice, mung bean or fungal proteins do not. Blends are more realistic than substitution.
 - **Pea protein** in plant milks and yoghurts. A mung bean protein isolate is the closest functional substitute with a regional supply base (Myanmar, Cambodia, Vietnam), but it is an origin or allergen play, not a price play [@FORM-08] {general|Low}.
-- **Protein upgrading of filled wrappers** (archetype A1, 38 rows, about 4 g protein). Adding 3 to 5% TVP or mung bean protein could lift these to 6 to 8 g (our estimate), but the median price is VND 11,425 per 100 g, so the added ingredient must be cheap [@FORM-01] {VN-direct|Low}.
+- **Protein upgrading of filled wrappers** (archetype A1, 38 rows, about 4 g protein). Adding 3 to 5% TVP or mung bean protein could lift these to about 5.5 to 7 g (our estimate), but the A1 median price is about VND 11,000 per 100 g (our calculation, 30 priced rows), so the added ingredient must be cheap [@FORM-01] {VN-direct|Low}.
 
 ## S2.14 Limitations
 
@@ -386,9 +386,9 @@ What a supplier could displace, in order of realism (our reading of the evidence
 - **Label values, not laboratory values.** Eight protein values were borrowed from the same product's label elsewhere in the audit. One brand-wide average (Fami 1.9 g) conflicts with carton labels (2.5 g).
 - **Translation.** Some ingredient lists were translated by the collector.
 - **Prices.** 34 rows have low-confidence price reads; 27 rows use online reference prices, not shelf prices; one outlier is excluded.
-- **Import flag.** Inferred from ingredient type, not traced suppliers; mung bean is treated as domestic although Vietnam imports about 100,000 t a year [@FORM-08] {VN-direct|Medium}.
+- **Import flag.** Inferred from ingredient type, not traced suppliers; mung bean is treated as domestic although Vietnam imported about USD 138 million of it in 2023 (roughly 100,000 t, imputed; includes black gram) [@FORM-08] {VN-direct|Medium}.
 - **Trade data.** 2023 is the latest year reported by Vietnam to WITS at access; Vietnam-reported tonnages are imputed; the codes include non-alt-protein uses.
-- **Company research was cut short.** The formulation agent's web search budget ran out after about 15 searches. Xuan Hong, Kashew, Deep Blue Island and GN Foods sites were unreachable; Vinamilk product pages returned errors [@FORM-01] {VN-direct|High}.
+- **Company research was cut short.** The formulation agent's web search budget ran out after about 15 searches (wave 1 formulation working note). Xuan Hong, Kashew and GN Foods sites were unreachable, the Deep Blue Island domain redirected to an unrelated site, and Vinamilk product pages returned errors {VN-direct|Medium}.
 
 ## S2.15 What a follow-up audit should capture
 

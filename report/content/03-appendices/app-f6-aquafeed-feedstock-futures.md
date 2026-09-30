@@ -19,7 +19,7 @@ charts: []
 
 **How to use it.** Feed manufacturers and investors: F6.3, F6.4 and F6.6. Policy makers: F6.1, F6.3, F6.10 and F6.12. Founders choosing a fermentation site: F6.9, F6.11 and F6.13. Signposts are in [[app-f2-drivers-signals]].
 
-> **Method note.** Our aquaculture paths (AQ-LOW, AQ-BASE, AQ-HIGH) and feedstock cases (A, B, C) are what-if cases, not forecasts, and carry no probabilities. All arithmetic is in two rerunnable scripts: `working-papers/wave3/aquaculture_futures/aqf_calc.py` and `working-papers/wave3/next_gen_feedstocks/ngf_calc.py`. Aquafeed tonnages use the USDA-consistent scale (6.5 Mt in 2025), as the balance model does; the industry estimate is 3.9 to 4.8 Mt [@MAC-01; @MAC-06] {VN-direct|Medium}. Multiply our tonnages by about 0.67 for the industry scale ([[app-s6-feed-market]], section S6.3). CP is crude protein; FCR is feed conversion ratio (kg of feed per kg of output); SE is sugar equivalent (tonnes of glucose that would grow the same protein on the sugar route, at 4.0 t of glucose per t of protein).
+> **Method note.** Our aquaculture paths (AQ-LOW, AQ-BASE, AQ-HIGH) and feedstock cases (A, B, C) are what-if cases, not forecasts, and carry no probabilities. All arithmetic is in two rerunnable scripts: `working-papers/wave3/aquaculture_futures/aqf_calc.py` and `working-papers/wave3/next_gen_feedstocks/ngf_calc.py`. Aquafeed tonnages use the USDA-consistent scale (6.5 Mt in 2025), as the balance model does; industry species estimates sum to about 3.9 to 4.8 Mt (our sum) [@MAC-01; @MAC-06] {VN-direct|Medium}. Multiply our tonnages by about 0.67 for the industry scale ([[app-s6-feed-market]], section S6.3). CP is crude protein; FCR is feed conversion ratio (kg of feed per kg of output); SE is sugar equivalent (tonnes of glucose that would grow the same protein on the sugar route, at 4.0 t of glucose per t of protein).
 
 ---
 
@@ -31,14 +31,14 @@ charts: []
 |---|---|---|---|
 | Decision 339/QD-TTg (2021), fisheries strategy | Aquaculture 7.0 Mt; capture 2.8 Mt | 2045: "top three" producer; no volume | Official target {fx:projection} [@NTS-08; @AQF-28] {VN-direct\|High} |
 | Decision 1664/QD-TTg (2021), marine aquaculture | 1.45 Mt on 300,000 ha; offshore 340 kt | 2045: over 25% of fisheries output | Official target {fx:projection} [@AQF-01] {VN-direct\|High} |
-| Decision 389/QD-TTg (2024), fisheries resources | At most about 83,600 vessels; trawlers 10% | 2050: qualitative only | Official target {fx:projection} [@AQF-15] {VN-direct\|Medium} |
+| Decision 389/QD-TTg (2024), fisheries resources | About 83,600 vessels; trawlers 10% | 2050: qualitative only | Official target {fx:projection} [@AQF-15] {VN-direct\|Medium} |
 | Decision 231/QD-TTg (2025), Khanh Hoa pilot | 8,700 t on 440 ha by 2029 | none | Official target {fx:projection} [@AQF-13] {VN-direct\|Medium} |
 | OECD-FAO Agricultural Outlook 2026-2035 | Aquaculture 6.12 Mt; implied capture 3.50 Mt | 2035: aquaculture 6.83 Mt | Published model {fx:projection} [@AQF-02] {VN-direct\|Medium} |
-| *Fish to 2050 in the ASEAN region* (IMPACT) | ASEAN aquaculture 24.8 Mt | 2050: 27.4 Mt; no Vietnam figure | Published model {fx:projection} [@AQF-25] {VN-adjacent\|Low} |
+| *Fish to 2050 in the ASEAN region* (IMPACT) | ASEAN aquaculture 24.8 Mt | 2050: 27.4 Mt; Vietnam in appendix charts only, no figure in text | Published model {fx:projection} [@AQF-25] {VN-adjacent\|Low} |
 | FAO SOFIA 2026 | none | 2034: 214 Mt of aquatic animals, world | Published projection {fx:projection} [@AQF-03] {general\|Medium} |
 
-- **No Vietnam-specific projection beyond 2035.** We checked Decisions 339, 1664 and 389 and *Fish to 2050* and found no published volume after 2035 and no national species-level target for 2030 [@AQF-28; @AQF-25] {VN-direct|High}. The only later anchor is the 2045 vision that marine aquaculture should supply "trên 25% tổng sản lượng" (over 25% of total output), read as total fisheries output [@AQF-01] {VN-direct|Medium}.
-- **The published model sits below the target and ignores the fleet cut.** OECD-FAO holds capture near 3.5 Mt in 2030, 25% above the 2.8 Mt target (our subtraction of aquaculture from total fish) [@AQF-02; @NTS-08] {VN-direct|Medium} {fx:projection}. Its 2025 base (5.69 Mt) is below the NSO figure of 6.12 Mt [@MAC-15] {VN-direct|High}. We show both and do not average them.
+- **No government volume target beyond 2030.** We checked Decisions 339, 1664 and 389 and found no official volume after 2030, and Decision 339 sets no national species-level target for 2030 [@AQF-28] {VN-direct|High}. The only projection past 2035 is the business-as-usual model in *Fish to 2050*, which shows Vietnam in charts to 2050 but gives no Vietnam table [@AQF-25] {VN-adjacent|Low} {fx:projection}. The only later official anchor is the 2045 vision that marine aquaculture should supply "trên 25% tổng sản lượng" (over 25% of total output), read as total fisheries output [@AQF-01] {VN-direct|Medium}.
+- **The published model sits below the target and ignores the fleet cut.** OECD-FAO holds capture near 3.5 Mt in 2030, 25% above the 2.8 Mt target (our subtraction of aquaculture from total fish) [@AQF-02; @NTS-08] {VN-direct|Medium} {fx:projection}. Its 2025 base (5.69 Mt) [@AQF-02] {VN-direct|Medium} is below the NSO figure of 6.12 Mt [@MAC-15] {VN-direct|High}. We show both and do not average them.
 - **Marine aquaculture is behind plan:** about 730 kt in 2021 [@AQF-11] against 850 kt targeted for 2025; we found no 2025 outturn {VN-direct|Medium}.
 - **Lobster value is ahead of the volume plan.** Lobster exports to China were USD 845 M in 2025 and over USD 506 M in January to May 2026 (+44.3%) [@AQF-12], against a 2030 output target of 5 kt {VN-direct|Medium} {fx:signal}.
 - **Growth after 2030 is the largest open number.** IMPACT implies ASEAN aquaculture growth of about 0.5% a year from 2030 to 2050 (our calculation from [@AQF-25]) {VN-adjacent|Low} {fx:projection}, while Vietnamese aquaculture grew 5.1% in 2025 and 5.7% in the first half of 2026 [@MAC-15; @MAC-17] {VN-direct|High} {fx:trend}.
@@ -74,7 +74,7 @@ All paths: {VN-direct|Low} {fx:estimate}. Marine finfish is carved out of "other
 | AQ-BASE 2030 / 2040 / 2050 | 7.06 / 8.64 / 9.72 | 2.20 / 2.73 / 3.10 (2.07) | 1.67 / 2.22 / 2.64 |
 | AQ-HIGH 2030 / 2040 / 2050 | 7.57 / 9.89 / 12.53 | 2.36 / 3.16 / 4.08 (2.73) | 1.83 / 2.78 / 3.89 |
 
-**Coefficients** (our assumptions). FCR on pellets 1.5 for all groups except whiteleg shrimp (1.3), improving 0.3% a year. Dietary CP: pangasius 27%, shrimp 40%, other fish 30%, marine finfish 45%; the shrimp and marine values sit within the 40 to 43% of standard shrimp feeds [@FM-10] and the 40 to 50% of marine feeds [@VCO-10] {VN-direct|Medium}. Share of output on pellets from 2025 to 2050: pangasius and whiteleg 100%; other shrimp 30 to 50%; other fish 68 to 85%; marine finfish 15% rising to 60% (LOW), 95% (BASE) or 100% (HIGH).
+**Coefficients** (our assumptions). FCR on pellets 1.5 for all groups except whiteleg shrimp (1.3), improving 0.3% a year. Dietary CP: pangasius 27%, shrimp 40%, other fish 30%, marine finfish 45%; the shrimp and marine values sit within the 40 to 50% CP of commercial shrimp feed lines [@FM-10] {VN-direct|Medium}; we found no Vietnamese source for the CP of marine finfish feeds. Share of output on pellets from 2025 to 2050: pangasius and whiteleg 100%; other shrimp 30 to 50%; other fish 68 to 85%; marine finfish 15% rising to 60% (LOW), 95% (BASE) or 100% (HIGH).
 
 **How AQ-BASE relates to S-BASE.** AQ-BASE gives 8.86 Mt of aquaculture and 9.72 Mt of aquafeed in 2050, against 8.52 Mt and 9.24 Mt in S-BASE (`balance_outputs.csv`, BLO-0223, BLO-0235). The gap is only the faster marine finfish path; aquaculture growth after 2035 moves the 2050 soybean-meal result by about 1 Mt at most ([[app-f4-balance-model]]) {VN-direct|Low} {fx:estimate}. Across our paths, 2050 aquafeed protein spans 1.6 Mt (2.5 to 4.1 Mt of CP): growth after 2030 matters more than formulation.
 
@@ -85,15 +85,15 @@ All paths: {VN-direct|Low} {fx:estimate}. Marine finfish is carved out of "other
 | Item | Value | Evidence |
 |---|---|---|
 | Trash fish landed, 2001 | 0.93 Mt, 36% of marine landings; two thirds from the Gulf of Thailand; up to 80% of trawl catch in former Kien Giang (now An Giang) | [@AQF-05] {VN-direct\|Medium} |
-| Fed directly to aquaculture, 2002 | 0.18 to 0.32 Mt (pangasius, shrimp, grouper, lobster); about 185 kt to fish powder and 80 kt to fishmeal | [@AQF-05] {VN-direct\|Medium} |
+| Fed directly to aquaculture, 2001 to 2002 | 0.18 to 0.32 Mt (pangasius, shrimp, grouper, lobster); separately, about 185 kt of fish powder and 80 kt of fishmeal produced | [@AQF-05] {VN-direct\|Medium} |
 | Trawlers | 16,400 (2008) to 20,340 (2016) | [@AQF-06] {VN-direct\|Medium} |
 | Fishmeal factories, 2017 | 96, with 675 kt of documented capacity; 81 name "sea fish" as main raw material | [@AQF-06] {VN-direct\|Medium} |
-| South-central mariculture, 2021 | About 90% of stakeholders fed trash fish as main feed; 9.41% used pellets; lobster FCR 35 to 40 | [@AQF-07] {VN-direct\|Medium} |
-| Other users | All southern mud-crab farmers; cobia, grouper and snapper cages | [@AQF-08; @AQF-10] {VN-direct\|Medium} |
+| South-central mariculture, survey 2018 to 2019 (published 2021) | About 90% of stakeholders fed trash fish as main feed; 9.41% used pellets; lobster FCR 35 to 40 | [@AQF-07] {VN-direct\|Medium} |
+| Other users | Most mud-crab farmers in the centre and south; cobia, grouper and snapper cages | [@AQF-05; @AQF-08; @AQF-10] {VN-direct\|Medium} |
 
 Pangasius and whiteleg shrimp have since moved to pellets, and up to 0.3 Mt of snakehead pellets in 2025 suggests most snakehead has too [@MAC-06] {VN-direct|Low}.
 
-**The capture plan.** Decision 389 caps trawlers at about 8,360 by 2030, about 59% fewer than in 2016 (our calculation from [@AQF-15; @AQF-06]) {VN-direct|Medium} {fx:projection}, and capture is to fall from 3.83 Mt (2025) [@MAC-15] to 2.8 Mt (2030) [@NTS-08] {VN-direct|High} {fx:projection}. Trawl catch is the main source of trash fish, so low-value fish for direct feeding and for whole-fish meal should fall sharply by 2030 {VN-direct|Medium} {fx:estimate}. Decision 339 orders "thức ăn công nghiệp thay thế sử dụng cá tạp" (industrial feed to replace trash fish) and Decision 1664 orders feed zones next to sea farms, but neither sets a volume or date [@NTS-08; @AQF-01] {VN-direct|High}.
+**The capture plan.** Decision 389 caps trawlers at about 8,360 boats by 2030 [@AQF-15; @AQF-06] {VN-direct|Medium} {fx:projection}, and capture is to fall from 3.83 Mt (2025) [@MAC-15] to 2.8 Mt (2030) [@NTS-08] {VN-direct|High} {fx:projection}. Trawl catch is the main source of trash fish, so low-value fish for direct feeding and for whole-fish meal should fall sharply by 2030 {VN-direct|Medium} {fx:estimate}. Decision 339 orders "thức ăn công nghiệp thay thế việc sử dụng cá tạp" (industrial feed to replace trash fish) and Decision 1664 orders feed zones next to sea farms, but neither sets a volume or date [@NTS-08; @AQF-01] {VN-direct|High}.
 
 **Direct trash-fish feeding in 2025** (our calculation, `aqf_calc.py`) {VN-direct|Low}
 
@@ -105,7 +105,7 @@ Pangasius and whiteleg shrimp have since moved to pellets, and up to 0.3 Mt of s
 | Freshwater carnivores | 10 / 16 / 30 | 100% | 4 to 6 | 40 / 80 / 180 | 15 / 24 / 45 |
 | **Total** | | | | **404 / 780 / 1,604** | **128 / 210 / 342** |
 
-The central case is about 20% of 2025 capture (10 to 42%) and carries about 133 kt of protein at 17% CP. Pellets that replace it need only about 88 kt of CP (54 to 144 kt), because they convert about four times better. The 2002 figure is not comparable: the species mix has changed.
+The central case is about 20% of 2025 capture (10 to 42%) and carries about 133 kt of protein at 17% CP. Pellets that replace it need only about 88 kt of CP (54 to 144 kt), because they convert about four times better. The 2001 to 2002 figure is not comparable: the species mix has changed.
 
 **Extra formulated feed over 2025**, from marine finfish growth plus conversion of the other trash-fish species (15, 30 and 50% converted by 2030 in LOW, BASE and HIGH; 40, 70 and 90% by 2040; 60, 90 and 100% by 2050; our calculation, `aqf_calc.py`) {VN-direct|Low} {fx:estimate}
 
@@ -117,15 +117,17 @@ The central case is about 20% of 2025 capture (10 to 42%) and carries about 133 
 
 Fishmeal is at 20% of marine pellets in 2025, falling to 12% by 2050 (the hypothesis in [[app-s6-feed-market]], section S6.6, is 15 to 30%). **Reading:** to 2050 the transition is a small share of aquafeed tonnage but a large share of the premium segment, where a novel protein or oil competes with fishmeal and fish oil, not soybean meal {VN-direct|Low} {fx:estimate}.
 
-> **Open question.** Our 2025 marine pellet base (18 kt) is well below the industry estimate of 80 to 100 kt of marine fish feed [@MAC-06] and the 40 to 50 kt of capacity reported for 2022 [@AQF-09] {VN-direct|Low}. If the industry figure is right, the extra pellets above fall by about 60 to 80 kt; the 2050 volumes do not change (our calculation).
+> **Open question.** Our 2025 marine pellet base (18 kt) is well below the industry estimate of 80 to 100 kt of marine fish feed [@MAC-06] and the 40 to 50 kt a year of marine-culture feed output reported in 2022 [@AQF-09] {VN-direct|Low}. If the industry figure is right, the extra pellets above fall by about 60 to 80 kt; the 2050 volumes do not change (our calculation).
 
 ## F6.4 Marine finfish and offshore cages
 
 **Decision 1664 targets for fed species** [@AQF-01] {VN-direct|High} {fx:projection} (official target): marine finfish 120 kt in 2025 and 200 kt in 2030 (of which offshore 60 and 120 kt); lobster 3 and 5 kt; other crustaceans 67 and 95 kt; all fed species 190 and 300 kt (our sum). Offshore (*nuôi biển xa bờ*: offshore sea farming) is 340 kt of all species on 30,000 ha by 2030. The offshore provinces are, on the current map, Quang Ninh, Hai Phong, Quang Ngai, Dak Lak (former Phu Yen), Khanh Hoa (including former Ninh Thuan), Lam Dong (former Binh Thuan), Ho Chi Minh City (former Ba Ria-Vung Tau), Ca Mau and An Giang (former Kien Giang).
 
-**The Khanh Hoa pilot.** Decision 231/QD-TTg (January 2025) allows 240 ha at 0 to 3 nautical miles (3,600 t) and 200 ha at 3 to 6 nautical miles (5,100 t) to 2029 in HDPE cages, phased 30 ha (2025), 100 ha (2026 to 2027) and 110 ha (2028 to 2029) [@AQF-13] {VN-direct|Medium} {fx:projection}. The phases add up to 240 ha; we could not see how the outer 200 ha is phased. Pilot HDPE farms reported profits of 172% (cobia), 112% (lobster) and 131.4% (grouper) of same-size wooden-cage farms (provincial claim) [@AQF-13] {VN-direct|Low}. Storm No. 12 (2017) destroyed wooden cages there [@AQF-14], and HDPE cages hold up to 300 t of cobia each [@AQF-10] {VN-direct|Medium}.
+**The Khanh Hoa pilot.** Decision 231/QD-TTg (January 2025) allows 240 ha at 0 to 3 nautical miles (3,600 t) and 200 ha at 3 to 6 nautical miles (5,100 t) to 2029; the pilot expansion under the Decision is phased 30 ha (2025), 100 ha (2026 to 2027) and 110 ha (2028 to 2029) [@AQF-13] {VN-direct|Medium} {fx:projection}. The phases add up to 240 ha; we could not see how the outer 200 ha is phased. Pilot HDPE farms reported profits of 172% (cobia), 112% (lobster) and 131.4% (grouper) of same-size wooden-cage farms (provincial claim) [@AQF-13] {VN-direct|Low}. Storm No. 12 (2017) destroyed wooden cages there [@AQF-14], and HDPE round cages (used since 2004) yield 10 to 15 t each for pompano and up to 300 t for barramundi (Asian seabass) [@AQF-10] {VN-direct|Medium}.
 
-**Feed capacity.** Marine-fish feed capacity was 40,000 to 50,000 t a year in 2022, over 80% foreign-owned [@AQF-09] {VN-direct|Medium}. De Heus opened a marine and cold-water fish feed mill in Vinh Long in July 2026, 168,000 t a year by the company's figure [@VCO-10] {VN-direct|Medium} {fx:signal}. We found no national count or target for recirculating (RAS) farms.
+> **Correction.** In v0.6 this said HDPE cages hold up to 300 t of cobia each; the source says up to 300 t per cage for barramundi (Asian seabass) and 10 to 15 t for pompano.
+
+**Feed capacity.** Output of complete feed for marine farming was 40,000 to 50,000 t a year in 2022, and foreign-invested firms held over 80% of marine-fish feed sales [@AQF-09] {VN-direct|Medium}. De Heus opened a marine and cold-water fish feed mill in Vinh Long in July 2026, 84,000 t a year in its first phase (168,000 t a year design capacity) [@VCO-10; @IND-45] {VN-direct|Medium} {fx:signal}. We found no national count or target for recirculating (RAS) farms.
 
 **Where protein and omega-3 concentrate** (marine finfish pellets; our calculation, `aqf_calc.py`) {VN-direct|Low} {fx:estimate}
 
@@ -150,7 +152,7 @@ Fishmeal is at 20% of marine pellets in 2025, falling to 12% by 2050 (the hypoth
 
 - OECD-FAO builds El Niño years into 2027 and 2031, with Peru's fishmeal at 0.72 and 0.53 Mt against about 1.1 Mt in normal years [@AQF-02] {general|Medium} {fx:projection}.
 - **2026 runs below the model.** Peru's first 2026 season landed about 25% of a 1.9 Mt quota, and world fishmeal output fell 26% year on year in January to April 2026 [@HSC-29; @HSC-30] {general|Medium}. NOAA gives a greater than 90% chance of a very strong El Niño in winter 2026 to 2027 [@HSC-28] {general|High} {fx:signal}.
-- **Our 2050 extension:** whole-fish meal flat or down at 3.2 to 3.8 Mt, plus by-product meal of 2.8 to 3.8 Mt, up from about 1.9 Mt in 2024 (`aqf_calc.py`) {general|Low} {fx:estimate}. Later this century, extreme El Niño events about double in frequency under high emissions in older models [@CLM-27], a finding contested for the newest ones; the IPCC finds ENSO rainfall variability very likely amplified in 2050 to 2100 [@CLM-28] {general|Low} {fx:projection}. Almost 12 Mt of processing by-products are still not collected, most of the potential in Asia [@AQF-04] {general|Medium}.
+- **Our 2050 extension:** whole-fish meal flat or down at 3.2 to 3.8 Mt, plus by-product meal of 2.8 to 3.8 Mt, up from about 1.9 Mt in 2024 (`aqf_calc.py`) {general|Low} {fx:estimate}. Later this century, extreme El Niño events about double in frequency under high emissions in older models [@CLM-27], a finding contested for the newest ones; the IPCC finds ENSO rainfall variability very likely amplified in the second half of the century under SSP2-4.5 and higher scenarios [@CLM-28] {general|Low} {fx:projection}. A 2016 estimate (Jackson and Newton, via IFFO) put uncollected processing by-products at almost 12 Mt, most of the potential in Asia [@AQF-04] {general|Medium}.
 
 **Vietnam's own supply**
 
@@ -162,7 +164,7 @@ Fishmeal is at 20% of marine pellets in 2025, falling to 12% by 2050 (the hypoth
 | Fish oil production, kt | 190 | 205 | 219 | Pangasius oil 258 / 300 / 366 | As fishmeal production |
 | EPA plus DHA in that oil, kt | 0.4 to 0.6 | | | 0.5 to 1.1 | [@AQF-29] and our calculation {VN-direct\|Low} {fx:estimate} |
 
-- **Pangasius off-cuts are the base.** Pangasius supplied 12% of the world's by-product fishmeal and 29% of its by-product fish oil in 2024 [@AQF-04] {VN-direct|Medium}: about 225 kt of meal (5.52 Mt x 34% x 12%) and 215 kt of oil (1.375 Mt x 54% x 29%), or 0.116 t of meal and 0.111 t of oil per t of fish (our calculation). By-products are 62 to 67% of the whole fish [@MAC-45] {VN-direct|Medium}.
+- **Pangasius off-cuts are the base.** Pangasius supplied 12% of the world's by-product fishmeal and 29% of its by-product fish oil in 2024 [@AQF-04] {VN-direct|Medium}: about 225 kt of meal (world fishmeal 5.52 Mt x 34% x 12%) and 215 kt of oil (world fish oil 1.375 Mt x 54% x 29%), or 0.116 t of meal and 0.111 t of oil per t of fish (our calculation). By-products are 62 to 67% of the whole fish (Minh 2014, cited in [@MAC-45]) {VN-direct|Medium}.
 - The 2050 fishmeal-demand range runs from 151 kt (S-EFF, S-ALT) and 253 kt (S-BASE) to 393 kt if the OECD-FAO 2035 value grows 1% a year (our calculation) {VN-direct|Low} {fx:estimate}.
 - **Reading.** Vietnam can plausibly stay self-sufficient in fishmeal *volume* to 2050 through by-products, but stays short of high-grade (65% CP) meal for shrimp and marine feeds, which it imports today ([[app-s6-feed-market]], section S6.5) {VN-direct|Low} {fx:estimate}.
 
@@ -179,11 +181,11 @@ Fishmeal is at 20% of marine pellets in 2025, falling to 12% by 2050 (the hypoth
 | Marine finfish (1.0) | 0.2 | 0.9 | 3.4 | 5.9 | 13.9 |
 | **Total (range)** | **11.0 (4.5 to 22.0)** | **12.7 (5.4 to 24.9)** | **17.5 (8.0 to 33.2)** | **21.4 (10.3 to 39.8)** | **32.8 (17.2 to 58.5)** |
 
-The ranges use 0.3 to 1.0% for shrimp, 0.7 to 1.5% for marine finfish [@AQF-18] and 0 to 0.2% for freshwater fish. AQ-LOW gives 14.8 kt in 2050. The AQ-BASE 2050 need equals about 85 kt of marine fish oil at 25% EPA plus DHA (41 to 159 kt), part of it supplied by residual oil in fishmeal.
+The ranges are our assumptions: 0.3 to 1.0% for shrimp, 0.7 to 1.5% for marine finfish (anchored on the about 1% EPA plus DHA of dry matter used as a standard marine-fish diet in [@AQF-18]) and 0 to 0.2% for freshwater fish. AQ-LOW gives 14.8 kt in 2050. The AQ-BASE 2050 need equals about 85 kt of marine fish oil at 25% EPA plus DHA (41 to 159 kt), part of it supplied by residual oil in fishmeal.
 
 {{kn:kn-omega3-need-2050}}
 
-**Vietnam's fish oil is not an omega-3 source.** Oil from pangasius processing waste holds 0.07 to 0.15% EPA and 0.10 to 0.16% DHA in its fatty acids, in a study of Indonesian farmed pangasius [@AQF-29] {VN-adjacent|Medium}. Vietnam's 190 kt of fish oil therefore holds only about 0.4 to 0.6 kt of EPA plus DHA (our calculation), against a need of about 11 kt {VN-direct|Low}.
+**Pangasius oil is a poor omega-3 source.** Oil from pangasius processing waste holds 0.07 to 0.15% EPA and 0.10 to 0.16% DHA in its fatty acids, in a study of Indonesian farmed pangasius [@AQF-29] {VN-adjacent|Medium}. Vietnam's 190 kt of fish oil therefore holds only about 0.4 to 0.6 kt of EPA plus DHA (our calculation), against a need of about 11 kt {VN-direct|Low}.
 
 **The global gap.** World EPA plus DHA supply is "optimistically estimated at just over 0.8 million tonnes", with a shortfall of more than 0.4 Mt, or over 1 Mt in pessimistic calculations; almost 90% comes from capture fisheries [@AQF-16] {general|Medium}.
 
@@ -194,7 +196,7 @@ The ranges use 0.3 to 1.0% for shrimp, 0.7 to 1.5% for marine finfish [@AQF-18] 
 | Algal oil (*Schizochytrium*), Veramaris | USD 200 M plant (2019) on US corn syrup; capacity claimed equal to 1.2 Mt of wild fish and about 15% of salmon farming's EPA plus DHA need; about twice fish oil's content; used in salmon, shrimp and marine-fish feeds | [@AQF-23; @AQF-24; @AQF-16] {general\|Low} (company claims) |
 | Algal omega-3, Corbion | Reported in about 30% of salmon diets (basis unclear) | [@AQF-24] {general\|Low} |
 | Omega-3 canola oil (transgenic) | Replaced 100% of fish oil in low-fishmeal whiteleg shrimp diets without growth loss | [@AQF-19] {general\|Medium} |
-| Vietnamese rules | 6 GE canola events approved for food and feed; the aquafeed permitted list has no microalgae | [@AQF-21; @REG2-01] {VN-direct\|High} |
+| Vietnamese rules | 6 distinct GE canola events (7 table rows) approved for food and feed; the aquafeed permitted list has no microalgae | [@AQF-21; @REG2-01] {VN-direct\|High} |
 
 **Credible 2050 shares for alternative ingredients** (AQ-BASE; our calculation, `aqf_calc.py`) {VN-direct|Low} {fx:estimate}
 
@@ -218,7 +220,7 @@ The ranges use 0.3 to 1.0% for shrimp, 0.7 to 1.5% for marine finfish [@AQF-18] 
 
 | Year | Area, kha | Yield, t per ha | Bean imports, Mt | Evidence |
 |---|---|---|---|---|
-| 2010 | About 205 (peak) | | | [@AQF-20] {VN-direct\|Medium} |
+| 2010 | About 205 | | | [@AQF-20] {VN-direct\|Medium} |
 | 2021 | 36.8 | | | [@AQF-20] {VN-direct\|Medium} |
 | 2024 to 2025 | Under 20 (press) or 39.0 (OECD-FAO) | 1.62 (press) or 1.28 (OECD-FAO) | 2.50 to 2.60 | [@AQF-20; @AQF-02] {VN-direct\|Medium} |
 | 2030 | 39.3 | 1.19 | 2.91 | [@AQF-02] {VN-direct\|Medium} {fx:projection} |
@@ -241,23 +243,25 @@ Domestic beans would first displace food-soy imports, so their contribution to *
 
 | Item | Status | Evidence |
 |---|---|---|
-| GE events for food and feed | 60 in total. By crop: maize 16, soybean 15, cotton 10 and alfalfa 4 (feed only), canola 6, sugar beet 1; these sum to 52, and we could not place the other 8 | [@AQF-21] {VN-direct\|High} |
+| GE events for food and feed | 60 in total. By crop: maize 22, soybean 17, cotton 10 and alfalfa 3 (feed only), canola 7 (6 distinct events; one listed twice), sugar beet 1 | [@AQF-21] {VN-direct\|High} |
 | GE maize for cultivation | 31 hybrids; about half of feed-maize area in 2023 to 2024 | [@AQF-21] {VN-direct\|Medium} |
 | GE soybean | No field-test application ever submitted; gene-edited high-protein lines in greenhouse biosafety evaluation | [@AQF-21] {VN-direct\|Medium} |
-| Decree 43/2026/ND-CP | Gene-edited organisms without foreign DNA leave GMO rules (notification at MAE); approval cut from 90 to 45 working days for events cleared in five OECD or G20 countries; refined products are not "GM food"; first rules for GM microorganisms in contained production | [@AQF-22] {VN-direct\|Medium} (secondary summary) |
+| Decree 43/2026/ND-CP | Gene-edited organisms without foreign DNA leave GMO rules (notification to the agriculture ministry, MARD, now MAE); approval cut from 90 to 45 working days for events cleared in five OECD or G20 countries; refined products are not "GM food"; first rules for GM microorganisms in contained production | [@AQF-22] {VN-direct\|Medium} (secondary summary) |
 
-**Reading.** Gene editing is the only long-run route by which domestic soybean could matter for feed; the first signals to watch between 2026 and 2035 are a notification under Decree 43/2026 or a field-test application {VN-direct|Medium} {fx:signal}. Duckweed and azolla have been fed in northern Vietnam for centuries [@AQF-30; @AQF-31], but we found no current area or volume data {VN-direct|Medium}.
+> **Correction.** In v0.6 this said maize 16, soybean 15, alfalfa 4 and canola 6, summing to 52 with 8 events unplaced; the source lists all 60: maize 22, soybean 17, cotton 10, canola 7, alfalfa 3 and sugar beet 1.
+
+**Reading.** Gene editing is the only long-run route by which domestic soybean could matter for feed; the first signals to watch between 2026 and 2035 are a notification under Decree 43/2026 or a field-test application {VN-direct|Medium} {fx:signal}. Azolla has been used as fodder in Vietnam for centuries [@AQF-30], and duckweed is fed to ducks in the Mekong Delta [@AQF-31], but we found no current area or volume data {VN-direct|Medium}.
 
 ## F6.8 Climate and aquaculture geography
 
 | Driver | Evidence | Effect on aquafeed by 2050 | Source |
 |---|---|---|---|
 | Mekong salinity | Salinity-affected area up 10 to 27% by about 2050 from subsidence and riverbed incision, plus 6 to 19% from sea-level rise (`climate_impacts_2050.csv`, CI-11, CI-12) | Coastal land moves from rice to shrimp: more protein-dense, fishmeal-using feed | [@CLM-15; @CLM-21; @CLM-40] {VN-direct\|Medium} {fx:projection} |
-| Pangasius sites | All 2009 farm sites face 2 m floods at +50 cm of sea-level rise (after 2050 in most scenarios); at +75 cm salinity shortens grow-out in Can Tho (former Soc Trang), Vinh Long (former Ben Tre) and Dong Thap (former Tien Giang) | Pangasius feed demand may move rather than shrink | [@CLM-20] {VN-direct\|Medium} {fx:projection} |
+| Pangasius sites | All 2009 farm sites face 2 m floods at +50 cm of sea-level rise (after 2070 under MONRE's B2 sea-level path); at +75 cm salinity shortens grow-out in Can Tho (former Soc Trang), Vinh Long (former Ben Tre) and Dong Thap (former Tien Giang) | Pangasius feed demand may move rather than shrink | [@CLM-20] {VN-direct\|Medium} {fx:projection} |
 | Pangasius range | "Likely to expand northward", with the Red River Delta playing a larger role | Pangasius feed mills in the north | [@AQF-26] {VN-direct\|Low} {fx:signal} |
 | Northern warming | 1.2 to 1.3 °C by 2050 slows tilapia growth | Poorer feed conversion for northern tilapia | [@AQF-26] {VN-direct\|Low} {fx:projection} |
 | Typhoons and floods | Wooden cages lost in 2017; 1.1 Mt of farmed output at risk of flood loss each year | Shift to HDPE and pellets; supply shocks | [@AQF-14; @CLM-08] {VN-direct\|Medium} |
-| El Niño | Hits fishmeal and fish oil together | Price spikes in marine ingredients | [@CLM-27; @CLM-28] {general\|Medium} {fx:projection} |
+| El Niño | Extreme events more frequent under high emissions; El Niño years cut Peru's fishmeal output | Price spikes in marine ingredients (our inference) | [@CLM-27; @AQF-02] {general\|Medium} {fx:projection} |
 
 About 80% of Vietnamese shrimp is farmed in the Mekong Delta [@AQF-26] {VN-direct|Low}. **We found no dated SSP-based projection of Vietnamese shrimp or pangasius output**, and no quantified link between heat and disease. On current evidence, climate to 2050 changes where aquafeed is used more than how much {VN-direct|Medium} {fx:estimate}.
 
@@ -281,8 +285,8 @@ Source: balance model, `tools/balance_model.py` {VN-direct|Low} {fx:estimate}.
 |---|---|---|---|
 | Domestic cassava harvest | 10.24 Mt of fresh roots (2025) | About 52% | [@FS-01] {VN-direct\|High} |
 | Roots bought by factories | Over 18 Mt a year, about 42% imported | About 30% | [@FS-14] {VN-direct\|Medium} |
-| Cassava starch exports | About 2.49 Mt (2025), over 90% to China | 1.22 Mt of starch: about half | [@FS-01] {VN-direct\|High} |
-| Fuel ethanol (E10) | Mandatory from 1 June 2026; three plants make 830 m3 a day; about 80% of E10 ethanol still imported in mid-2026 | Competes for chips and roots | [@GT-10; @FS-09; @IND-20] {VN-direct\|High} |
+| Cassava starch exports | About 2.49 Mt (2025, derived from 11 months of Chinese imports); China took about 94% of all 2025 cassava exports (3.76 of 3.99 Mt) | 1.22 Mt of starch (derived): about half | [@FS-01] {VN-direct\|High} |
+| Fuel ethanol (E10) | Mandatory from 1 June 2026; three plants with 830 m3 a day of design capacity; about 80% of July 2026 ethanol supply imported | Competes for chips and roots | [@GT-10; @FS-09; @IND-20] {VN-direct\|High} |
 | Sugar | 1.298 Mt (2025/26) | About 96% | [@FS-31] {VN-direct\|Medium} |
 
 Cassava-starch glucose costs about USD 511 to 560 per t at April 2026 prices (our estimate from starch at USD 520 to 540 FOB [@FS-11], 1.08 t of glucose per t of starch, plus USD 30 to 60 for hydrolysis) {VN-direct|Low}. The nitrogen need (0.37 t of urea per t of protein) does not change with the carbon source. The question for Part 2 is how much carbon could come from residues, side streams and one-carbon feedstocks without cutting food or starch exports.
@@ -320,7 +324,7 @@ All national straw could in theory give 12.8 to 21.5 Mt SE in 2050, 10 to 16 tim
 | Second-generation ethanol | E15 and E20 discussed, residues named as a future feedstock, enzyme costs high [@NGF-31]; 10.9 billion litres of potential (2017 study) [@NGF-32] {VN-direct\|Medium} | Competes for straw and plants {fx:signal} |
 | Burning or burying | About 70% of Mekong straw [@NGF-04] {VN-direct\|Medium} | Shrinking by policy: the "free" tranche |
 
-**Costs.** Mechanised collection costs USD 12 to 18 per t [@NGF-02] {VN-direct|Medium}; at USD 25 to 50 per t delivered, straw adds USD 57 to 162 per t SE for the feedstock alone (our calculation) {VN-direct|Low}. **Technology in brief:** mature-plant models give USD 342 to 467 per t of cellulosic sugar, but first-of-a-kind plants cost USD 2,100 to 2,400 per t of annual capacity, and India's rice-straw plant at Panipat reached 62% of design only in December 2025, after its first problem, buying straw from farmers who preferred to burn it [@NGF-06; @NGF-07; @NGF-10; @NGF-11; @NGF-33] {general|Medium}. Details: [[app-f3-frontier-tech]].
+**Costs.** Mechanised collection costs USD 12 to 18 per t [@NGF-02] {VN-direct|Medium}; at USD 25 to 50 per t delivered, straw adds USD 57 to 162 per t SE for the feedstock alone (our calculation) {VN-direct|Low}. **Technology in brief:** mature-plant models give USD 342 to 467 per t of cellulosic sugar (467 converted from USD 0.212 per lb), but first-of-a-kind plants cost USD 2,100 to 2,400 per t of annual capacity, and India's rice-straw plant at Panipat reached 62% of design only in December 2025, after problems since start-up, including buying straw from farmers who preferred to burn it [@NGF-06; @NGF-07; @NGF-10; @NGF-11; @NGF-33] {general|Medium}. Details: [[app-f3-frontier-tech]].
 
 ## F6.11 Cassava pulp, liquid side streams, food waste and manure biogas
 
@@ -328,14 +332,14 @@ Technical sugar-equivalent potential if the whole stream were used in 2050 (our 
 
 | Stream | Volume, 2025 | SE per t | Technical SE, 2050, Mt | Constraint | Evidence |
 |---|---|---|---|---|---|
-| Cassava pulp (*bã sắn*), starch fraction | 0.48 to 0.98 Mt of starch | 0.97 | 0.47 to 0.96 | Already sold as feed; swings with Chinese starch demand | [@FS-03; @FS-05; @FS-06] {VN-adjacent\|Low} |
-| Cassava stems not replanted | 0.86 to 1.29 Mt dry matter | 0.15 to 0.29 | 0.12 to 0.37 | Dispersed upland collection | [@NGF-25; @NGF-26; @NGF-27] {general\|Low} |
-| Molasses | 0.55 to 0.72 Mt | 0.50 | 0.29 to 0.38 | Already used for MSG, yeast, alcohol | [@FS-37; @IND-22] {VN-direct\|Low} |
-| Starch wastewater | 22 to 32 million m3; 0.23 to 0.65 Mt of COD | 0.66 per t of COD | 0.15 to 0.43 | Dilute; best as process water or biogas | [@NGF-24; @NGF-29; @FS-04] {VN-adjacent\|Low} |
-| Ethanol stillage | 0.23 Mt of ethanol (0.60 Mt in 2050, our path) | 0.10 to 0.15 per t of ethanol | 0.06 to 0.09 | Needs co-location | [@FS-09; @NGF-31] {VN-direct\|Low} |
-| Tofu, soy-milk and brewery wastewater | 0.07 to 0.13 Mt SE | | 0.07 to 0.13 | Only large plants practical | [@FS-24; @FS-38; @FS-44] {general\|Low} |
+| Cassava pulp (*bã sắn*), starch fraction | 0.65 to 0.84 Mt of starch (1.2 Mt DM x 54 to 70% starch, our calculation) | 0.97 | 0.63 to 0.82 | Already sold as feed; swings with Chinese starch demand | [@FS-03; @FS-05; @FS-06] {VN-adjacent\|Low} |
+| Cassava stems not replanted | 0.86 to 1.29 Mt dry matter | 0.15 to 0.29 | 0.12 to 0.37 | Dispersed upland collection | Our calculation; stem-to-root ratio assumed; root output [@FS-01]; conversion [@NGF-25; @NGF-26; @NGF-27] {general\|Low} {fx:estimate} |
+| Molasses | 0.55 to 0.72 Mt | 0.50 | 0.29 to 0.38 | Already used for MSG, yeast, alcohol | [@FS-37; @IND-22] {general\|Low} |
+| Starch wastewater | 22 to 32 million m3; 0.23 to 0.65 Mt of COD (our estimate) | 0.66 per t of COD | 0.15 to 0.43 | Dilute; best as process water or biogas | [@NGF-24; @NGF-29; @FS-04] {VN-adjacent\|Low} |
+| Ethanol stillage | 0.22 Mt of ethanol design capacity (277,000 m3 a year; 0.60 Mt in 2050, our path) | 0.10 to 0.15 per t of ethanol (our assumption) | 0.06 to 0.09 | Needs co-location | [@FS-09] {VN-direct\|Low} |
+| Tofu, soy-milk and brewery wastewater | 0.07 to 0.13 Mt SE (our estimate) | | 0.07 to 0.13 | Only large plants practical | Soybean food use [@FS-24]; solid residues only, not wastewater [@FS-38; @FS-44] {general\|Low} |
 | Household food waste | 7.7 Mt wet (76 kg per person) | 0.08 to 0.15 | 0.67 to 1.25 | Needs source separation; rules (F6.12) | [@NGF-28] {VN-direct\|Low} |
-| Pig-manure methane, capturable | 0.13 Mt (0.29 Mt in 2050) | 2.35 | 0.69 | Competes with farm energy | [@MAC-12; @FTG-25] {general\|Low} |
+| Pig-manure methane, capturable | 0.13 Mt (0.29 Mt in 2050; our estimate, below) | 2.35 (4.0 / 1.7 t of methane per t of protein, *M. capsulatus*) | 0.69 | Competes with farm energy | [@MAC-12; @FTG-25] {general\|Low} |
 
 Bagasse (0.71 to 1.01 Mt SE), maize stover (1.40 to 2.00) and coffee pulp (0.07 to 0.14) are lignocellulosic and mostly committed to boilers, fodder or fertiliser (`feedstock_futures.csv`, FFU-003, FFU-006, FFU-007).
 
@@ -347,7 +351,7 @@ Bagasse (0.71 to 1.01 Mt SE), maize stover (1.40 to 2.00) and coffee pulp (0.07 
 ## F6.12 Rules as a ceiling
 
 - **EU feed law is precise.** Regulation 767/2009, Annex III, bans from feed "All waste obtained from the various phases of the treatment of the urban, domestic and industrial waste water", "irrespective of any further processing of that waste", plus household waste and faeces. A footnote exempts process water in independent conduits that carries feed or food material and is free of cleaning agents [@NGF-14] {general|High}.
-- **Vietnamese rules are permissive but vague.** We found no legal ban on food waste or wastewater-derived substrates for feed; the veterinary authority only advises cooking kitchen waste at 100 °C for 20 to 30 minutes before feeding pigs [@NGF-30] {VN-direct|Low}. The feed listing of microbial biomass is the real gate ([[ch07-rules]]).
+- **Vietnamese rules are permissive but vague.** We found no legal ban on food waste or wastewater-derived substrates for feed; the veterinary department only rules out feeding leftovers that have not been heat-treated, and a 2019 Ninh Binh provincial advice page suggests cooking kitchen waste at 100 °C for 20 to 30 minutes before feeding pigs [@NGF-30] {VN-direct|Low}. The feed listing of microbial biomass is the real gate ([[ch07-rules]]).
 
 **How each stream fares under EU-style rules** (our reading of the Annex) {general|Medium}
 
@@ -381,12 +385,14 @@ Exporters that follow EU-style rules would reject protein grown on wastewater-tr
 
 | Year (need, Mt) | Case A | Case B | Case C | Lignocellulosic (B; C) | One-carbon (B; C) |
 |---|---|---|---|---|---|
-| 2030 (0.24) | 0.03 to 0.06 (13 to 27%) | 0.08 to 0.16 (35 to 69%) | 0.20 to 0.38 (85 to 161%) | 0.01; 0.04 to 0.05 | 0; 0 |
-| 2040 (0.85) | 0.07 to 0.14 (8 to 16%) | 0.37 to 0.65 (44 to 76%) | 1.40 to 2.24 (165 to 263%) | 0.13 to 0.19; 0.76 to 1.08 | 0.02; 0.16 |
-| 2050 (1.32) | 0.07 to 0.14 (5 to 11%) | 0.73 to 1.11 (55 to 84%) | 2.92 to 4.20 (222 to 319%) | 0.37 to 0.53; 1.79 to 2.55 | 0.13; 0.64 |
-| Protein this could grow in 2050, kt | 18 to 35 | 183 to 278 | 730 to 1,050 | | |
+| 2030 (0.24) | 0.04 to 0.06 (16 to 24%) | 0.10 to 0.15 (42 to 63%) | 0.24 to 0.36 (99 to 150%) | 0.01; 0.04 to 0.05 | 0; 0 |
+| 2040 (0.85) | 0.08 to 0.12 (10 to 15%) | 0.41 to 0.61 (48 to 72%) | 1.48 to 2.17 (174 to 255%) | 0.13 to 0.19; 0.76 to 1.08 | 0.02; 0.16 |
+| 2050 (1.32) | 0.09 to 0.13 (7 to 10%) | 0.77 to 1.07 (58 to 81%) | 3.00 to 4.13 (228 to 314%) | 0.37 to 0.53; 1.79 to 2.55 | 0.13; 0.64 |
+| Protein this could grow in 2050, kt | 22 to 32 | 192 to 268 | 750 to 1,030 | | |
 
-**Case B in 2050, step by step (Mt SE):** straw 1.0 Mt x 0.31 to 0.44 = 0.31 to 0.44; pulp starch 0.48 to 0.98 x 25% x 0.97 = 0.12 to 0.24; e-methanol 0.10; stover 0.04 to 0.06; stillage 0.03 to 0.05; manure methane 0.03; bagasse 0.02 to 0.03; starch wastewater 0.02 to 0.04; the other five streams 0.06 to 0.11. Total 0.73 to 1.11.
+**Case B in 2050, step by step (Mt SE):** straw 1.0 Mt x 0.31 to 0.44 = 0.31 to 0.44; pulp starch 0.65 to 0.84 x 25% x 0.97 = 0.16 to 0.20; e-methanol 0.10; stover 0.04 to 0.06; stillage 0.03 to 0.05; manure methane 0.03; bagasse 0.02 to 0.03; starch wastewater 0.02 to 0.04; the other five streams 0.06 to 0.11. Total 0.77 to 1.07 (our calculation).
+
+> **Correction.** Earlier drafts used 0.48 to 0.98 Mt of pulp starch a year. Appendix S4 (C3) now gives about 0.65 to 0.84 Mt (1.2 Mt DM x 54 to 70% starch), so the pulp row and the Case results above are recomputed with that input (our calculation); the wave 3 working paper `ngf_calc.py` still holds the old input.
 
 **Plants and investment** at first-of-a-kind costs of USD 2,100 to 3,400 per t of annual sugar capacity, from Panipat and Podari (our calculation) {VN-direct|Low} {fx:estimate}
 
@@ -402,32 +408,32 @@ Meeting the whole S-ALT need from straw sugar would take USD 1.8 to 2.9 billion 
 - **Case B turns the ceiling into a capital question:** five Panipat-size plants (or two of 500 kt of straw) running reliably by 2050, plus side-stream plants at starch factories and ethanol plants. The trigger is an Asian straw plant running reliably above 80% of design ([[ch28-robust-moves]], RM-19).
 - **Case C removes the ceiling** but needs about 10% of national straw and an e-methanol industry: an ambitious bet, not a plan.
 - **No case changes the nitrogen need or makes the carbon low-carbon by default.** One Indian bagasse-sugar study gives 1.57 kg CO2e per kg of sugar, above Thai cassava starch at 0.60 to 0.97 kg [@NGF-08; @ECF-25] {general|Low}.
-- **Vietnam has no 2G pilot** for straw, bagasse or coffee husk [@NGF-31; @NGF-32] {VN-direct|Medium}. China listed 35 "non-grain bio-based" cases in January 2026, yet BBCA's non-grain lactic acid is 1,000 t within 500,000 t of capacity [@NGF-35] {VN-adjacent|Medium} {fx:signal}.
+- **We found no commercial 2G plant or reported pilot in Vietnam** for straw, bagasse or coffee husk (our search; the studies discuss only potential [@NGF-31; @NGF-32]) {VN-direct|Medium}. China listed 35 "non-grain bio-based" cases in January 2026, yet BBCA's non-grain lactic acid is reported at only about 1,000 t within 500,000 t of capacity [@NGF-35] {VN-adjacent|Medium} {fx:signal}.
 
 ## F6.14 Land: released rice land and protein per hectare
 
 The adjusted national land plan (Decision 1177/QD-TTg, June 2026) sets rice land at 3,252.63 kha in 2030 against 3,907.07 kha in 2024, a release of about 654 kha [@NTS-15] {VN-direct|Medium} {fx:projection} (official plan). Against the 2021 plan, agricultural land falls by 1,120.62 kha and non-agricultural land rises by 1,192.43 kha [@NGF-20] {VN-direct|Medium}.
 
-**Where it is going.** In the 2026 winter-spring season rice area fell 37.3 kha. In the south, 12 kha went to other annual crops, 5.6 kha to perennial crops and 1.9 kha to aquaculture (Can Tho alone 14.8 kha); in the north, conversions went mostly to non-farm uses, such as 800 ha for an airport and 938 ha for industrial zones and transport in Bac Ninh [@NGF-18] {VN-direct|Medium} {fx:trend}. Under Decree 112/2024, land that switches crops, or combines rice with aquaculture ponds of up to 20% of the plot, still counts as rice land [@NGF-19] {VN-direct|Medium}; so the 654 kha is mainly land leaving agriculture. No plan names a protein crop [@NTS-15; @NTS-22] {VN-direct|Medium}. If all 654 kha grew cassava for fermentation after 2030 it would give 3.3 Mt of glucose a year, an upper bound on first-generation carbon from soils that suit cassava poorly (our calculation) {VN-direct|Low} {fx:estimate}.
+**Where it is going.** In the 2026 winter-spring season rice area fell 37.3 kha. In the south, 12 kha went to other annual crops, 5.6 kha to perennial crops and 1.9 kha to aquaculture (Can Tho alone cut 14.8 kha in total); in the north, conversions went mostly to non-farm uses, such as 800 ha for an airport and 938 ha for industrial zones and transport in Bac Ninh [@NGF-18] {VN-direct|Medium} {fx:trend}. Under Decree 112/2024, land that switches crops, or combines rice with aquaculture ponds of up to 20% of the plot, still counts as rice land [@NGF-19] {VN-direct|Medium}; so we read the 654 kha as mainly land leaving agriculture. No plan sets a protein-crop target [@NTS-15; @NTS-22] {VN-direct|Medium}. If all 654 kha grew cassava for fermentation after 2030 it would give 3.3 Mt of glucose a year, an upper bound on first-generation carbon from soils that suit cassava poorly (our calculation) {VN-direct|Low} {fx:estimate}.
 
-**Protein per hectare** (all 15 rows of `land_protein_yields.csv`; our calculation unless stated)
+**Protein per hectare** (all 15 rows of `land_protein_yields.csv`; our calculation unless stated; crop protein contents are our assumptions, not taken from the cited sources)
 
 | System | kg of protein per ha a year | Basis | Evidence |
 |---|---|---|---|
-| Soybean, Vietnam (1 crop) | 580 | 1.62 t per ha x 36% | [@FS-24] {VN-direct\|Medium} |
-| Soybean, import origins | 1,140 | 3.16 t per ha x 36% | [@QNT-01] {general\|Medium} |
+| Soybean, Vietnam (1 crop) | 580 | 1.62 t per ha (USDA) x 36% | [@FS-24] {VN-direct\|Medium} |
+| Soybean, import origins | 1,140 | 3.16 t per ha (origin-weighted OECD-FAO 2025 yield, our calculation) x 36% | [@GEO-37; @MAC-04; @MAC-09] {general\|Medium} |
 | Imported soybean-meal protein | 1,410 | About 0.71 ha per t (balance model, mass allocation) | {general\|Low} |
-| Maize grain, Vietnam (1 crop) | 460 | 5.43 t per ha x 8.5% | [@FS-25; @MAC-01] {VN-direct\|Medium} |
-| Rice paddy, Mekong (2 crops) | 790 | 6.10 t per crop x 6.5% x 2 | [@FS-25] {VN-direct\|Medium} |
+| Maize grain, Vietnam (1 crop) | 460 | 5.43 t per ha (derived: NSO 4.4 Mt / USDA 0.81 Mha) x 8.5% | [@FS-25; @MAC-01] {VN-direct\|Medium} |
+| Rice paddy, Mekong (2 crops) | 790 | 6.10 t per crop (national 2025 yield) x 6.5% x 2 | [@FS-25] {VN-direct\|Medium} |
 | Cassava roots used directly | 250 | 20.5 t per ha x 1.2% | [@FS-01] {VN-direct\|Medium} |
-| Cassava via microbial fermentation | 1,260 | 5.03 t of glucose per ha / 4.0 | [@FS-01; @FS-05] {VN-direct\|Low} |
-| Sugarcane via microbial fermentation | 1,410 | 5.38 t of sugar per ha (Gia Lai) | [@FS-34] {VN-direct\|Low} |
-| Rice straw via 2G sugar (no extra land) | 730 to 1,040 | 2 crops x 4.72 t x 0.31 to 0.44 / 4.0 | [@NGF-02; @NGF-05] {VN-direct\|Low} |
+| Cassava via microbial fermentation | 1,260 | 5.03 t of glucose per ha (derived) / 4.0 (our assumption) | [@FS-01; @FS-05] {VN-direct\|Low} |
+| Sugarcane via microbial fermentation | 1,410 | 5.38 t of sugar per ha (Gia Lai, all 40,000 ha assumed to supply the two mills) x 1.05 glucose equivalent / 4.0 | [@FS-34] {VN-direct\|Low} |
+| Rice straw via 2G sugar (no extra land) | 730 to 1,040 | 2 crops x 4.72 t x 0.31 to 0.44 (our assumption) / 4.0 | [@NGF-02; @NGF-05] {VN-direct\|Low} |
 | Napier grass, typical / intensive | 2,500 / 9,600 | 26 or 71 t of dry matter; ruminants only | [@NGF-21] {general\|Medium} |
-| Duckweed on pig-manure water | 7,500 | Extrapolated from a 175-day pilot in Flanders | [@NGF-22] {general\|Low} |
-| Duckweed, supply-chapter planning range | 2,500 to 10,500 | 10 to 30 t of dry matter x 25 to 35% | [@SCI-36; @SCI-37] {general\|Medium} |
+| Duckweed on pig-manure water | 7,500 | 3.5 t of protein per ha over a 175-day season in Flanders (10.7 t of dry matter x 32%), extrapolated to year-round growth | [@NGF-22] {general\|Low} |
+| Duckweed, supply-chapter planning range | 2,500 to 10,500 | 10 to 30 t of dry matter x 25 to 35% (low ends our planning assumptions) | [@SCI-36; @SCI-37] {general\|Medium} |
 | Microalgae in closed systems | 22,000 to 44,000 | Potential, not achieved | [@FTG-30] {general\|Low} |
-| Power-to-protein on solar land | 13,000 to 22,000 | 450 to 750 m2 of panels per t | [@QNT-09] {general\|Low} |
+| Power-to-protein on solar land | 13,000 to 22,000 | 450 to 750 m2 of panels per t (our estimate); the source reports over 12 t per ha | [@QNT-09] {general\|Low} |
 
 - **Per hectare, fermentation beats Vietnamese soybean:** cassava and cane via microbes give about twice Vietnam's soybean protein and about the same as imported soybean meal, so cassava-based microbial protein moves land use rather than saving it {VN-direct|Low}.
 - **Straw adds protein with no extra land**, but only if cellulosic sugar becomes bankable.
@@ -439,16 +445,16 @@ The adjusted national land plan (Decision 1177/QD-TTg, June 2026) sets rice land
 
 | Gap | Why it matters | Cheapest way to close it |
 |---|---|---|
-| Direct trash-fish use by species and province | Sizes the replacement market (0.4 to 1.6 Mt) | RIA3 (Nha Trang) and MAE surveys; the FAO low-value-fish report [@AQF-33] |
+| Direct trash-fish use by species and province | Sizes the replacement market (0.4 to 1.6 Mt, our estimate in F6.3) | RIA3 (Nha Trang) and MAE surveys; FAO Technical Paper 573 (Nha Trang farm survey, 2010) [@AQF-33] |
 | Marine finfish output and marine feed volume, 2025 | 18 kt modelled against 80 to 100 kt reported | MAE annual review; mill volumes |
 | Lobster output | USD 845 M of exports against a 3 to 5 kt plan | Customs HS 0306.21 volumes; cage counts |
-| Vietnam aquaculture projections beyond 2035 | None published | WorldFish Vietnam team; AsiaFish model runs [@AQF-26] |
+| Vietnam aquaculture projections beyond 2035 | No government target; only the *Fish to 2050* charts, no table [@AQF-25] | WorldFish Vietnam team; AsiaFish model runs [@AQF-26] |
 | EPA plus DHA requirements of Vietnamese species | Drives the 10 to 40 kt range | Review for whiteleg shrimp, cobia, pompano and grouper |
 | Grade mix and price of Vietnamese fishmeal | Whether by-product meal can serve shrimp and marine feeds | Customs HS 2301.20 by grade |
-| GE event count (60 against 52 by crop); Decree 43/2026 full text | Read only through secondary summaries | Re-read USDA GAIN VM2025-0045 [@AQF-21]; read the decree |
-| Mekong straw prices and shares by use | Sets the delivered straw cost | *Sustainable Rice Straw Management* (open access) [@NGF-05]; provincial agriculture departments |
+| Decree 43/2026 full text | Read only through a secondary summary | Read the decree |
+| Mekong straw prices and shares by use | Sets the delivered straw cost | Provincial agriculture departments |
 | Pretreatment of high-silica Mekong straw | Panipat's problems were silica and moisture | Bench study at a Vietnamese university |
-| National biogas and starch wastewater COD | Our lines are estimates; COD varies seven-fold | Nguyen and others 2024 [@NGF-37]; a survey of starch factories in Tay Ninh |
+| National biogas and starch wastewater COD | Our lines are estimates; COD per litre varies widely (4,800 to 70,000 mg in one review) [@NGF-24] | Nguyen and others 2024 [@NGF-37]; a survey of starch factories in Tay Ninh |
 | Vietnamese rule on waste-derived feed substrates | Decides the ceiling in F6.12 | One question to MAE's livestock department |
 | Heat and disease losses in aquaculture | Climate effect on feed volume | Not quantified by us |
 
@@ -459,10 +465,10 @@ The adjusted national land plan (Decision 1177/QD-TTg, June 2026) sets rice land
 | Capture in 2030 | 2.8 Mt target [@NTS-08] | 3.50 Mt in OECD-FAO [@AQF-02] | Both shown; OECD-FAO does not model the fleet cut |
 | Aquaculture in 2030 | 7.0 Mt target | 6.12 Mt (OECD-FAO); 6.58 Mt (S-BASE) | AQ-HIGH follows the target; AQ-BASE follows S-BASE |
 | Soybean area and yield | Under 20 kha; 1.62 t per ha [@AQF-20] | 39 kha; 1.28 t per ha [@AQF-02] | Area 20 to 39 kha; yield unresolved |
-| Vietnamese fishmeal output | 325 kt (OECD-FAO, 2025) | About 500 kt a year, 2005 to 2016 (secondary) [@AQF-06] | OECD-FAO used; the 500 kt may include fish powder |
-| Marine finfish FCR on trash fish | "2 to 2.5" [@AQF-10] | Grouper 5.9 wet [@AQF-05] | 5 to 8 wet used |
+| Vietnamese fishmeal output | 325 kt (OECD-FAO, 2025) | About 500 kt (IndexMundi, chart 2005 to 2016) [@AQF-06] | OECD-FAO used; the 500 kt may include fish powder |
+| Marine finfish FCR on trash fish | 2 to 2.5 in wooden cages on industrial feed or trash fish [@AQF-10] | Grouper 5.9 wet [@AQF-05] | 5 to 8 wet used |
 | National rice straw | 54 Mt, ratio 1.19 [@NGF-01] | 97 Mt, ratio 2.2 [@NGF-09] | 1.19 used |
-| Cellulosic sugar cost | USD 342 to 467 per t [@NGF-06; @NGF-07] | USD 1,320 per t [@NGF-08] | Both reported |
+| Cellulosic sugar cost | USD 342 to 467 per t (US corn stover and co-product cases; 467 converted from USD per lb) [@NGF-06; @NGF-07] | USD 1,320 per t [@NGF-08] | Both reported |
 
 ## Data files
 

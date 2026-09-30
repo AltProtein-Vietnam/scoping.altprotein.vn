@@ -100,14 +100,14 @@ Source counts are rows per prefix in `sources.csv`, which now has 1,275 rows (80
 |---|---|---|
 | Web search | Finding pages not already known, in English and Vietnamese | A cap of 12 to 15 per stream (161 in all); 137 used |
 | Direct page reads | The main way of reading sources | A summarising reader; numbers and quotes requested verbatim (see M2.10) |
-| OpenAlex, through its connector | Bibliometric counts and trends (HSC-01, FTG-14, FTB-10, ECF-09); literature search | Query strings and OQL stored in `biblio_trends_frontier.csv` and `vn_research_profile.csv` for rerun |
+| OpenAlex, through its connector | Bibliometric counts and trends ([@HSC-01; @FTG-14; @FTB-10; @ECF-09]); literature search | Query strings and OQL stored in `biblio_trends_frontier.csv` and `vn_research_profile.csv` for rerun |
 | Scite | Literature search and full-text excerpts | "Abstract" in the notes means only the abstract or excerpts were read |
-| OECD data service | The OECD-FAO baseline 2026 to 2035 for Vietnam [@QNT-01; @GEO-37] {VN-direct\|Medium} | Report pages were blocked, so the data were read directly |
+| OECD data service | The OECD-FAO baseline 2026 to 2035 for Vietnam [@QNT-01] and for the main exporters [@GEO-37] {VN-direct\|Medium} | Report pages were blocked, so the data were read directly |
 | Official legal texts | Decisions and resolutions read in Vietnamese on thuvienphapluat.vn, vanban.chinhphu.vn and baochinhphu.vn | Site-internal search used no web searches; short quotes in `national_targets_2050.csv` |
 | Desktop browser | Read-only fallback when a direct read failed, for example VIS-45, FTG-06, FTG-23, HSC-20, NGF-14 | No sign-in, forms, downloads or accepted terms; each tab closed |
 | Python | Arithmetic and CSV files (M2.8) | Standard library only; no script fetches web content |
 
-**Privacy rule.** No personal identifier (name, email address, account detail) went into any search, URL parameter or API call; OpenAlex requests carried no contact parameter [@HSC-01] {general|High}.
+**Privacy rule.** No personal identifier (name, email address, account detail) went into any search, URL parameter or API call; OpenAlex requests carried no contact parameter [@HSC-01] {general|Low}.
 
 **Source mix.** Of the 469 sources, 134 are peer-reviewed (29%), 107 press (23%), 95 government or statistics (20%), 50 law (11%) and 54 other (12%: think tanks, forecasters, law-firm notes, reference works and our calculation records); databases, advocacy, company and market research make up the rest. Company sources are 7 (1%), against 133 of 806 in v0.1, because long-range questions have few company answers (our count from `sources.csv`).
 
@@ -134,9 +134,9 @@ Every forward-looking statement carries a second badge after the evidence badge,
 |---|---|---|---|---|
 | Trend | `fx:trend` | An observed, measured change expected to continue | The data and the period observed | Precision-fermentation papers rose from 9 (2020) to 188 (2025) [@HSC-01] {general\|Medium} {fx:trend} |
 | Projection | `fx:projection` | A published model result, or an official target | Model, scenario and base year, or "official target" | Vietnam's protein-meal imports of 10.3 Mt in 2035, OECD-FAO baseline [@QNT-01] {VN-direct\|Medium} {fx:projection} |
-| Estimate | `fx:estimate` | Our own calculation from stated assumptions | "Our calculation", and where the inputs are shown | Soybean-meal need of about 10.4 Mt in 2050 on trend (our calculation) [@QNT-01] {VN-direct\|Low} {fx:estimate} |
+| Estimate | `fx:estimate` | Our own calculation from stated assumptions | "Our calculation", and where the inputs are shown | Soybean-meal need of about 10.4 Mt in 2050 on trend (our calculation, inputs in [[app-f4-balance-model]]) {VN-direct\|Low} {fx:estimate} |
 | Signal | `fx:signal` | An emerging development that may or may not scale | Date and place | An 11,000 t a year yeast-protein plant opened in China in November 2025; whether such capacity sets regional prices by 2035 is open [@HSC-14] {VN-adjacent\|Medium} {fx:signal} |
-| Wildcard | `fx:wildcard` | A low-probability, high-impact event | A time window and the impact channel | A month-long closure of the South China Sea or Malacca Strait between 2030 and 2050 would cut soybean supply [@GEO-40] {general\|Medium} {fx:wildcard} |
+| Wildcard | `fx:wildcard` | A low-probability, high-impact event | A time window and the impact channel | A month-long closure of the South China Sea or Malacca Strait between 2030 and 2050 (our window) would put at risk the soybean exports that pass through Malacca, over a quarter of the world total [@GEO-40] {general\|Medium} {fx:wildcard} |
 | Vision | `fx:vision` | A normative goal put forward for discussion | The "Vision, not forecast" callout | Only in [[ch24-vision-2050]] |
 
 The vision badge is written like the others, but only chapter 24 uses it; this page names it without braces so that it does not render here.
@@ -162,7 +162,7 @@ The vision badge is written like the others, but only chapter 24 uses it; this p
 
 Four working rules:
 1. **Targets and estimates are never merged.** The official 2030 target of 30 to 32 Mt of industrial livestock feed [@NTS-23] {VN-direct|Medium} {fx:projection} and our model's 26.4 Mt for 2030 {VN-direct|Low} {fx:estimate} are both given, with the position taken: the target looks out of reach.
-2. **Published projections stop at 2035.** We found no FAO, IFPRI, GLOBIOM or peer-reviewed projection for Vietnamese meat, feed or feed protein to 2050 [@QNT-01; @QNT-02; @QNT-15] {VN-direct|High}, and official output targets stop at 2030 [@NTS-07; @NTS-08; @NTS-23] {VN-direct|High}. After 2035 every Part IV number is an official input target (power, hydrogen, emissions) or our estimate.
+2. **Published projections stop at 2035.** We found no FAO, IFPRI, GLOBIOM or peer-reviewed projection for Vietnamese meat, feed or feed protein to 2050 [@QNT-01; @QNT-02; @QNT-15] {VN-direct|Medium}, and official output targets stop at 2030 [@NTS-07; @NTS-08; @NTS-23] {VN-direct|High}. After 2035 every Part IV number is an official input target (power, hydrogen, emissions) or our estimate.
 3. **Company, consultancy and advocacy numbers are claims**, kept in `external_forecasts.csv` and never used as projections. Only 9 of 84 resolved cultured-meat timeline predictions made before 2021 came true [@HSC-19] {general|Medium}.
 4. **No probabilities of our own.** We quote one only where a named source publishes it, such as NOAA's odds of a very strong El Niño in winter 2026 to 2027 [@HSC-28] {general|High} {fx:projection}.
 
@@ -179,11 +179,11 @@ We reviewed 18 food-system foresight exercises and method studies (`foresight_me
 | Exercise | Design | What we took | Source |
 |---|---|---|---|
 | FAO, Alternative pathways to 2050 (2018) | 3 quantitative scenarios to 2050 | Scenarios must differ on named drivers | [@VIS-33] {general\|Medium} |
-| FAO, Drivers and triggers for transformation (2022) | 4 scenarios to 2050; 18 drivers; 4 "triggers" that move a system between scenarios | Pair scenarios with named triggers: our signposts and bet triggers | [@VIS-32] {general\|High} |
+| FAO, Drivers and triggers for transformation (2022) | 4 scenarios (pathways to 2050 and beyond); 18 drivers; 4 "triggers" that move a system between scenarios | Pair scenarios with named triggers: our signposts and bet triggers | [@VIS-32] {general\|High} |
 | EU JRC, Food safety and nutrition in 2050 (2015 to 2016) | 9 drivers; 2 axes (global trade, food values); 4 scenarios; a policy stress test found 29 challenges, 8 common to all | Two named axes, four worlds, and the no-regret stress test (M2.6) | [@VIS-35] {general\|High} |
 | Riera et al., review of 36 food-system scenario studies (2025) | Exploratory types and normative types (feasibility of a target, or its conditions) | State each set's purpose; keep the normative vision apart so it is not read as a forecast | [@VIS-36] {general\|High} |
 
-Four is the modal number of scenarios in 2050 food exercises, and a two-axis design is simple enough to stress-test policies against [@VIS-32; @VIS-35; @VIS-36] {general|Medium}.
+Two to four scenarios is the most common range in food-system scenario studies (18 of 36) [@VIS-36]; FAO and the JRC each used four [@VIS-32; @VIS-35], and a two-axis design is simple enough to stress-test policies against {general|Medium}.
 
 ### M2.5.2 How the axes were selected
 
@@ -204,9 +204,9 @@ Four is the modal number of scenarios in 2050 food exercises, and a two-axis des
 | Political framing | Medium, mostly on food routes | Medium | Partly | Partly | Sensitivity |
 | Vietnam's own choices (food law, feed lists, public money, a protein statistic) | High | Decided by Vietnam | Yes | No | **Moves** (chapter 28) |
 
-All cells are our judgement from chapters 20 to 22 {VN-direct|Low}. S-HIGH gives 11.72 Mt against 10.40 Mt for S-BASE in 2050 (our calculation) [@QNT-01] {VN-direct|Low} {fx:estimate}.
+All cells are our judgement from chapters 20 to 22 {VN-direct|Low}. S-HIGH gives 11.72 Mt against 10.40 Mt for S-BASE in 2050 (our calculation, inputs in [[app-f4-balance-model]]) {VN-direct|Low} {fx:estimate}.
 
-**Why Vietnam's choices are moves, not axes.** Axes should be things the reader cannot control; the reader's options are then tested against them [@VIS-35; @VIS-36] {general|High}. If "Vietnam adopts a new-food route" were an axis, every world with the route would look better by construction, and the scenarios could not judge whether the route is worth having. Keeping policy off the axes lets chapter 28 find the moves that pay off in all four worlds, and shows that one external world can hold either a hub or a price-taker. Chapter 19's 2035 states mixed external conditions and domestic choices, which suited a ten-year outlook built on dated milestones; the 2050 set separates them.
+**Why Vietnam's choices are moves, not axes.** Our rule is that axes should be things the reader cannot control. The reader's options are then tested against them, as the JRC's policy panels developed options against each of its scenarios [@VIS-35] {general|High}. If "Vietnam adopts a new-food route" were an axis, every world with the route would look better by construction, and the scenarios could not judge whether the route is worth having. Keeping policy off the axes lets chapter 28 find the moves that pay off in all four worlds, and shows that one external world can hold either a hub or a price-taker. Chapter 19's 2035 states mixed external conditions and domestic choices, which suited a ten-year outlook built on dated milestones; the 2050 set separates them.
 
 ### M2.5.3 Building each world
 
@@ -219,7 +219,7 @@ Each world in `scenarios_2050.csv` was built in the same steps: fix the axis end
 | C. Security build-out | Chronic | Open | 7.0 to 8.8 Mt (S-EFF and S-ALT direction) | Scenario 2, feed-first build-out, then Scenario 3 | *Xây dựng an ninh nguồn đạm* |
 | D. Squeezed importer | Chronic | Chinese price dominance | 7.0 to 10.4 Mt (efficiency does most) | Scenario 1 under stress, or Scenario 2 with state support | *Nhà nhập khẩu bị chèn ép* |
 
-All rows: [@QNT-01] {VN-direct|Low} {fx:estimate}. The 2035 states are stepping stones: Scenario 1 leads to B while imports stay benign and to D if they turn chronic; Scenario 2 is the domestic answer to chronic stress; Scenario 3 needs an open regional market.
+All rows: our judgement; soybean-meal ranges from the balance model ([[ch22-protein-balance-2050]], [[app-f4-balance-model]]) {VN-direct|Low} {fx:estimate}. The 2035 states are stepping stones: Scenario 1 leads to B while imports stay benign and to D if they turn chronic; Scenario 2 is the domestic answer to chronic stress; Scenario 3 needs an open regional market.
 
 ### M2.5.4 Signposts and thresholds
 
@@ -230,7 +230,7 @@ A signpost is an observable event with a threshold that shows which way an axis 
 | Chronic import stress | SP-01 to SP-05 | Fishmeal above USD 2,500 per t for 12 months, or a fishmeal-to-soybean-meal price ratio above 6 for two years | Ratio 6.2 in August 2026: a peak, not yet sustained [@GT-15] {general\|High} |
 | Benign import stress | SP-06 to SP-08 | Fishmeal below USD 1,800 per t for a full year | Not met [@GT-15] {general\|High} |
 | Chinese price dominance | SP-09 to SP-11 | Three or more Chinese single-cell, yeast or mycoprotein plants above 20 kt a year | One plant of 11 kt (2025); one moving to 20 kt [@HSC-13; @HSC-14] {VN-adjacent\|Medium} |
-| Open regional market | SP-12 to SP-14 | An ASEAN reliance or mutual-recognition mechanism for novel foods | Not proposed [@REG-63] {VN-adjacent\|Medium} |
+| Open regional market | SP-12 to SP-14 | An ASEAN reliance or mutual-recognition mechanism for novel foods | None found in our search (September 2026) {VN-adjacent\|Low} |
 | Sudden jumps | SP-15, SP-16 | A month-long closure of the South China Sea or Malacca Strait; Chinese microbial protein landed below its reported cost for two quarters | None observed [@GEO-40; @HSC-13] {general\|Medium} |
 
 Reading rules:
@@ -246,11 +246,11 @@ The horizon scan listed 26 wildcards (`wildcards.csv`), each with an impact chan
 - **Path-switchers**: disease, a novel-food safety scandal or a biosecurity incident change the path inside a world rather than define one.
 - **Revision triggers** for the vision (section 24.8).
 
-The 17 shocks in `shock_register.csv` give a sense of scale: African swine fever removed nearly 6 million pigs in 2019, over a fifth of the herd [@GEO-14; @GEO-15] {VN-direct|Medium}. Published probabilities are quoted where they exist: synchronised maize failure in the four largest exporters has a 7% chance in a given year at 2 °C of warming and 86% at 4 °C [@CLM-24] {general|High} {fx:projection}.
+The 17 shocks in `shock_register.csv` give a sense of scale: African swine fever removed nearly 6 million pigs in 2019, over a fifth of the herd [@GEO-14; @GEO-15] {VN-direct|Medium}. Published probabilities are quoted where they exist: simultaneous maize production losses above 10% in the four largest exporters has a 7% chance in a given year at 2 °C of warming and 86% at 4 °C [@CLM-24] {general|High} {fx:projection}.
 
 ## M2.6 Stress test of plays and moves
 
-The JRC tested policy challenges against its four food scenarios; 8 of 29 were common to all and became the natural no-regret agenda [@VIS-35] {general|High}. We applied the same logic to the ten plays, six public goods and the policy options of v0.1 ([[ch26-plays]], [[ch27-policy-options]]) in section 23.5, and to 21 candidate moves in chapter 28. Worlds are weighted equally, because we assign no probabilities.
+The JRC identified 29 challenges across its four food scenarios, of which 8 were common to all [@VIS-35] {general|High}; we treat such shared challenges as the no-regret set. We applied the same logic to the ten plays, six public goods and the policy options of v0.1 ([[ch26-plays]], [[ch27-policy-options]]) in section 23.5, and to 21 candidate moves in chapter 28. Worlds are weighted equally, because we assign no probabilities.
 
 ### M2.6.1 Scoring rubric
 
@@ -289,7 +289,7 @@ Each score is our judgement from chapters 20 to 22 {VN-direct|Low} {fx:estimate}
 ### M2.7.1 A separate, labelled vision
 
 Normative scenarios show that a target is feasible or frame the conditions for it; exploratory scenarios map what might happen [@VIS-36] {general|High}. Chapter 24 is normative. It is kept apart from the four worlds, marked "Vision, not forecast", and is the only chapter that uses the vision badge; its benchmark evidence is cited and tagged as usual. It was built in six steps:
-1. **Framing**: feed security and industry lead, because that framing has lasted abroad while climate framing faded [@VIS-15; @VIS-13; @VIS-25] {general|Medium}. Diet change stays out of scope.
+1. **Framing**: feed security and industry lead, as in the EU 2026 protein plan and Japan's basic plan, with climate as a co-benefit [@VIS-15; @VIS-13] {general|Medium}. Diet change stays out of scope.
 2. **Anchors**: Vietnam's official 2050 input plans (power mix, hydrogen, the agricultural emissions cap, net zero); no official meat, feed or protein number goes beyond 2030 [@GT-11; @NTS-24; @NTS-07] {VN-direct|High}.
 3. **Ranges, never points**, from the balance model, the aquafeed stream and peer budgets (M2.7.2).
 4. **Analogue check** against what China, the EU, Japan, Norway and Singapore achieved (`vis_calc.py`).
@@ -302,13 +302,13 @@ These are the calculations behind the chapter 24 goals, shown here as our estima
 
 | Indicator (2050) | Range | How derived | Analogue check | Sources |
 |---|---|---|---|---|
-| Soybean-meal import need | 7.0 to 8.8 Mt, against 10.4 Mt on trend | S-EFF (7.00 Mt) and S-ALT (8.78 Mt) in 2050 | S-EFF's inclusion cut of 1% a year sits at the low end of China's 0.9 to 2.9% a year (2017 to 2025) | [@QNT-01; @GEO-10; @GEO-11] {VN-direct\|Low} {fx:estimate} |
-| Microbial feed protein, share of high-protein feed protein | 4 to 8% | S-ALT gives 1.0% (2030), 2.7% (2035), 4.4% (2040), 8.4% (2050); top near S-ALT, bottom about half | Novel ingredients were 0.4% of Norwegian salmon feed in 2020; no national feed system has reached 1% | [@QNT-01; @VIS-18; @VIS-20] {VN-direct\|Low} {fx:estimate} |
-| Domestic-origin share of feed protein | 11 to 22 points above a 2028 baseline | 0.5 to 1 point a year for 22 years; 3.5 to 7 points by 2035 and 6 to 12 by 2040 | EU target pace (0.92 points a year, 2025 to 2035) as the top; Japan's flat record (28% in FY2000, 27% in FY2024) as the downside | [@VIS-15; @VIS-12] {VN-direct\|Low} {fx:estimate} |
+| Soybean-meal import need | 7.0 to 8.8 Mt, against 10.4 Mt on trend | S-EFF (7.00 Mt) and S-ALT (8.78 Mt) in 2050 (balance model, [[app-f4-balance-model]]) | S-EFF's inclusion cut of 1% a year sits at the low end of China's 0.9 to 2.9% a year (2017 to 2025; our calculation from [@GEO-10] and [@GEO-11]) | [@QNT-01; @GEO-10; @GEO-11] {VN-direct\|Low} {fx:estimate} |
+| Microbial feed protein, share of high-protein feed protein | 4 to 8% | S-ALT gives 1.0% (2030), 2.7% (2035), 4.4% (2040), 8.4% (2050); top near S-ALT, bottom about half | Novel ingredients were 0.4% of Norwegian salmon feed in 2020 | [@QNT-01; @VIS-18; @VIS-20] {VN-direct\|Low} {fx:estimate} |
+| Domestic-origin share of feed protein | 11 to 22 points above a 2028 baseline | 0.5 to 1 point a year for 22 years; 3.5 to 7 points by 2035 and 6 to 12 by 2040 | EU target pace (0.92 points a year, 2025 to 2035) as the top; Japan's flat record (26% in FY2000, 26% in FY2024) as the downside | [@VIS-15; @VIS-12] {VN-direct\|Low} {fx:estimate} |
 | Non-marine share of aquafeed omega-3 | 15 to 50% | The aquafeed stream's range on the middle aquaculture path | Algal and oilseed omega-3 oils are commercial; a modified canola oil replaced fish oil in shrimp diets | [@AQF-19; @AQF-23; @AQF-24] {VN-direct\|Low} {fx:estimate} |
 | Public protein and feed-innovation line (2027 to 2035) | USD 5 to 15 M a year | Peer budgets annualised in `vis_calc.py` | Denmark about USD 12 M, Germany about EUR 6 M, Canada about USD 22 M a year; Vietnam's feed scheme about USD 6.3 M a year | [@VIS-01; @VIS-24; @VIS-06; @NTS-23] {general\|Medium} {fx:estimate} |
 
-**Left out on purpose.** No consumption ratio such as the Dutch 50:50 ambition, because diet is out of scope and such ratios abroad are unmeasured [@VIS-05] {general|Medium}. No overall feed self-sufficiency ratio: Japan's land-based ratio moved less than half a point a year between FY2000 and FY2024 [@VIS-12] {VN-adjacent|High}.
+**Left out on purpose.** No consumption ratio such as the Dutch 50:50 ambition, because diet is out of scope and we found no tracking of such ratios abroad [@VIS-05] {general|Medium}. No overall feed self-sufficiency ratio: Japan's land-based ratio moved less than half a point a year between FY2000 and FY2024 [@VIS-12] {VN-adjacent|High}.
 
 ### M2.7.3 Milestones tied to five-year plans
 
@@ -322,22 +322,22 @@ The 22 milestones in `vision_milestones.csv` sit at the end of plan periods, so 
 | 2041 to 2045 | VM-16, VM-17 (2) | Alignment with the 2045 visions of Resolutions 36 and 57; a conditional first plant making protein from power |
 | 2046 to 2050 | VM-18 to VM-22 (5) | The 2050 goals, including agriculture within its 56 MtCO2e cap |
 
-Each milestone has an indicator, a value or range, a trend comparison and a benchmark. Seven fall in the first plan because backcasts find that actions for distant milestones must start at once [@VIS-40] {general|High}.
+Each milestone has an indicator, a value or range, a trend comparison and a benchmark. Seven fall in the first plan because a European plant-protein backcast found that actions were needed immediately [@VIS-40] {general|High}.
 
 ### M2.7.4 Review cycle
 
-The vision is to be reviewed at each five-year plan (2030, 2035, 2040, 2045) against the 16 signposts and the triggers in section 24.8, with the first full review in 2035 (VM-12). This copies what has worked elsewhere: Japan verifies its basic-plan indicators every year and publishes the misses [@VIS-13] {general|High}; Finland's government reports on the future once per electoral term [@VIS-44] {general|Medium}; Korea runs its food-tech law through five-year plans [@VIS-14; @VIS-28] {VN-adjacent|Medium}. A Vietnamese commentary proposes three layers: fixed foundations, 20 to 30-year scenarios, and 5 to 10-year adjustment [@VIS-47] {VN-direct|Low}.
+The vision is to be reviewed at each five-year plan (2030, 2035, 2040, 2045) against the 16 signposts and the triggers in section 24.8, with the first full review in 2035 (VM-12). This copies what has worked elsewhere: Japan plans to verify its basic-plan indicators every year and announce progress [@VIS-13] {general|High}; Finland's government reports on the future once per electoral term [@VIS-44] {general|Medium}; Korea runs its food-tech law through five-year plans [@VIS-14; @VIS-28] {VN-adjacent|Medium}. A Vietnamese commentary proposes three layers: fixed foundations, 20 to 30-year scenarios, and 5 to 10-year adjustment [@VIS-47] {VN-direct|Low}.
 
 ### M2.7.5 Lessons from backcasting and from Vietnam's own foresight
 
 | Lesson | Evidence | How we applied it |
 |---|---|---|
-| Embedding and follow-up decide impact | The backcasting framework ends in a follow-up agenda and embedding [@VIS-37]; the Dutch novel-protein backcast of the 1990s seeded the Profetas research programme [@VIS-38; @VIS-41; @VIS-42] {general\|Medium} | Milestones tied to plan cycles; each first move has an owner in chapter 28 |
-| Monitoring is the weak link | Six agri-food backcasts (2021 to 2024) [@VIS-39] {general\|High} | The first milestone is a statistic (VM-01); a review at every plan |
+| Embedding and follow-up decide impact | The backcasting framework ends in a follow-up agenda and embedding [@VIS-37]; the Dutch novel-protein backcast of the 1990s was followed by the Profetas research programme [@VIS-38; @VIS-41] {general\|Medium} | Milestones tied to plan cycles; each first move has an owner in chapter 28 |
+| Backcasting needs separate monitoring | Backcasting is qualitative and can only be a starting point for monitoring and tracking (six agri-food cases, 2021 to 2024) [@VIS-39] {general\|Medium} | The first milestone is a statistic (VM-01); a review at every plan |
 | Act immediately | A European plant-protein backcast to 2030 found actions had to start "immediately" [@VIS-40] {general\|High} | Seven milestones in 2026 to 2030 |
-| A vision without a statistic fades | The Dutch strategy published no quantitative targets; Canada's roadmap has no progress report [@VIS-05; @VIS-10] {general\|Medium} | The Measure pillar comes first |
-| Fit the method to thin data | Vietnam's Delphi for the 2021 to 2030 science strategy had 15 experts per field and could not rank priorities; its authors advise small, high-quality scenario workshops [@VIS-45] {VN-direct\|High} | Two axes, four worlds and 16 signposts rather than a large survey |
-| Joint authorship gives standing | *Vietnam 2035* was written by the World Bank and the then Ministry of Planning and Investment (now merged into MOF) [@VIS-46] {VN-direct\|Medium} | A model for a jointly owned review |
+| A vision without a statistic fades | The Dutch strategy published no quantitative targets; we found no progress report against Canada's roadmap [@VIS-05; @VIS-10] {general\|Medium} | The Measure pillar comes first |
+| Fit the method to thin data | Vietnam's Delphi for the 2021 to 2030 science strategy had 15 experts per field and could not rank priorities; its authors advise small, high-quality scenario workshops [@VIS-45] {VN-direct\|Low} | Two axes, four worlds and 16 signposts rather than a large survey |
+| Joint authorship gives standing | *Vietnam 2035* was written by the World Bank and the then Ministry of Planning and Investment [@VIS-46] {VN-direct\|Medium} | A model for a jointly owned review |
 
 ## M2.8 Calculations
 
@@ -385,10 +385,10 @@ The vision is to be reviewed at each five-year plan (2030, 2035, 2040, 2045) aga
 **Consistency decisions carried into the chapters.**
 - The 2030 target of 30 to 32 Mt of industrial feed appears to cover livestock feed only (Decision 1625/QD-TTg), answering v0.1's OQ-127 [@NTS-23] {VN-direct|Medium}.
 - Decision 1466/QD-TTg (31 July 2026) replaces the 2021 agri-biotech scheme [@NTS-35] {VN-direct|Medium}.
-- Thai Duong Feed JSC ran a national yeast-protein project in 2016 to 2019; its current status is unknown [@HSC-06; @HSC-07] {VN-direct|Medium}.
+- Thai Duong Feed JSC ran a yeast-protein research project in 2016 to 2019; its current status is unknown [@HSC-06; @HSC-07] {VN-direct|Medium}.
 - Research intensity is "about a quarter to a third of Thailand's": OpenAIRE gives about a quarter, OpenAlex 31% (4.1 against 13.4 works per 10,000 publications, 2015 to 2025) [@HSC-01; @BIB-01] {VN-direct|Medium}.
 
-**Calibration.** The model's interpolated 2027 values (30.5 Mt of feed, 7.7 Mt of soybean meal) sit within 0.1 Mt of USDA's forecasts, and its protein-meal use is within 2% of the OECD-FAO baseline for 2030 and 2035 [@MAC-01; @MAC-04; @QNT-01] {VN-direct|Medium}. Where streams counted differently, both counts were kept: gas-fermentation papers are 494 works of all types (FTG-14) or 314 articles and reviews (HSC-01), with 2 Vietnamese in each [@FTG-14; @HSC-01] {general|Medium}.
+**Calibration.** The model's interpolated 2027 values (30.5 Mt of feed, 7.7 Mt of soybean meal) sit within 0.1 Mt of USDA's April 2026 forecasts (since revised), and its protein-meal use is within 2% of the OECD-FAO baseline for 2030 and 2035 [@MAC-01; @MAC-04; @QNT-01] {VN-direct|Medium}. Where streams counted differently, both counts were kept: gas-fermentation papers are 494 works of all types ([@FTG-14]) or 314 articles and reviews on HSC-01's narrower query from 2015 ([@HSC-01]), with 2 Vietnamese in each [@FTG-14; @HSC-01] {general|Medium}.
 
 ## M2.10 Limitations
 
@@ -412,7 +412,7 @@ The vision is to be reviewed at each five-year plan (2030, 2035, 2040, 2045) aga
 | 1 | No Vietnamese stakeholder workshop tested the axes, worlds or vision; no interviews in this round | One small scenario workshop with MAE, MOST, feed mills and investors, as Vietnam's own foresight studies advise |
 | 2 | No Vietnamese series of feed conversion and soybean-meal inclusion by species | Feed-association and integrator data under confidentiality; the first protein balance (RM-01) |
 | 3 | No baseline for imports of yeasts and protein preparations from China (SP-10) | Vietnam customs data for HS 2102, 3504 and 2309 |
-| 4 | JRC bioeconomy 2050 scenario names not verified (pages blocked) [@VIS-50] {general\|Low} | The JRC123532 report from a mirror |
+| 4 | JRC bioeconomy 2050 report pages were blocked; the scenario names are verified only from the JRC repository page [@VIS-50] {general\|Low} | The JRC123532 report from a mirror |
 | 5 | FAO 2018 scenario names confirmed only from prior knowledge | The FAO 2018 report from FAO's open repository |
 | 6 | Numbers and horizon of the Dutch novel-protein backcast (full texts closed) | A repository copy of the 2007 Delft thesis on backcasting |
 | 7 | OpenAlex mis-mapping of two Vietnamese institution records | Curation requests to OpenAlex; until then, screen by hand |

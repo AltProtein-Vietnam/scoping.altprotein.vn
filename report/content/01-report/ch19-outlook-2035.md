@@ -5,7 +5,7 @@ short_title: "Outlook"
 section: report
 part: "IV. Futures: 2035 and 2050"
 order: 19
-summary: "Almost every rule change that matters for alternative protein in Vietnam lands in 2025 to 2027, so the direction of the next decade will be visible within about 18 months. The state targets 8.5 to 10.5 Mt more industrial feed a year by 2030 than in 2024, against a flat global fishmeal supply. We sketch three plausible states for 2035 (import price-taker, feed-first domestic build-out, regulated regional hub) with the signposts that would show which is unfolding. These are scenarios, not forecasts."
+summary: "Almost every rule change that matters for alternative protein in Vietnam lands in 2025 to 2027, so the direction of the next decade will be visible within about 18 months. The state targets industrial feed output 8.5 to 10.5 Mt higher in 2030 than in 2024, while the wild catch behind fishmeal is static. We sketch three plausible states for 2035 (import price-taker, feed-first domestic build-out, regulated regional hub) with the signposts that would show which is unfolding. These are scenarios, not forecasts."
 audiences: [investors, policy, international, startups, manufacturers, research]
 reading_time_min: 8
 key_numbers: [kn-feed-target-2030, kn-population-2035, kn-fishmeal-soy-ratio, kn-food-law-window]
@@ -36,7 +36,7 @@ charts: [chart-milestones-timeline, chart-scenarios]
 | 1 Jul 2026 | New high-technology lists (Decision 23/2026) apply | Fermentation plants may qualify for incentives | [@REG-47] {VN-direct\|High} |
 | Oct 2026 | Food Safety Law (amended): first comments at the National Assembly's second 2026 session | The one near-term window for a new-food procedure; the draft is revised between readings into early 2027 | [@REG-14; @APR-07] {VN-direct\|Medium} |
 | May 2027 | Food Safety Law: passage considered at the third session; entry into force after that (date not yet set) | Implementing decree drafting in 2027; the 1 January 2027 date in the WTO notice cannot hold | [@APR-07; @REG-12] {VN-direct\|Medium} |
-| 2027 | Next feed-list updates | Aquafeed raw-material gap and microbial biomass entries ([[ch27-policy-options]]) | [@REG2-01] {VN-direct\|Medium} |
+| 2027 (our assumption) | Next feed-list update; the lists must be reviewed and updated, but no date is set | Could add aquafeed raw materials and microbial biomass ([[ch27-policy-options]]) | [@REG2-01] {VN-direct\|Low} |
 | End 2028 | Domestic carbon market pilot ends; full operation from 2029 | Possible value for low-emission protein | [@REG-59] {VN-direct\|Medium} |
 | 2030 | Resolution 36 and 57 targets (biotechnology 7% of GDP; R&D 2% of GDP); Decision 1520 livestock targets | Strategy benchmarks | [@REG-50; @REG-51; @REG-54] {VN-direct\|High} |
 
@@ -56,9 +56,9 @@ Full list: `milestones.csv` (30 events).
 | Soybean meal, USD per t | 366 (average) | 363 (2027 World Bank forecast) | No official forecast | Actual and forecast | [@GT-14] {general\|High} |
 
 **Reading.**
-- **Feed is the growth engine.** Reaching 30 to 32 Mt by 2030 from 21.5 Mt in 2024 means 5.7 to 6.9% growth a year, or 8.5 to 10.5 Mt more feed a year by 2030 (our calculation from [@MAC-28; @REG-54]) {VN-direct|Medium}. Every extra tonne needs protein, which today is almost entirely imported ([[ch01-why-vietnam]]). The feed scheme (Decision 1625/QD-TTg) indicates that the target covers livestock feed only [@NTS-23] {VN-direct|Medium}, which makes it look out of reach; see [[ch22-protein-balance-2050]]. Chapters 20 to 24 extend this outlook to 2050 ([[ch20-drivers-2050]] to [[ch24-vision-2050]]), and [[ch28-robust-moves]] turns it into moves.
+- **Feed is the growth engine.** Reaching 30 to 32 Mt by 2030 from 21.5 Mt in 2024 means 5.7 to 6.9% growth a year, with feed output 8.5 to 10.5 Mt higher in 2030 than in 2024 (our calculation from [@MAC-28; @REG-54]) {VN-direct|Medium}. Every extra tonne needs protein, which today is almost entirely imported ([[ch01-why-vietnam]]). The feed scheme (Decision 1625/QD-TTg) indicates that the target covers livestock feed only [@NTS-23] {VN-direct|Medium}, which makes it look out of reach; see [[ch22-protein-balance-2050]]. Chapters 20 to 24 extend this outlook to 2050 ([[ch20-drivers-2050]] to [[ch24-vision-2050]]), and [[ch28-robust-moves]] turns it into moves.
 - **Demand growth comes from diet, not headcount.** Population grows about 5% from 2025 to 2035 and peaks around 2049 [@GT-12] {VN-direct|Medium}.
-- **The fishmeal-soy gap is at a high.** The ratio of fishmeal to soybean meal prices widened from 3.8 in 2024 to 6.2 in August 2026 [@GT-15] {general|High}. Global fishmeal supply is flat at about 4 to 4.5 Mt a year while aquafeed demand grows [@FM-06; @FM-35] {general|Medium}, which supports high prices, but monthly prices can fall back with Peruvian fishing seasons.
+- **The fishmeal-soy gap is at a high.** The ratio of fishmeal to soybean meal prices widened from 3.8 in 2024 to 6.2 in August 2026 [@GT-15] {general|High}. Global fishmeal output was about 4.5 Mt in 2016 and wild catch is static, while aquafeed demand is projected to grow [@FM-06; @FM-35] {general|Medium}, which supports high prices, but monthly prices can fall back with Peruvian fishing seasons.
 - **No official long-run feed price paths exist.** World Bank forecasts stop at 2027 [@GT-14] {general|High}. Any 2030 or 2035 price is a scenario assumption.
 
 ## 19.3 Three plausible states in 2035
@@ -81,7 +81,7 @@ Full list: `milestones.csv` (30 events).
 - **Drivers.** The new law defines new food and allows reliance. A decree makes the science-law sandbox usable for food. High-tech certification works for precision fermentation. Resolution 57 research money funds a national protein platform. Renewables make low-carbon power available.
 - **Signposts.** A "new food" (*thực phẩm mới*) definition and procedure in the law or decree; the first sandbox approval for a food product; a foreign precision-fermentation or contract-manufacturing firm registers an investment in Vietnam; Vietnam aligns with an ASEAN novel-food reliance mechanism. A negative signpost: Thailand's planned public precision-fermentation pilot plant is built first and draws the same investors ([[ch03-regional]]).
 
-Source for all three scenarios: AltProtein Vietnam synthesis of [@GT-10; @GT-11; @GT-15; @REG-12; @REG-47; @RGN-35; @CAP-01] and chapters 2 to 10, 26 and 27 {VN-direct\|Low}.
+Source for all three scenarios: AltProtein Vietnam synthesis of [@GT-10; @GT-11; @GT-15; @REG-12; @REG-47; @REG-54; @RGN-35; @CAP-01; @CAP-05; @ECO-05] and chapters 2 to 10, 26 and 27 {VN-direct\|Low}.
 
 {{chart:chart-scenarios}}
 
@@ -105,7 +105,7 @@ Two regional events also matter: whether Thailand builds its public precision-fe
 - **Investors:** the key regulatory events fall within 18 months. The fishmeal-soy ratio is a leading indicator for feed-protein deals; track it monthly.
 - **Policy makers:** the Food Safety Law window is the one that closes: a new-food clause must be in the draft revised after the October 2026 first reading, by early 2027, before the vote considered in May 2027. The 2030 feed target implies a large new protein requirement that will be met by imports unless domestic options are ready.
 - **Startups:** build on residues rather than cassava roots, which now compete with fuel ethanol; use the new province names in licences and documents.
-- **Manufacturers:** the feed target implies 8.5 to 10.5 Mt more feed a year by 2030 than in 2024, with a volatile fishmeal price; multi-supplier protein strategies reduce exposure.
+- **Manufacturers:** the feed target implies feed output 8.5 to 10.5 Mt higher in 2030 than in 2024, with a volatile fishmeal price; multi-supplier protein strategies reduce exposure.
 - **Research bodies and international bodies:** long-run projections for Vietnamese feed, meat and aquaculture are missing from public sources we could reach; a published baseline would help everyone plan.
 
 **Related:** [[app-f1-outlook]] (all projections with assumptions), [[ch30-unknowns]], [[ch27-policy-options]].

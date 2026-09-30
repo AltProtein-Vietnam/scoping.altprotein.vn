@@ -88,42 +88,42 @@ Source: AltProtein Vietnam scoring ([[ch10-technology-fit]] and the evidence cit
 ### T1. Domestic textured plant protein
 
 - **What.** Dry textured soy protein and soy-gluten granules and slices, made in Vietnam for *chay* brands, frozen-food makers and co-packers. High-moisture whole cuts come later.
-- **Why Vietnam.** Every audited Vietnamese product with 10 g of protein or more per 100 g runs on imported textured soy, soy protein or gluten, mostly Chinese; we found no commercial extrusion in Vietnam; ordinary food rules apply [@FORM-01; @FORM-05; @FORM-11] {VN-direct|Medium}. There is no tariff shelter: Chinese, ASEAN and Korean textured protein enters at 0% under ACFTA, ATIGA, AKFTA and RCEP [@FTR-32] {VN-direct|Medium}. The pool a soy line can serve is about 12,800 t a year of textured-type imports (2025) [@BUY-02; @TIC-12] {VN-direct|Medium}.
-- **Must be true.** Ex-factory cost at or below landed Chinese textured protein (USD 1.24 per kg FOB in 2025; USD 1.29 to 1.38 per kg landed) [@TIC-12; @BUY-02] {VN-direct|Medium}; a supply of food-grade, low-temperature defatted soy flour below the breakeven price (about USD 700 to 940 per t delivered for a 1 t/h line at 70% utilisation; our calculation); buyers value freshness, customisation and local supply.
+- **Why Vietnam.** Every audited Vietnamese product with 10 g of protein or more per 100 g runs on imported textured soy, soy protein or gluten, much of it from China; we found no commercial extrusion in Vietnam; ordinary food rules apply [@FORM-01; @FORM-02; @FORM-05; @FORM-11] {VN-direct|Medium}. There is no tariff shelter: Chinese, ASEAN and Korean textured protein enters at 0% under ACFTA, ATIGA, AKFTA and RCEP [@FTR-32] {VN-direct|Medium}. The pool a soy line can serve is up to about 12,800 t a year of HS 2106.10 imports (2025; the code also covers concentrates and isolates, so the textured share is unknown) [@BUY-02; @TIC-12] {VN-direct|Medium}.
+- **Must be true.** Ex-factory cost at or below landed Chinese textured protein (USD 1.24 per kg FOB in 2025; USD 1.29 to 1.38 per kg landed, our calculation) [@TIC-12; @BUY-02] {VN-direct|Medium}; a supply of food-grade, low-temperature defatted soy flour below the breakeven price (about USD 700 to 940 per t delivered for a 1 t/h line at 70% utilisation; our calculation); buyers value freshness, customisation and local supply.
 - **Kill tests.** Delivered flour costs more than about USD 700 to 940 per t; fewer than three buyers sign conditional orders totalling at least 2,000 t a year; Chinese landed price stays below Vietnamese full cost at 2,800 t a year (0.5 t/h at 70%) or 5,600 t (1 t/h at 70%), on 8,000 operating hours a year; Indian textured soy (USD 0.98 per kg FOB in 2025) becomes the reference price.
-- **First customers.** An Nhien, Au Lac, Xuan Hong, LC Foods, Cholimex, CJ Foods Vietnam, Vissan, Thoai An, GN Foods (maker of the Co.op Select chay range) and other co-packers [@FORM-01; @CPC-15] {VN-direct|Medium}; the long tail of small chay makers through ingredient distributors such as Brenntag, VMC and TDGIMEX [@TIC-18; @BUY-36; @BUY-37] {VN-direct|Medium}. A 1 t/h line at 90% needs 26 to 131 buyers the size of Vissan's soy-protein use (our calculation).
+- **First customers.** An Nhien, Au Lac, Xuan Hong, LC Foods, Cholimex, CJ Foods Vietnam, Vissan, Thoai An, GN Foods (maker of at least one Co.op Select chay product) and other co-packers [@FORM-01; @CPC-15] {VN-direct|Medium}; the long tail of small chay makers through ingredient distributors such as Brenntag, VMC and TDGIMEX [@TIC-18; @BUY-36; @BUY-37] {VN-direct|Medium}. A 1 t/h line at 90% needs 26 to 131 buyers the size of Vissan's soy-protein use (our calculation).
 - **Partners.** Extrusion-line suppliers; a soy crusher for a food-grade flake stream [@FORM-10]; FIRI for pilot trials; a bank or trade-finance provider for flour and receivables.
-- **Horizon and capital.** 0 to 2 years. Chinese lines for dry textured vegetable protein (TVP) of 0.5 to 1 t/h with dryer are listed at USD 11,000 to 100,000 [@TIC-02; @TIC-03; @TIC-07] {general|Low}; installed in Vietnam, USD 0.28 to 1.38 million; working capital of USD 0.6 to 3.5 million is the larger need (our calculation; [[ch09-economics]], [[app-s12-costs]]). A European-grade line is unverified (USD 2.0 to 5.6 million installed on the earlier equipment assumption).
+- **Horizon and capital.** 0 to 2 years. Chinese lines for textured vegetable protein (TVP) of 0.2 to 1.5 t/h with dryer are listed at USD 11,000 to 100,000 [@TIC-02; @TIC-03; @TIC-07] {general|Low}; installed in Vietnam, USD 0.28 to 1.38 million; working capital of USD 0.6 to 3.5 million is the larger need (our calculation; [[ch09-economics]], [[app-s12-costs]]). A European-grade line is unverified (USD 2.0 to 5.6 million installed on the earlier equipment assumption).
 
 > **New evidence on T1.** The T1 thesis changes. T1 is an import-substitution ingredient plant, best owned by a large chay maker, a group of chay makers or co-packers, an ingredient distributor or a soy processor, and financed with bank debt and trade finance rather than venture equity. It has no intellectual property, its margin is a flour-to-texturate spread that Chinese exporters can narrow, and it displaces almost no meat. On the benchmark demand path it supports about one 1 t/h line, or two 0.5 t/h lines, by 2035, not three or four. Market pull stays at 5 in the demand view because named buyers already buy the imported equivalent. See [[ch25-demand-to-frontier]] for the demand check and the proposed score changes; the scores above are unchanged.
 
 ### T2. Functional microbial feed ingredients for shrimp and pangasius
 
 - **What.** Yeast, fungal or bacterial biomass used at 1 to 5% of shrimp or fish diets and sold on survival, feed efficiency or palatability, made on Vietnamese carbohydrate.
-- **Why Vietnam.** Abundant carbon; aerobic fermentation skills in amino-acid plants; a concentrated shrimp-feed industry; inactive yeasts already on the livestock feed list [@REG-32; @REG-33] {VN-direct|High}; trial evidence of functional benefits [@FM-20; @FM-31] {general|Medium}.
+- **Why Vietnam.** Abundant carbon; aerobic fermentation skills in amino-acid plants; a concentrated shrimp-feed industry ([[ch04-asset-map]], [[ch05-industrial-base]]); inactive yeasts already on the livestock feed list [@REG-32; @REG-33] {VN-direct|High}; trial evidence of functional benefits [@FM-20; @FM-31] {general|Medium}.
 - **Must be true.** Repeatable species-specific trials show at least a 3 to 5% gain in survival or feed conversion at 1 to 5% inclusion; a legal route for aquafeed use; cost below the functional willingness to pay (about USD 1,000 to 4,250 per tonne in total for pangasius; USD 1,280 to 4,800 per tonne above fishmeal parity for shrimp; [[ch09-economics]]), and against the revealed price of the bulk inactive yeast mills already import, about USD 1,100 per tonne in 2025 [@FBA-17] {VN-direct|Medium}.
 - **Kill tests.** Two independent tank or pond trials show no gain at 5% inclusion or less; two head-to-head trials at 1 to 2% inclusion show no gain worth the price gap over the commodity yeast mills already buy; Chinese by-product biomass [@FM-12], which enters duty-free [@FTR-32], delivers the same function for less.
-- **Revealed demand.** Vietnam imported about 9,200 t of inactive yeast and dead single-cell organisms (HS 2102.20) in 2025, 2.4 times the 2019 tonnage [@FBA-17] {VN-direct|Medium}. Export feed standards (ASC Feed Standard v1.2, BAP, GLOBALG.A.P.) neither require nor reward microbial protein; from 1 May 2028 ASC farm audits need feed from ASC-certified mills, and 15 Vietnamese mills were certified in September 2026 [@FBA-01; @FBA-02; @FBA-04; @FBA-05] {VN-direct|Medium}.
-- **First customers.** Sheng Long, CP Vietnam, Uni-President Vietnam, Tongwei, Grobest, Gromax, Skretting, De Heus, BioMar Viet Uc; integrated pangasius groups such as Vinh Hoan [@FM-04; @ECO-05; @FBA-04] {VN-direct|Medium}.
+- **Revealed demand.** Vietnam imported about 9,200 t of inactive yeast and dead single-cell organisms (HS 2102.20) in 2025, 2.4 times the 2019 tonnage [@FBA-17] {VN-direct|Medium}. Export feed standards (ASC Feed Standard v1.2, BAP, GLOBALG.A.P.) do not require microbial protein, although BAP counts algae and other aquatic microorganism ingredients toward its marine-ingredient target; from 1 May 2028 ASC farm audits need feed from ASC-certified mills, and 15 Vietnamese mills were certified in September 2026 [@FBA-01; @FBA-02; @FBA-03; @FBA-04; @FBA-05] {VN-direct|Medium}.
+- **First customers.** Sheng Long, CP Vietnam, Uni-President Vietnam, Tongwei, Grobest, Gromax, Skretting, De Heus, BioMar Viet Uc; integrated pangasius groups such as Vinh Hoan [@FM-04; @ECO-05; @FBA-04; @VCO-28; @VCO-09; @FBA-10] {VN-direct|Medium}.
 - **Partners.** Amino-acid producers for tolling or co-product streams; shrimp trial laboratories; large feed groups for distribution.
 - **Horizon and capital.** 1 to 3 years; low if tolled, otherwise in the fermentation capex range.
 
 ### T3. Bulk microbial protein for fishmeal replacement
 
 - **What.** Fungal or bacterial protein at 10,000 t a year or more, replacing 25 to 50% of fishmeal in shrimp feed.
-- **Why Vietnam.** The displaceable fishmeal pool is about 120 to 245 kt a year on central assumptions, of which about 25 to 90 kt is realistically contestable [@FM-04; @FM-05; @FM-08] {VN-direct|Low}.
+- **Why Vietnam.** The displaceable fishmeal pool is about 120 to 245 kt a year on central assumptions (our calculation, section S6.7 in [[app-s6-feed-market]]), of which about 25 to 90 kt is realistically contestable [@FM-04; @FM-05; @FM-08] {VN-direct|Low}.
 - **Must be true.** Capex below about USD 6,000 per annual tonne; near-free carbon; fishmeal near its 2026 high; a price below Chinese by-product and gas-fermentation imports.
 - **Kill tests.** After a pilot, measured cost stays above 1.2 times fishmeal-protein parity at 2025 prices; no mill signs an offtake at 70 to 90% of fishmeal-protein parity.
 - **First customers.** As T2.
 - **Horizon and capital.** 3 to 6 years; tens of USD millions; a candidate for development-finance first-loss capital, as in the Entobel template ([[ch08-capital]]).
 
-> **Correction.** Earlier drafts sized the displaceable fishmeal market at 350 to 450 kt a year. That range needs unsourced inclusion rates for snakehead and marine fish. The central estimate is 120 to 245 kt, and the part novel proteins can realistically take in total, already contested by insect meal and Chinese microbial protein, is 25 to 90 kt [@FM-04; @FM-08] {VN-direct|Low}.
+> **Correction.** Earlier drafts sized the displaceable fishmeal market at 350 to 450 kt a year. That range needs unsourced inclusion rates for snakehead and marine fish. The central estimate is 120 to 245 kt (our calculation), and the part novel proteins can realistically take in total, already contested by insect meal (Entobel) and Chinese microbial protein [@ECO-01; @FM-12; @ECO-69], is 25 to 90 kt (our calculation) [@FM-04; @FM-08] {VN-direct|Low}.
 
 ### T4. Cassava starch to fermentation sugar hub
 
 - **What.** Turn part of the cassava starch Vietnam exports into fermentation-grade glucose next to starch factories, and co-locate fermenters there.
 - **Why Vietnam.** Vietnam shipped 2.15 Mt of cassava starch in 2023, 93.5% to China, while China imported only USD 0.16 million of glucose syrup from Vietnam in 2024 [@RGN-53; @RGN-55] {VN-direct|High}. Starch factories cluster in Tay Ninh and the Central Highlands ([[ch04-asset-map]]).
-- **Must be true.** Cassava prices stabilise after the 2025 to 2026 spike and the E10 fuel-ethanol mandate [@FS-11; @FS-12] {VN-direct|Medium}; at least one fermenter commits to co-locate; wastewater and biogas infrastructure can serve fermentation.
+- **Must be true.** Cassava prices stabilise after the 2025 to 2026 spike and the E10 fuel-ethanol roadmap [@FS-08; @FS-11; @FS-12] {VN-direct|Medium}; at least one fermenter commits to co-locate; wastewater and biogas infrastructure can serve fermentation.
 - **Kill tests.** No fermenter commits within two years; cassava volatility rules out long-term sugar contracts.
 - **First customers.** Domestic fermenters; foreign biomass or precision-fermentation firms looking for a lower-cost ASEAN site ([[ch03-regional]]).
 - **Horizon and capital.** 1 to 3 years; capital not estimated (standard starch-industry equipment; Vedan already built about 140,000 t a year of glucose capacity [@VCO-03] {VN-direct|Medium}).
@@ -131,7 +131,7 @@ Source: AltProtein Vietnam scoring ([[ch10-technology-fit]] and the evidence cit
 ### T5. Shared pilot and tolling fermentation
 
 - **What.** A food-grade pilot line (hundreds of litres to a few cubic metres) plus negotiated tolling on existing industrial tanks, open to startups and researchers.
-- **Why Vietnam.** Aerobic tanks exist inside Vedan, Ajinomoto and Daesang, but we found no published tolling offer and no open pilot fermenter ([[ch05-industrial-base]]) [@INF-02; @INF-05] {VN-direct|Low}.
+- **Why Vietnam.** Aerobic tanks exist inside Vedan, Ajinomoto and Daesang [@VCO-05; @IND-08; @IND-11], but we found no published tolling offer and no open pilot fermenter ([[ch05-industrial-base]]) [@INF-02; @INF-05] {VN-direct|Low}.
 - **Must be true.** An anchor host and an operator; enough users; public or development co-funding.
 - **Kill tests.** No host accepts tolling terms; use below about a third of capacity in the first two years.
 - **First customers.** Teams working on T2, T7 and T9; research groups; foreign firms testing Vietnamese feedstocks.
@@ -142,7 +142,7 @@ Source: AltProtein Vietnam scoring ([[ch10-technology-fit]] and the evidence cit
 
 - **What.** Duckweed grown on pond or processing effluent and used in fish, poultry or pig feed; a food protein concentrate later.
 - **Why Vietnam.** Duckweed is a permitted livestock feed material [@REG-32; @REG-33] {VN-direct|High}; there is a Vietnamese collection of more than 100 wild strains [@RD-44] {VN-direct|Medium}; the climate suits year-round growth.
-- **Must be true.** Yields of 10 to 30 t of dry matter per hectare per year on Vietnamese sites [@SCI-36; @SCI-37]; heavy metals and manganese within limits [@SCI-28; @SCI-34]; cheap harvesting and drying.
+- **Must be true.** Yields of 10 to 30 t of dry matter per hectare per year on Vietnamese sites (our planning range) [@SCI-36; @SCI-37]; heavy metals and manganese within limits [@SCI-28; @SCI-34]; cheap harvesting and drying.
 - **Kill tests.** Field yields below 10 t per hectare per year; contaminants above feed limits on typical effluent.
 - **First customers.** Integrated pangasius and tilapia farms; small feed mills; livestock farms.
 - **Horizon and capital.** 1 to 3 years; low.
@@ -150,17 +150,17 @@ Source: AltProtein Vietnam scoring ([[ch10-technology-fit]] and the evidence cit
 ### T7. High-value, low-dose precision-fermentation ingredients
 
 - **What.** Enzymes, heme or sweet proteins and specialty functional proteins developed by Vietnamese teams and made under contract abroad until a domestic option exists.
-- **Why Vietnam.** Vietnamese groups already express proteins in yeast ([[ch06-knowledge-talent]]); low-dose products escape the bulk-protein titer benchmark [@SCI-01; @SCI-05] {general|High}.
-- **Must be true.** A product that is economic at 1 to 10 g/L; freedom to operate [@SCI-08]; a foreign approval or an ingredient use outside novel-food rules; a clear GMO pathway ([[ch07-rules]]).
+- **Why Vietnam.** Vietnamese groups already express proteins in yeast ([[ch06-knowledge-talent]]); low-dose products escape the bulk-protein titer benchmark (our inference) [@SCI-01; @SCI-05] {general|High}.
+- **Must be true.** A product that is economic at 1 to 10 g/L (our assumption); freedom to operate [@SCI-08]; a foreign approval or an ingredient use outside novel-food rules; a clear GMO pathway ([[ch07-rules]]).
 - **Kill tests.** No customer letter of intent after a sample programme; contract-manufacturing cost above target price at pilot scale.
-- **Partners.** ScaleUp Bio, EECi or Chinese CDMOs [@RGN-10; @RGN-36; @RGN-24].
+- **Partners.** ScaleUp Bio, EECi or Chinese CDMOs [@RGN-10; @RGN-36; @RGN-24] {general|Medium}.
 - **Horizon and capital.** 2 to 5 years; asset-light at first.
 
 ### T8. Cultivated seafood research
 
 - **What.** Serum-free adaptation of striped catfish and shrimp cells, growth-factor expression and regulatory preparation, with foreign partners.
-- **Why Vietnam.** Vietnam exports about USD 2.2 billion of pangasius a year ([[ch01-why-vietnam]]); Vietnamese groups express growth factors and culture stem cells ([[ch06-knowledge-talent]]); Vinh Hoan has invested in regional cultivated-seafood firms [@CAP-16] {VN-direct|Low}.
-- **Must be true.** A food-suitable cell line (none exists [@SCI-10; @SCI-12] {general|High}); five or more years of research funding; a scale-up partner.
+- **Why Vietnam.** Vietnam exports about USD 2.2 billion of pangasius a year ([[ch01-why-vietnam]]) [@MAC-01]; Vietnamese groups express growth factors and culture stem cells ([[ch06-knowledge-talent]]); Vinh Hoan has invested in regional cultivated-seafood firms [@CAP-16] {VN-direct|Low}.
+- **Must be true.** A food-suitable cell line (none known [@SCI-10; @SCI-12] {general|High}); five or more years of research funding; a scale-up partner.
 - **Kill tests.** No serum-free, suspension-capable line after three years.
 - **Horizon and capital.** 5 to 10 years or more; research grants.
 
@@ -175,7 +175,7 @@ Source: AltProtein Vietnam scoring ([[ch10-technology-fit]] and the evidence cit
 ### T10. Mung bean and rice protein for plant drinks
 
 - **What.** Concentrates or isolates from mung bean and rice, replacing imported pea protein in high-protein plant drinks and yoghurts.
-- **Why Vietnam.** A large plant-milk industry whose high-protein lines use pea protein, for which no Vietnamese producer was found [@FORM-01] {VN-direct|Low}; ordinary food rules.
+- **Why Vietnam.** A large plant-milk industry; Vinamilk's high-protein line uses pea protein, for which no Vietnamese producer was found [@FORM-01] {VN-direct|Low}; ordinary food rules.
 - **Must be true.** Functional and sensory parity; cost near imported pea protein; a buyer specification; reliable mung bean supply (65% of imports from Myanmar [@FORM-08]); honest protein-quality claims (human mung bean digestibility is about 20% below pig values [@SCI-42] {general|High}).
 - **Kill tests.** Buyer rejects on taste or stability; cost exceeds imported pea protein by more than buyers will pay for local sourcing.
 - **First customers.** Vinamilk, TH and other plant-milk makers.

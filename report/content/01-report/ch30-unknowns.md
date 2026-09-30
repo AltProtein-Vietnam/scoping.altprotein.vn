@@ -5,7 +5,7 @@ short_title: "Unknowns"
 section: report
 part: "V. What to do"
 order: 30
-summary: "Desk research has reached diminishing returns. The twenty unknowns that matter most can mostly be closed by a letter to a ministry, a phone call to a feed mill or a query to customs. We list them in priority order, with the play each one unblocks and who to ask. The full register holds 376 open questions and 352 recorded disagreements between sources."
+summary: "Desk research has reached diminishing returns. The twenty unknowns that matter most can mostly be closed by a letter to a ministry, a phone call to a feed mill or a query to customs. We list them in priority order, with the play each one unblocks and who to ask. The full register holds 446 open questions and 352 recorded disagreements between sources."
 audiences: [research, policy, investors, startups, international, manufacturers]
 reading_time_min: 6
 key_numbers: [kn-open-questions, kn-disagreements]
@@ -16,7 +16,7 @@ charts: []
 
 # 30. What we do not know, and who can tell us
 
-**In one paragraph.** This report was built from public sources over ten research rounds, and by the end each new search added little. The remaining gaps are of a different kind: they sit in ministry files, company plants and customs records, not on the open web. Most can be closed cheaply, by a written question to a ministry, a call to a feed mill's technical manager or a customs data request. We list the twenty that matter most, ranked by how much they would change a decision in this report, with the play they unblock ([[ch26-plays]]) and who to ask. The full register holds 376 open questions (`open_questions.csv`) and 352 disagreements between sources, each with the position we took (`disagreements.csv`).
+**In one paragraph.** This report was built from public sources over ten research rounds, and by the end each new search added little. The remaining gaps are of a different kind: they sit in ministry files, company plants and customs records, not on the open web. Most can be closed cheaply, by a written question to a ministry, a call to a feed mill's technical manager or a customs data request. We list the twenty that matter most, ranked by how much they would change a decision in this report, with the play they unblock ([[ch26-plays]]) and who to ask. The full register holds 446 open questions (`open_questions.csv`) and 352 disagreements between sources, each with the position we took (`disagreements.csv`).
 
 > **Demand questions.** Part III adds 114 demand-side open questions (OQ-156 to OQ-269, [[app-r1-open-questions]]). The ones that most change the demand picture are how many people keep chay days, how much meat is eaten as processed products, protein per canteen meal, the food and feed split of plant-protein imports, and any tested Vietnamese evidence on willingness to pay and names ([[ch25-demand-to-frontier]]).
 
@@ -64,7 +64,7 @@ We recorded 352 disagreements between sources and stated the position we took fo
 | Fishmeal price | USD 1,600 per t (a trade quote) against USD 1,794 per t (World Bank, same month) | World Bank series as benchmark; the quote is probably a lower grade |
 | Precision-fermentation titer benchmark | "Above 50 g/L" presented as a calculated threshold | An expert assertion, not a modelled figure ([[ch10-technology-fit]]) |
 | Protein-ingredient import tonnage | Vietnam-reported against China-reported mirror data | China's mirror data for tonnage; Vietnam's weights are estimated ([[ch03-regional]]) |
-| Hawkwood cost structure | Feedstock 10 to 18% of cost in the model against 30 to 65% in cited studies | Either way labour and power are a minor share ([[ch03-regional]]) |
+| Hawkwood cost structure | Earlier drafts read model feedstock as 10 to 18% of cost against 30 to 65% in cited studies | No conflict: model feedstock is 37 to 56%, within the cited ranges, and 10 to 18% is depreciation; labour and power are a minor share ([[ch03-regional]]) |
 
 ## 30.3 Limits of this report
 
@@ -78,4 +78,4 @@ We recorded 352 disagreements between sources and stated the position we took fo
 
 Readers who hold any of these answers (ministries, feed mills, starch factories, laboratories, investors) can help. AltProtein Vietnam will record corrections in `open_questions.csv` and `disagreements.csv` and date each change, so the website can show what has been closed since publication.
 
-**Related:** [[app-r1-open-questions]] (all 376), [[app-r2-disagreements]] (all 352), [[app-m1-method]].
+**Related:** [[app-r1-open-questions]] (all 446), [[app-r2-disagreements]] (all 352), [[app-m1-method]].

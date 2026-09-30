@@ -74,7 +74,7 @@ The evidence points both ways on both axes, which is why we assign no probabilit
 
 {{kn:kn-anchoveta-2026}}
 
-- **Fermentation market: Chinese scale growing, but not alone.** China added large yeast-protein and mycoprotein capacity in 2025 and 2026 [@HSC-13; @HSC-14] {VN-adjacent|Medium} {fx:signal}, while its flagship gas-fermentation plant halted [@FTG-06] {VN-adjacent|Medium}. Thailand, India and Korea now fund public pilot plants and food-tech plans (2026 to 2030) [@FTB-42; @FTB-43; @FTB-17; @VIS-14] {VN-adjacent|Medium} {fx:signal}. US clearances went to Chinese and non-Chinese precision-fermentation firms alike in 2024 to 2025 [@FTB-18; @FTB-19] {general|Medium}.
+- **Fermentation market: Chinese scale growing, but not alone.** China added 11,000 t of yeast-protein capacity in 2025, and a 20,000 t mycoprotein plant is under construction [@HSC-13; @HSC-14] {VN-adjacent|Medium} {fx:signal}, while its flagship gas-fermentation plant halted [@FTG-06] {VN-adjacent|Medium}. Thailand, India and Korea now fund public pilot plants and food-tech plans [@FTB-42; @FTB-43; @FTB-17; @VIS-14] {VN-adjacent|Medium} {fx:signal}. US clearances went to Chinese and non-Chinese precision-fermentation firms alike in 2025 [@FTB-18; @FTB-19] {general|Medium}.
 
 ## 23.4 Wildcards that jump between worlds
 
