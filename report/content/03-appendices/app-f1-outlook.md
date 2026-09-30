@@ -27,15 +27,15 @@ All 30 rows of `milestones.csv`. "Status" is as of 23 September 2026.
 
 | ID | Date | Jurisdiction | Event | Instrument | Status | Why it matters | Evidence |
 |---|---|---|---|---|---|---|---|
-| MS-001 | 1 Mar 2025 | Vietnam | New Government structure: 14 ministries and 3 ministerial-level agencies; the Ministry of Agriculture and Environment (MAE), the merged MOST and the merged MOF begin operating | Resolution 176/2025/QH15 (18 Feb 2025); Decrees 29, 35, 40, 42 and 55/2025 | In force | Changes which agency owns feed, food safety, biotech, standards and tax incentives | [@GT-04; @GT-05; @GT-06; @GT-07; @GT-08; @GT-09] {VN-direct\|High} |
+| MS-001 | 1 Mar 2025 | Vietnam | New Government structure: 14 ministries and 3 ministerial-level agencies; the Ministry of Agriculture and Environment (MAE), the merged MOST and the merged MOF begin operating | Resolution 176/2025/QH15 (18 Feb 2025); Decrees 29, 35, 40, 42 and 55/2025 | In force | Changes which agency owns feed, food safety, biotech, standards and tax incentives | [@GT-04; @GT-05; @GT-06; @GT-07; @GT-08; @GT-09] {VN-direct\|Medium} |
 | MS-002 | 15 Apr 2025 | Vietnam | Revised Power Development Plan 8 (PDP8) approved: non-hydro renewables 28 to 36% of generation by 2030 and 74 to 75% by 2050; nuclear 4.0 to 6.4 GW in 2030 to 2035 | Decision 768/QĐ-TTg | In force | Grid carbon intensity and power price path for fermentation and drying | [@GT-11] {VN-direct\|High} |
 | MS-003 | 12 Jun 2025 | Vietnam | National Assembly adopts the provincial merger resolution; district level to end on 1 Jul 2025 (Party Resolution 60-NQ/TW, 12 Apr 2025) | Resolution 202/2025/QH15 | In force | Legal basis for the 34-unit map | [@GT-01; @GT-02] {VN-direct\|High} |
 | MS-004 | 1 Jul 2025 | Vietnam | 63 provincial units become 34 (28 provinces, 6 centrally governed cities); district level ends; two-tier local government | Resolution 202/2025/QH15; Resolution 60-NQ/TW | In force | All location references, provincial statistics and licensing offices change | [@GT-01; @GT-02; @GT-03] {VN-direct\|High} |
 | MS-005 | 1 Oct 2025 | Vietnam | Law on Science, Technology and Innovation takes effect (controlled-testing sandbox, Art 21 to 23; acceptance of research risk) | Law 93/2025/QH15 (27 Jun 2025) | In force | The only general legal basis found for a supervised novel-food pilot | [@REG-48] {VN-direct\|Medium} |
 | MS-006 | 1 Oct 2025 | Vietnam | New Corporate Income Tax Law takes effect (applies to the 2025 tax period): 10% for 15 years for high-tech and science and technology firms | Law 67/2025/QH15 (14 Jun 2025); Decree 320/2025/ND-CP | In force | Tax incentive for fermentation plants that obtain high-tech status | [@REG-45; @REG2-18] {VN-direct\|Medium} |
-| MS-007 | Nov 2025 | Thailand | Biotechnology Industry Development Framework 2026 to 2035 (NXPO) names future food and alternative proteins as a target sub-industry; a GMP precision-fermentation pilot plant; 500 million baht a year for 10 years for synthetic biology | NXPO framework | Adopted | Nearest competitor for regional precision-fermentation capacity and investment | [@RGN-35] {VN-adjacent\|Medium} |
-| MS-008 | 28 Nov 2025 | Singapore | Supplying an unapproved novel food becomes an offence; pre-market approval codified | Food Safety and Security Act 2025 and its Authorisations Regulations | In force | Regional reference regulator; route for exporters and for reliance | [@REG-63; @RGN-05] {VN-adjacent\|High} |
-| MS-009 | Dec 2025 | South Korea | Food Tech Industry Promotion Act in force (agriculture ministry lead) | Food Tech Industry Promotion Act | In force | A promotion law separate from safety approval | [@RGN-19] {VN-adjacent\|Medium} |
+| MS-007 | Nov 2025 | Thailand | Biotechnology Industry Development Framework 2026 to 2035 (NXPO) names future food and alternative proteins as a target sub-industry; a proposed GMP upgrade of the Chula precision-fermentation pilot plant; a 500 million baht a year investment target for 10 years for synthetic biology | NXPO framework | Proposed (NXPO, Nov 2025) | Nearest competitor for regional precision-fermentation capacity and investment | [@RGN-35] {VN-adjacent\|Medium} |
+| MS-008 | 28 Nov 2025 | Singapore | Supplying an unapproved novel food becomes an offence; pre-market approval codified | Food Safety and Security Act 2025 | In force | Regional reference regulator; route for exporters and for reliance | [@REG-63; @RGN-05] {VN-adjacent\|High} |
+| MS-009 | Dec 2025 | South Korea | Food Tech Industry Promotion Act in force (agriculture ministry lead) | Food Tech Industry Promotion Act | In force | A promotion law separate from safety approval | [@RGN-19; @RGN-21] {VN-adjacent\|Medium} |
 
 The Law 93/2025 effective date is read from the law by the wave 1 regulation review; the wave 1 R&D review could not confirm it (DG-060).
 
@@ -58,7 +58,7 @@ The Law 93/2025 effective date is read from the law by the wave 1 regulation rev
 
 | ID | Date | Jurisdiction | Event | Instrument | Status | Why it matters | Evidence |
 |---|---|---|---|---|---|---|---|
-| MS-018 | 2027 | Vietnam | Entry into force of the revised Food Safety Law not before mid-2027, after a vote considered at the May 2027 session (the WTO notification had said 1 January 2027); Decree 15/2018 applies until the new law and its decree do (Resolution 15/2026/NQ-CP) | Draft Food Safety Law | Planned | Depends on the vote; implementing decree timing unknown | [@REG-06; @REG-12] {VN-direct\|Low} |
+| MS-018 | 2027 | Vietnam | Entry into force of the revised Food Safety Law not before mid-2027 (our inference), after a vote considered at the May 2027 session (the WTO notification had said 1 January 2027); Decree 15/2018 applies until the new law and its decree do (Resolution 15/2026/NQ-CP) | Draft Food Safety Law | Planned | Depends on the vote; implementing decree timing unknown | [@REG-06; @REG-12; @APR-07] {VN-direct\|Low} |
 | MS-019 | 31 Dec 2027 | World | End of the World Bank price forecast horizon; no official 2030 or 2035 price forecast found | Commodity Markets Outlook | n/a | 2030 and 2035 price paths must be scenario assumptions | [@GT-14] {general\|High} |
 | MS-020 | 31 Dec 2028 | Vietnam | End of the pilot phase of the domestic carbon market | Decree 06/2022 as amended by Decree 119/2025 | In force | No quota obligation for agri-food before 2029; offsets can cover up to 30% of quotas | [@REG-59] {VN-direct\|Medium} |
 | MS-021 | 1 Jan 2029 | Vietnam | Domestic carbon market in full operation | Decree 06/2022 as amended by Decree 119/2025 | Planned | A possible future price signal for low-emission protein, if methods are approved | [@REG-59] {VN-direct\|Medium} |
@@ -74,12 +74,12 @@ The Law 93/2025 effective date is read from the law by the wave 1 regulation rev
 | MS-026 | 31 Dec 2030 | Vietnam | Last date for E5 RON92; E10 only thereafter | Circular 50/2025/TT-BCT | In force | More ethanol demand for cassava after 2030 | [@GT-10] {VN-direct\|High} |
 | MS-027 | 2030 to 2035 | Vietnam | First nuclear units (4.0 to 6.4 GW) planned; the former Ninh Thuan sites are now in Khanh Hoa | Decision 768/QĐ-TTg | Target | Low-carbon baseload for industrial bioprocessing on the south-central coast | [@GT-11] {VN-direct\|High} |
 | MS-028 | 2035 | Vietnam | Vietnam becomes an "aged society"; population about 106.5 million (UN medium variant) | Demographic projection | Projected | Protein demand shifts towards older consumers | [@GT-12; @GT-13] {VN-direct\|Low} |
-| MS-029 | 2035 | Vietnam | Nationally Determined Contribution (NDC 3.0) with a 2035 target | NDC 3.0 | Not verified | Would set the agriculture methane and emissions path relevant to feed and livestock | [@GT-16] {VN-direct\|Low} |
+| MS-029 | 2035 | Vietnam | Nationally Determined Contribution (NDC 3.0) with a 2035 target | NDC 3.0 | Draft (Jan 2026); not yet submitted per latest check | Would set the agriculture methane and emissions path relevant to feed and livestock | [@GT-16; @CLM-05] {VN-direct\|Low} |
 | MS-030 | 2049 | Vietnam | Population peaks at about 110.0 million (UN medium variant) | Projection | Projected | Long-run ceiling on demand from headcount | [@GT-12] {VN-direct\|Medium} |
 
 ### F1.1.5 What the calendar says
 
-- Almost all regulatory change that matters for alternative protein falls in 2025 to 2027: the science law and new tax law (October 2025), E10 (June 2026), the high-tech lists (July 2026) and the Food Safety Law (first comments October 2026, vote considered May 2027) [@REG-45; @REG-47; @REG-48; @GT-10; @REG-12] {VN-direct|Medium}. An investment thesis can be tested against these events within about 18 months.
+- Almost all regulatory change that matters for alternative protein falls in 2025 to 2027: the science law and new tax law (October 2025), E10 (June 2026), the high-tech lists (July 2026) and the Food Safety Law (first comments October 2026, vote considered May 2027) [@REG-45; @REG-47; @REG-48; @GT-10; @REG-12; @APR-07] {VN-direct|Medium}. An investment thesis can be tested against these events within about 18 months.
 - After 2027 the calendar is made of targets, not rules: the 2030 targets of Resolutions 36 and 57 and Decision 1520, and the carbon market's full start in 2029 [@REG-50; @REG-51; @REG-54; @REG-59] {VN-direct|High}.
 - The Food Safety Law is the window that is closing. See [[app-s9-regulation]] and policy option PO-015.
 
@@ -110,7 +110,7 @@ From `outlook.csv`, UN World Population Prospects 2024 (medium variant), read th
 
 **Meat: the two targets agree.** 58 to 62 kg per person times the UN 2030 population of 104.25 million gives 6.05 to 6.46 Mt, which matches the 6.0 to 6.5 Mt output target (our calculation) [@GT-12; @REG-54] {VN-direct|Medium}.
 
-**Feed: the base.** Vietnam's feed mills made 21.5 Mt of livestock and poultry feed in 2024 (+3.4%) and about 22 Mt in 2025 (+3%). These figures exclude aquafeed [@MAC-28; @MAC-02; @MAC-01] {VN-direct|High}. Output in the first half of 2026 was 12.43 Mt (+7.5%) [@MAC-03] {VN-direct|Medium}. Aquafeed estimates for 2025 disagree: 3.9 to 4.8 Mt from industry sources against 6.5 Mt from USDA; this is unresolved (DG-120) [@MAC-06; @MAC-01] {VN-direct|Medium}. USDA puts total feed demand (animal plus aquafeed) at 28.6 Mt in 2025, rising to 30.6 Mt in 2027 [@MAC-01] {VN-direct|Medium}.
+**Feed: the base.** Vietnam's feed mills made 21.5 Mt of livestock and poultry feed in 2024 (+3.4%) and about 22 Mt in 2025 (+3%). These figures exclude aquafeed [@MAC-28; @MAC-02; @MAC-01] {VN-direct|High}. Output in the first half of 2026 was 12.43 Mt (+7.5%) [@MAC-03] {VN-direct|Medium}. Aquafeed estimates for 2025 disagree: about 3.9 to 4.8 Mt (our sum of industry shrimp and fish feed estimates) against 6.5 Mt from USDA; this is unresolved (DG-120) [@MAC-06; @MAC-01] {VN-direct|Medium}. USDA puts total feed demand (animal plus aquafeed) at 28.6 Mt in 2025, rising to 31.2 Mt in 2027 in its August 2026 update (30.6 Mt in its April 2026 report) [@MAC-01; @MAC-03] {VN-direct|Medium}.
 
 **Feed: the required growth (our calculation).** Compound annual growth needed to reach 30 to 32 Mt by 2030:
 
@@ -124,8 +124,8 @@ Formula: (target / base)^(1 / years) minus 1, with 6 years from 2024 and 5 years
 Reading:
 
 - If the target covers livestock and poultry feed only, it needs about twice the growth rate of 2024 and 2025 (about 3% a year), though the first half of 2026 ran at +7.5% [@MAC-01; @MAC-03; @MAC-28] {VN-direct|Medium}.
-- If the target counts all industrial feed including aquafeed, it is already close: USDA's total of 28.6 Mt in 2025 and 30.6 Mt forecast for 2027 would meet it [@MAC-01] {VN-direct|Medium}. We did not establish which scope Decision 1520 uses. This matters for any claim about how much new protein Vietnam's feed industry will need.
-- Either way, every increment of feed demand has so far been met by imports: about 99% of the soy protein in Vietnamese feed is imported [@MAC-04; @MAC-09] {VN-direct|High}.
+- If the target counts all industrial feed including aquafeed, it is already close: USDA's total of 28.6 Mt in 2025 and 31.2 Mt forecast for 2027 (August 2026 update) would meet it [@MAC-01; @MAC-03] {VN-direct|Medium}. We did not establish which scope Decision 1520 uses. This matters for any claim about how much new protein Vietnam's feed industry will need.
+- Either way, every increment of feed demand has so far been met by imports: about 99% of the soy protein in Vietnamese feed is imported (our calculation from USDA supply data) [@MAC-04; @MAC-09] {VN-direct|Medium}.
 
 ## F1.4 Power: the revised PDP8
 
@@ -145,7 +145,7 @@ Decision 768/QĐ-TTg of 15 April 2025 [@GT-11] {VN-direct|High}:
 Reading:
 
 - The plan assumes 10% GDP growth a year from 2026 to 2030; actual growth was 8.02% in 2025 [@GT-11; @MAC-19] {VN-direct|High}. Electricity projections scale with this aggressive assumption.
-- Today's grid is carbon-heavy: the latest official emission factor is 0.6592 tCO2/MWh for 2023 [@COST-08] {VN-direct|High}. A power-intensive protein process has a high Scope 2 footprint unless it buys renewable power. PDP8 is the path by which that changes.
+- Today's grid is carbon-heavy: the latest official emission factor, as of January 2026, is 0.6592 tCO2/MWh for 2023 [@COST-08; @COST-09] {VN-direct|High}. A power-intensive protein process has a high Scope 2 footprint unless it buys renewable power. PDP8 is the path by which that changes.
 
 ## F1.5 Commodity prices: World Bank actuals and forecasts
 
@@ -168,7 +168,7 @@ All nominal US dollars. Forecasts end at 2027 [@GT-14] {general|High}.
 
 The latest monthly values are from the World Bank Pink Sheet of 2 September 2026 [@GT-15] {general|High}. Maize had already passed the Bank's 2026 forecast by August 2026 [@GT-15] {general|High}. The Bank expects overall commodity prices to rise 16% in 2026 on energy and fertiliser [@GT-14] {general|High}.
 
-Indices (2010 = 100): the World Bank food price index was 115.8 in 2024, 109.2 in 2025 and 118.8 in 2026 to date; the fertiliser index was 138.7 in 2025 and 188.2 in 2026 to date [@GT-15] {general|High}.
+Indices (2010 = 100): the World Bank food price index was 115.8 in 2024, 109.2 in 2025 and 118.8 in Q2 2026 (April to June average); the fertiliser index was 138.7 in 2025 and 188.2 in Q2 2026 (April to June average) [@GT-15] {general|High}.
 
 ### F1.5.2 Fishmeal, soybean meal and the ratio between them
 
@@ -185,31 +185,31 @@ Indices (2010 = 100): the World Bank food price index was 115.8 in 2024, 109.2 i
 - **Per tonne of protein.** At 65% crude protein, fishmeal cost about USD 2,625 per tonne of protein in 2025 and USD 3,846 in August 2026. At 46% crude protein, soybean meal cost about USD 880 per tonne of protein in August 2026 [@FM-01] {general|High}. These are our calculations from the World Bank prices. The outlook file (OUT-063) assumes 47% crude protein for soybean meal, which gives USD 857; we use 46% throughout the report.
 - **The ratio widened from 3.8 (2024) to 6.2 (August 2026).** This improves the economics of fishmeal replacers in aquafeed faster than earlier drafts assumed. It is a monthly price and may revert [@GT-15] {general|High}.
 - **Series definition.** The World Bank series is labelled "Fishmeal, Peru Fish meal/pellets 65% protein, CIF" on the compiled monthly page used by the feed-market review; its annual means match the Pink Sheet [@FM-01; @FM-02] {general|High}.
-- **Long-run context.** Global fishmeal output is flat at about 4 to 4.5 Mt a year, and aquaculture takes most of it [@FM-06; @FM-35] {general|Medium}.
+- **Long-run context.** Global fishmeal output was about 4.5 Mt in 2016, with wild supply static, and aquaculture takes most of it [@FM-06; @FM-35] {general|Medium}.
 
 > **Correction.** Earlier drafts used USD 1,837/t (March 2026) as the latest fishmeal price, about USD 2,830 per tonne of protein. The World Bank series reached USD 2,500/t in August 2026, and the 2025 average was USD 1,706/t. We now use the 2025 average as the base case and August 2026 as the latest value [@FM-01; @GT-15] {general|High}. A November 2025 quote of USD 1,600/t from a Vietnamese feed executive probably refers to a lower grade or Indian origin (DG-084, DG-115, DG-116, DG-126). The June 2026 Pink Sheet figure was first misread as USD 2,045; that is the Q2 average (DG-127).
 
 ## F1.6 Climate targets
 
 - Vietnam's 2022 NDC update sets 2030 emissions at 878 Mt CO2e (unconditional) and 629 Mt CO2e (conditional), as rated by Climate Action Tracker (updated 28 October 2025) [@GT-16] {VN-direct|Medium}.
-- We could not verify NDC 3.0 or any 2035 target with the tools allowed [@GT-16] {VN-direct|Low}.
+- NDC 3.0 (2026 to 2035) was still being drafted in January 2026; we found no submitted 2035 target [@GT-16; @CLM-05] {VN-direct|Low}.
 - The domestic carbon market runs as a pilot to the end of 2028 and in full from 2029. Pilot quotas cover thermal power, steel and cement, not agri-food [@REG-59] {VN-direct|Medium}.
 - Decision 300/QĐ-TTg targets a 10% cut in food-system greenhouse gas emissions against 2020 by 2030 [@REG-55] {VN-direct|Medium}.
 
 ## F1.7 Three plausible states of Vietnamese alternative protein in 2035
 
-This is scenario thinking, not a forecast. Each state is internally consistent with the milestones above. Signposts are observable events that would tell a reader which path is unfolding. No probabilities are given. The scaffold was built by the wave 2 geography and timeline review [@GT-10; @GT-15] {VN-direct|Medium}; the drivers draw on the legal, price and industry evidence cited in brackets.
+This is scenario thinking, not a forecast. Each state is internally consistent with the milestones above. Signposts are observable events that would tell a reader which path is unfolding. No probabilities are given. The scaffold was built by the wave 2 geography and timeline review; the drivers draw on the legal, price and industry evidence cited in brackets.
 
 ### Scenario 1: Import price-taker
 
 - **Picture in 2035.** Vietnam's alternative protein is mostly imported: Chinese SCP, yeast protein and textured vegetable protein, and food ingredients approved in Singapore or Thailand. Domestic activity is *đồ chay* (traditional vegetarian food) processing, tofu and a few insect-meal plants. Feed-protein imports grow with the feed industry.
-- **What drives it.** The Food Safety Law passes without a "new food" route, or with one that has no workable procedure [@REG2-06] {VN-direct|Medium}. Chinese scale keeps landed prices of SCP and textured protein below Vietnamese cost [@RGN-24; @FM-12] {general|Medium}. Fishmeal falls back from its 2026 peak. Agrifood venture capital stays near zero.
+- **What drives it.** The Food Safety Law passes without a "new food" route, or with one that has no workable procedure [@REG2-06] {VN-direct|Medium}. Chinese scale may keep landed prices of SCP below Vietnamese cost (our inference) [@RGN-24; @FM-12] {general|Low}. Fishmeal falls back from its 2026 peak. Agrifood venture capital stays near zero.
 - **Signposts.** (1) The Food Safety Law and its decree contain no defined "new food / new ingredient" procedure by the end of 2027. (2) Customs data show rising imports of HS 2102 (yeasts), 2106 and 2309 from China. (3) No new domestic extruder or fermentation plant above pilot scale is announced by 2028. (4) Fishmeal stays below USD 1,800/t for a full year.
 
 ### Scenario 2: Feed-first domestic build-out (Vietnam as side-stream processor)
 
 - **Picture in 2035.** Several Vietnamese plants turn side streams into feed protein for shrimp and fish feed. The side streams are cassava pulp in Tay Ninh (the former Tay Ninh cassava cluster, now merged with former Long An), brewers' spent grain in Ho Chi Minh City and Hai Phong, and seafood by-products in Ca Mau, An Giang and Can Tho. The products are insect meal, yeast or bacterial SCP, and duckweed. Food applications stay small.
-- **What drives it.** Fishmeal stays high (above about USD 2,000/t). MAE keeps adding new ingredients to the feed permitted lists [@REG-33] {VN-direct|Medium}. High-tech status (Decision 23/2026) and the 10% corporate income tax for 15 years are granted to fermentation plants [@REG-45; @REG-47] {VN-direct|Medium}. Development finance institutions repeat the Entobel structure (private equity plus development finance plus an offtake) [@ECO-03; @ECO-05] {VN-direct|Medium}. E10 demand makes cassava roots costly, which pushes processors towards pulp and other residues [@GT-10; @FS-11] {VN-direct|Medium}.
+- **What drives it.** Fishmeal stays high (above about USD 2,000/t). MAE keeps adding new ingredients to the feed permitted lists [@REG-33] {VN-direct|Medium}. High-tech status (Decision 23/2026) and the 10% corporate income tax for 15 years are granted to fermentation plants [@REG-45; @REG-47] {VN-direct|Medium}. Development finance institutions repeat the Entobel structure (private equity plus development finance plus an offtake) [@ECO-03; @ECO-05] {VN-direct|Medium}. Cassava roots became costly in 2026 on a supply shortfall [@FS-11], and the E10 mandate adds a new buyer [@GT-10]; this may push processors towards pulp and other residues (our inference) {VN-direct|Medium}.
 - **Signposts.** (1) A second insect or SCP plant above 5,000 t/yr reaches financial close by 2028. (2) MAE list updates name SCP or new microbial proteins for aquafeed. (3) A top-5 aquafeed producer signs a multi-year offtake. (4) Fishmeal averages above USD 2,000/t in 2027. (5) MAE reports feed output on track for 30 Mt in 2030.
 
 ### Scenario 3: Regulated regional hub (Vietnam as regional producer)
@@ -244,14 +244,14 @@ The tracker turns the signposts into checks. "Baseline" is the latest value foun
 | 7 | Imports from China of HS 2102 (yeasts), 2106 and 2309 | China shipped 10,029 t of HS 2106.10 to Vietnam in 2024 | WITS (UN Comtrade) or Vietnam Customs statistics | Annually | Rising year on year | Scenario 1 | [@RGN-49] {VN-direct\|Medium} |
 | 8 | Financial close of a domestic insect or SCP plant above 5,000 t/yr | Entobel's plants have 11,000 t/yr design capacity | Company and investor announcements; the deal log | Quarterly | A second plant closes by 2028 | Scenario 2 | [@ECO-01; @ECO-03] {VN-direct\|Medium} |
 | 9 | Multi-year offtake by a top-5 aquafeed producer | Vinh Hoan offtake of at least 15,000 t of insect meal over 2025 to 2027 | Company announcements | Quarterly | A signed offtake for a novel protein | Scenario 2 | [@ECO-05] {VN-direct\|Medium} |
-| 10 | Feed output against the 30 to 32 Mt target | 21.5 Mt (2024); about 22 Mt (2025); 12.43 Mt in H1 2026 (livestock and poultry) | MAE year-end report; USDA GAIN Grain and Feed reports | Twice a year | On track for 30 Mt in 2030 (about 6 to 8% a year) | Scenario 2 | [@MAC-28; @MAC-01; @MAC-03] {VN-direct\|High} |
+| 10 | Feed output against the 30 to 32 Mt target | 21.5 Mt (2024); about 22 Mt (2025); 12.43 Mt in H1 2026 (livestock and poultry) | MAE year-end report; USDA GAIN Grain and Feed reports | Twice a year | On track for 30 Mt in 2030 (about 6 to 8% a year) | Scenario 2 | [@MAC-28; @MAC-01; @MAC-03] {VN-direct\|Medium} |
 | 11 | Foreign precision-fermentation or contract-manufacturing investment in Vietnam | None found | Investment registration announcements | Quarterly | First registered investment | Scenario 3 | none: absence |
 | 12 | Extruder or fermentation plant above pilot scale announced in Vietnam | None found for alternative protein | Company announcements; industrial park news | Quarterly | None announced by 2028 | Scenario 1 | none: absence |
-| 13 | Thai GMP precision-fermentation pilot plant | Planned under the 2026 to 2035 framework | NXPO and Thai ministry announcements | Twice a year | Built and taking clients before any Vietnamese equivalent | Negative for Scenario 3 | [@RGN-35] {VN-adjacent\|Medium} |
+| 13 | Thai GMP precision-fermentation pilot plant | Proposed in the 2026 to 2035 framework (Chula GMP upgrade) | NXPO and Thai ministry announcements | Twice a year | Built and taking clients before any Vietnamese equivalent | Negative for Scenario 3 | [@RGN-35] {VN-adjacent\|Medium} |
 | 14 | Cassava chip export price | USD 260/t (to China) to 315/t (to Korea) FOB Quy Nhon, April 2026 | Vietnam Cassava Association bulletins; trade press | Monthly | Sustained rises push fermentation towards residues | Scenario 2 conditions | [@FS-11] {VN-direct\|Medium} |
 | 15 | ASEAN novel-food reliance mechanism | None found | ASEAN Secretariat; GFI APAC | Annually | Vietnam joins or aligns | Scenario 3 | none: absence |
-| 16 | Official grid emission factors for 2024 and 2025 | Latest official: 0.6592 tCO2/MWh (2023) | MAE Department of Climate Change | Annually | Published, and falling with PDP8 renewables | Scenario 3 conditions | [@COST-08] {VN-direct\|High} |
-| 17 | Vietnam NDC 3.0 (2035 target) | Not verified | UNFCCC NDC registry | Once | Agriculture or methane targets that reward low-emission protein | Scenario 2 and 3 conditions | [@GT-16] {VN-direct\|Low} |
+| 16 | Official grid emission factors for 2024 and 2025 | Latest official as of Jan 2026: 0.6592 tCO2/MWh (2023) | MAE Department of Climate Change | Annually | Published, and falling with PDP8 renewables | Scenario 3 conditions | [@COST-08; @COST-09] {VN-direct\|High} |
+| 17 | Vietnam NDC 3.0 (2035 target) | Draft (Jan 2026); not yet submitted per latest check | UNFCCC NDC registry | Once | Agriculture or methane targets that reward low-emission protein | Scenario 2 and 3 conditions | [@GT-16; @CLM-05] {VN-direct\|Low} |
 
 ## Gaps and how to close them
 

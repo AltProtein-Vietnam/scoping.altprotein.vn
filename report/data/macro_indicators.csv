@@ -18,7 +18,7 @@ MI-016,Cattle herd,6.14,million head,2025 (end),Vietnam,measured (official estim
 MI-017,Dairy cows,321.8,thousand head,2025 (end),Vietnam,measured (official estimate),MAC-12,VN-direct,Medium,-1.2% y/y.
 MI-018,Buffalo herd,1.95,million head,2025 (end),Vietnam,measured (official estimate),MAC-12,VN-direct,Medium,-3.9% y/y; -6.6% y/y at end June 2026 (NSO).
 MI-019,Pigs slaughtered,53.53,million head,2024,Vietnam,reported,MAC-22,VN-direct,Low,Press report; underlying source not named in extract.
-MI-020,Pigs culled due to ASF,1.2-1.3,million head,2025,Vietnam,reported,MAC-01; MAC-12,VN-direct,Medium,USDA about 1.2 M; Livestock Department 1.3 M.
+MI-020,Pigs culled due to ASF,1.2,million head,2025,Vietnam,reported,MAC-01; MAC-12,VN-direct,Medium,USDA about 1.2 M; the Livestock Department's 1.3 M also includes pigs killed or swept away by storms.
 MI-021,Pigs dead or culled due to ASF,about 6,million head,2019,Vietnam,estimated,MAC-37,VN-direct,High,More than 20% of national pig population (peer-reviewed).
 MI-022,Poultry dead or culled (disease),3.68,million head,2025,Vietnam,reported,MAC-12,VN-direct,Medium,Livestock Department via VnEconomy.
 MI-023,Total fisheries output,9947.5,thousand t,2025,Vietnam,measured (official estimate),MAC-15; MAC-13,VN-direct,High,"+3.0% y/y. 2024 preliminary was 9,547 kt; implied revised 2024 about 9,658 kt."
@@ -30,12 +30,12 @@ MI-028,Whiteleg shrimp output,994.4,thousand t,2025,Vietnam,measured (official e
 MI-029,Black tiger shrimp output,296.7,thousand t,2025,Vietnam,measured (official estimate),MAC-15,VN-direct,High,+3.6%. H1 2026: 167.6 kt (+4.3%).
 MI-030,Tilapia output,,thousand t,2025,Vietnam,,MAC-15,VN-direct,Low,GAP: NSO release mentions tilapia as rising but gives no tonnage.
 MI-031,Aquaculture output change,5.7,% y/y,2026 H1,Vietnam,measured,MAC-17,VN-direct,High,"Total fisheries H1 2026 4,954.2 kt, +3.6%."
-MI-032,Industrial compound feed output (livestock and poultry),21.5,million t,2024,Vietnam,measured (official estimate),MAC-28; MAC-02; MAC-26,VN-direct,High,"+3.4% y/y. Split: pig 55.3%, poultry 40.9%, other livestock 3.7%. Aquafeed NOT included."
+MI-032,Industrial compound feed output (livestock and poultry),21.5,million t,2024,Vietnam,measured (official estimate),MAC-28; MAC-02; MAC-26,VN-direct,High,"+3.4% y/y. Split: pig 55.3%, poultry 40.9%, other livestock 3.7% (sums to 99.9%). Aquafeed appears not to be included (our inference; MAC-28 does not say so)."
 MI-033,Industrial compound feed output (livestock and poultry),about 22,million t,2025,Vietnam,measured (official estimate),MAC-01,VN-direct,High,+3% (USDA); +2.9% per Vietnamese trade press headline.
 MI-034,Industrial feed output,12.43,million t,2026 H1,Vietnam,reported,MAC-03,VN-direct,Medium,"+7.5% y/y, media figure cited by USDA."
 MI-035,Total feed demand (animal + aquafeed),28.6,million t,2025,Vietnam,estimated,MAC-01,VN-direct,Medium,USDA Post estimate: animal 22.12 + aquaculture 6.5.
-MI-036,Total feed demand forecast,29.5,million t,2026,Vietnam,projected,MAC-01,VN-direct,Medium,Animal 22.77 + aquaculture 6.73.
-MI-037,Total feed demand forecast,30.6,million t,2027,Vietnam,projected,MAC-01,VN-direct,Medium,Animal 23.48 + aquaculture 7.12.
+MI-036,Total feed demand forecast,29.5,million t,2026,Vietnam,projected,MAC-01,VN-direct,Medium,USDA April 2026 annual: animal 22.77 + aquaculture 6.73. The August 2026 quarterly (MAC-03) revised 2026 to 30.45 (23.6 + 6.85).
+MI-037,Total feed demand forecast,30.6,million t,2027,Vietnam,projected,MAC-01,VN-direct,Medium,USDA April 2026 annual: animal 23.48 + aquaculture 7.12. The August 2026 quarterly (MAC-03) revised 2027 to 31.2 (24.2 + 7.0).
 MI-038,Aquafeed volume (USDA),6.5,million t,2025,Vietnam,estimated,MAC-01,VN-direct,Medium,Method not disclosed. 6.2 Mt for 2024 (MAC-02).
 MI-039,"Aquafeed volume (industry, by species)",3.9-4.8,million t,2025,Vietnam,estimated,MAC-06,VN-direct,Low,Sum of shrimp up to 0.92 Mt + fish 3.0-3.9 Mt (pangasius 2.0-2.5; tilapia 0.4-0.5; snakehead up to 0.3; marine 0.08-0.10). Installed capacity up to 5.5 Mt at 60-70% use implies 3.3-3.85 Mt.
 MI-040,"Shrimp feed, top six producers combined",640,thousand t,2025,Vietnam,estimated,MAC-06,VN-direct,Low,"Sheng Long, CP Vietnam, Uni-President Vietnam, Tongwei, Grobest, Gromax."
@@ -72,7 +72,7 @@ MI-070,Livestock sector exports (incl. feed),more than 2.1,billion USD,2025,Viet
 MI-071,Animal feed exports,1.44,billion USD,2025,Vietnam,reported,MAC-01,VN-direct,Medium,+40%; mainly to China and Southeast Asia. Plus 1.2 Mt rice bran and 4 Mt cassava exported.
 MI-072,Pork imports,292,thousand t,2024,Vietnam,reported,MAC-22,VN-direct,Low,USD 460 M. 2025 total meat imports not found.
 MI-073,Rice exports,8.07,million t,MY2024/25,Vietnam,estimated,MAC-01,VN-direct,Medium,USD 4.1 bn.
-MI-074,Agriculture GHG emissions,104.5,MtCO2e,2020,Vietnam,estimated,MAC-32,VN-direct,High,19.8% of national total 528.4 MtCO2e (NDC 2022). 2014: 89.8 MtCO2e (31.6%).
+MI-074,Agriculture GHG emissions,104.5,MtCO2e,2020,Vietnam,projected,MAC-32,VN-direct,High,"NDC business-as-usual projection for 2020, not an inventory figure. 19.8% of the projected national total 528.4 MtCO2e (our calculation; NDC 2022). 2014: 89.8 MtCO2e (31.6%)."
 MI-075,"Agriculture GHG emissions, BAU",112.1,MtCO2e,2030,Vietnam,projected,MAC-32,VN-direct,High,12.1% of BAU total 927.9 MtCO2e.
 MI-076,Agriculture NDC reduction vs BAU (unconditional),12.4,MtCO2e,2030,Vietnam,target,MAC-32,VN-direct,High,"Equal to 1.3% of national BAU; conditional 50.9 MtCO2e (5.5%). Economy-wide 15.8% unconditional, 43.5% conditional."
 MI-077,Livestock GHG (enteric + manure),18.5,MtCO2e,2016,Vietnam,estimated,MAC-33,VN-direct,Medium,Enteric 12.42 + manure 6.09 = 5.8% of national 316.7 MtCO2e. Rice cultivation 49.69 MtCO2e (15.7%). Old inventory; newer BTR not checked.

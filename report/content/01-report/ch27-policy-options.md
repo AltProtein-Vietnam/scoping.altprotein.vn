@@ -31,7 +31,7 @@ charts: [chart-policy-effort-impact]
 1. **Proportionate, not permissive or prohibitive.** Most new proteins are ordinary foods or feeds with a new source. Rules should gate what is new, not everything that is different ([[ch07-rules]]).
 2. **Rely on others' work.** Vietnam already fast-tracks GMOs approved in five developed OECD or G20 countries under Decree 43/2026; the same logic can apply to novel foods and feeds [@REG-18; @REG-23] {VN-direct|Medium}.
 3. **Publish timelines and fees.** The regional study's most specific recommendation for Vietnam is to publish procedures and statutory timelines [@RGN-01] {VN-direct|High}. Korea's published fee and review period, even before any approval, gave applicants something to plan around [@RGN-34] {VN-adjacent|Medium}.
-4. **Share capital, not only tax.** Capital is most of the cost of fermentation ([[ch09-economics]]), and the regional study ranks capital grants and loan guarantees above tax holidays [@RGN-01] {general|High}.
+4. **Share capital, not only tax.** Capital charges and maintenance are most of the cost of fermentation protein ([[ch09-economics]]), and the regional study ranks capital grants and loan guarantees above tax holidays [@RGN-01] {general|High}.
 5. **Use windows while they are open.** The Food Safety Law revision is a one-off opportunity; the next revision may be years away [@REG2-04; @REG2-05] {VN-direct|Medium}.
 
 ## 27.2 The ranked options

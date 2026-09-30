@@ -793,17 +793,17 @@ export function retailPricePerProtein(spec, D) {
   const rows = D.csv(spec.data.file).sort(
     (a, b) => num(a.med_price_100g_protein) - num(b.med_price_100g_protein),
   );
-  // Reference bands as stated in spec.data.reference (COST-39 to COST-41).
+  // Reference prices as stated in spec.data.reference (COST-39 to COST-41).
   const bands = [
     { label: 'Eggs', lo: 34000, hi: 40000, row: 1, anchor: 'end' },
     { label: 'Chicken breast', lo: 39500, hi: 45500, row: 0, anchor: 'end' },
-    { label: 'Lean pork', lo: 63000, hi: 69500, row: 0, anchor: 'start' },
+    { label: 'Lean pork', lo: 70900, hi: 70900, row: 0, anchor: 'start' },
   ];
   const L = hLayout({
     legend: [
       { label: 'Median price per 100 g of protein', color: S(1) },
       { label: 'Lowest to highest product', color: INK, shape: 'line' },
-      { label: 'Meat and egg reference ranges', color: BAND, shape: 'band' },
+      { label: 'Meat and egg reference prices', color: BAND, shape: 'band' },
     ],
     head: 40,
     rows: rows.map((r) => ({ label: r.product_type, data: r })),
@@ -817,10 +817,15 @@ export function retailPricePerProtein(spec, D) {
     under: (ctx) =>
       bands
         .map((b) => {
-          const x0 = ctx.scale(b.lo);
-          const x1 = ctx.scale(b.hi);
-          const tip = [`${b.label}: VND ${fmtNum(b.lo)} to ${fmtNum(b.hi)} per 100 g of protein`];
-          const cx = (x0 + x1) / 2;
+          // a single reference value is drawn as a narrow band centred on it
+          const cx = (ctx.scale(b.lo) + ctx.scale(b.hi)) / 2;
+          const x0 = Math.min(ctx.scale(b.lo), cx - 2.5);
+          const x1 = Math.max(ctx.scale(b.hi), cx + 2.5);
+          const tip = [
+            b.lo === b.hi
+              ? `${b.label}: about VND ${fmtNum(b.lo)} per 100 g of protein`
+              : `${b.label}: VND ${fmtNum(b.lo)} to ${fmtNum(b.hi)} per 100 g of protein`,
+          ];
           const ly = ctx.top - 32 + b.row * 16;
           return (
             mark(

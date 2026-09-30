@@ -1,9 +1,9 @@
 record_id,topic,metric,segment,value,unit,n,notes,source_ids,evidence_label,confidence,demand_evidence_type
 RDS-001,assortment,SKUs logged,mass stores (8),140,SKUs,140,"Lotte Mart, Co.opmart, GO!, WinMart, Emart in Nha Trang and Ho Chi Minh City; convenience sample.",FORM-01,VN-direct,Medium,revealed
 RDS-002,assortment,SKUs logged,premium stores (3),46,SKUs,46,"Annam Gourmet, Nam An Market, Moonmilk; convenience sample.",FORM-01,VN-direct,Medium,revealed
-RDS-003,assortment,Share of SKUs that are imported finished products,mass stores,3.6,%,140,5 of 140 SKUs; origin as logged.,FORM-01,VN-direct,Medium,revealed
+RDS-003,assortment,Share of SKUs that are imported finished products,mass stores,2.9,%,140,4 of 140 SKUs; origin as logged; excludes one imported ingredient packed in Vietnam.,FORM-01,VN-direct,Medium,revealed
 RDS-004,assortment,Share of SKUs that are imported finished products,premium stores,67.4,%,46,31 of 46 SKUs; origin as logged.,FORM-01,VN-direct,Medium,revealed
-RDS-005,price point,Median pack price,tofu; mass stores,12600,VND per pack,8,"Range 9,900 to 19,500. Shelf or online price as logged.",FORM-01,VN-direct,Medium,revealed
+RDS-005,price point,Median pack price,tofu; mass stores,12650,VND per pack,8,"Range 9,900 to 19,500. Shelf or online price as logged.",FORM-01,VN-direct,Medium,revealed
 RDS-006,price point,Median pack price,plant milk; mass stores,27500,VND per pack,31,"Range 3,700 to 133,500. Shelf or online price as logged.",FORM-01,VN-direct,Medium,revealed
 RDS-007,price point,Median pack price,plant milk; premium stores,94900,VND per pack,14,"Range 14,000 to 158,900. Shelf or online price as logged.",FORM-01,VN-direct,Medium,revealed
 RDS-008,price point,Median pack price,plant yogurt/creamer; mass stores,38800,VND per pack,7,"Range 10,000 to 41,000. Shelf or online price as logged.",FORM-01,VN-direct,Medium,revealed

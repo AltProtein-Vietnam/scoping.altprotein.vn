@@ -35,7 +35,7 @@ Part III (v0.3) was written for actors who want to move alternative protein in V
 | Policy, research and international | 20 | 33 | 0 | 17 | 15 | 1 | 10 | 8 | 15 |
 | **All** | **80** | **118** | **1** | **71** | **42** | **4** | **27** | **49** | **42** |
 
-Of the 46 questions with high decision value, Part III answered 1, partly answered 26 and did not answer 18; 1 was out of scope. The actor papers also recorded 79 new facts, some of which contradicted Part III outright (for example the school-meal guidance of December 2025 and the Food Safety Law timetable) [@APR-04; @APR-07] {VN-direct|High}.
+Of the 46 questions with high decision value (our coding, `actor_questions.csv`), Part III answered 1, partly answered 26 and did not answer 18; 1 was out of scope. The actor papers also recorded 79 new facts, some of which contradicted Part III outright (for example the school-meal guidance of December 2025 and the Food Safety Law timetable) [@APR-04; @APR-07] {VN-direct|High}.
 
 {{kn:kn-actor-check}}
 

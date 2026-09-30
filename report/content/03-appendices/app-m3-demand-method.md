@@ -43,7 +43,7 @@ Eight desk-research streams ran in parallel in wave 6 (September 2026), each und
 | EXPORT | EXP | Vietnam's export base; destination demand; diaspora; market access (tariffs, labels, novel food, deforestation rules); ingredient exports; seafood buyers' feed standards; competitors | 52 | [[ch17-export-demand]], [[app-d6-export]] |
 | GLOBAL | GLB | Adoption trajectories; price elasticities and parity experiments; taste tests; why the US category declined; Asian analogues; formats; institutional interventions; displacement; forecast track record; calibration values | 66 | [[ch13-consumers]], [[ch18-demand-sizing]], [[app-d7-global-benchmarks]] |
 
-Streams searched in English and Vietnamese and used web search, direct retrieval of primary documents, public databases (UN Comtrade, FAOSTAT, OECD SDMX, EU TARIC, Japan Customs, Google Trends) and two scholarly databases (Scite and OpenAlex). Existing source codes were reused where a stream cited a document the supply study already held (for example FORM-01, ECO-23, MAC-31, COST-39 to COST-41), so no document appears twice under different codes within Part III.
+Streams searched in English and Vietnamese and used web search, direct retrieval of primary documents, public databases (UN Comtrade, FAOSTAT, OECD SDMX, EU TARIC, Japan Customs, Google Trends) and two scholarly databases (Scite and OpenAlex). Existing source codes were reused where a stream cited a document the supply study already held (for example [@FORM-01], [@ECO-23], [@MAC-31], [@COST-39] to [@COST-41]), so no document appears twice under different codes within Part III.
 
 ## M3.3 Evidence rules and the demand evidence tag
 

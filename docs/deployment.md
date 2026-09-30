@@ -43,7 +43,7 @@ To repeat this on a fresh database: export the current one, `wrangler d1 create 
 
 ## 4. Content updates from a new package
 
-Deploying never changes page text in the CMS. After deploying a new package, run `scripts/sync-content.mjs` as described in the README (plan first, then `--apply`), with an EmDash API token created by an administrator. Moving from edition 1.1 (57 pages) to v0.6 (81 pages) creates 66 pages, updates 15 and moves the 42 pages whose ids changed to the trash; their old URLs redirect (`src/lib/redirects.ts`).
+Deploying never changes page text in the CMS. After deploying a new package, run `scripts/sync-content.mjs` as described in the README (plan first, then `--apply`), with an EmDash API token created by an administrator. Moving from edition 1.1 (57 pages) to v0.6 (81 pages) creates 66 pages, updates 15 and moves the 42 pages whose ids changed to the trash; their old URLs redirect (`src/lib/redirects.ts`). Moving from v0.6 to v0.7 updates 79 pages and leaves 2 unchanged; it creates and trashes none.
 
 ## 5. Subsequent deploys
 

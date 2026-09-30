@@ -40,17 +40,17 @@ Pork consumption was reported at about 39 kg per person in 2025, up from about 3
 
 The animal-protein economy runs on compound feed, and compound feed runs on imports.
 
-**Feed output.** Vietnamese feed mills made about 22 Mt of livestock and poultry feed in 2025, after 21.5 Mt in 2024 [@MAC-01; @MAC-28] {VN-direct|High}. This official figure excludes aquafeed. Aquafeed estimates disagree: industry sources put 2025 aquafeed at 3.9 to 4.8 Mt by species, while USDA's post estimates 6.5 Mt [@MAC-06; @MAC-01] {VN-direct|Low}. We do not average them (see [[app-s6-feed-market]] and [[app-r2-disagreements]]).
+**Feed output.** Vietnamese feed mills made about 22 Mt of livestock and poultry feed in 2025, after 21.5 Mt in 2024 [@MAC-01; @MAC-28] {VN-direct|Medium}. This official figure excludes aquafeed. Aquafeed estimates disagree: industry estimates by species sum to about 3.9 to 4.8 Mt for 2025 (our sum), while USDA's post estimates 6.5 Mt [@MAC-06; @MAC-01] {VN-direct|Low}. We do not average them (see [[app-s6-feed-market]] and [[app-r2-disagreements]]).
 
 **Imports of the two ingredients that set feed cost:**
 
 | Ingredient (2025) | Imports | Share of domestic supply imported | Main origins | Sources |
 |---|---|---|---|---|
 | Maize | 11.91 Mt, USD 2.95 bn | about 74% | Argentina 46.5%, Brazil 34.8%, United States about 13% | [@MAC-08; @MAC-01] {VN-direct\|High} |
-| Soybeans | 2.61 Mt, USD 1.21 bn | 98.4% | Brazil 45.8%, United States 43.6% | [@MAC-04; @MAC-09] {VN-direct\|High} |
-| Soybean meal | 5.70 Mt | 79% of meal; about 99% of soy protein (domestic crush uses imported beans) | Mostly Argentina (origin shares not re-checked) | [@MAC-04] {VN-direct\|High} |
-| Wheat (all uses) | 5.45 Mt, USD 1.46 bn | 100% | Australia, Brazil, United States | [@MAC-10] {VN-direct\|High} |
-| DDGS | 1.5 Mt | 100% | United States 72% | [@MAC-01] {VN-direct\|High} |
+| Soybeans | 2.61 Mt, USD 1.21 bn | 98.4% of imports plus domestic production (our calculation) | Brazil 45.8%, United States 43.6% | [@MAC-04; @MAC-09] {VN-direct\|High} |
+| Soybean meal | 5.70 Mt | 79% of meal (imports over imports plus domestic crush); about 99% of soy protein (domestic crush uses imported beans); both our calculations | Mostly Argentina (origin shares not re-checked) | [@MAC-04; @MAC-09] {VN-direct\|Medium} |
+| Wheat (all uses) | 5.45 Mt, USD 1.46 bn | 100% (derived) | Australia, Brazil, United States | [@MAC-10] {VN-direct\|Medium} |
+| DDGS | 1.5 Mt | 100% (inferred) | United States 72% | [@MAC-01] {VN-direct\|High} |
 
 Vietnam grew only 42,000 to 43,000 t of soybeans in 2025 on about 26,000 ha, and domestic maize output was flat to falling at about 4.1 Mt [@MAC-04; @MAC-01] {VN-direct|High}. Even if every domestic soybean were crushed, it would supply about 2% of the crush (our calculation from [@MAC-04]). Domestic crushing capacity is expanding, led by one Bunge and Wilmar plant at Phu My in Ho Chi Minh City (former Ba Ria-Vung Tau) with 2.6 Mt a year of capacity [@VCO-16] {VN-direct|Medium}. But crushing imported beans at home shifts imports from meal to beans; it does not reduce protein import dependence.
 
@@ -58,27 +58,27 @@ Vietnam grew only 42,000 to 43,000 t of soybeans in 2025 on about 26,000 ha, and
 
 {{chart:chart-feed-import-dependence}}
 
-> **Correction.** Earlier drafts of this project cited soybeans as "41,000 t produced against 3.2 Mt imported". Those were forecasts for 2026 mixed with 2025 actual figures. The 2025 actuals are 42,000 to 43,000 t produced and 2.61 Mt imported (98.4% of supply), with 5.70 Mt of soybean meal imported and 7.2 Mt fed [@MAC-04]. See [[app-m5-changelog]].
+> **Correction.** Earlier drafts of this project cited soybeans as "41,000 t produced against 3.2 Mt imported". Those were forecasts for 2026 mixed with 2025 actual figures. The 2025 actuals are 42,000 to 43,000 t produced and 2.61 Mt imported (98.4% of imports plus domestic production, our calculation), with 5.70 Mt of soybean meal imported and 7.2 Mt fed [@MAC-04]. See [[app-m5-changelog]].
 
 ## 1.3 Exposure: prices, disease and policy shocks
 
 A protein supply chain that depends on imports transmits external shocks directly into Vietnamese farm costs.
 
 - **Feed is most of the cost.** Industry sources put feed at 60% to 70% of livestock production cost, and above 70% for pigs [@MAC-24; @MAC-43] {VN-direct|Low}. For shrimp, 2026 trade press puts feed at 50% to 60% of production cost [@FM-10] {VN-direct|Medium}.
-- **2022.** At the peak of the post-Ukraine price spike, wheat import prices reached USD 424/t in September 2022, 37% above a year earlier [@MAC-44] {VN-direct|Medium}. A review estimates that about 30% of small pig farmers left the sector during the COVID-19 and 2022 disruptions [@MAC-43] {VN-direct|Low}.
-- **2026.** Feed prices rose 10% to 14% between January and April 2026, which the poultry association attributed to the Middle East conflict. Farm-gate egg prices fell below production cost [@MAC-24] {VN-direct|Medium}. Shrimp feed makers raised prices by VND 1,200 to 1,500/kg in June 2026 [@FM-10] {VN-direct|Medium}.
+- **2022.** During the post-Ukraine price spike, wheat import prices reached USD 424/t in September 2022, 37% above a year earlier [@MAC-44] {VN-direct|Medium}. A review estimates that price pressure forced about 30% of small farmers to stop farming in recent years [@MAC-43] {VN-direct|Low}.
+- **2026.** Feed prices rose 10% to 14% between January and April 2026 (poultry association estimate), which the association attributed to the Middle East conflict. Farm-gate egg prices fell below production cost [@MAC-24] {VN-direct|Medium}. Shrimp feed makers raised prices by VND 1,200 to 1,500/kg in June 2026 [@FM-10] {VN-direct|Medium}.
 - **Fishmeal.** The World Bank fishmeal price reached USD 2,500/t in August 2026, 43% above a year earlier and the highest in the 2020 to 2026 series [@FM-01; @FM-02] {general|High}. The fishmeal-to-soybean-meal price ratio widened from 3.8 in 2024 to 6.2 in August 2026 [@GT-15] {general|High}.
-- **Disease.** African swine fever killed or forced the culling of about 6 million pigs in 2019, more than 20% of the herd, and returned from the third quarter of 2025, when 1.2 to 1.3 million pigs were culled [@MAC-37; @MAC-01; @MAC-12] {VN-direct|Medium}.
+- **Disease.** African swine fever killed or forced the culling of about 6 million pigs in 2019, more than 20% of the herd, and returned in 2025, reaching most provinces by the third quarter; about 1.2 million pigs were culled that year [@MAC-37; @MAC-01; @MAC-12] {VN-direct|Medium}.
 - **Tax.** Animal feed became "not subject to VAT" from 1 July 2025, so feed makers can no longer deduct VAT paid on inputs [@COST-24; @MAC-25] {VN-direct|High}. This matters for any new feed-protein producer (see [[ch09-economics]]).
 
 {{chart:chart-fishmeal-price}}
 
 ## 1.4 Growth ahead, and where it will come from
 
-- USDA expects total feed demand (livestock, poultry and aquafeed) to rise from 28.6 Mt in 2025 to 30.6 Mt in 2027, and raised its forecast of maize imports for 2026/27 to 15 Mt [@MAC-01; @MAC-03] {VN-direct|Medium}.
+- USDA expects total feed demand (livestock, poultry and aquafeed) to rise from 28.6 Mt in 2025 to 31.2 Mt in 2027 (August 2026 forecast, up from 30.6 Mt in April), and raised its forecast of maize imports for 2026/27 to 15 Mt [@MAC-01; @MAC-03] {VN-direct|Medium}.
 - The national livestock strategy targets 30 to 32 Mt of industrial feed output and 6.0 to 6.5 Mt of carcass meat by 2030 [@MAC-23] {VN-direct|High}. If the feed target covers livestock and poultry feed only, it implies growth of about 6% to 8% a year from 2025 (our calculation; see [[app-f1-outlook]] for the scope question).
 - Vietnam's population is projected at 104.3 million in 2030 and 106.5 million in 2035 (UN medium variant) [@GT-12] {VN-direct|Medium}. Population will rise only about 5% between 2025 and 2035, so protein demand growth will come mostly from income and diet.
-- Nothing in the published strategies sets a numerical target for localising feed raw materials. The livestock strategy encourages domestic feed from by-products such as brewer's grain and cassava pulp, and biological products that replace antibiotics, but sets no localisation number [@MAC-23; @REG-54] {VN-direct|High}.
+- We found no numerical target for localising feed raw materials in the published strategies. The livestock strategy encourages domestic feed from by-products such as brewer's grain and cassava pulp, and biological products that replace antibiotics, but sets no localisation number [@MAC-23; @REG-54] {VN-direct|High}.
 
 On current trends, every additional tonne of feed demand will be met by imports.
 
@@ -88,7 +88,7 @@ Vietnam exported USD 11.3 billion of seafood in 2025 (+12.4%), including about U
 
 The shape of the economy is therefore clear: **Vietnam imports plant protein and energy, converts them into animal and aquatic protein, and exports a large share of the result.** Its competitive strength is processing. Its vulnerability is the input.
 
-A second, related pattern appears on the carbohydrate side. Vietnam supplied about 39% of China's cassava starch imports by value in 2024 (1.56 Mt, USD 757 million, China-reported), but only about USD 0.16 million of glucose [@RGN-51; @RGN-55] {VN-direct|High}. In 2025 Vietnamese starch exports rose to about 2.28 Mt in 11 months, and Vietnam became China's largest cassava starch supplier [@FS-01; @FS-13] {VN-direct|High}. The step that turns starch into fermentable sugar, and sugar into higher-value products, mostly happens after the starch leaves Vietnam. [[ch04-asset-map]] and [[ch03-regional]] return to this.
+A second, related pattern appears on the carbohydrate side. Vietnam supplied about 39% of China's cassava starch imports by value in 2024 (1.56 Mt, USD 757 million, China-reported), but only about USD 0.16 million of glucose [@RGN-51; @RGN-55] {VN-direct|High}. In 2025 Vietnamese starch exports to China rose to about 2.28 Mt in 11 months, and Vietnam became China's largest cassava starch supplier [@FS-01; @FS-13] {VN-direct|High}. The step that turns starch into fermentable sugar, and sugar into higher-value products, mostly happens after the starch leaves Vietnam. [[ch04-asset-map]] and [[ch03-regional]] return to this.
 
 ## 1.6 What the case for alternative protein rests on, and what it does not
 
@@ -96,7 +96,7 @@ For readers deciding whether Vietnam belongs in an alternative-protein strategy,
 
 1. **Supply security and the import bill (strong).** About 99% of soy protein in feed and about 74% of maize supply are imported, feed demand is growing, and the 2022 and 2026 shocks show the exposure. Any domestically made protein that can match imported protein on price for a defined use reduces that exposure. This is the argument with the most evidence behind it.
 2. **Industrial value added (strong, but conditional).** Vietnam already processes cassava, rice, sugar, soy and seafood at scale, and exports much of the carbohydrate as starch. Converting more of it to protein or fermentation feedstock at home is an industrial-policy argument that aligns with Resolution 36 on biotechnology and the 2026 high-technology priority list (see [[ch07-rules]]). It is conditional on costs ([[ch09-economics]]) and on a legal route to market.
-3. **Environment (real, but narrower than often claimed).** Agriculture produced 104.5 MtCO2e in 2020, 19.8% of national emissions [@MAC-32] {VN-direct|High}. But in the 2016 inventory, livestock (enteric fermentation plus manure) was 18.5 MtCO2e, 5.8% of the national total, against 49.7 MtCO2e from rice cultivation [@MAC-33] {VN-direct|Medium}. The environmental case for alternative protein in Vietnam therefore rests more on the land footprint of imported feed, manure pollution and antimicrobial use than on national methane totals. About 71.7% of antimicrobials used in Vietnam in 2015 went to animals [@MAC-36] {VN-direct|Medium}.
+3. **Environment (real, but narrower than often claimed).** Agriculture's 2020 emissions under the NDC business-as-usual projection were 104.5 MtCO2e, 19.8% of the projected national total (our calculation) [@MAC-32] {VN-direct|High}. But in the 2016 inventory, livestock (enteric fermentation plus manure) was 18.5 MtCO2e, 5.8% of the national total, against 49.7 MtCO2e from rice cultivation [@MAC-33] {VN-direct|Medium}. In our judgement, the environmental case for alternative protein in Vietnam therefore rests more on the land footprint of imported feed, manure pollution and antimicrobial use than on national methane totals. About 71.7% of antimicrobials used in Vietnam in 2015 went to animals [@MAC-36] {VN-direct|Medium}.
 4. **Animal welfare (a motivation for some actors, including the publisher of this report).** The scale is large: tens of millions of pigs and hundreds of millions of poultry on farms at any time, and billions of farmed fish and shrimp. Proteins that displace animal products in food, or that displace forage fish in feed, reduce these numbers. Proteins that make aquaculture cheaper could also expand it. This report does not model welfare effects; the sign depends on the use (see [[ch26-plays]]).
 
 A fifth argument, consumer demand, is outside this report's scope. We note only that the traditional *đồ chay* (vegetarian) category already exists in every supermarket we visited, and that the first thing it lacks is protein, not shelf space ([[ch02-alt-protein-today]]).

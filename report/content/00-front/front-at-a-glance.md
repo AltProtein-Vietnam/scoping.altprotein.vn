@@ -14,7 +14,7 @@ charts: [chart-feed-import-dependence, chart-price-to-beat, chart-plays-scoring,
 
 # At a glance
 
-> **Draft for review.** Version 0.6. Not for citation.
+> **Draft for review.** Version 0.7. Not for citation.
 
 The numbers that frame the report, in the order of its five parts. Each heading links to the chapters behind the numbers.
 

@@ -1,6 +1,6 @@
 # scoping.altprotein.vn
 
-The website for **Alternative protein in Vietnam: a supply-side scoping study** (AltProtein Vietnam, draft v0.6, September 2026). It publishes the full report package in `report/`: 81 pages (nine front pages, 30 chapters in five parts, six audience briefs and 36 appendices coded M, S, D, F and R), 184 data tables, 2,384 sources, 56 charts and the working papers.
+The website for **Alternative protein in Vietnam: a supply-side scoping study** (AltProtein Vietnam, draft v0.7, September 2026). It publishes the full report package in `report/`: 81 pages (nine front pages, 30 chapters in five parts, six audience briefs and 36 appendices coded M, S, D, F and R), 184 data tables, 2,384 sources, 56 charts and the working papers.
 
 Astro and EmDash on Cloudflare Workers, with D1 (content), R2 (CMS media) and KV (editor sessions).
 

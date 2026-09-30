@@ -11,7 +11,7 @@ AQP-009,capture fisheries,output (implied: total fish minus aquaculture),3501.1,
 AQP-010,capture fisheries,output (implied),3497.4,kt,2035,OECD-FAO Agricultural Outlook 2026-2035 baseline,projection,AQF-02,VN-direct,Low,Flat capture in the model
 AQP-011,all aquaculture,output target,7000,kt,2030,Decision 339/QD-TTg (2021) fisheries strategy,projection (official target),NTS-08; AQF-28,VN-direct,High,Total fisheries 9.8 Mt; no species targets and no 2045 volume
 AQP-012,capture fisheries,output target,2800,kt,2030,Decision 339/QD-TTg,projection (official target),NTS-08,VN-direct,High,About 27% below 2025 capture
-AQP-013,capture fisheries,"fishing vessels, maximum",83600,vessels,2030,Decision 389/QD-TTg (2024) fisheries resources plan,projection (official target),AQF-15,VN-direct,Medium,"Trawl 10.0% (about 8,360 vessels) against 20,340 trawlers in 2016 (AQF-06): about 59% fewer; labour down to about 600,000"
+AQP-013,capture fisheries,"fishing vessels, maximum",83600,vessels,2030,Decision 389/QD-TTg (2024) fisheries resources plan,projection (official target),AQF-15,VN-direct,Medium,"Trawl 10.0% (about 8,360 vessels); labour down to about 600,000"
 AQP-014,marine aquaculture,output target,850,kt,2025,Decision 1664/QD-TTg (2021) marine aquaculture scheme,projection (official target),AQF-01,VN-direct,High,"280,000 ha; 10.0 million m3; offshore 100 kt"
 AQP-015,marine aquaculture,output target,1450,kt,2030,Decision 1664/QD-TTg,projection (official target),AQF-01,VN-direct,High,"300,000 ha; 12.0 million m3; exports USD 1.8 to 2.0 bn"
 AQP-016,marine finfish,output target (inshore 80 plus offshore 120),200,kt,2030,Decision 1664/QD-TTg,projection (official target),AQF-01,VN-direct,High,Fed species; the segment still mostly fed trash fish

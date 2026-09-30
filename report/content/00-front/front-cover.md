@@ -5,7 +5,7 @@ short_title: "Home"
 subtitle: "What Vietnam could make, from what, under which rules, at what cost, who could do it, and who would buy it"
 section: front
 order: 1
-version: "0.6"
+version: "0.7"
 status: "Draft for review, not for citation"
 publisher: "AltProtein Vietnam"
 summary: "A draft, evidence-tagged scoping study of Vietnam's capacity to produce alternative proteins for food and feed, and of the demand that would pull them, written for investors, policy makers, startups, manufacturers, research bodies and international organisations."
@@ -20,9 +20,9 @@ charts: []
 
 ## A supply-side scoping study
 
-**AltProtein Vietnam · Draft v0.6 · September 2026**
+**AltProtein Vietnam · Draft v0.7 · September 2026**
 
-> **Draft for review.** This is version 0.6, a working draft shared for review. It is not for citation and may change before the public launch, which will be version 1.0.
+> **Draft for review.** This is version 0.7, a working draft shared for review. It is not for citation and may change before the public launch, which will be version 1.0.
 
 Vietnam turns imported plant protein into pork, poultry, eggs, fish and shrimp at a scale few countries match. This study asks what Vietnam could make at home instead: from which raw materials, with which equipment, under which rules, at what cost, and with whose money and skills. It covers food and feed, from textured plant protein to fermentation and cultivated meat. It also asks who would buy new protein and at what price, looks ahead to 2035 and 2050, and ends with what each type of actor could do. It is written for the people who could move the field forward.
 

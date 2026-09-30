@@ -232,7 +232,7 @@
     "international"
    ],
    "reading_time_min": 10,
-   "summary": "Vietnam's real non-animal protein economy is incumbent: soy milk, tofu and industrial đồ chay made by meat and frozen-food processors. Most of it is low in protein, and every locally made high-protein product runs on imported textured soy or wheat gluten, mostly from China. Modern plant-based brands are nearly absent. The most advanced alternative-protein market is feed, where insect meal is already sold and Chinese microbial protein is already imported.",
+   "summary": "Vietnam's real non-animal protein economy is incumbent: soy milk, tofu and industrial đồ chay made by meat and frozen-food processors. Most of it is low in protein, and every locally made high-protein product runs on imported textured soy or wheat gluten, much of it from China. Modern plant-based brands are nearly absent. The most advanced alternative-protein market is feed, where insect meal is already sold and Chinese microbial protein is already imported.",
    "path": "content/01-report/ch02-alt-protein-today.md",
    "lang": "en"
   },
@@ -484,7 +484,7 @@
     "international"
    ],
    "reading_time_min": 25,
-   "summary": "Traditional markets and small grocers still take 83% of food retail, so a chilled or frozen alternative sits in the frozen vegetarian aisle, in retailer private label or in kitchens. In factory canteens, the largest price-set protein channel, only an ingredient that beats tofu and dry soy-gluten pieces fits, and branded meat replacements are the wrong start in schools.",
+   "summary": "Traditional markets and small grocers still take 83% of food retail, so a chilled or frozen alternative sits in the frozen vegetarian aisle, in retailer private label or in kitchens. In factory canteens, a large, price-set protein channel, only an ingredient that beats tofu and dry soy-gluten pieces fits, and branded meat replacements are the wrong start in schools.",
    "path": "content/01-report/ch15-channels.md",
    "lang": "en"
   },
@@ -544,7 +544,7 @@
     "manufacturers"
    ],
    "reading_time_min": 19,
-   "summary": "Instead of a market-size number, we size seven routes by which domestic or novel protein could reach buyers, in three labelled scenarios. On a benchmark path they create demand for about 19,000 t of protein a year by 2035, mostly by replacing imported ingredients, but displace only about 2,400 t of meat protein (0.2%).",
+   "summary": "Instead of a market-size number, we size seven routes by which domestic or novel protein could reach buyers, in three labelled scenarios. On a benchmark path they create demand for about 19,000 t of protein a year by 2035, mostly by replacing imported ingredients, but displace only about 2,350 t of meat protein (0.2%).",
    "path": "content/01-report/ch18-demand-sizing.md",
    "lang": "en"
   },
@@ -564,7 +564,7 @@
     "research"
    ],
    "reading_time_min": 8,
-   "summary": "Almost every rule change that matters for alternative protein in Vietnam lands in 2025 to 2027, so the direction of the next decade will be visible within about 18 months. The state targets 8.5 to 10.5 Mt more industrial feed a year by 2030 than in 2024, against a flat global fishmeal supply. We sketch three plausible states for 2035 (import price-taker, feed-first domestic build-out, regulated regional hub) with the signposts that would show which is unfolding. These are scenarios, not forecasts.",
+   "summary": "Almost every rule change that matters for alternative protein in Vietnam lands in 2025 to 2027, so the direction of the next decade will be visible within about 18 months. The state targets industrial feed output 8.5 to 10.5 Mt higher in 2030 than in 2024, while the wild catch behind fishmeal is static. We sketch three plausible states for 2035 (import price-taker, feed-first domestic build-out, regulated regional hub) with the signposts that would show which is unfolding. These are scenarios, not forecasts.",
    "path": "content/01-report/ch19-outlook-2035.md",
    "lang": "en"
   },
@@ -782,7 +782,7 @@
     "manufacturers"
    ],
    "reading_time_min": 6,
-   "summary": "Desk research has reached diminishing returns. The twenty unknowns that matter most can mostly be closed by a letter to a ministry, a phone call to a feed mill or a query to customs. We list them in priority order, with the play each one unblocks and who to ask. The full register holds 376 open questions and 352 recorded disagreements between sources.",
+   "summary": "Desk research has reached diminishing returns. The twenty unknowns that matter most can mostly be closed by a letter to a ministry, a phone call to a feed mill or a query to customs. We list them in priority order, with the play each one unblocks and who to ask. The full register holds 446 open questions and 352 recorded disagreements between sources.",
    "path": "content/01-report/ch30-unknowns.md",
    "lang": "en"
   },
@@ -972,7 +972,7 @@
     "manufacturers"
    ],
    "reading_time_min": 25,
-   "summary": "Every version of this draft report and what it changed, where each page moved when the report was restructured in v0.6, and every correction to earlier drafts, with what it was, what the report now uses, the source and where the correction appears.",
+   "summary": "Every version of this draft report and what it changed, including the citation check of v0.7, where each page moved when the report was restructured in v0.6, and every correction to earlier drafts, with what it was, what the report now uses, the source and where the correction appears.",
    "path": "content/03-appendices/app-m5-changelog.md",
    "lang": "en"
   },
@@ -1129,7 +1129,7 @@
     "international"
    ],
    "reading_time_min": 21,
-   "summary": "Where a founder in Vietnam can pilot, test, run official feed trials, find land with incentives, hire graduates and buy equipment in 2026. No public food-grade pilot fermentation service and no amino-acid or digestibility testing service were found; the state feed-trial system was reorganised in 2025 and 2026.",
+   "summary": "Where a founder in Vietnam can pilot, test, run official feed trials, find land with incentives, hire graduates and buy equipment in 2026. No public food-grade pilot fermentation service and no digestibility testing service were found, and only one laboratory lists amino-acid analysis equipment; the state feed-trial system was reorganised in 2025 and 2026.",
    "path": "content/03-appendices/app-s8-labs-talent.md",
    "lang": "en"
   },
@@ -1528,7 +1528,7 @@
     "international"
    ],
    "reading_time_min": 106,
-   "summary": "All 376 open questions left by the research, grouped by topic, with why each matters, the cheapest way to close it, who to ask, and its status. The twenty priorities are ranked in chapter 30.",
+   "summary": "All 446 open questions left by the research, grouped by topic, with why each matters, the cheapest way to close it, who to ask, and its status. The twenty priorities are ranked in chapter 30.",
    "path": "content/03-appendices/app-r1-open-questions.md",
    "lang": "en"
   },
@@ -2153,11 +2153,11 @@
    "required_on": "Part III pages (warning if absent)"
   }
  },
- "version": "0.6",
+ "version": "0.7",
  "status": "draft",
  "draft_notice": {
-  "en": "Draft for review, version 0.6. Not for citation.",
-  "vi": "Bản thảo để góp ý, phiên bản 0.6. Không dùng để trích dẫn.",
+  "en": "Draft for review, version 0.7. Not for citation.",
+  "vi": "Bản thảo để góp ý, phiên bản 0.7. Không dùng để trích dẫn.",
   "placement": "Show on every page as a footer, and as a banner on the cover and the summary pages, until version 1.0."
  },
  "versions": [
@@ -2196,6 +2196,12 @@
    "date": "2026-09",
    "earlier_label": null,
    "note": "Reader-first restructure, 0.x versions, changelog, two-minute summary, FAQ, draft labels and consistency fixes; no finding changed. See Appendix M5."
+  },
+  {
+   "version": "0.7",
+   "date": "2026-09",
+   "earlier_label": null,
+   "note": "Citation check of every source the report cites (7,003 citations, 2,015 sources): corrected wrong figures, sources and overstatements, repaired the source register, added 70 open questions. See Appendix M5."
   }
  ]
 }

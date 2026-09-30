@@ -1,6 +1,6 @@
 # Bibliography
 
-2,384 sources cited in the research behind "Alternative protein in Vietnam: a supply-side scoping study" (AltProtein Vietnam, edition 1.4, September 2026): 806 from edition 1.0 (waves 1 and 2, accessed 23 September 2026), 469 from the futures round of edition 1.1 (waves 3 to 5, accessed 23 to 24 September 2026), 451 from the demand round of edition 1.2 (wave 6, accessed 24 September 2026), 577 from the actor check and expansion waves of edition 1.3 (waves 7 to 9, accessed 24 to 25 September 2026) and 81 from the prologue research of edition 1.4 (wave 10, accessed 25 September 2026); the last three rounds are listed at the end. Grouped by source type, then by the research agent's ID prefix. Citations are given as recorded in the research notes. The machine-readable list is `sources.csv` (same folder) and `data/sources.csv`.
+2,384 sources cited in the research behind "Alternative protein in Vietnam: a supply-side scoping study" (AltProtein Vietnam, version 0.7, September 2026): 806 from version 0.1 (waves 1 and 2, accessed 23 September 2026), 469 from the futures round of version 0.2 (waves 3 to 5, accessed 23 to 24 September 2026), 451 from the demand round of version 0.3 (wave 6, accessed 24 September 2026), 577 from the actor check and expansion waves of version 0.4 (waves 7 to 9, accessed 24 to 25 September 2026) and 81 from the prologue research of version 0.5 (wave 10, accessed 25 September 2026); the last three rounds are listed at the end. Grouped by source type, then by the research agent's ID prefix. Citations are given as recorded in the research notes. The machine-readable list is `sources.csv` (same folder) and `data/sources.csv`.
 
 ID prefixes: MAC = protein economy and feed (wave 1); FS = feedstocks (wave 1); IND = industrial capacity (wave 1); ECO = ecosystem (wave 1); REG = regulation (wave 1); RD = research capacity (wave 1); CAP = capital (wave 1); RGN = regional position (wave 1); COST = costs (wave 1); FORM = formulation and retail audit (wave 1); SCI = state of the science (wave 2); REG2 = regulation, second pass (wave 2); FM = feed market (wave 2); GT = geography, ministries and outlook (wave 2); VCO = company verification (wave 2); INF = infrastructure and talent (wave 2); BIB = bibliometrics (wave 2); FTG = frontier technology: gas fermentation and power-to-protein (wave 3); FTB = frontier technology: biology and AI (wave 3); CLM = climate (wave 3); QNT = protein and feed balance model (wave 3); GEO = geopolitics, trade and macro drivers (wave 3); ECF = economics and policy futures (wave 3); HSC = horizon scan and bibliometrics (wave 3); NTS = national targets (wave 3); NGF = next-generation feedstocks (wave 4); AQF = aquaculture and aquafeed futures (wave 4); HUB = spatial hubs (wave 4); VIS = vision benchmarks and foresight practice (wave 5).
 
@@ -757,7 +757,7 @@ ID prefixes: MAC = protein economy and feed (wave 1); FS = feedstocks (wave 1); 
 - **QNT-05.** Falcon, W.P., Naylor, R.L. and Shankar, N.D. (2022). Rethinking global food demand for 2050. Population and Development Review. doi 10.1111/padr.12508. Abstract; global demand +50 to 60%, shift to poultry. Type: peer-reviewed.
 - **QNT-09.** Leger, D., Matassa, S., Noor, E., Shepon, A., Milo, R. and Bar-Even, A. (2021). Photovoltaic-driven microbial protein production can use land and sunlight more efficiently than conventional crops. PNAS 118(26): e2015025118. doi 10.1073/pnas.2015025118. CO2 and NH3 per kg of biomass, protein share, cost per kg of protein, land ratio. Type: peer-reviewed.
 - **QNT-10.** Sillman, J., Uusitalo, V., Ruuskanen, V. and others (2020). A life cycle environmental sustainability analysis of microbial protein production via power-to-food approaches. International Journal of Life Cycle Assessment 25: 2190-2203. doi 10.1007/s11367-020-01771-3 (correction doi 10.1007/s11367-021-01962-6, not checked). Electricity per kg of biomass and per kg H2. Type: peer-reviewed.
-- **QNT-11.** Jean, A.B. and Brown, R.C. (2024). Techno-economic analysis of gas fermentation for the production of single cell protein. Environmental Science and Technology 58(8): 3823-3829. doi 10.1021/acs.est.3c10312. Abstract; carbon intensities of SCP, SBM and fishmeal; land ratio. Same study as edition 1.0 COST-45. Type: peer-reviewed.
+- **QNT-11.** Jean, A.B. and Brown, R.C. (2024). Techno-economic analysis of gas fermentation for the production of single cell protein. Environmental Science and Technology 58(8): 3823-3829. doi 10.1021/acs.est.3c10312. Abstract; carbon intensities of SCP, SBM and fishmeal; land ratio. Same study as version 0.1 COST-45. Type: peer-reviewed.
 - **QNT-12.** Komarek, A.M., Dunston, S., Enahoro, D. and others (2021). Income, consumer preferences, and the future of livestock-derived food demand. Global Environmental Change 70: 102343. doi 10.1016/j.gloenvcha.2021.102343. Abstract; IMPACT SSP2 global and regional changes to 2050. Type: peer-reviewed.
 - **QNT-14.** Garcia Martinez, J.B. and others (2021). Potential of microbial protein from hydrogen for preventing mass starvation in catastrophic scenarios. Sustainable Production and Consumption. doi 10.1016/j.spc.2020.08.011. Table value of 2.41 kg H2 per kg SCP (citing Sefton 2018), used only in the disagreements log (excerpt via Scite). Type: peer-reviewed.
 
@@ -1795,7 +1795,7 @@ ID prefixes: MAC = protein economy and feed (wave 1); FS = feedstocks (wave 1); 
 - **VIS-47.** Tô Văn Trường. "Quy hoạch 100 năm: Giữ quyền lựa chọn cho tương lai." IASVN, 14 Aug 2026. https://iasvn.org/quy-hoach-100-nam-giu-quyen-lua-chon-cho-tuong-lai . Three-layer long-range planning. Type: expert commentary (government research institute site).
 - **VIS-48.** National Food Strategy (independent review for England). Website and "The Plan." July 2021. https://www.nationalfoodstrategy.org/ . Numbers not extracted. Type: independent review.
 
-## Demand round (edition 1.2)
+## Demand round (version 0.3)
 
 ID prefixes: DIE = protein diet and prices; CHY = chay and plant eating; CON = consumers and plant-based products; NOV = frontier categories; CHN = channels and institutions; BUY = business buyers; EXP = export demand; GLB = global and Asian benchmarks. All wave 6.
 
@@ -1839,7 +1839,7 @@ ID prefixes: DIE = protein diet and prices; CHY = chay and plant eating; CON = c
 ### company (35)
 
 - **BUY-04.** VISSAN (Vietnam Livestock Technology JSC). Bao cao thuong nien 2025 (Annual Report 2025), bilingual PDF, 153 pages, published 2026. https://www.vissan.com.vn/images/2026/7._cbtt_bctn_2025_website.pdf
-- **BUY-05.** Vissanmart (VISSAN online shop). Product pages in categories Xuc xich tiet trung, Gio cac loai, Do hop and Thit nguoi (118 SKUs, 84 with published ingredient lists), read 24 Sep 2026. https://vissanmart.com/thuc-pham-che-bien.html
+- **BUY-05.** Vissanmart (VISSAN online shop). Product pages in categories Xuc xich tiet trung, Gio cac loai, Do hop and Thit nguoi (118 SKUs, 91 with published ingredient lists), read 24 Sep 2026. https://vissanmart.com/thuc-pham-che-bien.html
 - **BUY-06.** VISSAN. VISSAN to chuc Dai hoi dong co dong thuong nien nam 2025 (news), 2025. https://www.vissan.com.vn/tin-tuc/hoat-dong-truyen-thong/vissan-to-chuc-dai-hoi-dong-co-dong-thuong-nien-nam-2025.html
 - **BUY-16.** Vinamilk. Sua hat Cao dam it duong: Den 9g dam trong 180ml sua (product page), accessed 24 Sep 2026. https://www.vinamilk.com.vn/vi/products/sua-hat-cao-dam-vinamilk?pack=240ml
 - **BUY-22.** Acecook Vietnam. Product pages (Mi Hao Hao, Tui 5 goi mi De Nhat huong vi thit bam, Mi ly Modern, Pho De Nhat, Mi Hoanh Thanh), accessed 24 Sep 2026. https://acecookvietnam.vn/product/
@@ -2275,7 +2275,7 @@ ID prefixes: DIE = protein diet and prices; CHY = chay and plant eating; CON = c
 - **NOV-80.** Green Queen (2026). 'Lab-grown'? 'Cell-cultured'? New research shows the best way to describe cultivated meat. 20 February 2026. https://www.greenqueen.com.hk/lab-grown-cell-cultured-cultivated-meat-definition-survey/
 - **NOV-81.** Thanh Nien (2023). Y cam san xuat, mua ban thit duoc nuoi cay trong phong thi nghiem. 17 November 2023. https://thanhnien.vn/y-cam-san-xuat-mua-ban-thit-duoc-nuoi-cay-trong-phong-thi-nghiem-185231117094047055.htm
 
-## Actor check and expansion waves (edition 1.3)
+## Actor check and expansion waves (version 0.4)
 
 ID prefixes: AFN, AIS, AIB, APR = actor check (funders; investors and startups; incumbents; policy, research and international); PMR = public meals; FTR = fiscal and tariff rules; FUF = funder units; CPC = commitments and competitors; TIC = textured protein economics; BRD = base rates (all wave 7); LBL = labels and standards; FBA = feed buyers; XBA = export buyers; NQR = nutrition quality; ECR = e-commerce; HXE = hybrid economics (all wave 8); TRU = fillers and trust; UPL = upland and canteen plates; MKT = marketplaces; ORG = rules of origin (all wave 9).
 
@@ -2881,7 +2881,7 @@ ID prefixes: AFN, AIS, AIB, APR = actor check (funders; investors and startups; 
 - **ECR-04.** Metric.vn. Blog listing pages 1 to 8 (80 posts) and E-report library page. Accessed 25 September 2026.
 - **ECR-05.** YouNet Media. Market report category (bao-cao-thi-truong, pages 1 to 4) and WordPress site search for sua hat, sua dau nanh, thuc vat, chay, protein. Accessed 25 September 2026.
 
-## Prologue research (edition 1.4)
+## Prologue research (version 0.5)
 
 ID prefixes: PRA = what alternative protein is; PRB = arguments for and against; PRC = international landscape. All wave 10.
 

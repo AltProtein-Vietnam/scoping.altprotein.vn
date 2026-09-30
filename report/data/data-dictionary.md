@@ -2722,8 +2722,8 @@ Rows: 27. Columns: 16.
 | `buyer` | Buyer. | VISSAN (Vietnam Livestock Technology JSC) |
 | `segment` | Segment. | Meat processing (gio, cha, sausage, pate, canned); chay line |
 | `ownership` | Ownership. | Vietnamese JSC; Masan MEATLife strategic link |
-| `protein_ingredients_used` | Protein ingredients used. | Soy protein (19 of 61 unique meat formulations), wheat gluten or wheat ... |
-| `evidence_of_use` | Evidence of use. | Ingredient lists on 118 Vissanmart SKUs (84 with lists), Sep 2026 |
+| `protein_ingredients_used` | Protein ingredients used. | Soy protein (22 of 67 unique meat formulations), wheat gluten or wheat ... |
+| `evidence_of_use` | Evidence of use. | Ingredient lists on 118 Vissanmart SKUs (91 with lists), Sep 2026 |
 | `scale_indicator` | Scale indicator. | Revenue VND 2,972 billion and processed food 18,547 t (2025); 2026 plan VND ... |
 | `statements_on_plant_protein_or_sustainability` | Statements on plant protein or sustainability. | No plant-based or chay mention found in the text of the 2025 annual report; ... |
 | `likely_first_novel_product` | Likely first novel product. | Domestic TVP or soy concentrate for chay lines; soy-free binder (mung bean ... |
