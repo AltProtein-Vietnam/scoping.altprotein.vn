@@ -45,10 +45,12 @@ const page = await browser.newPage({ viewport: { width: 760, height: 900 } });
 await page.goto('file://' + path.join(here, '.preview', 'index.html'));
 await page.evaluate(() => document.fonts.ready);
 await page.waitForTimeout(300);
-console.log(
-  'Work Sans loaded:',
-  await page.evaluate(() => document.fonts.check("12px 'Work Sans'")),
+// Text is measured for Work Sans; with a fallback font the overflow check reports false positives.
+const fontLoaded = await page.evaluate(() =>
+  [...document.fonts].some((f) => f.family.includes('Work Sans') && f.status === 'loaded'),
 );
+console.log('Work Sans loaded:', fontLoaded);
+if (!fontLoaded) problems.push('Work Sans did not load, so text is measured with a fallback font');
 // XML well-formedness of every svg string, and counts
 const xmlErrors = await page.evaluate((all) => {
   const errs = [];
