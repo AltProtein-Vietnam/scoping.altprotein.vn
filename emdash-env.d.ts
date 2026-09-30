@@ -3,7 +3,7 @@
 
 /// <reference types="emdash/locals" />
 
-import type { ContentBylineCredit, TaxonomyTerm } from "emdash";
+import type { BylineSummary, ContentBylineCredit, TaxonomyTerm } from "emdash";
 
 export interface Page {
   id: string;
@@ -17,6 +17,7 @@ export interface Page {
   createdAt: Date;
   updatedAt: Date;
   publishedAt: Date | null;
+  byline?: BylineSummary | null;
   bylines?: ContentBylineCredit[];
   terms?: Record<string, TaxonomyTerm[]>;
 }
