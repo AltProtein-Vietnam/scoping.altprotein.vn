@@ -26,6 +26,8 @@ pnpm build:production
 
 Workers Builds is connected to this repository. A push to `main` builds with `pnpm build` and deploys with `wrangler deploy`; other branches get preview versions.
 
+The repository moved from `parkervu/scoping.altprotein.vn` to the `AltProtein-Vietnam` organisation after the v0.7 deploy (30 September 2026). Workers Builds then received no pushes, so the merge of report v0.8 was not built, until it was reconnected to `AltProtein-Vietnam/scoping.altprotein.vn` on 1 October 2026. Reconnecting does not build commits already on `main`; the next push does. If the repository moves again, reconnect it under the Worker's Settings, Builds, and check that the next merge to `main` shows a "Workers Builds: altprotein-scoping" check.
+
 `pnpm build` (`scripts/build.mjs`) selects the `production` environment of `wrangler.jsonc` when Workers Builds builds `main` (`WORKERS_CI=1` and `WORKERS_CI_BRANCH=main`), so production deploys bind the production D1, R2 and KV. Preview branches and local builds keep the default bindings (`altprotein-scoping-local` and `altprotein-scoping-media-local`), so code under review never touches production data. Setting `CLOUDFLARE_ENV` explicitly overrides this. If the Workers Builds build command is changed from `pnpm build` (or `npm run build`), keep this behaviour, or set the deploy command to `pnpm deploy:production`.
 
 ## 3. Replacement of the first edition (done on 24 September 2026)
