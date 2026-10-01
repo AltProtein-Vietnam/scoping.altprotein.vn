@@ -4,10 +4,10 @@ title: "F6. Aquafeed, marine ingredients and carbon feedstocks to 2050"
 short_title: "F6. Aquafeed and feedstocks 2050"
 section: appendix
 order: 66
-summary: "The evidence behind the aquafeed and carbon-feedstock parts of chapters 21 and 22: fisheries targets, three aquaculture paths to 2050, trash-fish replacement, marine ingredients and omega-3, protein crops and climate, and whether residues, side streams and one-carbon feedstocks could supply the 1.32 Mt of glucose that the stretch scenario needs in 2050. All 2040 and 2050 values are our what-if estimates, not forecasts."
+summary: "Context and the record of the earlier feed assessment: fisheries targets, three aquaculture paths to 2050, trash fish, fishmeal and omega-3 for aquafeed, protein crops and climate. Part 2 asks whether residues, side streams and one-carbon feedstocks could supply the 1.32 Mt of glucose the stretch scenario needs in 2050; that part also bears on food fermentation. All 2040 and 2050 values are our what-if estimates, not forecasts."
 audiences: [manufacturers, investors, policy, startups, research, international]
-reading_time_min: 37
-key_numbers: [kn-omega3-need-2050, kn-vision-omega3-2050]
+reading_time_min: 41
+key_numbers: [kn-omega3-need-2050]
 related_data: [aquaculture_projections.csv, marine_ingredients_2050.csv, protein_crops_vn.csv, feedstock_futures.csv, land_protein_yields.csv, balance_outputs.csv, climate_impacts_2050.csv]
 related_pages: [ch22-protein-balance-2050, ch21-frontier-technology, ch20-drivers-2050, ch24-vision-2050, ch28-robust-moves, app-f3-frontier-tech, app-f4-balance-model, app-s6-feed-market, app-s4-feedstocks, app-f2-drivers-signals, app-r1-open-questions, app-r2-disagreements]
 charts: []
@@ -15,15 +15,23 @@ charts: []
 
 # F6. Aquafeed, marine ingredients and carbon feedstocks to 2050
 
-**What this appendix contains.** The evidence and calculations behind [[ch22-protein-balance-2050]] (sections 22.5 and 22.6) and [[ch21-frontier-technology]] (section 21.5). Part 1 (F6.1 to F6.8) covers targets, our aquaculture paths to 2050, trash fish, offshore cages, marine ingredients, omega-3, protein crops and climate. Part 2 (F6.9 to F6.14) asks whether residues, side streams and one-carbon feedstocks could supply the glucose that the S-ALT scenario needs, and what released rice land could grow. Technology status and costs of cellulosic sugar and one-carbon routes are in [[app-f3-frontier-tech]]; the balance model is in [[app-f4-balance-model]].
+> **Read with care.** The study now concentrates on protein for people. We keep this appendix as context and as the record of the earlier feed assessment: aquafeed, omega-3 for fish feed, fishmeal, and the carbon feedstocks that a large microbial-protein build-out would need. It no longer supports a recommended play or a vision goal. Part 2, on carbon feedstocks, stays relevant to food fermentation. The same sugar, residues and side streams could supply fermenters that make food. Examples are a cassava-starch-to-fermentation-sugar hub (play T4) and koji and fungal foods (play T9).
 
-**How to use it.** Feed manufacturers and investors: F6.3, F6.4 and F6.6. Policy makers: F6.1, F6.3, F6.10 and F6.12. Founders choosing a fermentation site: F6.9, F6.11 and F6.13. Signposts are in [[app-f2-drivers-signals]].
+**What this appendix contains.** The evidence and calculations behind the feed context in [[ch22-protein-balance-2050]] (section 22.4) and behind [[ch21-frontier-technology]] (section 21.5, carbon beyond cassava).
+- **Part 1 (F6.1 to F6.8), feed context:** targets, our aquaculture paths to 2050, trash fish, offshore cages, marine ingredients, omega-3, protein crops and climate.
+- **Part 2 (F6.9 to F6.14), carbon feedstocks:** could residues, side streams and one-carbon feedstocks supply the glucose that S-ALT needs? S-ALT is the alternative-protein scenario of the balance model. Part 2 also asks what released rice land could grow.
 
-> **Method note.** Our aquaculture paths (AQ-LOW, AQ-BASE, AQ-HIGH) and feedstock cases (A, B, C) are what-if cases, not forecasts, and carry no probabilities. All arithmetic is in two rerunnable scripts: `working-papers/wave3/aquaculture_futures/aqf_calc.py` and `working-papers/wave3/next_gen_feedstocks/ngf_calc.py`. Aquafeed tonnages use the USDA-consistent scale (6.5 Mt in 2025), as the balance model does; industry species estimates sum to about 3.9 to 4.8 Mt (our sum) [@MAC-01; @MAC-06] {VN-direct|Medium}. Multiply our tonnages by about 0.67 for the industry scale ([[app-s6-feed-market]], section S6.3). CP is crude protein; FCR is feed conversion ratio (kg of feed per kg of output); SE is sugar equivalent (tonnes of glucose that would grow the same protein on the sugar route, at 4.0 t of glucose per t of protein).
+Technology status and costs of cellulosic sugar and one-carbon routes are in [[app-f3-frontier-tech]]. The balance model is in [[app-f4-balance-model]].
+
+**How to use it.** Founders and investors choosing a site or a carbon source for food fermentation: F6.9, F6.11 and F6.13. Policy makers: F6.10, F6.12 and F6.14 (straw, rules and released land). Readers who need the feed context: F6.3, F6.4 and F6.6. Signposts are in [[app-f2-drivers-signals]].
+
+> **Method note.** Our aquaculture paths (AQ-LOW, AQ-BASE, AQ-HIGH) and feedstock cases (A, B, C) are what-if cases, not forecasts, and carry no probabilities. All arithmetic is in two rerunnable scripts: `working-papers/wave3/aquaculture_futures/aqf_calc.py` and `working-papers/wave3/next_gen_feedstocks/ngf_calc.py`. Aquafeed tonnages use the scale of the US Department of Agriculture (USDA), 6.5 Mt in 2025, as the balance model does. Industry species estimates sum to about 3.9 to 4.8 Mt (our sum) [@MAC-01; @MAC-06] {VN-direct|Medium}. Multiply our tonnages by about 0.67 for the industry scale ([[app-s6-feed-market]], section S6.3).
+>
+> Abbreviations: CP, crude protein; FCR, feed conversion ratio (kg of feed per kg of output); SE, sugar equivalent (tonnes of glucose that would grow the same protein on the sugar route, at 4.0 t of glucose per t of protein); EPA and DHA, the two long-chain omega-3 fatty acids that farmed fish and shrimp need; 2G, second-generation (sugar from residues such as straw); DM, dry matter; COD, chemical oxygen demand (a measure of organic load in wastewater); GE, genetically engineered; HDPE, high-density polyethylene (a cage material); OECD-FAO, the joint agricultural outlook of the Organisation for Economic Co-operation and Development and the UN Food and Agriculture Organization; NSO, the National Statistics Office; MAE, the Ministry of Agriculture and Environment.
 
 ---
 
-**Part 1. Aquafeed and marine ingredients**
+**Part 1. Aquafeed and marine ingredients (feed context)**
 
 ## F6.1 Official targets and published projections
 
@@ -84,7 +92,7 @@ All paths: {VN-direct|Low} {fx:estimate}. Marine finfish is carved out of "other
 
 | Item | Value | Evidence |
 |---|---|---|
-| Trash fish landed, 2001 | 0.93 Mt, 36% of marine landings; two thirds from the Gulf of Thailand; up to 80% of trawl catch in former Kien Giang (now An Giang) | [@AQF-05] {VN-direct\|Medium} |
+| Trash fish landed, 2001 | 0.93 Mt, 36% of marine landings; two thirds from the Gulf of Thailand; up to 80% of trawl catch in An Giang (former Kien Giang) | [@AQF-05] {VN-direct\|Medium} |
 | Fed directly to aquaculture, 2001 to 2002 | 0.18 to 0.32 Mt (pangasius, shrimp, grouper, lobster); separately, about 185 kt of fish powder and 80 kt of fishmeal produced | [@AQF-05] {VN-direct\|Medium} |
 | Trawlers | 16,400 (2008) to 20,340 (2016) | [@AQF-06] {VN-direct\|Medium} |
 | Fishmeal factories, 2017 | 96, with 675 kt of documented capacity; 81 name "sea fish" as main raw material | [@AQF-06] {VN-direct\|Medium} |
@@ -127,7 +135,7 @@ Fishmeal is at 20% of marine pellets in 2025, falling to 12% by 2050 (the hypoth
 
 > **Correction.** In v0.6 this said HDPE cages hold up to 300 t of cobia each; the source says up to 300 t per cage for barramundi (Asian seabass) and 10 to 15 t for pompano.
 
-**Feed capacity.** Output of complete feed for marine farming was 40,000 to 50,000 t a year in 2022, and foreign-invested firms held over 80% of marine-fish feed sales [@AQF-09] {VN-direct|Medium}. De Heus opened a marine and cold-water fish feed mill in Vinh Long in July 2026, 84,000 t a year in its first phase (168,000 t a year design capacity) [@VCO-10; @IND-45] {VN-direct|Medium} {fx:signal}. We found no national count or target for recirculating (RAS) farms.
+**Feed capacity.** Output of complete feed for marine farming was 40,000 to 50,000 t a year in 2022, and foreign-invested firms held over 80% of marine-fish feed sales [@AQF-09] {VN-direct|Medium}. De Heus opened a marine and cold-water fish feed mill in Vinh Long in July 2026, with 168,000 t a year design capacity (84,000 t a year in trade press, possibly a first phase; DG-128) [@VCO-10; @IND-45] {VN-direct|Medium} {fx:signal}. We found no national count or target for recirculating (RAS) farms.
 
 **Where protein and omega-3 concentrate** (marine finfish pellets; our calculation, `aqf_calc.py`) {VN-direct|Low} {fx:estimate}
 
@@ -170,6 +178,8 @@ Fishmeal is at 20% of marine pellets in 2025, falling to 12% by 2050 (the hypoth
 
 ## F6.6 Omega-3: needs, supply gap and alternatives
 
+This section is feed context. The omega-3 sourcing plan for aquafeed (move RM-07) is no longer recommended, because the study now concentrates on protein for people.
+
 **EPA plus DHA need in aquafeed, kt a year** (central values; our calculation, `aqf_calc.py`) {VN-direct|Low} {fx:estimate}
 
 | Species group (need, % of diet) | 2025 | AQ-BASE 2030 | AQ-BASE 2040 | AQ-BASE 2050 | AQ-HIGH 2050 |
@@ -185,7 +195,7 @@ The ranges are our assumptions: 0.3 to 1.0% for shrimp, 0.7 to 1.5% for marine f
 
 {{kn:kn-omega3-need-2050}}
 
-**Pangasius oil is a poor omega-3 source.** Oil from pangasius processing waste holds 0.07 to 0.15% EPA and 0.10 to 0.16% DHA in its fatty acids, in a study of Indonesian farmed pangasius [@AQF-29] {VN-adjacent|Medium}. Vietnam's 190 kt of fish oil therefore holds only about 0.4 to 0.6 kt of EPA plus DHA (our calculation), against a need of about 11 kt {VN-direct|Low}.
+**Pangasius oil is a poor omega-3 source.** Oil from pangasius processing waste holds 0.07 to 0.15% EPA and 0.10 to 0.16% DHA in its fatty acids, in a study of Indonesian farmed pangasius [@AQF-29] {VN-adjacent|Medium}. So Vietnam's 190 kt of fish oil holds only about 0.4 to 0.6 kt of EPA plus DHA (our calculation), against a need of about 11 kt {VN-direct|Low}.
 
 **The global gap.** World EPA plus DHA supply is "optimistically estimated at just over 0.8 million tonnes", with a shortfall of more than 0.4 Mt, or over 1 Mt in pessimistic calculations; almost 90% comes from capture fisheries [@AQF-16] {general|Medium}.
 
@@ -210,9 +220,7 @@ The ranges are our assumptions: 0.3 to 1.0% for shrimp, 0.7 to 1.5% for marine f
 
 - **Why omega-3 can go further than protein:** Vietnam has no domestic EPA plus DHA; the global gap is structural; the products are commercial and trialled in shrimp; and value per tonne of feed is high {VN-direct|Low}. On protein, the soybean-meal slice is priced out at 2026 costs (4.6 to 5.1 times soybean-meal protein, [[app-s6-feed-market]], section S6.11), and Chinese single-cell protein competes for the fishmeal slice.
 - **Binding conditions** to 2050: the fish-oil price in El Niño years, listing of algal and transgenic oils as aquafeed raw materials, and import cost {VN-direct|Low} {fx:estimate}. A Vietnamese algal-oil plant would need sugar or glycerol, which links omega-3 to Part 2.
-- Chapter 24 adopts the 15 to 50% range as a normative goal ([[ch24-vision-2050]]).
-
-{{kn:kn-vision-omega3-2050}}
+- The 15 to 50% range is no longer a vision goal in [[ch24-vision-2050]], because the study now concentrates on protein for people.
 
 ## F6.7 Protein crops and biotech rules
 
@@ -267,11 +275,11 @@ About 80% of Vietnamese shrimp is farmed in the Mekong Delta [@AQF-26] {VN-direc
 
 ---
 
-**Part 2. Carbon feedstocks**
+**Part 2. Carbon feedstocks (also relevant to food fermentation)**
 
 ## F6.9 The S-ALT glucose need and competing uses
 
-The sugar route in S-ALT needs 238 kt of glucose in 2030, 852 kt in 2040 and 1,318 kt in 2050 (`balance_outputs.csv`, BLO-0888, BLO-1048, BLO-1128) {VN-direct|Low} {fx:estimate}. S-ALT is a stretch above every real-world analogue ([[ch22-protein-balance-2050]]), so this is an upper test, not an expected demand.
+The sugar route in S-ALT needs 238 kt of glucose in 2030, 852 kt in 2040 and 1,318 kt in 2050 (`balance_outputs.csv`, BLO-0888, BLO-1048, BLO-1128) {VN-direct|Low} {fx:estimate}. S-ALT is a stretch above every real-world analogue ([[ch22-protein-balance-2050]]), so this is an upper test, not an expected demand. Most of this sugar is for microbial feed protein, which is now context. The food part needs about 0.29 Mt of glucose in 2050, 22% of the total. Food at the scale the demand evidence supports would need less still (our calculation and inference in [[ch21-frontier-technology]], section 21.5) {VN-direct|Low} {fx:estimate}. So for food fermentation the carbon question is smaller, but the same streams and costs apply.
 
 | Year | Glucose, kt | As fresh cassava roots, kt | Cassava land, kha | Or as sucrose, kt | Urea, kt |
 |---|---|---|---|---|---|
@@ -303,7 +311,7 @@ Cassava-starch glucose costs about USD 511 to 560 per t at April 2026 prices (ou
 
 - Straw yield is about 4.72 t per ha, at 12.4% moisture when baled [@NGF-02] {VN-direct|Medium}; straw is about 38% cellulose, 25% hemicellulose and 12% lignin, with high ash [@NGF-05] {general|Medium}.
 - About half the national straw is surplus to current uses, 55% of it in the Mekong Delta; former Kien Giang alone could run 245 MW of straw power (2019 basis) [@NGF-01] {VN-direct|Medium}.
-- The national figure is robust to about 20%: straw-to-grain ratios run 0.7 to 1.4 in Thailand [@NGF-15], and Mekong data imply 1.14 [@NGF-03] {VN-direct|Medium}.
+- The national figure holds to within about 20%: straw-to-grain ratios run 0.7 to 1.4 in Thailand [@NGF-15], and Mekong data imply 1.14 [@NGF-03] {VN-direct|Medium}.
 
 **Straw needed for the S-ALT sugar route** at 0.31 to 0.44 t SE per t of air-dry straw (the low end for organisms that cannot use xylose; our calculation, `ngf_calc.py`) {VN-direct|Low} {fx:estimate}
 
@@ -351,7 +359,7 @@ Bagasse (0.71 to 1.01 Mt SE), maize stover (1.40 to 2.00) and coffee pulp (0.07 
 ## F6.12 Rules as a ceiling
 
 - **EU feed law is precise.** Regulation 767/2009, Annex III, bans from feed "All waste obtained from the various phases of the treatment of the urban, domestic and industrial waste water", "irrespective of any further processing of that waste", plus household waste and faeces. A footnote exempts process water in independent conduits that carries feed or food material and is free of cleaning agents [@NGF-14] {general|High}.
-- **Vietnamese rules are permissive but vague.** We found no legal ban on food waste or wastewater-derived substrates for feed; the veterinary department only rules out feeding leftovers that have not been heat-treated, and a 2019 Ninh Binh provincial advice page suggests cooking kitchen waste at 100 °C for 20 to 30 minutes before feeding pigs [@NGF-30] {VN-direct|Low}. The feed listing of microbial biomass is the real gate ([[ch07-rules]]).
+- **Vietnamese rules are permissive but vague.** We found no legal ban on food waste or wastewater-derived substrates for feed; the veterinary department only rules out feeding leftovers that have not been heat-treated, and a 2019 Ninh Binh provincial advice page suggests cooking kitchen waste at 100 °C for 20 to 30 minutes before feeding pigs [@NGF-30] {VN-direct|Low}. For feed, the listing of microbial biomass is the real gate ([[ch07-rules]]).
 
 **How each stream fares under EU-style rules** (our reading of the Annex) {general|Medium}
 
@@ -364,7 +372,7 @@ Bagasse (0.71 to 1.01 Mt SE), maize stover (1.40 to 2.00) and coffee pulp (0.07 
 | Pig-manure biogas | Not addressed directly: the gas is not faeces, but it comes from them | High |
 | e-methanol from CO2 and hydrogen | Not waste-derived | Low |
 
-Exporters that follow EU-style rules would reject protein grown on wastewater-treatment streams, food waste or manure-derived gas, whatever Vietnamese law allows, so from 2026 onwards this is a ceiling on such carbon, and Cases A and B send only small shares of these streams to protein {VN-direct|Medium} {fx:signal}. A Vietnamese rule that follows the EU line between process water and treatment waste would lift the uncertainty ([[ch28-robust-moves]], RM-06).
+Exporters that follow EU-style rules would reject protein grown on wastewater-treatment streams, food waste or manure-derived gas, whatever Vietnamese law allows, so from 2026 onwards this is a ceiling on such carbon, and Cases A and B send only small shares of these streams to protein {VN-direct|Medium} {fx:signal}. A Vietnamese rule that follows the EU line between process water and treatment waste would lift the uncertainty. For food fermentation, the matching move is food-safety rules for food-grade side streams ([[ch28-robust-moves]], RM-06).
 
 ## F6.13 Cases A, B and C for 2040 and 2050
 
@@ -437,11 +445,11 @@ The adjusted national land plan (Decision 1177/QD-TTg, June 2026) sets rice land
 
 - **Per hectare, fermentation beats Vietnamese soybean:** cassava and cane via microbes give about twice Vietnam's soybean protein and about the same as imported soybean meal, so cassava-based microbial protein moves land use rather than saving it {VN-direct|Low}.
 - **Straw adds protein with no extra land**, but only if cellulosic sugar becomes bankable.
-- **On wet released land, the land-efficient options are aquatic and forage systems,** not grain legumes. Duckweed (*bèo*) is already on the livestock feed list ([[ch07-rules]]); we found no tropical field data for its yield {VN-direct|Low}.
+- **For feed, the land-efficient options on wet released land are aquatic and forage systems,** not grain legumes. Duckweed (*bèo*) is already on the livestock feed list ([[ch07-rules]]); we found no tropical field data for its yield {VN-direct|Low}.
 
 ## F6.15 Gaps, disagreements and open questions
 
-**Gaps** (these feed [[app-r1-open-questions]])
+**Gaps** (these go to [[app-r1-open-questions]])
 
 | Gap | Why it matters | Cheapest way to close it |
 |---|---|---|
@@ -449,7 +457,7 @@ The adjusted national land plan (Decision 1177/QD-TTg, June 2026) sets rice land
 | Marine finfish output and marine feed volume, 2025 | 18 kt modelled against 80 to 100 kt reported | MAE annual review; mill volumes |
 | Lobster output | USD 845 M of exports against a 3 to 5 kt plan | Customs HS 0306.21 volumes; cage counts |
 | Vietnam aquaculture projections beyond 2035 | No government target; only the *Fish to 2050* charts, no table [@AQF-25] | WorldFish Vietnam team; AsiaFish model runs [@AQF-26] |
-| EPA plus DHA requirements of Vietnamese species | Drives the 10 to 40 kt range | Review for whiteleg shrimp, cobia, pompano and grouper |
+| EPA plus DHA requirements of Vietnamese species | Sets the 10 to 40 kt range | Review for whiteleg shrimp, cobia, pompano and grouper |
 | Grade mix and price of Vietnamese fishmeal | Whether by-product meal can serve shrimp and marine feeds | Customs HS 2301.20 by grade |
 | Decree 43/2026 full text | Read only through a secondary summary | Read the decree |
 | Mekong straw prices and shares by use | Sets the delivered straw cost | Provincial agriculture departments |
@@ -478,7 +486,7 @@ The adjusted national land plan (Decision 1177/QD-TTg, June 2026) sets rice land
 - `feedstock_futures.csv` (17 rows): each residue, side stream and one-carbon route with volumes to 2050, sugar-equivalent yield, cost, TRL, competing uses and rules.
 - `land_protein_yields.csv` (15 rows): protein per hectare by crop or system.
 - `balance_outputs.csv` (1,150 rows): here, the S-ALT glucose, cassava, sugar and urea rows and S-BASE aquaculture and aquafeed.
-- `climate_impacts_2050.csv` (34 rows): here, rows CI-11, CI-12, CI-24, CI-25 and CI-30.
+- `climate_impacts_2050.csv` (38 rows): here, rows CI-11, CI-12, CI-24, CI-25 and CI-30.
 - Scripts and notes: `working-papers/wave3/aquaculture_futures/` and `working-papers/wave3/next_gen_feedstocks/`.
 
 **Related:** [[ch22-protein-balance-2050]], [[ch21-frontier-technology]], [[app-f3-frontier-tech]], [[app-f4-balance-model]], [[app-s6-feed-market]], [[app-s4-feedstocks]], [[ch24-vision-2050]], [[ch28-robust-moves]], [[app-f2-drivers-signals]], [[app-r1-open-questions]], [[app-r2-disagreements]].

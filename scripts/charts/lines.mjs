@@ -202,10 +202,13 @@ export function sbmScenarios(spec, D) {
   const rows = D.csv(spec.data.file);
   const scen = uniq(rows.map((r) => r.scenario));
   const color = (s) => S(scen.indexOf(s) + 1);
+  // The vision band is drawn only while the spec encodes it (v0.8 dropped it).
+  const { band_low: bandLow, band_high: bandHigh } = spec.encoding;
+  const hasBand = Boolean(bandLow && bandHigh);
   const lg = legend(
     [
       ...scen.map((s) => ({ label: s, color: color(s), shape: 'line' })),
-      { label: 'Vision range (chapter 19)', color: BAND, shape: 'band' },
+      ...(hasBand ? [{ label: 'Vision range', color: BAND, shape: 'band' }] : []),
       { label: '2025 level', color: INK, shape: 'dotted' },
     ],
     0,
@@ -232,18 +235,18 @@ export function sbmScenarios(spec, D) {
       text(x(yr), base + 16, String(yr), { halo: true, size: 12, fill: INK, anchor: 'middle' }),
     );
   // vision band
-  const bandRows = rows
-    .filter((r) => r.scenario === scen[0])
-    .sort((a, b) => num(a.year) - num(b.year));
-  const upper = bandRows.map((r) => [x(num(r.year)), y(num(r.vision_band_high_mt))]);
-  const lower = bandRows.map((r) => [x(num(r.year)), y(num(r.vision_band_low_mt))]).reverse();
-  const bandTip = [
-    'Vision range (chapter 19)',
-    ...bandRows.map(
-      (r) => `${r.year}: ${rangeTxtS(r.vision_band_low_mt, r.vision_band_high_mt)} Mt`,
-    ),
-  ];
-  parts.push(mark(bandTip, `<path d="${path([...upper, ...lower])}Z" style="fill:${BAND}"/>`));
+  if (hasBand) {
+    const bandRows = rows
+      .filter((r) => r.scenario === scen[0])
+      .sort((a, b) => num(a.year) - num(b.year));
+    const upper = bandRows.map((r) => [x(num(r.year)), y(num(r[bandHigh]))]);
+    const lower = bandRows.map((r) => [x(num(r.year)), y(num(r[bandLow]))]).reverse();
+    const bandTip = [
+      'Vision range',
+      ...bandRows.map((r) => `${r.year}: ${rangeTxtS(r[bandLow], r[bandHigh])} Mt`),
+    ];
+    parts.push(mark(bandTip, `<path d="${path([...upper, ...lower])}Z" style="fill:${BAND}"/>`));
+  }
   // 2025 level dotted line (annotation)
   const y25 = y(7.2);
   parts.push(line(left, y25, right, y25, INK, 1.5, ';stroke-dasharray:2 3;stroke-linecap:round'));
@@ -262,7 +265,7 @@ export function sbmScenarios(spec, D) {
       const py = y(num(r.sbm_import_need_mt));
       const tip = [
         `${s}, ${r.year}: ${fmtStr(r.sbm_import_need_mt)} Mt`,
-        `Vision range: ${rangeTxtS(r.vision_band_low_mt, r.vision_band_high_mt)} Mt`,
+        ...(hasBand ? [`Vision range: ${rangeTxtS(r[bandLow], r[bandHigh])} Mt`] : []),
       ];
       parts.push(mark(tip, dot(px, py, 4, color(s)) + hitCircle(px, py, 10)));
     }
@@ -295,8 +298,12 @@ export function sbmScenarios(spec, D) {
       { key: 'scenario', label: 'Scenario' },
       { key: 'year', label: 'Year' },
       { key: 'sbm_import_need_mt', label: 'Soybean-meal need (Mt)', num: true },
-      { key: 'vision_band_low_mt', label: 'Vision range low (Mt)', num: true },
-      { key: 'vision_band_high_mt', label: 'Vision range high (Mt)', num: true },
+      ...(hasBand
+        ? [
+            { key: bandLow, label: 'Vision range low (Mt)', num: true },
+            { key: bandHigh, label: 'Vision range high (Mt)', num: true },
+          ]
+        : []),
     ],
     rows,
   );

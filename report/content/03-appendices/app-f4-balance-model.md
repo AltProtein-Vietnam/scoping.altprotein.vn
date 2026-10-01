@@ -4,9 +4,9 @@ title: "F4. The protein and feed balance model"
 short_title: "F4. Balance model"
 section: appendix
 order: 64
-summary: "The documentation behind chapter 22: what the protein and feed balance model covers, the published projections and targets it uses, its steps and parameters, the four scenarios, full results by scenario and year, the sensitivity test, sanity checks, a reality check against other countries, and how to rerun and extend it. Every value for 2030 to 2050 is our estimate from stated assumptions, not a forecast."
+summary: "The documentation behind chapter 22: the model that links population and the meat people eat to production, feed and the imported soybean meal and maize behind it. It gives the published projections used, the steps and parameters, four scenarios, full results, a sensitivity test, sanity checks and how to rerun the model. Every value for 2030 to 2050 is our estimate from stated assumptions, not a forecast."
 audiences: [research, policy, manufacturers, investors, international, startups]
-reading_time_min: 35
+reading_time_min: 38
 key_numbers: [kn-sbm-need-2050, kn-sbm-range-2050, kn-land-abroad-feed, kn-feed-target-livestock-2030, kn-efficiency-vs-alt, kn-salt-plants-2050]
 related_data: [balance_assumptions.csv, balance_outputs.csv, balance_sensitivity.csv, balance_published_projections.csv, aquaculture_projections.csv, protein_strategies_benchmark.csv]
 related_pages: [ch22-protein-balance-2050, ch19-outlook-2035, ch30-unknowns, ch21-frontier-technology, ch23-scenarios-2050, ch24-vision-2050, ch28-robust-moves, app-s6-feed-market, app-f1-outlook, app-r1-open-questions, app-r2-disagreements, app-m2-futures-method, app-f3-frontier-tech, app-f6-aquafeed-feedstock-futures]
@@ -15,17 +15,26 @@ charts: [chart-sbm-scenarios-2050, chart-sbm-tornado]
 
 # F4. The protein and feed balance model
 
-**What this appendix contains.** The documentation of the model behind [[ch22-protein-balance-2050]]: purpose and boundary, the published projections and targets it uses, each calculation step with its parameters, the four scenarios, results by scenario and year, the sensitivity test, sanity checks, a reality check against other countries, and how to rerun and extend it.
+> **Read with care.** The study now concentrates on protein for people. We keep this model because it links the meat people eat to the imported feed behind it: population, meat demand per person, production, feed, and imported soybean meal and maize. Chapter 22 now leads with the human-consumption side ([[ch22-protein-balance-2050]], section 22.1). The model itself is unchanged. Its feed-efficiency and microbial-feed results are context and the record of the earlier feed assessment, not recommendations.
 
-**How to use it.** F4.1 and F4.4 say what the scenarios are; F4.5 holds every result; F4.6 to F4.8 help judge how far to trust them; F4.9 explains how to rerun the model with your own assumptions. Every value for 2030 to 2050 is our estimate (our calculation, `tools/balance_model.py`) {VN-direct|Low} {fx:estimate}. The 2025 values are calibrated to published data.
+**What this appendix contains.** This is the documentation of the model behind [[ch22-protein-balance-2050]]. It covers:
+- purpose and boundary, and the published projections and targets the model uses;
+- each calculation step with its parameters, and the four scenarios;
+- results by scenario and year;
+- the sensitivity test, sanity checks and a reality check against other countries;
+- how to rerun and extend the model.
 
-> **Method note.** The four scenarios are what-if cases, not forecasts, and carry no probabilities. Official targets, published projections and our estimates are kept apart and labelled. SBM is soybean meal; FCR, feed conversion ratio (kg of feed per kg of output); cwe, carcass-weight equivalent; CP, crude protein; SSR, self-sufficiency ratio (production divided by consumption). Record IDs such as BLA-111 point to rows of the data files; they are not citations.
+**How to use it.** F4.1 and F4.4 say what the scenarios are. F4.5 holds every result. F4.6 to F4.8 help judge how far to trust them. F4.9 explains how to rerun the model with your own assumptions. Every value for 2030 to 2050 is our estimate (our calculation, `tools/balance_model.py`) {VN-direct|Low} {fx:estimate}. The 2025 values are calibrated to published data.
+
+> **Method note.** The four scenarios are what-if cases, not forecasts, and carry no probabilities. They are S-BASE (trend), S-HIGH (official growth path), S-EFF (feed efficiency) and S-ALT (alternative protein). Official targets, published projections and our estimates are kept apart and labelled. Record IDs such as BLA-111 point to rows of the data files; they are not citations.
+>
+> Abbreviations: SBM, soybean meal; FCR, feed conversion ratio (kg of feed per kg of output); cwe, carcass-weight equivalent; CP, crude protein; SSR, self-sufficiency ratio (production divided by consumption); DDGS, distillers' dried grains with solubles (a by-product of ethanol plants); OECD-FAO, the joint agricultural outlook of the Organisation for Economic Co-operation and Development and the UN Food and Agriculture Organization; USDA, the US Department of Agriculture; UN WPP, the UN World Population Prospects; IFPRI, the International Food Policy Research Institute, whose IMPACT model projects food demand; SSP2, the middle-of-the-road shared socio-economic pathway; NSO, the National Statistics Office (formerly GSO); MAE, the Ministry of Agriculture and Environment; MOIT, the Ministry of Industry and Trade; PDP8, the national power development plan; E10, petrol with 10% ethanol; MY, marketing year.
 
 ---
 
 ## F4.1 Purpose and boundary
 
-The model answers one supply-side question: how much feed protein, maize and farmland abroad Vietnam would need to 2050 under stated assumptions, and how much a feed-efficiency programme or an alternative-protein build-out would change that. We built it because no published projection for Vietnam goes beyond 2035 (F4.2.3).
+The model answers one supply-side question. Under stated assumptions, how much feed protein, maize and farmland abroad would Vietnam need to 2050? And how much would a feed-efficiency programme or an alternative-protein build-out change that? We built it because no published projection for Vietnam goes beyond 2035 (F4.2.3).
 
 | The model is | The model is not |
 |---|---|
@@ -40,7 +49,7 @@ The model scenarios (S-BASE, S-HIGH, S-EFF, S-ALT) are distinct from the 2035 sc
 
 ### F4.2.1 OECD-FAO Agricultural Outlook 2026-2035
 
-This is the only published model we found with Vietnamese meat, feed and protein-meal projections, and it stops at 2035. The report PDF was blocked to our fetch tool, but the data are open through the OECD SDMX API. All rows: [@QNT-01] {VN-direct|Medium} {fx:projection} (published model, baseline).
+This is the only published model we found with Vietnamese meat, feed and protein-meal projections, and it stops at 2035. The report PDF was blocked to our fetch tool, but the data are open through the OECD data interface (SDMX API). All rows: [@QNT-01] {VN-direct|Medium} {fx:projection} (published model, baseline).
 
 | Series (Viet Nam) | 2025 | 2030 | 2035 | Growth a year |
 |---|---|---|---|---|
@@ -62,7 +71,7 @@ This is the only published model we found with Vietnamese meat, feed and protein
 | Milk production, kt | 1,341.1 | 1,648.8 | 2,009.5 | +4.1% |
 
 - **Comparators, 2035.** Pig, poultry and beef food use per person: Viet Nam 61.9 kg, Korea 59.2 kg, China 48.5 kg, Malaysia 46.1 kg [@QNT-01] {VN-direct|Medium} {fx:projection}. The Thai poultry value (3.4 kg) looks implausible and is not used.
-- **Caveats.** Values were read through a summarising fetch tool. The annual series are smooth, but two commodity labels were swapped in one summary and we reassigned them by magnitude. The poultry base looks like live weight labelled as carcass (F4.9.4).
+- **Caveats.** We read the values through a summarising fetch tool. The annual series are smooth, but one summary swapped two commodity labels, and we reassigned them by magnitude. The poultry base looks like live weight labelled as carcass (F4.9.4).
 - **Recipe.** `https://sdmx.oecd.org/public/rest/data/OECD.TAD.ATM,DSD_AGR@DF_OUTLOOK_2026_2035,1.1/VNM.A.<commodity>.<measure>..?startPeriod=2024&endPeriod=2035`. Commodities: CPC_EX_PK (pigmeat), CPC_EX_PT (poultry), CPC_EX_BV (beef), CPC_EX_AC (aquaculture), CPC_04 (fish), CPC_21920 (protein meal), CPC_21233 (fishmeal), CPC_0112 (maize), CPC_0141 (soybean), CPC_0221 (milk). Measures: QP (production), QC (consumption), IM (imports), EX (exports), FE (feed), CR (crush), FO_PC (food per person), YLD (yield), joined with "+". Replace VNM with KOR, CHN, ARG, BRA or USA for comparators and origin yields, and the dataflow name for a new edition.
 
 ### F4.2.2 Other published numbers used
@@ -85,13 +94,13 @@ Vietnamese household-demand studies find rising meat budget shares and a shift t
 
 ### F4.2.3 What we did not find
 
-We found no FAO, IFPRI, GLOBIOM or peer-reviewed projection of Vietnamese meat, feed or feed protein to 2050 [@QNT-01; @QNT-02; @QNT-15] {VN-direct|Medium}. OECD-FAO stops at 2035, USDA's country tables to 2035 could not be read, and official volume targets stop at 2030 [@MAC-23; @NTS-23] {VN-direct|High}. Our 2040 and 2050 values are extensions.
+We found no FAO, IFPRI, GLOBIOM (a global land-use model) or peer-reviewed projection of Vietnamese meat, feed or feed protein to 2050 [@QNT-01; @QNT-02; @QNT-15] {VN-direct|Medium}. OECD-FAO stops at 2035. We could not read USDA's country tables to 2035. Official volume targets stop at 2030 [@MAC-23; @NTS-23] {VN-direct|High}. Our 2040 and 2050 values are extensions.
 
 ## F4.3 Model structure, step by step
 
 Seven steps run for each scenario and year: demand, production, compound feed, protein meals and maize, land abroad, S-ALT substitution, emissions.
 
-**Parameter lookup.** Each row of `balance_assumptions.csv` has a parameter, a scenario tag (ALL, S-BASE, S-HIGH, S-EFF, S-ALT, SENS-LOW, SENS-HIGH) and a year (or ALL). The script tries the sensitivity override, then the scenario, then S-BASE, then ALL; between listed years it interpolates linearly. Reported years: 2025, 2030, 2035, 2040, 2050.
+**Parameter lookup.** Each row of `balance_assumptions.csv` has a parameter, a scenario tag (ALL, S-BASE, S-HIGH, S-EFF, S-ALT, SENS-LOW, SENS-HIGH) and a year (or ALL). The script tries the sensitivity override first, then the scenario, then S-BASE, then ALL. Between listed years it interpolates linearly. Reported years: 2025, 2030, 2035, 2040, 2050.
 
 ### F4.3.1 Step 1: demand (macro input)
 
@@ -227,7 +236,7 @@ S-BASE by group, 2025 and 2050, Mt: pigs 12.17 and 16.26; poultry 9.00 and 13.99
 
 {{kn:kn-sbm-need-2050}} {{kn:kn-sbm-range-2050}}
 
-**Efficiency against alternative protein.** In 2050 S-EFF needs 3.40 Mt less SBM than S-BASE (minus 33%) and S-ALT 1.62 Mt less (minus 16%): efficiency does about twice the work at the shares tested {VN-direct|Low} {fx:estimate}.
+**Efficiency against alternative protein.** In 2050 S-EFF needs 3.40 Mt less SBM than S-BASE (minus 33%) and S-ALT 1.62 Mt less (minus 16%): efficiency does about twice the work at the shares tested {VN-direct|Low} {fx:estimate}. Feed efficiency is a lever for feed mills and farms; it sits outside this study, which concentrates on protein for people.
 
 {{kn:kn-efficiency-vs-alt}}
 
@@ -290,11 +299,11 @@ The 2035 column is in `balance_outputs.csv` (our calculation; for example 160 kt
 
 {{kn:kn-salt-plants-2050}}
 
-**Readings.** All {VN-direct|Low} {fx:estimate} unless tagged otherwise.
-- **Carbohydrate is the binding physical constraint.** The 2050 need of 5.37 Mt of fresh cassava roots is 52% of the 2025 harvest (10.24 Mt) and of the cassava area; the sugar alternative, 1.25 Mt, is about 96% of the 2025/26 crop [@FS-01; @FS-31]. Roots rose about 50 to 90% in price, depending on province, in the year to April 2026 and now also feed E10 ethanol [@FS-11; @GT-10] {VN-direct|Medium}.
+**Readings.** All {VN-direct|Low} {fx:estimate} unless tagged otherwise. Most of the S-ALT build-out is microbial feed protein, which is now context; the food route is the part that bears on protein for people.
+- **The food route saves the most imports per tonne.** On the 2050 S-BASE feed structure, replacing 1 t of meat protein avoids about 4.5 t of SBM and 9.5 t of maize imports, against about 1.65 t of imported soybeans when half the substitute is plant-based. Microbial feed protein replaces SBM but not maize. Diet change is outside our scope; this is arithmetic only.
+- **Carbohydrate is the binding physical constraint.** The 2050 need of 5.37 Mt of fresh cassava roots is 52% of the 2025 harvest (10.24 Mt) and of the cassava area; the sugar alternative, 1.25 Mt, is about 96% of the 2025/26 crop [@FS-01; @FS-31]. Roots rose about 50 to 90% in price, depending on province, in the year to April 2026 and now also feed E10 ethanol [@FS-11; @GT-10] {VN-direct|Medium}. The food part of S-ALT needs only about 22% of the glucose (our calculation in [[ch21-frontier-technology]], section 21.5).
 - **Energy volume is not the constraint; energy carbon is.** The 11.7 TWh of 2050 is 0.85 to 0.94% of planned commercial electricity [@GT-11]; 185 kt of hydrogen is 0.9 to 1.9% of the official target of 10 to 20 Mt of clean hydrogen a year by 2050 [@NTS-25].
 - **Carbon break-even.** At 41 kWh per kg of protein, gas-route protein beats SBM only below about 21 g CO2 per kWh (0.85 / 41) and fishmeal below about 66 g. The sugar route's electricity (3.5 kWh per kg) beats SBM below about 240 g. The PDP8-derived grid passes 240 g in the late 2030s and reaches about 21 g only around 2050, so before then the gas route needs dedicated renewable power. The break-even depends on the energy factor (F4.9.4).
-- **The food route saves the most imports per tonne.** On the 2050 S-BASE feed structure, replacing 1 t of meat protein avoids about 4.5 t of SBM and 9.5 t of maize imports, against about 1.65 t of imported soybeans when half the substitute is plant-based. Microbial feed protein replaces SBM but not maize. Diet change is outside our scope; this is arithmetic only.
 - **Land.** Cassava-based microbial protein needs about 0.80 ha per t of protein (4.0 x 0.926 x 4.4 / 20.5), against about 0.71 ha for imported SBM: it moves land rather than saving it. Hydrogen gas fermentation needs 0.4% of SBM's land per t of protein in one study [@QNT-11] {general|Medium}.
 
 ## F4.6 Sensitivity: what moves the 2050 result
@@ -320,7 +329,7 @@ One assumption, or a paired set, is varied with all else at S-BASE (10.40 Mt of 
 {{chart:chart-sbm-tornado}}
 
 **Readings.**
-- **Formulation and efficiency dominate.** Each 1% a year fall in national SBM inclusion is worth about 2.3 Mt of imports in 2050 (10.40 minus 8.09) {VN-direct|Low} {fx:estimate}. Yet we found no Vietnamese series of SBM inclusion or FCR by species {VN-direct|High}; measuring them is the first job of a protein statistic ([[ch28-robust-moves]]).
+- **Formulation and efficiency dominate.** Each 1% a year fall in national SBM inclusion is worth about 2.3 Mt of imports in 2050 (10.40 minus 8.09) {VN-direct|Low} {fx:estimate}. Yet we found no Vietnamese series of SBM inclusion or FCR by species {VN-direct|High}. A national protein balance could carry them in its memo line on the feed behind domestic meat ([[ch28-robust-moves]], RM-01).
 - **Demand assumptions matter less:** about 0.6 to 1 Mt each in 2050 {VN-direct|Low} {fx:estimate}.
 - **Maize responds to other levers:** FCR (4.0 Mt), domestic output (3.3 Mt) and non-feed use (2.8 Mt) in 2050. Pig industrialisation raises SBM but lowers maize, because the non-compound maize ration shrinks {VN-direct|Low} {fx:estimate}.
 - **The unresolved 2025 aquafeed volume hardly matters** (0.02 Mt in 2050), because SBM is calibrated on the 7.2 Mt actually fed. Doubling S-ALT's microbial share cuts 2050 need by another 1 Mt, less than the inclusion trend {VN-direct|Low} {fx:estimate}.
@@ -376,7 +385,7 @@ On the livestock-only reading, the 2030 target looks out of reach on both our tr
 | China, SBM share of feed | Minus 0.14 points a year (USDA and industry basis: 17% in 2017 to about 16% in 2024) to minus 0.45 (official: 17% in 2017 to 13.4% in 2025); 0.9 to 2.9% a year relative, compound; 13.4% in 2025 against a target below 13% | 10% by 2030 (minus 0.68 points a year) | Closest analogue for formulation | [@GEO-10; @GEO-11] {VN-adjacent\|Medium} {fx:trend} |
 | EU, EU-origin share of feed protein from oilseeds and protein crops | About 26% (FEFAC, undated); 25.8% in 2025 | 35% by 2035 (plus 0.92 points a year) | Pace for a domestic-origin share once measured | [@VIS-15; @VIS-17] {general\|High} {fx:projection} (EU benchmark) |
 | Japan, feed self-sufficiency | 26% (FY2000), 26% (FY2024), 24% provisional (FY2025); FY2030 target cut from 34% to 28% | 28% by FY2030 | Ceiling for land-based self-sufficiency | [@VIS-11; @VIS-12] {VN-adjacent\|High} {fx:trend} |
-| Norway, marine share of salmon feed | 90% (1990) to about 30% (2013), minus 2.6 points a year | None | Price can drive fast substitution | [@VIS-18; @VIS-19] {general\|High} {fx:trend} |
+| Norway, marine share of salmon feed | 90% (1990) to about 30% (2013), minus 2.6 points a year | None | Price can cause fast substitution | [@VIS-18; @VIS-19] {general\|High} {fx:trend} |
 | Norway, novel feed ingredients | 0.4% of salmon-feed ingredients (2020) | None | Ceiling for novel feed protein today | [@VIS-18; @VIS-20] {general\|High} |
 | Singapore, local protein share (eggs and seafood) | About 26% when "30 by 30" was dropped | 30% by 2035 | A dropped production target | [@VIS-25] {VN-adjacent\|Medium} |
 
@@ -385,7 +394,7 @@ On the livestock-only reading, the 2030 target looks out of reach on both our tr
 - **S-ALT (8.78 Mt) is a stretch.** Its microbial share of high-protein feed protein is 1.0% (2030), 2.7% (2035), 4.4% (2040) and 8.4% (2050). Norway's 0.4% makes the 2030 value plausible and the 2050 value unprecedented.
 - **S-HIGH (11.72 Mt) is an upside risk.**
 
-**Credible ambitious range.** On this evidence, a credible ambitious range for Vietnam's SBM need in 2050 is about 7 to 9 Mt (7.0 to 8.8 Mt, the S-EFF to S-ALT span), against 10.4 Mt on trend {VN-direct|Low} {fx:estimate}. Matching ranges are 7.8 to 8.3 Mt (2030), 8.1 to 9.0 Mt (2035) and 7.8 to 9.2 Mt (2040), with microbial feed protein at about 1% of high-protein feed protein by 2030 and 4 to 8% by 2050 {fx:estimate}. Holding imports at the 2025 level (7.2 Mt) through 2050 is a stretch case. With no combined S-EFF plus S-ALT run, the range has no value below S-EFF. [[ch24-vision-2050]] builds on this range.
+**Credible ambitious range (context).** On this evidence, a credible ambitious range for Vietnam's SBM need in 2050 is about 7 to 9 Mt (7.0 to 8.8 Mt, the S-EFF to S-ALT span), against 10.4 Mt on trend {VN-direct|Low} {fx:estimate}. Matching ranges are 7.8 to 8.3 Mt (2030), 8.1 to 9.0 Mt (2035) and 7.8 to 9.2 Mt (2040), with microbial feed protein at about 1% of high-protein feed protein by 2030 and 4 to 8% by 2050 {fx:estimate}. Holding imports at the 2025 level (7.2 Mt) through 2050 is a stretch case. With no combined S-EFF plus S-ALT run, the range has no value below S-EFF. The study sets no soybean-meal goal: [[ch22-protein-balance-2050]] (section 22.5) gives this range as context, and the vision in [[ch24-vision-2050]] no longer uses it.
 
 ## F4.9 Reproduce, extend, limits and disagreements
 
@@ -429,14 +438,16 @@ We give both values and the position taken; these belong in [[app-r2-disagreemen
 | Meat target, 2030 | 6.0 to 6.5 Mt cwe; 58 to 62 kg per person [@MAC-23; @REG-54] {fx:projection} | 2025 output already 6.04 Mt (59.4 kg) | The target looks met on NSO data: either it is conservative or NSO live weights run high. Flagged, not resolved |
 | USDA soy balance, MY2026/27 | 6.85 Mt of meal plus 3.5 Mt of beans imported, and 8.8 Mt of meal consumption [@QNT-07], against 7.8 Mt of SBM feed use [@MAC-04] | 7.7 Mt of demand (2027) | Implies stock building or other uses; not resolved; we follow feed use |
 | 2025 aquafeed | USDA 6.5 Mt [@MAC-01] | Industry 3.9 to 4.8 Mt (our sum of shrimp and fish feed estimates) [@MAC-06] | Unresolved (DG-120); USDA used; 0.02 Mt effect on 2050 SBM |
-| Poultry basis | OECD-FAO 2,567 kt "carcass" [@QNT-01] | NSO 2,602 kt live weight [@MAC-14; @MAC-12] | OECD-FAO probably uses live weight, overstating poultry by about 30%; we use its growth rates only |
+| Poultry basis | OECD-FAO 2,567 kt (2025), labelled ready to cook; 2,329 kt in 2023 [@QNT-01] | NSO 2,602 kt live weight (2025) [@MAC-14; @MAC-12]; FAOSTAT 1,740 kt carcass weight (2023) [@DIE-07] | The OECD-FAO level is 34% above FAOSTAT in 2023 (our calculation); we use OECD-FAO growth rates only, as before (DG-360) |
 | Aquaculture base, 2025 | OECD-FAO 5.69 Mt [@QNT-01] | NSO 6.12 Mt [@MAC-15] | NSO base, OECD-FAO growth |
 | Gas-route electricity | 25 kWh per kg of biomass (lower case) and 9.86 (laboratory) [@QNT-10]; about 69 MWh per t of protein for a 2030 design [@FTG-01], used in [[ch21-frontier-technology]] {general\|Medium} | 41 kWh per kg of protein | Kept 41. With FTG-01's factor, S-ALT would need about 19 TWh in 2050 (under 2% of planned supply) and the CO2 break-even against SBM would be about 12 g per kWh, not 21 (our calculation). Not yet reconciled |
 | Hydrogen per kg of single-cell protein | 2.41 kg (via [@QNT-14]) {general\|Low} | 0.72 kg per kg of protein | Ours matches stoichiometry and FTG-01 (0.69 t per t); 2.41 is probably a different basis |
 
+> **Correction.** Earlier versions said OECD-FAO "probably uses live weight" for poultry. The OECD data label poultry as ready to cook, not live weight; its 2023 level (2,329 kt) is 34% above the FAOSTAT carcass-weight figure (1,740 kt) [@QNT-01; @DIE-07] {VN-direct|Medium}. The model is unchanged: it uses OECD-FAO growth rates only (DG-360).
+
 ## F4.10 Gaps and open questions
 
-These feed [[app-r1-open-questions]].
+These go to [[app-r1-open-questions]].
 
 | Gap | Why it matters | Cheapest way to close it |
 |---|---|---|

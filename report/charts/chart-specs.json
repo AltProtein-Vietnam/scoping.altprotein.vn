@@ -94,7 +94,7 @@
     "Label the August 2026 point: USD 2,500 per t (+43% year on year).",
     "Mark that periods mix annual means, quarters and months; use unequal x spacing or a note."
    ],
-   "notes": "Annual means 2020 to 2025, quarterly and monthly values in 2026.",
+   "notes": "Kept as feed context in Appendix S6. Feed is context only in this study.",
    "source_ids": [
     "FM-01",
     "FM-02"
@@ -102,11 +102,11 @@
    "evidence": "general",
    "confidence": "High",
    "placement": [
-    "ch01-why-vietnam",
     "app-s6-feed-market"
    ],
    "alt_text": "Line: fishmeal averaged USD 1,433 per t in 2020, 1,706 in 2025 and reached 2,500 in August 2026.",
-   "render": "Inline SVG generated at build time (no Chart.js). Accessible: include <title> and <desc>, and a visually hidden data table. Respect light and dark themes."
+   "render": "Inline SVG generated at build time (no Chart.js). Accessible: include <title> and <desc>, and a visually hidden data table. Respect light and dark themes.",
+   "version": "0.8"
   },
   {
    "id": "chart-feedstock-volumes",
@@ -596,7 +596,7 @@
   {
    "id": "chart-cost-stack-fungal",
    "title": "Capital charges and maintenance are most of the cost of fermentation protein",
-   "subtitle": "Indicative cost of fungal feed protein made in Vietnam, USD per tonne of product, low and high cases",
+   "subtitle": "Indicative cost of fungal biomass protein made in Vietnam (built for a feed-grade ingredient; food grade costs more), USD per tonne of product, low and high cases",
    "type": "stacked-bar",
    "data": {
     "file": "charts/data/cost_stack_fungal.csv"
@@ -642,11 +642,12 @@
     "app-s12-costs"
    ],
    "alt_text": "Two stacked bars: USD 2,227 and 6,612 per tonne of product; capital charges and maintenance are 54% and 67% of the total; labour and power are under 10%.",
-   "render": "Inline SVG generated at build time (no Chart.js). Accessible: include <title> and <desc>, and a visually hidden data table. Respect light and dark themes."
+   "render": "Inline SVG generated at build time (no Chart.js). Accessible: include <title> and <desc>, and a visually hidden data table. Respect light and dark themes.",
+   "version": "0.8"
   },
   {
    "id": "chart-price-to-beat",
-   "title": "The price to beat in feed",
+   "title": "The price to beat in feed (context)",
    "subtitle": "USD per tonne of protein",
    "type": "range-bar",
    "data": {
@@ -674,14 +675,12 @@
    "evidence": "VN-direct",
    "confidence": "Low",
    "placement": [
-    "ch09-economics",
-    "front-at-a-glance",
-    "brief-manufacturers",
     "app-s6-feed-market"
    ],
    "alt_text": "Range bars: soybean meal protein USD 796 to 876 per tonne; fishmeal protein 2,625 to 3,846; indicative Vietnamese fungal protein 4,050 to 14,700.",
    "render": "Inline SVG generated at build time (no Chart.js). Accessible: include <title> and <desc>, and a visually hidden data table. Respect light and dark themes.",
-   "notes": "Benchmark endpoints: 2025 average and August 2026 (World Bank Pink Sheet)."
+   "notes": "Kept as the record of the feed assessment. From version 0.8 the study compares new protein with food prices (chapter 9, section 9.3).",
+   "version": "0.8"
   },
   {
    "id": "chart-capex-per-tonne",
@@ -745,12 +744,13 @@
     "ch10-technology-fit",
     "app-s13-science"
    ],
-   "alt_text": "Heatmap: textured plant protein and functional microbial feed ingredients rate strong or moderate on most conditions; precision fermentation and cultivated meat rate weak on most.",
-   "render": "Inline SVG generated at build time (no Chart.js). Accessible: include <title> and <desc>, and a visually hidden data table. Respect light and dark themes."
+   "alt_text": "Heatmap of ten technology families on seven conditions. Textured plant protein rates strong or moderate on every condition (build now); local legume and rice protein and koji are worth proving; the two feed families are context only; precision fermentation and cultivated meat rate weak on most.",
+   "render": "Inline SVG generated at build time (no Chart.js). Accessible: include <title> and <desc>, and a visually hidden data table. Respect light and dark themes.",
+   "version": "0.8"
   },
   {
    "id": "chart-plays-scoring",
-   "title": "Ten plays, scored with weights you can change",
+   "title": "Seven plays, scored with weights you can change",
    "subtitle": "Weighted score (1 to 5) by audience preset",
    "type": "interactive-bar",
    "data": {
@@ -770,17 +770,17 @@
      "horizon"
     ]
    },
-   "notes": "Static fallback (no JavaScript): render the balanced preset as a sorted bar chart and a small table of the top three per preset. Scores are judgements, not ratings.",
+   "notes": "Static fallback (no JavaScript): render the balanced preset as a sorted bar chart and a small table of the top three per preset. Scores are judgements, not ratings. Rows with type \"retired play\" (feed plays T2, T3 and T6) are not shown.",
    "source_ids": [],
    "evidence": "VN-direct",
    "confidence": "Medium",
    "placement": [
     "ch26-plays",
-    "front-at-a-glance",
     "brief-investors"
    ],
-   "alt_text": "Bar chart of weighted scores: under balanced weights the cassava-starch-to-sugar hub (3.90) and domestic textured plant protein (3.80) lead, followed by functional feed ingredients and shared pilot fermentation (3.45).",
-   "render": "Inline SVG generated at build time (no Chart.js). Accessible: include <title> and <desc>, and a visually hidden data table. Respect light and dark themes."
+   "alt_text": "Bar chart of weighted scores for seven plays: under balanced weights the cassava-starch-to-sugar hub (3.90) and domestic textured plant protein (3.80) lead, followed by shared pilot and tolling fermentation (3.45), mung bean and rice protein for plant drinks (3.05) and koji and fungal foods (3.00).",
+   "render": "Inline SVG generated at build time (no Chart.js). Accessible: include <title> and <desc>, and a visually hidden data table. Respect light and dark themes.",
+   "version": "0.8"
   },
   {
    "id": "chart-plays-horizon",
@@ -807,8 +807,9 @@
    "placement": [
     "ch26-plays"
    ],
-   "alt_text": "Gantt bars: textured protein 0 to 2 years; feed ingredients, sugar hub, duckweed and koji 1 to 3; pilot fermentation and plant-drink proteins 2 to 4; precision fermentation 2 to 5; bulk fishmeal replacement 3 to 6; cultivated seafood 5 to 10 or more.",
-   "render": "Inline SVG generated at build time (no Chart.js). Accessible: include <title> and <desc>, and a visually hidden data table. Respect light and dark themes."
+   "alt_text": "Gantt bars for seven plays: textured protein 0 to 2 years; sugar hub and koji 1 to 3; pilot fermentation and plant-drink proteins 2 to 4; precision fermentation 2 to 5; cultivated seafood 5 to 10 or more.",
+   "render": "Inline SVG generated at build time (no Chart.js). Accessible: include <title> and <desc>, and a visually hidden data table. Respect light and dark themes.",
+   "version": "0.8"
   },
   {
    "id": "chart-policy-effort-impact",
@@ -838,8 +839,9 @@
     "ch27-policy-options",
     "brief-policy"
    ],
-   "alt_text": "Scatter of 24 ranked options: most tier 1 options sit at low effort and high impact; the pilot fermentation line is high effort and high impact.",
-   "render": "Inline SVG generated at build time (no Chart.js). Accessible: include <title> and <desc>, and a visually hidden data table. Respect light and dark themes."
+   "alt_text": "Scatter of 19 ranked options: most tier 1 options sit at low effort and high impact; the pilot fermentation line is high effort and high impact.",
+   "render": "Inline SVG generated at build time (no Chart.js). Accessible: include <title> and <desc>, and a visually hidden data table. Respect light and dark themes.",
+   "version": "0.8"
   },
   {
    "id": "chart-milestones-timeline",
@@ -944,7 +946,7 @@
   {
    "id": "chart-sources-by-type",
    "title": "What the evidence rests on",
-   "subtitle": "2,384 sources by type and research wave (waves 1 and 2: v0.1; waves 3 to 5: v0.2; wave 6: v0.3; waves 7 to 9: v0.4; wave 10: v0.5)",
+   "subtitle": "2,480 sources by type and research wave (waves 1 and 2: v0.1; waves 3 to 5: v0.2; wave 6: v0.3; waves 7 to 9: v0.4; wave 10: v0.5; wave 11: v0.8)",
    "type": "stacked-bar",
    "data": {
     "file": "sources/sources.csv",
@@ -966,7 +968,7 @@
     "app-m1-method",
     "app-r4-sources"
    ],
-   "alt_text": "Bars: 583 press, 468 peer-reviewed, 391 gov/statistics, 336 company, 227 other sources, among others, across ten research waves.",
+   "alt_text": "Bars: 622 press, 490 peer-reviewed, 402 gov/statistics, 336 company, 231 other sources, among others, across eleven research waves.",
    "render": "Inline SVG generated at build time (no Chart.js). Accessible: include <title> and <desc>, and a visually hidden data table. Respect light and dark themes."
   },
   {
@@ -1015,9 +1017,9 @@
     "app-f2-drivers-signals",
     "ch20-drivers-2050"
    ],
-   "alt_text": "Scatter of 17 drivers by uncertainty and impact. Near-certain trends such as ageing, smallholder exit and import dependence sit at low uncertainty; feed-protein import stress and the structure of Asia's fermentation market sit at the top right, with the highest impact and uncertainty, and form the scenario axes.",
+   "alt_text": "Scatter of 17 drivers by uncertainty and impact. Near-certain trends such as ageing, smallholder exit and import dependence sit at low uncertainty; stress on imported protein and the structure of Asia's fermentation market sit at the top right, with the highest impact and uncertainty, and form the scenario axes.",
    "render": "Inline SVG generated at build time (no Chart.js). Accessible: include <title> and <desc>, and a visually hidden data table. Respect light and dark themes.",
-   "version": "0.2"
+   "version": "0.8"
   },
   {
    "id": "chart-frontier-windows",
@@ -1081,7 +1083,7 @@
   {
    "id": "chart-cost-paths-2050",
    "title": "Frontier protein costs against the prices to beat",
-   "subtitle": "USD per kg of protein; ranges by year; fishmeal and soybean-meal protein at 2025 to 2026 prices",
+   "subtitle": "USD per kg of protein; ranges by year; fishmeal and soybean-meal protein at 2025 to 2026 prices (feed comparators, context)",
    "type": "range-bar",
    "data": {
     "file": "charts/data/cost_paths_2050.csv"
@@ -1120,17 +1122,16 @@
    "evidence": "VN-direct",
    "confidence": "Low",
    "placement": [
-    "app-f3-frontier-tech",
-    "ch21-frontier-technology"
+    "app-f3-frontier-tech"
    ],
    "alt_text": "Range bars: protein from power made in Vietnam falls from USD 6.9 to 12.6 per kg (2030) to 3.3 to 6.5 (2050); fungal feed protein from 3.0 to 12.5 to 2.2 to 9.5. Fishmeal protein costs 2.6 to 3.8 and soybean-meal protein 0.88 per kg. Only the low ends reach the fishmeal band; none reaches soybean meal.",
    "render": "Inline SVG generated at build time (no Chart.js). Accessible: include <title> and <desc>, and a visually hidden data table. Respect light and dark themes.",
-   "version": "0.2"
+   "version": "0.8"
   },
   {
    "id": "chart-sbm-scenarios-2050",
    "title": "Soybean-meal need to 2050 in four scenarios",
-   "subtitle": "Million tonnes a year, our model; shaded band: the vision range of chapter 24",
+   "subtitle": "Million tonnes a year, our model",
    "type": "line",
    "data": {
     "file": "charts/data/sbm_scenarios_2050.csv"
@@ -1139,8 +1140,6 @@
     "x": "year",
     "y": "sbm_import_need_mt",
     "series": "scenario",
-    "band_low": "vision_band_low_mt",
-    "band_high": "vision_band_high_mt",
     "y_domain": [
      6,
      12.5
@@ -1154,7 +1153,7 @@
     "Mark the 2025 level (7.2 Mt) with a dotted horizontal line.",
     "Note under the chart: 2040 and 2050 values are extensions; published projections stop at 2035."
    ],
-   "notes": "Uneven x spacing (2025, 2030, 2035, 2040, 2050): scale the axis by year.",
+   "notes": "Uneven x spacing (2025, 2030, 2035, 2040, 2050): scale the axis by year. The vision band shown in earlier versions is dropped: soybean-meal need is no longer a vision goal.",
    "source_ids": [
     "QNT-01",
     "MAC-04"
@@ -1162,12 +1161,11 @@
    "evidence": "VN-direct",
    "confidence": "Low",
    "placement": [
-    "app-f4-balance-model",
-    "ch22-protein-balance-2050"
+    "app-f4-balance-model"
    ],
-   "alt_text": "Line chart: soybean-meal need rises from 7.2 Mt in 2025 to 10.4 Mt in 2050 on trend, 11.7 Mt on the high-growth path, 8.8 Mt with alternative protein and 7.0 Mt with the efficiency programme. The vision band runs from 7.8 to 8.3 Mt in 2030 to 7.0 to 8.8 Mt in 2050.",
+   "alt_text": "Line chart: soybean-meal need rises from 7.2 Mt in 2025 to 10.4 Mt in 2050 on trend, 11.7 Mt on the high-growth path, 8.8 Mt with alternative protein and 7.0 Mt with the efficiency programme.",
    "render": "Inline SVG generated at build time (no Chart.js). Accessible: include <title> and <desc>, and a visually hidden data table. Respect light and dark themes.",
-   "version": "0.2"
+   "version": "0.8"
   },
   {
    "id": "chart-sbm-tornado",
@@ -1199,8 +1197,7 @@
    "evidence": "VN-direct",
    "confidence": "Low",
    "placement": [
-    "app-f4-balance-model",
-    "ch22-protein-balance-2050"
+    "app-f4-balance-model"
    ],
    "alt_text": "Tornado chart: the soybean-meal inclusion trend swings 2050 need by 3.7 Mt and the feed-conversion gain rate by 2.4 Mt; aquaculture growth, poultry demand, meat self-sufficiency and population each move it by about 0.8 to 1.1 Mt.",
    "render": "Inline SVG generated at build time (no Chart.js). Accessible: include <title> and <desc>, and a visually hidden data table. Respect light and dark themes.",
@@ -1209,7 +1206,7 @@
   {
    "id": "chart-scenarios-2050",
    "title": "Four worlds in 2050",
-   "subtitle": "Two axes: feed-protein import stress (benign to chronic) and Asia's fermentation market (Chinese price dominance to open)",
+   "subtitle": "Two axes: stress on imported protein (benign to chronic) and Asia's fermentation market (Chinese price dominance to open)",
    "type": "cards-2x2",
    "data": {
     "file": "charts/data/scenarios_2050_matrix.csv"
@@ -1244,15 +1241,16 @@
    ],
    "alt_text": "Two-by-two grid. Top left: Regional workshop (benign imports, open market). Bottom left: Comfortable price-taker. Top right: Security build-out (chronic stress, open market). Bottom right: Squeezed importer.",
    "render": "Inline SVG generated at build time (no Chart.js). Accessible: include <title> and <desc>, and a visually hidden data table. Respect light and dark themes.",
-   "version": "0.2"
+   "version": "0.8"
   },
   {
    "id": "chart-play-robustness",
-   "title": "How the sixteen plays hold up across the four worlds",
+   "title": "How the seven plays and four public goods hold up across the four worlds",
    "subtitle": "2 = thrives, 1 = holds with conditions, 0 = struggles; our judgement",
    "type": "heatmap",
    "data": {
-    "file": "data/play_robustness.csv"
+    "file": "data/play_robustness.csv",
+    "filter": "status_v0_8 == active"
    },
    "encoding": {
     "rows": "play_name",
@@ -1273,7 +1271,7 @@
    },
    "annotations": [
     "Column labels: A Regional workshop; B Comfortable price-taker; C Security build-out; D Squeezed importer.",
-    "Group rows: plays T1 to T10, then policy plays P1 to P6."
+    "Group rows: plays T1, T4, T5 and T7 to T10, then public goods P1 and P4 to P6."
    ],
    "notes": "Colour scale must work in greyscale; print the score in each cell.",
    "source_ids": [
@@ -1286,14 +1284,14 @@
    "placement": [
     "ch23-scenarios-2050"
    ],
-   "alt_text": "Heatmap of 16 plays by four scenarios. Feed-trial capacity, the protein-quality laboratory and the open cost model score 2 in every world. Bulk fishmeal replacement scores 0 in the two benign worlds; high-value precision fermentation scores 0 in the two Chinese-dominance worlds.",
+   "alt_text": "Heatmap of seven plays and four public goods by four scenarios. The protein-quality laboratory and the open cost model and price series score 2 in every world. High-value precision fermentation and cultivated seafood research score 0 in the two Chinese-dominance worlds. The other plays hold in every world with conditions.",
    "render": "Inline SVG generated at build time (no Chart.js). Accessible: include <title> and <desc>, and a visually hidden data table. Respect light and dark themes.",
-   "version": "0.2"
+   "version": "0.8"
   },
   {
    "id": "chart-vision-backcast",
    "title": "Vietnam 2050: milestones by five-year plan",
-   "subtitle": "A normative vision, not a forecast; values are ranges",
+   "subtitle": "A goal, not a forecast; values are ranges",
    "type": "timeline",
    "data": {
     "file": "data/vision_milestones.csv"
@@ -1310,14 +1308,14 @@
     ]
    },
    "annotations": [
-    "Lanes in this order: Measure, Rules, Places, Money, Economise, Diversify, Specialise, Decarbonise, Review.",
+    "Lanes in this order: Measure, Make, Diversify, Specialise, Secure.",
     "Badge the whole chart \"Vision, not forecast\"."
    ],
    "notes": "Periods follow Vietnam's five-year plans. Milestones are this report's proposals, informed by foreign analogues.",
    "source_ids": [
     "VIS-15",
-    "VIS-18",
-    "QNT-01",
+    "BUY-02",
+    "APR-07",
     "CLM-01"
    ],
    "evidence": "VN-direct",
@@ -1325,14 +1323,14 @@
    "placement": [
     "ch24-vision-2050"
    ],
-   "alt_text": "Timeline of 22 milestones from 2026 to 2050 in lanes by pillar: a protein balance and new-food route by 2028; about 1% microbial feed protein and an open pilot plant by 2030; soybean-meal need 7.0 to 8.8 Mt, 4 to 8% microbial feed protein and 15 to 50% non-marine omega-3 by 2050.",
+   "alt_text": "Timeline of 25 milestones from 2026 to 2050 in lanes by pillar: a protein balance for people by 2028, a new-food route, a protein-quality laboratory and an open food-grade pilot plant by 2030; new routes supplying 66.7 to 171.5 kt of protein in 2050, of which 59.2 to 146.5 kt made in Vietnam.",
    "render": "Inline SVG generated at build time (no Chart.js). Accessible: include <title> and <desc>, and a visually hidden data table. Respect light and dark themes.",
-   "version": "0.2"
+   "version": "0.8"
   },
   {
    "id": "chart-robust-moves",
-   "title": "Robust moves across the four worlds",
-   "subtitle": "21 moves: no-regret, options, bets and hedges; 2 = pays off strongly, 1 = partly, 0 = little",
+   "title": "Moves across the four worlds",
+   "subtitle": "16 moves for protein people eat: no-regret, options, bets and a hedge; 2 = pays off strongly, 1 = partly, 0 = little",
    "type": "heatmap",
    "data": {
     "file": "charts/data/robust_moves_matrix.csv"
@@ -1357,7 +1355,7 @@
    "annotations": [
     "Group rows by class in the order no-regret, option, bet, hedge."
    ],
-   "notes": "Derived from the pays_off_in field of robust_moves.csv; our judgement.",
+   "notes": "Derived from the pays_off_in field of robust_moves.csv; our judgement. Five feed moves tested earlier (RM-02, RM-07, RM-16, RM-17, RM-20) are kept in robust_moves.csv as the record and not shown.",
    "source_ids": [
     "VIS-35",
     "VIS-36"
@@ -1367,9 +1365,9 @@
    "placement": [
     "ch28-robust-moves"
    ],
-   "alt_text": "Heatmap of 21 moves by four worlds. The nine no-regret moves pay off in all four. Options pay off mainly in the open-market worlds, bets mainly in the Security build-out world, and hedges in the stressed worlds.",
+   "alt_text": "Heatmap of 16 moves by four worlds. The seven no-regret moves pay off in all four. Options pay off mainly in the open-market worlds, the two bets in one open-market world each, and the hedge in the Chinese price-dominance worlds.",
    "render": "Inline SVG generated at build time (no Chart.js). Accessible: include <title> and <desc>, and a visually hidden data table. Respect light and dark themes.",
-   "version": "0.2"
+   "version": "0.8"
   },
   {
    "id": "chart-protein-price-ladder",
@@ -1411,7 +1409,8 @@
    "evidence": "VN-direct",
    "confidence": "Medium",
    "placement": [
-    "ch11-protein-diet"
+    "ch11-protein-diet",
+    "front-at-a-glance"
    ],
    "alt_text": "Log-scale bars: soybeans and tofu deliver protein at 14,500 to 30,000 VND per 100 g, eggs and chicken at 34,300 to 44,800, lean pork at 70,900, beef about 137,000, shrimp about 201,000, filled chay wrappers 369,000 and imported analogues about 582,000.",
    "render": "Inline SVG generated at build time (no Chart.js). Accessible: include <title> and <desc>, and a visually hidden data table. Respect light and dark themes.",
@@ -1769,7 +1768,8 @@
    "evidence": "VN-direct",
    "confidence": "Medium",
    "placement": [
-    "ch16-business-buyers"
+    "ch16-business-buyers",
+    "front-at-a-glance"
    ],
    "alt_text": "Range bars: Chinese gluten, textured protein and soy isolate cost USD 1.75 to 2.44 per kg of protein; Chinese pea 2.50 to 3.75; egg white, casein, Western pea and whey concentrate USD 7.38 to 17.56.",
    "render": "Inline SVG generated at build time (no Chart.js). Accessible: include <title> and <desc>, and a visually hidden data table. Respect light and dark themes.",
@@ -1926,7 +1926,8 @@
    "evidence": "VN-direct",
    "confidence": "Low",
    "placement": [
-    "ch18-demand-sizing"
+    "ch18-demand-sizing",
+    "front-at-a-glance"
    ],
    "alt_text": "Grouped bars: displaced meat protein reaches 2.4 kt in 2035 on the benchmark path and 9.2 kt on the stretch path, against 39.3 kt assumed by S-ALT; existing chay days already avoid about 32 kt.",
    "render": "Inline SVG generated at build time (no Chart.js). Accessible: include <title> and <desc>, and a visually hidden data table. Respect light and dark themes.",

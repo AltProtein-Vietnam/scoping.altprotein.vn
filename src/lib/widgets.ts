@@ -99,13 +99,15 @@ ${ranked.map(({ p, score }) => playCard(p, lang, score)).join('\n')}
 </div>`;
 }
 
-/** Scenario explorer for chapter 18: tabs when JavaScript runs, stacked panels otherwise. */
+/** Scenario explorer for the 2050 scenarios chapter: tabs when JavaScript runs, stacked panels otherwise. */
 export function renderScenarioExplorer(lang: Lang): string {
   const s = t(lang).scenarios;
   const scen = SCEN.scenarios;
   const letter = (id: string) => id.replace('SC-', '');
   const scoreKey = (l: string) =>
     Object.keys(SCEN.robustness[0]).find((k) => k.startsWith(`score_${l}_`))!;
+  // Plays retired in v0.8 (feed outputs) stay in the data file as the record but are not scored.
+  const active = SCEN.robustness.filter((p) => (p.status_v0_8 ?? 'active') === 'active');
   const name = (r: Row) => (lang === 'vi' && r.name_vi ? r.name_vi : r.name);
   const placement: Record<string, string> = { A: 'tl', B: 'bl', C: 'tr', D: 'br' };
   const tabs = scen
@@ -118,7 +120,7 @@ export function renderScenarioExplorer(lang: Lang): string {
     .map((r) => {
       const l = letter(r.scenario_id);
       const key = scoreKey(l);
-      const plays = [...SCEN.robustness]
+      const plays = [...active]
         .sort(
           (a, b) =>
             Number(b[key]) - Number(a[key]) ||
@@ -141,7 +143,7 @@ export function renderScenarioExplorer(lang: Lang): string {
       return `<section class="scen-panel" role="tabpanel" id="scen-panel-${l}" aria-labelledby="scen-tab-${l}" data-scen="${l}">
 <h4><span class="scen-letter">${l}</span> ${e(name(r))} ${foresightBadge(r.foresight_type, lang)}</h4>
 <p class="scen-picture" lang="en">${e(r.picture_2050)}</p>
-<dl class="scen-facts">${fact('Soybean-meal need, 2050 (indicative, Mt)', r.soybean_meal_need_2050_mt_indicative)}${fact('Microbial share of feed protein, 2050 (indicative)', r.microbial_feed_protein_share_2050_indicative)}${fact('Where Vietnam competes', r.where_vietnam_competes)}${fact('Where Vietnam loses', r.where_vietnam_loses)}${fact('Active hubs in 2050', r.hubs_active_2050)}${fact('Grows from', r.grows_from_2035_scenario)}${fact('What Vietnam decides', r.what_vietnam_decides)}</dl>
+<dl class="scen-facts">${fact('Imported feed behind meat: soybean-meal need, 2050 (indicative, Mt)', r.soybean_meal_need_2050_mt_indicative)}${fact('Microbial share of feed protein, 2050 (indicative, context only)', r.microbial_feed_protein_share_2050_indicative)}${fact('Where Vietnam competes', r.where_vietnam_competes)}${fact('Where Vietnam loses', r.where_vietnam_loses)}${fact('Active hubs in 2050', r.hubs_active_2050)}${fact('Grows from', r.grows_from_2035_scenario)}${fact('What Vietnam decides', r.what_vietnam_decides)}</dl>
 <div class="scen-cols"><div><h5>${e(s.signposts)}</h5><ul class="scen-signposts">${signposts}</ul></div><div><h5>${e(s.playScores)}</h5><ol class="scen-plays">${plays}</ol><p class="scen-key" lang="en">2 thrives · 1 holds with conditions · 0 struggles</p></div></div>
 </section>`;
     })

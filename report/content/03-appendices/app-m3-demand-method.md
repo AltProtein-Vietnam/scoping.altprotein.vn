@@ -4,7 +4,7 @@ title: "M3. Demand method: how Part III was built"
 short_title: "M3. Demand method"
 section: appendix
 order: 3
-summary: "How the demand round behind Part III was scoped, researched and checked: the questions it answers, eight research streams and their 451 sources, the re-read of the retail audit, the new demand evidence tag that separates stated, revealed, tested and inferred evidence, survey quality grades, the demand sizing model, the claims we rejected and the limits of the work."
+summary: "How the demand round behind Part III was scoped, researched and checked: the questions it answers, eight research streams and their 451 sources, the re-read of the retail audit, the demand evidence tag that separates stated, revealed, tested and inferred evidence, survey quality grades, the demand sizing model, the claims we rejected and the limits of the work."
 audiences: [research, policy, international, investors, startups, manufacturers]
 reading_time_min: 10
 key_numbers: []
@@ -15,18 +15,20 @@ charts: []
 
 # M3. Demand method: how Part III was built
 
-**What this appendix contains.** The method behind Part III (chapters 11 to 18) and chapter 25: the scope decisions, the questions, the research streams, the evidence rules including the new demand evidence tag, how the retail audit was re-read, how demand was sized, what we rejected and the limits of the work. The v0.1 method in [[app-m1-method]] and the futures method in [[app-m2-futures-method]] still apply unless this page says otherwise.
+**What this appendix contains.** The method behind Part III (chapters 11 to 18) and chapter 25. It covers the scope decisions, the questions, the research streams and the evidence rules, including the demand evidence tag. It then explains how we re-read the retail audit, how we sized demand, what we rejected and the limits of the work. The version 0.1 method in [[app-m1-method]] and the futures method in [[app-m2-futures-method]] still apply unless this page says otherwise.
 
 ---
 
 ## M3.1 Scope decisions
 
-Versions 0.1 and 0.2 scoped the supply side and treated demand only as a macro input and as business-to-business demand where it decided supply-side viability. For v0.3 AltProtein Vietnam asked for the demand side to be added as a new part of the same study, with the same main readers: the actors who move the frontier of alternative protein (founders, research bodies, investors and development finance, funders, policy makers, food and feed manufacturers and international organisations). Four decisions set the scope:
+Versions 0.1 and 0.2 scoped the supply side. They treated demand only as a macro input, and as business-to-business demand where it decided whether supply would pay. For version 0.3 AltProtein Vietnam asked us to add the demand side as a new part of the same study. The main readers stayed the same: the actors who move the frontier of alternative protein (founders, research bodies, investors and development finance, funders, policy makers, food and feed manufacturers and international organisations). Four decisions set the scope:
 
 - **Demand as a design input.** Part III asks what demand exists or could exist that would pull new protein products and ingredients, what those products must be to win it, who buys first and how large it could be. It is not a consumer marketing plan.
 - **Four demand layers:** end consumers (households), foodservice and institutions, business buyers of protein ingredients, and export demand.
 - **Four product frames:** traditional *chay* as the incumbent baseline (studied, not promoted), plant-based and fungal products, fermentation-derived proteins, and cultivated meat and seafood. Insect protein remains an incumbent benchmark only.
-- **Three methods:** desk research and evidence synthesis, a re-read of the project's existing field data, and a reproducible demand sizing model. No new primary consumer research (surveys, tastings) was run; the tests that would close the largest gaps are specified instead in [[ch25-demand-to-frontier]].
+- **Three methods:** desk research and evidence synthesis, a re-read of the project's existing field data, and a reproducible demand sizing model. We ran no new primary consumer research (surveys, tastings); [[ch25-demand-to-frontier]] specifies instead the tests that would close the largest gaps.
+
+The study now concentrates on protein for people, with feed only as context ([[app-m1-method]]). So the Part III evidence on feed buyers and seafood buyers' feed standards is context, not a basis for a feed play.
 
 ## M3.2 Research streams
 
@@ -43,13 +45,13 @@ Eight desk-research streams ran in parallel in wave 6 (September 2026), each und
 | EXPORT | EXP | Vietnam's export base; destination demand; diaspora; market access (tariffs, labels, novel food, deforestation rules); ingredient exports; seafood buyers' feed standards; competitors | 52 | [[ch17-export-demand]], [[app-d6-export]] |
 | GLOBAL | GLB | Adoption trajectories; price elasticities and parity experiments; taste tests; why the US category declined; Asian analogues; formats; institutional interventions; displacement; forecast track record; calibration values | 66 | [[ch13-consumers]], [[ch18-demand-sizing]], [[app-d7-global-benchmarks]] |
 
-Streams searched in English and Vietnamese and used web search, direct retrieval of primary documents, public databases (UN Comtrade, FAOSTAT, OECD SDMX, EU TARIC, Japan Customs, Google Trends) and two scholarly databases (Scite and OpenAlex). Existing source codes were reused where a stream cited a document the supply study already held (for example [@FORM-01], [@ECO-23], [@MAC-31], [@COST-39] to [@COST-41]), so no document appears twice under different codes within Part III.
+Streams searched in English and Vietnamese. They used web search, direct retrieval of primary documents, public databases (UN Comtrade, FAOSTAT, OECD SDMX, EU TARIC, Japan Customs, Google Trends) and two scholarly databases (Scite and OpenAlex). Where a stream cited a document the supply study already held, we reused its existing source code (for example [@FORM-01], [@ECO-23], [@MAC-31], [@COST-39] to [@COST-41]), so no document appears twice under different codes within Part III.
 
 ## M3.3 Evidence rules and the demand evidence tag
 
 **Evidence labels and confidence** follow [[front-how-to-read]]: `VN-direct`, `VN-adjacent` (with the transfer assumption stated) or `general`, and High, Medium or Low confidence.
 
-**The demand evidence tag (new in v0.3).** Surveys of intentions systematically overstate behaviour, and most Vietnamese consumer evidence is from surveys. Every demand claim in Part III therefore carries a second badge that says what kind of evidence it is:
+**The demand evidence tag (added in version 0.3).** Surveys of intentions systematically overstate behaviour, and most Vietnamese consumer evidence comes from surveys. So every demand claim in Part III carries a further badge that says what kind of evidence it is:
 
 | Tag | Meaning | Examples |
 |---|---|---|

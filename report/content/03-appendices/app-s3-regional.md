@@ -6,7 +6,7 @@ section: appendix
 order: 23
 summary: "How Vietnam compares with Singapore, Thailand, Korea, China and other neighbours on novel-food rules, approvals, strategies, open pilot plants and trade, with the full GFI APAC x Hawkwood 'Where to Build' scores and our critique of them."
 audiences: [policy, investors, international, startups, manufacturers]
-reading_time_min: 30
+reading_time_min: 31
 key_numbers: [kn-hawkwood-regulatory-score, kn-sfa-approvals, kn-cassava-starch-exports, kn-food-protein-ingredient-imports-2023]
 related_data: [countries.csv, approvals.csv, facilities_regional.csv, trade_flows.csv, disagreements.csv]
 related_pages: [ch03-regional, ch07-rules, app-s9-regulation, app-s8-labs-talent, app-s11-capital, app-s13-science, app-r2-disagreements, app-d6-export]
@@ -15,9 +15,11 @@ charts: [chart-hawkwood-scores, chart-regional-approvals, chart-cassava-starch-t
 
 # S3. Regional comparators and approvals
 
-This appendix holds the regional detail behind [[ch03-regional]]. It compares Vietnam with nine other jurisdictions on novel-food rules, approvals, public money, open pilot plants and corporate activity. It sets out the trade flows Vietnam depends on, and it reads the GFI APAC x Hawkwood Biotech "Where to Build" study in full, with our critique. It ends with lessons from how Singapore, Thailand and Korea built their frameworks.
+This appendix holds the regional detail behind [[ch03-regional]]. It compares Vietnam with nine other jurisdictions on novel-food rules, approvals, public money, open pilot plants and corporate activity. It sets out the trade flows Vietnam depends on. It reads in full the "Where to Build" study by the Good Food Institute Asia Pacific (GFI APAC) and Hawkwood Biotech, with our critique. It ends with lessons from how Singapore, Thailand and Korea built their frameworks.
 
-> **Method note.** The wave 1 regional review relied on direct reads of primary pages (Singapore Food Agency, US FDA, World Bank WITS, the Thai NXPO framework, company sites) after the web-search budget ran out. Several claims rest on GFI APAC summaries and trade press, and are marked Medium or Low. Trade data come from UN Comtrade via WITS. Where Vietnam-reported and partner-reported (mirror) figures differ, we give both and do not average them. Approvals are counted as of the Singapore list dated 14 August 2026. Vietnamese provinces are named on the post-July 2025 map (see [[app-s10-admin-map]]).
+> **Method note.** After the web-search budget ran out, the wave 1 regional review relied on direct reads of primary pages. These were the Singapore Food Agency (SFA), the US Food and Drug Administration (FDA), the World Bank's World Integrated Trade Solution (WITS) database, the framework of Thailand's science-policy office (NXPO) and company sites. Several claims rest on GFI APAC summaries and trade press, and are marked Medium or Low. Trade data come from UN Comtrade via WITS. Where Vietnam-reported and partner-reported (mirror) figures differ, we give both and do not average them. We count approvals as of the Singapore list dated 14 August 2026. Vietnamese provinces are named on the post-July 2025 map (see [[app-s10-admin-map]]).
+
+Short forms used on this page: SCP is single-cell protein (protein-rich microbial biomass); GM is genetically modified; GMP is good manufacturing practice; HS is the harmonised system of customs codes; R&D is research and development. MFDS is Korea's Ministry of Food and Drug Safety, FSANZ is Food Standards Australia New Zealand and BPOM is Indonesia's food and drug agency. BIOTEC is Thailand's national biotechnology centre, part of the National Science and Technology Development Agency (NSTDA). EECi is Thailand's Eastern Economic Corridor of Innovation. More terms are in [[app-r3-glossary]].
 
 ## S3.1 Summary
 
@@ -25,7 +27,7 @@ This appendix holds the regional detail behind [[ch03-regional]]. It compares Vi
 - Singapore has approved 18 novel foods, including cultivated duck and beef [@RGN-04] {VN-adjacent|High}. It has also stepped back from producing alternative protein itself [@RGN-08] {VN-adjacent|High}.
 - The US FDA completed its review of Wildtype's cultivated coho salmon on 28 May 2025, the first cultivated seafood cleared in the US [@RGN-03] {general|High}.
 - In East and Southeast Asia outside Singapore, we found no cultivated-meat approval by September 2026, even where a route exists [@RGN-21; @RGN-32; @RGN-33] {VN-adjacent|Medium}.
-- Vietnam's cost advantage is real but acts on a small share of cost, and Indonesia matches or beats it on labour, utilities and construction cost in the study [@RGN-01] {VN-direct|High}.
+- Vietnam's cost advantage is real but acts on a small share of cost. In the study, Indonesia matches or beats it on labour, utilities and construction cost [@RGN-01] {VN-direct|High}.
 - Vietnam ships its fermentable carbohydrate to China as starch, not as fermentation-ready glucose [@RGN-51; @RGN-55] {VN-direct|High}.
 - Thailand is responding directly to the same ranking with a 10-year biotechnology framework that names alternative protein [@RGN-35] {VN-adjacent|Medium}.
 
@@ -49,7 +51,7 @@ From `countries.csv`. "PF" is precision fermentation. The Hawkwood regulatory sc
 | Australia and New Zealand | Food Standards Code novel-food standards, plus cell-cultured food provisions added in 2025 (FSANZ) | Yes | General rules | Yes | "At least 14 months" (secondary) | None | 100 | [@RGN-17; @RGN-18; @RGN-19; @RGN-01] {general\|Medium} |
 | Vietnam | No novel-food category (Law on Food Safety 55/2010; Decree 15/2018 self-declaration or registration) | No | No | No | n/a | No national sandbox procedure yet; Hanoi's sandbox lists biotechnology | 0 | [@RGN-01; @REG-01; @REG-02; @REG2-15; @REG2-17] {VN-direct\|High} |
 
-> **Open question.** The Hawkwood study scores Malaysia 0 (no novel-food framework), but GFI's State of Play describes a novel-food provision in Malaysia's Food Regulations [@RGN-01; @RGN-19] {VN-adjacent|Medium}. Our position: a general provision exists but there is no fermentation or cultivated guidance, so Hawkwood's 0 overstates the gap. We could not check it at source because the Malaysian regulator's site was unreachable. See DG-073.
+> **Open question.** The Hawkwood study scores Malaysia 0 (no novel-food framework), but GFI's State of Play describes a novel-food provision in Malaysia's Food Regulations [@RGN-01; @RGN-19] {VN-adjacent|Medium}. Our position: a general provision exists but there is no fermentation or cultivated guidance, so Hawkwood's 0 overstates the gap. We could not check it at source because the Malaysian regulator's site was unreachable. See DG-073 in the disagreements log ([[app-r2-disagreements]]).
 
 For Vietnam's own rules in detail, see [[app-s9-regulation]].
 
@@ -114,7 +116,7 @@ We found no cultivated-meat approval in Thailand, Korea, Japan, Malaysia, Indone
 
 ## S3.4 National strategies and public funding
 
-Amounts are as found and in different currencies and years; they are not comparable and must not be added (DG-079).
+Amounts are as found, in different currencies and years. They are not comparable, so we do not add them up (DG-079).
 
 | Country | Strategy or instrument | Money as found | Evidence |
 |---|---|---|---|
@@ -132,7 +134,7 @@ The GFI China report quotes a 2022 speech by President Xi Jinping on deriving "c
 
 ## S3.5 Pilot and contract manufacturing facilities open to third parties
 
-From `facilities_regional.csv` (16 rows). "Food grade" means a food manufacturing licence or equivalent was found.
+From `facilities_regional.csv` (16 rows). "Food grade" means we found a food manufacturing licence or equivalent.
 
 | ID | Facility | Country | Type | Capacity | Food grade | Open to third parties | Status in 2026 | Evidence |
 |---|---|---|---|---|---|---|---|---|
@@ -159,11 +161,11 @@ Further points:
 - Typical Chinese contract terms: the client keeps its strain and operating procedures, while the manufacturer may own process improvements; clients are expected to visit monthly or keep staff on site. One client said scale-up elsewhere would have taken "two times as long and double the cost" [@RGN-24] {general|Medium}.
 - We found no Vietnamese facility that publicly offers food-grade pilot fermentation to outside firms (see [[app-s8-labs-talent]]) [@INF-02; @INF-04] {VN-direct|Medium}.
 
-**For a Vietnamese startup today** the realistic contract manufacturing options are ScaleUp Bio (food-licensed, 10,000 L), EECi in Thailand (larger tanks, food status to confirm) and Chinese pharma contract manufacturers (largest and cheapest, with the most IP exposure). Singapore's shift away from local food production makes ScaleUp Bio's widened, non-food focus a risk to watch. This is our assessment.
+**For a Vietnamese startup today**, three contract manufacturing options are realistic (our assessment). They are ScaleUp Bio (food-licensed, 10,000 L), EECi in Thailand (larger tanks, food status to confirm) and Chinese pharmaceutical contract manufacturers (largest and cheapest, with the most exposure of intellectual property). ScaleUp Bio's wider, non-food focus is a risk to watch, given Singapore's shift away from local food production.
 
 ## S3.6 Regional corporates and their Vietnam links
 
-Only items with a source read in this study are shown.
+We show only items with a source read in this study. Feed groups appear as context.
 
 | Company | Alternative-protein activity found | Vietnam link found | Evidence |
 |---|---|---|---|
@@ -198,7 +200,7 @@ From `trade_flows.csv`. Vietnam-reported tonnages are WITS estimates (every part
 
 - Combined, Vietnam-reported imports under HS 3504 and 2106.10 were about USD 56 million in 2023 (our sum) [@RGN-45; @RGN-46] {VN-direct|Medium}. Vietnam also imported USD 31 million of wheat gluten in 2023, 59% from China [@COST-38] {VN-direct|Low}.
 - China-reported unit values of USD 1.0 to 1.6/kg for HS 3504 are far below soy protein isolate prices, so much of this trade is probably feed-grade protein substances. The two data sets also disagree on value (USD 10.1 million vs USD 16.3 million from China for HS 3504 in 2023) for reasons we could not establish (DG-075) [@RGN-45; @RGN-47; @RGN-48] {VN-direct|Medium}.
-- These food-ingredient imports are tiny next to feed protein imports: in 2025 Vietnam imported 2.61 Mt of soybeans (98.4% of supply, our calculation) and 5.70 Mt of soybean meal, and about 99% of the soy protein in Vietnamese feed is imported (our calculation) [@MAC-04; @MAC-09] {VN-direct|Medium}.
+- These food-ingredient imports are small next to the feed protein imports behind Vietnamese meat, eggs and farmed fish. In 2025 Vietnam imported 2.61 Mt of soybeans (98.4% of supply, our calculation) and 5.70 Mt of soybean meal, and about 99% of the soy protein in Vietnamese feed is imported (our calculation) [@MAC-04; @MAC-09] {VN-direct|Medium}.
 
 ### S3.7.2 Exports that already feed China's bio-industries are large
 
@@ -213,7 +215,7 @@ From `trade_flows.csv`. Vietnam-reported tonnages are WITS estimates (every part
 - Vietnam's cassava starch sells at about USD 0.49/kg (2023, Vietnam-reported unit value) [@RGN-53] {VN-direct|High}.
 - **The glucose gap.** China imported USD 114 million of modified starch and USD 104 million of dried cassava from Vietnam in 2024, but only USD 0.16 million of glucose. The step that turns starch into glucose for fermentation happens in China. Keeping that step in Vietnam is the practical way for Vietnam to plug into regional biomanufacturing [@RGN-52; @RGN-54; @RGN-55] {VN-direct|High}. The interpretation is ours.
 - The 2023 Vietnam-reported and 2024 China-reported starch figures are different years and reporters; we do not average them.
-- Vietnam is also a net exporter of fishmeal, mostly to China: USD 430 million out (93.5% to China) against USD 260 million in (49% from India) in 2023 [@FM-37; @FM-38] {VN-direct|Medium}.
+- Vietnam is also a net exporter of fishmeal (feed context), mostly to China: USD 430 million out (93.5% to China) against USD 260 million in (49% from India) in 2023 [@FM-37; @FM-38] {VN-direct|Medium}.
 
 ## S3.8 The GFI APAC x Hawkwood "Where to Build" study (October 2025)
 
@@ -221,7 +223,7 @@ From `trade_flows.csv`. Vietnam-reported tonnages are WITS estimates (every part
 
 - **Authors and title.** Jennifer Morton and Dean Powell (GFI APAC) and Tony Day (Hawkwood Biotech), "Where to Build: site selection and competitiveness in APAC fermentation manufacturing", October 2025. A companion GFI article names Thailand, Vietnam and Australia as the "three APAC countries with the right ingredients" [@RGN-01; @RGN-02] {general|High}.
 - **Countries.** Australia, Indonesia, Japan, Malaysia, the Philippines, Singapore, South Korea, Thailand and Vietnam [@RGN-01] {general|High}.
-- **Drivers scored.** Feedstock (sugar), capex, utilities, labour, talent, business environment and regulatory readiness, plus incentives. The text says incentives and feedstock cost "emerged as the two most critical drivers" [@RGN-01] {general|High}.
+- **Drivers scored.** Feedstock (sugar), capital cost (capex), utilities, labour, talent, business environment and regulatory readiness, plus incentives. The text says incentives and feedstock cost "emerged as the two most critical drivers" [@RGN-01] {general|High}.
 - **Assumptions** [@RGN-01] {general|High}:
   - Representative plants of 80,000 t/yr (submerged biomass) and 10,000 t/yr (precision fermentation), modelled at a US Midwest site on corn glucose "due to limitations in data and modelling capacity".
   - Sugar index: 2024 exports (double-weighted), production and import reliance.
@@ -246,7 +248,7 @@ Source for the whole table: [@RGN-01] {VN-direct|High}. The study also claims Vi
 
 ### S3.8.3 All nine countries
 
-Order: sugar, capex, utilities, labour, talent, business environment, regulation. The cost rows (study Figure 18) and enabling rows (Figure 21) were extracted verbatim in separate reads; an earlier machine read gave different sugar numbers for Indonesia and Australia, and we use the verbatim read (DG-081) [@RGN-01] {general|High}.
+Order: sugar, capex, utilities, labour, talent, business environment, regulation. We extracted the cost rows (study Figure 18) and enabling rows (Figure 21) word for word in separate reads. An earlier machine read gave different sugar numbers for Indonesia and Australia; we use the word-for-word read (DG-081) [@RGN-01] {general|High}.
 
 | Country | Sugar | Capex | Utilities | Labour | Talent | Business | Regulation | Notes |
 |---|---|---|---|---|---|---|---|---|
@@ -265,8 +267,8 @@ Reading across: no country combines low cost with regulatory readiness. Thailand
 ### S3.8.4 Cost structure and incentives in the study
 
 - In the study's own representative plant models, labour is 5% (biomass, 80,000 t/yr) and 4% (precision fermentation, 10,000 t/yr) of production cost, and utilities 7% and 17%. Depreciation (capital cost) is 10% and 18% [@RGN-01] {general|High}.
-- Feedstock is 56% (biomass) and 37% (precision fermentation) in the models, within the report's ranges of about 35 to 65% (biomass) and 30 to 45% (precision fermentation) across other TEAs. For Vietnam the point stands: labour and utilities together are a minor share, 12% and 21% [@RGN-01] {general|High}.
-- **Incentives.** The highest return to government and the highest gain in company net present value both come from a 50% capex grant or non-dilutive funding (a reported NPV gain of USD 73 million). On NPV, a 10% feedstock cost cut and a loan guarantee come next. Tax holidays rank fourth of six on NPV and last on return to government [@RGN-01] {general|High}.
+- Feedstock is 56% (biomass) and 37% (precision fermentation) in the models, within the report's ranges of about 35 to 65% (biomass) and 30 to 45% (precision fermentation) across other techno-economic analyses (TEAs). For Vietnam the point stands: labour and utilities together are a minor share, 12% and 21% [@RGN-01] {general|High}.
+- **Incentives.** The highest return to government and the highest gain in company net present value (NPV) both come from a 50% capex grant or non-dilutive funding (a reported NPV gain of USD 73 million). On NPV, a 10% feedstock cost cut and a loan guarantee come next. Tax holidays rank fourth of six on NPV and last on return to government [@RGN-01] {general|High}.
 
 > **Correction.** In v0.6 this said labour was 7% and 17% of cost, utilities 4 to 5%, depreciation 37 to 56% and model feedstock 10% and 18%; the source's Figure 3 gives labour 5% and 4%, utilities 7% and 17%, depreciation 10% and 18% and feedstock 56% and 37%.
 
@@ -296,7 +298,7 @@ What survives the critique: Vietnam is a low-cost site without a regulatory rout
 
 | | Singapore | Thailand | South Korea |
 |---|---|---|---|
-| Trigger | Food import dependence (over 90%); the "30 by 30" goal (2019); creation of SFA (2019); early applicants (Eat Just) | The BCG agenda; foreign applicant interest (Aleph Farms, via Thai Union); NSTDA scientific leadership | Industrial policy (K-food, food tech); a regional government push (a Gyeongbuk cluster memorandum with 28 signatories, 2023); conglomerate R&D |
+| Trigger | Food import dependence (over 90%); the "30 by 30" goal (2019); creation of SFA (2019); early applicants (Eat Just) | The BCG model; foreign applicant interest (Aleph Farms, via Thai Union); NSTDA scientific leadership | Industrial policy (K-food, food tech); a regional government push (a Gyeongbuk cluster memorandum with 28 signatories, 2023); conglomerate R&D |
 | Who drafted | SFA, with FAO collaboration and memoranda with FSANZ, ANSES (France) and SAMR (China) | An NSTDA project team drafted from US and Singapore guidelines; expert and stakeholder meetings in August and November 2023; draft to Thai FDA in January 2024; BIOTEC made the safety assessment unit | MFDS amended an existing instrument (Food Sanitation Act Enforcement Rule, May 2023; temporary standards, February 2024); the National Assembly passed a promotion act (December 2024) |
 | Time to first approval | Framework 2019; first cultivated approval dated 26 November 2020 on the SFA list | Application December 2024; no approval by September 2026 | Applications open February 2024; no approval by September 2026 |
 | Distinctive tools | A public list of approvals with specifications and risk controls; pre-submission support (FRESH); codified in the FSSA 2025 | Designating an existing science agency (BIOTEC) as assessor | A published fee and review time; a special zone for demonstration; a separate promotion law |
@@ -306,7 +308,7 @@ Sources for the table: [@RGN-04; @RGN-19; @RGN-32; @RGN-34; @RGN-44; @RGN-18] {V
 **What Vietnam could transfer** (our assessment) [@RGN-19; @RGN-21; @RGN-32; @RGN-44] {VN-adjacent|Medium}:
 
 1. **Korea shows a route that does not need a new law.** Add a "new food ingredient" safety assessment step inside an existing instrument (for Vietnam, the decree that will replace Decree 15/2018), with a published fee and a statutory review time. Korea took about nine months (May 2023 to February 2024).
-2. **Thailand shows how to borrow assessors.** Designate an existing technical body as the safety assessment unit instead of building a new agency. The National Institute for Food Control is one candidate (see [[app-s9-regulation]] and policy option PO-019).
+2. **Thailand shows how to borrow assessors.** Designate an existing technical body as the safety assessment unit instead of building a new agency. The National Institute for Food Control is one candidate (see [[app-s9-regulation]], and policy option PO-019, the novel-food procedure in the implementing decree, in [[ch27-policy-options]]).
 3. **Singapore shows the value of transparency.** Publishing each approval with its specification and risk controls lets later regulators rely on earlier assessments. Vietnam could accept or fast-track dossiers already approved by SFA, FSANZ or the US FDA.
 4. **A framework is not enough.** Thailand and Korea have routes but no cultivated approvals after 21 to 31 months. Staff capacity and review timelines matter as much as the legal text.
 5. **Production and regulation can be separated.** Singapore now acts as regulator, research hub and financier more than as a production base, which leaves room for lower-cost neighbours to host manufacturing [@RGN-08; @RGN-09] {VN-adjacent|High}. Aleph Farms says it will use capacity in Penang to supply the region [@RGN-30] {VN-adjacent|Medium}.
@@ -315,7 +317,7 @@ Sources for the table: [@RGN-04; @RGN-19; @RGN-32; @RGN-34; @RGN-44; @RGN-18] {V
 
 | # | Gap | Cheapest way to close it |
 |---|---|---|
-| 1 | BBGI termination notice (22 Sep 2026): which plant, why, and does it affect Aleph Farms' Thai plans? | Read the SET filing or email BBGI investor relations |
+| 1 | BBGI termination notice (22 Sep 2026): which plant, why, and does it affect Aleph Farms' Thai plans? | Read the Stock Exchange of Thailand filing or email BBGI investor relations |
 | 2 | ScaleUp Bio in 2026: capacity, food share of work, pricing, ownership, willingness to take Vietnamese clients | Email ScaleUp Bio business development |
 | 3 | EECi pilot plant: food-grade (GMP, HACCP) status, fees, foreign-client terms | Email the EECi pilot plant contacts |
 | 4 | Korea: any cultivated or precision-fermented ingredient approved in 2026? | Check the MFDS temporary standards list or ask GFI Korea |

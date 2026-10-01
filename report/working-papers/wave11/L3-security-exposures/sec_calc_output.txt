@@ -1,0 +1,12 @@
+SBM calibration factor (2025): 1.103
+Calibrated SBM inclusion: pig 0.199, poultry 0.309
+pig: feed 3.87 kg/kg cwe; SBM 0.769 kg/kg cwe; imported soy protein per kg meat protein 2.36 kg
+poultry: feed 3.57 kg/kg cwe; SBM 1.103 kg/kg cwe; imported soy protein per kg meat protein 3.38 kg
+pig, compound share only (x0.81): 1.91 kg
+soy food: imported soy protein per kg food protein at recovery 0.5: 2.00 kg
+soy food: imported soy protein per kg food protein at recovery 1.0: 1.00 kg
+Imported soy protein no longer fed for 2.35 kt of displaced meat protein: 4.5 to 8.0 kt
+Soy protein needed if the displacing food is soy-based (recovery 0.5 to 1.0): 2.35 to 4.7 kt
+Soybean-meal protein fed in 2025: 3312 kt; net saving as share: -0.006% to 0.169%
+Net change in imported soy protein, soy-based substitute: -0.2 to 5.6 kt saved
+If the substitute uses only domestic protein inputs: 4.5 to 8.0 kt saved, 0.14% to 0.24% of 2025 SBM protein fed

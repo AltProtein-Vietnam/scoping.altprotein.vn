@@ -1,6 +1,6 @@
 # scoping.altprotein.vn
 
-The website for **Alternative protein in Vietnam: a supply-side scoping study** (AltProtein Vietnam, draft v0.7, September 2026). It publishes the full report package in `report/`: 81 pages (nine front pages, 30 chapters in five parts, six audience briefs and 36 appendices coded M, S, D, F and R), 184 data tables, 2,384 sources, 56 charts and the working papers.
+The website for **Alternative protein in Vietnam: a supply-side scoping study** (AltProtein Vietnam, draft v0.8, October 2026). It publishes the full report package in `report/`: 81 pages (nine front pages, 30 chapters in five parts, six audience briefs and 36 appendices coded M, S, D, F and R), 194 data tables, 2,480 sources, 56 charts and the working papers.
 
 Astro and EmDash on Cloudflare Workers, with D1 (content), R2 (CMS media) and KV (editor sessions).
 
@@ -8,8 +8,8 @@ Astro and EmDash on Cloudflare Workers, with D1 (content), R2 (CMS media) and KV
 
 - **Every page** of the package, rendered from its Markdown with the report tokens: numbered citations with a per-page source list linked to Appendix T, evidence badges (`VN-direct`, `VN-adjacent`, `general` with confidence), foresight badges for Part V (with `vision` styled apart), cross-links, key-number tiles and charts. Callouts (corrections, method notes, speculative, vision) have their own styles.
 - **Charts** are drawn as inline SVG at build time from `report/charts/chart-specs.json` (no chart library), in light and dark themes, each with its data table and source line.
-- **Plays ranking** (chapter 11): presets and seven weight sliders re-rank the ten plays; each play opens its card. Without JavaScript the balanced ranking and all cards are shown.
-- **Scenario explorer** (chapter 18): a two-by-two of the 2050 worlds with each world's picture, signposts and play scores. Without JavaScript all four are shown.
+- **Plays ranking** (chapter 26): presets and seven weight sliders re-rank the seven active plays (the feed plays retired in v0.8 are not ranked); each play opens its card. Without JavaScript the balanced ranking and all cards are shown.
+- **Scenario explorer** (chapter 23): a two-by-two of the 2050 worlds with each world's picture, signposts and play scores. Without JavaScript all four are shown.
 - **Audience paths**: pick an audience on the home page to get its reading path and highlight its pages everywhere.
 - **Data browser** at `/data`: all tables with the data dictionary's column descriptions; filter, sort and download. Zip downloads of all data, the working papers and the report Markdown.
 - **Search** across the full text of every page (EmDash full-text search), the glossary and the main registers; a **bilingual glossary** at `/glossary`.

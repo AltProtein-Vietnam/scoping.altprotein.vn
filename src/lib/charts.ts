@@ -30,8 +30,10 @@ const READER_NOTES: Record<string, string | null> = {
   'chart-timeline': null,
   'chart-route-to-market':
     'Green: self-declaration or listed feed. Amber: self-declaration with legal risk, or aquafeed trial ambiguity. Red: GMO closed-production, cultivated or new microbial biomass.',
-  'chart-plays-scoring': 'Scores are judgements, not ratings.',
-  'chart-sbm-scenarios-2050': null,
+  'chart-plays-scoring':
+    'Scores are judgements, not ratings. The feed plays retired in version 0.8 (T2, T3 and T6) are not shown.',
+  'chart-sbm-scenarios-2050':
+    'The vision band shown in earlier versions is dropped: soybean-meal need is no longer a vision goal.',
   'chart-sbm-tornado': 'Bars run from the low-case to the high-case value.',
   'chart-play-robustness': null,
 };
@@ -45,7 +47,7 @@ export function renderChartFigure(id: string, lang: Lang, cite: (ids: string[]) 
       ? ({
           id,
           type: 'interactive-bar',
-          title: 'Ten plays, scored with weights you can change',
+          title: 'Seven plays, scored with weights you can change',
           svg: '',
           table: '',
           alt: '',

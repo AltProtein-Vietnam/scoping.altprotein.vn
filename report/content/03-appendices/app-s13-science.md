@@ -4,10 +4,10 @@ title: "S13. State of the science by technology family"
 short_title: "S13. Science"
 section: appendix
 order: 33
-summary: "What the peer-reviewed evidence says in 2026 about each alternative-protein technology family, from plant proteins and fermentation to duckweed and cultivated seafood, with key numbers and DOIs, what each means for Vietnam, and a table of corrections to earlier claims."
+summary: "What the peer-reviewed evidence says in 2026 about each alternative-protein technology family, from plant proteins and fermentation to duckweed and cultivated seafood, with the main numbers and DOIs, what each means for Vietnam, and a table of corrections to earlier claims. Feed trials are kept as context."
 audiences: [research, investors, startups, manufacturers, policy, international]
-reading_time_min: 40
-key_numbers: [kn-pf-titer-gap, kn-mung-diaas, kn-shrimp-fishmeal-replacement, kn-cultivated-cost-multiple]
+reading_time_min: 43
+key_numbers: [kn-pf-titer-gap, kn-mung-diaas, kn-cultivated-cost-multiple]
 related_data: [science_facts.csv, tea_benchmarks.csv, replacement_trials.csv, publications.csv, biblio_counts.csv, cost_inputs.csv, disagreements.csv, protein_quality.csv, protein_food_micronutrients.csv, cost_per_quality_protein.csv]
 related_pages: [ch10-technology-fit, ch09-economics, app-s12-costs, app-s7-research, app-s8-labs-talent, app-s6-feed-market, app-s9-regulation, app-r2-disagreements, brief-research]
 charts: [chart-technology-fit-matrix]
@@ -15,15 +15,25 @@ charts: [chart-technology-fit-matrix]
 
 # S13. State of the science by technology family
 
-This appendix sets out the state of the science in September 2026 for each technology family that could supply alternative protein from Vietnam. For each family it gives the key numbers with their DOIs, what the evidence means for Vietnam, and where our earlier drafts were wrong. [[ch10-technology-fit]] draws the conclusions; [[app-s12-costs]] holds the full cost inputs; [[app-s7-research]] holds the Vietnamese research record.
+This appendix sets out the state of the science in September 2026 for each technology family that could supply alternative protein from Vietnam. For each family it gives:
+
+- the main numbers, with the DOI (digital object identifier, a permanent link) of each paper;
+- what the evidence means for Vietnam;
+- where our earlier drafts were wrong.
+
+[[ch10-technology-fit]] draws the conclusions; [[app-s12-costs]] holds the full cost inputs; [[app-s7-research]] holds the Vietnamese research record.
 
 Most of the evidence here is global. Vietnamese data exist only for a few families (aquafeed trials, side-stream protein extraction, microalgae cultivation). Where evidence is absent, we say so.
+
+The study concentrates on protein for people. Many published trials of new proteins are in shrimp and fish feed. We keep them as context and as the record: they show how far a protein has been tested, not a recommended use.
 
 > **Method note.** The core of this appendix is the wave 2 science review: 48 sources found and read through the Scite literature database, recorded in `science_facts.csv` (43 claims, each with a DOI, a full-text flag and a retraction check). Every paper cited from that review was checked for editorial notices; none carries a retraction, correction or expression of concern. One withdrawn preprint seen in passing is not used. We add techno-economic analyses (TEAs) from the wave 1 cost review (`tea_benchmarks.csv`), feed replacement trials from the wave 2 feed-market review (`replacement_trials.csv`), the Vietnamese research record from wave 1 and the wave 2 bibliometric counts. Where only an abstract was read, confidence is at most Medium. Claims that the science review found unsupported are listed in section S13.15 and are not used anywhere else.
 
 ## S13.1 Overview: where each family stands in 2026
 
 The "Vietnam evidence base" column summarises the Vietnamese peer-reviewed record found in wave 1 (Scite) and wave 2 (OpenAIRE), detailed in each section below. Counts are lower bounds [@RD-01; @BIB-01] {VN-direct|Medium}.
+
+Some terms recur. DIAAS (Digestible Indispensable Amino Acid Score) and the older PDCAAS (Protein Digestibility Corrected Amino Acid Score) measure protein quality (section S13.3). Single-cell protein (SCP) is protein-rich biomass of bacteria, yeast or fungi. Titre is the concentration of product in the fermenter, in grams per litre (g/L).
 
 | Family | State of the science in 2026 (our reading of the sources below) | Headline number | Vietnam evidence base | Evidence for the headline number |
 |---|---|---|---|---|
@@ -33,7 +43,7 @@ The "Vietnam evidence base" column summarises the Vietnamese peer-reviewed recor
 | Yeast and bacterial SCP | Commercial in feed abroad; partial fishmeal replacement proven | Gas-fermentation protein at 30% of a shrimp test diet: growth equal to control | Spent brewer's yeast work; one 2016 methanotroph isolation | [@SCI-23] {general\|Medium} |
 | Precision fermentation | Commercial for high-value ingredients; bulk proteins below titre benchmark | Best leghemoglobin 10.1 g/L vs "above 50 g/L" benchmark | Pichia expression of pharma proteins; no food protein | [@SCI-01; @SCI-05] {general\|Medium} |
 | Microalgae | Commercial for supplements; protein quality data thin | No DIAAS for microalgal biomass (2021 review) | Moderate for cultivation; thin for protein | [@SCI-39] {general\|Medium} |
-| Duckweed and aquatic plants | Protein concentrate judged safe in EU; safety of whole powders not established in 2021 (manganese) | Lemna protein concentrate safe (EFSA 2023) | Germplasm collection and genome; no protein study | [@SCI-28; @SCI-29; @SCI-30] {general\|High} |
+| Duckweed and aquatic plants | Protein concentrate judged safe in EU; safety of whole powders not established in 2021 (manganese) | Lemna protein concentrate safe (European Food Safety Authority, EFSA, 2023) | Germplasm collection and genome; no protein study | [@SCI-28; @SCI-29; @SCI-30] {general\|High} |
 | Seaweed | Not reviewed in depth in this study | none | 3 to 5 small feed studies | none |
 | Mushrooms and mycelium | Mycelium foods approved in Singapore | 4 mycelium or Neurospora approvals in Singapore (5 fungal biomass approvals including Rhizomucor) | Moderate for cultivation; thin for food protein | [@RGN-04] {VN-adjacent\|High} |
 | Cultivated meat and seafood | Approvals exist; cost and density far from food economics | Up to 130 million cells/mL (chicken, animal-free medium) | No fish or shrimp cell line developed in Vietnam | [@SCI-16; @RGN-04] {general\|Medium} |
@@ -47,7 +57,7 @@ The "Vietnam evidence base" column summarises the Vietnamese peer-reviewed recor
 
 - **Protein quality of common isolates and concentrates** is covered in section S13.3. Soy isolate is the reference: measured pig DIAAS of 97 on the older child and adult pattern [@SCI-40] {general|High}.
 - **Costs.** We found no verified capex or opex benchmark for plant protein isolation or high-moisture extrusion. The only Southeast Asian TEA found (a Thai study of freeze-aligned meat analogue, doi:10.1016/j.fufo.2023.100269) was read only in part (abstract) and models a 100 t/yr freeze-alignment plant, not extrusion or isolation [@COST-56] {VN-adjacent|Low}.
-- **Indicative Vietnamese cost of textured soy protein (TVP).** Our wave 1 worked example puts dry TVP from soy flour or concentrate at USD 790 to 2,070 per tonne ex-factory (about 3,700 to 10,700 VND per 100 g of protein). Imported soy flour or concentrate is about 70% of the cost. This is our calculation from Vietnamese power and rent prices, a global soybean meal price benchmark and assumed equipment costs [@COST-01; @COST-21; @COST-28] {VN-direct|Low}. See [[app-s12-costs]].
+- **Indicative Vietnamese cost of textured soy protein (TVP).** Our cost stack puts dry TVP from food-grade defatted soy flour, made on a Chinese-equipped line, at USD 761 to 1,573 per tonne of product (about 3,800 to 7,900 VND per 100 g of protein), depending on line size, use and the flour price. Delivered soy flour is 63 to 85% of the cost. This is our calculation from delivered flour prices, Vietnamese power, labour and rent, and listed Chinese equipment [@TIC-12; @TIC-13; @COST-01; @COST-19; @COST-20; @COST-21] {VN-direct|Low}. See [[app-s12-costs]], section S12.16, for every input. An earlier worked example, built on assumed equipment costs, gave USD 790 to 2,070 per tonne [@COST-01; @COST-21; @COST-28] {VN-direct|Low}.
 
 ### S13.2.2 Vietnamese evidence
 
@@ -59,17 +69,17 @@ The "Vietnam evidence base" column summarises the Vietnamese peer-reviewed recor
 
 ### S13.2.3 What it means for Vietnam
 
-- Production cost is not what blocks textured plant protein in Vietnam. On our indicative estimate, the ex-factory cost of TVP protein is roughly 3 to 19 times below the retail price of meat and egg protein, so product quality, demand and distribution margins decide [@COST-39; @COST-40; @COST-41] {VN-direct|Low}.
+- Production cost is not what blocks textured plant protein in Vietnam. On our indicative estimate, the ex-factory cost of TVP protein (3,800 to 7,900 VND per 100 g of protein) is about 4 to 19 times below the retail price of meat and egg protein, so product quality, demand and distribution margins decide [@TIC-02; @TIC-12; @COST-39; @COST-40; @COST-41] {VN-direct|Low}.
 - Vietnam's cost edge is small because the main input, soy, is imported: Vietnam imported 2.61 Mt of soybeans in 2025, 98.4% of supply (our calculation: imports over imports plus domestic output, excluding stocks) [@MAC-04; @MAC-09] {VN-direct|High}.
 - The knowledge gap is specialist: extrusion, texturisation and sensory structure work are almost absent from the Vietnamese literature [@RD-01; @BIB-01] {VN-direct|Medium}. Rice DDG and broken rice are the obvious local protein bases to texturise.
 
-> **Correction.** Wave 1 counted only 2 Vietnamese papers on plant-based meat and none on extrusion or texturisation [@RD-01] {VN-direct|Medium}. The wave 2 bibliometric review, using a second database, found about 6 on-topic plant-based meat papers from 2015 to 2026 and at most one extrusion study [@BIB-01] {VN-direct|Medium}. See DG-138 and DG-139. The one extrusion candidate is Taiwan-led, but its first author is also at Can Tho University of Technology, so it counts; with a 2026 high-moisture meat analogue paper by an IUH team [@TIC-21], Vietnam has one or two extrusion-related papers and about 6 plant-based meat papers [@HSC-01] {VN-direct|Medium}.
+> **Correction.** Wave 1 counted only 2 Vietnamese papers on plant-based meat and none on extrusion or texturisation [@RD-01] {VN-direct|Medium}. The wave 2 bibliometric review, using a second database, found about 6 on-topic plant-based meat papers from 2015 to 2026 and at most one extrusion study [@BIB-01] {VN-direct|Medium}. See DG-138 and DG-139. The one extrusion candidate is Taiwan-led, but its first author is also at Can Tho University of Technology, so it counts; with a 2026 high-moisture meat analogue paper by a team at the Industrial University of Ho Chi Minh City (IUH) [@TIC-21], Vietnam has one or two extrusion-related papers and about 6 plant-based meat papers [@HSC-01] {VN-direct|Medium}.
 
 ## S13.3 Protein quality and DIAAS
 
 ### S13.3.1 State of the science in 2026
 
-DIAAS (Digestible Indispensable Amino Acid Score) is the current FAO method for protein quality. The older-child pattern (over 3 years, adolescents and adults) applies to school-age children; the young-child pattern (6 to 36 months) applies to complementary foods [@NQR-08] {general|High}. Values below come from ileal digestibility measured in growing pigs unless stated. The table also covers the foods Vietnamese meals and plant products actually contain (the full table, with methods and notes, is `protein_quality.csv`).
+DIAAS (Digestible Indispensable Amino Acid Score) is the current method of the Food and Agriculture Organization of the United Nations (FAO) for protein quality. The older-child pattern (over 3 years, adolescents and adults) applies to school-age children; the young-child pattern (6 to 36 months) applies to complementary foods [@NQR-08] {general|High}. Values below come from ileal digestibility measured in growing pigs unless stated. The table also covers the foods Vietnamese meals and plant products actually contain (the full table, with methods and notes, is `protein_quality.csv`).
 
 | Ingredient or food | DIAAS, older child and adult pattern | DIAAS, young child pattern | Limiting amino acid | Source (DOI) | Evidence |
 |---|---|---|---|---|---|
@@ -105,12 +115,12 @@ DIAAS (Digestible Indispensable Amino Acid Score) is the current FAO method for 
 ### S13.3.2 Vietnamese evidence
 
 - We found no Vietnamese DIAAS or PDCAAS study [@RD-01] {VN-direct|Medium}, and no DIAAS measured in school-age children anywhere; a single OpenAlex search found no ileal digestibility study of soy or tofu in that age group (Low-confidence negative). In vitro digestibility has been reported, for example 77.1% for rice DDG protein [@RD-23] {VN-direct|High}.
-- No Vietnamese laboratory page we read lists a protein-digestibility assay among its services, and FIRI's NACEFA lists amino-acid analysis by HPLC only (scope and accreditation unconfirmed); PDCAAS and DIAAS work will probably need an overseas laboratory for now [@INF-03; @INF-10] {VN-direct|Medium}.
+- No Vietnamese laboratory page we read lists a protein-digestibility assay among its services, and the NACEFA laboratory of the Food Industries Research Institute (FIRI) lists amino-acid analysis by high-performance liquid chromatography (HPLC) only (scope and accreditation unconfirmed); PDCAAS and DIAAS work will probably need an overseas laboratory for now [@INF-03; @INF-10] {VN-direct|Medium}.
 
 ### S13.3.3 What it means for Vietnam
 
 - Mung bean is a strong local legume by pig DIAAS on the older-child pattern (86; 68 on the young-child pattern) but weaker in humans; rice protein alone is poor because it is lysine-limited [@SCI-40; @SCI-41; @SCI-42; @NQR-11] {general|High}. Prefer human data for food claims (DG-110).
-- A Vietnamese DIAAS reference dataset (rice DDG, mung bean, spent yeast, catfish side-stream isolates, spirulina) is a cheap public good that any novel-food dossier will need. The list includes tofu, textured soy and blended minced dishes, measured on both patterns, with phytate, zinc and iron; this is why policy option 13 (PO-027) now includes phytate-to-mineral analysis in the laboratory scope ([[ch27-policy-options]]).
+- A Vietnamese DIAAS reference dataset (rice DDG, mung bean, spent yeast, catfish side-stream isolates, spirulina) is a cheap public good that any novel-food dossier will need. The list includes tofu, textured soy and blended minced dishes, measured on both patterns, with phytate, zinc and iron; this is why policy option 10 (PO-027) now includes phytate-to-mineral analysis in the laboratory scope ([[ch27-policy-options]]).
 - For school-age children the binding nutrients are zinc and iron, not protein quality (our inference from these sources); protein quality matters most for plant-only meals for older boys and, much more, for children under two, where plant products face the young-child pattern and registration as foods for children up to 36 months (Decree 15/2018) [@APR-04; @NQR-04; @NQR-31] {VN-direct|Medium}. A 20 to 30% soy extender in minced dishes raises no protein-quality objection in our calculated lower bound (table above) [@NQR-05; @NQR-07; @NQR-08] {general|Medium}. A zinc-fortified textured-soy school dish is a research option, not a recommended product: in rural Vietnam, biscuits fortified with zinc and iron cut anaemia and zinc deficiency in children aged 6 to 8 [@NQR-22] {VN-direct|High}, but no trial has tested a fortified soy dish.
 
 ## S13.4 Fungal biomass, mycoprotein and koji
@@ -126,17 +136,17 @@ DIAAS (Digestible Indispensable Amino Acid Score) is the current FAO method for 
 
 ### S13.4.2 Vietnamese evidence
 
-- VNU Hanoi groups have built fungal genetic tools: a dual-auxotrophic transformation system in *A. oryzae* (doi:10.1007/s11274-021-03060-z) and 100% *pyrG* deletion efficiency in five *Cordyceps militaris* strains, the base for a food-grade expression platform (doi:10.47371/mycosci.2024.10.003) [@RD-33; @RD-34] {VN-direct|Medium}.
+- Groups at Vietnam National University, Hanoi (VNU Hanoi) have built fungal genetic tools: a dual-auxotrophic transformation system in *A. oryzae* (doi:10.1007/s11274-021-03060-z) and 100% *pyrG* deletion efficiency in five *Cordyceps militaris* strains, the base for a food-grade expression platform (doi:10.47371/mycosci.2024.10.003) [@RD-33; @RD-34] {VN-direct|Medium}.
 - A 2025 study in the National Institute for Food Control journal tested aflatoxin in 38 samples of traditional fermented soy (*tương*) [@RD-61] {VN-direct|Medium}.
 - A 2025 preprint reports that solid-state fermentation of cassava and soybean residue with oyster-mushroom (*Pleurotus ostreatus*) mycelium raised protein 1.84-fold [@RD-29] {VN-direct|Medium}.
 - We found no Vietnamese study on mycoprotein; tempeh-fungus work is limited to one 2025 Hong Duc University paper on producing *Rhizopus oligosporus* biomass as a tempeh starter (doi:10.70117/hdujs.72.4.2025.650) [@RD-01; @BIB-01; @HSC-01] {VN-direct|Medium}.
 
 ### S13.4.3 What it means for Vietnam
 
-- Fungal biomass on cassava or molasses residues is scientifically plausible, but published yields per litre must be read with care. Pilot data on Vietnamese substrates are needed before any cost model.
+- Fungal biomass on cassava or molasses residues is scientifically plausible, but published yields per litre need careful reading. Pilot data on Vietnamese substrates are needed before any cost model.
 - A koji route that relies on the *tương* tradition still needs strain characterisation for CPA and 3-nitropropionic acid. Wild starter cultures are not automatically safe [@SCI-19] {general|High}.
 - RNA reduction is an industrially expensive step for food use [@SCI-20] {general|Medium}. Drying is a further cost line, and feed use may tolerate higher RNA, but we found no source for either (our judgement).
-- Our indicative Vietnamese cost of fungal biomass protein for feed is USD 2,227 to 6,612 per tonne of product, or USD 4,050 to 14,700 per tonne of protein; capital charges and maintenance are 54 to 67% of cost (our calculation, wave 1 worked example) [@COST-43; @COST-44; @COST-21] {VN-direct|Low}. Fishmeal protein cost about USD 2,625 per tonne in 2025 and USD 3,846 in August 2026 [@FM-01] {general|High}.
+- Our indicative Vietnamese cost of fungal biomass protein, built as a feed ingredient, is USD 2,227 to 6,612 per tonne of product, or USD 4,050 to 14,700 per tonne of protein; capital charges and maintenance are 54 to 67% of cost (our calculation, wave 1 worked example) [@COST-43; @COST-44; @COST-21] {VN-direct|Low}. The study now sets this cost against food comparators ([[ch09-economics]], section 9.3). For context, fishmeal protein cost about USD 2,625 per tonne in 2025 and USD 3,846 in August 2026 [@FM-01] {general|High}.
 
 > **Correction.** Earlier drafts used "118.5 g/L" of *A. oryzae* biomass on vinasse (Karimi et al. 2019) as a productivity input. It is not a broth concentration. The flask held 100 mL of 5% vinasse with about 21 g/L of chemical oxygen demand (COD); 11.85 g of dry biomass from about 2.1 g of COD is impossible. The figure is most plausibly per litre of undiluted vinasse, about 5.9 g/L in the flask (arithmetic by our science reviewer). The paper does not state the basis and is internally inconsistent on COD [@SCI-18] {general|High}. Do not use 118.5 g/L as a titre. See DG-105 and DG-106.
 
@@ -152,7 +162,7 @@ DIAAS (Digestible Indispensable Amino Acid Score) is the current FAO method for 
 - Brewer's yeast replaced 45% of fishmeal in hybrid "Thai Panga" catfish with better growth and immunity, according to a 2024 review (doi:10.3390/ani14192851) [@SCI-26] {VN-adjacent|Medium}.
 - China's Angel Yeast makes more than 11,000 t/yr of yeast protein at Yichang [@RGN-24; @RGN-25] {general|Medium}.
 
-**Bacterial SCP in aquafeed.** Single-cell protein trials are summarised below (details in `replacement_trials.csv`).
+**Bacterial SCP in aquafeed.** These trials are all in feed, so they are context for this study. Details are in `replacement_trials.csv`.
 
 | Organism and product | Species | Result | Source (DOI) | Evidence |
 |---|---|---|---|---|
@@ -180,18 +190,20 @@ DIAAS (Digestible Indispensable Amino Acid Score) is the current FAO method for 
 
 ### S13.5.2 Vietnamese evidence
 
-- Vietnamese researchers studied nucleic-acid reduction in spent brewer's yeast hydrolysate (2018; affiliation not stated), and a HUST team recovered 84.9% of the protein from spent brewer's yeast for a food product (2024) [@RD-31; @RD-32] {VN-direct|Medium}.
+- Vietnamese researchers studied nucleic-acid reduction in spent brewer's yeast hydrolysate (2018; affiliation not stated), and a team at Hanoi University of Science and Technology (HUST) recovered 84.9% of the protein from spent brewer's yeast for a food product (2024) [@RD-31; @RD-32] {VN-direct|Medium}.
 - Spent brewer's yeast replaced up to 60% of fishmeal protein in giant freshwater prawn without loss of growth or survival (doi:10.1111/anu.12915) [@RD-48] {VN-direct|High}. Brewer's yeast has also been tested against soybean meal in Nile tilapia [@RD-49] {VN-direct|High}.
 - A 2016 paper isolated a methane-oxidising bacterium for SCP, with no follow-up found [@RD-28] {VN-direct|Medium}. A 2023 conference paper on SCP from bamboo cellulose was retracted and is not used [@RD-30] {VN-direct|High}.
 - We found no Vietnamese trial of bacterial SCP, methanotroph meal or microalgae as bulk protein in pangasius or shrimp [@RD-01] {VN-direct|Medium}.
 
 ### S13.5.3 What it means for Vietnam
 
-- Shrimp feed is the right target for bacterial and yeast SCP, but the evidence supports partial replacement, not full replacement: CAP at 30% of a test diet caused no growth loss, and halving fishmeal with CAP needed an added bile acid [@SCI-23; @SCI-24] {general|High}.
+The study no longer treats feed as something to make, so most of the points below record the feed evidence as context. For food, the nearest Vietnamese work is the recovery of protein from spent brewer's yeast (section S13.5.2).
+
+- In shrimp feed, the evidence supports partial replacement of fishmeal by bacterial and yeast SCP, not full replacement: CAP at 30% of a test diet caused no growth loss, and halving fishmeal with CAP needed an added bile acid [@SCI-23; @SCI-24] {general|High}.
 - Pangasius and tilapia feeds already use little fishmeal [@MAC-39] {general|Medium}, so SCP there competes with soybean meal on price, a harder benchmark: soybean meal protein cost about USD 880 per tonne in August 2026 against USD 3,846 for fishmeal protein [@FM-01] {general|High}.
 - Early life stages need their own trials; the barramundi fry result is a warning [@FM-19] {general|Medium}.
-- SCP from soybean-processing wastewater (from a Singapore soy company; tofu and soy-milk effluent is probably similar, our inference) is a Vietnam-relevant lead worth a local trial, but it rests on one preprint [@SCI-25] {VN-adjacent|Medium}.
-- For legal routes (livestock list, aquafeed trials, penalties since August 2026), see [[app-s9-regulation]].
+- SCP from soybean-processing wastewater (from a Singapore soy company; tofu and soy-milk effluent is probably similar, our inference) is a Vietnam-relevant lead, but it rests on one preprint and was tested in shrimp feed [@SCI-25] {VN-adjacent|Medium}.
+- For legal routes, including the feed lists (livestock list, aquafeed trials, penalties since August 2026), see [[app-s9-regulation]].
 
 ## S13.6 Precision fermentation
 
@@ -203,15 +215,15 @@ DIAAS (Digestible Indispensable Amino Acid Score) is the current FAO method for 
   - 3.5 g/L, secreted, in *Pichia pastoris* (Shao et al. 2022, doi:10.1016/j.biortech.2022.127884; value read through a citing paper) [@SCI-03; @SCI-04] {general|Medium};
   - 7.27 g/L, intracellular, in *Kluyveromyces marxianus* (Tian et al. 2024, doi:10.3389/fbioe.2023.1329016) [@SCI-04] {general|High};
   - 10.1 g/L in 5 L bioreactors, also in *K. marxianus* (Chen et al. 2026, doi:10.1002/biot.70239) [@SCI-05] {general|High}.
-  These are about 5 to 14 times below the 50 g/L bulk-protein benchmark (our calculation) [@SCI-01; @SCI-03; @SCI-04; @SCI-05] {general|Medium}. Heme proteins are used at low inclusion in a product, so the benchmark binds less for them (our inference; we found no source for an inclusion level).
-- ***Trichoderma reesei*.** VTT produced beta-lactoglobulin and ovalbumin in *T. reesei* (Aro et al., *Food Research International* 163:112131, dated 2023; doi:10.1016/j.foodres.2022.112131); the abstract reports 1 g/L beta-lactoglobulin and 2 g/L ovalbumin [@SCI-06] {general|Low}. VTT reports brazzein (a sweet protein) at 1.3 g/L in a 250 mL bioreactor, with an estimated cost of EUR 57 to 80/kg; it also states more than 80 g/L for one unnamed heterologous protein as unpublished data, which we treat as a claim, not evidence (doi:10.3389/fbioe.2025.1688495) [@SCI-07] {general|Low}.
+  These are about 5 to 14 times below the 50 g/L bulk-protein benchmark (our calculation) [@SCI-01; @SCI-03; @SCI-04; @SCI-05] {general|Medium}. Heme proteins are used at low inclusion in a product, so the benchmark binds less for them: Impossible Foods notified US use at up to 0.8% soy leghemoglobin protein in ground beef analogues [@PRA-11] {general|High}.
+- ***Trichoderma reesei*.** VTT, the Technical Research Centre of Finland, produced beta-lactoglobulin and ovalbumin in *T. reesei* (Aro et al., *Food Research International* 163:112131, dated 2023; doi:10.1016/j.foodres.2022.112131); the abstract reports 1 g/L beta-lactoglobulin and 2 g/L ovalbumin [@SCI-06] {general|Low}. VTT reports brazzein (a sweet protein) at 1.3 g/L in a 250 mL bioreactor, with an estimated cost of EUR 57 to 80/kg; it also states more than 80 g/L for one unnamed heterologous protein as unpublished data, which we treat as a claim, not evidence (doi:10.3389/fbioe.2025.1688495) [@SCI-07] {general|Low}.
 - **OPENPichia.** A genome-sequenced *Komagataella phaffii* type strain (NCYC 2543) with a HOC1 truncation that restores transformability. It is near-identical to the patented strain NRRL Y-11430, and no strain was consistently better at protein production. It comes under "liberal distribution and commercial use licences" that allow royalty-free commercial manufacture, with a toolkit free of third-party material transfer agreements (doi:10.1038/s41564-023-01574-w) [@SCI-08] {general|High}.
 - **Regulatory science.** EFSA issued an opinion in 2024 on soy leghemoglobin from genetically modified *K. phaffii* as a food additive (colour in meat analogues) (doi:10.2903/j.efsa.2024.8822) [@SCI-09] {general|Medium}. Singapore has approved three precision-fermented ingredients: Remilk beta-lactoglobulin (2023) and two human milk oligosaccharides from Chr. Hansen (2025) [@RGN-04] {VN-adjacent|High}.
 - **Costs and capacity.** We could not verify any peer-reviewed TEA for precision-fermented food proteins. For scale, Liberation Bioindustries' plant in Richmond, Indiana has 600 m3 of fermentation and is due to start production in 2026 [@COST-54] {general|Medium}.
 
 ### S13.6.2 Vietnamese evidence
 
-- Vietnam has moderate strength in recombinant expression, mostly of pharmaceutical and enzyme proteins: growth factors FGF-2, KGF/FGF7 and PDGF-BB in *Pichia* (VNU-HCM, 2020 to 2021), an alkaline phytase aimed at aquafeed (2025) and a bacteriocin applied to pork bologna (2024) [@RD-35; @RD-36; @RD-37; @RD-38; @RD-63] {VN-direct|Medium}.
+- Vietnam has moderate strength in recombinant expression, mostly of pharmaceutical and enzyme proteins: growth factors FGF-2, KGF/FGF7 and PDGF-BB in *Pichia* (Vietnam National University, Ho Chi Minh City, VNU-HCM, 2020 to 2021), an alkaline phytase aimed at aquafeed (2025) and a bacteriocin applied to pork bologna (2024) [@RD-35; @RD-36; @RD-37; @RD-38; @RD-63] {VN-direct|Medium}.
 - After screening, Vietnam has zero records on precision fermentation or recombinant food proteins (dairy, egg, heme) for 2015 to 2026 [@BIB-01; @RD-01] {VN-direct|Medium}.
 
 ### S13.6.3 What it means for Vietnam
@@ -257,11 +269,11 @@ DIAAS (Digestible Indispensable Amino Acid Score) is the current FAO method for 
 
 ### S13.8.3 What it means for Vietnam
 
-- Duckweed grown on aquaculture effluent fits feed. For food, the EU record shows that mineral control (manganese) and controlled water are the gate, and that a protein concentrate is an easier regulatory path than whole-plant powder [@SCI-28; @SCI-30] {general|High}.
+- For food, the EU record shows that mineral control (manganese) and controlled water are the gate, and that a protein concentrate is an easier regulatory path than whole-plant powder [@SCI-28; @SCI-30] {general|High}. Duckweed grown on aquaculture effluent could serve as feed, but the study no longer recommends that route, because it now concentrates on protein for people.
 - Legally, *bèo* (duckweed) is on the livestock feed list but not on the aquafeed list [@REG-32; @REG2-01] {VN-direct|High}.
 - Vietnam holds germplasm and a genome but has not used either for protein. Screening the national collection for protein and manganese is a quick public good.
 
-> **Correction.** Three duckweed claims in earlier drafts are withdrawn or qualified. (1) The EFSA opinion on *Wolffia globosa* powder exists, but its content is negative: safety was not established (2021) [@SCI-28] {general|High}. (2) The claim that fresh *Wolffia* plants were deemed "not novel" in the EU could not be verified [@SCI-32] {general|Low}. (3) The "PDCAAS 0.89" figure is an unpublished applicant rat result (12 rats) for *Wolffia globosa* powder, reported in EFSA's 2021 opinion; it must not be extended to duckweed in general [@SCI-28] {general|Medium}. A 2026 review states that *Wolffia globosa* powder was later authorised in the EU; we could not verify this, so the EU status is open (DG-108) [@SCI-31] {general|Low}.
+> **Correction.** Three duckweed claims in earlier drafts are withdrawn or qualified. (1) The EFSA opinion on *Wolffia globosa* powder exists, but its content is negative: safety was not established (2021) [@SCI-28] {general|High}. (2) The claim that fresh *Wolffia* plants were deemed "not novel" in the EU could not be verified [@SCI-32] {general|Low}. (3) The "PDCAAS 0.89" figure is an unpublished applicant rat result (12 rats) for *Wolffia globosa* powder, reported in EFSA's 2021 opinion; it does not apply to duckweed in general [@SCI-28] {general|Medium}. A 2026 review states that *Wolffia globosa* powder was later authorised in the EU; we could not verify this, so the EU status is open (DG-108) [@SCI-31] {general|Low}.
 
 ## S13.9 Seaweed
 
@@ -279,13 +291,13 @@ DIAAS (Digestible Indispensable Amino Acid Score) is the current FAO method for 
 
 ### S13.11.1 State of the science in 2026
 
-- **Cell lines for Vietnamese species.** Striped catfish (*Pangasianodon hypophthalmus*, Vietnamese *tra*) cell lines exist in India (ICAR-NBFGR): a thymus line, PHT (accession NRFC-078; 52 passages; L-15 medium with 20% fetal bovine serum; 28 C; epithelial) (doi:10.56093/ijans.v93i2.128796), a gill line (2022, authors at ICAR-CIFE, doi:10.1007/s10695-022-01053-9) and a caudal fin line (2018, doi:10.1016/j.actatropica.2018.03.015). A skin epithelial line was published from Taiwan in 2025. All were built for virology and toxicology, not food [@SCI-10; @SCI-11; @SCI-46; @SCI-47] {VN-adjacent|Medium}.
+- **Cell lines for Vietnamese species.** Striped catfish (*Pangasianodon hypophthalmus*, Vietnamese *tra*) cell lines exist in India, at the National Bureau of Fish Genetic Resources of the Indian Council of Agricultural Research (ICAR-NBFGR): a thymus line, PHT (accession NRFC-078; 52 passages; L-15 medium with 20% fetal bovine serum; 28 C; epithelial) (doi:10.56093/ijans.v93i2.128796), a gill line (2022, authors at ICAR-CIFE, doi:10.1007/s10695-022-01053-9) and a caudal fin line (2018, doi:10.1016/j.actatropica.2018.03.015). A skin epithelial line was published from Taiwan in 2025. All were built for virology and toxicology, not food [@SCI-10; @SCI-11; @SCI-46; @SCI-47] {VN-adjacent|Medium}.
 - **Shrimp.** "PmLyO-Sf9" is a black tiger shrimp lymphoid cell x insect Sf9 hybrid from Cochin University of Science and Technology (CUSAT), used for virus work (doi:10.1016/j.fsi.2021.03.023). It contains insect genetic material. We found no true continuous shrimp cell line in the literature [@SCI-12; @SCI-13] {general|High}.
 - **Density limits (Humbird 2021, doi:10.1002/bit.27848).** Absolute maximum 258 g/L of wet cells; 110 g/L in fed-batch before ammonia inhibition; 140 g/L with one perfusion filter; 195 g/L oxygen-limited. With inefficient metabolism, inhibition caps density at 7 to 20 g/L. The conclusion is that economics "would likely preclude" affordability as food [@SCI-14] {general|High}.
 - **Best documented animal-free result.** Chicken cells reached up to 130 million cells/mL (reported as a 43% w/v yield) with repeated harvests over 20 days, in animal-component-free medium costing USD 0.63 per litre; the same paper models USD 6.2 per lb (about USD 13.67/kg) for a 50,000 L perfusion facility (Pasitka et al. 2024, doi:10.1038/s43016-024-01022-w) [@SCI-16] {general|Medium}. A 2025 review of this work gives 28 million cells/mL and a 38% cut in medium cost [@SCI-17] {general|Low}. The 43% w/v yield is above Humbird's modelled 140 to 195 g/L; the bases may differ and we have not reconciled them. No comparable data exist for fish or shrimp cells.
 - **Growth factor cost depends on the price assumption.** Humbird models growth factors at only USD 3 to 4 per kg of wet cells at 100,000 t/yr, assuming bulk recombinant prices [@SCI-14] {general|High}. At current prices, growth factors can be up to 95% of serum-free medium cost, and medium about 98% of raw-material cost at scale (preprint citing Semper and Savchenko 2023 for the 95% and Negulescu et al. 2023 for the 98%) [@SCI-15] {general|Medium}. Both are true; they describe different futures (DG-104).
 - **Production cost models.** Humbird: USD 37/kg of wet cell mass in fed-batch (24 x 20 m3 reactors, 6.8 kt/yr) and USD 51/kg in perfusion, with USD 663 million of capital for 6.9 kt/yr [@COST-47] {general|High}. A 2022 estimate of USD 63/kg at 540 t/yr is known only through a 2026 review [@COST-49] {general|Low}.
-- **Approvals.** Singapore lists six cultivated products, including cultivated duck (April 2026) and Singapore's first cultivated beef (July 2026) [@RGN-04] {VN-adjacent|High}. The US FDA has completed five cultivated-cell consultations, including Wildtype's coho salmon on 28 May 2025, the first cultivated seafood cleared in the US [@RGN-03] {general|High}. See [[app-s3-regional]].
+- **Approvals.** Singapore lists six cultivated products, including cultivated duck (April 2026) and Singapore's first cultivated beef (July 2026) [@RGN-04] {VN-adjacent|High}. The US Food and Drug Administration (FDA) has completed five cultivated-cell consultations, including Wildtype's coho salmon on 28 May 2025, the first cultivated seafood cleared in the US [@RGN-03] {general|High}. See [[app-s3-regional]].
 
 ### S13.11.2 Vietnamese evidence
 
@@ -304,13 +316,13 @@ DIAAS (Digestible Indispensable Amino Acid Score) is the current FAO method for 
 
 ## S13.12 Insects (benchmark only)
 
-Insect protein appears in this report as an incumbent and a benchmark, not as a recommended play.
+Insect protein appears in this report as an incumbent and a benchmark, not as a recommended play. The trials below are in feed, so they are context and the record.
 
 - **Shrimp.** Black soldier fly (BSF) larvae meal replaced 20% of fishmeal in whiteleg shrimp without growth loss; 30% reduced growth (BSF at 9.5% of the diet replaced 20% of fishmeal protein, about 5% of the diet as fishmeal; doi:10.1017/s0007114521004670) [@SCI-27] {general|High}. BSF meal had lower protein digestibility than the control in a shrimp screen [@SCI-23] {general|High}. Yellow mealworm meal replaced 50% of fishmeal with better growth and cut post-challenge mortality by 76.9% (a company-linked product; doi:10.3390/ani9050258) [@FM-26] {general|Medium}.
 - **Fish.** BSF meal replaced up to 60% of fishmeal in juvenile striped catfish (174 g/kg of diet), but 100% cut growth [@FM-22] {general|Medium}. A meta-analysis finds BSF meal can replace no more than about 30% of fishmeal, and only in some species [@FM-25] {general|Medium}. Cricket meal replaced 100% of fishmeal protein in snakehead without growth loss [@FM-23] {general|Medium}.
 - **Vietnamese evidence.** 30% BSF larvae meal gave the best result in swamp eel (feed conversion ratio 2.33) (doi:10.3390/aquacj5010007); fresh or dried BSF larvae have been tested in snakehead [@RD-54; @RD-55] {VN-direct|High}. The BSF cluster (34 Vietnam-tagged records) is led by papers on biodiesel from larval fat [@BIB-01] {VN-direct|Medium}.
 - **Industry.** Entobel's Vietnamese plants have a design capacity of 11,000 t/yr [@ECO-01; @ECO-03] {VN-direct|Medium}.
-- **What it means.** As a shrimp-feed benchmark, insect meal displaces only a small share of fishmeal. Microbial proteins such as CAP match or exceed it on digestibility [@SCI-23; @SCI-27] {general|High}. Many of the gains claimed for novel proteins in shrimp are functional (survival, palatability) rather than protein supply [@FM-20; @FM-26; @FM-45] {general|Medium}.
+- **What it means (context).** As a shrimp-feed benchmark, insect meal displaces only a small share of fishmeal. Microbial proteins such as CAP match or exceed it on digestibility [@SCI-23; @SCI-27] {general|High}. Many of the gains claimed for novel proteins in shrimp are functional (survival, palatability) rather than protein supply [@FM-20; @FM-26; @FM-45] {general|Medium}.
 
 ## S13.13 Tropical fermentation
 
@@ -323,7 +335,7 @@ Insect protein appears in this report as an incumbent and a benchmark, not as a 
 ### S13.13.2 Engineering benchmarks
 
 - Aerobic growth releases about 460 kJ per mol of oxygen consumed, and cooling water is 4 to 8 times cheaper than chilled water per unit of heat (Roels 1983 and Towler and Sinnott 2013, as cited) [@COST-50] {general|Medium}. A simulated German baker's yeast plant with 7 x 150 m3 reactors releases about 11 MW of heat on average [@COST-52] {general|High}. A temperate design case uses 0.56 kW of compressor power per ton of refrigeration [@COST-51] {general|High}.
-- **Our indicative cooling penalty for southern Vietnam** is about 0.7 to 1.35 kWh per kg of dry biomass, plus chiller capex: about USD 70 to 180 per tonne of dry biomass, or roughly 2 to 4% of the indicative cost of fungal feed protein (1 to 8% at the extremes). This is our calculation from general engineering rules and an assumed design wet-bulb temperature, not a published measurement [@COST-50; @COST-51; @COST-52] {VN-direct|Low}. Vietnamese manufacturing power costs about USD 0.073 to 0.081 per kWh for a plant running 24 hours a day (our calculation from the 2026 tariff, 110 kV and above to under 6 kV, at 26,000 VND per USD; see [[app-s12-costs]]) [@COST-01; @COST-03] {VN-direct|Medium}.
+- **Our indicative cooling penalty for southern Vietnam** is about 0.7 to 1.35 kWh per kg of dry biomass, plus chiller capex: about USD 70 to 180 per tonne of dry biomass, or roughly 2 to 4% of the indicative cost of fungal biomass protein in cost stack A of [[app-s12-costs]] (1 to 8% at the extremes). This is our calculation from general engineering rules and an assumed design wet-bulb temperature, not a published measurement [@COST-50; @COST-51; @COST-52] {VN-direct|Low}. Vietnamese manufacturing power costs about USD 0.073 to 0.081 per kWh for a plant running 24 hours a day (our calculation from the 2026 tariff, 110 kV and above to under 6 kV, at 26,000 VND per USD; see [[app-s12-costs]]) [@COST-01; @COST-03] {VN-direct|Medium}.
 
 ### S13.13.3 Vietnamese evidence
 
@@ -333,16 +345,16 @@ Insect protein appears in this report as an incumbent and a benchmark, not as a 
 ### S13.13.4 What it means for Vietnam
 
 - At least one thermotolerant strain (SS106) for 40 to 45 C fermentation has been shown on cassava starch [@SCI-44] {VN-adjacent|High}. Design for thermotolerant strains or hybrid cooling from day one.
-- One call to a Vietnamese yeast or MSG plant for its chiller energy per m3 of broth would replace our estimate with a measurement.
+- One call to a Vietnamese yeast or MSG (monosodium glutamate) plant for its chiller energy per m3 of broth would replace our estimate with a measurement.
 
-> **Correction.** An earlier draft claimed that tropical cooling "may offset" Vietnam's power-cost advantage. Our estimate is that the extra cooling electricity is real (about half to 1.7 times the plant's other electricity use) but electricity is a small share of total cost, so the overall effect is about 2 to 4% of feed-protein cost and avoidable with thermotolerant strains [@COST-50; @COST-51] {VN-direct|Low}. See DG-088.
+> **Correction.** An earlier draft claimed that tropical cooling "may offset" Vietnam's power-cost advantage. Our estimate is that the extra cooling electricity is real (about half to 1.7 times the plant's other electricity use) but electricity is a small share of total cost, so the overall effect is about 2 to 4% of the cost of fungal biomass protein and avoidable with thermotolerant strains [@COST-50; @COST-51] {VN-direct|Low}. See DG-088.
 
 ## S13.14 AI in research and development
 
 - **State of the evidence.** This study did not review the literature on artificial intelligence (AI) in protein design, strain engineering or formulation. We make no claim about its state of the art.
 - **Money.** The Bezos Earth Fund's Future of Food programme has committed USD 1 billion and lists 23 grants worth USD 194.8 million, several on AI for alternative protein (for example taste prediction, protein design and plant protein chemistry); we found no open call [@CAP-61] {general|Medium}.
-- **Rules in Vietnam.** Decision 23/2026 lists omics (item 48) and bioinformatics (item 50) as priority high technologies [@REG-47] {VN-direct|High}. The IP Law amendment (Law 131/2025/QH15, effective 1 April 2026) adds rules on AI-created subject matter and a text and data mining exception, which bear on AI-assisted strain and protein design [@REG-62] {VN-direct|Medium}.
-- **Vietnamese capacity.** VINIF, Vingroup's research foundation, has a Big Data focus in its project funding [@RD-05] {VN-direct|Medium}. We found no Vietnamese publication applying AI to alternative-protein R&D.
+- **Rules in Vietnam.** Decision 23/2026 lists omics (item 48) and bioinformatics (item 50) as priority high technologies [@REG-47] {VN-direct|High}. The amendment to the Intellectual Property (IP) Law (Law 131/2025/QH15, effective 1 April 2026) adds rules on AI-created subject matter and a text and data mining exception, which bear on AI-assisted strain and protein design [@REG-62] {VN-direct|Medium}.
+- **Vietnamese capacity.** VINIF, Vingroup's research foundation, gives priority to big data in its project funding [@RD-05] {VN-direct|Medium}. We found no Vietnamese publication applying AI to alternative-protein R&D.
 - **What it means.** AI tools may shorten strain and formulation development, but we have no evidence in this study to size the effect. Treat AI claims in pitches as unverified until backed by published or audited results.
 
 ## S13.15 Corrections to earlier claims
@@ -371,13 +383,13 @@ This table collects every science claim from earlier drafts that the wave 2 revi
 | Mung bean protein quality from pig DIAAS | Incomplete | Human digestibility about 20% lower than pigs | [@SCI-41; @SCI-42] {general\|High} | DG-110 |
 | "No Vietnamese study has reported RNA reduction, mycotoxin testing or amino-acid digestibility" | Too strong | Such methods exist in Vietnam for yeast, traditional soy and rice DDG, but not for novel biomass; no DIAAS study | [@RD-31; @RD-61; @RD-23] {VN-direct\|Medium} | DG-056 |
 | Vietnam has 2 plant-based meat papers and none on extrusion | Undercount | About 6 on-topic papers (2015 to 2026; `biblio_counts.csv`), including one Taiwan-led extrusion study with a first author also at Can Tho University of Technology | [@BIB-01; @HSC-01] {VN-direct\|Medium} | DG-138, DG-139 |
-| Tropical cooling "may offset" the power advantage | Partly right | Real but modest: about USD 70 to 180/t of biomass, 2 to 4% of feed-protein cost (our estimate) | [@COST-50; @COST-51] {VN-direct\|Low} | DG-088 |
+| Tropical cooling "may offset" the power advantage | Partly right | Real but modest: about USD 70 to 180/t of biomass, 2 to 4% of fungal biomass protein cost (our estimate) | [@COST-50; @COST-51] {VN-direct\|Low} | DG-088 |
 | A single "capex per m3" can be borrowed from a TEA | Wrong | Capex per m3 differs about 7-fold between verified TEAs (about USD 51,000 vs 350,000 per m3) | [@COST-43; @COST-44] {general\|High} | DG-087 |
 | China holds "70% of world fermentation capacity" | Unsupported | Even the GFI China report author could not verify it; do not use | [@RGN-24] {general\|Low} | DG-080 |
 
 ## S13.16 Techno-economic benchmarks used in this appendix
 
-All values are from `tea_benchmarks.csv`. They are global models, mostly for US or European sites, and must not be read as Vietnamese costs. Capex per annual tonne is our derivation from the verified inputs [@COST-43; @COST-44; @COST-47] {general|High}.
+All values are from `tea_benchmarks.csv`. They are global models, mostly for US or European sites, and are not Vietnamese costs. Capex per annual tonne is our derivation from the verified inputs [@COST-43; @COST-44; @COST-47] {general|High}.
 
 | Process | Metric | Value | Cost basis | Source (DOI) |
 |---|---|---|---|---|
@@ -391,9 +403,11 @@ All values are from `tea_benchmarks.csv`. They are global models, mostly for US 
 | Precision-fermented food proteins | Peer-reviewed TEA | None verified | n/a | wave 1 cost review |
 | Plant protein isolate, high-moisture extrusion | Capex and opex | None verified | n/a | wave 1 cost review |
 
-The H2 and CO2 row rests on an abstract only; the others on full text or key excerpts.
+The H2 and CO2 row rests on an abstract only; the others on full text or main excerpts.
 
 ## Gaps and how to close them
+
+Gaps 4, 8 and 9 concern feed. We keep them as the record, but closing them is no longer a priority, because the study now concentrates on protein for people.
 
 | # | Gap | Cheapest way to close it |
 |---|---|---|
@@ -403,11 +417,11 @@ The H2 and CO2 row rests on an abstract only; the others on full text or key exc
 | 4 | FeedKind and other methanotroph meals in shrimp and fish | Search *Aquaculture* and *Aquaculture Nutrition* for "FeedKind" and "Methylococcus capsulatus", 2019 to 2026 |
 | 5 | Spirulina protein content and digestibility | One targeted literature search |
 | 6 | Tropical cooling cost of fermentation | Ask a Vietnamese MSG or yeast plant for chiller energy per m3 of broth |
-| 7 | A Vietnamese DIAAS reference dataset | Fund a study at an overseas laboratory or build capacity at a VILAS-accredited laboratory |
+| 7 | A Vietnamese DIAAS reference dataset | Fund a study at an overseas laboratory or build capacity at a laboratory accredited under VILAS, Vietnam's laboratory accreditation scheme |
 | 8 | Soybean-wastewater SCP (preprint): has it been peer reviewed? | Check publication status; contact the authors |
 | 9 | SCP and yeast replacement thresholds in tilapia and pangasius | Targeted search; Can Tho University and Nong Lam University aquaculture faculties |
-| 10 | Seaweed protein: global benchmarks and Vietnamese species data | A focused review, then extraction tests on *Ulva* and *Kappaphycus* |
-| 11 | Mycelium texture and protein data on Vietnamese substrates | Pilot trials with VNUA mushroom groups on cassava and soybean residue |
+| 10 | Seaweed protein: global benchmarks and Vietnamese species data | A dedicated review, then extraction tests on *Ulva* and *Kappaphycus* |
+| 11 | Mycelium texture and protein data on Vietnamese substrates | Pilot trials with mushroom groups at the Vietnam National University of Agriculture (VNUA) on cassava and soybean residue |
 | 12 | Plant protein isolation and extrusion capex | Equipment quotes from extruder vendors; read the Thai freeze-alignment TEA |
 | 13 | Peer-reviewed TEA for precision-fermented food proteins | GFI APAC cost analyses; capacity reports; company data |
 | 14 | AI in alternative-protein R&D | A dedicated literature review and a call for Vietnamese examples |

@@ -4,9 +4,9 @@ title: "S4. Feedstock data sheets"
 short_title: "Feedstock data sheets"
 section: appendix
 order: 24
-summary: "One data sheet for each Vietnamese raw material and side stream that could feed an alternative-protein process: volume and how we got it, location, users, prices, composition, seasonality, competing uses, what it could become and what is still unknown."
+summary: "One data sheet for each Vietnamese raw material and side stream that a process making protein for people could use: volume and how we got it, location, users, prices, composition, seasonality, competing uses, what it could become and what is still unknown. Feed uses appear as context."
 audiences: [investors, startups, manufacturers, research, policy, international]
-reading_time_min: 50
+reading_time_min: 55
 key_numbers: [kn-cassava-roots-2025, kn-cassava-pulp, kn-tay-ninh-starch, kn-rice-bran, kn-bsg, kn-cassava-price-rise]
 related_data: [feedstocks.csv, feedstock_prices.csv, macro_indicators.csv, feed_imports.csv, facilities.csv, science_facts.csv, publications.csv, provinces.csv, disagreements.csv, open_questions.csv]
 related_pages: [ch04-asset-map, ch05-industrial-base, ch09-economics, ch10-technology-fit, app-s5-facilities, app-s6-feed-market, app-s12-costs, app-s13-science, app-s7-research, app-s10-admin-map, app-r1-open-questions, app-r2-disagreements]
@@ -15,18 +15,22 @@ charts: [chart-feedstock-volumes, chart-feedstock-map]
 
 # S4. Feedstock data sheets
 
-This appendix is the evidence base behind [[ch04-asset-map]]. It holds one data sheet for each raw material or side stream that a protein process in Vietnam could use: crops, crop residues, food-industry side streams, aquatic biomass and industrial fermentation co-products. Most of these streams are carbon sources, not protein sources. The sheets therefore say, for each stream, whether it brings protein, carbon, or both, and what process would be needed to turn it into a protein product.
+This appendix is the evidence base behind [[ch04-asset-map]]. It has one data sheet for each raw material or side stream that a protein process in Vietnam could use: crops, crop residues, food-industry side streams, aquatic biomass and co-products of industrial fermentation. Most of these streams bring carbon, not protein. So each sheet says whether the stream brings protein, carbon or both, and what process would turn it into a protein product.
+
+The study is about protein for people. Many of these streams are sold as animal feed today, and some of the research on them is feed research. The sheets keep that evidence, because feed is what each stream competes with. Where a sheet names a feed product under "What it could become", it records the earlier assessment: feed is now context only, not a target.
 
 ## How to read the data sheets
 
 - **Terms.** DM is dry matter. CP is crude protein (nitrogen x 6.25). "Wet" means as produced, before drying. Mt is million tonnes, kt is thousand tonnes.
+- **Abbreviations.** MSG is monosodium glutamate. DDG and DDGS are distillers' dried grains (without and with solubles), the residue of grain ethanol. SCP is single-cell protein (microbial biomass). COD is chemical oxygen demand, a measure of the organic load in wastewater. HFCS is high-fructose corn syrup. E10 is petrol blended with 10% ethanol. FOB (free on board) and CIF (cost, insurance and freight) are export and delivered price bases. MY is a USDA marketing year. DIAAS and PDCAAS are measures of protein quality.
+- **Organisations.** NSO is the National Statistics Office. MAE is the Ministry of Agriculture and Environment and MOIT the Ministry of Industry and Trade. USDA is the United States Department of Agriculture. VFA is the Vietnam Food Association. QNS is Quang Ngai Sugar. HUST is Hanoi University of Science and Technology. EFSA is the European Food Safety Authority. GFI APAC is the Good Food Institute Asia Pacific. VASEP is the Vietnam Association of Seafood Exporters and Producers.
 - **Measured or derived.** "Measured" means a statistics office, ministry, customs service, company or peer-reviewed study published the number for that stream. "Derived" means we calculated it from a sourced volume and a sourced ratio. Every derived number shows its arithmetic and says "(our calculation)". Derived numbers carry Low confidence unless stated.
 - **Prices.** Prices are in VND per kg unless stated, with the date and the basis (farm-gate, factory-gate, wholesale, retail, FOB). We convert at 26,000 VND per USD.
 - **Provinces.** We use the current (post-1 July 2025) province name first and give the former unit in brackets, for example Tay Ninh (former Long An). See [[app-s10-admin-map]].
 - **Fields.** Every sheet uses the same fields: volume, locations, sites and companies, current use and buyers, prices, composition, seasonality and storage, competing uses, what it could become, evidence gaps and sources. "Not established" means we looked and found no usable figure. It does not mean the stream is small.
 - **Tags.** `{VN-direct|High}` and similar tags follow the evidence rules in [[app-m1-method]].
 
-> **Method note.** The wave 1 web-search budget ran out part of the way through the feedstock work. Cassava, rice, sugar, beer, soy and fuel ethanol were researched on the open web. Seaweed, spirulina, duckweed, mushrooms, cashew, coffee, jackfruit and pulses were covered only through the peer-reviewed literature and are thin. Where a sheet is thin, it says so, and the gap is listed at the end.
+> **Method note.** Our wave 1 web-search budget ran out part of the way through the feedstock work. We researched cassava, rice, sugar, beer, soy and fuel ethanol on the open web. We covered seaweed, spirulina, duckweed, mushrooms, cashew, coffee, jackfruit and pulses only through the peer-reviewed literature, so those sheets are thin. Where a sheet is thin, it says so, and the gap table at the end lists what is missing.
 
 ## Summary table
 
@@ -74,8 +78,8 @@ This appendix is the evidence base behind [[ch04-asset-map]]. It holds one data 
 **What the table says.** Three points stand out.
 
 1. The large streams are carbohydrate: cassava pulp, rice bran and husk, molasses and surplus sugar. Any route from them to protein needs added nitrogen and a microbial step.
-2. The protein-rich side streams (brewer's spent grain, okara, seafood by-products) are small in plant-protein terms or are animal protein. Brewer's spent grain holds at most about 32 to 35 kt of protein a year and okara at most about 30 to 37 kt (see C16 and C19), against 7.2 Mt of soybean meal fed in 2025 [@MAC-04] {VN-direct|Medium}.
-3. The novel biomasses (seaweed, spirulina, duckweed, mushrooms) cannot be sized from public data. Any plan that relies on them starts with primary data collection.
+2. The protein-rich side streams are small, or are animal protein. Brewer's spent grain holds at most about 32 to 35 kt of protein a year and okara (tofu and soymilk residue) at most about 30 to 37 kt (see C16 and C19). Seafood by-products are animal protein. For scale, Vietnam fed 7.2 Mt of soybean meal to animals in 2025 [@MAC-04] {VN-direct|Medium}.
+3. Public data cannot size the novel biomasses (seaweed, spirulina, duckweed, mushrooms). Any plan that relies on them has to start by collecting primary data.
 
 ---
 
@@ -170,7 +174,7 @@ This appendix is the evidence base behind [[ch04-asset-map]]. It holds one data 
 - **Composition.** On a DM basis: starch about 54 to 70%; cellulose 4 to 25%; hemicellulose 4 to 13%; lignin 1 to 7%; CP 1.55 to 2.6%; ash 2 to 12%; energy about 13 MJ/kg [@FS-03; @FS-05; @FS-06; @FS-18; @FS-19; @FS-20] {VN-adjacent|Low}. Fresh pulp is 77 to 85% moisture [@FS-05; @FS-17; @FS-19] {VN-adjacent|Medium}. A Lao sample had 23.6% DM and 2.6% CP in DM [@FS-19] {VN-adjacent|Medium}. A commercial Vietnamese dried-pulp specification gives starch 40 to 50%, moisture 10 to 16% and fibre 14 to 20% [@FS-21] {VN-direct|Low}. The starch in all Vietnamese pulp is about 0.65 to 0.84 Mt a year (our calculation, 1.2 Mt DM x 54 to 70%).
 - **Seasonality and storage.** Pulp is produced with the starch campaign (C2). It ferments on its own in open pits (pH 3.2 to 3.5). In a Lao study, pulp stored for up to 4 years was less than 10% below fresh root in an in vitro test on one sample, and only the top 50 cm spoiled [@FS-18] {VN-adjacent|High}. Pit storage is a cheap way to run a year-round process on a seasonal stream.
 - **Competing uses.** Cattle and pig farms, feed mills and biogas. Rising root prices and the E10 mandate raise the value of every cassava fraction.
-- **What it could become.** A carbon source for fungal or yeast biomass after hydrolysis, with added nitrogen (urea or ammonium salts), for feed protein. Relevant evidence: *Candida utilis* on cassava peel hydrolysate (C4) [@SCI-22]; *K. marxianus* from Thai cassava pulp (C1) [@SCI-44]; oyster-mushroom mycelium in solid-state fermentation of cassava plus soy residue raised protein 1.84-fold (preprint, 2025) [@RD-29] {VN-direct|Low}. Biogas from pulp and wastewater could supply methane for methanotroph protein (C5). Theoretical ceiling: 0.65 to 0.84 Mt of pulp starch (see Composition, our calculation), at 0.44 to 0.52 g of biomass per g of sugar and 47.5 to 56.7% CP (the values for the yeast *C. utilis* in [@SCI-22]), gives about 0.14 to 0.25 Mt of crude protein a year (our calculation; it assumes all pulp is collected and all starch hydrolysed, ignores the mass gain on hydrolysis, and counts nucleic-acid nitrogen as protein). It is a ceiling, not a forecast. For scale, the fishmeal in Vietnamese shrimp feed is about 92 to 184 kt a year ([[app-s6-feed-market]]).
+- **What it could become.** A carbon source for fungal or yeast biomass after hydrolysis, with added nitrogen (urea or ammonium salts). An earlier version assessed this route for feed protein; feed is now context only, and a food product would first need the safety data listed under evidence gaps. Relevant evidence: *Candida utilis* on cassava peel hydrolysate (C4) [@SCI-22]; *K. marxianus* from Thai cassava pulp (C1) [@SCI-44]; oyster-mushroom mycelium in solid-state fermentation of cassava plus soy residue raised protein 1.84-fold (preprint, 2025) [@RD-29] {VN-direct|Low}. Biogas from pulp and wastewater could supply methane for methanotroph protein (C5). Theoretical ceiling: 0.65 to 0.84 Mt of pulp starch (see Composition, our calculation), at 0.44 to 0.52 g of biomass per g of sugar and 47.5 to 56.7% CP (the values for the yeast *C. utilis* in [@SCI-22]), gives about 0.14 to 0.25 Mt of crude protein a year (our calculation; it assumes all pulp is collected and all starch hydrolysed, ignores the mass gain on hydrolysis, and counts nucleic-acid nitrogen as protein). It is a ceiling, not a forecast. For context, the fishmeal in Vietnamese shrimp feed is about 92 to 184 kt a year ([[app-s6-feed-market]]).
 - **Evidence gaps.** Gate prices, and the split between wet sale, drying, biogas and dumping; a Vietnamese material balance (wet and DM per t of roots) across 10 or more factories and seasons; food-grade safety data (cyanide, mycotoxins, nucleic acid) for any fungal product.
 - **Sources.** [@FS-01; @FS-03; @FS-04; @FS-05; @FS-06; @FS-07; @FS-12; @FS-16; @FS-17; @FS-18; @FS-19; @FS-20; @FS-21; @FS-22; @FS-30; @FS-53; @RD-29; @SCI-22; @SCI-44]
 
@@ -334,7 +338,7 @@ This appendix is the evidence base behind [[ch04-asset-map]]. It holds one data 
 - **Composition.** About 20% protein and about 70% fibre, basis not stated [@FS-38] {general|Medium}. We found no source for the moisture; the 80% used above is our assumption. Lao brewers' grains: 24.3% DM and 24.8% CP in DM [@FS-19] {VN-adjacent|Medium}.
 - **Seasonality and storage.** Year-round (not sourced). Fresh spent grain must be used within 2 to 3 days or ensiled with salt [@FS-42] {VN-direct|Low}.
 - **Competing uses.** Livestock farms and insect producers.
-- **What it could become.** Protein and fibre fractions; a solid-state fermentation substrate; insect feed. The volume and the short shelf life suit one plant next to one brewery, not a national play.
+- **What it could become.** Protein and fibre fractions; a solid-state fermentation substrate. Insect feed is a current competing use; insect protein is a benchmark in this study, not a play. The volume and the short shelf life suit one plant next to one brewery, not a national play.
 - **Evidence gaps.** Beer volume for 2024 and 2025 (NSO industrial output); brewery gate prices and tender terms; rice-adjunct share; Entobel's actual feedstock.
 - **Sources.** [@ECO-01; @FS-19; @FS-26; @FS-38; @FS-39; @FS-40; @FS-41; @FS-42; @FS-43; @IND-23; @IND-24; @IND-26]
 
@@ -342,9 +346,9 @@ This appendix is the evidence base behind [[ch04-asset-map]]. It holds one data 
 
 - **Volume.** Not established.
 - **Research in Vietnam.** A University of Danang group removed tannins and debittered spent brewer's yeast with Tween 80 for yeast-extract use [@FS-40] {VN-direct|Medium}. HUST recovered 84.9% of spent-yeast protein and made a 14.9 g-protein energy bar (2024) [@RD-32] {VN-direct|High}. A 2018 study (affiliation not confirmed) reduced nucleic acid in spent-yeast hydrolysate [@RD-31] {VN-direct|Medium}.
-- **Feed evidence.** Spent brewer's yeast replaced up to 60% of fishmeal protein in giant freshwater prawn diets without loss of growth or survival (Vietnam, 2019) [@RD-48] {VN-direct|High}. Brewer's yeast replaced 45% of fishmeal in hybrid "Thai Panga" catfish with better growth (review citation) [@SCI-26] {VN-adjacent|Medium}.
+- **Feed evidence (context).** Spent brewer's yeast replaced up to 60% of fishmeal protein in giant freshwater prawn diets without loss of growth or survival (Vietnam, 2019) [@RD-48] {VN-direct|High}. Brewer's yeast replaced 45% of fishmeal in hybrid "Thai Panga" catfish with better growth (review citation) [@SCI-26] {VN-adjacent|Medium}.
 - **Rules.** *Saccharomyces cerevisiae* is on the aquafeed list as a microorganism, but "yeast protein" is not a listed raw material [@REG2-01] {VN-direct|High}. See [[app-s9-regulation]].
-- **What it could become.** Yeast extract, yeast protein for food, functional feed ingredients (beta-glucan is a listed aquafeed bioactive [@REG2-01]).
+- **What it could become.** Yeast extract and yeast protein for food. Functional feed ingredients (beta-glucan is a listed aquafeed bioactive [@REG2-01]) were play T2 (functional microbial feed ingredients), retired because feed is now context only.
 - **Evidence gaps.** Volume per brewery; current buyers and price.
 - **Sources.** [@FS-40; @RD-31; @RD-32; @RD-48; @REG2-01; @SCI-26]
 
@@ -371,7 +375,7 @@ This appendix is the evidence base behind [[ch04-asset-map]]. It holds one data 
 - **Current use and buyers.** Pig, cattle and fish feed, or discarded. Dried okara sold at 9,000 to 11,000 VND/kg on a 2025 cattle-feed reference list [@FS-30] {VN-direct|Low}.
 - **Composition.** Moisture about 70 to 84%; protein about 15 to 40% of DM [@FS-44] {general|Medium}.
 - **Seasonality and storage.** Year-round; spoils quickly unless dried.
-- **What it could become.** A solid-state fermentation substrate (oyster-mushroom mycelium on cassava plus okara, preprint) [@RD-29]; a protein and fibre ingredient if dried. Soy-processing wastewater is a separate lead: a mixed-culture microbial protein grown on food-processing wastewater replaced up to 90% of fishmeal in whiteleg shrimp while maintaining specific growth rate and survival (preprint) [@SCI-25] {general|Low}.
+- **What it could become.** A solid-state fermentation substrate (oyster-mushroom mycelium on cassava plus okara, preprint) [@RD-29]; a protein and fibre ingredient if dried. Soy-processing wastewater is a separate lead; the evidence we found is a feed trial, kept as context: a mixed-culture microbial protein grown on food-processing wastewater replaced up to 90% of fishmeal in whiteleg shrimp while maintaining specific growth rate and survival (preprint) [@SCI-25] {general|Low}.
 - **Evidence gaps.** Okara volume at Vinasoy and the dairy majors; Vietnamese composition data; drying cost.
 - **Sources.** [@FS-24; @FS-30; @FS-44; @FS-45; @IND-49; @IND-50; @IND-51; @RD-29; @SCI-25]
 
@@ -387,7 +391,7 @@ This appendix is the evidence base behind [[ch04-asset-map]]. It holds one data 
 
 - **Volume.** 380 kt forecast for MY2025/26; only 35 kt is crushed, mostly by household pressing; retail peanut oil sells at USD 4 to 5 per litre [@FS-24] {VN-direct|High}.
 - **Locations.** Not sourced.
-- **What it could become.** Peanut meal is small, because so little is crushed [@FS-24]. Peanut protein has been studied only in small Vietnamese university papers, including a 2018 study that used peanut protein as a sausage binder [@HXE-02] {VN-direct|Medium}.
+- **What it could become.** Peanut meal is small, because so little is crushed [@FS-24]. Peanut protein has been studied only in small Vietnamese university papers, including a 2017 study that used peanut protein as a sausage binder [@HXE-02] {VN-direct|Medium}.
 - **Sources.** [@FS-24; @HXE-02]
 
 ### C22. Coconut (*dừa*)
@@ -444,7 +448,7 @@ This appendix is the evidence base behind [[ch04-asset-map]]. It holds one data 
 
 - **Volume.** Not established. Pangasius pond area and nutrient loads were not found.
 - **Research in Vietnam.** Duckweed removed nutrients from anaerobically treated swine wastewater in lab-scale stabilisation ponds in Vietnam [@RD-45] {VN-direct|Medium}.
-- **What it could become.** A growth medium for duckweed (C30) or microalgae (C29) for feed. For food, the EU record on duckweed shows that mineral control and controlled water are the gate [@SCI-28; @SCI-30] {general|High}.
+- **What it could become.** A growth medium for duckweed (C30) or microalgae (C29). Version 0.7 assessed this as a feed route (play T6, duckweed on aquaculture effluent for feed); the play was retired because feed is now context only. For food, the EU record on duckweed shows that mineral control and controlled water are the gate [@SCI-28; @SCI-30] {general|High}.
 - **Sources.** [@RD-45; @SCI-28; @SCI-30]
 
 ---
@@ -467,7 +471,7 @@ This appendix is the evidence base behind [[ch04-asset-map]]. It holds one data 
 - **Sites and companies.** Daesang Vietnam lists DHA biomass and *Chlorella* among its feed products, but does not say whether they are made in Vietnam [@IND-12] {VN-direct|Low}.
 - **Protein quality.** No DIAAS for microalgal biomass was available as of a 2021 review [@SCI-39] {general|Medium}.
 - **Rules.** Microalgae are not on the aquafeed permitted list [@REG2-01] {VN-direct|High}.
-- **What it could become.** A protein ingredient from salt-tolerant Spirulina grown on seawater or brackish water on the south-central coast; feed microalgae grown on effluent.
+- **What it could become.** A protein ingredient from salt-tolerant Spirulina grown on seawater or brackish water on the south-central coast. Microalgae grown on effluent for feed are context only.
 - **Sources.** [@IND-12; @RD-20; @RD-21; @RD-62; @REG2-01; @SCI-39]
 
 ### C30. Duckweed and Wolffia (*bèo tấm*, *bèo trứng*, *rau bèo*)
@@ -479,7 +483,7 @@ This appendix is the evidence base behind [[ch04-asset-map]]. It holds one data 
 
 > **Correction.** EFSA (2021) could not establish the safety of whole *Wolffia globosa* powder or of mixed water-lentil powder, because of manganese intake. It found a *Lemna* protein concentrate safe (2023) [@SCI-28; @SCI-29; @SCI-30]. The "PDCAAS 0.89" figure in earlier drafts applies only to *W. globosa* powder: it comes from an unpublished applicant rat study reported by EFSA (2021) [@SCI-28] and repeated in a 2026 review [@SCI-31]. Do not apply it to duckweed generally. The same review says *Wolffia* powder was later authorised in the EU (Commission Implementing Regulation (EU) 2022/2223) and that the Thai FDA treats it as traditional food [@SCI-31]; we did not read the regulation itself.
 
-- **What it could become.** Feed protein grown on aquaculture or livestock effluent; a food protein concentrate grown in controlled water with mineral limits. *Wolffia* is sold as food in Thailand and elsewhere [@FS-54].
+- **What it could become.** A food protein concentrate grown in controlled water with mineral limits. *Wolffia* is sold as food in Thailand and elsewhere [@FS-54]. Feed protein grown on aquaculture or livestock effluent is context only: the version 0.7 play on aquaculture effluent (T6) is retired.
 - **Sources.** [@FS-54; @RD-01; @RD-44; @RD-71; @SCI-28; @SCI-29; @SCI-30; @SCI-31; @SCI-34; @SCI-35; @SCI-36; @SCI-37; @SCI-48]
 
 ### C31. Mushrooms and spent mushroom substrate (*bã nấm*, *phôi nấm*)
@@ -500,7 +504,7 @@ This appendix is the evidence base behind [[ch04-asset-map]]. It holds one data 
 - **Volume.** Stillage and distillers' grains volumes are not published.
 - **Composition.** Rice-based dried distillers' grains from Vietnamese ethanol production hold 50 to 80% protein on a DM basis; cassava DDG holds only 13 to 16% (preprint, 2024) [@RD-22] {VN-direct|Medium}. Alkaline extraction recovered 90% of rice-DDG protein, and enzyme-extracted protein was 77.1% digestible in vitro (HUST, 2025) [@RD-23] {VN-direct|High}.
 - **Reference: imported DDGS.** Vietnam imported 1.55 Mt of DDGS in 2025 [@FS-23] {VN-direct|High}, mainly from the United States.
-- **What it could become.** Feed protein (DDGS-like, from the corn switch); food protein from rice DDG, where extraction is published but texturisation is not.
+- **What it could become.** Food protein from rice DDG, where extraction is published but texturisation is not. A DDGS-like feed co-product from the corn switch would be context, not a target.
 - **Evidence gaps.** Stillage volume per plant; rice-liquor DDG volume; whether Dung Quat will dry its stillage.
 - **Sources.** [@FS-09; @FS-23; @IND-18; @IND-19; @IND-20; @RD-22; @RD-23]
 
@@ -510,11 +514,13 @@ This appendix is the evidence base behind [[ch04-asset-map]]. It holds one data 
 - **Vedan (Phuoc Thai, Dong Nai).** Vedan sells condensed molasses fermentation solubles (CMS), polyglutamic acid (PGA) broth, fertiliser, and CMS liquid and granule feed products [@IND-01] {VN-direct|Medium}. Its "fertiliser and feed" segment earned USD 27.1 M in 2025, 7.2% of group revenue [@VCO-01], and 6.5% of revenue in H1 2026 [@VCO-02] {VN-direct|High}.
 - **Daesang (Phu Tho).** Lists L-lysine, L-arginine, L-histidine, DHA biomass and *Chlorella* among its feed products; whether they are made in Vietnam is not stated [@IND-12] {VN-direct|Low}.
 - **The import counterfactual.** A Chinese single-cell biomass left over from glutamic acid fermentation, with at least 70% CP, more than 85% digestible protein and no more than 7% ash, is imported and sold in Vietnam as "Mycoprotein" by CK Vietnam / V-Group [@FM-12; @ECO-69] {VN-direct|Medium}. It shows that an MSG plant can yield a feed protein. We did not find whether Vedan or Ajinomoto produce or sell a similar biomass.
-- **What it could become.** A domestic single-cell protein side stream, if the incumbents separate and dry their bacterial biomass; see [[app-s6-feed-market]] for the prices it would face.
+- **What it could become.** A domestic single-cell protein side stream, if the incumbents separate and dry their bacterial biomass. Version 0.7 assessed it as feed; [[app-s6-feed-market]] keeps that record and the feed prices it would face. Feed is now context only.
 - **Evidence gaps.** Product sheets and prices for Vedan CMS and pellets and for Ajinomoto's feed ingredients; whether bacterial cell mass is recovered.
 - **Sources.** [@ECO-69; @FM-12; @IND-01; @IND-08; @IND-12; @VCO-01; @VCO-02]
 
 ### C34. Reference streams: maize and imported feed ingredients
+
+These streams are context. They are the feed behind the meat, eggs and farmed fish that people in Vietnam eat, and most of it is imported.
 
 - **Maize.** 4.4 Mt in 2025 (NSO) [@FS-25] or 4.1 Mt on 810,000 ha in MY2025/26 (USDA), falling to 4.0 Mt in MY2026/27 [@FS-23] {VN-direct|Medium}. About 1.7 Mt of local corn went into compound feed in 2025 [@FS-23] {VN-direct|High}. Ground corn sold at 6,000 to 8,000 VND/kg on a 2025 cattle-feed reference list [@FS-30] {VN-direct|Low}.
 - **The feed-ingredient balance.** USDA's 2025 feed-ingredient table shows 23.57 Mt imported out of 28.62 Mt, about 82%. Domestic supply was 5.05 Mt: rice bran and broken rice 2.8 Mt, corn 1.7 Mt and cassava 0.55 Mt. Imports included 9.2 Mt of corn, 7.2 Mt of soybean meal (counting local crush of imported beans), 1.55 Mt of DDGS and 2.58 Mt of feed wheat [@FS-23] {VN-direct|High}. See [[app-s6-feed-market]].
@@ -535,10 +541,10 @@ This appendix is the evidence base behind [[ch04-asset-map]]. It holds one data 
 | 7 | Seafood by-product volumes and fishmeal plants | Sets the domestic animal-protein competitor | VASEP; Vinh Hoan and other pangasius exporters' annual reports; MAE fisheries department |
 | 8 | Seaweed, spirulina and mushroom output | Cannot size novel biomass today | MAE fisheries and crop production departments; the seaweed development scheme text on thuvienphapluat.vn; Vinh Hao Mineral Water Company |
 | 9 | Duckweed and Wolffia: productivity and minerals on Mekong water | Food route depends on manganese control | Can Tho University and Nong Lam University; field plots with mineral profiling |
-| 10 | Coffee and cashew output | Only 2016-basis coffee pulp figure | USDA Coffee Annual; VICOFA; VINACAS |
+| 10 | Coffee and cashew output | Only 2016-basis coffee pulp figure | USDA Coffee Annual; VICOFA (the coffee and cocoa association); VINACAS (the cashew association) |
 | 11 | Soybean crushers and okara volumes | Okara is the only local plant-protein residue of note | Vietnam Feed Association; Vinasoy; the QNS annual report |
 | 12 | Biogas, natural gas and CO2 sources for gas fermentation | Methane and CO2 routes are unmapped | PV Gas; BSR (Dung Quat CO2 capture); starch-factory biogas surveys |
-| 13 | Ethanol stillage and DDG volumes; Dung Quat after the corn switch | A possible domestic feed-protein co-product | Ask BSR and the Dong Nai and Da Nang plants directly |
+| 13 | Ethanol stillage and DDG volumes; Dung Quat after the corn switch | Rice DDG is a possible food protein; a corn feed co-product is context | Ask BSR and the Dong Nai and Da Nang plants directly |
 | 14 | MSG plant biomass co-products | A possible domestic SCP side stream | Vedan and Ajinomoto product sheets and a direct inquiry |
 | 15 | A national by-product return | Nobody publishes starch, pulp, spent grain, okara, molasses or seafood by-product volumes | A one-page annual return for starch factories, breweries, sugar mills and seafood processors through MAE or provincial Departments of Agriculture and Environment |
 

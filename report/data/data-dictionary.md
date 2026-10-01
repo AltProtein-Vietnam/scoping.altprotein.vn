@@ -14,7 +14,7 @@ Built on 23 September 2026 by the data consolidation step from the wave 1 and wa
 |---|---|---|
 | [glossary.csv](#glossarycsv) | 236 | Bilingual glossary (English and Vietnamese) with definitions in both languages (feeds Appendix R3). |
 | [key-numbers.json](#key-numbersjson) | 143 | Key-number stat tiles embedded in pages with `{{kn:id}}`. |
-| [plays.csv](#playscsv) | 16 | Ten plays and six public goods (chapter 26), with scores on seven criteria. |
+| [plays.csv](#playscsv) | 16 | Plays and public goods (chapter 26), with scores on seven criteria: seven active plays and four active public goods from v0.8; three feed plays and two feed public goods kept as the record. |
 | [play_criteria.csv](#play_criteriacsv) | 7 | Definitions of the seven scoring criteria for plays. |
 | [play_weight_presets.csv](#play_weight_presetscsv) | 7 | Weight presets per audience for re-ranking plays. |
 | [approvals.csv](#approvalscsv) | 33 | Novel food approvals in the region and reference markets (Singapore, US, Australia and New Zealand, Thailand, Korea, China and others), one row per approval. |
@@ -26,7 +26,7 @@ Built on 23 September 2026 by the data consolidation step from the wave 1 and wa
 | [cost_inputs.csv](#cost_inputscsv) | 61 | Vietnamese production cost inputs (electricity, water, heat, labour, land, taxes, logistics) used for the economics chapter. |
 | [countries.csv](#countriescsv) | 11 | Country comparison of novel food frameworks, approvals, public funding and open facilities (regional position). |
 | [deals.csv](#dealscsv) | 19 | Deal log: investments and acquisitions relevant to alternative protein and agrifood tech in or linked to Vietnam. |
-| [disagreements.csv](#disagreementscsv) | 352 | Register of conflicting numbers and claims found by the research agents, with the position taken (feeds Appendix R2). |
+| [disagreements.csv](#disagreementscsv) | 373 | Register of conflicting numbers and claims found by the research agents, with the position taken (feeds Appendix R2). |
 | [engineering_suppliers.csv](#engineering_supplierscsv) | 9 | Engineering contractors and equipment vendors with a Vietnam presence relevant to fermentation and food processing. |
 | [facilities.csv](#facilitiescsv) | 82 | Industrial facilities in Vietnam that alternative-protein ventures could use or learn from (fermentation, starch, breweries, feed and aquafeed mills, soy, biologics, parks, labs). Wave 2 changes are logged in change_log. |
 | [facilities_regional.csv](#facilities_regionalcsv) | 16 | Pilot and contract manufacturing facilities in the region that are open (or not) to third parties. |
@@ -44,7 +44,7 @@ Built on 23 September 2026 by the data consolidation step from the wave 1 and wa
 | [macro_indicators.csv](#macro_indicatorscsv) | 87 | Macro indicators for the protein economy: production, consumption, feed output, trade, environment and context. |
 | [milestones.csv](#milestonescsv) | 30 | Dated milestones 2025 to 2035 (laws, strategies, targets, reforms) in Vietnam and reference jurisdictions. |
 | [ministries.csv](#ministriescsv) | 6 | Vietnamese ministries after the 2025 restructuring, their predecessors and roles relevant to alternative protein. |
-| [open_questions.csv](#open_questionscsv) | 376 | Register of open questions from all research notes, with the cheapest way to close each; near-duplicates merged and both origins cited. |
+| [open_questions.csv](#open_questionscsv) | 473 | Register of open questions from all research notes, with the cheapest way to close each; near-duplicates merged and both origins cited. |
 | [outlook.csv](#outlookcsv) | 75 | Outlook numbers for 2030 and 2035 (population, demand, feed, prices, targets) with source and type. |
 | [pilot_labs.csv](#pilot_labscsv) | 32 | Pilot plants, testing laboratories, feed trial facilities, hi-tech parks and university facilities that founders can use. |
 | [policy_options.csv](#policy_optionscsv) | 33 | Policy options: wave 1 list plus the wave 2 ranked list, with origin and cross-links between related options. |
@@ -62,7 +62,7 @@ Built on 23 September 2026 by the data consolidation step from the wave 1 and wa
 | [science_facts.csv](#science_factscsv) | 43 | State-of-the-science facts by technology family (titres, costs, safety, nutrition, productivity) with DOI and full-text status. |
 | [sources.csv](#sourcescsv) | 2,384 | Master source list. Every citation ID used in the report resolves to a row here. |
 | [talent.csv](#talentcsv) | 11 | University admission quotas for food technology, biotechnology and aquaculture programmes (talent pipeline). |
-| [tariffs.csv](#tariffscsv) | 11 | Vietnam import tariffs (MFN, ATIGA, ACFTA) for feed and food protein inputs by HS code. |
+| [tariffs.csv](#tariffscsv) | 18 | Vietnam import tariffs (MFN, ATIGA, ACFTA) for feed and food protein inputs, and (from v0.8) meat, live cattle and milk powder, by HS code. |
 | [tea_benchmarks.csv](#tea_benchmarkscsv) | 25 | Techno-economic benchmarks from the literature by process (production cost, capex, scale) with cost-basis year. |
 | [timeline.csv](#timelinecsv) | 48 | Timeline of events in Vietnamese alternative protein (companies, research, policy, investment). |
 | [trade_flows.csv](#trade_flowscsv) | 12 | Trade flows Vietnam depends on or supplies (protein ingredients, cassava, starch) with partners. |
@@ -275,7 +275,7 @@ Rows: 19. Columns: 13.
 
 Register of conflicting numbers and claims found by the research agents, with the position taken (feeds Appendix R2).
 
-Rows: 352. Columns: 7.
+Rows: 373. Columns: 7.
 
 | Column | Meaning | Example |
 |---|---|---|
@@ -672,7 +672,7 @@ Rows: 6. Columns: 12.
 
 Register of open questions from all research notes, with the cheapest way to close each; near-duplicates merged and both origins cited.
 
-Rows: 376. Columns: 11.
+Rows: 473. Columns: 11.
 
 | Column | Meaning | Example |
 |---|---|---|
@@ -739,14 +739,15 @@ Rows: 32. Columns: 18.
 
 Policy options: wave 1 list plus the wave 2 ranked list, with origin and cross-links between related options.
 
-Rows: 33. Columns: 18.
+Rows: 33. Columns: 20.
 
 | Column | Meaning | Example |
 |---|---|---|
 | `record_id` | Stable short row ID assigned by the consolidation step (prefix plus number). | PO-001 |
 | `origin` | Which research output(s) the row comes from. | wave 1 REGULATION |
-| `report_rank` | Rank in chapter 27 (1 to 24; blank if superseded). |  |
-| `report_tier` | Tier in chapter 27: 1, 2, 3 or `superseded`. | superseded |
+| `report_rank` | Rank in chapter 27 (1 to 19 from v0.8; blank if superseded or retired). |  |
+| `report_tier` | Tier in chapter 27: 1, 2, 3, `superseded`, or `retired v0.8 (feed)`. | superseded |
+| `report_rank_v0_7` | Rank in chapter 27 in v0.7 (1 to 24), kept as the record. |  |
 | `rank_wave2` | Rank in the wave 2 ranked list (blank for wave 1 rows). | 1 |
 | `option` | Policy option. | Insert a defined 'new food / new food ingredient' category with a prop... |
 | `owner_agency` | Owner agency. | MOH/VFA; National Assembly Committee for Science, Technology and Envir... |
@@ -761,6 +762,7 @@ Rows: 33. Columns: 18.
 | `evidence_label` | VN-direct (evidence about Vietnam), VN-adjacent (comparable country, transfer assumed) or general. | VN-direct |
 | `confidence` | High (primary source read), Medium (reputable secondary or primary read in part) or Low (single claim, press, company marketing). | Medium |
 | `notes` | Free-text notes from the research agent and, where stated, the consolidation step. | One-off window; must be WTO-notified; risk of creating a slow gate, so... |
+| `status_v0_8` | `active`, `superseded`, or `retired in v0.8: feed output, outside the human-food focus (kept as the v0.7 record)` (PO-007, PO-017, PO-018, PO-021, PO-029). | active |
 
 ### provinces.csv
 
@@ -1093,9 +1095,9 @@ Rows: 11. Columns: 11.
 
 ### tariffs.csv
 
-Vietnam import tariffs (MFN, ATIGA, ACFTA) for feed and food protein inputs by HS code.
+Vietnam import tariffs (MFN, ATIGA, ACFTA) for feed and food protein inputs, and (from v0.8) meat, live cattle and milk powder, by HS code. Rows TAR-012 to TAR-018 were added in v0.8 from wave 11 (imported meat line); their ATIGA and ACFTA rates were not verified.
 
-Rows: 11. Columns: 11.
+Rows: 18. Columns: 11.
 
 | Column | Meaning | Example |
 |---|---|---|
@@ -1199,7 +1201,7 @@ A JSON array (86 entries in v0.2). Fields: `id`, `label`, `label_vi`, `value` (d
 | Column | Meaning |
 |---|---|
 | play_id | T1 to T10 (plays) or P1 to P6 (public goods) |
-| type | `play` or `public good` |
+| type | `play` or `public good`; from v0.8 also `retired play` or `retired public good` (feed outputs, kept as the v0.7 record; the interactive ranking uses `type == play` only) |
 | name, family, segment | Short name, technology family, segment |
 | what, why_vietnam, must_be_true, kill_tests | Play card fields (chapter 26) |
 | first_customers, partners | Named first buyers and partners (public goods: related policy options) |
@@ -1208,6 +1210,7 @@ A JSON array (86 entries in v0.2). Fields: `id`, `label`, `label_vi`, `value` (d
 | lead_audiences, related_pages | Audiences and page ids |
 | source_ids, evidence_label, confidence | Evidence behind the play card |
 | market_pull, vietnam_advantage, technical_readiness, route_clarity, capital_efficiency, defensibility, public_value | Scores 1 to 5 (plays only); see play_criteria.csv |
+| status_v0_8 | `active`, or `retired in v0.8: feed output, outside the human-food focus (kept as the v0.7 record)` (T2, T3, T6, P2, P3) |
 
 Weighted score = sum(score x weight) / 100, using a row of play_weight_presets.csv.
 
@@ -1252,14 +1255,14 @@ Built on 2026-09-24 by `research/wave3/consolidate_wave3.py` from the futures-ro
 | [ai_biodesign_evidence.csv](#ai_biodesign_evidencecsv) | 21 | Evidence register for AI and automation in protein, strain and media design: measured results separated from claims. |
 | [approvals_trend.csv](#approvals_trendcsv) | 44 | Approvals and regulatory events for novel proteins, 2024 to 2026, extending v0.1 approvals.csv. |
 | [frontier_bio_tech.csv](#frontier_bio_techcsv) | 14 | Bio-design frontier (AI bio-design, precision fermentation, cultivated meat, molecular farming, cell-free synthesis, biomass fermentation): readiness in 2026, trajectories to 2050, Vietnam fit and when a window opens. |
-| [climate_impacts_2050.csv](#climate_impacts_2050csv) | 34 | Climate and environment projections that affect Vietnam's protein supply (warming, sea level, subsidence, salinity, heat stress, crop and fishery impacts) by scenario and horizon. |
+| [climate_impacts_2050.csv](#climate_impacts_2050csv) | 38 | Climate and environment projections that affect Vietnam's protein supply (warming, sea level, subsidence, salinity, heat stress, crop and fishery impacts) by scenario and horizon. |
 | [emissions_targets.csv](#emissions_targetscsv) | 19 | Vietnam's greenhouse gas and methane targets for the economy, agriculture, livestock and energy, with legal status. |
 | [balance_assumptions.csv](#balance_assumptionscsv) | 238 | Inputs to the QNT protein and feed balance model (tools/balance_model.py): every parameter by scenario and year, including the sensitivity cases. |
 | [balance_outputs.csv](#balance_outputscsv) | 1150 | Results of the QNT balance model for 2025 to 2050 by scenario: demand (macro input), production, feed, soybean meal, maize, fishmeal, land abroad and the alternative-protein volumes in S-ALT. Our estimates, not forecasts. Regenerate with tools/balance_model.py. |
 | [balance_published_projections.csv](#balance_published_projectionscsv) | 86 | Published projections and official targets used to check the QNT balance model (OECD-FAO, USDA, national strategies). |
 | [balance_sensitivity.csv](#balance_sensitivitycsv) | 13 | Tornado table from the QNT model: change in 2050 soybean-meal and maize import need when one assumption (or a paired set) is varied, all else at S-BASE, plus an S-ALT comparison row. Regenerate with tools/balance_model.py. |
 | [macro_drivers_2050.csv](#macro_drivers_2050csv) | 92 | Macro drivers to 2050: demography, income, trade, energy and workforce indicators, with the source model or scenario. |
-| [shock_register.csv](#shock_registercsv) | 17 | Register of past shocks to protein supply (animal disease, pandemics, trade and conflict, climate) with magnitude and how they reached supply. |
+| [shock_register.csv](#shock_registercsv) | 20 | Register of past shocks to protein supply (animal disease, pandemics, trade and conflict, climate) with magnitude and how they reached supply. |
 | [bioeconomy_strategies.csv](#bioeconomy_strategiescsv) | 24 | National bioeconomy and biotechnology strategies with 2030 to 2050 horizons and their targets relevant to protein or biomanufacturing. |
 | [carbon_cost_per_protein.csv](#carbon_cost_per_proteincsv) | 14 | Carbon cost that a carbon price of USD 25, 50 or 100 per t CO2e would add per tonne of protein input (soybean meal, fishmeal, cassava products and microbial protein). |
 | [carbon_price_paths.csv](#carbon_price_pathscsv) | 19 | Carbon prices and price paths (actual, target, projection) in Vietnam, the region and reference markets. |
@@ -1279,11 +1282,11 @@ Built on 2026-09-24 by `research/wave3/consolidate_wave3.py` from the futures-ro
 | [hub_layers.csv](#hub_layerscsv) | 92 | Spatial layers for a 2040 protein bioeconomy (energy, hydrogen, CO2, bio zones, carbohydrate, residues, buyers, research) by current and former province. |
 | [foresight_methods.csv](#foresight_methodscsv) | 18 | Food-system foresight exercises elsewhere and the methods they used (scenarios, backcasting, signposts), with lessons for a Vietnam 2050 vision. |
 | [protein_strategies_benchmark.csv](#protein_strategies_benchmarkcsv) | 23 | National protein-transition and feed-protein strategies elsewhere, with targets, funding, results so far and lessons, as benchmarks for a Vietnam 2050 vision. |
-| [scenarios_2050.csv](#scenarios_2050csv) | 4 | The four 2050 scenarios of chapter 23 (two axes: import stress and Asia's fermentation market), with picture, indicative soybean-meal and microbial-protein ranges, hubs, link to the 2035 scenarios and signposts (our estimate). (Synthesis file, built by the lead author.) |
+| [scenarios_2050.csv](#scenarios_2050csv) | 4 | The four 2050 scenarios of chapter 23 (two axes: stress on imported protein and Asia's fermentation market), with picture, indicative soybean-meal and microbial-protein ranges, hubs, link to the 2035 scenarios and signposts (our estimate). (Synthesis file, built by the lead author.) |
 | [signposts_2050.csv](#signposts_2050csv) | 16 | The 16 signposts for the 2050 scenario axes and wildcards, with thresholds, where to watch, status in September 2026 and the scenarios each favours. (Synthesis file, built by the lead author.) |
-| [play_robustness.csv](#play_robustnesscsv) | 16 | Stress test of the ten plays and six public goods of chapter 26 against the four 2050 scenarios: scores 0 to 2 per scenario, minimum, sum, class and reason (our judgement). (Synthesis file, built by the lead author.) |
+| [play_robustness.csv](#play_robustnesscsv) | 16 | Stress test of the plays and public goods of chapter 26 (seven active plays and four active public goods from v0.8) against the four 2050 scenarios: scores 0 to 2 per scenario, minimum, sum, class and reason (our judgement). (Synthesis file, built by the lead author.) |
 | [robust_moves.csv](#robust_movescsv) | 21 | The 21 candidate moves of chapter 28 (no-regret, option, bet, hedge) with what each involves, lead actors, start date, cost scale, scenarios where it pays off, trigger and evidence. (Synthesis file, built by the lead author.) |
-| [vision_milestones.csv](#vision_milestonescsv) | 22 | The 22 normative milestones of the Vietnam 2050 vision (chapter 24), by five-year plan period and pillar, with indicator, value or range, trend comparison and the benchmark that makes each plausible. A vision, not a forecast. (Synthesis file, built by the lead author.) |
+| [vision_milestones.csv](#vision_milestonescsv) | 25 | The 25 normative milestones of the Vietnam 2050 vision for the protein people eat (chapter 24; rebuilt in v0.8), by five-year plan period and pillar, with indicator, value or range, trend comparison and the benchmark that makes each plausible. A vision, not a forecast. (Synthesis file, built by the lead author.) |
 | [frontier_windows.csv](#frontier_windowscsv) | 11 | When frontier windows could open for Vietnam, by route: start and end years, status in 2026, condition to open, related plays (our estimate; chapter 21). (Synthesis file, built by the lead author.) |
 
 ### co2_point_sources_vn.csv
@@ -1430,7 +1433,7 @@ Rows: 14. Columns: 20.
 
 Climate and environment projections that affect Vietnam's protein supply (warming, sea level, subsidence, salinity, heat stress, crop and fishery impacts) by scenario and horizon. Stream: CLM (`working-papers/wave3/climate/climate_impacts_2050.csv`).
 
-Rows: 34. Columns: 13.
+Rows: 38. Columns: 13. CI-35 to CI-38 added in v0.8 (wave 11).
 
 | Column | Meaning | Example |
 |---|---|---|
@@ -1584,7 +1587,7 @@ Rows: 92. Columns: 12.
 
 Register of past shocks to protein supply (animal disease, pandemics, trade and conflict, climate) with magnitude and how they reached supply. Stream: GEO (`working-papers/wave3/geo_macro/shock_register.csv`).
 
-Rows: 17. Columns: 11.
+Rows: 20. Columns: 11. SHK-018 to SHK-020 added in v0.8 (wave 11); `shock_type` now also includes "consumer price".
 
 | Column | Meaning | Example |
 |---|---|---|
@@ -2004,7 +2007,7 @@ Rows: 23. Columns: 15.
 
 ### scenarios_2050.csv
 
-The four 2050 scenarios of chapter 23 (two axes: import stress and Asia's fermentation market), with picture, indicative soybean-meal and microbial-protein ranges, hubs, link to the 2035 scenarios and signposts (our estimate).
+The four 2050 scenarios of chapter 23 (two axes: stress on imported protein and Asia's fermentation market), with picture, indicative soybean-meal and microbial-protein ranges, hubs, link to the 2035 scenarios and signposts (our estimate).
 
 Rows: 4. Columns: 19.
 
@@ -2039,7 +2042,7 @@ Rows: 16. Columns: 10.
 | Column | Meaning | Example |
 |---|---|---|
 | `signpost_id` | SP-01 to SP-16. | SP-01 |
-| `axis` | import stress, fermentation market or wildcard. | import stress |
+| `axis` | stress on imported protein (named import stress before v0.8), fermentation market or wildcard. | stress on imported protein |
 | `points_towards` | The end of the axis the signpost points to. | chronic |
 | `signpost` | What to watch. | Fishmeal price |
 | `threshold` | The level or event that counts. | Above USD 2,500 per t for 12 months, or fishmeal-to-soybean-meal pr... |
@@ -2051,9 +2054,9 @@ Rows: 16. Columns: 10.
 
 ### play_robustness.csv
 
-Stress test of the ten plays and six public goods of chapter 26 against the four 2050 scenarios: scores 0 to 2 per scenario, minimum, sum, class and reason (our judgement).
+Stress test of the plays and public goods of chapter 26 (seven active plays and four active public goods from v0.8) against the four 2050 scenarios: scores 0 to 2 per scenario, minimum, sum, class and reason (our judgement).
 
-Rows: 16. Columns: 12.
+Rows: 16. Columns: 13.
 
 | Column | Meaning | Example |
 |---|---|---|
@@ -2069,12 +2072,13 @@ Rows: 16. Columns: 12.
 | `why` | Reason for the scores. | Food-rule light and buyer-led; in B and D it must win on freshness ... |
 | `foresight_type` | Always estimate. | estimate |
 | `confidence` | Confidence. | Low |
+| `status_v0_8` | `active`, or `retired in v0.8: feed output, outside the human-food focus (kept as the v0.7 record)`. From version 0.8 the study concentrates on protein for people; retired rows stay as the record. | active |
 
 ### robust_moves.csv
 
 The 21 candidate moves of chapter 28 (no-regret, option, bet, hedge) with what each involves, lead actors, start date, cost scale, scenarios where it pays off, trigger and evidence.
 
-Rows: 21. Columns: 18.
+Rows: 21. Columns: 19.
 
 | Column | Meaning | Example |
 |---|---|---|
@@ -2096,23 +2100,26 @@ Rows: 21. Columns: 18.
 | `score_B` | Score in scenario B. | 2 |
 | `score_C` | Score in scenario C. | 2 |
 | `score_D` | Score in scenario D. | 2 |
+| `status_v0_8` | `active`, `active (reworded in v0.8 for the human-food focus)`, or `retired in v0.8: feed output, outside the human-food focus (kept as the v0.7 record)` (RM-02, RM-07, RM-16, RM-17, RM-20). | active |
 
 ### vision_milestones.csv
 
-The 22 normative milestones of the Vietnam 2050 vision (chapter 24), by five-year plan period and pillar, with indicator, value or range, trend comparison and the benchmark that makes each plausible. A vision, not a forecast.
+The 25 normative milestones of the Vietnam 2050 vision for the protein people eat (chapter 24), by five-year plan period and pillar, with indicator, value or range, trend comparison and the benchmark that makes each plausible. A vision, not a forecast.
 
-Rows: 22. Columns: 12.
+Rows: 25. Columns: 12.
+
+Version 0.8 rebuilt the file around protein for people: the IDs VM-01 to VM-22 now name different milestones from those of v0.7 (the v0.7 file is in the git history).
 
 | Column | Meaning | Example |
 |---|---|---|
-| `milestone_id` | VM-01 to VM-22. | VM-01 |
+| `milestone_id` | VM-01 to VM-25. | VM-01 |
 | `period` | Year or period. | 2026 to 2028 |
 | `plan_cycle` | Five-year plan period. | 2026 to 2030 plan |
-| `pillar` | Measure, Rules, Places, Money, Economise, Diversify, Specialise, Decarbonise or Review. | Measure |
+| `pillar` | Measure, Make, Diversify, Specialise or Secure. | Measure |
 | `milestone` | Normative milestone. | First national protein and feed balance published, then yearly |
 | `indicator` | What is measured. | Balance published |
 | `value_or_range` | Target value or range. | Yes, by 2028 |
-| `trend_comparison` | Value on trend, for comparison. | None exists |
+| `trend_comparison` | Value on trend or on the drift path of the demand model (D-DRIFT), for comparison. | None exists |
 | `benchmark` | Analogue or benchmark that makes it plausible. | EU balance-sheet guidance; Japan annual KPI checks |
 | `source_ids` | Supporting source IDs. | VIS-15; VIS-13 |
 | `foresight_type` | Always vision. | vision |
@@ -3053,9 +3060,9 @@ Rows: 10. Columns: 11.
 
 ### target_product_profiles.csv
 
-Ten target product profiles: first buyers, channel, price and protein targets, format, label, what to avoid and the cheapest first test (chapter 25).
+Eleven target product profiles (TPP-11 retired in v0.8): first buyers, channel, price and protein targets, format, label, what to avoid and the cheapest first test (chapter 25).
 
-Rows: 11. Columns: 16.
+Rows: 11. Columns: 17.
 
 | Column | Meaning | Example |
 |---|---|---|
@@ -3075,12 +3082,13 @@ Rows: 11. Columns: 16.
 | `source_ids` | Semicolon-separated source IDs. | BUY-02; BUY-07; FORM-01 |
 | `evidence_label` | VN-direct, VN-adjacent or general. | VN-direct |
 | `confidence` | High, Medium or Low. | Medium |
+| `status_v0_8` | `active`, or `retired in v0.8: feed output, outside the human-food focus (kept as the v0.7 record)`. From version 0.8 the study concentrates on protein for people; retired rows stay as the record. | active |
 
 ### play_demand_check.csv
 
 The ten plays of chapter 26 checked against demand evidence: v0.2 market pull, demand view, first buyers and demand-side kill tests.
 
-Rows: 10. Columns: 11.
+Rows: 10. Columns: 12.
 
 | Column | Meaning | Example |
 |---|---|---|
@@ -3095,12 +3103,13 @@ Rows: 10. Columns: 11.
 | `demand_kill_test` | Demand kill test. | Domestic ex-factory cost stays above Chinese landed cost; three chay makers ... |
 | `source_ids` | Semicolon-separated source IDs. | BUY-02; FORM-01; CHN-41 |
 | `note_v0_4` | Changes proposed by the actor check (v0.4), recorded as text; `plays.csv` keeps the v0.2 scores. | Proposed supply-score changes, recorded as text only ... |
+| `status_v0_8` | `active`, or `retired in v0.8: feed output, outside the human-food focus (kept as the v0.7 record)`. From version 0.8 the study concentrates on protein for people; retired rows stay as the record. | active |
 
 ### demand_moves.csv
 
 Twenty-one measurement, public-good and policy moves (nineteen from v0.3, two added in v0.4) on the demand side, with who, indicative cost and timing (chapter 25).
 
-Rows: 21. Columns: 9.
+Rows: 21. Columns: 10.
 
 | Column | Meaning | Example |
 |---|---|---|
@@ -3113,6 +3122,7 @@ Rows: 21. Columns: 9.
 | `timing` | Timing. | 2027 |
 | `source_ids` | Semicolon-separated source IDs. | CHY-06 |
 | `who_would_pay` | Named funder or budget whose stated scope fits the move, or why none was found (added in v0.4). | No philanthropic payer found: Nova Vista excludes culture change ... |
+| `status_v0_8` | `active`, or `retired in v0.8: feed output, outside the human-food focus (kept as the v0.7 record)` (DMV-12). | active |
 
 ## Files added in the actor check and expansion waves (v0.4)
 
@@ -4555,3 +4565,236 @@ Rows: 9. Columns: 10.
 | `evidence_label` | Evidence label. | general |
 | `confidence` | Confidence. | Medium |
 | `notes` | Notes and caveats. | Total is our sum of pillars. Plant-based from GFI's June 2025 report (latest ope ... |
+
+## Files added in the food-security round (v0.8)
+
+Built on 1 October 2026 from the wave 11 research lines (`working-papers/wave11/`). Version 0.8 also added rows to `sources.csv` (wave 11 prefixes), `open_questions.csv` (from OQ-447), `disagreements.csv` (from DG-353) and `key-numbers.json`, and status columns to the play, move and policy files.
+
+| File | Rows | Purpose |
+|---|---|---|
+| protein_supply_by_source.csv | 100 | Protein supply per person per day by food group, Viet Nam, 2010, 2015, 2020 and 2023 (FAO food balance sheets), with shares of the total. Used in ch01, ch11, ch22. |
+| self_sufficiency_by_food.csv | 76 | Production, imports, exports, domestic supply, food and feed use, import dependency and self-sufficiency ratios by food, Viet Nam, 2010 to 2023 (FAO food balance sheets; ratios our calculation on FAO definitions). Used in ch01, ch11, ch22. |
+| animal_protein_import_reliance.csv | 11 | Animal protein per person per day by food, with the part imported directly and the part from domestic animals and fish raised on imported compound feed (low and high cases; our calculation). Used in ch01, ch22. |
+| meat_protein_on_imports_projection.csv | 10 | Meat protein people eat to 2050 on the balance model scenarios, and the share resting on imports directly or through feed (our estimate; scenarios, not forecasts). Used in ch22. |
+| disease_shocks.csv | 17 | Animal-disease and zoonotic events that hit the protein people eat in Viet Nam (African swine fever, avian influenza, Streptococcus suis and others): losses, price effects and human cases. Used in ch01, ch20, F2. |
+| security_exposures.csv | 15 | Food-security exposures of the protein people eat, the evidence for each, and whether alternative protein for food would reduce it, given where its inputs come from. Used in ch01, ch20, ch23. |
+| route_input_origin.csv | 12 | Alternative-protein routes by where their protein, carbon, nitrogen, energy, equipment and strains come from, and the effect on import dependence. Used in ch01, ch10. |
+| protein_import_concentration.csv | 8 | Concentration of origins for protein foods and inputs Viet Nam imports: value, tonnage, top origins, top-three share and Herfindahl index by HS code. Used in ch01, ch20. |
+| meat_dairy_imports.csv | 88 | Viet Nam imports of meat, edible offal, live cattle and dairy by year and product, with main origins and share of consumption. Used in ch01, ch16. |
+| origin_support.csv | 325 | Producer support in the main origins of Viet Nam's meat and dairy imports (OECD producer support estimates and other measures) by country and commodity. Used in ch01. |
+
+### protein_supply_by_source.csv
+
+Protein supply per person per day by food group, Viet Nam, 2010, 2015, 2020 and 2023 (FAO food balance sheets), with shares of the total.
+
+Rows: 100. Columns: 10. From `working-papers/wave11/L4-protein-for-people/`.
+
+| Column | Meaning | Example |
+|---|---|---|
+| `record_id` | Stable row ID. | PSS-001 |
+| `year` | Year the value refers to. | 2010 |
+| `item_group` | FAO food balance sheet item or group. | Rice |
+| `protein_g_per_person_day` | Protein supply, g per person per day (supply basis, not intake). | 31.35 |
+| `share_of_total` | Share of total protein supply. | 39.3 |
+| `plant_or_animal` | Plant or animal food. | plant |
+| `source_ids` | Source IDs in sources.csv, separated by semicolons. | DIE-07 |
+| `evidence_label` | VN-direct, VN-adjacent or general. | VN-direct |
+| `confidence` | High, Medium or Low. | High |
+| `notes` | Notes, caveats and calculation inputs. | FAOSTAT Food Balances (2010-), element 674 (protein supply quantity, g per capit ... |
+
+### self_sufficiency_by_food.csv
+
+Production, imports, exports, domestic supply, food and feed use, import dependency and self-sufficiency ratios by food, Viet Nam, 2010 to 2023 (FAO food balance sheets; ratios our calculation on FAO definitions).
+
+Rows: 76. Columns: 15. From `working-papers/wave11/L4-protein-for-people/`.
+
+| Column | Meaning | Example |
+|---|---|---|
+| `record_id` | Stable row ID. | SSF-001 |
+| `year` | Year the value refers to. | 2010 |
+| `food` | Food or commodity. | Rice |
+| `production_kt` | Production, kt. | 40006 |
+| `imports_kt` | Imports, kt. | 2 |
+| `exports_kt` | Exports, kt. | 11371 |
+| `domestic_supply_kt` | Domestic supply quantity, kt (production plus imports minus exports, with stock change). | 30141 |
+| `import_dependency_ratio` | Imports / (production + imports minus exports) x 100 (FAO definition; our calculation). | 0.0 |
+| `self_sufficiency_ratio` | Production / (production + imports minus exports) x 100 (FAO definition; our calculation). | 139.7 |
+| `food_use_kt` | Food use, kt. | 21834 |
+| `feed_use_kt` | Feed use, kt. | 3396 |
+| `source_ids` | Source IDs in sources.csv, separated by semicolons. | DIE-07 |
+| `evidence_label` | VN-direct, VN-adjacent or general. | VN-direct |
+| `confidence` | High, Medium or Low. | High |
+| `notes` | Notes, caveats and calculation inputs. | FAOSTAT Food Balances (2010-), elements 5511, 5611, 5911, 5301, 5142, 5521. Rati ... |
+
+### animal_protein_import_reliance.csv
+
+Animal protein per person per day by food, with the part imported directly and the part from domestic animals and fish raised on imported compound feed (low and high cases; our calculation).
+
+Rows: 11. Columns: 13. From `working-papers/wave11/L4-protein-for-people/`.
+
+| Column | Meaning | Example |
+|---|---|---|
+| `record_id` | Stable row ID. | AIR-001 |
+| `year` | Year the value refers to. | 2023 |
+| `animal_food` | Animal food. | Pigmeat |
+| `protein_g_per_person_day` | Protein supply, g per person per day (supply basis, not intake). | 13.27 |
+| `direct_import_g_low` | Imported directly, g per person per day, low case (net imports). | 0.36 |
+| `direct_import_g_high` | Imported directly, g per person per day, high case (gross imports on the import dependency ratio). | 0.4 |
+| `compound_feed_share` | Share of output raised on compound feed (assumption; see the working paper). | 0.81 |
+| `on_imported_feed_g_low` | From domestic animals raised on imported feed, g per person per day, low case. | 8.61 |
+| `on_imported_feed_g_high` | From domestic animals raised on imported feed, g per person per day, high case. | 9.68 |
+| `source_ids` | Source IDs in sources.csv, separated by semicolons. | DIE-07; MAC-01; FS-23 |
+| `evidence_label` | VN-direct, VN-adjacent or general. | VN-direct |
+| `confidence` | High, Medium or Low. | Low |
+| `notes` | Notes, caveats and calculation inputs. | Our calculation. Protein supply 2023 from FAOSTAT FBS. Direct imports: low = net ... |
+
+### meat_protein_on_imports_projection.csv
+
+Meat protein people eat to 2050 on the balance model scenarios, and the share resting on imports directly or through feed (our estimate; scenarios, not forecasts).
+
+Rows: 10. Columns: 16. From `working-papers/wave11/L4-protein-for-people/`.
+
+| Column | Meaning | Example |
+|---|---|---|
+| `record_id` | Stable row ID. | MPI-001 |
+| `scenario` | Balance model scenario (S-BASE trend and others). | S-BASE |
+| `year` | Year the value refers to. | 2025 |
+| `meat_kg_cwe_per_person` | Meat, kg carcass weight per person. | 66.5 |
+| `meat_protein_g_per_person_day` | Meat protein, g per person per day (supply basis). | 27.3 |
+| `meat_protein_kt` | Meat protein, kt a year. | 1013 |
+| `share_on_imports_low_pct` | Share of meat protein resting on imports, low case, %. | 70.4 |
+| `share_on_imports_high_pct` | Share of meat protein resting on imports, high case, %. | 78.0 |
+| `meat_protein_on_imports_kt_low` | Meat protein resting on imports, kt, low case. | 713 |
+| `meat_protein_on_imports_kt_high` | Meat protein resting on imports, kt, high case. | 790 |
+| `source_ids` | Source IDs in sources.csv, separated by semicolons. | QNT-01; MAC-01; FS-23 |
+| `evidence_label` | VN-direct, VN-adjacent or general. | VN-direct |
+| `confidence` | High, Medium or Low. | Low |
+| `foresight_type` | Foresight type (trend, projection, estimate, signal, wildcard). | calibration (2025 base) |
+| `horizon_year` | Horizon year. | 2025 |
+| `notes` | Notes, caveats and calculation inputs. | Our calculation. Meat per person and population from data/balance_outputs.csv (b ... |
+
+### disease_shocks.csv
+
+Animal-disease and zoonotic events that hit the protein people eat in Viet Nam (African swine fever, avian influenza, Streptococcus suis and others): losses, price effects and human cases.
+
+Rows: 17. Columns: 11. From `working-papers/wave11/L2-disease-pandemic/`.
+
+| Column | Meaning | Example |
+|---|---|---|
+| `record_id` | Stable row ID. | DSH-001 |
+| `event` | Event. | African swine fever, first epidemic |
+| `years` | Year or years. | 2019 |
+| `species` | Species affected. | pigs |
+| `losses` | Animals or output lost. | Over 5.9 million pigs culled by Dec 2019 (about 23% of herd); herd 28.15 M to 24 ... |
+| `price_effect` | Effect on prices. | Live pig VND 24,000 to 35,000 per kg in May 2019 (collapse on panic selling and  ... |
+| `human_cases` | Human cases and deaths, where relevant. | Not applicable (pig disease; no human infection reported in sources read) |
+| `source_ids` | Source IDs in sources.csv, separated by semicolons. | PAN-03; PAN-04; GEO-14 |
+| `evidence_label` | VN-direct, VN-adjacent or general. | VN-direct |
+| `confidence` | High, Medium or Low. | High |
+| `notes` | Notes, caveats and calculation inputs. | Herd, sow and output data are MARD figures reported by USDA. Price collapse figu ... |
+
+### security_exposures.csv
+
+Food-security exposures of the protein people eat, the evidence for each, and whether alternative protein for food would reduce it, given where its inputs come from.
+
+Rows: 15. Columns: 12. From `working-papers/wave11/L3-security-exposures/`.
+
+| Column | Meaning | Example |
+|---|---|---|
+| `record_id` | Stable row ID. | SEX-01 |
+| `exposure` | Exposure. | Imported feed protein concentrated on the Americas |
+| `protein_food_affected` | Protein food affected. | Pork, poultry, eggs, milk, farmed fish |
+| `evidence_of_exposure` | Evidence that the exposure is real. | Soybeans 95.4% from three origins in 2023 (Brazil 50.1%, United States 38.5%); s ... |
+| `does_alt_protein_for_food_reduce_it` | Whether alternative protein for food would reduce the exposure, and how much at the study's scale. | Only through domestic-input routes. Net saving at D-BENCH 2035: minus 0.2 to 5.6 ... |
+| `inputs_domestic_or_imported` | Whether the relevant inputs are domestic or imported. | Imported (exposure); substitute routes vary |
+| `foresight_type` | Foresight type (trend, projection, estimate, signal, wildcard). | estimate |
+| `horizon_year` | Horizon year. | 2035 |
+| `source_ids` | Source IDs in sources.csv, separated by semicolons. | SEC-05; MAC-09; MAC-04; BUY-02 |
+| `evidence_label` | VN-direct, VN-adjacent or general. | VN-direct |
+| `confidence` | High, Medium or Low. | Medium |
+| `notes` | Notes, caveats and calculation inputs. | Shares and HHI our calculation from Vietnam-reported 2023 data; net saving our c ... |
+
+### route_input_origin.csv
+
+Alternative-protein routes by where their protein, carbon, nitrogen, energy, equipment and strains come from, and the effect on import dependence.
+
+Rows: 12. Columns: 12. From `working-papers/wave11/L3-security-exposures/`.
+
+| Column | Meaning | Example |
+|---|---|---|
+| `record_id` | Stable row ID. | SRI-01 |
+| `route` | Alternative-protein route. | Tofu, soy milk and soy foods (incumbent) |
+| `protein_input` | Main protein input. | Soybeans |
+| `protein_input_origin` | Where the protein input comes from. | Imported (Brazil, United States; 98.4% of supply imported) |
+| `carbon_nitrogen_energy` | Carbon, nitrogen and energy inputs and their origin. | n/a |
+| `equipment_strain_ip` | Equipment, strains and know-how and their origin. | Mostly domestic or Asian equipment |
+| `main_inputs_domestic_or_imported` | Whether the main inputs are domestic or imported. | imported |
+| `effect_on_import_dependence` | Effect on import dependence. | Is part of the existing dependence |
+| `source_ids` | Source IDs in sources.csv, separated by semicolons. | MAC-09; FS-24; DIE-07 |
+| `evidence_label` | VN-direct, VN-adjacent or general. | VN-direct |
+| `confidence` | High, Medium or Low. | High |
+| `notes` | Notes, caveats and calculation inputs. | About 550 kt of soybeans used for food a year (FS-24). |
+
+### protein_import_concentration.csv
+
+Concentration of origins for protein foods and inputs Viet Nam imports: value, tonnage, top origins, top-three share and Herfindahl index by HS code.
+
+Rows: 8. Columns: 14. From `working-papers/wave11/L3-security-exposures/`.
+
+| Column | Meaning | Example |
+|---|---|---|
+| `record_id` | Stable row ID. | SIC-01 |
+| `year` | Year the value refers to. | 2023 |
+| `hs_code` | Harmonised System (HS) code. | 0713 |
+| `product` | Product. | Dried pulses (incl. mung bean) |
+| `value_usd_m` | Import value, USD million. | 156.9 |
+| `net_weight_t` | Net weight, t. | 122689 |
+| `top_origins_value_share` | Main origins with their share of value. | Myanmar 60.2%; Cambodia 11.9%; Australia 7.9%; Argentina 7.7% |
+| `top3_share_pct` | Share of the top three origins, %. | 79.9 |
+| `hhi_value` | Herfindahl-Hirschman index of origin concentration (by value). | 3909 |
+| `n_partners` | Number of origin countries. | 23 |
+| `source_ids` | Source IDs in sources.csv, separated by semicolons. | SEC-05 |
+| `evidence_label` | VN-direct, VN-adjacent or general. | VN-direct |
+| `confidence` | High, Medium or Low. | High |
+| `notes` | Notes, caveats and calculation inputs. | Our calculation from Vietnam-reported partner values; HHI on value shares (0 to  ... |
+
+### meat_dairy_imports.csv
+
+Viet Nam imports of meat, edible offal, live cattle and dairy by year and product, with main origins and share of consumption.
+
+Rows: 88. Columns: 12. From `working-papers/wave11/L1-meat-imports/`.
+
+| Column | Meaning | Example |
+|---|---|---|
+| `record_id` | Stable row ID. | MDI-001 |
+| `year` | Year the value refers to. | 2015 |
+| `product` | Product. | meat and edible offal (Vietnam-reported) |
+| `hs_codes` | Hs codes. | 0201 to 0210 (excluding 0205, 0208) |
+| `quantity_t` | Quantity t. |  |
+| `value_usd` | Value usd. | 301366535 |
+| `main_origins` | Main origins. |  |
+| `share_of_consumption` | Share of consumption. |  |
+| `source_ids` | Source IDs in sources.csv, separated by semicolons. | MIM-01 |
+| `evidence_label` | VN-direct, VN-adjacent or general. | VN-direct |
+| `confidence` | High, Medium or Low. | High |
+| `notes` | Notes, caveats and calculation inputs. | Our sum of HS 4-digit lines; CIF. Net weights incomplete in the Vietnam report,  ... |
+
+### origin_support.csv
+
+Producer support in the main origins of Viet Nam's meat and dairy imports (OECD producer support estimates and other measures) by country and commodity.
+
+Rows: 325. Columns: 11. From `working-papers/wave11/L1-meat-imports/`.
+
+| Column | Meaning | Example |
+|---|---|---|
+| `record_id` | Stable row ID. | OSU-001 |
+| `country` | Country. | All WTO members |
+| `commodity` | Commodity. | agricultural exports |
+| `indicator` | Indicator. | export subsidies |
+| `value` | Value. | eliminated |
+| `unit` | Unit. | rule |
+| `year` | Year the value refers to. | 2015 |
+| `source_ids` | Source IDs in sources.csv, separated by semicolons. | MIM-17 |
+| `evidence_label` | VN-direct, VN-adjacent or general. | general |
+| `confidence` | High, Medium or Low. | High |
+| `notes` | Notes, caveats and calculation inputs. | Nairobi Decision: developed members at once (some processed, dairy and swine pro ... |

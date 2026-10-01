@@ -1,0 +1,326 @@
+record_id,country,commodity,indicator,value,unit,year,source_ids,evidence_label,confidence,notes
+OSU-001,All WTO members,agricultural exports,export subsidies,eliminated,rule,2015,MIM-17,general,High,"Nairobi Decision: developed members at once (some processed, dairy and swine products to end-2020); developing members by end-2018 (some to end-2022); marketing and transport cost subsidies for developing members to end-2023; export credits limited to 18 months"
+OSU-002,Australia,all agriculture,producer support estimate as % of gross farm receipts (%PSE),3.1,percent,2022,MIM-16,general,High,"Support of all kinds, including payments not tied to any product"
+OSU-003,Australia,all agriculture,producer support estimate as % of gross farm receipts (%PSE),2.7,percent,2023,MIM-16,general,High,"Support of all kinds, including payments not tied to any product"
+OSU-004,Australia,all agriculture,producer support estimate as % of gross farm receipts (%PSE),2.4,percent,2024,MIM-16,general,High,"Support of all kinds, including payments not tied to any product"
+OSU-005,Australia,beef and veal,market price support (MPS),0.0,USD million,2022,MIM-15,general,High,
+OSU-006,Australia,beef and veal,market price support (MPS),0.0,USD million,2023,MIM-15,general,High,
+OSU-007,Australia,beef and veal,market price support (MPS),0.0,USD million,2024,MIM-15,general,High,
+OSU-008,Australia,beef and veal,producer nominal protection coefficient (producer NPC),1.0,ratio (1.00 = no price support),2022,MIM-15,general,High,
+OSU-009,Australia,beef and veal,producer nominal protection coefficient (producer NPC),1.0,ratio (1.00 = no price support),2023,MIM-15,general,High,
+OSU-010,Australia,beef and veal,producer nominal protection coefficient (producer NPC),1.0,ratio (1.00 = no price support),2024,MIM-15,general,High,
+OSU-011,Australia,beef and veal,producer price at farm gate,4117,USD per t,2024,MIM-15,general,High,OECD basis; compare across countries with care (product definitions differ)
+OSU-012,Australia,pigmeat,market price support (MPS),0.0,USD million,2022,MIM-15,general,High,
+OSU-013,Australia,pigmeat,market price support (MPS),0.0,USD million,2023,MIM-15,general,High,
+OSU-014,Australia,pigmeat,market price support (MPS),0.0,USD million,2024,MIM-15,general,High,
+OSU-015,Australia,pigmeat,producer nominal protection coefficient (producer NPC),1.0,ratio (1.00 = no price support),2022,MIM-15,general,High,
+OSU-016,Australia,pigmeat,producer nominal protection coefficient (producer NPC),1.0,ratio (1.00 = no price support),2023,MIM-15,general,High,
+OSU-017,Australia,pigmeat,producer nominal protection coefficient (producer NPC),1.0,ratio (1.00 = no price support),2024,MIM-15,general,High,
+OSU-018,Australia,pigmeat,producer price at farm gate,2764,USD per t,2024,MIM-15,general,High,OECD basis; compare across countries with care (product definitions differ)
+OSU-019,Australia,poultry meat,market price support (MPS),0.0,USD million,2022,MIM-15,general,High,
+OSU-020,Australia,poultry meat,market price support (MPS),0.0,USD million,2023,MIM-15,general,High,
+OSU-021,Australia,poultry meat,market price support (MPS),0.0,USD million,2024,MIM-15,general,High,
+OSU-022,Australia,poultry meat,producer nominal protection coefficient (producer NPC),1.0,ratio (1.00 = no price support),2022,MIM-15,general,High,
+OSU-023,Australia,poultry meat,producer nominal protection coefficient (producer NPC),1.0,ratio (1.00 = no price support),2023,MIM-15,general,High,
+OSU-024,Australia,poultry meat,producer nominal protection coefficient (producer NPC),1.0,ratio (1.00 = no price support),2024,MIM-15,general,High,
+OSU-025,Australia,poultry meat,producer price at farm gate,1796,USD per t,2024,MIM-15,general,High,OECD basis; compare across countries with care (product definitions differ)
+OSU-026,Australia,raw milk,market price support (MPS),0.0,USD million,2022,MIM-15,general,High,
+OSU-027,Australia,raw milk,market price support (MPS),0.0,USD million,2023,MIM-15,general,High,
+OSU-028,Australia,raw milk,market price support (MPS),0.0,USD million,2024,MIM-15,general,High,
+OSU-029,Australia,raw milk,producer nominal protection coefficient (producer NPC),,ratio (1.00 = no price support),2022,MIM-15,general,High,"OECD extract gives 0 with market price support also 0; treated as missing (probably no reference price that year), not as a coefficient"
+OSU-030,Australia,raw milk,producer nominal protection coefficient (producer NPC),1.0,ratio (1.00 = no price support),2023,MIM-15,general,High,
+OSU-031,Australia,raw milk,producer nominal protection coefficient (producer NPC),1.0,ratio (1.00 = no price support),2024,MIM-15,general,High,
+OSU-032,Brazil,all agriculture,producer support estimate as % of gross farm receipts (%PSE),4.4,percent,2022,MIM-16,general,High,"Support of all kinds, including payments not tied to any product"
+OSU-033,Brazil,all agriculture,producer support estimate as % of gross farm receipts (%PSE),4.4,percent,2023,MIM-16,general,High,"Support of all kinds, including payments not tied to any product"
+OSU-034,Brazil,all agriculture,producer support estimate as % of gross farm receipts (%PSE),7.5,percent,2024,MIM-16,general,High,"Support of all kinds, including payments not tied to any product"
+OSU-035,Brazil,beef and veal,market price support (MPS),0.0,USD million,2022,MIM-15,general,High,
+OSU-036,Brazil,beef and veal,market price support (MPS),0.0,USD million,2023,MIM-15,general,High,
+OSU-037,Brazil,beef and veal,market price support (MPS),0.0,USD million,2024,MIM-15,general,High,
+OSU-038,Brazil,beef and veal,producer nominal protection coefficient (producer NPC),1.0,ratio (1.00 = no price support),2022,MIM-15,general,High,
+OSU-039,Brazil,beef and veal,producer nominal protection coefficient (producer NPC),1.0,ratio (1.00 = no price support),2023,MIM-15,general,High,
+OSU-040,Brazil,beef and veal,producer nominal protection coefficient (producer NPC),1.0,ratio (1.00 = no price support),2024,MIM-15,general,High,
+OSU-041,Brazil,beef and veal,producer price at farm gate,2946,USD per t,2024,MIM-15,general,High,OECD basis; compare across countries with care (product definitions differ)
+OSU-042,Brazil,maize,producer nominal protection coefficient (producer NPC),1.0,ratio (1.00 = no price support),2022,MIM-15,general,High,Feed grain; below 1.00 means domestic feed cheaper than border price because of policy
+OSU-043,Brazil,maize,producer nominal protection coefficient (producer NPC),1.12,ratio (1.00 = no price support),2023,MIM-15,general,High,Feed grain; below 1.00 means domestic feed cheaper than border price because of policy
+OSU-044,Brazil,maize,producer nominal protection coefficient (producer NPC),1.0,ratio (1.00 = no price support),2024,MIM-15,general,High,Feed grain; below 1.00 means domestic feed cheaper than border price because of policy
+OSU-045,Brazil,pigmeat,market price support (MPS),0.0,USD million,2022,MIM-15,general,High,
+OSU-046,Brazil,pigmeat,market price support (MPS),0.0,USD million,2023,MIM-15,general,High,
+OSU-047,Brazil,pigmeat,market price support (MPS),2793.5,USD million,2024,MIM-15,general,High,
+OSU-048,Brazil,pigmeat,producer nominal protection coefficient (producer NPC),1.0,ratio (1.00 = no price support),2022,MIM-15,general,High,
+OSU-049,Brazil,pigmeat,producer nominal protection coefficient (producer NPC),1.0,ratio (1.00 = no price support),2023,MIM-15,general,High,
+OSU-050,Brazil,pigmeat,producer nominal protection coefficient (producer NPC),1.66,ratio (1.00 = no price support),2024,MIM-15,general,High,
+OSU-051,Brazil,pigmeat,producer price at farm gate,1306,USD per t,2024,MIM-15,general,High,OECD basis; compare across countries with care (product definitions differ)
+OSU-052,Brazil,poultry meat,market price support (MPS),0.0,USD million,2022,MIM-15,general,High,
+OSU-053,Brazil,poultry meat,market price support (MPS),0.0,USD million,2023,MIM-15,general,High,
+OSU-054,Brazil,poultry meat,market price support (MPS),0.0,USD million,2024,MIM-15,general,High,
+OSU-055,Brazil,poultry meat,producer nominal protection coefficient (producer NPC),1.0,ratio (1.00 = no price support),2022,MIM-15,general,High,
+OSU-056,Brazil,poultry meat,producer nominal protection coefficient (producer NPC),1.0,ratio (1.00 = no price support),2023,MIM-15,general,High,
+OSU-057,Brazil,poultry meat,producer nominal protection coefficient (producer NPC),1.0,ratio (1.00 = no price support),2024,MIM-15,general,High,
+OSU-058,Brazil,poultry meat,producer price at farm gate,1288,USD per t,2024,MIM-15,general,High,OECD basis; compare across countries with care (product definitions differ)
+OSU-059,Brazil,raw milk,market price support (MPS),3123.0,USD million,2022,MIM-15,general,High,
+OSU-060,Brazil,raw milk,market price support (MPS),0.0,USD million,2023,MIM-15,general,High,
+OSU-061,Brazil,raw milk,market price support (MPS),1288.4,USD million,2024,MIM-15,general,High,
+OSU-062,Brazil,raw milk,producer nominal protection coefficient (producer NPC),1.2,ratio (1.00 = no price support),2022,MIM-15,general,High,
+OSU-063,Brazil,raw milk,producer nominal protection coefficient (producer NPC),1.0,ratio (1.00 = no price support),2023,MIM-15,general,High,
+OSU-064,Brazil,raw milk,producer nominal protection coefficient (producer NPC),1.08,ratio (1.00 = no price support),2024,MIM-15,general,High,
+OSU-065,Brazil,soybeans,producer nominal protection coefficient (producer NPC),1.0,ratio (1.00 = no price support),2022,MIM-15,general,High,Feed grain; below 1.00 means domestic feed cheaper than border price because of policy
+OSU-066,Brazil,soybeans,producer nominal protection coefficient (producer NPC),1.0,ratio (1.00 = no price support),2023,MIM-15,general,High,Feed grain; below 1.00 means domestic feed cheaper than border price because of policy
+OSU-067,Brazil,soybeans,producer nominal protection coefficient (producer NPC),1.0,ratio (1.00 = no price support),2024,MIM-15,general,High,Feed grain; below 1.00 means domestic feed cheaper than border price because of policy
+OSU-068,Canada,all agriculture,producer support estimate as % of gross farm receipts (%PSE),7.9,percent,2022,MIM-16,general,High,"Support of all kinds, including payments not tied to any product"
+OSU-069,Canada,all agriculture,producer support estimate as % of gross farm receipts (%PSE),7.7,percent,2023,MIM-16,general,High,"Support of all kinds, including payments not tied to any product"
+OSU-070,Canada,all agriculture,producer support estimate as % of gross farm receipts (%PSE),9.1,percent,2024,MIM-16,general,High,"Support of all kinds, including payments not tied to any product"
+OSU-071,Canada,beef and veal,market price support (MPS),0.0,USD million,2022,MIM-15,general,High,
+OSU-072,Canada,beef and veal,market price support (MPS),77.7,USD million,2023,MIM-15,general,High,
+OSU-073,Canada,beef and veal,market price support (MPS),290.1,USD million,2024,MIM-15,general,High,
+OSU-074,Canada,beef and veal,producer nominal protection coefficient (producer NPC),1.0,ratio (1.00 = no price support),2022,MIM-15,general,High,
+OSU-075,Canada,beef and veal,producer nominal protection coefficient (producer NPC),1.01,ratio (1.00 = no price support),2023,MIM-15,general,High,
+OSU-076,Canada,beef and veal,producer nominal protection coefficient (producer NPC),1.03,ratio (1.00 = no price support),2024,MIM-15,general,High,
+OSU-077,Canada,beef and veal,producer price at farm gate,6767,USD per t,2024,MIM-15,general,High,OECD basis; compare across countries with care (product definitions differ)
+OSU-078,Canada,pigmeat,market price support (MPS),0.0,USD million,2022,MIM-15,general,High,
+OSU-079,Canada,pigmeat,market price support (MPS),0.0,USD million,2023,MIM-15,general,High,
+OSU-080,Canada,pigmeat,market price support (MPS),0.0,USD million,2024,MIM-15,general,High,
+OSU-081,Canada,pigmeat,producer nominal protection coefficient (producer NPC),1.0,ratio (1.00 = no price support),2022,MIM-15,general,High,
+OSU-082,Canada,pigmeat,producer nominal protection coefficient (producer NPC),1.0,ratio (1.00 = no price support),2023,MIM-15,general,High,
+OSU-083,Canada,pigmeat,producer nominal protection coefficient (producer NPC),1.0,ratio (1.00 = no price support),2024,MIM-15,general,High,
+OSU-084,Canada,pigmeat,producer price at farm gate,1504,USD per t,2024,MIM-15,general,High,OECD basis; compare across countries with care (product definitions differ)
+OSU-085,Canada,poultry meat,market price support (MPS),0.0,USD million,2022,MIM-15,general,High,
+OSU-086,Canada,poultry meat,market price support (MPS),0.0,USD million,2023,MIM-15,general,High,
+OSU-087,Canada,poultry meat,market price support (MPS),70.8,USD million,2024,MIM-15,general,High,
+OSU-088,Canada,poultry meat,producer nominal protection coefficient (producer NPC),1.0,ratio (1.00 = no price support),2022,MIM-15,general,High,
+OSU-089,Canada,poultry meat,producer nominal protection coefficient (producer NPC),1.0,ratio (1.00 = no price support),2023,MIM-15,general,High,
+OSU-090,Canada,poultry meat,producer nominal protection coefficient (producer NPC),1.02,ratio (1.00 = no price support),2024,MIM-15,general,High,
+OSU-091,Canada,poultry meat,producer price at farm gate,2085,USD per t,2024,MIM-15,general,High,OECD basis; compare across countries with care (product definitions differ)
+OSU-092,Canada,raw milk,market price support (MPS),1867.9,USD million,2022,MIM-15,general,High,
+OSU-093,Canada,raw milk,market price support (MPS),1680.2,USD million,2023,MIM-15,general,High,
+OSU-094,Canada,raw milk,market price support (MPS),2000.3,USD million,2024,MIM-15,general,High,
+OSU-095,Canada,raw milk,producer nominal protection coefficient (producer NPC),1.4,ratio (1.00 = no price support),2022,MIM-15,general,High,
+OSU-096,Canada,raw milk,producer nominal protection coefficient (producer NPC),1.34,ratio (1.00 = no price support),2023,MIM-15,general,High,
+OSU-097,Canada,raw milk,producer nominal protection coefficient (producer NPC),1.43,ratio (1.00 = no price support),2024,MIM-15,general,High,
+OSU-098,European Union,all agriculture,producer support estimate as % of gross farm receipts (%PSE),14.9,percent,2022,MIM-16,general,High,"Support of all kinds, including payments not tied to any product"
+OSU-099,European Union,all agriculture,producer support estimate as % of gross farm receipts (%PSE),17.0,percent,2023,MIM-16,general,High,"Support of all kinds, including payments not tied to any product"
+OSU-100,European Union,all agriculture,producer support estimate as % of gross farm receipts (%PSE),17.2,percent,2024,MIM-16,general,High,"Support of all kinds, including payments not tied to any product"
+OSU-101,European Union,beef and veal,market price support (MPS),5409.3,USD million,2022,MIM-15,general,High,
+OSU-102,European Union,beef and veal,market price support (MPS),9979.8,USD million,2023,MIM-15,general,High,
+OSU-103,European Union,beef and veal,market price support (MPS),12016.2,USD million,2024,MIM-15,general,High,
+OSU-104,European Union,beef and veal,producer nominal protection coefficient (producer NPC),1.2,ratio (1.00 = no price support),2022,MIM-15,general,High,
+OSU-105,European Union,beef and veal,producer nominal protection coefficient (producer NPC),1.46,ratio (1.00 = no price support),2023,MIM-15,general,High,
+OSU-106,European Union,beef and veal,producer nominal protection coefficient (producer NPC),1.59,ratio (1.00 = no price support),2024,MIM-15,general,High,
+OSU-107,European Union,beef and veal,producer price at farm gate,5191,USD per t,2024,MIM-15,general,High,OECD basis; compare across countries with care (product definitions differ)
+OSU-108,European Union,maize,producer nominal protection coefficient (producer NPC),1.0,ratio (1.00 = no price support),2022,MIM-15,general,High,Feed grain; below 1.00 means domestic feed cheaper than border price because of policy
+OSU-109,European Union,maize,producer nominal protection coefficient (producer NPC),1.0,ratio (1.00 = no price support),2023,MIM-15,general,High,Feed grain; below 1.00 means domestic feed cheaper than border price because of policy
+OSU-110,European Union,maize,producer nominal protection coefficient (producer NPC),1.0,ratio (1.00 = no price support),2024,MIM-15,general,High,Feed grain; below 1.00 means domestic feed cheaper than border price because of policy
+OSU-111,European Union,pigmeat,market price support (MPS),-3.1,USD million,2022,MIM-15,general,High,
+OSU-112,European Union,pigmeat,market price support (MPS),2019.1,USD million,2023,MIM-15,general,High,
+OSU-113,European Union,pigmeat,market price support (MPS),814.3,USD million,2024,MIM-15,general,High,
+OSU-114,European Union,pigmeat,producer nominal protection coefficient (producer NPC),1.0,ratio (1.00 = no price support),2022,MIM-15,general,High,
+OSU-115,European Union,pigmeat,producer nominal protection coefficient (producer NPC),1.04,ratio (1.00 = no price support),2023,MIM-15,general,High,
+OSU-116,European Union,pigmeat,producer nominal protection coefficient (producer NPC),1.02,ratio (1.00 = no price support),2024,MIM-15,general,High,
+OSU-117,European Union,pigmeat,producer price at farm gate,2256,USD per t,2024,MIM-15,general,High,OECD basis; compare across countries with care (product definitions differ)
+OSU-118,European Union,poultry meat,market price support (MPS),5273.4,USD million,2022,MIM-15,general,High,
+OSU-119,European Union,poultry meat,market price support (MPS),7744.5,USD million,2023,MIM-15,general,High,
+OSU-120,European Union,poultry meat,market price support (MPS),7179.9,USD million,2024,MIM-15,general,High,
+OSU-121,European Union,poultry meat,producer nominal protection coefficient (producer NPC),1.3,ratio (1.00 = no price support),2022,MIM-15,general,High,
+OSU-122,European Union,poultry meat,producer nominal protection coefficient (producer NPC),1.45,ratio (1.00 = no price support),2023,MIM-15,general,High,
+OSU-123,European Union,poultry meat,producer nominal protection coefficient (producer NPC),1.41,ratio (1.00 = no price support),2024,MIM-15,general,High,
+OSU-124,European Union,poultry meat,producer price at farm gate,1907,USD per t,2024,MIM-15,general,High,OECD basis; compare across countries with care (product definitions differ)
+OSU-125,European Union,raw milk,market price support (MPS),-1.2,USD million,2022,MIM-15,general,High,
+OSU-126,European Union,raw milk,market price support (MPS),0.0,USD million,2023,MIM-15,general,High,
+OSU-127,European Union,raw milk,market price support (MPS),0.0,USD million,2024,MIM-15,general,High,
+OSU-128,European Union,raw milk,producer nominal protection coefficient (producer NPC),1.0,ratio (1.00 = no price support),2022,MIM-15,general,High,
+OSU-129,European Union,raw milk,producer nominal protection coefficient (producer NPC),1.0,ratio (1.00 = no price support),2023,MIM-15,general,High,
+OSU-130,European Union,raw milk,producer nominal protection coefficient (producer NPC),1.0,ratio (1.00 = no price support),2024,MIM-15,general,High,
+OSU-131,European Union,soybeans,producer nominal protection coefficient (producer NPC),1.0,ratio (1.00 = no price support),2022,MIM-15,general,High,Feed grain; below 1.00 means domestic feed cheaper than border price because of policy
+OSU-132,European Union,soybeans,producer nominal protection coefficient (producer NPC),1.0,ratio (1.00 = no price support),2023,MIM-15,general,High,Feed grain; below 1.00 means domestic feed cheaper than border price because of policy
+OSU-133,European Union,soybeans,producer nominal protection coefficient (producer NPC),1.0,ratio (1.00 = no price support),2024,MIM-15,general,High,Feed grain; below 1.00 means domestic feed cheaper than border price because of policy
+OSU-134,India,all agriculture,producer support estimate as % of gross farm receipts (%PSE),-19.6,percent,2022,MIM-16,general,High,"Support of all kinds, including payments not tied to any product"
+OSU-135,India,all agriculture,producer support estimate as % of gross farm receipts (%PSE),-10.0,percent,2023,MIM-16,general,High,"Support of all kinds, including payments not tied to any product"
+OSU-136,India,all agriculture,producer support estimate as % of gross farm receipts (%PSE),-14.1,percent,2024,MIM-16,general,High,"Support of all kinds, including payments not tied to any product"
+OSU-137,India,beef and veal,market price support (MPS),-678.7,USD million,2022,MIM-15,general,High,
+OSU-138,India,beef and veal,market price support (MPS),-1285.6,USD million,2023,MIM-15,general,High,
+OSU-139,India,beef and veal,market price support (MPS),-1778.0,USD million,2024,MIM-15,general,High,
+OSU-140,India,beef and veal,producer nominal protection coefficient (producer NPC),0.9,ratio (1.00 = no price support),2022,MIM-15,general,High,
+OSU-141,India,beef and veal,producer nominal protection coefficient (producer NPC),0.82,ratio (1.00 = no price support),2023,MIM-15,general,High,
+OSU-142,India,beef and veal,producer nominal protection coefficient (producer NPC),0.78,ratio (1.00 = no price support),2024,MIM-15,general,High,
+OSU-143,India,beef and veal,producer price at farm gate,1353,USD per t,2024,MIM-15,general,High,OECD basis; compare across countries with care (product definitions differ)
+OSU-144,India,export schemes (MEIS and others),WTO panel finding,prohibited export subsidies,finding,2019,MIM-18,general,High,DS541 panel report 31 Oct 2019; ended by mutual agreement 13 Jul 2023. We found no rate for buffalo meat under MEIS or RoDTEP
+OSU-145,India,maize,producer nominal protection coefficient (producer NPC),0.71,ratio (1.00 = no price support),2022,MIM-15,general,High,Feed grain; below 1.00 means domestic feed cheaper than border price because of policy
+OSU-146,India,maize,producer nominal protection coefficient (producer NPC),0.98,ratio (1.00 = no price support),2023,MIM-15,general,High,Feed grain; below 1.00 means domestic feed cheaper than border price because of policy
+OSU-147,India,maize,producer nominal protection coefficient (producer NPC),1.27,ratio (1.00 = no price support),2024,MIM-15,general,High,Feed grain; below 1.00 means domestic feed cheaper than border price because of policy
+OSU-148,India,poultry meat,market price support (MPS),2633.4,USD million,2022,MIM-15,general,High,
+OSU-149,India,poultry meat,market price support (MPS),3104.5,USD million,2023,MIM-15,general,High,
+OSU-150,India,poultry meat,market price support (MPS),4023.8,USD million,2024,MIM-15,general,High,
+OSU-151,India,poultry meat,producer nominal protection coefficient (producer NPC),1.22,ratio (1.00 = no price support),2022,MIM-15,general,High,
+OSU-152,India,poultry meat,producer nominal protection coefficient (producer NPC),1.29,ratio (1.00 = no price support),2023,MIM-15,general,High,
+OSU-153,India,poultry meat,producer nominal protection coefficient (producer NPC),1.39,ratio (1.00 = no price support),2024,MIM-15,general,High,
+OSU-154,India,poultry meat,producer price at farm gate,2564,USD per t,2024,MIM-15,general,High,OECD basis; compare across countries with care (product definitions differ)
+OSU-155,India,raw milk,market price support (MPS),-65197.5,USD million,2022,MIM-15,general,High,
+OSU-156,India,raw milk,market price support (MPS),-40271.8,USD million,2023,MIM-15,general,High,
+OSU-157,India,raw milk,market price support (MPS),-73763.6,USD million,2024,MIM-15,general,High,
+OSU-158,India,raw milk,producer nominal protection coefficient (producer NPC),0.6,ratio (1.00 = no price support),2022,MIM-15,general,High,
+OSU-159,India,raw milk,producer nominal protection coefficient (producer NPC),0.73,ratio (1.00 = no price support),2023,MIM-15,general,High,
+OSU-160,India,raw milk,producer nominal protection coefficient (producer NPC),0.61,ratio (1.00 = no price support),2024,MIM-15,general,High,
+OSU-161,India,soybeans,producer nominal protection coefficient (producer NPC),1.0,ratio (1.00 = no price support),2022,MIM-15,general,High,Feed grain; below 1.00 means domestic feed cheaper than border price because of policy
+OSU-162,India,soybeans,producer nominal protection coefficient (producer NPC),1.0,ratio (1.00 = no price support),2023,MIM-15,general,High,Feed grain; below 1.00 means domestic feed cheaper than border price because of policy
+OSU-163,India,soybeans,producer nominal protection coefficient (producer NPC),1.0,ratio (1.00 = no price support),2024,MIM-15,general,High,Feed grain; below 1.00 means domestic feed cheaper than border price because of policy
+OSU-164,Korea,all agriculture,producer support estimate as % of gross farm receipts (%PSE),40.9,percent,2022,MIM-16,general,High,"Support of all kinds, including payments not tied to any product"
+OSU-165,Korea,all agriculture,producer support estimate as % of gross farm receipts (%PSE),40.1,percent,2023,MIM-16,general,High,"Support of all kinds, including payments not tied to any product"
+OSU-166,Korea,all agriculture,producer support estimate as % of gross farm receipts (%PSE),41.1,percent,2024,MIM-16,general,High,"Support of all kinds, including payments not tied to any product"
+OSU-167,Korea,beef and veal,market price support (MPS),1661.5,USD million,2022,MIM-15,general,High,
+OSU-168,Korea,beef and veal,market price support (MPS),1504.0,USD million,2023,MIM-15,general,High,
+OSU-169,Korea,beef and veal,market price support (MPS),1562.9,USD million,2024,MIM-15,general,High,
+OSU-170,Korea,beef and veal,producer nominal protection coefficient (producer NPC),1.41,ratio (1.00 = no price support),2022,MIM-15,general,High,
+OSU-171,Korea,beef and veal,producer nominal protection coefficient (producer NPC),1.41,ratio (1.00 = no price support),2023,MIM-15,general,High,
+OSU-172,Korea,beef and veal,producer nominal protection coefficient (producer NPC),1.41,ratio (1.00 = no price support),2024,MIM-15,general,High,
+OSU-173,Korea,beef and veal,producer price at farm gate,11561,USD per t,2024,MIM-15,general,High,OECD basis; compare across countries with care (product definitions differ)
+OSU-174,Korea,pigmeat,market price support (MPS),3075.1,USD million,2022,MIM-15,general,High,
+OSU-175,Korea,pigmeat,market price support (MPS),2605.1,USD million,2023,MIM-15,general,High,
+OSU-176,Korea,pigmeat,market price support (MPS),2621.1,USD million,2024,MIM-15,general,High,
+OSU-177,Korea,pigmeat,producer nominal protection coefficient (producer NPC),1.76,ratio (1.00 = no price support),2022,MIM-15,general,High,
+OSU-178,Korea,pigmeat,producer nominal protection coefficient (producer NPC),1.7,ratio (1.00 = no price support),2023,MIM-15,general,High,
+OSU-179,Korea,pigmeat,producer nominal protection coefficient (producer NPC),1.7,ratio (1.00 = no price support),2024,MIM-15,general,High,
+OSU-180,Korea,pigmeat,producer price at farm gate,3740,USD per t,2024,MIM-15,general,High,OECD basis; compare across countries with care (product definitions differ)
+OSU-181,Korea,poultry meat,market price support (MPS),0.0,USD million,2022,MIM-15,general,High,
+OSU-182,Korea,poultry meat,market price support (MPS),284.4,USD million,2023,MIM-15,general,High,
+OSU-183,Korea,poultry meat,market price support (MPS),0.0,USD million,2024,MIM-15,general,High,
+OSU-184,Korea,poultry meat,producer nominal protection coefficient (producer NPC),1.0,ratio (1.00 = no price support),2022,MIM-15,general,High,
+OSU-185,Korea,poultry meat,producer nominal protection coefficient (producer NPC),1.21,ratio (1.00 = no price support),2023,MIM-15,general,High,
+OSU-186,Korea,poultry meat,producer nominal protection coefficient (producer NPC),1.0,ratio (1.00 = no price support),2024,MIM-15,general,High,
+OSU-187,Korea,poultry meat,producer price at farm gate,2054,USD per t,2024,MIM-15,general,High,OECD basis; compare across countries with care (product definitions differ)
+OSU-188,Korea,raw milk,market price support (MPS),663.9,USD million,2022,MIM-15,general,High,
+OSU-189,Korea,raw milk,market price support (MPS),498.4,USD million,2023,MIM-15,general,High,
+OSU-190,Korea,raw milk,market price support (MPS),685.6,USD million,2024,MIM-15,general,High,
+OSU-191,Korea,raw milk,producer nominal protection coefficient (producer NPC),1.67,ratio (1.00 = no price support),2022,MIM-15,general,High,
+OSU-192,Korea,raw milk,producer nominal protection coefficient (producer NPC),1.44,ratio (1.00 = no price support),2023,MIM-15,general,High,
+OSU-193,Korea,raw milk,producer nominal protection coefficient (producer NPC),1.66,ratio (1.00 = no price support),2024,MIM-15,general,High,
+OSU-194,Korea,soybeans,producer nominal protection coefficient (producer NPC),3.48,ratio (1.00 = no price support),2022,MIM-15,general,High,Feed grain; below 1.00 means domestic feed cheaper than border price because of policy
+OSU-195,Korea,soybeans,producer nominal protection coefficient (producer NPC),3.2,ratio (1.00 = no price support),2023,MIM-15,general,High,Feed grain; below 1.00 means domestic feed cheaper than border price because of policy
+OSU-196,Korea,soybeans,producer nominal protection coefficient (producer NPC),3.24,ratio (1.00 = no price support),2024,MIM-15,general,High,Feed grain; below 1.00 means domestic feed cheaper than border price because of policy
+OSU-197,New Zealand,all agriculture,producer support estimate as % of gross farm receipts (%PSE),0.7,percent,2022,MIM-16,general,High,"Support of all kinds, including payments not tied to any product"
+OSU-198,New Zealand,all agriculture,producer support estimate as % of gross farm receipts (%PSE),1.5,percent,2023,MIM-16,general,High,"Support of all kinds, including payments not tied to any product"
+OSU-199,New Zealand,all agriculture,producer support estimate as % of gross farm receipts (%PSE),1.6,percent,2024,MIM-16,general,High,"Support of all kinds, including payments not tied to any product"
+OSU-200,New Zealand,beef and veal,market price support (MPS),0.0,USD million,2022,MIM-15,general,High,
+OSU-201,New Zealand,beef and veal,market price support (MPS),0.0,USD million,2023,MIM-15,general,High,
+OSU-202,New Zealand,beef and veal,market price support (MPS),0.0,USD million,2024,MIM-15,general,High,
+OSU-203,New Zealand,beef and veal,producer nominal protection coefficient (producer NPC),1.0,ratio (1.00 = no price support),2022,MIM-15,general,High,
+OSU-204,New Zealand,beef and veal,producer nominal protection coefficient (producer NPC),1.0,ratio (1.00 = no price support),2023,MIM-15,general,High,
+OSU-205,New Zealand,beef and veal,producer nominal protection coefficient (producer NPC),1.0,ratio (1.00 = no price support),2024,MIM-15,general,High,
+OSU-206,New Zealand,beef and veal,producer price at farm gate,3279,USD per t,2024,MIM-15,general,High,OECD basis; compare across countries with care (product definitions differ)
+OSU-207,New Zealand,pigmeat,market price support (MPS),0.0,USD million,2022,MIM-15,general,High,
+OSU-208,New Zealand,pigmeat,market price support (MPS),0.0,USD million,2023,MIM-15,general,High,
+OSU-209,New Zealand,pigmeat,market price support (MPS),0.0,USD million,2024,MIM-15,general,High,
+OSU-210,New Zealand,pigmeat,producer nominal protection coefficient (producer NPC),1.0,ratio (1.00 = no price support),2022,MIM-15,general,High,
+OSU-211,New Zealand,pigmeat,producer nominal protection coefficient (producer NPC),1.0,ratio (1.00 = no price support),2023,MIM-15,general,High,
+OSU-212,New Zealand,pigmeat,producer nominal protection coefficient (producer NPC),1.0,ratio (1.00 = no price support),2024,MIM-15,general,High,
+OSU-213,New Zealand,pigmeat,producer price at farm gate,2853,USD per t,2024,MIM-15,general,High,OECD basis; compare across countries with care (product definitions differ)
+OSU-214,New Zealand,poultry meat,market price support (MPS),0.0,USD million,2022,MIM-15,general,High,
+OSU-215,New Zealand,poultry meat,market price support (MPS),0.0,USD million,2023,MIM-15,general,High,
+OSU-216,New Zealand,poultry meat,market price support (MPS),0.0,USD million,2024,MIM-15,general,High,
+OSU-217,New Zealand,poultry meat,producer nominal protection coefficient (producer NPC),1.0,ratio (1.00 = no price support),2022,MIM-15,general,High,
+OSU-218,New Zealand,poultry meat,producer nominal protection coefficient (producer NPC),1.0,ratio (1.00 = no price support),2023,MIM-15,general,High,
+OSU-219,New Zealand,poultry meat,producer nominal protection coefficient (producer NPC),1.0,ratio (1.00 = no price support),2024,MIM-15,general,High,
+OSU-220,New Zealand,poultry meat,producer price at farm gate,1923,USD per t,2024,MIM-15,general,High,OECD basis; compare across countries with care (product definitions differ)
+OSU-221,New Zealand,raw milk,market price support (MPS),0.0,USD million,2022,MIM-15,general,High,
+OSU-222,New Zealand,raw milk,market price support (MPS),0.0,USD million,2023,MIM-15,general,High,
+OSU-223,New Zealand,raw milk,market price support (MPS),0.0,USD million,2024,MIM-15,general,High,
+OSU-224,New Zealand,raw milk,producer nominal protection coefficient (producer NPC),1.0,ratio (1.00 = no price support),2022,MIM-15,general,High,
+OSU-225,New Zealand,raw milk,producer nominal protection coefficient (producer NPC),1.0,ratio (1.00 = no price support),2023,MIM-15,general,High,
+OSU-226,New Zealand,raw milk,producer nominal protection coefficient (producer NPC),1.0,ratio (1.00 = no price support),2024,MIM-15,general,High,
+OSU-227,OECD total,all agriculture,producer support estimate as % of gross farm receipts (%PSE),12.1,percent,2022,MIM-16,general,High,"Support of all kinds, including payments not tied to any product"
+OSU-228,OECD total,all agriculture,producer support estimate as % of gross farm receipts (%PSE),13.5,percent,2023,MIM-16,general,High,"Support of all kinds, including payments not tied to any product"
+OSU-229,OECD total,all agriculture,producer support estimate as % of gross farm receipts (%PSE),14.0,percent,2024,MIM-16,general,High,"Support of all kinds, including payments not tied to any product"
+OSU-230,Russia,all agriculture,producer support estimate as % of gross farm receipts (%PSE),3.3,percent,2022,MIM-16,general,High,"Support of all kinds, including payments not tied to any product"
+OSU-231,Russia,all agriculture,producer support estimate as % of gross farm receipts (%PSE),3.5,percent,2023,MIM-16,general,High,"Support of all kinds, including payments not tied to any product"
+OSU-232,Russia,all agriculture,producer support estimate as % of gross farm receipts (%PSE),4.8,percent,2024,MIM-16,general,High,"Support of all kinds, including payments not tied to any product"
+OSU-233,Russia,beef and veal,market price support (MPS),1213.9,USD million,2022,MIM-15,general,High,
+OSU-234,Russia,beef and veal,market price support (MPS),1065.5,USD million,2023,MIM-15,general,High,
+OSU-235,Russia,beef and veal,market price support (MPS),686.1,USD million,2024,MIM-15,general,High,
+OSU-236,Russia,beef and veal,producer nominal protection coefficient (producer NPC),1.17,ratio (1.00 = no price support),2022,MIM-15,general,High,
+OSU-237,Russia,beef and veal,producer nominal protection coefficient (producer NPC),1.18,ratio (1.00 = no price support),2023,MIM-15,general,High,
+OSU-238,Russia,beef and veal,producer nominal protection coefficient (producer NPC),1.13,ratio (1.00 = no price support),2024,MIM-15,general,High,
+OSU-239,Russia,beef and veal,producer price at farm gate,3854,USD per t,2024,MIM-15,general,High,OECD basis; compare across countries with care (product definitions differ)
+OSU-240,Russia,maize,producer nominal protection coefficient (producer NPC),0.85,ratio (1.00 = no price support),2022,MIM-15,general,High,Feed grain; below 1.00 means domestic feed cheaper than border price because of policy
+OSU-241,Russia,maize,producer nominal protection coefficient (producer NPC),0.61,ratio (1.00 = no price support),2023,MIM-15,general,High,Feed grain; below 1.00 means domestic feed cheaper than border price because of policy
+OSU-242,Russia,maize,producer nominal protection coefficient (producer NPC),0.82,ratio (1.00 = no price support),2024,MIM-15,general,High,Feed grain; below 1.00 means domestic feed cheaper than border price because of policy
+OSU-243,Russia,pigmeat,excess feed cost (EFC),-790.8,USD million,2022,MIM-15,general,High,Negative = feed cheaper than border price because of grain export restrictions; an implicit transfer to pig producers
+OSU-244,Russia,pigmeat,excess feed cost (EFC),-501.8,USD million,2023,MIM-15,general,High,Negative = feed cheaper than border price because of grain export restrictions; an implicit transfer to pig producers
+OSU-245,Russia,pigmeat,excess feed cost (EFC),-212.1,USD million,2024,MIM-15,general,High,Negative = feed cheaper than border price because of grain export restrictions; an implicit transfer to pig producers
+OSU-246,Russia,pigmeat,market price support (MPS),4315.0,USD million,2022,MIM-15,general,High,
+OSU-247,Russia,pigmeat,market price support (MPS),2393.3,USD million,2023,MIM-15,general,High,
+OSU-248,Russia,pigmeat,market price support (MPS),1475.7,USD million,2024,MIM-15,general,High,
+OSU-249,Russia,pigmeat,producer nominal protection coefficient (producer NPC),1.65,ratio (1.00 = no price support),2022,MIM-15,general,High,
+OSU-250,Russia,pigmeat,producer nominal protection coefficient (producer NPC),1.3,ratio (1.00 = no price support),2023,MIM-15,general,High,
+OSU-251,Russia,pigmeat,producer nominal protection coefficient (producer NPC),1.19,ratio (1.00 = no price support),2024,MIM-15,general,High,
+OSU-252,Russia,pigmeat,producer price at farm gate,1910,USD per t,2024,MIM-15,general,High,OECD basis; compare across countries with care (product definitions differ)
+OSU-253,Russia,poultry meat,market price support (MPS),1260.8,USD million,2022,MIM-15,general,High,
+OSU-254,Russia,poultry meat,market price support (MPS),759.8,USD million,2023,MIM-15,general,High,
+OSU-255,Russia,poultry meat,market price support (MPS),248.1,USD million,2024,MIM-15,general,High,
+OSU-256,Russia,poultry meat,producer nominal protection coefficient (producer NPC),1.07,ratio (1.00 = no price support),2022,MIM-15,general,High,
+OSU-257,Russia,poultry meat,producer nominal protection coefficient (producer NPC),1.04,ratio (1.00 = no price support),2023,MIM-15,general,High,
+OSU-258,Russia,poultry meat,producer nominal protection coefficient (producer NPC),1.01,ratio (1.00 = no price support),2024,MIM-15,general,High,
+OSU-259,Russia,poultry meat,producer price at farm gate,1784,USD per t,2024,MIM-15,general,High,OECD basis; compare across countries with care (product definitions differ)
+OSU-260,Russia,raw milk,market price support (MPS),2770.0,USD million,2022,MIM-15,general,High,
+OSU-261,Russia,raw milk,market price support (MPS),343.7,USD million,2023,MIM-15,general,High,
+OSU-262,Russia,raw milk,market price support (MPS),145.3,USD million,2024,MIM-15,general,High,
+OSU-263,Russia,raw milk,producer nominal protection coefficient (producer NPC),1.18,ratio (1.00 = no price support),2022,MIM-15,general,High,
+OSU-264,Russia,raw milk,producer nominal protection coefficient (producer NPC),1.01,ratio (1.00 = no price support),2023,MIM-15,general,High,
+OSU-265,Russia,raw milk,producer nominal protection coefficient (producer NPC),1.01,ratio (1.00 = no price support),2024,MIM-15,general,High,
+OSU-266,United States,all agriculture,producer support estimate as % of gross farm receipts (%PSE),7.2,percent,2022,MIM-16,general,High,"Support of all kinds, including payments not tied to any product"
+OSU-267,United States,all agriculture,producer support estimate as % of gross farm receipts (%PSE),6.8,percent,2023,MIM-16,general,High,"Support of all kinds, including payments not tied to any product"
+OSU-268,United States,all agriculture,producer support estimate as % of gross farm receipts (%PSE),7.2,percent,2024,MIM-16,general,High,"Support of all kinds, including payments not tied to any product"
+OSU-269,United States,beef and veal,market price support (MPS),0.0,USD million,2022,MIM-15,general,High,
+OSU-270,United States,beef and veal,market price support (MPS),0.0,USD million,2023,MIM-15,general,High,
+OSU-271,United States,beef and veal,market price support (MPS),0.0,USD million,2024,MIM-15,general,High,
+OSU-272,United States,beef and veal,producer nominal protection coefficient (producer NPC),1.0,ratio (1.00 = no price support),2022,MIM-15,general,High,
+OSU-273,United States,beef and veal,producer nominal protection coefficient (producer NPC),1.0,ratio (1.00 = no price support),2023,MIM-15,general,High,
+OSU-274,United States,beef and veal,producer nominal protection coefficient (producer NPC),1.0,ratio (1.00 = no price support),2024,MIM-15,general,High,
+OSU-275,United States,beef and veal,producer price at farm gate,7079,USD per t,2024,MIM-15,general,High,OECD basis; compare across countries with care (product definitions differ)
+OSU-276,United States,maize,producer nominal protection coefficient (producer NPC),1.0,ratio (1.00 = no price support),2022,MIM-15,general,High,Feed grain; below 1.00 means domestic feed cheaper than border price because of policy
+OSU-277,United States,maize,producer nominal protection coefficient (producer NPC),1.0,ratio (1.00 = no price support),2023,MIM-15,general,High,Feed grain; below 1.00 means domestic feed cheaper than border price because of policy
+OSU-278,United States,maize,producer nominal protection coefficient (producer NPC),1.0,ratio (1.00 = no price support),2024,MIM-15,general,High,Feed grain; below 1.00 means domestic feed cheaper than border price because of policy
+OSU-279,United States,pigmeat,market price support (MPS),0.0,USD million,2022,MIM-15,general,High,
+OSU-280,United States,pigmeat,market price support (MPS),0.0,USD million,2023,MIM-15,general,High,
+OSU-281,United States,pigmeat,market price support (MPS),0.0,USD million,2024,MIM-15,general,High,
+OSU-282,United States,pigmeat,producer nominal protection coefficient (producer NPC),1.0,ratio (1.00 = no price support),2022,MIM-15,general,High,
+OSU-283,United States,pigmeat,producer nominal protection coefficient (producer NPC),1.0,ratio (1.00 = no price support),2023,MIM-15,general,High,
+OSU-284,United States,pigmeat,producer nominal protection coefficient (producer NPC),1.0,ratio (1.00 = no price support),2024,MIM-15,general,High,
+OSU-285,United States,pigmeat,producer price at farm gate,2137,USD per t,2024,MIM-15,general,High,OECD basis; compare across countries with care (product definitions differ)
+OSU-286,United States,poultry meat,market price support (MPS),0.0,USD million,2022,MIM-15,general,High,
+OSU-287,United States,poultry meat,market price support (MPS),0.0,USD million,2023,MIM-15,general,High,
+OSU-288,United States,poultry meat,market price support (MPS),0.0,USD million,2024,MIM-15,general,High,
+OSU-289,United States,poultry meat,producer nominal protection coefficient (producer NPC),1.0,ratio (1.00 = no price support),2022,MIM-15,general,High,
+OSU-290,United States,poultry meat,producer nominal protection coefficient (producer NPC),1.0,ratio (1.00 = no price support),2023,MIM-15,general,High,
+OSU-291,United States,poultry meat,producer nominal protection coefficient (producer NPC),1.0,ratio (1.00 = no price support),2024,MIM-15,general,High,
+OSU-292,United States,poultry meat,producer price at farm gate,2057,USD per t,2024,MIM-15,general,High,OECD basis; compare across countries with care (product definitions differ)
+OSU-293,United States,raw milk,market price support (MPS),0.0,USD million,2022,MIM-15,general,High,
+OSU-294,United States,raw milk,market price support (MPS),0.0,USD million,2023,MIM-15,general,High,
+OSU-295,United States,raw milk,market price support (MPS),0.0,USD million,2024,MIM-15,general,High,
+OSU-296,United States,raw milk,producer nominal protection coefficient (producer NPC),1.0,ratio (1.00 = no price support),2022,MIM-15,general,High,
+OSU-297,United States,raw milk,producer nominal protection coefficient (producer NPC),1.0,ratio (1.00 = no price support),2023,MIM-15,general,High,
+OSU-298,United States,raw milk,producer nominal protection coefficient (producer NPC),1.0,ratio (1.00 = no price support),2024,MIM-15,general,High,
+OSU-299,United States,soybeans,producer nominal protection coefficient (producer NPC),1.0,ratio (1.00 = no price support),2022,MIM-15,general,High,Feed grain; below 1.00 means domestic feed cheaper than border price because of policy
+OSU-300,United States,soybeans,producer nominal protection coefficient (producer NPC),1.0,ratio (1.00 = no price support),2023,MIM-15,general,High,Feed grain; below 1.00 means domestic feed cheaper than border price because of policy
+OSU-301,United States,soybeans,producer nominal protection coefficient (producer NPC),1.0,ratio (1.00 = no price support),2024,MIM-15,general,High,Feed grain; below 1.00 means domestic feed cheaper than border price because of policy
+OSU-302,Vietnam,all agriculture,producer support estimate as % of gross farm receipts (%PSE),-10.9,percent,2022,MIM-16,VN-direct,High,"Support of all kinds, including payments not tied to any product"
+OSU-303,Vietnam,all agriculture,producer support estimate as % of gross farm receipts (%PSE),-14.6,percent,2023,MIM-16,VN-direct,High,"Support of all kinds, including payments not tied to any product"
+OSU-304,Vietnam,all agriculture,producer support estimate as % of gross farm receipts (%PSE),-10.3,percent,2024,MIM-16,VN-direct,High,"Support of all kinds, including payments not tied to any product"
+OSU-305,Vietnam,beef and veal,market price support (MPS),431.5,USD million,2022,MIM-15,VN-direct,High,
+OSU-306,Vietnam,beef and veal,market price support (MPS),549.8,USD million,2023,MIM-15,VN-direct,High,
+OSU-307,Vietnam,beef and veal,market price support (MPS),536.8,USD million,2024,MIM-15,VN-direct,High,
+OSU-308,Vietnam,beef and veal,producer nominal protection coefficient (producer NPC),1.32,ratio (1.00 = no price support),2022,MIM-15,VN-direct,High,
+OSU-309,Vietnam,beef and veal,producer nominal protection coefficient (producer NPC),1.48,ratio (1.00 = no price support),2023,MIM-15,VN-direct,High,
+OSU-310,Vietnam,beef and veal,producer nominal protection coefficient (producer NPC),1.47,ratio (1.00 = no price support),2024,MIM-15,VN-direct,High,
+OSU-311,Vietnam,beef and veal,producer price at farm gate,6862,USD per t,2024,MIM-15,VN-direct,High,OECD basis; compare across countries with care (product definitions differ)
+OSU-312,Vietnam,pigmeat,market price support (MPS),7.5,USD million,2022,MIM-15,VN-direct,High,
+OSU-313,Vietnam,pigmeat,market price support (MPS),-222.7,USD million,2023,MIM-15,VN-direct,High,
+OSU-314,Vietnam,pigmeat,market price support (MPS),-466.0,USD million,2024,MIM-15,VN-direct,High,
+OSU-315,Vietnam,pigmeat,producer nominal protection coefficient (producer NPC),1.0,ratio (1.00 = no price support),2022,MIM-15,VN-direct,High,
+OSU-316,Vietnam,pigmeat,producer nominal protection coefficient (producer NPC),1.0,ratio (1.00 = no price support),2023,MIM-15,VN-direct,High,
+OSU-317,Vietnam,pigmeat,producer nominal protection coefficient (producer NPC),1.0,ratio (1.00 = no price support),2024,MIM-15,VN-direct,High,
+OSU-318,Vietnam,pigmeat,producer price at farm gate,3714,USD per t,2024,MIM-15,VN-direct,High,OECD basis; compare across countries with care (product definitions differ)
+OSU-319,Vietnam,poultry meat,market price support (MPS),-2355.2,USD million,2022,MIM-15,VN-direct,High,
+OSU-320,Vietnam,poultry meat,market price support (MPS),-3055.9,USD million,2023,MIM-15,VN-direct,High,
+OSU-321,Vietnam,poultry meat,market price support (MPS),-3059.9,USD million,2024,MIM-15,VN-direct,High,
+OSU-322,Vietnam,poultry meat,producer nominal protection coefficient (producer NPC),0.6,ratio (1.00 = no price support),2022,MIM-15,VN-direct,High,
+OSU-323,Vietnam,poultry meat,producer nominal protection coefficient (producer NPC),0.52,ratio (1.00 = no price support),2023,MIM-15,VN-direct,High,
+OSU-324,Vietnam,poultry meat,producer nominal protection coefficient (producer NPC),0.55,ratio (1.00 = no price support),2024,MIM-15,VN-direct,High,
+OSU-325,Vietnam,poultry meat,producer price at farm gate,1953,USD per t,2024,MIM-15,VN-direct,High,OECD basis; compare across countries with care (product definitions differ)

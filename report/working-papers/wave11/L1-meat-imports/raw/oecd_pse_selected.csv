@@ -1,0 +1,199 @@
+DATAFLOW,REF_AREA: Reference area,FREQ: Frequency of observation,MEASURE: Measure,COMMODITY: Commodity,UNIT_MEASURE: Unit of measure,TIME_PERIOD: Time period,OBS_VALUE,DECIMALS: Decimals,OBS_STATUS: Observation status,CURRENCY: Currency,UNIT_MULT: Unit multiplier
+OECD.TAD.ARP:DSD_AGR_POLIND@DF_PSE(1.2),AUS: Australia,A: Annual,PNPC: Producer Nominal Protection Coefficient (producer NPC),CPC_EX_TO: Total indicators,FCTR: Factor,2024,,2: Two,O: Missing value,,
+OECD.TAD.ARP:DSD_AGR_POLIND@DF_PSE(1.2),KOR: Korea,A: Annual,PSE: Producer Support Estimate (PSE),CPC_EX_TO: Total indicators,XDC: National currency,2022,25132.4428,2: Two,,KRW: Won,9: Billions
+OECD.TAD.ARP:DSD_AGR_POLIND@DF_PSE(1.2),KOR: Korea,A: Annual,PSE: Producer Support Estimate (PSE),CPC_EX_TO: Total indicators,XDC: National currency,2023,25823.5742,2: Two,,KRW: Won,9: Billions
+OECD.TAD.ARP:DSD_AGR_POLIND@DF_PSE(1.2),KOR: Korea,A: Annual,PSE: Producer Support Estimate (PSE),CPC_EX_TO: Total indicators,XDC: National currency,2024,27544.2792,2: Two,,KRW: Won,9: Billions
+OECD.TAD.ARP:DSD_AGR_POLIND@DF_PSE(1.2),AUS: Australia,A: Annual,PSE: Producer Support Estimate (PSE),CPC_EX_TO: Total indicators,XDC: National currency,2022,3024.3478,2: Two,,AUD: Australian dollar,6: Millions
+OECD.TAD.ARP:DSD_AGR_POLIND@DF_PSE(1.2),AUS: Australia,A: Annual,PSE: Producer Support Estimate (PSE),CPC_EX_TO: Total indicators,XDC: National currency,2023,2304.2174,2: Two,,AUD: Australian dollar,6: Millions
+OECD.TAD.ARP:DSD_AGR_POLIND@DF_PSE(1.2),AUS: Australia,A: Annual,PSE: Producer Support Estimate (PSE),CPC_EX_TO: Total indicators,XDC: National currency,2024,2224.6371,2: Two,,AUD: Australian dollar,6: Millions
+OECD.TAD.ARP:DSD_AGR_POLIND@DF_PSE(1.2),CAN: Canada,A: Annual,PSE: Producer Support Estimate (PSE),CPC_EX_TO: Total indicators,XDC: National currency,2022,7280.9365,2: Two,,CAD: Canadian dollar,6: Millions
+OECD.TAD.ARP:DSD_AGR_POLIND@DF_PSE(1.2),CAN: Canada,A: Annual,PSE: Producer Support Estimate (PSE),CPC_EX_TO: Total indicators,XDC: National currency,2023,7556.1003,2: Two,,CAD: Canadian dollar,6: Millions
+OECD.TAD.ARP:DSD_AGR_POLIND@DF_PSE(1.2),CAN: Canada,A: Annual,PSE: Producer Support Estimate (PSE),CPC_EX_TO: Total indicators,XDC: National currency,2024,8856.0457,2: Two,,CAD: Canadian dollar,6: Millions
+OECD.TAD.ARP:DSD_AGR_POLIND@DF_PSE(1.2),NZL: New Zealand,A: Annual,PSE: Producer Support Estimate (PSE),CPC_EX_TO: Total indicators,XDC: National currency,2022,238.4116,2: Two,,NZD: New Zealand dollar,6: Millions
+OECD.TAD.ARP:DSD_AGR_POLIND@DF_PSE(1.2),NZL: New Zealand,A: Annual,PSE: Producer Support Estimate (PSE),CPC_EX_TO: Total indicators,XDC: National currency,2023,511.4874,2: Two,,NZD: New Zealand dollar,6: Millions
+OECD.TAD.ARP:DSD_AGR_POLIND@DF_PSE(1.2),NZL: New Zealand,A: Annual,PSE: Producer Support Estimate (PSE),CPC_EX_TO: Total indicators,XDC: National currency,2024,581.299,2: Two,,NZD: New Zealand dollar,6: Millions
+OECD.TAD.ARP:DSD_AGR_POLIND@DF_PSE(1.2),USA: United States,A: Annual,PSE: Producer Support Estimate (PSE),CPC_EX_TO: Total indicators,XDC: National currency,2022,40974.2609,2: Two,,USD: US dollar,6: Millions
+OECD.TAD.ARP:DSD_AGR_POLIND@DF_PSE(1.2),USA: United States,A: Annual,PSE: Producer Support Estimate (PSE),CPC_EX_TO: Total indicators,XDC: National currency,2023,35436.1117,2: Two,,USD: US dollar,6: Millions
+OECD.TAD.ARP:DSD_AGR_POLIND@DF_PSE(1.2),USA: United States,A: Annual,PSE: Producer Support Estimate (PSE),CPC_EX_TO: Total indicators,XDC: National currency,2024,38155.0822,2: Two,,USD: US dollar,6: Millions
+OECD.TAD.ARP:DSD_AGR_POLIND@DF_PSE(1.2),EU: European Union,A: Annual,PSE: Producer Support Estimate (PSE),CPC_EX_TO: Total indicators,XDC: National currency,2022,84259.1728,2: Two,,EUR: Euro,6: Millions
+OECD.TAD.ARP:DSD_AGR_POLIND@DF_PSE(1.2),EU: European Union,A: Annual,PSE: Producer Support Estimate (PSE),CPC_EX_TO: Total indicators,XDC: National currency,2023,94148.8018,2: Two,,EUR: Euro,6: Millions
+OECD.TAD.ARP:DSD_AGR_POLIND@DF_PSE(1.2),EU: European Union,A: Annual,PSE: Producer Support Estimate (PSE),CPC_EX_TO: Total indicators,XDC: National currency,2024,93711.0458,2: Two,,EUR: Euro,6: Millions
+OECD.TAD.ARP:DSD_AGR_POLIND@DF_PSE(1.2),BRA: Brazil,A: Annual,PSE: Producer Support Estimate (PSE),CPC_EX_TO: Total indicators,XDC: National currency,2022,50317.7656,2: Two,,BRL: Brazilian real,6: Millions
+OECD.TAD.ARP:DSD_AGR_POLIND@DF_PSE(1.2),BRA: Brazil,A: Annual,PSE: Producer Support Estimate (PSE),CPC_EX_TO: Total indicators,XDC: National currency,2023,51997.3595,2: Two,,BRL: Brazilian real,6: Millions
+OECD.TAD.ARP:DSD_AGR_POLIND@DF_PSE(1.2),BRA: Brazil,A: Annual,PSE: Producer Support Estimate (PSE),CPC_EX_TO: Total indicators,XDC: National currency,2024,87313.6545,2: Two,,BRL: Brazilian real,6: Millions
+OECD.TAD.ARP:DSD_AGR_POLIND@DF_PSE(1.2),IND: India,A: Annual,PSE: Producer Support Estimate (PSE),CPC_EX_TO: Total indicators,XDC: National currency,2022,-7842456.1242,2: Two,,INR: Indian rupee,6: Millions
+OECD.TAD.ARP:DSD_AGR_POLIND@DF_PSE(1.2),IND: India,A: Annual,PSE: Producer Support Estimate (PSE),CPC_EX_TO: Total indicators,XDC: National currency,2023,-4118542.2266,2: Two,,INR: Indian rupee,6: Millions
+OECD.TAD.ARP:DSD_AGR_POLIND@DF_PSE(1.2),IND: India,A: Annual,PSE: Producer Support Estimate (PSE),CPC_EX_TO: Total indicators,XDC: National currency,2024,-6068285.9682,2: Two,,INR: Indian rupee,6: Millions
+OECD.TAD.ARP:DSD_AGR_POLIND@DF_PSE(1.2),RUS: Russia,A: Annual,PSE: Producer Support Estimate (PSE),CPC_EX_TO: Total indicators,XDC: National currency,2022,287802.0378,2: Two,,RUB: Russian ruble,6: Millions
+OECD.TAD.ARP:DSD_AGR_POLIND@DF_PSE(1.2),RUS: Russia,A: Annual,PSE: Producer Support Estimate (PSE),CPC_EX_TO: Total indicators,XDC: National currency,2023,290697.5019,2: Two,,RUB: Russian ruble,6: Millions
+OECD.TAD.ARP:DSD_AGR_POLIND@DF_PSE(1.2),RUS: Russia,A: Annual,PSE: Producer Support Estimate (PSE),CPC_EX_TO: Total indicators,XDC: National currency,2024,431081.7299,2: Two,,RUB: Russian ruble,6: Millions
+OECD.TAD.ARP:DSD_AGR_POLIND@DF_PSE(1.2),VNM: Viet Nam,A: Annual,PSE: Producer Support Estimate (PSE),CPC_EX_TO: Total indicators,XDC: National currency,2022,-123108147.4935,2: Two,,VND: Dong,6: Millions
+OECD.TAD.ARP:DSD_AGR_POLIND@DF_PSE(1.2),VNM: Viet Nam,A: Annual,PSE: Producer Support Estimate (PSE),CPC_EX_TO: Total indicators,XDC: National currency,2023,-170121208.2333,2: Two,,VND: Dong,6: Millions
+OECD.TAD.ARP:DSD_AGR_POLIND@DF_PSE(1.2),VNM: Viet Nam,A: Annual,PSE: Producer Support Estimate (PSE),CPC_EX_TO: Total indicators,XDC: National currency,2024,-125229064.4354,2: Two,,VND: Dong,6: Millions
+OECD.TAD.ARP:DSD_AGR_POLIND@DF_PSE(1.2),AUS: Australia,A: Annual,"PSEP: Producer Support Estimate, relative to GFR (Percentage PSE)",CPC_EX_TO: Total indicators,PT_REC_FRM: Percentage of gross farm receipts,2022,3.1034,2: Two,,,
+OECD.TAD.ARP:DSD_AGR_POLIND@DF_PSE(1.2),AUS: Australia,A: Annual,"PSEP: Producer Support Estimate, relative to GFR (Percentage PSE)",CPC_EX_TO: Total indicators,PT_REC_FRM: Percentage of gross farm receipts,2023,2.7086,2: Two,,,
+OECD.TAD.ARP:DSD_AGR_POLIND@DF_PSE(1.2),AUS: Australia,A: Annual,"PSEP: Producer Support Estimate, relative to GFR (Percentage PSE)",CPC_EX_TO: Total indicators,PT_REC_FRM: Percentage of gross farm receipts,2024,2.3637,2: Two,,,
+OECD.TAD.ARP:DSD_AGR_POLIND@DF_PSE(1.2),CAN: Canada,A: Annual,"PSEP: Producer Support Estimate, relative to GFR (Percentage PSE)",CPC_EX_TO: Total indicators,PT_REC_FRM: Percentage of gross farm receipts,2022,7.8668,2: Two,,,
+OECD.TAD.ARP:DSD_AGR_POLIND@DF_PSE(1.2),CAN: Canada,A: Annual,"PSEP: Producer Support Estimate, relative to GFR (Percentage PSE)",CPC_EX_TO: Total indicators,PT_REC_FRM: Percentage of gross farm receipts,2023,7.7118,2: Two,,,
+OECD.TAD.ARP:DSD_AGR_POLIND@DF_PSE(1.2),CAN: Canada,A: Annual,"PSEP: Producer Support Estimate, relative to GFR (Percentage PSE)",CPC_EX_TO: Total indicators,PT_REC_FRM: Percentage of gross farm receipts,2024,9.0947,2: Two,,,
+OECD.TAD.ARP:DSD_AGR_POLIND@DF_PSE(1.2),KOR: Korea,A: Annual,"PSEP: Producer Support Estimate, relative to GFR (Percentage PSE)",CPC_EX_TO: Total indicators,PT_REC_FRM: Percentage of gross farm receipts,2022,40.8907,2: Two,,,
+OECD.TAD.ARP:DSD_AGR_POLIND@DF_PSE(1.2),KOR: Korea,A: Annual,"PSEP: Producer Support Estimate, relative to GFR (Percentage PSE)",CPC_EX_TO: Total indicators,PT_REC_FRM: Percentage of gross farm receipts,2023,40.072,2: Two,,,
+OECD.TAD.ARP:DSD_AGR_POLIND@DF_PSE(1.2),KOR: Korea,A: Annual,"PSEP: Producer Support Estimate, relative to GFR (Percentage PSE)",CPC_EX_TO: Total indicators,PT_REC_FRM: Percentage of gross farm receipts,2024,41.1475,2: Two,,,
+OECD.TAD.ARP:DSD_AGR_POLIND@DF_PSE(1.2),NZL: New Zealand,A: Annual,"PSEP: Producer Support Estimate, relative to GFR (Percentage PSE)",CPC_EX_TO: Total indicators,PT_REC_FRM: Percentage of gross farm receipts,2022,0.6888,2: Two,,,
+OECD.TAD.ARP:DSD_AGR_POLIND@DF_PSE(1.2),NZL: New Zealand,A: Annual,"PSEP: Producer Support Estimate, relative to GFR (Percentage PSE)",CPC_EX_TO: Total indicators,PT_REC_FRM: Percentage of gross farm receipts,2023,1.5309,2: Two,,,
+OECD.TAD.ARP:DSD_AGR_POLIND@DF_PSE(1.2),NZL: New Zealand,A: Annual,"PSEP: Producer Support Estimate, relative to GFR (Percentage PSE)",CPC_EX_TO: Total indicators,PT_REC_FRM: Percentage of gross farm receipts,2024,1.6035,2: Two,,,
+OECD.TAD.ARP:DSD_AGR_POLIND@DF_PSE(1.2),USA: United States,A: Annual,"PSEP: Producer Support Estimate, relative to GFR (Percentage PSE)",CPC_EX_TO: Total indicators,PT_REC_FRM: Percentage of gross farm receipts,2022,7.1793,2: Two,,,
+OECD.TAD.ARP:DSD_AGR_POLIND@DF_PSE(1.2),USA: United States,A: Annual,"PSEP: Producer Support Estimate, relative to GFR (Percentage PSE)",CPC_EX_TO: Total indicators,PT_REC_FRM: Percentage of gross farm receipts,2023,6.7933,2: Two,,,
+OECD.TAD.ARP:DSD_AGR_POLIND@DF_PSE(1.2),USA: United States,A: Annual,"PSEP: Producer Support Estimate, relative to GFR (Percentage PSE)",CPC_EX_TO: Total indicators,PT_REC_FRM: Percentage of gross farm receipts,2024,7.2,2: Two,,,
+OECD.TAD.ARP:DSD_AGR_POLIND@DF_PSE(1.2),EU: European Union,A: Annual,"PSEP: Producer Support Estimate, relative to GFR (Percentage PSE)",CPC_EX_TO: Total indicators,PT_REC_FRM: Percentage of gross farm receipts,2022,14.9396,2: Two,,,
+OECD.TAD.ARP:DSD_AGR_POLIND@DF_PSE(1.2),EU: European Union,A: Annual,"PSEP: Producer Support Estimate, relative to GFR (Percentage PSE)",CPC_EX_TO: Total indicators,PT_REC_FRM: Percentage of gross farm receipts,2023,17.0491,2: Two,,,
+OECD.TAD.ARP:DSD_AGR_POLIND@DF_PSE(1.2),EU: European Union,A: Annual,"PSEP: Producer Support Estimate, relative to GFR (Percentage PSE)",CPC_EX_TO: Total indicators,PT_REC_FRM: Percentage of gross farm receipts,2024,17.2287,2: Two,,,
+OECD.TAD.ARP:DSD_AGR_POLIND@DF_PSE(1.2),OECD: OECD,A: Annual,"PSEP: Producer Support Estimate, relative to GFR (Percentage PSE)",CPC_EX_TO: Total indicators,PT_REC_FRM: Percentage of gross farm receipts,2022,12.0946,2: Two,,,
+OECD.TAD.ARP:DSD_AGR_POLIND@DF_PSE(1.2),OECD: OECD,A: Annual,"PSEP: Producer Support Estimate, relative to GFR (Percentage PSE)",CPC_EX_TO: Total indicators,PT_REC_FRM: Percentage of gross farm receipts,2023,13.5304,2: Two,,,
+OECD.TAD.ARP:DSD_AGR_POLIND@DF_PSE(1.2),OECD: OECD,A: Annual,"PSEP: Producer Support Estimate, relative to GFR (Percentage PSE)",CPC_EX_TO: Total indicators,PT_REC_FRM: Percentage of gross farm receipts,2024,14.0045,2: Two,,,
+OECD.TAD.ARP:DSD_AGR_POLIND@DF_PSE(1.2),BRA: Brazil,A: Annual,"PSEP: Producer Support Estimate, relative to GFR (Percentage PSE)",CPC_EX_TO: Total indicators,PT_REC_FRM: Percentage of gross farm receipts,2022,4.3744,2: Two,,,
+OECD.TAD.ARP:DSD_AGR_POLIND@DF_PSE(1.2),BRA: Brazil,A: Annual,"PSEP: Producer Support Estimate, relative to GFR (Percentage PSE)",CPC_EX_TO: Total indicators,PT_REC_FRM: Percentage of gross farm receipts,2023,4.3702,2: Two,,,
+OECD.TAD.ARP:DSD_AGR_POLIND@DF_PSE(1.2),BRA: Brazil,A: Annual,"PSEP: Producer Support Estimate, relative to GFR (Percentage PSE)",CPC_EX_TO: Total indicators,PT_REC_FRM: Percentage of gross farm receipts,2024,7.5077,2: Two,,,
+OECD.TAD.ARP:DSD_AGR_POLIND@DF_PSE(1.2),IND: India,A: Annual,"PSEP: Producer Support Estimate, relative to GFR (Percentage PSE)",CPC_EX_TO: Total indicators,PT_REC_FRM: Percentage of gross farm receipts,2022,-19.5657,2: Two,,,
+OECD.TAD.ARP:DSD_AGR_POLIND@DF_PSE(1.2),IND: India,A: Annual,"PSEP: Producer Support Estimate, relative to GFR (Percentage PSE)",CPC_EX_TO: Total indicators,PT_REC_FRM: Percentage of gross farm receipts,2023,-9.977,2: Two,,,
+OECD.TAD.ARP:DSD_AGR_POLIND@DF_PSE(1.2),IND: India,A: Annual,"PSEP: Producer Support Estimate, relative to GFR (Percentage PSE)",CPC_EX_TO: Total indicators,PT_REC_FRM: Percentage of gross farm receipts,2024,-14.1406,2: Two,,,
+OECD.TAD.ARP:DSD_AGR_POLIND@DF_PSE(1.2),RUS: Russia,A: Annual,"PSEP: Producer Support Estimate, relative to GFR (Percentage PSE)",CPC_EX_TO: Total indicators,PT_REC_FRM: Percentage of gross farm receipts,2022,3.3498,2: Two,,,
+OECD.TAD.ARP:DSD_AGR_POLIND@DF_PSE(1.2),RUS: Russia,A: Annual,"PSEP: Producer Support Estimate, relative to GFR (Percentage PSE)",CPC_EX_TO: Total indicators,PT_REC_FRM: Percentage of gross farm receipts,2023,3.4929,2: Two,,,
+OECD.TAD.ARP:DSD_AGR_POLIND@DF_PSE(1.2),RUS: Russia,A: Annual,"PSEP: Producer Support Estimate, relative to GFR (Percentage PSE)",CPC_EX_TO: Total indicators,PT_REC_FRM: Percentage of gross farm receipts,2024,4.845,2: Two,,,
+OECD.TAD.ARP:DSD_AGR_POLIND@DF_PSE(1.2),VNM: Viet Nam,A: Annual,"PSEP: Producer Support Estimate, relative to GFR (Percentage PSE)",CPC_EX_TO: Total indicators,PT_REC_FRM: Percentage of gross farm receipts,2022,-10.9398,2: Two,,,
+OECD.TAD.ARP:DSD_AGR_POLIND@DF_PSE(1.2),VNM: Viet Nam,A: Annual,"PSEP: Producer Support Estimate, relative to GFR (Percentage PSE)",CPC_EX_TO: Total indicators,PT_REC_FRM: Percentage of gross farm receipts,2023,-14.5534,2: Two,,,
+OECD.TAD.ARP:DSD_AGR_POLIND@DF_PSE(1.2),VNM: Viet Nam,A: Annual,"PSEP: Producer Support Estimate, relative to GFR (Percentage PSE)",CPC_EX_TO: Total indicators,PT_REC_FRM: Percentage of gross farm receipts,2024,-10.3012,2: Two,,,
+OECD.TAD.ARP:DSD_AGR_POLIND@DF_PSE(1.2),OECD: OECD,A: Annual,PSE: Producer Support Estimate (PSE),CPC_EX_TO: Total indicators,XDC: National currency,2022,203432.5455,2: Two,,,6: Millions
+OECD.TAD.ARP:DSD_AGR_POLIND@DF_PSE(1.2),OECD: OECD,A: Annual,PSE: Producer Support Estimate (PSE),CPC_EX_TO: Total indicators,XDC: National currency,2023,223719.1885,2: Two,,,6: Millions
+OECD.TAD.ARP:DSD_AGR_POLIND@DF_PSE(1.2),OECD: OECD,A: Annual,PSE: Producer Support Estimate (PSE),CPC_EX_TO: Total indicators,XDC: National currency,2024,234036.0591,2: Two,,,6: Millions
+OECD.TAD.ARP:DSD_AGR_POLIND@DF_PSE(1.2),AUS: Australia,A: Annual,PSE: Producer Support Estimate (PSE),CPC_EX_TO: Total indicators,EUR: Euro,2022,1992.1377,2: Two,,,6: Millions
+OECD.TAD.ARP:DSD_AGR_POLIND@DF_PSE(1.2),AUS: Australia,A: Annual,PSE: Producer Support Estimate (PSE),CPC_EX_TO: Total indicators,EUR: Euro,2023,1415.7887,2: Two,,,6: Millions
+OECD.TAD.ARP:DSD_AGR_POLIND@DF_PSE(1.2),AUS: Australia,A: Annual,PSE: Producer Support Estimate (PSE),CPC_EX_TO: Total indicators,EUR: Euro,2024,1356.3263,2: Two,,,6: Millions
+OECD.TAD.ARP:DSD_AGR_POLIND@DF_PSE(1.2),CAN: Canada,A: Annual,PSE: Producer Support Estimate (PSE),CPC_EX_TO: Total indicators,EUR: Euro,2022,5312.2243,2: Two,,,6: Millions
+OECD.TAD.ARP:DSD_AGR_POLIND@DF_PSE(1.2),CAN: Canada,A: Annual,PSE: Producer Support Estimate (PSE),CPC_EX_TO: Total indicators,EUR: Euro,2023,5176.7814,2: Two,,,6: Millions
+OECD.TAD.ARP:DSD_AGR_POLIND@DF_PSE(1.2),CAN: Canada,A: Annual,PSE: Producer Support Estimate (PSE),CPC_EX_TO: Total indicators,EUR: Euro,2024,5975.0628,2: Two,,,6: Millions
+OECD.TAD.ARP:DSD_AGR_POLIND@DF_PSE(1.2),KOR: Korea,A: Annual,PSE: Producer Support Estimate (PSE),CPC_EX_TO: Total indicators,EUR: Euro,2022,18480.338,2: Two,,,6: Millions
+OECD.TAD.ARP:DSD_AGR_POLIND@DF_PSE(1.2),KOR: Korea,A: Annual,PSE: Producer Support Estimate (PSE),CPC_EX_TO: Total indicators,EUR: Euro,2023,18291.6139,2: Two,,,6: Millions
+OECD.TAD.ARP:DSD_AGR_POLIND@DF_PSE(1.2),KOR: Korea,A: Annual,PSE: Producer Support Estimate (PSE),CPC_EX_TO: Total indicators,EUR: Euro,2024,18665.3592,2: Two,,,6: Millions
+OECD.TAD.ARP:DSD_AGR_POLIND@DF_PSE(1.2),NZL: New Zealand,A: Annual,PSE: Producer Support Estimate (PSE),CPC_EX_TO: Total indicators,EUR: Euro,2022,143.5479,2: Two,,,6: Millions
+OECD.TAD.ARP:DSD_AGR_POLIND@DF_PSE(1.2),NZL: New Zealand,A: Annual,PSE: Producer Support Estimate (PSE),CPC_EX_TO: Total indicators,EUR: Euro,2023,290.4903,2: Two,,,6: Millions
+OECD.TAD.ARP:DSD_AGR_POLIND@DF_PSE(1.2),NZL: New Zealand,A: Annual,PSE: Producer Support Estimate (PSE),CPC_EX_TO: Total indicators,EUR: Euro,2024,325.034,2: Two,,,6: Millions
+OECD.TAD.ARP:DSD_AGR_POLIND@DF_PSE(1.2),USA: United States,A: Annual,PSE: Producer Support Estimate (PSE),CPC_EX_TO: Total indicators,EUR: Euro,2022,38910.1416,2: Two,,,6: Millions
+OECD.TAD.ARP:DSD_AGR_POLIND@DF_PSE(1.2),USA: United States,A: Annual,PSE: Producer Support Estimate (PSE),CPC_EX_TO: Total indicators,EUR: Euro,2023,32772.7335,2: Two,,,6: Millions
+OECD.TAD.ARP:DSD_AGR_POLIND@DF_PSE(1.2),USA: United States,A: Annual,PSE: Producer Support Estimate (PSE),CPC_EX_TO: Total indicators,EUR: Euro,2024,35251.0989,2: Two,,,6: Millions
+OECD.TAD.ARP:DSD_AGR_POLIND@DF_PSE(1.2),EU: European Union,A: Annual,PSE: Producer Support Estimate (PSE),CPC_EX_TO: Total indicators,EUR: Euro,2022,84259.1728,2: Two,,,6: Millions
+OECD.TAD.ARP:DSD_AGR_POLIND@DF_PSE(1.2),EU: European Union,A: Annual,PSE: Producer Support Estimate (PSE),CPC_EX_TO: Total indicators,EUR: Euro,2023,94148.8018,2: Two,,,6: Millions
+OECD.TAD.ARP:DSD_AGR_POLIND@DF_PSE(1.2),EU: European Union,A: Annual,PSE: Producer Support Estimate (PSE),CPC_EX_TO: Total indicators,EUR: Euro,2024,93711.0458,2: Two,,,6: Millions
+OECD.TAD.ARP:DSD_AGR_POLIND@DF_PSE(1.2),OECD: OECD,A: Annual,PSE: Producer Support Estimate (PSE),CPC_EX_TO: Total indicators,EUR: Euro,2022,193184.4276,2: Two,,,6: Millions
+OECD.TAD.ARP:DSD_AGR_POLIND@DF_PSE(1.2),OECD: OECD,A: Annual,PSE: Producer Support Estimate (PSE),CPC_EX_TO: Total indicators,EUR: Euro,2023,206904.4543,2: Two,,,6: Millions
+OECD.TAD.ARP:DSD_AGR_POLIND@DF_PSE(1.2),OECD: OECD,A: Annual,PSE: Producer Support Estimate (PSE),CPC_EX_TO: Total indicators,EUR: Euro,2024,216223.5747,2: Two,,,6: Millions
+OECD.TAD.ARP:DSD_AGR_POLIND@DF_PSE(1.2),BRA: Brazil,A: Annual,PSE: Producer Support Estimate (PSE),CPC_EX_TO: Total indicators,EUR: Euro,2022,9253.144,2: Two,,,6: Millions
+OECD.TAD.ARP:DSD_AGR_POLIND@DF_PSE(1.2),BRA: Brazil,A: Annual,PSE: Producer Support Estimate (PSE),CPC_EX_TO: Total indicators,EUR: Euro,2023,9628.6702,2: Two,,,6: Millions
+OECD.TAD.ARP:DSD_AGR_POLIND@DF_PSE(1.2),BRA: Brazil,A: Annual,PSE: Producer Support Estimate (PSE),CPC_EX_TO: Total indicators,EUR: Euro,2024,14969.2309,2: Two,,,6: Millions
+OECD.TAD.ARP:DSD_AGR_POLIND@DF_PSE(1.2),IND: India,A: Annual,PSE: Producer Support Estimate (PSE),CPC_EX_TO: Total indicators,EUR: Euro,2022,-92671.2902,2: Two,,,6: Millions
+OECD.TAD.ARP:DSD_AGR_POLIND@DF_PSE(1.2),IND: India,A: Annual,PSE: Producer Support Estimate (PSE),CPC_EX_TO: Total indicators,EUR: Euro,2023,-46018.5703,2: Two,,,6: Millions
+OECD.TAD.ARP:DSD_AGR_POLIND@DF_PSE(1.2),IND: India,A: Annual,PSE: Producer Support Estimate (PSE),CPC_EX_TO: Total indicators,EUR: Euro,2024,-66606.5427,2: Two,,,6: Millions
+OECD.TAD.ARP:DSD_AGR_POLIND@DF_PSE(1.2),RUS: Russia,A: Annual,PSE: Producer Support Estimate (PSE),CPC_EX_TO: Total indicators,EUR: Euro,2022,3908.98,2: Two,,,6: Millions
+OECD.TAD.ARP:DSD_AGR_POLIND@DF_PSE(1.2),RUS: Russia,A: Annual,PSE: Producer Support Estimate (PSE),CPC_EX_TO: Total indicators,EUR: Euro,2023,3143.1192,2: Two,,,6: Millions
+OECD.TAD.ARP:DSD_AGR_POLIND@DF_PSE(1.2),RUS: Russia,A: Annual,PSE: Producer Support Estimate (PSE),CPC_EX_TO: Total indicators,EUR: Euro,2024,4287.8551,2: Two,,,6: Millions
+OECD.TAD.ARP:DSD_AGR_POLIND@DF_PSE(1.2),VNM: Viet Nam,A: Annual,PSE: Producer Support Estimate (PSE),CPC_EX_TO: Total indicators,EUR: Euro,2022,-5027.7384,2: Two,,,6: Millions
+OECD.TAD.ARP:DSD_AGR_POLIND@DF_PSE(1.2),VNM: Viet Nam,A: Annual,PSE: Producer Support Estimate (PSE),CPC_EX_TO: Total indicators,EUR: Euro,2023,-6650.9566,2: Two,,,6: Millions
+OECD.TAD.ARP:DSD_AGR_POLIND@DF_PSE(1.2),VNM: Viet Nam,A: Annual,PSE: Producer Support Estimate (PSE),CPC_EX_TO: Total indicators,EUR: Euro,2024,-4736.7387,2: Two,,,6: Millions
+OECD.TAD.ARP:DSD_AGR_POLIND@DF_PSE(1.2),AUS: Australia,A: Annual,PSE: Producer Support Estimate (PSE),CPC_EX_TO: Total indicators,USD: US dollar,2022,2097.8174,2: Two,,,6: Millions
+OECD.TAD.ARP:DSD_AGR_POLIND@DF_PSE(1.2),AUS: Australia,A: Annual,PSE: Producer Support Estimate (PSE),CPC_EX_TO: Total indicators,USD: US dollar,2023,1530.8472,2: Two,,,6: Millions
+OECD.TAD.ARP:DSD_AGR_POLIND@DF_PSE(1.2),AUS: Australia,A: Annual,PSE: Producer Support Estimate (PSE),CPC_EX_TO: Total indicators,USD: US dollar,2024,1468.0604,2: Two,,,6: Millions
+OECD.TAD.ARP:DSD_AGR_POLIND@DF_PSE(1.2),CAN: Canada,A: Annual,PSE: Producer Support Estimate (PSE),CPC_EX_TO: Total indicators,USD: US dollar,2022,5594.0291,2: Two,,,6: Millions
+OECD.TAD.ARP:DSD_AGR_POLIND@DF_PSE(1.2),CAN: Canada,A: Annual,PSE: Producer Support Estimate (PSE),CPC_EX_TO: Total indicators,USD: US dollar,2023,5597.4886,2: Two,,,6: Millions
+OECD.TAD.ARP:DSD_AGR_POLIND@DF_PSE(1.2),CAN: Canada,A: Annual,PSE: Producer Support Estimate (PSE),CPC_EX_TO: Total indicators,USD: US dollar,2024,6467.2881,2: Two,,,6: Millions
+OECD.TAD.ARP:DSD_AGR_POLIND@DF_PSE(1.2),KOR: Korea,A: Annual,PSE: Producer Support Estimate (PSE),CPC_EX_TO: Total indicators,USD: US dollar,2022,19460.6897,2: Two,,,6: Millions
+OECD.TAD.ARP:DSD_AGR_POLIND@DF_PSE(1.2),KOR: Korea,A: Annual,PSE: Producer Support Estimate (PSE),CPC_EX_TO: Total indicators,USD: US dollar,2023,19778.1388,2: Two,,,6: Millions
+OECD.TAD.ARP:DSD_AGR_POLIND@DF_PSE(1.2),KOR: Korea,A: Annual,PSE: Producer Support Estimate (PSE),CPC_EX_TO: Total indicators,USD: US dollar,2024,20203.0103,2: Two,,,6: Millions
+OECD.TAD.ARP:DSD_AGR_POLIND@DF_PSE(1.2),NZL: New Zealand,A: Annual,PSE: Producer Support Estimate (PSE),CPC_EX_TO: Total indicators,USD: US dollar,2022,151.1629,2: Two,,,6: Millions
+OECD.TAD.ARP:DSD_AGR_POLIND@DF_PSE(1.2),NZL: New Zealand,A: Annual,PSE: Producer Support Estimate (PSE),CPC_EX_TO: Total indicators,USD: US dollar,2023,314.0979,2: Two,,,6: Millions
+OECD.TAD.ARP:DSD_AGR_POLIND@DF_PSE(1.2),NZL: New Zealand,A: Annual,PSE: Producer Support Estimate (PSE),CPC_EX_TO: Total indicators,USD: US dollar,2024,351.8103,2: Two,,,6: Millions
+OECD.TAD.ARP:DSD_AGR_POLIND@DF_PSE(1.2),USA: United States,A: Annual,PSE: Producer Support Estimate (PSE),CPC_EX_TO: Total indicators,USD: US dollar,2022,40974.2609,2: Two,,,6: Millions
+OECD.TAD.ARP:DSD_AGR_POLIND@DF_PSE(1.2),USA: United States,A: Annual,PSE: Producer Support Estimate (PSE),CPC_EX_TO: Total indicators,USD: US dollar,2023,35436.1117,2: Two,,,6: Millions
+OECD.TAD.ARP:DSD_AGR_POLIND@DF_PSE(1.2),USA: United States,A: Annual,PSE: Producer Support Estimate (PSE),CPC_EX_TO: Total indicators,USD: US dollar,2024,38155.0822,2: Two,,,6: Millions
+OECD.TAD.ARP:DSD_AGR_POLIND@DF_PSE(1.2),EU: European Union,A: Annual,PSE: Producer Support Estimate (PSE),CPC_EX_TO: Total indicators,USD: US dollar,2022,88728.9841,2: Two,,,6: Millions
+OECD.TAD.ARP:DSD_AGR_POLIND@DF_PSE(1.2),EU: European Union,A: Annual,PSE: Producer Support Estimate (PSE),CPC_EX_TO: Total indicators,USD: US dollar,2023,101800.0971,2: Two,,,6: Millions
+OECD.TAD.ARP:DSD_AGR_POLIND@DF_PSE(1.2),EU: European Union,A: Annual,PSE: Producer Support Estimate (PSE),CPC_EX_TO: Total indicators,USD: US dollar,2024,101430.9558,2: Two,,,6: Millions
+OECD.TAD.ARP:DSD_AGR_POLIND@DF_PSE(1.2),OECD: OECD,A: Annual,PSE: Producer Support Estimate (PSE),CPC_EX_TO: Total indicators,USD: US dollar,2022,203432.5455,2: Two,,,6: Millions
+OECD.TAD.ARP:DSD_AGR_POLIND@DF_PSE(1.2),OECD: OECD,A: Annual,PSE: Producer Support Estimate (PSE),CPC_EX_TO: Total indicators,USD: US dollar,2023,223719.1885,2: Two,,,6: Millions
+OECD.TAD.ARP:DSD_AGR_POLIND@DF_PSE(1.2),OECD: OECD,A: Annual,PSE: Producer Support Estimate (PSE),CPC_EX_TO: Total indicators,USD: US dollar,2024,234036.0591,2: Two,,,6: Millions
+OECD.TAD.ARP:DSD_AGR_POLIND@DF_PSE(1.2),BRA: Brazil,A: Annual,PSE: Producer Support Estimate (PSE),CPC_EX_TO: Total indicators,USD: US dollar,2022,9744.0081,2: Two,,,6: Millions
+OECD.TAD.ARP:DSD_AGR_POLIND@DF_PSE(1.2),BRA: Brazil,A: Annual,PSE: Producer Support Estimate (PSE),CPC_EX_TO: Total indicators,USD: US dollar,2023,10411.1741,2: Two,,,6: Millions
+OECD.TAD.ARP:DSD_AGR_POLIND@DF_PSE(1.2),BRA: Brazil,A: Annual,PSE: Producer Support Estimate (PSE),CPC_EX_TO: Total indicators,USD: US dollar,2024,16202.3952,2: Two,,,6: Millions
+OECD.TAD.ARP:DSD_AGR_POLIND@DF_PSE(1.2),IND: India,A: Annual,PSE: Producer Support Estimate (PSE),CPC_EX_TO: Total indicators,USD: US dollar,2022,-97587.3506,2: Two,,,6: Millions
+OECD.TAD.ARP:DSD_AGR_POLIND@DF_PSE(1.2),IND: India,A: Annual,PSE: Producer Support Estimate (PSE),CPC_EX_TO: Total indicators,USD: US dollar,2023,-49758.4126,2: Two,,,6: Millions
+OECD.TAD.ARP:DSD_AGR_POLIND@DF_PSE(1.2),IND: India,A: Annual,PSE: Producer Support Estimate (PSE),CPC_EX_TO: Total indicators,USD: US dollar,2024,-72093.5855,2: Two,,,6: Millions
+OECD.TAD.ARP:DSD_AGR_POLIND@DF_PSE(1.2),RUS: Russia,A: Annual,PSE: Producer Support Estimate (PSE),CPC_EX_TO: Total indicators,USD: US dollar,2022,4116.345,2: Two,,,6: Millions
+OECD.TAD.ARP:DSD_AGR_POLIND@DF_PSE(1.2),RUS: Russia,A: Annual,PSE: Producer Support Estimate (PSE),CPC_EX_TO: Total indicators,USD: US dollar,2023,3398.5545,2: Two,,,6: Millions
+OECD.TAD.ARP:DSD_AGR_POLIND@DF_PSE(1.2),RUS: Russia,A: Annual,PSE: Producer Support Estimate (PSE),CPC_EX_TO: Total indicators,USD: US dollar,2024,4641.0883,2: Two,,,6: Millions
+OECD.TAD.ARP:DSD_AGR_POLIND@DF_PSE(1.2),VNM: Viet Nam,A: Annual,PSE: Producer Support Estimate (PSE),CPC_EX_TO: Total indicators,USD: US dollar,2022,-5294.4517,2: Two,,,6: Millions
+OECD.TAD.ARP:DSD_AGR_POLIND@DF_PSE(1.2),VNM: Viet Nam,A: Annual,PSE: Producer Support Estimate (PSE),CPC_EX_TO: Total indicators,USD: US dollar,2023,-7191.4672,2: Two,,,6: Millions
+OECD.TAD.ARP:DSD_AGR_POLIND@DF_PSE(1.2),VNM: Viet Nam,A: Annual,PSE: Producer Support Estimate (PSE),CPC_EX_TO: Total indicators,USD: US dollar,2024,-5126.9509,2: Two,,,6: Millions
+OECD.TAD.ARP:DSD_AGR_POLIND@DF_PSE(1.2),AUS: Australia,A: Annual,PNAC: Producer Nominal Assistance Coefficient (producer NAC),CPC_EX_TO: Total indicators,FCTR: Factor,2022,1.032,2: Two,,,
+OECD.TAD.ARP:DSD_AGR_POLIND@DF_PSE(1.2),AUS: Australia,A: Annual,PNAC: Producer Nominal Assistance Coefficient (producer NAC),CPC_EX_TO: Total indicators,FCTR: Factor,2023,1.0278,2: Two,,,
+OECD.TAD.ARP:DSD_AGR_POLIND@DF_PSE(1.2),AUS: Australia,A: Annual,PNAC: Producer Nominal Assistance Coefficient (producer NAC),CPC_EX_TO: Total indicators,FCTR: Factor,2024,1.0242,2: Two,,,
+OECD.TAD.ARP:DSD_AGR_POLIND@DF_PSE(1.2),CAN: Canada,A: Annual,PNAC: Producer Nominal Assistance Coefficient (producer NAC),CPC_EX_TO: Total indicators,FCTR: Factor,2022,1.0854,2: Two,,,
+OECD.TAD.ARP:DSD_AGR_POLIND@DF_PSE(1.2),CAN: Canada,A: Annual,PNAC: Producer Nominal Assistance Coefficient (producer NAC),CPC_EX_TO: Total indicators,FCTR: Factor,2023,1.0836,2: Two,,,
+OECD.TAD.ARP:DSD_AGR_POLIND@DF_PSE(1.2),CAN: Canada,A: Annual,PNAC: Producer Nominal Assistance Coefficient (producer NAC),CPC_EX_TO: Total indicators,FCTR: Factor,2024,1.1,2: Two,,,
+OECD.TAD.ARP:DSD_AGR_POLIND@DF_PSE(1.2),KOR: Korea,A: Annual,PNAC: Producer Nominal Assistance Coefficient (producer NAC),CPC_EX_TO: Total indicators,FCTR: Factor,2022,1.6918,2: Two,,,
+OECD.TAD.ARP:DSD_AGR_POLIND@DF_PSE(1.2),KOR: Korea,A: Annual,PNAC: Producer Nominal Assistance Coefficient (producer NAC),CPC_EX_TO: Total indicators,FCTR: Factor,2023,1.6687,2: Two,,,
+OECD.TAD.ARP:DSD_AGR_POLIND@DF_PSE(1.2),KOR: Korea,A: Annual,PNAC: Producer Nominal Assistance Coefficient (producer NAC),CPC_EX_TO: Total indicators,FCTR: Factor,2024,1.6992,2: Two,,,
+OECD.TAD.ARP:DSD_AGR_POLIND@DF_PSE(1.2),NZL: New Zealand,A: Annual,PNAC: Producer Nominal Assistance Coefficient (producer NAC),CPC_EX_TO: Total indicators,FCTR: Factor,2022,1.0069,2: Two,,,
+OECD.TAD.ARP:DSD_AGR_POLIND@DF_PSE(1.2),NZL: New Zealand,A: Annual,PNAC: Producer Nominal Assistance Coefficient (producer NAC),CPC_EX_TO: Total indicators,FCTR: Factor,2023,1.0155,2: Two,,,
+OECD.TAD.ARP:DSD_AGR_POLIND@DF_PSE(1.2),NZL: New Zealand,A: Annual,PNAC: Producer Nominal Assistance Coefficient (producer NAC),CPC_EX_TO: Total indicators,FCTR: Factor,2024,1.0163,2: Two,,,
+OECD.TAD.ARP:DSD_AGR_POLIND@DF_PSE(1.2),USA: United States,A: Annual,PNAC: Producer Nominal Assistance Coefficient (producer NAC),CPC_EX_TO: Total indicators,FCTR: Factor,2022,1.0773,2: Two,,,
+OECD.TAD.ARP:DSD_AGR_POLIND@DF_PSE(1.2),USA: United States,A: Annual,PNAC: Producer Nominal Assistance Coefficient (producer NAC),CPC_EX_TO: Total indicators,FCTR: Factor,2023,1.0729,2: Two,,,
+OECD.TAD.ARP:DSD_AGR_POLIND@DF_PSE(1.2),USA: United States,A: Annual,PNAC: Producer Nominal Assistance Coefficient (producer NAC),CPC_EX_TO: Total indicators,FCTR: Factor,2024,1.0776,2: Two,,,
+OECD.TAD.ARP:DSD_AGR_POLIND@DF_PSE(1.2),EU: European Union,A: Annual,PNAC: Producer Nominal Assistance Coefficient (producer NAC),CPC_EX_TO: Total indicators,FCTR: Factor,2022,1.1756,2: Two,,,
+OECD.TAD.ARP:DSD_AGR_POLIND@DF_PSE(1.2),EU: European Union,A: Annual,PNAC: Producer Nominal Assistance Coefficient (producer NAC),CPC_EX_TO: Total indicators,FCTR: Factor,2023,1.2055,2: Two,,,
+OECD.TAD.ARP:DSD_AGR_POLIND@DF_PSE(1.2),EU: European Union,A: Annual,PNAC: Producer Nominal Assistance Coefficient (producer NAC),CPC_EX_TO: Total indicators,FCTR: Factor,2024,1.2081,2: Two,,,
+OECD.TAD.ARP:DSD_AGR_POLIND@DF_PSE(1.2),OECD: OECD,A: Annual,PNAC: Producer Nominal Assistance Coefficient (producer NAC),CPC_EX_TO: Total indicators,FCTR: Factor,2022,1.1376,2: Two,,,
+OECD.TAD.ARP:DSD_AGR_POLIND@DF_PSE(1.2),OECD: OECD,A: Annual,PNAC: Producer Nominal Assistance Coefficient (producer NAC),CPC_EX_TO: Total indicators,FCTR: Factor,2023,1.1565,2: Two,,,
+OECD.TAD.ARP:DSD_AGR_POLIND@DF_PSE(1.2),OECD: OECD,A: Annual,PNAC: Producer Nominal Assistance Coefficient (producer NAC),CPC_EX_TO: Total indicators,FCTR: Factor,2024,1.1629,2: Two,,,
+OECD.TAD.ARP:DSD_AGR_POLIND@DF_PSE(1.2),BRA: Brazil,A: Annual,PNAC: Producer Nominal Assistance Coefficient (producer NAC),CPC_EX_TO: Total indicators,FCTR: Factor,2022,1.0457,2: Two,,,
+OECD.TAD.ARP:DSD_AGR_POLIND@DF_PSE(1.2),BRA: Brazil,A: Annual,PNAC: Producer Nominal Assistance Coefficient (producer NAC),CPC_EX_TO: Total indicators,FCTR: Factor,2023,1.0457,2: Two,,,
+OECD.TAD.ARP:DSD_AGR_POLIND@DF_PSE(1.2),BRA: Brazil,A: Annual,PNAC: Producer Nominal Assistance Coefficient (producer NAC),CPC_EX_TO: Total indicators,FCTR: Factor,2024,1.0812,2: Two,,,
+OECD.TAD.ARP:DSD_AGR_POLIND@DF_PSE(1.2),IND: India,A: Annual,PNAC: Producer Nominal Assistance Coefficient (producer NAC),CPC_EX_TO: Total indicators,FCTR: Factor,2022,0.8364,2: Two,,,
+OECD.TAD.ARP:DSD_AGR_POLIND@DF_PSE(1.2),IND: India,A: Annual,PNAC: Producer Nominal Assistance Coefficient (producer NAC),CPC_EX_TO: Total indicators,FCTR: Factor,2023,0.9093,2: Two,,,
+OECD.TAD.ARP:DSD_AGR_POLIND@DF_PSE(1.2),IND: India,A: Annual,PNAC: Producer Nominal Assistance Coefficient (producer NAC),CPC_EX_TO: Total indicators,FCTR: Factor,2024,0.8761,2: Two,,,
+OECD.TAD.ARP:DSD_AGR_POLIND@DF_PSE(1.2),RUS: Russia,A: Annual,PNAC: Producer Nominal Assistance Coefficient (producer NAC),CPC_EX_TO: Total indicators,FCTR: Factor,2022,1.0347,2: Two,,,
+OECD.TAD.ARP:DSD_AGR_POLIND@DF_PSE(1.2),RUS: Russia,A: Annual,PNAC: Producer Nominal Assistance Coefficient (producer NAC),CPC_EX_TO: Total indicators,FCTR: Factor,2023,1.0362,2: Two,,,
+OECD.TAD.ARP:DSD_AGR_POLIND@DF_PSE(1.2),RUS: Russia,A: Annual,PNAC: Producer Nominal Assistance Coefficient (producer NAC),CPC_EX_TO: Total indicators,FCTR: Factor,2024,1.0509,2: Two,,,
+OECD.TAD.ARP:DSD_AGR_POLIND@DF_PSE(1.2),VNM: Viet Nam,A: Annual,PNAC: Producer Nominal Assistance Coefficient (producer NAC),CPC_EX_TO: Total indicators,FCTR: Factor,2022,0.9014,2: Two,,,
+OECD.TAD.ARP:DSD_AGR_POLIND@DF_PSE(1.2),VNM: Viet Nam,A: Annual,PNAC: Producer Nominal Assistance Coefficient (producer NAC),CPC_EX_TO: Total indicators,FCTR: Factor,2023,0.873,2: Two,,,
+OECD.TAD.ARP:DSD_AGR_POLIND@DF_PSE(1.2),VNM: Viet Nam,A: Annual,PNAC: Producer Nominal Assistance Coefficient (producer NAC),CPC_EX_TO: Total indicators,FCTR: Factor,2024,0.9066,2: Two,,,
+OECD.TAD.ARP:DSD_AGR_POLIND@DF_PSE(1.2),AUS: Australia,A: Annual,PNPC: Producer Nominal Protection Coefficient (producer NPC),CPC_EX_TO: Total indicators,FCTR: Factor,2022,1,2: Two,,,
+OECD.TAD.ARP:DSD_AGR_POLIND@DF_PSE(1.2),AUS: Australia,A: Annual,PNPC: Producer Nominal Protection Coefficient (producer NPC),CPC_EX_TO: Total indicators,FCTR: Factor,2023,1,2: Two,,,
+OECD.TAD.ARP:DSD_AGR_POLIND@DF_PSE(1.2),CAN: Canada,A: Annual,PNPC: Producer Nominal Protection Coefficient (producer NPC),CPC_EX_TO: Total indicators,FCTR: Factor,2022,1.0285,2: Two,,,
+OECD.TAD.ARP:DSD_AGR_POLIND@DF_PSE(1.2),CAN: Canada,A: Annual,PNPC: Producer Nominal Protection Coefficient (producer NPC),CPC_EX_TO: Total indicators,FCTR: Factor,2023,1.026,2: Two,,,
+OECD.TAD.ARP:DSD_AGR_POLIND@DF_PSE(1.2),CAN: Canada,A: Annual,PNPC: Producer Nominal Protection Coefficient (producer NPC),CPC_EX_TO: Total indicators,FCTR: Factor,2024,1.0358,2: Two,,,
+OECD.TAD.ARP:DSD_AGR_POLIND@DF_PSE(1.2),KOR: Korea,A: Annual,PNPC: Producer Nominal Protection Coefficient (producer NPC),CPC_EX_TO: Total indicators,FCTR: Factor,2022,1.5794,2: Two,,,
+OECD.TAD.ARP:DSD_AGR_POLIND@DF_PSE(1.2),KOR: Korea,A: Annual,PNPC: Producer Nominal Protection Coefficient (producer NPC),CPC_EX_TO: Total indicators,FCTR: Factor,2023,1.5157,2: Two,,,
+OECD.TAD.ARP:DSD_AGR_POLIND@DF_PSE(1.2),KOR: Korea,A: Annual,PNPC: Producer Nominal Protection Coefficient (producer NPC),CPC_EX_TO: Total indicators,FCTR: Factor,2024,1.5404,2: Two,,,
+OECD.TAD.ARP:DSD_AGR_POLIND@DF_PSE(1.2),NZL: New Zealand,A: Annual,PNPC: Producer Nominal Protection Coefficient (producer NPC),CPC_EX_TO: Total indicators,FCTR: Factor,2022,1.0054,2: Two,,,
+OECD.TAD.ARP:DSD_AGR_POLIND@DF_PSE(1.2),NZL: New Zealand,A: Annual,PNPC: Producer Nominal Protection Coefficient (producer NPC),CPC_EX_TO: Total indicators,FCTR: Factor,2023,1.0109,2: Two,,,
+OECD.TAD.ARP:DSD_AGR_POLIND@DF_PSE(1.2),NZL: New Zealand,A: Annual,PNPC: Producer Nominal Protection Coefficient (producer NPC),CPC_EX_TO: Total indicators,FCTR: Factor,2024,1.0144,2: Two,,,
+OECD.TAD.ARP:DSD_AGR_POLIND@DF_PSE(1.2),USA: United States,A: Annual,PNPC: Producer Nominal Protection Coefficient (producer NPC),CPC_EX_TO: Total indicators,FCTR: Factor,2022,1.0051,2: Two,,,
+OECD.TAD.ARP:DSD_AGR_POLIND@DF_PSE(1.2),USA: United States,A: Annual,PNPC: Producer Nominal Protection Coefficient (producer NPC),CPC_EX_TO: Total indicators,FCTR: Factor,2023,1.0056,2: Two,,,
+OECD.TAD.ARP:DSD_AGR_POLIND@DF_PSE(1.2),USA: United States,A: Annual,PNPC: Producer Nominal Protection Coefficient (producer NPC),CPC_EX_TO: Total indicators,FCTR: Factor,2024,1.0064,2: Two,,,
+OECD.TAD.ARP:DSD_AGR_POLIND@DF_PSE(1.2),EU: European Union,A: Annual,PNPC: Producer Nominal Protection Coefficient (producer NPC),CPC_EX_TO: Total indicators,FCTR: Factor,2022,1.0308,2: Two,,,
+OECD.TAD.ARP:DSD_AGR_POLIND@DF_PSE(1.2),EU: European Union,A: Annual,PNPC: Producer Nominal Protection Coefficient (producer NPC),CPC_EX_TO: Total indicators,FCTR: Factor,2023,1.0532,2: Two,,,
+OECD.TAD.ARP:DSD_AGR_POLIND@DF_PSE(1.2),EU: European Union,A: Annual,PNPC: Producer Nominal Protection Coefficient (producer NPC),CPC_EX_TO: Total indicators,FCTR: Factor,2024,1.0537,2: Two,,,
+OECD.TAD.ARP:DSD_AGR_POLIND@DF_PSE(1.2),OECD: OECD,A: Annual,PNPC: Producer Nominal Protection Coefficient (producer NPC),CPC_EX_TO: Total indicators,FCTR: Factor,2022,1.045,2: Two,,,
+OECD.TAD.ARP:DSD_AGR_POLIND@DF_PSE(1.2),OECD: OECD,A: Annual,PNPC: Producer Nominal Protection Coefficient (producer NPC),CPC_EX_TO: Total indicators,FCTR: Factor,2023,1.0615,2: Two,,,
+OECD.TAD.ARP:DSD_AGR_POLIND@DF_PSE(1.2),OECD: OECD,A: Annual,PNPC: Producer Nominal Protection Coefficient (producer NPC),CPC_EX_TO: Total indicators,FCTR: Factor,2024,1.0664,2: Two,,,
+OECD.TAD.ARP:DSD_AGR_POLIND@DF_PSE(1.2),BRA: Brazil,A: Annual,PNPC: Producer Nominal Protection Coefficient (producer NPC),CPC_EX_TO: Total indicators,FCTR: Factor,2022,1.0287,2: Two,,,
+OECD.TAD.ARP:DSD_AGR_POLIND@DF_PSE(1.2),BRA: Brazil,A: Annual,PNPC: Producer Nominal Protection Coefficient (producer NPC),CPC_EX_TO: Total indicators,FCTR: Factor,2023,1.0257,2: Two,,,
+OECD.TAD.ARP:DSD_AGR_POLIND@DF_PSE(1.2),BRA: Brazil,A: Annual,PNPC: Producer Nominal Protection Coefficient (producer NPC),CPC_EX_TO: Total indicators,FCTR: Factor,2024,1.0619,2: Two,,,
+OECD.TAD.ARP:DSD_AGR_POLIND@DF_PSE(1.2),IND: India,A: Annual,PNPC: Producer Nominal Protection Coefficient (producer NPC),CPC_EX_TO: Total indicators,FCTR: Factor,2022,0.7329,2: Two,,,
+OECD.TAD.ARP:DSD_AGR_POLIND@DF_PSE(1.2),IND: India,A: Annual,PNPC: Producer Nominal Protection Coefficient (producer NPC),CPC_EX_TO: Total indicators,FCTR: Factor,2023,0.8113,2: Two,,,
+OECD.TAD.ARP:DSD_AGR_POLIND@DF_PSE(1.2),IND: India,A: Annual,PNPC: Producer Nominal Protection Coefficient (producer NPC),CPC_EX_TO: Total indicators,FCTR: Factor,2024,0.7817,2: Two,,,
+OECD.TAD.ARP:DSD_AGR_POLIND@DF_PSE(1.2),RUS: Russia,A: Annual,PNPC: Producer Nominal Protection Coefficient (producer NPC),CPC_EX_TO: Total indicators,FCTR: Factor,2022,0.9724,2: Two,,,
+OECD.TAD.ARP:DSD_AGR_POLIND@DF_PSE(1.2),RUS: Russia,A: Annual,PNPC: Producer Nominal Protection Coefficient (producer NPC),CPC_EX_TO: Total indicators,FCTR: Factor,2023,0.9698,2: Two,,,
+OECD.TAD.ARP:DSD_AGR_POLIND@DF_PSE(1.2),RUS: Russia,A: Annual,PNPC: Producer Nominal Protection Coefficient (producer NPC),CPC_EX_TO: Total indicators,FCTR: Factor,2024,0.9993,2: Two,,,
+OECD.TAD.ARP:DSD_AGR_POLIND@DF_PSE(1.2),VNM: Viet Nam,A: Annual,PNPC: Producer Nominal Protection Coefficient (producer NPC),CPC_EX_TO: Total indicators,FCTR: Factor,2022,0.8975,2: Two,,,
+OECD.TAD.ARP:DSD_AGR_POLIND@DF_PSE(1.2),VNM: Viet Nam,A: Annual,PNPC: Producer Nominal Protection Coefficient (producer NPC),CPC_EX_TO: Total indicators,FCTR: Factor,2023,0.8744,2: Two,,,
+OECD.TAD.ARP:DSD_AGR_POLIND@DF_PSE(1.2),VNM: Viet Nam,A: Annual,PNPC: Producer Nominal Protection Coefficient (producer NPC),CPC_EX_TO: Total indicators,FCTR: Factor,2024,0.9129,2: Two,,,

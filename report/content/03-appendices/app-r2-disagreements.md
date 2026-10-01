@@ -4,7 +4,7 @@ title: "R2. Disagreements log"
 short_title: "R2. Disagreements"
 section: appendix
 order: 82
-summary: "All 352 cases where sources disagree, with both claims and the position this report takes. We never average disagreeing numbers."
+summary: "All 373 cases where sources disagree, with both claims and the position this report takes. We never average disagreeing numbers."
 audiences: [research, investors, policy, international, startups, manufacturers]
 reading_time_min: 87
 key_numbers: [kn-disagreements]
@@ -99,7 +99,7 @@ When two credible sources give different values or facts, we record both and sta
 
 | ID | Topic | Claim A | Claim B | Position taken |
 |---|---|---|---|---|
-| DG-128 | De Heus Vinh Long marine mill capacity | 84,000 t/yr (wave-1 trade press) | 84,000 t/yr first phase and 168,000 t/yr design capacity (July 2026 press, [@IND-45]); the De Heus release ([@VCO-10]) gives no tonnage | No conflict: 84,000 t/yr is the first phase, opened in July 2026, and 168,000 t/yr the design capacity. Use 84,000 t/yr for the operating mill. |
+| DG-128 | De Heus Vinh Long marine mill capacity | 84,000 t/yr, first phase, with 168,000 t/yr design capacity (July 2026 trade press, [@IND-45]; not re-read: page blocked in October 2026) | 168,000 t/yr design capacity, opened 22 July 2026; no phases mentioned (De Heus release, [@VCO-10], re-read October 2026) | Use the company figure, 168,000 t/yr design capacity; trade press gives 84,000 t/yr, possibly a first phase. Not averaged. |
 | DG-129 | CJ deal scope | "De Heus has 17 plants from CJ" (wave 1, implied Vietnam) | 17 mills across five countries ([@VCO-07], [@VCO-08]) | Claim B. Vietnam mill count unknown. <br>*Same or related disagreement: DG-036.* |
 | DG-130 | Vedan GA capacity | 36,000 t/yr (1995; used in wave 1) | 180,000 t/yr (2004; [@VCO-03]) | Claim B is the later nameplate. Neither is confirmed current. |
 | DG-131 | VISSAN founding year | 1970 (company homepage handle "VISSAN1970", [@ECO-32]) | Established 20 Nov 1970, operating from 18 May 1974 (Vietstock, [@VCO-13]) | Not a conflict: both give 1970 as the founding year; 1974 is the start of operations. |
@@ -580,3 +580,51 @@ When two credible sources give different values or facts, we record both and sta
 | DG-350 | Whether the recipe condition binds for UK buyers | Wave 8 L3: UKVFTA caps imported flour in dumplings at 20% and blocks chay preparations with more than 10% imported textured soy | UK Trade Tariff ([@ORG-03; @ORG-04]): Vietnamese goods can claim UK-CPTPP, which needs only a change of chapter for 1902 (0% duty) and a change of subheading for 2106.90 (1.6% in 2026) | For the UK the constraint is avoidable: at most a 1.6 point gap on chay preparations in 2026, none on dumplings |
 | DG-351 | Wheat flour share in the Marks and Spencer prawn gyoza | Open Food Facts estimated ingredient share: wheat flour about 8% (model estimate) | Pack label: flour share not printed; tiger prawns 37% of the gyoza | We use only printed percentages; the estimate is not evidence |
 | DG-352 | Unit value of Vietnamese stuffed pasta used to size the duty at stake | Viet Nam-reported FOB, world, 2023: USD 4.27 per kg ([@XBA-29], our calculation) | Partner-reported CIF, 2025: EU27 USD 5.87, Japan 6.09, Korea 7.25, UK 8.44 per kg ([@XBA-28], our calculation) | Give the range; not averaged |
+
+## Food security (wave 11), v0.8 (21)
+
+### Animal disease, zoonoses and pandemic risk (wave 11) (4)
+
+| ID | Topic | Claim A | Claim B | Position taken |
+|---|---|---|---|---|
+| DG-353 | ASF 2019 communes affected | 8,553 of 10,614 communes (GEO-15, 2025 scoping review) | 8,509 of 11,055 communes, 77% (PAN-36, 2026 spatiotemporal analysis) | Report both; keep GEO-15 in existing tables and note PAN-36 as a second count. Denominators differ, probably from different commune lists. |
+| DG-354 | Human Streptococcus suis deaths in 2025 | 2 deaths among 123 cases nationally (MOH Department of Disease Prevention, PAN-15) | Hue city alone 4 deaths among 42 cases to 13 Aug 2025, and 2 deaths in a Hung Yen cluster in July 2025 (Dan Viet, search snippet only; page returned 403) | Use the MOH national figure and say provincial reports may show more deaths. Claim B is Low (snippet only). |
+| DG-355 | Plant protein during the 2019 ASF shock | Hanoi consumers and traders reported pork avoidance and rises in tofu, vegetable, fish and beef prices in March 2019 (PAN-34, stated, Low) | Household tofu use was 0.44 kg per person a month in both 2018 and 2020 (DIE-05, VHLSS, revealed, High) | Follow the revealed figure for any lasting effect; treat the press report as a short panic shift. |
+| DG-356 | Does alternative protein reduce zoonotic, pandemic or antimicrobial-resistance risk? | Yes: replacing animal products with plant-based or cultivated meat lowers pandemic and resistance risk (PAN-30, advocacy author; PAN-31, cultivated-meat company authors; PAN-27 proposes it as policy without measuring it) | Risk depends on wildlife trade, live-bird markets, farm biosecurity and antimicrobial use per animal; costed prevention does not include diet change; no study measures an effect of meat substitution (PAN-28; PAN-29; PAN-21; PAN-23; PAN-33) | The study can say alternative protein supply chains are not exposed to animal disease (diversification). It should not say alternative protein reduces disease risk in Vietnam: no measured effect exists, and the D-BENCH scale (about 142,000 pigs spared a year in 2035) is too small to move herd-level risk. |
+
+### Other food-security exposures (wave 11) (3)
+
+| ID | Topic | Claim A | Claim B | Position taken |
+|---|---|---|---|---|
+| DG-357 | Climate change and catch potential in Viet Nam's EEZ | DBEM (FAO 627, Table 4.1): minus 6.77% (RCP2.6) and minus 11.71% (RCP8.5) by 2050; minus 7.49% and minus 40.76% by 2100, relative to 2000 [SEC-07] | Dynamic size-based food-web model (FAO 627, Table 4.2): minus 2.78% (RCP2.6) and minus 4.27% (RCP8.5) by 2050; 0.00% and minus 6.53% by 2100, relative to 2000 [SEC-07] | Report both; do not average. To 2050 both models give a fall of 3 to 12%, smaller than the fall in standing stock since 2000 to 2005 (22.1%) and the policy cut in capture to 2030 (about 27%). After 2050 under RCP8.5 the sign is the same but the size differs sixfold; give no central figure. |
+| DG-358 | Imported soy protein embodied in meat protein | ch22: replacing 1 t of meat protein avoids about 4.5 t of soybean meal (about 2.1 t of soy protein at 46%) [QNT model] | This line: about 1.9 to 2.4 kg of soybean-meal protein per kg of pork protein and 3.4 kg per kg of poultry protein, from the same balance-model assumptions (sec_calc.py) | Use ch22's 4.5 t for the national average; our species figures are an upper-side check. The difference comes from method: we apply whole-herd feed conversion to all feed and ignore imported meat and aquaculture in the mix. |
+| DG-359 | Fall in marine standing stock against 2011 to 2015 | NSO (2025): minus 9.4% [SEC-06] | Press search snippet citing the same assessment: minus 9.5% (not registered) | NSO's 9.4%. |
+
+### Protein for people: food balance sheets (wave 11) (6)
+
+| ID | Topic | Claim A | Claim B | Position taken |
+|---|---|---|---|---|
+| DG-360 | Poultry production basis and level, 2023 | OECD-FAO Agricultural Outlook 2026-2035: 2,329 kt in 2023 (2,567 kt in 2025), labelled RTOC (ready to cook) in the SDMX convention field (QNT-01) | FAOSTAT food balance sheet: 1,740 kt in 2023, carcass weight (DIE-07); NSO 2,602 kt live weight in 2025 (MAC-14) | Use FAOSTAT for 2023 levels and OECD-FAO for growth only, as the balance model already does. Correct F4.9.4, which says OECD-FAO probably uses live weight: the API label says RTOC. |
+| DG-361 | Poultry self-sufficiency path to 2035 | OECD-FAO baseline: production over consumption rises from 87.5% (2025) to 96.2% (2035), with poultry imports falling from 407 to 231 kt (QNT-01) | Balance model: 0.875 held constant to 2050 in all scenarios (BLA-034) | Report both. Keep the model constant as the more import-exposed case; OECD-FAO lower imports would lower direct import dependence but raise feed needs. |
+| DG-362 | Soybean food use | FAOSTAT food balance sheet: 533 kt of soybeans used as food in 2023, 4.9 g of protein per person per day (DIE-07) | OECD-FAO: 69 kt in 2023 and zero from 2024 to 2035 (QNT-01) | Use FAOSTAT. OECD-FAO cannot be used to project soy foods for Vietnam. |
+| DG-363 | Maize food use, 2023 | FAOSTAT: 1,617 kt, 16.1 kg per person (DIE-07) | OECD-FAO: 639 kt, 6.4 kg per person (QNT-01) | Use FAOSTAT in the protein balance because its items sum to the protein total; show the sensitivity (direct import share 18% to 22% instead of 19% to 23%). |
+| DG-364 | Domestic raw milk in 2030 | Decision 309/QD-TTg target: about 2,600 million litres, meeting 60% to 65% of domestic processing demand (APR-11) | OECD-FAO baseline: 1,649 kt of raw milk in 2030 (QNT-01); FAOSTAT milk self-sufficiency 30.2% in 2023, milk equivalent of all dairy supply (DIE-07) | Report both; a target is not a projection. The balance model follows OECD-FAO growth. The bases differ (processing demand against all dairy supply). |
+| DG-365 | Under-5 stunting, latest year | 18% in 2023 (APR-27; study tile kn-stunting) | 14.8% in 2025, press report quoting the NIN director (FBS-02) | Keep 18% (2023) until NIN publishes. The 14.8% matches the 2019 to 2020 survey rate for ages 5 to 19 and may be mislabelled. |
+
+### Imported meat, offal and dairy (wave 11) (7)
+
+| ID | Topic | Claim A | Claim B | Position taken |
+|---|---|---|---|---|
+| DG-366 | Vietnam's meat imports in 2025, total and from India | Customs via the Department of Import and Export: 978.3 kt, USD 2.004 billion; India 188.7 kt, USD 681.32 million (MIM-04; MIM-05) | MAE figures via VnEconomy: about USD 1.95 billion; India 168 kt, USD 601.8 million (MIM-07) | Use the customs figures; the MAE figure was published earlier (13 Jan 2026) and is probably preliminary or for 11 months |
+| DG-367 | Share of poultry supply imported, 2025 | Customs basis: about 16.5% (about 360 kt of poultry meat and by-products against about 1,821 kt domestic carcass; our calculation from MIM-05 and MAC-14) | USDA PSD: 11.0% of chicken consumption (175 / 1,595 kt) (MIM-03); OECD-FAO: 12.5% (self-sufficiency 87.5%, QNT-01) | Report both by definition: 11 to 12.5% for chicken meat, about 16.5% including feet, offal and spent hens. Keep OECD-FAO in the balance model |
+| DG-368 | Share of beef and buffalo meat consumption imported, 2025 | USDA PSD: 32.1% (135 / 420 kt CWE) (MIM-03) | OECD-FAO: 47.8% (self-sufficiency 52.2%) (QNT-01) | Give the range 32 to 48%; keep OECD-FAO in the balance model; flag onward trade of Indian buffalo meat as a reason both may overstate what is eaten |
+| DG-369 | Indian meat shipped to Vietnam, 2025 | Vietnamese customs: 188.7 kt of meat from India (MIM-04) | India-reported exports to Vietnam: 170,561 t frozen bovine meat plus 51,759 t offal, 222.3 kt (MIM-02); Tuoi Tre: about 300,000 t a year (MIM-28) | Use Vietnamese customs for Vietnamese imports; the gap may be shipments routed through Vietnam that never enter its customs records |
+| DG-370 | Russian pork shipped to Vietnam, 2025 | Vietnamese customs: 48.44% of 183.4 kt of pork imports, about 88.8 kt (our calculation from MIM-06) | Russian veterinary system (VetIS): 52,300 t of pork to Vietnam (MIM-19) | Use Vietnamese customs; the gap is unexplained (probably product coverage, such as by-products counted as pork in Vietnam) |
+| DG-371 | Tonnage of Vietnam's meat imports in Comtrade, 2023 | Vietnam-reported: Indian frozen bovine meat 75,537 t; US poultry 54,382 t (MIM-01) | Exporter-reported: India 192,180 t; United States 117,694 t, at similar values (MIM-02) | Do not use Vietnam-reported Comtrade weights; use values, customs tonnages and mirror tonnages |
+| DG-372 | Pork imports in 2026 | USDA PSD forecast: 120 kt CWE, down from 151 kt in 2025 (MIM-03) | Customs: 112,090 t in January to July 2026, up 27.1% (MIM-09; MIM-10); press: 'over 300,000 t' (no named forecaster, MIM-06) | Follow the revealed customs trend; adopt neither forecast |
+
+### Added in consolidation (wave 11) (1)
+
+| ID | Topic | Claim A | Claim B | Position taken |
+|---|---|---|---|---|
+| DG-373 | Milk self-sufficiency, 2023 to 2025 | FAO food balance sheets, 2023: about 30% (milk equivalent of all dairy; our calculation from [@DIE-07]) | Dairy association, 2025: domestic fresh milk meets about 40% of demand (association claim, [@MIM-13]) | Give both: different measures and years; not averaged |

@@ -6,7 +6,7 @@ section: appendix
 order: 27
 summary: "How much alternative-protein research Vietnam publishes, topic by topic and against its neighbours, which groups and institutions hold the relevant skills, who funds them, and the 11 research gaps Vietnam is well placed to fill."
 audiences: [research, policy, international, investors, startups]
-reading_time_min: 29
+reading_time_min: 30
 key_numbers: [kn-novel-food-research-intensity, kn-ctu-places]
 related_data: [publications.csv, biblio_counts.csv, biblio_trend_vn.csv, institutions.csv, research_funding.csv, science_facts.csv]
 related_pages: [ch06-knowledge-talent, app-s13-science, app-s8-labs-talent, app-s11-capital, app-s1-directory, app-m1-method, app-r2-disagreements, brief-research]
@@ -15,26 +15,35 @@ charts: [chart-research-benchmark]
 
 # S7. Research landscape and bibliometrics
 
-This appendix maps Vietnam's published research relevant to alternative protein: how much there is, where it sits, who does it, who pays for it, and where the gaps are. It combines two passes:
+This appendix maps Vietnam's published research on alternative protein. It shows how much there is, where it sits, who does it, who pays for it and where the gaps are. The study now concentrates on protein for people. Research on feed, mostly aquafeed trials, stays here as evidence of skills and as the record.
+
+The appendix combines two passes:
 
 - **Wave 1 (Scite):** 30 searches in the Scite literature database, more than 150 Vietnam-affiliated records from 2015 to 2026 screened, and 76 papers tabulated with a key result each [@RD-01] {VN-direct|Medium}.
 - **Wave 2 (OpenAIRE):** country-tagged counts for 20 topics in Vietnam and 3 topic groups in five comparison countries, with every query URL stored so that the counts can be re-run [@BIB-01] {VN-direct|Medium}.
 
-`publications.csv` (103 rows) merges the wave 1 list with 40 top-cited wave 2 records, deduplicated on DOI. The technology science itself (titres, costs, safety) is in [[app-s13-science]]; pilot plants, laboratories and graduates are in [[app-s8-labs-talent]].
+`publications.csv` (103 rows) merges the wave 1 list with 40 top-cited wave 2 records, with duplicates removed by DOI (digital object identifier). The science of each technology (titres, costs, safety) is in [[app-s13-science]]. Pilot plants, laboratories and graduates are in [[app-s8-labs-talent]].
 
-Terms: *VN-affiliated* means at least one author works at a Vietnamese institution. *VN-tagged* means OpenAIRE links the record to Vietnam through its country code. *Per 10k* means topic records per 10,000 of the country's total OpenAIRE publication records in the same window. *DIAAS* and *PDCAAS* are protein-quality scores that correct amino-acid content for digestibility.
+Terms used in this appendix:
+
+- *VN-affiliated*: at least one author works at a Vietnamese institution.
+- *VN-tagged*: OpenAIRE links the record to Vietnam through its country code.
+- *Per 10k*: topic records per 10,000 of the country's total OpenAIRE publication records in the same window.
+- *DIAAS* and *PDCAAS*: protein-quality scores that correct amino-acid content for digestibility.
+- Institutions: VNU is Vietnam National University (VNU Hanoi, and VNU-HCM in Ho Chi Minh City). VAST is the Vietnam Academy of Science and Technology. VNUA is the Vietnam National University of Agriculture. HUST is Hanoi University of Science and Technology. Section S7.8 names the others.
+- Funders: NAFOSTED is the National Foundation for Science and Technology Development, under the Ministry of Science and Technology (MOST). GFI is the Good Food Institute.
 
 ## S7.1 Key findings
 
 1. **Vietnam's output on food-facing alternative protein is small.** Records tagged to each country for plant-based or cultivated meat, 2015 to September 2026: Vietnam 9, Philippines 10, Indonesia 47, Thailand 49, Malaysia 61, Singapore 112 [@BIB-01] {VN-adjacent|Medium}. Vietnam has about 5 to 12 times fewer records than Indonesia, Thailand, Malaysia and Singapore (our calculation: 47 / 9 = 5.2; 112 / 9 = 12.4).
-2. **The gap remains after adjusting for research size.** Per 10,000 publications: Vietnam 0.37, Philippines 0.62, Malaysia 1.02, Thailand 1.58, Singapore 2.94 [@BIB-01] {VN-direct|Medium}. Vietnam's intensity is about a quarter of Thailand's and an eighth of Singapore's (our calculation from the same counts). A second database, on a broader core basket, OpenAlex gives 4.1 works per 10,000 national publications for Vietnam against 13.4 for Thailand (2015 to 2025), about 31% [@HSC-01] {VN-direct|Medium}. We therefore say "about a quarter to a third of Thailand's".
-3. **In feed-side protein, Vietnam is at the regional level.** Fishmeal-replacement records per 10,000: Vietnam 0.42, Thailand 0.45, Malaysia 0.47, Philippines 0.68 [@BIB-01] {VN-direct|Medium}. The Vietnam figure is an undercount: a broader wave 1 search found about 20 Vietnamese aquafeed replacement papers [@RD-01] {VN-direct|Medium}.
+2. **The gap remains after adjusting for research size.** Per 10,000 publications: Vietnam 0.37, Philippines 0.62, Malaysia 1.02, Thailand 1.58, Singapore 2.94 [@BIB-01] {VN-direct|Medium}. Vietnam's intensity is about a quarter of Thailand's and an eighth of Singapore's (our calculation from the same counts). A second database, OpenAlex, uses a broader core basket and gives 4.1 works per 10,000 national publications for Vietnam against 13.4 for Thailand (2015 to 2025), about 31% [@HSC-01] {VN-direct|Medium}. We therefore say "about a quarter to a third of Thailand's".
+3. **In feed-side protein (context only), Vietnam is at the regional level.** Fishmeal-replacement records per 10,000: Vietnam 0.42, Thailand 0.45, Malaysia 0.47, Philippines 0.68 [@BIB-01] {VN-direct|Medium}. The Vietnam figure is an undercount: a broader wave 1 search found about 20 Vietnamese aquafeed replacement papers [@RD-01] {VN-direct|Medium}.
 4. **Vietnam has zero or near-zero records in six core technologies** after reading the titles: precision fermentation (0), mycoprotein (0 to 1), fish or shrimp cell lines for food (0), cultivated meat (1, a legal analysis), texturised or extruded protein (1, a 2026 review) and mung bean protein (0 to 1) [@BIB-01; @RD-01] {VN-direct|Medium}.
 5. **Plant-based meat research is about 6 on-topic papers from 2015 to 2026, with one extrusion study, Taiwan-led with a first author also at Can Tho University of Technology** (see the corrections below) [@BIB-01; @HSC-01] {VN-direct|Medium}. A 2026 high-moisture meat analogue paper from the Industrial University of Ho Chi Minh City (IUH), found later, is not in these counts [@TIC-21] {VN-direct|Medium}.
 6. **Vietnam's real strengths sit next to alternative protein:** aquafeed nutrition trials (Can Tho University, Nha Trang University), *Pichia pastoris* expression (VNU-HCM University of Science), human stem-cell culture including serum-free media (Vinmec, VNU-HCM Stem Cell Institute), fungal genetic tools for koji mould and *Cordyceps* (VNU Hanoi University of Science) and microalgae cultivation (Institute of Biotechnology VAST, VNUA) [@RD-01] {VN-direct|Medium}.
 7. **Spirulina is Vietnam's biggest topic (87 records, 3.62 per 10,000), but the most-cited papers are about wastewater, diesel-engine fuel and nanoparticles**; only one surfaced paper extracts spirulina protein as an ingredient [@BIB-01] {VN-direct|Medium}.
 8. **Output is rising from a very low base:** 7 records in 2015 to 2019, 14 in 2020 to 2022 and 21 in 2023 to September 2026, across the topic sets read in full [@BIB-01] {VN-direct|Low}.
-9. **No Vietnamese DIAAS or PDCAAS study was found**, although Vietnamese groups do measure in vitro digestibility, RNA reduction and aflatoxin [@RD-01; @RD-23; @RD-31; @RD-61] {VN-direct|Medium}.
+9. **We found no Vietnamese DIAAS or PDCAAS study**, although Vietnamese groups do measure in vitro digestibility, RNA reduction and aflatoxin [@RD-01; @RD-23; @RD-31; @RD-61] {VN-direct|Medium}.
 10. **Research money is national and small-grant based.** NAFOSTED is a leading acknowledged funder; international money (ACIAR, SATREPS, EU, Dutch) is present but not aimed at alternative protein; no GFI grantee in Vietnam was found [@RD-06; @RD-12; @RD-04; @RD-11; @RD-56; @RD-57; @RD-58; @RD-03] {VN-direct|Medium}.
 
 > **Correction.** In v0.6 finding 5 said about 5 on-topic plant-based meat papers and no Vietnamese extrusion study; the source shows about 6, and the one extrusion study found has a first author also at Can Tho University of Technology [@HSC-01] {VN-direct|Medium}.
@@ -89,7 +98,7 @@ Readings:
 
 ## S7.5 Trend
 
-Year counts could be built only for the topic sets small enough to read in full (plant-based meat, textured protein, rice protein, soy protein, single-cell protein, tempeh or mycoprotein, cultivated meat, microalgae protein, seaweed protein, fishmeal replacement): 42 unique DOIs [@BIB-01] {VN-direct|Low}.
+We could build year counts only for the topic sets small enough to read in full (plant-based meat, textured protein, rice protein, soy protein, single-cell protein, tempeh or mycoprotein, cultivated meat, microalgae protein, seaweed protein, fishmeal replacement): 42 unique DOIs [@BIB-01] {VN-direct|Low}.
 
 | Year | 2015 | 2016 | 2017 | 2018 | 2019 | 2020 | 2021 | 2022 | 2023 | 2024 | 2025 | 2026 (to Sept) |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|
@@ -99,7 +108,7 @@ By period: 7 records in 2015 to 2019, 14 in 2020 to 2022 and 21 in 2023 to Septe
 
 ## S7.6 Vietnam's adjacent strengths
 
-**Aquafeed protein replacement** is the deepest applied field, with measured results from laboratory or tank trials [@RD-46; @RD-47; @RD-48] {VN-direct|High}:
+**Aquafeed protein replacement** is the deepest applied field, with measured results from laboratory or tank trials [@RD-46; @RD-47; @RD-48] {VN-direct|High}. It is feed research, so it is now context, kept as evidence of nutrition-trial skills:
 
 - soy protein concentrate replaced 40% of fishmeal protein in snakehead with no loss of growth; 60 to 100% replacement reduced growth (2016);
 - fermented soybean meal had 88.8% crude protein digestibility in whiteleg shrimp, with an optimum fishmeal replacement of 253.6 g/kg (2018);
@@ -175,7 +184,7 @@ Summary from `institutions.csv` (31 rows). Location is the current province {VN-
 | Stem Cell Institute, VNU-HCM University of Science | Ho Chi Minh City | Stem-cell isolation and expansion, spheroids, scaffolds | Medium; human biomedical focus | [@RD-41] {VN-direct\|Medium} |
 | Vinmec Research Institute of Stem Cell and Gene Technology | Hanoi | GMP-oriented stem-cell culture; serum- and xeno-free media testing | Medium; no food or animal-cell work | [@RD-39; @RD-40] {VN-direct\|Medium} |
 | VNU-HCM International University (IU), School of Biotechnology | Ho Chi Minh City | Germination, starch and protein chemistry; porcine germline stem cells | Low; attribution from author groups | [@RD-42] {VN-direct\|Low} |
-| Ho Chi Minh City University of Technology (HCMUT) | Ho Chi Minh City | Ultrafiltration of rice protein; fermentation of defatted rice bran | Medium | [@RD-24] {VN-direct\|Medium} |
+| Ho Chi Minh City University of Technology (HCMUT) | Ho Chi Minh City | Ultrafiltration of rice protein; fermentation of defatted rice bran; sensory and binder studies of Vietnamese sausage | Medium | [@RD-24; @HXE-01; @HXE-02] {VN-direct\|Medium} |
 | Institute of Biotechnology (IBT), VAST | Hanoi | Microalgae strain collection and cultivation; *Pichia* and *A. niger* expression; rice bran protein isolate | Medium | [@RD-21; @RD-25] {VN-direct\|Medium} |
 | Vietnam National University of Agriculture (VNUA) | Hanoi | Mushroom strains and cultivation; spirulina; fish feeding trials | High (880 Scite affiliation records) | [@RD-20; @RD-54; @RD-01] {VN-direct\|High} |
 | Can Tho University (CTU), College of Aquaculture and Fisheries | Can Tho | Fish and shrimp nutrition and digestibility trials; seaweed and Artemia protein; duckweed germplasm survey | High; strongest publisher on alternative aquafeed protein | [@RD-10; @RD-47; @RD-50; @RD-51] {VN-direct\|High} |
@@ -190,7 +199,7 @@ Named institutions with **no relevant output found** in the Scite search: Univer
 
 A count-based institution ranking was not possible without OpenAlex. The wave 2 qualitative order, built from wave 1 attributions and the DOIs surfaced, is: VNU Hanoi HUS (*A. oryzae* tools), VNU-HCM HCMUS (*Pichia*), IBT VAST (microalgae), HUST (side-stream protein), Can Tho University (aquafeed), Nha Trang University (aquafeed), VNUA (spirulina, black soldier fly), HCMUT (rice protein), VNU Hanoi IMBT (methanotroph), HCMUTE (spirulina protein) [@BIB-01] {VN-direct|Low}. HUST is under-represented in OpenAIRE's Vietnam tag.
 
-After the 2025 reforms, RIA1 to RIA3 and VAAS sit under the Ministry of Agriculture and Environment (MAE), FIRI under MOIT, NIFC under MOH and NAFOSTED under MOST [@REG-42; @RD-07; @RD-06] {VN-direct|Medium}. These mappings were not re-verified.
+After the 2025 reforms, RIA1 to RIA3 and VAAS sit under the Ministry of Agriculture and Environment (MAE), FIRI under MOIT, NIFC under MOH and NAFOSTED under MOST [@REG-42; @RD-07; @RD-06] {VN-direct|Medium}. We did not re-verify these mappings.
 
 ## S7.9 International collaborations
 
@@ -211,7 +220,7 @@ After the 2025 reforms, RIA1 to RIA3 and VAAS sit under the Ministry of Agricult
 
 > **Correction.** In v0.6 this table named Can Tho University as SLU's Vietnamese partner on brewer's yeast; both papers are with An Giang University (VNU-HCM) [@RD-48; @RD-49] {VN-direct|High}.
 
-The share of Vietnamese papers with international co-authors was not measured: OpenAIRE returned no affiliations [@BIB-01] {VN-direct|High}. Qualitatively, the most-cited VN-tagged records in microalgae, spirulina and black soldier fly come from international networks (Malaysia-led microalgae groups, a Taiwan-based black soldier fly biodiesel group, the IPK duckweed network) [@BIB-01] {VN-direct|Low}. Work led from inside Vietnam on protein ingredients typically has 0 to 25 citations [@BIB-01] {VN-direct|Low}.
+We could not measure the share of Vietnamese papers with international co-authors: OpenAIRE returned no affiliations [@BIB-01] {VN-direct|High}. Qualitatively, the most-cited VN-tagged records in microalgae, spirulina and black soldier fly come from international networks (Malaysia-led microalgae groups, a Taiwan-based black soldier fly biodiesel group, the IPK duckweed network) [@BIB-01] {VN-direct|Low}. Work led from inside Vietnam on protein ingredients typically has 0 to 25 citations [@BIB-01] {VN-direct|Low}.
 
 ## S7.10 Research funding programmes
 
@@ -236,7 +245,7 @@ From `research_funding.csv` (16 rows). Capital-side programmes (venture funds, N
 
 ## S7.11 Eleven research gaps Vietnam is well placed to fill
 
-Each gap meets three tests: Vietnam holds a scarce raw material, species or skill; we found no peer-reviewed work on it by anyone in Vietnam; and a named Vietnamese group already has the adjacent skill [@RD-01] {VN-direct|Medium}.
+Each gap meets three tests: Vietnam holds a scarce raw material, species or skill; we found no peer-reviewed work on it by anyone in Vietnam; and a named Vietnamese group already has the adjacent skill [@RD-01] {VN-direct|Medium}. Gap 11 concerns feed only. The study now treats feed as context, so gap 11 stays as the record, not as a research priority.
 
 1. **Cell lines from striped catfish, whiteleg and black tiger shrimp, Asian seabass, grouper and snakehead for cultivated seafood.** No fish or shrimp cell line developed in Vietnam was found [@RD-01; @BIB-01] {VN-direct|Medium}. Adjacent skills: Vinmec and the VNU-HCM Stem Cell Institute (culture, serum-free media); aquatic virology laboratories.
 2. **Low-cost recombinant growth factors for fish-cell media.** FGF-2, KGF and PDGF-BB are already expressed in *Pichia* at VNU-HCM; nobody has tested them on fish cells or costed them per gram [@RD-36; @RD-37; @RD-38] {VN-direct|Medium}.
@@ -247,8 +256,8 @@ Each gap meets three tests: Vietnam holds a scarce raw material, species or skil
 7. **Microalgae protein ingredients from salt-tolerant Spirulina** (48.7% protein measured) grown on seawater or brackish water on the south-central coast; only cultivation physiology is published [@RD-21] {VN-direct|Medium}.
 8. **Seaweed protein** (*Ulva*, *Caulerpa*, *Kappaphycus*) for food and feed; only small shrimp postlarvae trials exist [@RD-50; @RD-51] {VN-direct|Medium}.
 9. **Methanotroph or biogas-derived bacterial protein** from pig-farm and cassava-starch biogas; one isolation paper (2016), no follow-up [@RD-28] {VN-direct|Medium}.
-10. **A DIAAS or PDCAAS reference dataset for Vietnamese protein ingredients** (rice distillers' grain, mung bean, gac seed, spent yeast, catfish side-stream isolates, spirulina). Nothing found [@RD-01] {VN-direct|Medium}. This is a cheap public good every plant-based and feed play needs; no commercial Vietnamese laboratory offering digestibility assays was found either ([[app-s8-labs-talent]]).
-11. **Bacterial single-cell protein and fungal meal in pangasius and whiteleg shrimp diets.** Soy, yeast, black soldier fly and seaweed have been tested; novel microbial meals have not [@RD-01] {VN-direct|Medium}.
+10. **A DIAAS or PDCAAS reference dataset for Vietnamese protein ingredients** (rice distillers' grain, mung bean, gac seed, spent yeast, catfish side-stream isolates, spirulina). Nothing found [@RD-01] {VN-direct|Medium}. This is a cheap public good that every plant-based food play needs, and feed makers would use it too. No commercial Vietnamese laboratory offering digestibility assays was found either ([[app-s8-labs-talent]]).
+11. **Bacterial single-cell protein and fungal meal in pangasius and whiteleg shrimp diets.** Soy, yeast, black soldier fly and seaweed have been tested; novel microbial meals have not [@RD-01] {VN-direct|Medium}. Feed: context only.
 
 > **Correction.** A prior lead pointed to Indian ICAR-NBFGR pangasius cell lines as a transfer route for gap 1. The striped catfish thymus line PHT (NRFC-078) is real, but it is a serum-dependent (20% foetal bovine serum), adherent, epithelial line made for virology and toxicology, not a food cell line [@SCI-10] {VN-adjacent|High}. The shrimp line PmLyO-Sf9 is a black tiger shrimp and insect (Sf9) hybrid from Cochin University of Science and Technology, not ICAR-NBFGR, and contains an insect genome [@SCI-12] {general|High}. Neither removes the gap.
 
@@ -298,7 +307,7 @@ Quickest to publish, in the wave 1 agent's judgement (wave 1 working paper `work
 | Vietnamese-language journals only partly indexed | Ask NAFOSTED or the Vietnam Citation Index team for topic counts; screen LRRD 2010 to 2026 for Vietnamese affiliations. |
 | Affiliation of the most-cited network papers (the extrusion study is resolved) | Read the paper headers or OpenAlex institution IDs. |
 | Probable institution attributions in `publications.csv` | OpenAlex institution IDs, or read the headers. |
-| RIA1 to RIA3 aquafeed trials invisible in Scite | Search Vietnamese-language fisheries journals; call the RIA2 nutrition department. |
+| RIA1 to RIA3 aquafeed trials invisible in Scite (feed context) | Search Vietnamese-language fisheries journals; call the RIA2 nutrition department. |
 | NAFOSTED and VINIF grant sizes and 2026 calls | Latest NAFOSTED call notice and funding-norm circular; VINIF annual report. |
 | Resolution 57 and 36 targets; MAE and MOIT biotechnology programme decisions | thuvienphapluat.vn or vanban.chinhphu.vn. |
 | Vietnamese researchers abroad | ORCID and LinkedIn searches at Wageningen, NUS and A*STAR, Massey, Ghent, UC Davis and Tufts; ask GFI APAC and NIC. |

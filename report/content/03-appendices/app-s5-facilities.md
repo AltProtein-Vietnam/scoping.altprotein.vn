@@ -4,9 +4,9 @@ title: "S5. Industrial facilities and capacity"
 short_title: "Facilities and capacity"
 section: appendix
 order: 25
-summary: "Vietnam's fermentation, feed, soy, food-processing and starch plants: published capacities, a modelled estimate of installed fermentation volume, the 2025 to 2026 feed-industry consolidation, and what we could not find (contract fermentation, protein isolates, food-grade extrusion)."
+summary: "Vietnam's fermentation, soy, food-processing and starch plants, with feed mills as context: published capacities, a modelled estimate of installed fermentation volume, the 2025 to 2026 feed-industry consolidation, and what we could not find (contract fermentation, protein isolates, food-grade extrusion)."
 audiences: [investors, startups, manufacturers, policy, research, international]
-reading_time_min: 33
+reading_time_min: 35
 key_numbers: [kn-aerobic-volume, kn-feed-mills, kn-val-crush, kn-shrimp-feed-concentration]
 related_data: [facilities.csv, fermentation_volume_estimate.csv, engineering_suppliers.csv, companies.csv, feedstocks.csv, macro_indicators.csv, pilot_labs.csv, tariffs.csv, disagreements.csv, open_questions.csv]
 related_pages: [ch05-industrial-base, ch06-knowledge-talent, ch09-economics, ch26-plays, app-m5-changelog, app-s4-feedstocks, app-s1-directory, app-s6-feed-market, app-s12-costs, app-s8-labs-talent, app-r1-open-questions, app-r2-disagreements]
@@ -15,16 +15,28 @@ charts: [chart-capability-matrix]
 
 # S5. Industrial facilities and capacity
 
-This appendix lists the industrial plants in Vietnam that an alternative-protein venture could use, partner with or learn from. It covers the fermentation base (amino acids and MSG, yeast, fuel ethanol, breweries, sauces and biologics), the feed and aquafeed industry, soybean crushing, soy, dairy, meat and *đồ chay* (traditional vegetarian food) processors, starch and glucose, and the engineering firms that build these plants. It also records what we looked for and did not find: contract fermentation, protein isolate plants and food-grade extrusion. It supports [[ch05-industrial-base]]. Company profiles are in [[app-s1-directory]]; pilot plants, laboratories and talent are in [[app-s8-labs-talent]]; raw materials are in [[app-s4-feedstocks]].
+This appendix lists the industrial plants in Vietnam that a maker of protein for people could use, partner with or learn from. It covers:
+
+- the fermentation base: amino acids and monosodium glutamate (MSG), yeast, fuel ethanol, breweries, sauces and biologics;
+- soybean crushing, and soy, dairy, meat and *đồ chay* (traditional vegetarian food) processors;
+- starch and glucose;
+- the engineering firms that build these plants;
+- the feed and aquafeed industry, as context.
+
+It also records what we looked for and did not find: contract fermentation, protein isolate plants and food-grade extrusion. It supports [[ch05-industrial-base]]. Company profiles are in [[app-s1-directory]], pilot plants, laboratories and talent in [[app-s8-labs-talent]], and raw materials in [[app-s4-feedstocks]].
+
+Feed mills are large and about half used. They make the feed behind the meat, eggs and farmed fish that people in Vietnam eat. The study now concentrates on protein for people, so feed mills appear here as context, not as partners for its plays.
 
 ## How to read this appendix
 
 - **Capacity.** "Nameplate" or "design" capacity is what a plant was built to make, not what it makes. "Claimed" means a company or press statement we could not check against a filing. Where the only figure is historic, we give its year. Units are as published (t/yr, m3/yr, litres, doses).
 - **Fermentation types.** "Aerobic, aseptic" fermentation uses stirred or aerated tanks that can be sterilised. It is the kind used for amino acids, yeast and precision fermentation, and the kind most alternative-protein processes need. "Anaerobic" tanks (beer, fuel ethanol) are not aerated and usually not sterile.
 - **Provinces.** Current (post-1 July 2025) name first, former unit in brackets on first use, for example Tay Ninh (former Long An). See [[app-s10-admin-map]].
-- **Absence findings.** When we say "we found no", we mean our search did not find it. It is not proof that it does not exist. Each absence is listed as a gap to test by direct inquiry.
+- **Absence findings.** When we say "we found no", we mean our search did not find it. It is not proof that it does not exist. The gap table lists each absence to test by direct inquiry.
+- **Abbreviations.** GMP is good manufacturing practice; GMP-WHO is the World Health Organization version of it. FDI is foreign direct investment. SCP is single-cell protein (microbial biomass). TVP is textured vegetable protein. UHT is ultra-high-temperature processing. OEM (original equipment manufacturing) here means making products for another firm's brand. CDMO is a contract development and manufacturing organisation. EIA is an environmental impact assessment. HS is the harmonised system of customs codes, and MFN the most-favoured-nation import duty. ASF is African swine fever and FMD foot-and-mouth disease.
+- **Organisations.** MAE is the Ministry of Agriculture and Environment. USDA is the United States Department of Agriculture. QNS is Quang Ngai Sugar. FIRI is the Food Industries Research Institute. SHTP is Saigon Hi-Tech Park.
 
-> **Method note.** Wave 1 had a shared web-search budget that ran out after about 20 searches for this topic. Wave 2 had no web search and used direct reads of company filings and websites. Capacities for *đồ chay* plants, extrusion, spray drying, protein isolates, local fabricators and fishmeal plants are therefore thin.
+> **Method note.** Wave 1 had a shared web-search budget that ran out after about 20 searches for this topic. Wave 2 had no web search and used direct reads of company filings and websites. So capacities for *đồ chay* plants, extrusion, spray drying, protein isolates, local fabricators and fishmeal plants are thin.
 
 ## Summary: the industrial base at a glance
 
@@ -35,8 +47,8 @@ This appendix lists the industrial plants in Vietnam that an alternative-protein
 | Baker's yeast | AB Mauri La Nga 6,000 t/yr (residents' figure in 2019 press); Saf-Viet capacity not published | [@IND-16; @IND-17] | {VN-direct\|Medium} |
 | Fuel ethanol | 450,000 to 490,000 m3/yr design across 6 to 7 plants; 3 operating at 830 m3/day in 2026 | [@IND-18; @IND-19; @IND-20; @FS-09] | {VN-direct\|Medium} |
 | Brewing | Sabeco alone 2.4 billion L/yr design; national consumption about 3.8 billion L (2022) | [@IND-23; @IND-24] | {VN-direct\|Medium} |
-| Compound feed mills | 269 mills, 43.2 Mt/yr design (2023); output 20.8 Mt (2022), about 48% utilisation | [@IND-39] | {VN-direct\|Medium} |
-| Aquafeed | Up to 5.5 Mt/yr installed at 60 to 70% utilisation (2025) | [@IND-41] | {VN-direct\|Medium} |
+| Compound feed mills (context) | 269 mills, 43.2 Mt/yr design (2023); output 20.8 Mt (2022), about 48% utilisation | [@IND-39] | {VN-direct\|Medium} |
+| Aquafeed (context) | Up to 5.5 Mt/yr installed at 60 to 70% utilisation (2025) | [@IND-41] | {VN-direct\|Medium} |
 | Soybean crushing | VAL (Bunge and Wilmar) 2.6 Mt soybeans/yr, nearly 2 Mt meal (Dec 2025) | [@VCO-16] | {VN-direct\|Medium} |
 | Soy milk | Vinasoy 390 million L/yr in three plants (2022) | [@IND-49; @IND-50] | {VN-direct\|Medium} |
 | Starch and glucose | 120 to 150 cassava starch factories; Vedan glucose syrup 140,000 t/yr (1995 nameplate) | [@FS-02; @FS-07; @VCO-03] | {VN-direct\|Medium} |
@@ -49,7 +61,7 @@ This appendix lists the industrial plants in Vietnam that an alternative-protein
 
 ### S5.1.1 Amino acids and MSG
 
-Vietnam's aerobic industrial fermentation is captive inside three amino-acid groups. None publishes a contract-fermentation (toll) offer.
+Three amino-acid groups hold Vietnam's aerobic industrial fermentation and use it for their own products. None publishes an offer of contract fermentation (tolling: renting time on someone else's fermenter).
 
 | Facility | Location | Products and feedstock | Capacity (year, basis) | Offer to third parties | Sources | Label |
 |---|---|---|---|---|---|---|
@@ -106,7 +118,7 @@ Baker's yeast is the closest existing process to yeast or fungal single-cell pro
 
 ### S5.1.3 Fuel ethanol
 
-Fuel ethanol is the largest fermentation capacity that has stood idle. The E10 mandate is now pulling it back to ethanol.
+Fuel ethanol is the largest fermentation capacity that has stood idle. The E10 mandate (petrol blended with 10% ethanol) is now pulling it back to ethanol.
 
 | Plant | Location | Design capacity | Status in 2026 | Sources | Label |
 |---|---|---|---|---|---|
@@ -187,24 +199,26 @@ No one publishes Vietnam's installed fermentation volume. We estimated it for ea
 
 ### S5.1.9 Contract fermentation: what we did not find
 
-We found no Vietnamese company that offers food-grade contract fermentation (toll or CDMO) at pilot or commercial scale [@IND-01; @IND-02; @IND-08; @IND-60] {VN-direct|Low}. The large fermenters run single-product, integrated lines, and none of their websites or press describes toll fermentation. The public centres (the Food Industries Research Institute, FIRI, in Hanoi; the HCMC Biotechnology Center; Saigon Hi-Tech Park) publish no vessel list or contract-fermentation service [@IND-57; @IND-59; @IND-60; @INF-02; @INF-05] {VN-direct|Medium}. Vedan (falling Vietnamese MSG sales in 2025, underused starch and glucose lines, a 120 ha site with its own port) and Ajinomoto (already sells fermentation co-products as feed) are the plausible partners for a tolling or joint-venture deal.
+We found no Vietnamese company that offers food-grade contract fermentation (toll or CDMO) at pilot or commercial scale [@IND-01; @IND-02; @IND-08; @IND-60] {VN-direct|Low}. The large fermenters run single-product, integrated lines, and none of their websites or press describes toll fermentation. The public centres (the Food Industries Research Institute, FIRI, in Hanoi; the HCMC Biotechnology Center; Saigon Hi-Tech Park) publish no vessel list or contract-fermentation service [@IND-57; @IND-59; @IND-60; @INF-02; @INF-05] {VN-direct|Medium}. Vedan and Ajinomoto are the plausible partners for a food-grade tolling or joint-venture deal. Vedan's Vietnamese MSG sales fell in 2025, its starch and glucose lines are underused, and it has a 120 ha site with its own port. Ajinomoto already sells fermentation co-products as feed.
 
 ---
 
-## S5.2 Feed industry and aquafeed
+## S5.2 Feed industry and aquafeed (context)
+
+> **Read with care.** The study now concentrates on protein for people. This section is context: feed mills turn mostly imported ingredients into the feed behind the meat, eggs and farmed fish that people in Vietnam eat. They are large and about half used, but they are not partners for this study's plays. Version 0.7 treated them as buyers for new feed ingredients; that assessment is kept as a record in [[app-s6-feed-market]].
 
 ### S5.2.1 Scale and utilisation
 
 - **Mills and capacity.** Vietnam had 269 industrial feed mills with 43.2 Mt/yr of design capacity (December 2023). They produced 18.8 Mt in 2018 and 20.8 Mt in 2022, about 48% utilisation. Foreign-invested (FDI) firms owned 90 mills (33.5% of the count), 51.3% of capacity and 62.5% of output in 2022, up from 59.8% of output in 2018 [@IND-39] {VN-direct|Medium}. A securities report puts FDI at about 60% of industrial feed [@IND-40] {VN-direct|Low}.
 - **Companies.** More than 260 feed companies operate, and FDI firms make "more than 60%" of industrial feed (industry survey, December 2025) [@MAC-25] {VN-direct|Low}. A 2017 ministry figure was 60 to 65% from about 218 firms, 71 of them FDI [@MAC-29] {VN-direct|Low}.
-- **Output.** Livestock and poultry compound feed was 21.5 Mt in 2024 and about 22 Mt in 2025 (up about 3%) [@MAC-28; @MAC-01] {VN-direct|High}; H1 2026 output was 12.43 Mt (up 7.5%, media reports cited by USDA) [@MAC-03] {VN-direct|Medium}. These figures exclude aquafeed. On the 2023 capacity figure, 2025 utilisation was about 51% (our calculation, 22 / 43.2). Spare pelleting capacity for trials of new feed ingredients is widespread.
+- **Output.** Livestock and poultry compound feed was 21.5 Mt in 2024 and about 22 Mt in 2025 (up about 3%) [@MAC-28; @MAC-01] {VN-direct|High}; H1 2026 output was 12.43 Mt (up 7.5%, media reports cited by USDA) [@MAC-03] {VN-direct|Medium}. These figures exclude aquafeed. On the 2023 capacity figure, 2025 utilisation was about 51% (our calculation, 22 / 43.2). So spare pelleting capacity is widespread; feed-ingredient trials are no longer a target of this study.
 - **Target.** Decision 1520/QD-TTg sets 30 to 32 Mt of industrial feed output from 40 to 45 Mt of mill capacity by 2030 [@MAC-23] {VN-direct|High}.
 
 ### S5.2.2 Aquafeed
 
 - **Capacity.** Installed aquafeed capacity was up to 5.5 Mt/yr in 2025 at 60 to 70% utilisation, which implies 3.3 to 3.85 Mt of output [@IND-41] {VN-direct|Medium}.
 - **Output by species (2025, industry estimates).** Shrimp feed up to 920 kt. Fish feed 3.0 to 3.9 Mt: pangasius 2.0 to 2.5 Mt, tilapia 0.4 to 0.5 Mt, snakehead up to 0.3 Mt, marine fish 80 to 100 kt [@IND-41] {VN-direct|Medium}. USDA's estimate of 6.5 Mt of aquafeed for 2025 does not match; the gap is unresolved ([[app-s6-feed-market]]).
-- **Buyer concentration.** Six firms (Sheng Long/Haid, C.P., Uni-President, Tongwei, Grobest and Gromax) supplied 640 kt of shrimp feed, about 70% of the total (our calculation, 640 / 920) [@IND-41; @IND-43] {VN-direct|Medium}. A new protein ingredient therefore has about six real buyers in shrimp feed.
+- **Buyer concentration.** Six firms (Sheng Long/Haid, C.P., Uni-President, Tongwei, Grobest and Gromax) supplied 640 kt of shrimp feed, about 70% of the total (our calculation, 640 / 920) [@IND-41; @IND-43] {VN-direct|Medium}. So buying is concentrated: a new feed-protein ingredient would face about six real buyers in shrimp feed.
 - **Extrusion.** Floating fish feed is extruded. Haid's Vinh Long complex alone has 7 fish-feed extruders and 15 shrimp-feed lines [@IND-46] {VN-direct|Medium}. These are feed-grade lines, not food-grade high-moisture extrusion.
 
 ### S5.2.3 Main feed groups
@@ -232,7 +246,7 @@ We found no Vietnamese company that offers food-grade contract fermentation (tol
 
 > **Correction.** Earlier drafts said De Heus gained 17 plants in Vietnam from CJ. The 17 mills are across five countries [@VCO-07; @VCO-08]. The number in Vietnam is not disclosed.
 
-- **New high-protein aquafeed capacity.** C.P. opened a 124,800 t/yr shrimp-feed plant in Ca Mau on 7 August 2026 [@IND-42] {VN-direct|Medium}. De Heus opened a marine and cold-water fish-feed mill in Vinh Long in July 2026, for feeds with 40 to 50% protein [@IND-45; @VCO-10] {VN-direct|Medium}. These plants are the premium buyers for fishmeal substitutes.
+- **New high-protein aquafeed capacity.** C.P. opened a 124,800 t/yr shrimp-feed plant in Ca Mau on 7 August 2026 [@IND-42] {VN-direct|Medium}. De Heus opened a marine and cold-water fish-feed mill in Vinh Long in July 2026, for feeds with 40 to 50% protein [@IND-45; @VCO-10] {VN-direct|Medium}. These plants are the premium buyers for fishmeal substitutes, a market this study now treats as context.
 
 > **Correction.** Wave 1 recorded the De Heus Vinh Long mill at 84,000 t/yr (trade press) [@IND-45]. The De Heus global release of 22 July 2026 gives 168,000 t/yr design capacity [@VCO-10]. We use the company figure; 84,000 t/yr may be phase 1. The conflict is logged in [[app-r2-disagreements]].
 
@@ -241,7 +255,7 @@ We found no Vietnamese company that offers food-grade contract fermentation (tol
 
 ### S5.2.5 Premix and fishmeal plants
 
-- **Premix.** Cargill Provimi (Dong Nai, 40,000 t/yr) is the only premix plant with a published capacity [@IND-47] {VN-direct|Medium}; De Heus lists one premix plant [@VCO-09]. Premix blenders are a low-volume entry route for functional ingredients such as yeast derivatives and postbiotics.
+- **Premix.** Cargill Provimi (Dong Nai, 40,000 t/yr) is the only premix plant with a published capacity [@IND-47] {VN-direct|Medium}; De Heus lists one premix plant [@VCO-09]. Version 0.7 saw premix blenders as a low-volume entry route for functional feed ingredients such as yeast derivatives and postbiotics (play T2, functional microbial feed ingredients, retired).
 - **Fishmeal plants.** Not mapped. Vietnam exported USD 430.5 M of fishmeal in 2023, mostly to China, so domestic plants exist at scale [@FM-38] {VN-direct|Medium}; see [[app-s6-feed-market]].
 
 ---
@@ -305,7 +319,7 @@ We found no Vietnamese company that offers food-grade contract fermentation (tol
 - **Frozen formats.** Vissan, CJ Cau Tre, Cholimex, SG Food and GN Foods already make chay on meat or frozen-food lines. They are the most plausible co-packers for plant-based products and first customers for protein ingredients.
 - **Plant milks.** Vinasoy and the dairy majors have UHT capacity. We found no evidence that they sell it to others.
 - **Aerobic fermentation.** No toll offer exists (S5.1.9). The route is a structured deal with Vedan or Ajinomoto.
-- **Feed trials.** Mills run at about half capacity (S5.2.1), so pelleting trial slots should be easy to find.
+- **Feed mills (context).** Mills run at about half capacity (S5.2.1). Feed trials are no longer a target of this study, so this spare capacity is context only.
 
 ---
 
@@ -341,8 +355,8 @@ Saigon Hi-Tech Park covers 913 ha (phase 1 of 300 ha and phase 2 of 613 ha), wit
 | 5 | Capacity and processes of do chay and plant-based makers | Co-packer selection | Manufacturer names from product labels (the field photos exist), then company registration and self-declaration records |
 | 6 | Extrusion, spray drying, maltodextrin, protein isolates | Absence findings need testing | Customs data for HS 3504 and 2106.10 by importer; ask Vinasoy and instant-coffee dryers (Nestle Tri An, Masan/Vinacafe Bien Hoa, Trung Nguyen) about toll drying |
 | 7 | Citric acid, enzymes, threonine and methionine production | Tests the "all imported" assumption | Customs import data for 2024 and 2025; the Vietnam Chemicals Agency plant list |
-| 8 | Which Vietnamese mills came with CJ Feed & Care; whether the 21 De Heus plants include them | Buyer concentration | Ask De Heus Vietnam communications |
-| 9 | Fishmeal plants and premix makers | Domestic competitor for novel feed protein | MAE livestock department feed-facility registry; VASEP for by-product fishmeal plants |
+| 8 | Which Vietnamese mills came with CJ Feed & Care; whether the 21 De Heus plants include them | Buyer concentration in feed (context) | Ask De Heus Vietnam communications |
+| 9 | Fishmeal plants and premix makers | Context only: the domestic competitor for novel feed protein | MAE livestock department feed-facility registry; VASEP for by-product fishmeal plants |
 | 10 | Status of AB Mauri La Nga after the 2019 suspension | The only sizeable yeast plant with a published capacity | Dong Nai Department of Agriculture and Environment, or AB Mauri directly |
 | 11 | Local fabricators of stainless fermenters and food machinery; Vietnamese entities of the equipment majors | Capex and service lead times | Vietnam Mechanical Enterprises Association; phone the regional offices of Buhler, GEA, Alfa Laval, Famsun and Clextral |
 | 12 | Plant lists for Vissan, CJ Foods Vietnam and Ajinomoto; Vinasoy 2025 capacity | Co-packing and okara | 2025 annual or sustainability reports (Vissan publishes to UPCoM; QNS annual report) |

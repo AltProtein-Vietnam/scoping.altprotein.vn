@@ -4,9 +4,9 @@ title: "F3. Frontier technology: evidence, costs and windows"
 short_title: "F3. Frontier technology"
 section: appendix
 order: 63
-summary: "The evidence and calculations behind chapter 21: an evidence card for each of eleven frontier routes, the energy, hydrogen, CO2 and cost arithmetic for protein from power in Vietnam, learning rates and cost paths, carbon prices and carbon cost per tonne of protein, AI and bio-design, approvals and capital, the research pipeline and the windows table. Every Vietnamese cost and window is our estimate from stated inputs, not a forecast."
+summary: "The evidence and calculations behind chapter 21: an evidence card for each of eleven frontier routes, the cost arithmetic for protein made from power in Vietnam, learning rates, carbon costs, AI, approvals, capital, research and the windows table. Every Vietnamese cost and window is our estimate from stated inputs, not a forecast. Comparisons with feed prices are context."
 audiences: [investors, startups, research, policy, manufacturers, international]
-reading_time_min: 35
+reading_time_min: 37
 key_numbers: [kn-p2p-cost-vn-2050, kn-learning-rate-fermentation, kn-fungal-protein-floor, kn-p2p-energy-per-mt, kn-vn-gas-protein-papers]
 related_data: [frontier_gas_tech.csv, vn_energy_inputs_2050.csv, co2_point_sources_vn.csv, frontier_bio_tech.csv, ai_biodesign_evidence.csv, approvals_trend.csv, learning_rates.csv, carbon_price_paths.csv, carbon_cost_per_protein.csv, feedstock_futures.csv, biblio_trends_frontier.csv, vn_research_profile.csv, frontier_windows.csv]
 related_pages: [ch21-frontier-technology, ch09-economics, ch10-technology-fit, ch22-protein-balance-2050, ch23-scenarios-2050, ch28-robust-moves, app-s12-costs, app-s13-science, app-s7-research, app-s11-capital, app-s3-regional, app-s9-regulation, app-m2-futures-method, app-f2-drivers-signals, app-f6-aquafeed-feedstock-futures, app-r1-open-questions, app-r2-disagreements]
@@ -15,11 +15,22 @@ charts: [chart-frontier-windows, chart-cost-paths-2050]
 
 # F3. Frontier technology: evidence, costs and windows
 
-**What this appendix contains.** The detail behind [[ch21-frontier-technology]]: an evidence card for each of eleven frontier routes (F3.1); the arithmetic for protein made from renewable power in Vietnam (F3.2); learning rates and cost paths (F3.3); carbon prices and carbon cost per tonne of protein (F3.4); AI and bio-design (F3.5); approvals and capital (F3.6); the research pipeline (F3.7); and the windows table (F3.8).
+**What this appendix contains.** The detail behind [[ch21-frontier-technology]]:
 
-**How to use it.** Read a route's card before pricing a deal or programme in it. Test any cost claim against F3.2 and F3.3. Use F3.8 for the condition that opens each window, and [[app-f2-drivers-signals]] for the signposts.
+- an evidence card for each of eleven frontier routes (F3.1);
+- the arithmetic for protein made from renewable power in Vietnam (F3.2);
+- learning rates and cost paths (F3.3);
+- carbon prices and the carbon cost per tonne of protein (F3.4);
+- AI and bio-design (F3.5);
+- approvals and capital (F3.6);
+- the research pipeline (F3.7);
+- the windows table (F3.8).
 
-> **Method note.** Global cost paths are published models. Vietnamese costs are our calculations from three rerunnable scripts in `working-papers/wave3/`: `frontier_gas/ftg_estimates.py`, `econ_policy/ecf_calc.py` and `next_gen_feedstocks/ngf_calc.py`. The prices to beat are fishmeal protein at USD 2,625 (2025 average) to 3,846 (August 2026) per t and soybean-meal protein at about USD 880 per t [@FM-01] {general|High}. Every window is an estimate with conditions, not a forecast. Tags: [[app-m2-futures-method]].
+**How to use it.** Read a route's card before you price a deal or programme in it. Test any cost claim against F3.2 and F3.3. Use F3.8 for the condition that opens each window, and [[app-f2-drivers-signals]] for the signposts.
+
+**Feed is context.** The study is about protein for people. Several routes here were first costed as feed and compared with fishmeal and soybean meal, and four windows are feed windows. We keep that record, but the study no longer treats feed ingredients as something to make.
+
+> **Method note.** Global cost paths are published models. Vietnamese costs are our calculations from three scripts in `working-papers/wave3/` that anyone can rerun: `frontier_gas/ftg_estimates.py`, `econ_policy/ecf_calc.py` and `next_gen_feedstocks/ngf_calc.py`. The feed prices used as comparators are fishmeal protein at USD 2,625 (2025 average) to 3,846 (August 2026) per t and soybean-meal protein at about USD 880 per t [@FM-01] {general|High}. This feed comparison is context only; section 9.3 of [[ch09-economics]] gives the food prices that new protein has to beat. Every window is an estimate with conditions, not a forecast. The tags are explained in [[app-m2-futures-method]].
 
 ---
 
@@ -34,7 +45,7 @@ Each card gives the status in 2026, the largest plant, cost evidence, failures, 
 | Status 2026 | Food grade at technology readiness level (TRL) 7, approved in Singapore (2022), US notice filed May 2026; feed grade TRL 5 to 6 with no plant (TRLs our judgement) [@FTG-01; @FTG-03; @RGN-04] {general\|Medium} |
 | Largest plant | Solar Foods, Finland: Factory 01, scaling to 230 t a year. Phase one of Factory 02 (3,200 t a year) targets late 2028; the investment decision was pending in September 2026 [@FTG-04; @FTG-05] {general\|Medium} {fx:signal} |
 | Cost evidence | EUR 4.0 to 4.5 per kg of protein (2030) and 2.1 to 2.3 (2050) at the best global sites [@FTG-01] {general\|High} {fx:projection} (Fasihi et al. published model). The 3,200 t plan implies about EUR 60,000 per annual t of product on the EUR 191 million on-balance-sheet budget (about EUR 99,000 with EUR 127 million of partner finance), several times the model's first-plant capex (our derivation) [@FTG-03; @FTG-04] {general\|Low}. Vietnam: F3.2.4 |
-| Failures | NovoNutrients closed in 2025 on capital intensity, and Arkeon became insolvent in 2025 after it could not close a funding round; Solar Foods made an operating loss of EUR 6.8 million in H1 2026 [@FTG-10; @FTG-11; @FTG-03] {general\|Medium} |
+| Failures | NovoNutrients closed in 2025 on capital intensity, and Arkeon became insolvent in 2025 after it could not close a funding round; Solar Foods made an operating loss of EUR 6.8 million in the first half of 2026 [@FTG-10; @FTG-11; @FTG-03] {general\|Medium} |
 | Vietnam base | 2 of 494 papers (2016 to 2026); no project [@FTG-14] {VN-direct\|High} |
 | Window | Bulk feed 2040 to 2045 at the earliest {VN-direct\|Low} {fx:estimate} |
 | Conditions | The five conditions in F3.2.6 |
@@ -47,7 +58,7 @@ Each card gives the status in 2026, the largest plant, cost evidence, failures, 
 |---|---|
 | Status 2026 | Methane protein TRL 8, approved for Chinese aquafeed (2024); steel-gas protein (*Clostridium autoethanogenum* protein, CAP) TRL 9 in China as an ethanol co-product, certified in 2021 (TRLs our judgement) [@FTG-06; @FTG-22] {VN-adjacent\|Medium} |
 | Largest plant | Calysseo, Chongqing: 20,000 t a year, halted in 2026. Shougang LanzaTech made 10,200 t of protein in 2023, at 0.1 to 0.15 t per t of ethanol [@FTG-06; @FM-13; @FTG-08; @FTG-09] {VN-adjacent\|Medium}. Unibio plans 50,000 t in Saudi Arabia from 2028, with Asia as a target market [@FTG-07] {general\|Medium} {fx:signal} |
-| Cost evidence | One model: USD 1.10 to 2.57 per kg of protein [@FTG-25] {general\|Low}. Our arithmetic: 1.7 kg of methane per kg of protein x 0.0526 MMBtu per kg = 0.089 MMBtu; at USD 8 to 14 per MMBtu (the top is MOIT's 2026 LNG basis) the gas alone costs USD 720 to 1,250 per t of protein, about the whole price of soybean-meal protein [@FTG-31] {VN-direct\|Low} |
+| Cost evidence | One model: USD 1.10 to 2.57 per kg of protein [@FTG-25] {general\|Low}. Our arithmetic: 1.7 kg of methane per kg of protein x 0.0526 MMBtu (million British thermal units) per kg = 0.089 MMBtu; at USD 8 to 14 per MMBtu (the top is the 2026 liquefied natural gas basis of the Ministry of Industry and Trade, MOIT) the gas alone costs USD 720 to 1,250 per t of protein, about the whole price of soybean-meal protein [@FTG-31] {VN-direct\|Low} |
 | Failures | Calysseo: 2025 revenue USD 0.71 million, loss USD 15.5 million, loan not renewed; earlier gas-based protein proved uneconomic because of the high price of natural gas; Shougang LanzaTech (CAP) had a minus 9.2% gross margin in H1 2024 [@FTG-06; @FTG-26; @FTG-08] {general\|Medium} |
 | Vietnam base | No project. At Hoa Phat, in-house power from recovered waste heat and steel-mill gas covers 80 to 90% of site electricity use, so the gas has a power value [@FTG-20] {VN-direct\|Medium} |
 | Window | Imported methane or CAP protein from about 2028; a CAP-type co-product only inside a steel-gas ethanol or aviation-fuel project, 2030s {VN-direct\|Low} {fx:estimate} |
@@ -59,7 +70,7 @@ Each card gives the status in 2026, the largest plant, cost evidence, failures, 
 |---|---|
 | Status 2026 | TRL 8 to 9; China approved mycoprotein for food in 2025 [@HSC-11] {VN-adjacent\|Medium} |
 | Largest plant | Angel Yeast, 11,000 t a year of yeast protein (November 2025); Cabio with Nourish, about 170,000 t of finished-product capacity [@HSC-14; @HSC-13] {VN-adjacent\|Medium}. Enifer is building a 3,000 t PEKILO plant (Finland) and a 500 t pilot on ethanol stillage in Brazil [@NGF-17] {general\|Medium} {fx:signal} |
-| Cost evidence | Vietnamese fungal feed protein USD 4,050 to 14,700 per t of protein at 2026 prices ([[ch09-economics]]); floor and cost paths in F3.3.2. A plant costing USD 100 million in the US costs about USD 15 million in China (interviewees' rule of thumb) [@HSC-13] {VN-adjacent\|Medium} |
+| Cost evidence | Vietnamese fungal biomass protein, costed as a feed-grade ingredient: USD 4,050 to 14,700 per t of protein at 2026 prices ([[ch09-economics]]); floor and cost paths in F3.3.2. A plant costing USD 100 million in the US costs about USD 15 million in China (interviewees' rule of thumb) [@HSC-13] {VN-adjacent\|Medium} |
 | Failures | Meati (US mycoprotein) failed in 2025 despite commercial output [@FTB-38] {general\|Medium} |
 | Vietnam base | Thai Duong Feed JSC's 2016 to 2019 research project made yeast protein from cereals and molasses (dry product above 46% protein): 120 t of liquid product; VND 167 billion total investment; status now unknown [@HSC-06; @HSC-07] {VN-direct\|Medium} |
 | Window | Feed single-cell protein 2027 to 2030; food mycoprotein 2030 to 2035 {VN-direct\|Low} {fx:estimate} |
@@ -75,7 +86,7 @@ Each card gives the status in 2026, the largest plant, cost evidence, failures, 
 | Failures | Patent disputes over strains and proteins (Onego Bio and VTT, The EVERY Company, Fonterra, Perfect Day, Impossible Foods, Motif) [@FTB-17] {general\|Medium} |
 | Vietnam base | 2 indexed papers (2015 to 2025); we found no food-grade contract fermentation; Decree 43/2026 sets first rules for genetically modified microbes in closed production [@HSC-01; @AQF-22] {VN-direct\|Medium} |
 | Window | Contract manufacture of high-value proteins 2030 to 2035; commodity dairy and egg proteins 2035 to 2040 at the earliest {VN-direct\|Low} {fx:estimate} |
-| Conditions | A first closed-production GMO certificate; clearance by reliance on US or Singapore decisions; regional food-grade contract capacity above 10 m3; patent expiries (F3.6.3) {VN-direct\|Low} |
+| Conditions | A first closed-production certificate for a genetically modified organism; clearance by reliance on US or Singapore decisions; regional food-grade contract capacity above 10 m3; patent expiries (F3.6.3) {VN-direct\|Low} |
 
 ### F3.1.5 AI-assisted bio-design and biofoundries
 
@@ -95,13 +106,13 @@ Each card gives the status in 2026, the largest plant, cost evidence, failures, 
 |---|---|
 | Status 2026 | TRL 7 to 8, but no plant has run reliably at design output. Every US and European commercial cellulosic ethanol plant has shut, the last being Clariant's Podari plant (63 million litres a year, USD 258 million) in December 2023 [@NGF-33; @NGF-34] {general\|High} |
 | India's first commercial plant | Panipat, India (about 200,000 t of straw a year): next to no output in year one, 62% of design in December 2025; work on 12 planned second-generation refineries was reported paused (November 2024); Numaligarh (185 kilolitres of ethanol a day, bamboo) opened in September 2025 [@NGF-10; @NGF-11] {VN-adjacent\|Medium} |
-| Cost evidence | Mature-plant models USD 342 (with co-product credits) to 467 (converted from USD 0.212 per lb) per t of sugar; a lab-optimised Indian bagasse process USD 1,320 [@NGF-06; @NGF-07; @NGF-08] {general\|Medium}; Vietnamese cassava glucose about USD 511 to 560 (our derivation from native starch at USD 520 to 540 FOB, April 2026) [@FS-11] {VN-direct\|Low}. First plants: USD 2,090 (Panipat) to 2,380 (Podari) per t of annual sugar capacity, about USD 3,400 per delivered t at 62% use (our derivation) {general\|Low} |
+| Cost evidence | Mature-plant models USD 342 (with co-product credits) to 467 (converted from USD 0.212 per lb) per t of sugar; a lab-optimised Indian bagasse process USD 1,320 [@NGF-06; @NGF-07; @NGF-08] {general\|Medium}; Vietnamese cassava glucose about USD 511 to 560 (our derivation from native starch at USD 520 to 540 free on board, April 2026) [@FS-11] {VN-direct\|Low}. First plants: USD 2,090 (Panipat) to 2,380 (Podari) per t of annual sugar capacity, about USD 3,400 per delivered t at 62% use (our derivation) {general\|Low} |
 | Failures | As above. Not low-carbon by default: 1.57 kg CO2e per kg of bagasse sugar against 0.60 to 0.97 for Thai cassava starch [@NGF-08; @ECF-25] {general\|Low} |
 | Vietnam base | No plant or pilot found; enzyme costs still named as the barrier (June 2026); about 52 Mt of straw a year (our 2025 estimate), 30% of Mekong straw collected [@NGF-31; @NGF-01; @NGF-04] {VN-direct\|Medium} |
 | Window | Modest scale in the 2040s {VN-direct\|Low} {fx:estimate} |
 | Conditions | An Asian straw-sugar plant above 80% of design for two years and a traded straw price (our assumptions); full straw collection on the 1 million ha rice programme by 2030 [@NTS-32] {VN-direct\|Medium} {fx:projection} (official target) |
 
-Scale (our calculation, `ngf_calc.py`): the 2050 S-ALT sugar need of 1.32 Mt of glucose would take 3.0 to 4.3 Mt of straw (6 to 10% of national straw) and USD 2.8 to 4.5 billion of first-generation plants, 15 to 21 of Panipat's size {VN-direct|Low} {fx:estimate}. Feedstock cases: [[app-f6-aquafeed-feedstock-futures]].
+Scale (our calculation, `ngf_calc.py`): the 2050 sugar need in the study's large alternative-protein scenario (S-ALT), 1.32 Mt of glucose, would take 3.0 to 4.3 Mt of straw (6 to 10% of national straw) and USD 2.8 to 4.5 billion of first-generation plants, 15 to 21 of Panipat's size {VN-direct|Low} {fx:estimate}. Feedstock cases: [[app-f6-aquafeed-feedstock-futures]].
 
 ### F3.1.7 One-carbon (methanol) routes
 
@@ -109,9 +120,9 @@ Scale (our calculation, `ngf_calc.py`): the 2050 S-ALT sugar need of 1.32 Mt of 
 |---|---|
 | Status 2026 | Methanol-fed *Pichia pastoris* at pilot scale in China: 0.43 g of biomass per g of methanol at 50.6% protein, about 4.6 t of methanol per t of protein [@NGF-13] {VN-adjacent\|Medium}; electro-microbial routes TRL 3 to 4 [@FTG-12; @FTG-13] {general\|Low} |
 | Largest plant | A "10,000 t class" Chinese demonstration is referred to but not verified [@FTG-24] {VN-adjacent\|Low} |
-| Cost evidence | e-methanol USD 800 to 2,400 per t today; USD 250 to 630 per t in 2050 (USD 287 to 724 per t of sugar equivalent) [@NGF-12] {general\|Medium} {fx:projection} (IRENA published model). Vietnam: USD 785 to 1,112 per t of sugar equivalent at 2026 hydrogen costs, USD 495 to 695 at USD 1.5 to 2 per kg of hydrogen, about cassava-glucose parity (our calculation) {VN-direct\|Low} {fx:estimate} |
+| Cost evidence | e-methanol USD 800 to 2,400 per t today; USD 250 to 630 per t in 2050 (USD 287 to 724 per t of sugar equivalent) [@NGF-12] {general\|Medium} {fx:projection} (published model of the International Renewable Energy Agency, IRENA). Vietnam: USD 785 to 1,112 per t of sugar equivalent at 2026 hydrogen costs, USD 495 to 695 at USD 1.5 to 2 per kg of hydrogen, about cassava-glucose parity (our calculation) {VN-direct\|Low} {fx:estimate} |
 | Failures | ICI's Pruteen was discontinued for financial reasons [@FTG-01] {general\|Medium} |
-| Vietnam base | BSR at Dung Quat (Quang Ngai) plans to study low-carbon methanol from biogenic CO2 from the fourth quarter of 2026 [@FS-09]; we found no methanol-protein work {VN-direct\|Low} |
+| Vietnam base | The refiner BSR at Dung Quat (Quang Ngai) plans to study low-carbon methanol from biogenic CO2 from the fourth quarter of 2026 [@FS-09]; we found no methanol-protein work {VN-direct\|Low} |
 | Window | 2040s, at modest scale {VN-direct\|Low} {fx:estimate} |
 | Conditions | Hydrogen at USD 1.5 to 2 per kg; a Chinese feed certificate for methanol protein {VN-direct\|Low} |
 
@@ -124,9 +135,9 @@ Our calculation for 2050: supplying the S-ALT sugar need through methanol takes 
 | Status 2026 | Meat TRL 6 to 7, seafood 5 to 6 (our judgement); seven companies cleared by 2025 in Singapore, the US, Australia and New Zealand; Singapore cleared cultivated beef (4 August 2026); no EU authorisation [@FTB-24; @HSC-12; @FTB-45] {general\|Medium} |
 | Largest plant | Vow, Sydney: 20,000 L; most firms below 1,000 L [@FTB-24] {general\|Medium} |
 | Cost evidence | From USD 2.3 million per kg (2013) to about USD 63 per kg [@FTB-27]; media claims of USD 0.20 per litre [@FTB-24] against a peer-reviewed, industry-funded USD 0.63 [@FTB-01] {general\|Low}. 1% of world meat would need about 30 times the 2021 world culture capacity; pharmaceutical-grade media give 4 to 25 times beef's emissions [@FTB-26] {general\|High} |
-| Failures | Believer Meats shut in December 2025 after FDA clearance; firms fell from 155 to 142; investment from about USD 1 billion (2021) to 73.9 million (2025) [@FTB-24; @FTB-45; @FTB-01] {general\|Medium} |
+| Failures | Believer Meats shut in December 2025 after clearance by the US Food and Drug Administration (FDA); firms fell from 155 to 142; investment from about USD 1 billion (2021) to 73.9 million (2025) [@FTB-24; @FTB-45; @FTB-01] {general\|Medium} |
 | Forecasts | A 54% chance (2021 forecaster panel) that world output stays below 100,000 t a year through 2051 [@HSC-18] {general\|Medium} {fx:projection} (published probabilistic forecast); hybrids "may reach foodservice price points first within the decade" (published December 2025, so by about 2030 to 2035) [@FTB-44] {general\|Medium} {fx:projection} (published review) |
-| Vietnam base | 1 indexed paper (legal); VAST characterised bovine stem cells in 2025 [@HSC-01] {VN-direct\|Medium} |
+| Vietnam base | 1 indexed paper (legal); the Vietnam Academy of Science and Technology (VAST) characterised bovine stem cells in 2025 [@HSC-01] {VN-direct\|Medium} |
 | Window | Research only to 2035; seafood cells from Vietnamese species in the 2040s {VN-direct\|Low} {fx:estimate} |
 | Conditions | A food-grade fish or shrimp cell line; peer-reviewed media below about USD 0.5 per litre; a novel-food route with reliance {VN-direct\|Low} |
 
@@ -149,7 +160,7 @@ Our calculation for 2050: supplying the S-ALT sugar need through methanol takes 
 | Vietnam base | None; low-cost teaching kits exist [@FTB-37] {general\|Medium} |
 | Window | Prototyping now; bulk food not before 2050 {general\|Medium} {fx:wildcard} |
 
-### F3.1.11 Algal and oilseed omega-3 (brief)
+### F3.1.11 Algal and oilseed omega-3 for aquafeed (brief; feed context only)
 
 | Item | Evidence |
 |---|---|
@@ -231,6 +242,8 @@ Vietnamese columns {VN-direct|Low} {fx:estimate}; best sites {general|High} {fx:
 
 A plant buying hydrogen pays **about USD 690 per t of protein for each USD 1 per kg of hydrogen** (0.694 t per t). At USD 1, 2, 3 and 5 per kg the hydrogen line alone is USD 694, 1,388, 2,082 and 3,469 per t of protein; at USD 2 it exceeds the whole price of soybean-meal protein {general|High}.
 
+The prices to beat in the table below are feed prices; this feed comparison is context, and section 9.3 of [[ch09-economics]] gives the food comparators.
+
 **Breakeven delivered hydrogen price** (point-source CO2 at USD 20 to 50 per t; non-hydrogen costs at a Vietnamese cost of capital) {VN-direct|Low} {fx:estimate}:
 
 | Price to beat, USD per t of protein | 2030 plant costs | 2050 plant costs |
@@ -254,7 +267,7 @@ A plant buying hydrogen pays **about USD 690 per t of protein for each USD 1 per
 | 2. Firmed renewable power | About USD 30 to 45 per MWh or less | Solar low end USD 29 (2030), 18 (2050) before balancing [@FTG-19] | Best sites 2030s; typical sites 2040s {VN-direct\|Medium} {fx:estimate} |
 | 3. Capital | Plant near EUR 4,000 per annual t of protein; cost of capital about 8% or less | Model core-plant capex paths EUR 4,371 (2035, advanced scenario) and 3,702 (2050, reference scenario); solar hurdle rates 12% (2030) and 8.5% (2050) [@FTG-01; @FTG-19] | 2035 with concessional finance, else 2050 {VN-direct\|Low} {fx:estimate} |
 | 4. Price | Fishmeal protein above about USD 3,000 per t, sustained, or a carbon price on competing protein | No World Bank fishmeal forecast; carbon market excludes agriculture [@GT-14; @REG-59] | Uncertain {VN-direct\|Low} {fx:estimate} |
-| 5. Rules | Feed-list entry for bacterial biomass (MAE); new-food route (MOH) | Food Safety Law window 2026 to 2027 [@REG-12] | 2027 to 2030 {VN-direct\|Medium} {fx:estimate} |
+| 5. Rules | Feed-list entry for bacterial biomass (Ministry of Agriculture and Environment, MAE); new-food route (Ministry of Health) | Food Safety Law window 2026 to 2027 [@REG-12] | 2027 to 2030 {VN-direct\|Medium} {fx:estimate} |
 
 Also needed (our judgement): CO2 at USD 20 to 50 per t beside power and hydrogen (our assumed price; available now for pilots); and one hydrogen-route plant above 10 kt a year running two years abroad, not before about 2032, since the largest planned plant (3,200 t a year) targets late 2028 [@FTG-04] {VN-direct|Low} {fx:estimate}. **Earlier, narrower windows:** formulating imported, approved food ingredients from about 2028 if a new-food route exists; a CAP-type co-product in the 2030s; a 100 to 1,000 t research pilot on ethanol-plant CO2 now to 2030 {VN-direct|Low} {fx:estimate}.
 
@@ -276,13 +289,13 @@ A 20% learning rate means unit cost falls 20% each time cumulative output double
 | Solar, wind, batteries | Costs fell near 10% a year | Several decades | [@ECF-05] {general\|High} |
 | Any alternative protein | **None found**: 9 works combine the terms (2015 to 2026), none empirical | 2015 to 2026 | [@ECF-09] {general\|Medium} |
 
-Complex, site-built and customised plants learn more slowly than mass-produced panels and cells [@ECF-10; @ECF-11] {general|High}. We use 5 to 20% on capital cost and treat solar-style curves for fermented protein as unsupported {general|Medium} {fx:trend}. Big historic bioprocess cost falls came from titre and yield, not from building identical plants (our judgement); penicillin titres, for example, rose 225-fold in 1941 to 1944 [@ECF-06] {general|Medium}.
+Complex, site-built and customised plants learn more slowly than mass-produced panels and cells [@ECF-10; @ECF-11] {general|High}. We use 5 to 20% on capital cost and treat solar-style curves for fermented protein as unsupported {general|Medium} {fx:trend}. Big historic bioprocess cost falls came from titre (the concentration of product in the fermenter) and yield, not from building identical plants (our judgement); penicillin titres, for example, rose 225-fold in 1941 to 1944 [@ECF-06] {general|Medium}.
 
 {{kn:kn-learning-rate-fermentation}}
 
-### F3.3.2 Fungal feed protein: floor and planning range
+### F3.3.2 Fungal biomass protein: floor and planning range
 
-Script: `ecf_calc.py`, part A. Learning applies only to capital charge and maintenance in the supply chapters' cost stack A (10,000 t a year; [[ch09-economics]]); glucose, urea, power, labour and land stay at 2026 real prices.
+Script: `ecf_calc.py`, part A. Learning applies only to capital charge and maintenance in the supply chapters' cost stack A (10,000 t a year; [[ch09-economics]]). Glucose, urea, power, labour and land stay at 2026 real prices. Cost stack A was built for a feed-grade ingredient; chapter 9 explains why food grade costs more.
 
 | Input, USD per t of product (2026) | Low-cost end | High-cost end |
 |---|---|---|
@@ -302,6 +315,8 @@ Script: `ecf_calc.py`, part A. Learning applies only to capital charge and maint
 All rows: our calculation {VN-direct|Low} {fx:estimate}. Eight doublings (256 times today's capacity) is an outer bound.
 
 **Planning range** {VN-direct|Low} {fx:estimate}: about USD 3,000 to 12,500 per t of protein in 2030, 2,400 to 10,800 in 2040 and 2,200 to 9,500 in 2050 (fast-case low end to central-case high end). The low end needs cheap capital, residue carbon and a heat-tolerant strain.
+The two readings below compare the range with feed prices. This feed comparison is context; section 9.3 of [[ch09-economics]] compares fungal biomass with food protein ingredients such as textured soy, egg and dairy proteins.
+
 - **The floor, not learning, settles the soybean question**: about USD 1,870, 2.1 times soybean-meal protein.
 - **Fishmeal parity needs fast learning or cheap capital.** The low end is below the August 2026 fishmeal-protein price from 2030 (central and fast cases) or 2040 (slow); it reaches the 2025 average (USD 2,625) only in the fast case, around 2040.
 
@@ -314,7 +329,7 @@ All rows: our calculation {VN-direct|Low} {fx:estimate}. Eight doublings (256 ti
 | Low-cost end | Capital charge 12% cut to 9% a year | 3,613 (from 4,049) | Central case in 2030 (3,557, two doublings); the slow case does not reach it by 2050 (3,640) |
 | High-cost end | 18% cut to 12% | 12,027 (from 14,693) | Central case in 2030 (12,490) |
 
-Our calculation {VN-direct|Low} {fx:estimate}. Cheaper capital does as much as the central case's learning to 2030, with no technology risk, which is why concessional debt and guarantees are first-order levers; capital grants and guarantees also beat tax holidays in the regional evidence, at a 20% corporate tax rate [@RGN-01] {VN-adjacent|Medium}.
+Our calculation {VN-direct|Low} {fx:estimate}. Cheaper capital does as much as the central case's learning to 2030, with no technology risk. That is why concessional (below-market) debt and guarantees are first-order levers. Capital grants and guarantees also beat tax holidays in the regional evidence, at a 20% corporate tax rate [@RGN-01] {VN-adjacent|Medium}.
 
 ### F3.3.4 Precision-fermentation cost evidence
 
@@ -351,7 +366,7 @@ Full table: `carbon_price_paths.csv` (19 rows).
 
 ### F3.4.2 Carbon cost per tonne of protein
 
-Carbon cost = emission factor x price. It applies only if a price reaches embodied emissions; none does today. Script: `ecf_calc.py`, parts B and C; full table `carbon_cost_per_protein.csv` (14 rows). Soybean meal is taken at 46% protein (our assumption).
+Carbon cost = emission factor x price. It applies only if a price reaches embodied emissions (the emissions from making a product); none does today. Script: `ecf_calc.py`, parts B and C; full table `carbon_cost_per_protein.csv` (14 rows). Soybean meal and fishmeal appear as feed comparators, for context. Soybean meal is taken at 46% protein (our assumption). GFLI is the Global Feed LCA Institute, which publishes life-cycle assessment (LCA) data on the footprint of feed ingredients.
 
 | Input | t CO2e per t of product | USD per t of protein at USD 25 / 50 / 100 | Source |
 |---|---|---|---|
@@ -371,7 +386,7 @@ Fungal footprint inputs per t of product (our assumptions): 2.0 to 2.2 t of gluc
 - **It barely touches fishmeal:** USD 41 to 43 per t of protein at USD 50, 1 to 2% of the price. Scarcity drives the fishmeal gap, not carbon (our reading) [@ECF-24; @FM-01] {general|Medium}.
 - **It can hurt a cassava-based microbial protein**, which emits more than fishmeal (0.8 to 0.9 t per t of protein) and soybean meal without land-use change (1.6). Residue carbon, biogas and clean power come first {VN-direct|Low} {fx:estimate}.
 - **Protein from power flips from worst to best only on a clean grid**, around 2045 to 2050 {VN-direct|Low} {fx:estimate}.
-- **Nothing prices embodied feed emissions.** The EU border carbon mechanism covers fertilisers and hydrogen, both fermentation inputs, but not food or feed [@ECF-15] {general|High}. Buyers' scope 3 targets are the likelier channel, 2030 to 2040 {general|Medium} {fx:signal}.
+- **Nothing prices embodied feed emissions.** The EU border carbon mechanism covers fertilisers and hydrogen, both fermentation inputs, but not food or feed [@ECF-15] {general|High}. Buyers' targets for emissions in their supply chains (scope 3) are the likelier channel, 2030 to 2040 {general|Medium} {fx:signal}.
 - **Credits are not a financing route; green-debt labels are.** We found no approved protein-substitution method; the Climate Bonds Initiative launched Alternative Proteins criteria in 2025 [@ECF-27; @ECF-28] {general|Low}.
 
 ---
@@ -404,9 +419,9 @@ Full table: `ai_biodesign_evidence.csv` (21 rows).
 | Compute | FPT AI Factory 38th on the June 2025 TOP500 (46.65 petaflops); Viettel DGX B200 from February 2026 with shared research access | [@FTB-15; @FTB-16] {VN-direct\|Medium} |
 | Biotechnology policy | A 2025 national workshop on the 2026 to 2030 biotechnology agenda, where Vietnam National University Ho Chi Minh City (VNU-HCM) set out a bioinformatics and AI focus for its own research; Directive 13/CT-TTg asks MAE for biotechnology clusters by December 2026; neither names fermentation | [@FTB-49; @FTB-50] {VN-direct\|Medium} {fx:signal} |
 | Biofoundry | None found in Vietnam; no Vietnamese member on the part of the Global Biofoundry Alliance list we could read (A to L) | [@FTB-11] {VN-direct\|Medium} |
-| Neighbours | Thailand: synthetic biology strategy and a proposed GMP food pilot plant; Korea: open K-Biofoundry and a synthetic biology law; India: a fermentation biofoundry for "smart proteins" | [@FTB-43; @FTB-42; @FTB-12; @ECF-33; @FTB-17] {VN-adjacent\|Medium} |
+| Neighbours | Thailand: synthetic biology strategy and a proposed food pilot plant built to good manufacturing practice standard; Korea: open K-Biofoundry and a synthetic biology law; India: a fermentation biofoundry for "smart proteins" | [@FTB-43; @FTB-42; @FTB-12; @ECF-33; @FTB-17] {VN-adjacent\|Medium} |
 
-**Reading.** Compute is no longer the constraint; wet-lab automation, data and bio-ML people are {VN-direct|Medium}. Design in Vietnam, build and test in a Korean, Singapore or Chinese biofoundry, is the cheap route to 2030 {VN-direct|Low} {fx:estimate}.
+**Reading.** Compute is no longer the constraint; wet-lab automation, data and people with both biology and machine-learning skills are {VN-direct|Medium}. The cheap route to 2030 is to design in Vietnam, then build and test in a Korean, Singapore or Chinese biofoundry {VN-direct|Low} {fx:estimate}.
 
 ---
 
@@ -422,7 +437,7 @@ Novel-protein approvals counted from the approvals register (Singapore, US, Isra
 | Cultivated | 0 | 1 | 0 | 1 | 3 | 1 | 5 | 2 |
 | Precision fermentation | 0 | 0 | 0 | 0 | 1 | 0 | 2 | 0 |
 
-Not counted: 2025 US letters for beta-lactoglobulin (Vivici; Shanghai Changing Biotechnology), lactoferrin (TurtleTree), ovalbumin (Onego Bio) and whey (Verley), with some dates in conflict; a proposed rule to end self-affirmed GRAS; 2024 US molecular-farming clearances; Korea's planned formal standards for cell-cultured food (announced June 2026) [@FTB-18; @FTB-19; @FTB-29; @FTB-31; @FTB-20] {general|Medium}. Vietnam has no new-food route: no implementing text says how a new-technology food obtains permission ([[ch07-rules]]); we found no approvals [@REG-01; @REG-02] {VN-direct|Medium}. Full list: `approvals_trend.csv` (44 rows).
+Not counted: 2025 US letters for beta-lactoglobulin (Vivici; Shanghai Changing Biotechnology), lactoferrin (TurtleTree), ovalbumin (Onego Bio) and whey (Verley), with some dates in conflict; a proposed rule to end self-affirmed GRAS (generally recognised as safe) status; 2024 US molecular-farming clearances; Korea's planned formal standards for cell-cultured food (announced June 2026) [@FTB-18; @FTB-19; @FTB-29; @FTB-31; @FTB-20] {general|Medium}. Vietnam has no new-food route: no implementing text says how a new-technology food obtains permission ([[ch07-rules]]); we found no approvals [@REG-01; @REG-02] {VN-direct|Medium}. Full list: `approvals_trend.csv` (44 rows).
 
 ### F3.6.2 Capital
 
@@ -448,7 +463,7 @@ Core families behind heme meat analogues (Impossible Foods, e.g. family 57325176
 | Believer Meats (US) | USD 154 million plant shut December 2025; status since unknown | [@FTB-24; @FTB-45] {general\|Medium} |
 | Calysseo (China) | 20,000 t plant halted 2026 | [@FTG-06; @FM-13] {VN-adjacent\|Medium} |
 
-Cheap second-hand tanks cut capital more than any learning curve before 2030, until the cycle turns {general|Medium} {fx:signal}. Clear customs and tax rules for used fermenters would let a Vietnamese feed venture use this in 2027 to 2030 ([[ch28-robust-moves]], RM-15) {VN-direct|Low} {fx:estimate}.
+Cheap second-hand tanks cut capital more than any learning curve before 2030, until the cycle turns {general|Medium} {fx:signal}. Clear customs and tax rules for used fermenters would let a Vietnamese fermentation venture use this in 2027 to 2030 (move RM-15 in [[ch28-robust-moves]]) {VN-direct|Low} {fx:estimate}.
 
 ---
 
@@ -456,7 +471,7 @@ Cheap second-hand tanks cut capital more than any learning curve before 2030, un
 
 ### F3.7.1 Global growth by field
 
-OpenAlex articles and reviews; keyword lower bounds; 2026 to 24 September [@HSC-01] {general|Medium} {fx:trend}.
+OpenAlex articles and reviews; counts from keyword searches, so lower bounds; 2026 to 24 September [@HSC-01] {general|Medium} {fx:trend}.
 
 | Field | 2015 | 2020 | 2025 | 2026 (part) | Growth a year, 2020 to 2025 |
 |---|---|---|---|---|---|
@@ -490,16 +505,16 @@ All OpenAlex articles and reviews grew about 0.9% a year (2015 to 2025). Fields 
 
 ## F3.8 Windows for Vietnam
 
-From `frontier_windows.csv` (11 rows). Plays: [[ch26-plays]].
+From `frontier_windows.csv` (11 rows). The Plays column links each window to the plays and public goods in [[ch26-plays]]; [[front-how-to-read]] decodes the T and P codes. Four windows are about feed: FW-01, FW-02, FW-06 and FW-10. They stay as the record, but their plays T2 and T3 are retired, because the study now concentrates on protein for people.
 
 | ID | Route | Window | Condition that opens it | Plays | Evidence |
 |---|---|---|---|---|---|
-| FW-01 | AI-assisted design of feed enzymes and yeast media | 2026 to 2030 | Shared wet-lab and data access | T2 | [@FTB-04; @FTB-06; @FTB-11] {VN-direct\|Low} {fx:estimate} |
-| FW-02 | Single-cell feed protein on sugar and side streams, possibly in second-hand tanks | 2027 to 2030 | A feed-list entry and one anchor buyer | T2, T3 | [@HSC-06; @FTB-38] {VN-direct\|Low} {fx:estimate} |
+| FW-01 | AI-assisted design of feed enzymes and yeast media | 2026 to 2030 | Shared wet-lab and data access | T2 (retired) | [@FTB-04; @FTB-06; @FTB-11] {VN-direct\|Low} {fx:estimate} |
+| FW-02 | Single-cell feed protein on sugar and side streams, possibly in second-hand tanks | 2027 to 2030 | A feed-list entry and one anchor buyer | T2, T3 (retired) | [@HSC-06; @FTB-38] {VN-direct\|Low} {fx:estimate} |
 | FW-03 | Formulating imported, approved novel food ingredients | 2028 to 2035 | A new-food route in the Food Safety Law | P1 | [@REG-12; @FTG-03] {VN-direct\|Low} {fx:estimate} |
 | FW-04 | Contract precision fermentation of high-value proteins | 2030 to 2035 | New-food route; open pilot plant; patent expiries | T5, T7 | [@FTB-18; @FTB-21] {VN-direct\|Low} {fx:estimate} |
 | FW-05 | Food mycoprotein | 2030 to 2035 | New-food route; food-grade pilot plant | T9 | [@HSC-11; @HSC-13] {VN-direct\|Low} {fx:estimate} |
-| FW-06 | Algal and oilseed omega-3 in aquafeed, as buyer | 2026 to 2035 | Fish-oil price; feed specifications | T2 | [@AQF-19; @AQF-23] {general\|Low} {fx:estimate} |
+| FW-06 | Algal and oilseed omega-3 in aquafeed, as buyer | 2026 to 2035 | Fish-oil price; feed specifications | T2 (retired) | [@AQF-19; @AQF-23] {general\|Low} {fx:estimate} |
 | FW-07 | Contained molecular farming | 2035 to 2045 | Biosafety route under Decree 43/2026 | none | [@FTB-31; @AQF-22] {VN-direct\|Low} {fx:estimate} |
 | FW-08 | Cellulosic and one-carbon sugar at modest scale | 2040 to 2050 | A working Asian straw plant; hydrogen at USD 1.5 to 2 per kg (our signpost within IRENA's 2050 range) | T4 | [@NGF-11; @NGF-12] {general\|Low} {fx:estimate} |
 | FW-09 | Cultivated seafood cells from Vietnamese species | 2040 to 2050 | Cell lines and media costs from abroad | T8 | [@FTB-24] {VN-direct\|Low} {fx:estimate} |
@@ -509,29 +524,29 @@ From `frontier_windows.csv` (11 rows). Plays: [[ch26-plays]].
 {{chart:chart-frontier-windows}}
 
 **Readings** {VN-direct|Low} {fx:estimate}:
-- **The windows open in sequence**: feed ingredients and design work to 2030, food ingredients and contract fermentation in 2030 to 2035, new carbon and seafood cells in the 2040s, bulk protein from power last.
-- **Rules open more windows than technology does.** FW-02 to FW-05 all wait on a feed-list entry or a new-food route, both decided in Vietnam in 2026 to 2030.
+- **The windows open in sequence**: feed ingredients (now context only) and design work to 2030, food ingredients and contract fermentation in 2030 to 2035, new carbon and seafood cells in the 2040s, bulk protein from power last.
+- **Rules open more windows than technology does.** FW-02 to FW-05 all wait on a feed-list entry or a new-food route, both decided in Vietnam in 2026 to 2030. For the food windows (FW-03 to FW-05), that rule is the new-food route.
 - **The late windows depend on inputs Vietnam can prepare now**: residue carbon, clean power at named sites, cheap capital and process skills ([[ch28-robust-moves]]).
 
 ---
 
 ## F3.9 Gaps and open questions
 
-For [[app-r1-open-questions]]; source conflicts are in [[app-r2-disagreements]].
+These gaps are carried to [[app-r1-open-questions]]; source conflicts are in [[app-r2-disagreements]]. Gaps 5 and 6 concern feed routes and stay as context.
 
 | # | Gap | Cheapest way to close it |
 |---|---|---|
 | 1 | Vietnamese grid cells in the Fasihi et al. global model, to replace our indicative power-to-protein cost | Download the model's source data and extract Vietnam |
 | 2 | CO2 volumes and purity at fertiliser plants, refineries, Formosa Ha Tinh and cement plants | Company sustainability reports; MAE's facility emissions inventory |
 | 3 | Industrial pipeline gas price, for methane protein | A 2026 quote from PV GAS or Gas South |
-| 4 | Status of Vietnamese green hydrogen projects (the IEA lists a 240 MW electrolyser at investment decision; press shows the first plant stalled) | IEA hydrogen projects database; MOIT; provincial portals |
+| 4 | Status of Vietnamese green hydrogen projects (the International Energy Agency, IEA, lists a 240 MW electrolyser at investment decision; press shows the first plant stalled) | IEA hydrogen projects database; MOIT; provincial portals |
 | 5 | Feed-list status of bacterial biomass, CAP and methanotroph meal | One call to MAE's livestock and fisheries departments |
 | 6 | Operating status of Thai Duong Feed's yeast-protein line | MAE feed lists; the company; NASATI report 16724/2019 |
 | 7 | Observed first-plant capex for microbial protein, and a global capacity baseline to anchor the doublings in F3.3.2 | Solar Foods, Unibio and Chinese exchange filings; GFI capacity data |
 | 8 | Vietnamese life-cycle data for cassava starch, glucose and fermentation | Data from a starch plant with biogas; the 2015 Tran et al. paper in full |
-| 9 | Vietnam's carbon price and post-2028 scope | HNX notices; MAE climate change department |
+| 9 | Vietnam's carbon price and post-2028 scope | Hanoi Stock Exchange notices; MAE climate change department |
 | 10 | Peer-reviewed titres and cost models for precision-fermented dairy and egg proteins | Targeted journal search |
-| 11 | Biofoundry access terms for Vietnamese teams; the AI Law's decrees on computing-centre access | Quotes from K-Biofoundry and A*STAR; ask MOST |
+| 11 | Biofoundry access terms for Vietnamese teams; the AI Law's decrees on computing-centre access | Quotes from K-Biofoundry and A*STAR; ask the Ministry of Science and Technology |
 | 12 | Tropical cooling penalty for hydrogen and methanol routes (chillers are 8% of power at 30 °C in the model) | Model inputs with Vietnamese wet-bulb data |
 
 ---

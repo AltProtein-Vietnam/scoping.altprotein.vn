@@ -80,8 +80,8 @@ const partNote: Record<string, string> = {
     ? 'Triển vọng 2035, động lực, cân bằng protein, kịch bản và tầm nhìn'
     : 'Outlook to 2035, drivers, the protein balance, scenarios and a vision',
   'V. What to do': vi
-    ? 'Mục tiêu sản phẩm, mười hướng đi, chính sách và bước đi hiệu quả trong mọi kịch bản'
-    : 'Product targets, ten plays, policy options and moves that pay off in any 2050',
+    ? 'Mục tiêu sản phẩm, bảy hướng đi, chính sách và bước đi hiệu quả trong mọi kịch bản'
+    : 'Product targets, seven plays, policy options and moves that pay off in any 2050',
 };
 const count = (file: string) =>
   (datasets as { file: string; rows: number }[]).find((d) => d.file === file)?.rows ?? 0;
@@ -100,6 +100,19 @@ const dataStats = [
   },
 ];
 const nf = new Intl.NumberFormat(vi ? 'vi-VN' : 'en-GB');
+// The release month of the current version, from the manifest's version list ("2026-10").
+const [releaseYear, releaseMonth] = (
+  SITE.versions.find((v) => v.version === SITE.version)?.date ?? ''
+)
+  .split('-')
+  .map(Number);
+const released = releaseMonth
+  ? vi
+    ? `tháng ${releaseMonth}/${releaseYear}`
+    : new Intl.DateTimeFormat('en-GB', { month: 'long', year: 'numeric', timeZone: 'UTC' }).format(
+        Date.UTC(releaseYear, releaseMonth - 1),
+      )
+  : '';
 ---
 
 <Base
@@ -116,9 +129,7 @@ const nf = new Intl.NumberFormat(vi ? 'vi-VN' : 'en-GB');
           <span>{SITE.publisher}</span>
           <span>·</span>
           <span>
-            {vi
-              ? `Bản thảo ${SITE.version}, tháng 9/2026`
-              : `Draft ${SITE.version}, September 2026`}
+            {`${vi ? 'Bản thảo' : 'Draft'} ${SITE.version}${released ? `, ${released}` : ''}`}
           </span>
         </p>
         {vi ? (

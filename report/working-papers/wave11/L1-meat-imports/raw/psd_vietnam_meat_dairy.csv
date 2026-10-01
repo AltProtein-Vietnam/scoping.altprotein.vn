@@ -1,0 +1,333 @@
+Commodity_Code,Commodity_Description,Country_Code,Country_Name,Market_Year,Calendar_Year,Month,Attribute_ID,Attribute_Description,Unit_ID,Unit_Description,Value
+0111000,"Meat, Beef and Veal",VM,Vietnam,2015,2025,12,020,Beginning Stocks,07,(1000 MT CWE),0.0000
+0111000,"Meat, Beef and Veal",VM,Vietnam,2015,2025,12,125,Domestic Consumption,07,(1000 MT CWE),250.0000
+0111000,"Meat, Beef and Veal",VM,Vietnam,2015,2025,12,176,Ending Stocks,07,(1000 MT CWE),0.0000
+0111000,"Meat, Beef and Veal",VM,Vietnam,2015,2025,12,088,Exports,07,(1000 MT CWE),0.0000
+0111000,"Meat, Beef and Veal",VM,Vietnam,2015,2025,12,057,Imports,07,(1000 MT CWE),38.0000
+0111000,"Meat, Beef and Veal",VM,Vietnam,2015,2025,12,028,Production,07,(1000 MT CWE),212.0000
+0111000,"Meat, Beef and Veal",VM,Vietnam,2015,2025,12,178,Total Distribution,07,(1000 MT CWE),250.0000
+0111000,"Meat, Beef and Veal",VM,Vietnam,2015,2025,12,086,Total Supply,07,(1000 MT CWE),250.0000
+0111000,"Meat, Beef and Veal",VM,Vietnam,2016,2025,12,020,Beginning Stocks,07,(1000 MT CWE),0.0000
+0111000,"Meat, Beef and Veal",VM,Vietnam,2016,2025,12,125,Domestic Consumption,07,(1000 MT CWE),268.0000
+0111000,"Meat, Beef and Veal",VM,Vietnam,2016,2025,12,176,Ending Stocks,07,(1000 MT CWE),0.0000
+0111000,"Meat, Beef and Veal",VM,Vietnam,2016,2025,12,088,Exports,07,(1000 MT CWE),0.0000
+0111000,"Meat, Beef and Veal",VM,Vietnam,2016,2025,12,057,Imports,07,(1000 MT CWE),51.0000
+0111000,"Meat, Beef and Veal",VM,Vietnam,2016,2025,12,028,Production,07,(1000 MT CWE),217.0000
+0111000,"Meat, Beef and Veal",VM,Vietnam,2016,2025,12,178,Total Distribution,07,(1000 MT CWE),268.0000
+0111000,"Meat, Beef and Veal",VM,Vietnam,2016,2025,12,086,Total Supply,07,(1000 MT CWE),268.0000
+0111000,"Meat, Beef and Veal",VM,Vietnam,2017,2025,12,020,Beginning Stocks,07,(1000 MT CWE),0.0000
+0111000,"Meat, Beef and Veal",VM,Vietnam,2017,2025,12,125,Domestic Consumption,07,(1000 MT CWE),278.0000
+0111000,"Meat, Beef and Veal",VM,Vietnam,2017,2025,12,176,Ending Stocks,07,(1000 MT CWE),0.0000
+0111000,"Meat, Beef and Veal",VM,Vietnam,2017,2025,12,088,Exports,07,(1000 MT CWE),0.0000
+0111000,"Meat, Beef and Veal",VM,Vietnam,2017,2025,12,057,Imports,07,(1000 MT CWE),53.0000
+0111000,"Meat, Beef and Veal",VM,Vietnam,2017,2025,12,028,Production,07,(1000 MT CWE),225.0000
+0111000,"Meat, Beef and Veal",VM,Vietnam,2017,2025,12,178,Total Distribution,07,(1000 MT CWE),278.0000
+0111000,"Meat, Beef and Veal",VM,Vietnam,2017,2025,12,086,Total Supply,07,(1000 MT CWE),278.0000
+0111000,"Meat, Beef and Veal",VM,Vietnam,2018,2025,12,020,Beginning Stocks,07,(1000 MT CWE),0.0000
+0111000,"Meat, Beef and Veal",VM,Vietnam,2018,2025,12,125,Domestic Consumption,07,(1000 MT CWE),299.0000
+0111000,"Meat, Beef and Veal",VM,Vietnam,2018,2025,12,176,Ending Stocks,07,(1000 MT CWE),0.0000
+0111000,"Meat, Beef and Veal",VM,Vietnam,2018,2025,12,088,Exports,07,(1000 MT CWE),0.0000
+0111000,"Meat, Beef and Veal",VM,Vietnam,2018,2025,12,057,Imports,07,(1000 MT CWE),64.0000
+0111000,"Meat, Beef and Veal",VM,Vietnam,2018,2025,12,028,Production,07,(1000 MT CWE),235.0000
+0111000,"Meat, Beef and Veal",VM,Vietnam,2018,2025,12,178,Total Distribution,07,(1000 MT CWE),299.0000
+0111000,"Meat, Beef and Veal",VM,Vietnam,2018,2025,12,086,Total Supply,07,(1000 MT CWE),299.0000
+0111000,"Meat, Beef and Veal",VM,Vietnam,2019,2026,04,020,Beginning Stocks,07,(1000 MT CWE),0.0000
+0111000,"Meat, Beef and Veal",VM,Vietnam,2019,2026,04,125,Domestic Consumption,07,(1000 MT CWE),339.0000
+0111000,"Meat, Beef and Veal",VM,Vietnam,2019,2026,04,176,Ending Stocks,07,(1000 MT CWE),0.0000
+0111000,"Meat, Beef and Veal",VM,Vietnam,2019,2026,04,088,Exports,07,(1000 MT CWE),0.0000
+0111000,"Meat, Beef and Veal",VM,Vietnam,2019,2026,04,057,Imports,07,(1000 MT CWE),92.0000
+0111000,"Meat, Beef and Veal",VM,Vietnam,2019,2026,04,028,Production,07,(1000 MT CWE),247.0000
+0111000,"Meat, Beef and Veal",VM,Vietnam,2019,2026,04,178,Total Distribution,07,(1000 MT CWE),339.0000
+0111000,"Meat, Beef and Veal",VM,Vietnam,2019,2026,04,086,Total Supply,07,(1000 MT CWE),339.0000
+0111000,"Meat, Beef and Veal",VM,Vietnam,2020,2026,04,020,Beginning Stocks,07,(1000 MT CWE),0.0000
+0111000,"Meat, Beef and Veal",VM,Vietnam,2020,2026,04,125,Domestic Consumption,07,(1000 MT CWE),380.0000
+0111000,"Meat, Beef and Veal",VM,Vietnam,2020,2026,04,176,Ending Stocks,07,(1000 MT CWE),0.0000
+0111000,"Meat, Beef and Veal",VM,Vietnam,2020,2026,04,088,Exports,07,(1000 MT CWE),0.0000
+0111000,"Meat, Beef and Veal",VM,Vietnam,2020,2026,04,057,Imports,07,(1000 MT CWE),121.0000
+0111000,"Meat, Beef and Veal",VM,Vietnam,2020,2026,04,028,Production,07,(1000 MT CWE),259.0000
+0111000,"Meat, Beef and Veal",VM,Vietnam,2020,2026,04,178,Total Distribution,07,(1000 MT CWE),380.0000
+0111000,"Meat, Beef and Veal",VM,Vietnam,2020,2026,04,086,Total Supply,07,(1000 MT CWE),380.0000
+0111000,"Meat, Beef and Veal",VM,Vietnam,2021,2026,04,020,Beginning Stocks,07,(1000 MT CWE),0.0000
+0111000,"Meat, Beef and Veal",VM,Vietnam,2021,2026,04,125,Domestic Consumption,07,(1000 MT CWE),401.0000
+0111000,"Meat, Beef and Veal",VM,Vietnam,2021,2026,04,176,Ending Stocks,07,(1000 MT CWE),0.0000
+0111000,"Meat, Beef and Veal",VM,Vietnam,2021,2026,04,088,Exports,07,(1000 MT CWE),0.0000
+0111000,"Meat, Beef and Veal",VM,Vietnam,2021,2026,04,057,Imports,07,(1000 MT CWE),131.0000
+0111000,"Meat, Beef and Veal",VM,Vietnam,2021,2026,04,028,Production,07,(1000 MT CWE),270.0000
+0111000,"Meat, Beef and Veal",VM,Vietnam,2021,2026,04,178,Total Distribution,07,(1000 MT CWE),401.0000
+0111000,"Meat, Beef and Veal",VM,Vietnam,2021,2026,04,086,Total Supply,07,(1000 MT CWE),401.0000
+0111000,"Meat, Beef and Veal",VM,Vietnam,2022,2026,04,020,Beginning Stocks,07,(1000 MT CWE),0.0000
+0111000,"Meat, Beef and Veal",VM,Vietnam,2022,2026,04,125,Domestic Consumption,07,(1000 MT CWE),425.0000
+0111000,"Meat, Beef and Veal",VM,Vietnam,2022,2026,04,176,Ending Stocks,07,(1000 MT CWE),0.0000
+0111000,"Meat, Beef and Veal",VM,Vietnam,2022,2026,04,088,Exports,07,(1000 MT CWE),0.0000
+0111000,"Meat, Beef and Veal",VM,Vietnam,2022,2026,04,057,Imports,07,(1000 MT CWE),150.0000
+0111000,"Meat, Beef and Veal",VM,Vietnam,2022,2026,04,028,Production,07,(1000 MT CWE),275.0000
+0111000,"Meat, Beef and Veal",VM,Vietnam,2022,2026,04,178,Total Distribution,07,(1000 MT CWE),425.0000
+0111000,"Meat, Beef and Veal",VM,Vietnam,2022,2026,04,086,Total Supply,07,(1000 MT CWE),425.0000
+0111000,"Meat, Beef and Veal",VM,Vietnam,2023,2026,04,020,Beginning Stocks,07,(1000 MT CWE),0.0000
+0111000,"Meat, Beef and Veal",VM,Vietnam,2023,2026,04,125,Domestic Consumption,07,(1000 MT CWE),426.0000
+0111000,"Meat, Beef and Veal",VM,Vietnam,2023,2026,04,176,Ending Stocks,07,(1000 MT CWE),0.0000
+0111000,"Meat, Beef and Veal",VM,Vietnam,2023,2026,04,088,Exports,07,(1000 MT CWE),0.0000
+0111000,"Meat, Beef and Veal",VM,Vietnam,2023,2026,04,057,Imports,07,(1000 MT CWE),144.0000
+0111000,"Meat, Beef and Veal",VM,Vietnam,2023,2026,04,028,Production,07,(1000 MT CWE),282.0000
+0111000,"Meat, Beef and Veal",VM,Vietnam,2023,2026,04,178,Total Distribution,07,(1000 MT CWE),426.0000
+0111000,"Meat, Beef and Veal",VM,Vietnam,2023,2026,04,086,Total Supply,07,(1000 MT CWE),426.0000
+0111000,"Meat, Beef and Veal",VM,Vietnam,2024,2026,04,020,Beginning Stocks,07,(1000 MT CWE),0.0000
+0111000,"Meat, Beef and Veal",VM,Vietnam,2024,2026,04,125,Domestic Consumption,07,(1000 MT CWE),433.0000
+0111000,"Meat, Beef and Veal",VM,Vietnam,2024,2026,04,176,Ending Stocks,07,(1000 MT CWE),0.0000
+0111000,"Meat, Beef and Veal",VM,Vietnam,2024,2026,04,088,Exports,07,(1000 MT CWE),0.0000
+0111000,"Meat, Beef and Veal",VM,Vietnam,2024,2026,04,057,Imports,07,(1000 MT CWE),150.0000
+0111000,"Meat, Beef and Veal",VM,Vietnam,2024,2026,04,028,Production,07,(1000 MT CWE),283.0000
+0111000,"Meat, Beef and Veal",VM,Vietnam,2024,2026,04,178,Total Distribution,07,(1000 MT CWE),433.0000
+0111000,"Meat, Beef and Veal",VM,Vietnam,2024,2026,04,086,Total Supply,07,(1000 MT CWE),433.0000
+0111000,"Meat, Beef and Veal",VM,Vietnam,2025,2026,04,020,Beginning Stocks,07,(1000 MT CWE),0.0000
+0111000,"Meat, Beef and Veal",VM,Vietnam,2025,2026,04,125,Domestic Consumption,07,(1000 MT CWE),420.0000
+0111000,"Meat, Beef and Veal",VM,Vietnam,2025,2026,04,176,Ending Stocks,07,(1000 MT CWE),0.0000
+0111000,"Meat, Beef and Veal",VM,Vietnam,2025,2026,04,088,Exports,07,(1000 MT CWE),0.0000
+0111000,"Meat, Beef and Veal",VM,Vietnam,2025,2026,04,057,Imports,07,(1000 MT CWE),135.0000
+0111000,"Meat, Beef and Veal",VM,Vietnam,2025,2026,04,028,Production,07,(1000 MT CWE),285.0000
+0111000,"Meat, Beef and Veal",VM,Vietnam,2025,2026,04,178,Total Distribution,07,(1000 MT CWE),420.0000
+0111000,"Meat, Beef and Veal",VM,Vietnam,2025,2026,04,086,Total Supply,07,(1000 MT CWE),420.0000
+0111000,"Meat, Beef and Veal",VM,Vietnam,2026,2026,04,020,Beginning Stocks,07,(1000 MT CWE),0.0000
+0111000,"Meat, Beef and Veal",VM,Vietnam,2026,2026,04,125,Domestic Consumption,07,(1000 MT CWE),425.0000
+0111000,"Meat, Beef and Veal",VM,Vietnam,2026,2026,04,176,Ending Stocks,07,(1000 MT CWE),0.0000
+0111000,"Meat, Beef and Veal",VM,Vietnam,2026,2026,04,088,Exports,07,(1000 MT CWE),0.0000
+0111000,"Meat, Beef and Veal",VM,Vietnam,2026,2026,04,057,Imports,07,(1000 MT CWE),140.0000
+0111000,"Meat, Beef and Veal",VM,Vietnam,2026,2026,04,028,Production,07,(1000 MT CWE),285.0000
+0111000,"Meat, Beef and Veal",VM,Vietnam,2026,2026,04,178,Total Distribution,07,(1000 MT CWE),425.0000
+0111000,"Meat, Beef and Veal",VM,Vietnam,2026,2026,04,086,Total Supply,07,(1000 MT CWE),425.0000
+0115000,"Meat, Chicken",VM,Vietnam,2015,2026,04,020,Beginning Stocks,08,(1000 MT),0.0000
+0115000,"Meat, Chicken",VM,Vietnam,2015,2026,04,125,Domestic Consumption,08,(1000 MT),760.0000
+0115000,"Meat, Chicken",VM,Vietnam,2015,2026,04,176,Ending Stocks,08,(1000 MT),0.0000
+0115000,"Meat, Chicken",VM,Vietnam,2015,2026,04,088,Exports,08,(1000 MT),0.0000
+0115000,"Meat, Chicken",VM,Vietnam,2015,2026,04,057,Imports,08,(1000 MT),59.0000
+0115000,"Meat, Chicken",VM,Vietnam,2015,2026,04,028,Production,08,(1000 MT),701.0000
+0115000,"Meat, Chicken",VM,Vietnam,2015,2026,04,178,Total Distribution,08,(1000 MT),760.0000
+0115000,"Meat, Chicken",VM,Vietnam,2015,2026,04,086,Total Supply,08,(1000 MT),760.0000
+0115000,"Meat, Chicken",VM,Vietnam,2015,2026,04,174,Total Use,08,(1000 MT),760.0000
+0115000,"Meat, Chicken",VM,Vietnam,2016,2026,04,020,Beginning Stocks,08,(1000 MT),0.0000
+0115000,"Meat, Chicken",VM,Vietnam,2016,2026,04,125,Domestic Consumption,08,(1000 MT),806.0000
+0115000,"Meat, Chicken",VM,Vietnam,2016,2026,04,176,Ending Stocks,08,(1000 MT),0.0000
+0115000,"Meat, Chicken",VM,Vietnam,2016,2026,04,088,Exports,08,(1000 MT),0.0000
+0115000,"Meat, Chicken",VM,Vietnam,2016,2026,04,057,Imports,08,(1000 MT),65.0000
+0115000,"Meat, Chicken",VM,Vietnam,2016,2026,04,028,Production,08,(1000 MT),741.0000
+0115000,"Meat, Chicken",VM,Vietnam,2016,2026,04,178,Total Distribution,08,(1000 MT),806.0000
+0115000,"Meat, Chicken",VM,Vietnam,2016,2026,04,086,Total Supply,08,(1000 MT),806.0000
+0115000,"Meat, Chicken",VM,Vietnam,2016,2026,04,174,Total Use,08,(1000 MT),806.0000
+0115000,"Meat, Chicken",VM,Vietnam,2017,2026,04,020,Beginning Stocks,08,(1000 MT),0.0000
+0115000,"Meat, Chicken",VM,Vietnam,2017,2026,04,125,Domestic Consumption,08,(1000 MT),856.0000
+0115000,"Meat, Chicken",VM,Vietnam,2017,2026,04,176,Ending Stocks,08,(1000 MT),0.0000
+0115000,"Meat, Chicken",VM,Vietnam,2017,2026,04,088,Exports,08,(1000 MT),0.0000
+0115000,"Meat, Chicken",VM,Vietnam,2017,2026,04,057,Imports,08,(1000 MT),70.0000
+0115000,"Meat, Chicken",VM,Vietnam,2017,2026,04,028,Production,08,(1000 MT),786.0000
+0115000,"Meat, Chicken",VM,Vietnam,2017,2026,04,178,Total Distribution,08,(1000 MT),856.0000
+0115000,"Meat, Chicken",VM,Vietnam,2017,2026,04,086,Total Supply,08,(1000 MT),856.0000
+0115000,"Meat, Chicken",VM,Vietnam,2017,2026,04,174,Total Use,08,(1000 MT),856.0000
+0115000,"Meat, Chicken",VM,Vietnam,2018,2026,04,020,Beginning Stocks,08,(1000 MT),0.0000
+0115000,"Meat, Chicken",VM,Vietnam,2018,2026,04,125,Domestic Consumption,08,(1000 MT),927.0000
+0115000,"Meat, Chicken",VM,Vietnam,2018,2026,04,176,Ending Stocks,08,(1000 MT),0.0000
+0115000,"Meat, Chicken",VM,Vietnam,2018,2026,04,088,Exports,08,(1000 MT),1.0000
+0115000,"Meat, Chicken",VM,Vietnam,2018,2026,04,057,Imports,08,(1000 MT),88.0000
+0115000,"Meat, Chicken",VM,Vietnam,2018,2026,04,028,Production,08,(1000 MT),840.0000
+0115000,"Meat, Chicken",VM,Vietnam,2018,2026,04,178,Total Distribution,08,(1000 MT),928.0000
+0115000,"Meat, Chicken",VM,Vietnam,2018,2026,04,086,Total Supply,08,(1000 MT),928.0000
+0115000,"Meat, Chicken",VM,Vietnam,2018,2026,04,174,Total Use,08,(1000 MT),928.0000
+0115000,"Meat, Chicken",VM,Vietnam,2019,2026,04,020,Beginning Stocks,08,(1000 MT),0.0000
+0115000,"Meat, Chicken",VM,Vietnam,2019,2026,04,125,Domestic Consumption,08,(1000 MT),1170.0000
+0115000,"Meat, Chicken",VM,Vietnam,2019,2026,04,176,Ending Stocks,08,(1000 MT),0.0000
+0115000,"Meat, Chicken",VM,Vietnam,2019,2026,04,088,Exports,08,(1000 MT),2.0000
+0115000,"Meat, Chicken",VM,Vietnam,2019,2026,04,057,Imports,08,(1000 MT),182.0000
+0115000,"Meat, Chicken",VM,Vietnam,2019,2026,04,028,Production,08,(1000 MT),990.0000
+0115000,"Meat, Chicken",VM,Vietnam,2019,2026,04,178,Total Distribution,08,(1000 MT),1172.0000
+0115000,"Meat, Chicken",VM,Vietnam,2019,2026,04,086,Total Supply,08,(1000 MT),1172.0000
+0115000,"Meat, Chicken",VM,Vietnam,2019,2026,04,174,Total Use,08,(1000 MT),1172.0000
+0115000,"Meat, Chicken",VM,Vietnam,2020,2026,04,020,Beginning Stocks,08,(1000 MT),0.0000
+0115000,"Meat, Chicken",VM,Vietnam,2020,2026,04,125,Domestic Consumption,08,(1000 MT),1341.0000
+0115000,"Meat, Chicken",VM,Vietnam,2020,2026,04,176,Ending Stocks,08,(1000 MT),0.0000
+0115000,"Meat, Chicken",VM,Vietnam,2020,2026,04,088,Exports,08,(1000 MT),2.0000
+0115000,"Meat, Chicken",VM,Vietnam,2020,2026,04,057,Imports,08,(1000 MT),197.0000
+0115000,"Meat, Chicken",VM,Vietnam,2020,2026,04,028,Production,08,(1000 MT),1146.0000
+0115000,"Meat, Chicken",VM,Vietnam,2020,2026,04,178,Total Distribution,08,(1000 MT),1343.0000
+0115000,"Meat, Chicken",VM,Vietnam,2020,2026,04,086,Total Supply,08,(1000 MT),1343.0000
+0115000,"Meat, Chicken",VM,Vietnam,2020,2026,04,174,Total Use,08,(1000 MT),1343.0000
+0115000,"Meat, Chicken",VM,Vietnam,2021,2026,04,020,Beginning Stocks,08,(1000 MT),0.0000
+0115000,"Meat, Chicken",VM,Vietnam,2021,2026,04,125,Domestic Consumption,08,(1000 MT),1296.0000
+0115000,"Meat, Chicken",VM,Vietnam,2021,2026,04,176,Ending Stocks,08,(1000 MT),0.0000
+0115000,"Meat, Chicken",VM,Vietnam,2021,2026,04,088,Exports,08,(1000 MT),3.0000
+0115000,"Meat, Chicken",VM,Vietnam,2021,2026,04,057,Imports,08,(1000 MT),141.0000
+0115000,"Meat, Chicken",VM,Vietnam,2021,2026,04,028,Production,08,(1000 MT),1158.0000
+0115000,"Meat, Chicken",VM,Vietnam,2021,2026,04,178,Total Distribution,08,(1000 MT),1299.0000
+0115000,"Meat, Chicken",VM,Vietnam,2021,2026,04,086,Total Supply,08,(1000 MT),1299.0000
+0115000,"Meat, Chicken",VM,Vietnam,2021,2026,04,174,Total Use,08,(1000 MT),1299.0000
+0115000,"Meat, Chicken",VM,Vietnam,2022,2026,04,020,Beginning Stocks,08,(1000 MT),0.0000
+0115000,"Meat, Chicken",VM,Vietnam,2022,2026,04,125,Domestic Consumption,08,(1000 MT),1376.0000
+0115000,"Meat, Chicken",VM,Vietnam,2022,2026,04,176,Ending Stocks,08,(1000 MT),0.0000
+0115000,"Meat, Chicken",VM,Vietnam,2022,2026,04,088,Exports,08,(1000 MT),3.0000
+0115000,"Meat, Chicken",VM,Vietnam,2022,2026,04,057,Imports,08,(1000 MT),162.0000
+0115000,"Meat, Chicken",VM,Vietnam,2022,2026,04,028,Production,08,(1000 MT),1217.0000
+0115000,"Meat, Chicken",VM,Vietnam,2022,2026,04,178,Total Distribution,08,(1000 MT),1379.0000
+0115000,"Meat, Chicken",VM,Vietnam,2022,2026,04,086,Total Supply,08,(1000 MT),1379.0000
+0115000,"Meat, Chicken",VM,Vietnam,2022,2026,04,174,Total Use,08,(1000 MT),1379.0000
+0115000,"Meat, Chicken",VM,Vietnam,2023,2026,04,020,Beginning Stocks,08,(1000 MT),0.0000
+0115000,"Meat, Chicken",VM,Vietnam,2023,2026,04,125,Domestic Consumption,08,(1000 MT),1455.0000
+0115000,"Meat, Chicken",VM,Vietnam,2023,2026,04,176,Ending Stocks,08,(1000 MT),0.0000
+0115000,"Meat, Chicken",VM,Vietnam,2023,2026,04,088,Exports,08,(1000 MT),5.0000
+0115000,"Meat, Chicken",VM,Vietnam,2023,2026,04,057,Imports,08,(1000 MT),165.0000
+0115000,"Meat, Chicken",VM,Vietnam,2023,2026,04,028,Production,08,(1000 MT),1295.0000
+0115000,"Meat, Chicken",VM,Vietnam,2023,2026,04,178,Total Distribution,08,(1000 MT),1460.0000
+0115000,"Meat, Chicken",VM,Vietnam,2023,2026,04,086,Total Supply,08,(1000 MT),1460.0000
+0115000,"Meat, Chicken",VM,Vietnam,2023,2026,04,174,Total Use,08,(1000 MT),1460.0000
+0115000,"Meat, Chicken",VM,Vietnam,2024,2026,04,020,Beginning Stocks,08,(1000 MT),0.0000
+0115000,"Meat, Chicken",VM,Vietnam,2024,2026,04,125,Domestic Consumption,08,(1000 MT),1514.0000
+0115000,"Meat, Chicken",VM,Vietnam,2024,2026,04,176,Ending Stocks,08,(1000 MT),0.0000
+0115000,"Meat, Chicken",VM,Vietnam,2024,2026,04,088,Exports,08,(1000 MT),6.0000
+0115000,"Meat, Chicken",VM,Vietnam,2024,2026,04,057,Imports,08,(1000 MT),170.0000
+0115000,"Meat, Chicken",VM,Vietnam,2024,2026,04,028,Production,08,(1000 MT),1350.0000
+0115000,"Meat, Chicken",VM,Vietnam,2024,2026,04,178,Total Distribution,08,(1000 MT),1520.0000
+0115000,"Meat, Chicken",VM,Vietnam,2024,2026,04,086,Total Supply,08,(1000 MT),1520.0000
+0115000,"Meat, Chicken",VM,Vietnam,2024,2026,04,174,Total Use,08,(1000 MT),1520.0000
+0115000,"Meat, Chicken",VM,Vietnam,2025,2026,04,020,Beginning Stocks,08,(1000 MT),0.0000
+0115000,"Meat, Chicken",VM,Vietnam,2025,2026,04,125,Domestic Consumption,08,(1000 MT),1595.0000
+0115000,"Meat, Chicken",VM,Vietnam,2025,2026,04,176,Ending Stocks,08,(1000 MT),0.0000
+0115000,"Meat, Chicken",VM,Vietnam,2025,2026,04,088,Exports,08,(1000 MT),10.0000
+0115000,"Meat, Chicken",VM,Vietnam,2025,2026,04,057,Imports,08,(1000 MT),175.0000
+0115000,"Meat, Chicken",VM,Vietnam,2025,2026,04,028,Production,08,(1000 MT),1430.0000
+0115000,"Meat, Chicken",VM,Vietnam,2025,2026,04,178,Total Distribution,08,(1000 MT),1605.0000
+0115000,"Meat, Chicken",VM,Vietnam,2025,2026,04,086,Total Supply,08,(1000 MT),1605.0000
+0115000,"Meat, Chicken",VM,Vietnam,2025,2026,04,174,Total Use,08,(1000 MT),1605.0000
+0115000,"Meat, Chicken",VM,Vietnam,2026,2026,04,020,Beginning Stocks,08,(1000 MT),0.0000
+0115000,"Meat, Chicken",VM,Vietnam,2026,2026,04,125,Domestic Consumption,08,(1000 MT),1668.0000
+0115000,"Meat, Chicken",VM,Vietnam,2026,2026,04,176,Ending Stocks,08,(1000 MT),0.0000
+0115000,"Meat, Chicken",VM,Vietnam,2026,2026,04,088,Exports,08,(1000 MT),12.0000
+0115000,"Meat, Chicken",VM,Vietnam,2026,2026,04,057,Imports,08,(1000 MT),180.0000
+0115000,"Meat, Chicken",VM,Vietnam,2026,2026,04,028,Production,08,(1000 MT),1500.0000
+0115000,"Meat, Chicken",VM,Vietnam,2026,2026,04,178,Total Distribution,08,(1000 MT),1680.0000
+0115000,"Meat, Chicken",VM,Vietnam,2026,2026,04,086,Total Supply,08,(1000 MT),1680.0000
+0115000,"Meat, Chicken",VM,Vietnam,2026,2026,04,174,Total Use,08,(1000 MT),1680.0000
+0113000,"Meat, Swine",VM,Vietnam,2015,2025,12,220,Annual % Change Per Cap. Cons.,23,(PERCENT),16.1000
+0113000,"Meat, Swine",VM,Vietnam,2015,2025,12,020,Beginning Stocks,07,(1000 MT CWE),0.0000
+0113000,"Meat, Swine",VM,Vietnam,2015,2025,12,125,Domestic Consumption,07,(1000 MT CWE),2837.0000
+0113000,"Meat, Swine",VM,Vietnam,2015,2025,12,176,Ending Stocks,07,(1000 MT CWE),0.0000
+0113000,"Meat, Swine",VM,Vietnam,2015,2025,12,088,Exports,07,(1000 MT CWE),23.0000
+0113000,"Meat, Swine",VM,Vietnam,2015,2025,12,057,Imports,07,(1000 MT CWE),8.0000
+0113000,"Meat, Swine",VM,Vietnam,2015,2025,12,028,Production,07,(1000 MT CWE),2852.0000
+0113000,"Meat, Swine",VM,Vietnam,2015,2025,12,178,Total Distribution,07,(1000 MT CWE),2860.0000
+0113000,"Meat, Swine",VM,Vietnam,2015,2025,12,086,Total Supply,07,(1000 MT CWE),2860.0000
+0113000,"Meat, Swine",VM,Vietnam,2016,2025,12,220,Annual % Change Per Cap. Cons.,23,(PERCENT),12.0000
+0113000,"Meat, Swine",VM,Vietnam,2016,2025,12,020,Beginning Stocks,07,(1000 MT CWE),0.0000
+0113000,"Meat, Swine",VM,Vietnam,2016,2025,12,125,Domestic Consumption,07,(1000 MT CWE),3209.0000
+0113000,"Meat, Swine",VM,Vietnam,2016,2025,12,176,Ending Stocks,07,(1000 MT CWE),0.0000
+0113000,"Meat, Swine",VM,Vietnam,2016,2025,12,088,Exports,07,(1000 MT CWE),50.0000
+0113000,"Meat, Swine",VM,Vietnam,2016,2025,12,057,Imports,07,(1000 MT CWE),11.0000
+0113000,"Meat, Swine",VM,Vietnam,2016,2025,12,028,Production,07,(1000 MT CWE),3248.0000
+0113000,"Meat, Swine",VM,Vietnam,2016,2025,12,178,Total Distribution,07,(1000 MT CWE),3259.0000
+0113000,"Meat, Swine",VM,Vietnam,2016,2025,12,086,Total Supply,07,(1000 MT CWE),3259.0000
+0113000,"Meat, Swine",VM,Vietnam,2017,2025,12,220,Annual % Change Per Cap. Cons.,23,(PERCENT),2.1000
+0113000,"Meat, Swine",VM,Vietnam,2017,2025,12,020,Beginning Stocks,07,(1000 MT CWE),0.0000
+0113000,"Meat, Swine",VM,Vietnam,2017,2025,12,125,Domestic Consumption,07,(1000 MT CWE),3308.0000
+0113000,"Meat, Swine",VM,Vietnam,2017,2025,12,176,Ending Stocks,07,(1000 MT CWE),0.0000
+0113000,"Meat, Swine",VM,Vietnam,2017,2025,12,088,Exports,07,(1000 MT CWE),31.0000
+0113000,"Meat, Swine",VM,Vietnam,2017,2025,12,057,Imports,07,(1000 MT CWE),7.0000
+0113000,"Meat, Swine",VM,Vietnam,2017,2025,12,028,Production,07,(1000 MT CWE),3332.0000
+0113000,"Meat, Swine",VM,Vietnam,2017,2025,12,178,Total Distribution,07,(1000 MT CWE),3339.0000
+0113000,"Meat, Swine",VM,Vietnam,2017,2025,12,086,Total Supply,07,(1000 MT CWE),3339.0000
+0113000,"Meat, Swine",VM,Vietnam,2018,2025,12,220,Annual % Change Per Cap. Cons.,23,(PERCENT),2.6000
+0113000,"Meat, Swine",VM,Vietnam,2018,2025,12,020,Beginning Stocks,07,(1000 MT CWE),0.0000
+0113000,"Meat, Swine",VM,Vietnam,2018,2025,12,125,Domestic Consumption,07,(1000 MT CWE),3425.0000
+0113000,"Meat, Swine",VM,Vietnam,2018,2025,12,176,Ending Stocks,07,(1000 MT CWE),0.0000
+0113000,"Meat, Swine",VM,Vietnam,2018,2025,12,088,Exports,07,(1000 MT CWE),19.0000
+0113000,"Meat, Swine",VM,Vietnam,2018,2025,12,057,Imports,07,(1000 MT CWE),15.0000
+0113000,"Meat, Swine",VM,Vietnam,2018,2025,12,028,Production,07,(1000 MT CWE),3429.0000
+0113000,"Meat, Swine",VM,Vietnam,2018,2025,12,178,Total Distribution,07,(1000 MT CWE),3444.0000
+0113000,"Meat, Swine",VM,Vietnam,2018,2025,12,086,Total Supply,07,(1000 MT CWE),3444.0000
+0113000,"Meat, Swine",VM,Vietnam,2019,2025,12,220,Annual % Change Per Cap. Cons.,23,(PERCENT),-13.4000
+0113000,"Meat, Swine",VM,Vietnam,2019,2025,12,020,Beginning Stocks,07,(1000 MT CWE),0.0000
+0113000,"Meat, Swine",VM,Vietnam,2019,2025,12,125,Domestic Consumption,07,(1000 MT CWE),2993.0000
+0113000,"Meat, Swine",VM,Vietnam,2019,2025,12,176,Ending Stocks,07,(1000 MT CWE),0.0000
+0113000,"Meat, Swine",VM,Vietnam,2019,2025,12,088,Exports,07,(1000 MT CWE),27.0000
+0113000,"Meat, Swine",VM,Vietnam,2019,2025,12,057,Imports,07,(1000 MT CWE),28.0000
+0113000,"Meat, Swine",VM,Vietnam,2019,2025,12,028,Production,07,(1000 MT CWE),2992.0000
+0113000,"Meat, Swine",VM,Vietnam,2019,2025,12,178,Total Distribution,07,(1000 MT CWE),3020.0000
+0113000,"Meat, Swine",VM,Vietnam,2019,2025,12,086,Total Supply,07,(1000 MT CWE),3020.0000
+0113000,"Meat, Swine",VM,Vietnam,2020,2025,12,220,Annual % Change Per Cap. Cons.,23,(PERCENT),1.7000
+0113000,"Meat, Swine",VM,Vietnam,2020,2025,12,020,Beginning Stocks,07,(1000 MT CWE),0.0000
+0113000,"Meat, Swine",VM,Vietnam,2020,2025,12,125,Domestic Consumption,07,(1000 MT CWE),3068.0000
+0113000,"Meat, Swine",VM,Vietnam,2020,2025,12,176,Ending Stocks,07,(1000 MT CWE),0.0000
+0113000,"Meat, Swine",VM,Vietnam,2020,2025,12,088,Exports,07,(1000 MT CWE),12.0000
+0113000,"Meat, Swine",VM,Vietnam,2020,2025,12,057,Imports,07,(1000 MT CWE),150.0000
+0113000,"Meat, Swine",VM,Vietnam,2020,2025,12,028,Production,07,(1000 MT CWE),2930.0000
+0113000,"Meat, Swine",VM,Vietnam,2020,2025,12,178,Total Distribution,07,(1000 MT CWE),3080.0000
+0113000,"Meat, Swine",VM,Vietnam,2020,2025,12,086,Total Supply,07,(1000 MT CWE),3080.0000
+0113000,"Meat, Swine",VM,Vietnam,2021,2025,12,220,Annual % Change Per Cap. Cons.,23,(PERCENT),4.8000
+0113000,"Meat, Swine",VM,Vietnam,2021,2025,12,020,Beginning Stocks,07,(1000 MT CWE),0.0000
+0113000,"Meat, Swine",VM,Vietnam,2021,2025,12,125,Domestic Consumption,07,(1000 MT CWE),3276.0000
+0113000,"Meat, Swine",VM,Vietnam,2021,2025,12,176,Ending Stocks,07,(1000 MT CWE),0.0000
+0113000,"Meat, Swine",VM,Vietnam,2021,2025,12,088,Exports,07,(1000 MT CWE),18.0000
+0113000,"Meat, Swine",VM,Vietnam,2021,2025,12,057,Imports,07,(1000 MT CWE),182.0000
+0113000,"Meat, Swine",VM,Vietnam,2021,2025,12,028,Production,07,(1000 MT CWE),3112.0000
+0113000,"Meat, Swine",VM,Vietnam,2021,2025,12,178,Total Distribution,07,(1000 MT CWE),3294.0000
+0113000,"Meat, Swine",VM,Vietnam,2021,2025,12,086,Total Supply,07,(1000 MT CWE),3294.0000
+0113000,"Meat, Swine",VM,Vietnam,2022,2025,12,220,Annual % Change Per Cap. Cons.,23,(PERCENT),3.2000
+0113000,"Meat, Swine",VM,Vietnam,2022,2025,12,020,Beginning Stocks,07,(1000 MT CWE),0.0000
+0113000,"Meat, Swine",VM,Vietnam,2022,2025,12,125,Domestic Consumption,07,(1000 MT CWE),3413.0000
+0113000,"Meat, Swine",VM,Vietnam,2022,2025,12,176,Ending Stocks,07,(1000 MT CWE),0.0000
+0113000,"Meat, Swine",VM,Vietnam,2022,2025,12,088,Exports,07,(1000 MT CWE),20.0000
+0113000,"Meat, Swine",VM,Vietnam,2022,2025,12,057,Imports,07,(1000 MT CWE),120.0000
+0113000,"Meat, Swine",VM,Vietnam,2022,2025,12,028,Production,07,(1000 MT CWE),3313.0000
+0113000,"Meat, Swine",VM,Vietnam,2022,2025,12,178,Total Distribution,07,(1000 MT CWE),3433.0000
+0113000,"Meat, Swine",VM,Vietnam,2022,2025,12,086,Total Supply,07,(1000 MT CWE),3433.0000
+0113000,"Meat, Swine",VM,Vietnam,2023,2025,12,220,Annual % Change Per Cap. Cons.,23,(PERCENT),5.9000
+0113000,"Meat, Swine",VM,Vietnam,2023,2025,12,020,Beginning Stocks,07,(1000 MT CWE),0.0000
+0113000,"Meat, Swine",VM,Vietnam,2023,2025,12,125,Domestic Consumption,07,(1000 MT CWE),3648.0000
+0113000,"Meat, Swine",VM,Vietnam,2023,2025,12,176,Ending Stocks,07,(1000 MT CWE),0.0000
+0113000,"Meat, Swine",VM,Vietnam,2023,2025,12,088,Exports,07,(1000 MT CWE),19.0000
+0113000,"Meat, Swine",VM,Vietnam,2023,2025,12,057,Imports,07,(1000 MT CWE),113.0000
+0113000,"Meat, Swine",VM,Vietnam,2023,2025,12,028,Production,07,(1000 MT CWE),3554.0000
+0113000,"Meat, Swine",VM,Vietnam,2023,2025,12,178,Total Distribution,07,(1000 MT CWE),3667.0000
+0113000,"Meat, Swine",VM,Vietnam,2023,2025,12,086,Total Supply,07,(1000 MT CWE),3667.0000
+0113000,"Meat, Swine",VM,Vietnam,2024,2025,12,220,Annual % Change Per Cap. Cons.,23,(PERCENT),5.3000
+0113000,"Meat, Swine",VM,Vietnam,2024,2025,12,020,Beginning Stocks,07,(1000 MT CWE),0.0000
+0113000,"Meat, Swine",VM,Vietnam,2024,2025,12,125,Domestic Consumption,07,(1000 MT CWE),3878.0000
+0113000,"Meat, Swine",VM,Vietnam,2024,2025,12,176,Ending Stocks,07,(1000 MT CWE),0.0000
+0113000,"Meat, Swine",VM,Vietnam,2024,2025,12,088,Exports,07,(1000 MT CWE),15.0000
+0113000,"Meat, Swine",VM,Vietnam,2024,2025,12,057,Imports,07,(1000 MT CWE),106.0000
+0113000,"Meat, Swine",VM,Vietnam,2024,2025,12,028,Production,07,(1000 MT CWE),3787.0000
+0113000,"Meat, Swine",VM,Vietnam,2024,2025,12,178,Total Distribution,07,(1000 MT CWE),3893.0000
+0113000,"Meat, Swine",VM,Vietnam,2024,2025,12,086,Total Supply,07,(1000 MT CWE),3893.0000
+0113000,"Meat, Swine",VM,Vietnam,2025,2026,04,220,Annual % Change Per Cap. Cons.,23,(PERCENT),4.1000
+0113000,"Meat, Swine",VM,Vietnam,2025,2026,04,020,Beginning Stocks,07,(1000 MT CWE),0.0000
+0113000,"Meat, Swine",VM,Vietnam,2025,2026,04,125,Domestic Consumption,07,(1000 MT CWE),4073.0000
+0113000,"Meat, Swine",VM,Vietnam,2025,2026,04,176,Ending Stocks,07,(1000 MT CWE),0.0000
+0113000,"Meat, Swine",VM,Vietnam,2025,2026,04,088,Exports,07,(1000 MT CWE),13.0000
+0113000,"Meat, Swine",VM,Vietnam,2025,2026,04,057,Imports,07,(1000 MT CWE),151.0000
+0113000,"Meat, Swine",VM,Vietnam,2025,2026,04,028,Production,07,(1000 MT CWE),3935.0000
+0113000,"Meat, Swine",VM,Vietnam,2025,2026,04,178,Total Distribution,07,(1000 MT CWE),4086.0000
+0113000,"Meat, Swine",VM,Vietnam,2025,2026,04,086,Total Supply,07,(1000 MT CWE),4086.0000
+0113000,"Meat, Swine",VM,Vietnam,2026,2026,04,220,Annual % Change Per Cap. Cons.,23,(PERCENT),2.2000
+0113000,"Meat, Swine",VM,Vietnam,2026,2026,04,020,Beginning Stocks,07,(1000 MT CWE),0.0000
+0113000,"Meat, Swine",VM,Vietnam,2026,2026,04,125,Domestic Consumption,07,(1000 MT CWE),4197.0000
+0113000,"Meat, Swine",VM,Vietnam,2026,2026,04,176,Ending Stocks,07,(1000 MT CWE),0.0000
+0113000,"Meat, Swine",VM,Vietnam,2026,2026,04,088,Exports,07,(1000 MT CWE),13.0000
+0113000,"Meat, Swine",VM,Vietnam,2026,2026,04,057,Imports,07,(1000 MT CWE),120.0000
+0113000,"Meat, Swine",VM,Vietnam,2026,2026,04,028,Production,07,(1000 MT CWE),4090.0000
+0113000,"Meat, Swine",VM,Vietnam,2026,2026,04,178,Total Distribution,07,(1000 MT CWE),4210.0000
+0113000,"Meat, Swine",VM,Vietnam,2026,2026,04,086,Total Supply,07,(1000 MT CWE),4210.0000
+0114200,"Poultry, Meat, Broiler",VM,Vietnam,2015,2017,04,220,Annual % Change Per Cap. Cons.,23,(PERCENT),3.5700
+0114200,"Poultry, Meat, Broiler",VM,Vietnam,2015,2017,04,020,Beginning Stocks,08,(1000 MT),0.0000
+0114200,"Poultry, Meat, Broiler",VM,Vietnam,2015,2017,04,125,Domestic Consumption,08,(1000 MT),545.0000
+0114200,"Poultry, Meat, Broiler",VM,Vietnam,2015,2017,04,176,Ending Stocks,08,(1000 MT),0.0000
+0114200,"Poultry, Meat, Broiler",VM,Vietnam,2015,2017,04,088,Exports,08,(1000 MT),9.0000
+0114200,"Poultry, Meat, Broiler",VM,Vietnam,2015,2017,04,057,Imports,08,(1000 MT),65.0000
+0114200,"Poultry, Meat, Broiler",VM,Vietnam,2015,2017,04,028,Production,08,(1000 MT),489.0000
+0114200,"Poultry, Meat, Broiler",VM,Vietnam,2015,2017,04,178,Total Distribution,08,(1000 MT),554.0000
+0114200,"Poultry, Meat, Broiler",VM,Vietnam,2015,2017,04,086,Total Supply,08,(1000 MT),554.0000
+0114200,"Poultry, Meat, Broiler",VM,Vietnam,2015,2017,04,174,Total Use,08,(1000 MT),554.0000
+0114200,"Poultry, Meat, Broiler",VM,Vietnam,2016,2018,04,220,Annual % Change Per Cap. Cons.,23,(PERCENT),3.4000
+0114200,"Poultry, Meat, Broiler",VM,Vietnam,2016,2018,04,020,Beginning Stocks,08,(1000 MT),0.0000
+0114200,"Poultry, Meat, Broiler",VM,Vietnam,2016,2018,04,125,Domestic Consumption,08,(1000 MT),573.0000
+0114200,"Poultry, Meat, Broiler",VM,Vietnam,2016,2018,04,176,Ending Stocks,08,(1000 MT),0.0000
+0114200,"Poultry, Meat, Broiler",VM,Vietnam,2016,2018,04,088,Exports,08,(1000 MT),6.0000
+0114200,"Poultry, Meat, Broiler",VM,Vietnam,2016,2018,04,057,Imports,08,(1000 MT),65.0000
+0114200,"Poultry, Meat, Broiler",VM,Vietnam,2016,2018,04,028,Production,08,(1000 MT),514.0000
+0114200,"Poultry, Meat, Broiler",VM,Vietnam,2016,2018,04,178,Total Distribution,08,(1000 MT),579.0000
+0114200,"Poultry, Meat, Broiler",VM,Vietnam,2016,2018,04,086,Total Supply,08,(1000 MT),579.0000
+0114200,"Poultry, Meat, Broiler",VM,Vietnam,2016,2018,04,174,Total Use,08,(1000 MT),579.0000

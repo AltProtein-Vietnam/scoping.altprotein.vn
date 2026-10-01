@@ -4,9 +4,9 @@ title: "S1. Company and actor directory"
 short_title: "S1. Directory"
 section: appendix
 order: 21
-summary: "A guided tour of the 97 companies and organisations in companies.csv, grouped by what they do, with location, scale signal, status and sources, followed by a dated timeline of Vietnamese alternative protein from 2015 to September 2026."
+summary: "A guided tour of the 97 companies and organisations in companies.csv, grouped by what they do, with location, scale signal, status and sources, followed by a dated timeline of Vietnamese alternative protein from 2015 to September 2026. Feed firms are kept as context."
 audiences: [investors, startups, manufacturers, policy, research, international]
-reading_time_min: 33
+reading_time_min: 35
 key_numbers: [kn-entobel-capacity, kn-vinasoy-share, kn-vinh-hoan-offtake]
 related_data: [companies.csv, timeline.csv, brands.csv, ingredient_suppliers.csv, deals.csv, investors.csv, facilities.csv]
 related_pages: [ch02-alt-protein-today, ch05-industrial-base, app-s2-retail-audit, app-s5-facilities, app-s6-feed-market, app-s11-capital, app-s10-admin-map, app-r2-disagreements]
@@ -15,27 +15,30 @@ charts: [chart-timeline]
 
 # S1. Company and actor directory
 
-This appendix is a narrative guide to `companies.csv` (97 rows). It groups the actors by what they contribute to supply: making non-animal protein foods, making or importing protein ingredients, buying protein for feed, financing, and supporting the field. Each group has a compact table. The appendix ends with a dated timeline built from `timeline.csv` and wave 2 verification.
+This appendix is a guide to the companies and organisations in `companies.csv` (97 rows). It groups them by their role in supply: making non-animal protein foods, making or importing protein ingredients, financing, and supporting the field. Each group has a short table. The appendix ends with a dated timeline built from `timeline.csv` and the wave 2 checks.
+
+The study is about protein for people. Feed makers and feed-ingredient firms stay in the directory as context and as the record: feed is the hidden import behind the meat, eggs, milk and farmed fish that people eat. The study no longer treats feed ingredients as something to make.
 
 How to read the tables:
 
 - **Location** is the current (post-1 July 2025) province, with the former unit in brackets where it changed. See [[app-s10-admin-map]].
 - **Scale signal** is the best published indicator we found. "Claimed" means a company or press statement not checked against a filing. "Design capacity" is what a plant was built for, not what it makes.
-- **Status** gives the last evidence of activity and the date of our last check. "Wave 1" rows were checked on 23 September 2026 by the ecosystem research; "wave 2" rows were re-checked the same day by a separate verification pass, which used direct page reads only. Many company sites failed to load in wave 2, so many rows carry only wave 1 evidence.
-- **Sources** resolve in `sources.csv`. Where wave 2 changed a wave 1 value, the change is recorded in the `change_log` column of `companies.csv` and flagged below as a correction.
+- **Status** gives the last evidence of activity and the date of our last check. The ecosystem research checked "wave 1" rows on 23 September 2026. A separate verification pass checked "wave 2" rows again the same day, using direct page reads only. Many company sites failed to load in wave 2, so many rows carry only wave 1 evidence.
+- **Sources** resolve in `sources.csv`. Where wave 2 changed a wave 1 value, the `change_log` column of `companies.csv` records the change, and we flag it below as a correction.
+- **Short forms.** TVP is textured vegetable protein, made by extrusion. SPC and SPI are soy protein concentrate and soy protein isolate. A SKU row is one product in one store in the retail audit. SCP is single-cell protein: protein-rich biomass of bacteria, yeast or algae. SMEs are small and medium-sized enterprises. GFI is the Good Food Institute; VAST is the Vietnam Academy of Science and Technology; IFC is the International Finance Corporation; a DFI is a development finance institution; an MOU is a memorandum of understanding; R&D is research and development. More terms are in [[app-r3-glossary]].
 
-> **Method note.** The directory is broad but not complete. The wave 1 web-search budget ran out part way through (the ecosystem research logged about 40 searches and 60 page reads), and wave 2 used no web search at all (see the working papers and [[app-m1-method]]). Entities we could not confirm are kept and marked "lead" or "unverified". Absence of an actor here means "not found", not "does not exist".
+> **Method note.** The directory is broad but not complete. The wave 1 web-search budget ran out part way through: the ecosystem research logged about 40 searches and 60 page reads. Wave 2 used no web search at all (see the working papers and [[app-m1-method]]). We kept entities we could not confirm and marked them "lead" or "unverified". If an actor is absent here, it means "not found", not "does not exist".
 
 ## S1.1 Overview
 
 - **Vietnam's real non-animal protein economy is incumbent, not startup.** Soy milk (Vinasoy and the dairy majors) and industrial *đồ chay* (traditional vegetarian food made by meat and frozen-food processors and by specialist SMEs) are the scale players [@ECO-41; @ECO-40] {VN-direct|Medium}.
-- **Modern plant-based startups are few and very small**, and we found no disclosed institutional equity round for any Vietnamese plant-based food startup [@ECO-13; @CAP-15] {VN-direct|Medium}.
-- **The largest alternative-protein production asset is insect meal** (Entobel, about 11,000 t a year design capacity, the sum of two plants, our calculation) [@ECO-02; @ECO-03] {VN-direct|High}. We treat insects as a benchmark, not a recommended play.
-- **Chinese fermentation by-product protein is already sold into Vietnamese feed** by a local distributor [@ECO-69] {VN-direct|Medium}.
+- **Modern plant-based startups are few and very small.** We found no disclosed institutional equity round for any Vietnamese plant-based food startup [@ECO-13; @CAP-15] {VN-direct|Medium}.
+- **The largest alternative-protein production asset is insect meal** (Entobel, about 11,000 t a year design capacity, the sum of two plants, our calculation) [@ECO-02; @ECO-03] {VN-direct|High}. It makes feed. We treat insects as a benchmark, not a recommended play.
+- **Chinese fermentation by-product protein is already sold into Vietnamese feed** by a local distributor [@ECO-69] {VN-direct|Medium}. This is feed context.
 - **We found no cultivated meat or seafood company or facility in Vietnam.** The only links we found are Vietnamese corporate stakes abroad and one memorandum with no follow-up found [@ECO-58; @VCO-22] {VN-direct|Medium}.
 - **GFI's global company database lists 2 Vietnamese companies**, both plant-based, founded in 2019 and 2023, and no Vietnamese research actors [@VCO-21] {VN-direct|Medium}.
 
-Rows by category in `companies.csv`: plant-based meat 18, traditional chay industrial 18, other (buyers, investors, support) 15, plant-based dairy 10, distributor 9, feed SCP or yeast 6, microalgae 5, cultivated 4, ingredient supplier 3, fermentation biomass 2, duckweed 2, insect (benchmark) 2, mushroom or mycelium 1, plant-based seafood 1 (our count of `companies.csv`; that one row, Bien Phuong, makes meat substitutes on its sources, as shown below). The groups below regroup these rows by supply role and add actors found in the retail audit ([[app-s2-retail-audit]]).
+Rows by category in `companies.csv` (our count): plant-based meat 18, traditional chay industrial 18, other (buyers, investors, support) 15, plant-based dairy 10, distributor 9, feed SCP or yeast 6, microalgae 5, cultivated 4, ingredient supplier 3, fermentation biomass 2, duckweed 2, insect (benchmark) 2, mushroom or mycelium 1, plant-based seafood 1. The one plant-based seafood row, Bien Phuong, makes meat substitutes according to its sources, as shown below. The sections below regroup these rows by supply role and add actors found in the retail audit ([[app-s2-retail-audit]]).
 
 ## S1.2 Incumbent soy and dairy
 
@@ -78,8 +81,8 @@ These firms make *đồ chay* at industrial scale. Label evidence splits their p
 
 Readings:
 
-- **Meat processors are the scale chay makers.** VISSAN, CJ Foods Vietnam, Cholimex and SG Food sell chay in the same frozen categories as meat [@IND-53; @FORM-01] {VN-direct|Medium}. They are the most plausible co-packers for new plant-based products, with GN Foods for retailer private labels.
-- **The protein-dense specialists are in Ho Chi Minh City** (An Nhien, Au Lac, Thoai An; the Xuan Hong brand's location is not verified) [@FORM-01] {VN-direct|Medium}. They are the natural first customers for a domestic TVP or gluten substitute ([[app-s2-retail-audit]], section S2.13).
+- **Meat processors are the scale chay makers.** VISSAN, CJ Foods Vietnam, Cholimex and SG Food sell chay in the same frozen categories as meat [@IND-53; @FORM-01] {VN-direct|Medium}. They are the most likely co-packers (firms that make products for another brand) for new plant-based products. GN Foods is the likely co-packer for retailer private labels.
+- **The protein-dense specialists are in Ho Chi Minh City** (An Nhien, Au Lac, Thoai An; the Xuan Hong brand's location is not verified) [@FORM-01] {VN-direct|Medium}. They are the natural first customers for a domestic TVP or a substitute for imported gluten ([[app-s2-retail-audit]], section S2.13).
 - **Many small makers exist beyond the brands seen.** A 2022 to 2023 food-safety survey covered 126 vegetarian food production, processing and trading establishments in Hanoi alone [@FORM-37] {VN-direct|Medium}.
 
 ## S1.4 Modern plant-based brands made in Vietnam
@@ -100,7 +103,7 @@ We found no Vietnamese plant-based egg product; a 2022 list of 12 brands include
 
 ## S1.5 Imported brands and their channels
 
-Imported "modern" brands entered mostly through restaurants and gourmet shops; some also reached AEON Citi Mart and K-Market. Importers distribute some brands (Classic Fine Foods for Next Meats), but we found no national distributor for any of them [@ECO-15; @ECO-16] {VN-direct|Medium}. Mintel's database logged no plant-based meat launches in Vietnam from 2022 to Q2 2023 [@ECO-23] {VN-direct|High}.
+Imported "modern" brands entered mostly through restaurants and gourmet shops. Some also reached AEON Citi Mart and K-Market. Importers distribute some brands (Classic Fine Foods for Next Meats), but we found no national distributor for any of them [@ECO-15; @ECO-16] {VN-direct|Medium}. Mintel's database logged no plant-based meat launches in Vietnam from 2022 to Q2 2023 [@ECO-23] {VN-direct|High}.
 
 **Brands**
 
@@ -142,7 +145,7 @@ Imported "modern" brands entered mostly through restaurants and gourmet shops; s
 | Ong Tempeh Vietnam Trading Services Co., Ltd | Ho Chi Minh City (Phu Thuan, former District 7); Hanoi branch | Soy tempeh and other legume tempeh; tempeh chips; *Rhizopus* starter cultures | National delivery | Active (wave 1); wave 2 re-check not completed | [@ECO-51] {VN-direct\|Medium} |
 | Vinaorganic | not known | Advertises tempeh technology transfer | unknown | Search listing only; not read | none (lead) {VN-direct\|Low} |
 
-Emmay is the only Vietnamese startup found claiming mycelium technology; its "1,000 t in 14 days" statement is a capacity claim, not output [@ECO-12; @ECO-13] {VN-direct|Low}. Ong Tempeh is the only commercial tempeh maker we verified in our searches, and its starter sales make it a small domestic node of fungal fermentation know-how [@ECO-51] {VN-direct|Medium}. We found no commercial koji, mycoprotein or precision-fermentation producer in our searches {VN-direct|Low}.
+Emmay is the only Vietnamese startup we found that claims mycelium technology. Its "1,000 t in 14 days" statement is a capacity claim, not output [@ECO-12; @ECO-13] {VN-direct|Low}. Ong Tempeh is the only commercial tempeh maker we verified in our searches. Because it also sells starter cultures, it is a small domestic source of know-how in fungal fermentation [@ECO-51] {VN-direct|Medium}. We found no commercial koji, mycoprotein or precision-fermentation producer in our searches {VN-direct|Low}.
 
 ## S1.7 Microalgae and duckweed
 
@@ -157,9 +160,11 @@ Emmay is the only Vietnamese startup found claiming mycelium technology; its "1,
 | Can Tho University (duckweed feed research) | Can Tho | 1990s duckweed-for-livestock research (prior lead) | Research only | Lead not verified | none (lead) {VN-direct\|Low} |
 | FiBL and Binca Seafoods duckweed project | not known | Duckweed for aquafeed pilot (2019, prior lead) | Outcome unpublished | Lead not verified | none (lead) {VN-direct\|Low} |
 
-Readings. The two spirulina producers with scale data (Vinh Hao and VN Vastcom) sell health food at high prices; neither is a bulk protein supplier [@ECO-52; @ECO-53] {VN-direct|Medium}. One source claims more than 70% of spirulina products sold in Vietnam are imported [@ECO-53] {VN-direct|Low}. We found no national output total. We found no commercial duckweed, seaweed-protein or koji producer in our searches {VN-direct|Low}. Spirulina producers were not re-checked in wave 2.
+Readings. The two spirulina producers with scale data (Vinh Hao and VN Vastcom) sell health food at high prices. Neither is a bulk protein supplier [@ECO-52; @ECO-53] {VN-direct|Medium}. One source claims more than 70% of spirulina products sold in Vietnam are imported [@ECO-53] {VN-direct|Low}. We found no national output total. We found no commercial duckweed, seaweed-protein or koji producer in our searches {VN-direct|Low}. The two duckweed rows are feed leads, kept as context. We did not check the spirulina producers again in wave 2.
 
 ## S1.8 Fermentation and feed single-cell protein
+
+Most rows in this section sell single-cell protein or yeast products for feed. We keep them as context and as the record. The Vedan row and the reading on large fermenters below also matter for food fermentation, which is in scope.
 
 | Name | Location | What they do | Scale signal | Status, last verified | Sources |
 |---|---|---|---|---|---|
@@ -169,15 +174,15 @@ Readings. The two spirulina producers with scale data (Vinh Hao and VN Vastcom) 
 | Angel Yeast Vietnam | Hanoi | Yeast, yeast extract and yeast-based feed products (imported from China) | Vietnam volumes unknown | Search listing only | none (lead) {VN-direct\|Low} |
 | Enzym Group (via a ShrimpVet trial) | Ukraine (company) | Yeast feed additive | Lab trial at ShrimpVet, Ho Chi Minh City: survival in treatment T1 42.86% higher than the positive (challenged) control under *Vibrio* challenge (reported by ShrimpVet and Enzym) | Unknown | [@ECO-70] {VN-direct\|Low} |
 | Calysta (FeedKind); Unibio (Uniprotein) | USA and UK; Denmark | Gas-fermentation single-cell protein | No Vietnamese supply, distributor or trial found; covered in Vietnamese aquaculture media 2023 to 2025 as a global trend | No Vietnam activity found | [@ECO-66; @ECO-67] {VN-adjacent\|Low} |
-| Vedan Vietnam Enterprise Corp. (Vedan International, HKEX 2317) | Dong Nai (Phuoc Thai commune, former Long Thanh district) | MSG, glutamic acid, lysine, starch, glucose syrup; fertiliser and feed pellets | Glutamic acid nameplate 180,000 t a year (2004, last published); Vietnam revenue USD 154.3 million (2025); group "fertiliser and feed" revenue USD 27.1 million (2025) | Active (wave 2) | [@VCO-01; @VCO-02; @VCO-03; @VCO-04] {VN-direct\|Medium} |
+| Vedan Vietnam Enterprise Corp. (Vedan International, HKEX 2317) | Dong Nai (Phuoc Thai commune, former Long Thanh district) | Monosodium glutamate (MSG), glutamic acid, lysine, starch, glucose syrup; fertiliser and feed pellets | Glutamic acid nameplate 180,000 t a year (2004, last published); Vietnam revenue USD 154.3 million (2025); group "fertiliser and feed" revenue USD 27.1 million (2025) | Active (wave 2) | [@VCO-01; @VCO-02; @VCO-03; @VCO-04] {VN-direct\|Medium} |
 
 > **Correction.** Wave 1 recorded Vedan's glutamic acid capacity as 36,000 t a year (the 1995 figure). The last published nameplate is 180,000 t a year, set in 2004; neither figure is confirmed as current [@VCO-03] {VN-direct|Medium}.
 
 Readings:
 
-- **The import counterfactual for a Vietnamese single-cell protein already exists.** Chinese single-cell biomass from glutamic acid production is offered to Vietnamese feed formulators through CK Vietnam / V-Group [@ECO-69] {VN-direct|Medium}. The name "mycoprotein" is probably a misnomer here: glutamic acid is usually made by bacterial fermentation, so the product is likely bacterial, not fungal (our inference).
-- **The large aerobic fermenters are captive.** Vedan, Ajinomoto (Dong Nai) and Daesang (Phu Tho) run single-product lines, and we found no toll-fermentation offer from any of them [@IND-01; @IND-08; @IND-11] {VN-direct|Low}. Ajinomoto's permitted MSG capacity at Bien Hoa is 150,000 t a year (2023 environmental assessment, reported in press) [@IND-08] {VN-direct|Medium}. See [[app-s5-facilities]].
-- **Vedan's fertiliser and feed segment is, in our reading, an existing fermentation by-product feed business** that could price-benchmark single-cell protein [@VCO-01] {VN-direct|Medium}. Vedan reports that cassava prices rose sharply from Q4 2025 through H1 2026 [@VCO-02] {VN-adjacent|High}.
+- **Chinese single-cell protein for feed is already on sale in Vietnam.** CK Vietnam / V-Group offers Chinese single-cell biomass from glutamic acid production to Vietnamese feed formulators [@ECO-69] {VN-direct|Medium}. The name "mycoprotein" is probably wrong here: glutamic acid is usually made by bacterial fermentation, so the product is likely bacterial, not fungal (our inference). This is context. The play to make bulk microbial protein for feed in Vietnam (T3) was retired because feed is now context only.
+- **The large aerobic fermenters are captive: their owners use them only for their own products.** Vedan, Ajinomoto (Dong Nai) and Daesang (Phu Tho) run single-product lines. We found no offer of toll fermentation (renting time on someone else's fermenter) from any of them [@IND-01; @IND-08; @IND-11] {VN-direct|Low}. Ajinomoto's permitted MSG capacity at Bien Hoa is 150,000 t a year (2023 environmental assessment, reported in press) [@IND-08] {VN-direct|Medium}. See [[app-s5-facilities]].
+- **Vedan already sells fermentation by-products as feed.** In our reading, its fertiliser and feed segment is a feed business built on fermentation by-products, and so a price reference for single-cell protein in feed (context only) [@VCO-01] {VN-direct|Medium}. Vedan reports that cassava prices rose sharply from Q4 2025 through H1 2026 [@VCO-02] {VN-adjacent|High}.
 
 ## S1.9 Insect protein (benchmark)
 
@@ -187,7 +192,7 @@ Readings:
 | Cricket One | Dong Nai (former Binh Phuoc), Loc Ninh area; Ho Chi Minh City office | Cricket powders, whole crickets, oil, restructured cricket meat, frass | 4 company farms and about 20 satellite farms; 1,000 t a year processing capacity (2023, claimed) with a 10,000 t target; exports to EU, North America, Japan; HACCP, FSSC 22000 | Active as of October 2024 (last evidence); site timed out in wave 2 | [@ECO-07; @ECO-08; @ECO-09; @ECO-10; @ECO-11] {VN-direct\|Medium} |
 | HEINEKEN Vietnam | Ho Chi Minh City | Supplies brewery by-products to Entobel | Volumes not disclosed | Named as a feedstock supplier (November 2023); current status not verified | [@ECO-01] {VN-direct\|Medium} |
 
-Entobel is the benchmark incumbent for any novel feed protein. Key terms:
+Entobel makes insect meal for feed, which is outside the study's focus on protein for people. We keep it as the benchmark incumbent for insect protein and as a record of how a large alternative-protein deal was structured (see [[app-s11-capital]]). Its main terms:
 
 - **Protein output at full capacity.** At the 53% minimum crude protein, 11,000 t a year of meal is about 5,800 t of protein a year at full capacity (our calculation: 11,000 x 0.53) [@ECO-04; @ECO-03] {VN-direct|Low}. Actual output is not disclosed.
 - **Offtake.** Vinh Hoan agreed in February 2024 to buy at least 15,000 t of Entobel insect protein over 2025 to 2027, about 5,000 t a year or about 45% of design capacity (our calculation) [@ECO-05] {VN-direct|Medium}.
@@ -196,7 +201,7 @@ Entobel is the benchmark incumbent for any novel feed protein. Key terms:
 
 > **Correction.** Earlier drafts gave Entobel's financing as about USD 36 million. The documented structure is a USD 32.5 million project: Mekong Capital USD 25 million, Dragon Capital USD 5 million and IFC USD 2.5 million under an "Upstream Collaboration Agreement" (IFC project 46903, board date 23 February 2023) [@CAP-01; @CAP-02; @VCO-20] {VN-direct|Medium}. The company describes a USD 33 million Series B [@ECO-01] {VN-direct|Low}. Earlier rounds are undisclosed.
 
-Cricket One volume claims use different units (crickets per month, fresh tonnes, live tonnes) and are all company claims; we use the 1,000 t a year processing capacity (2023) as the scale anchor [@ECO-07; @ECO-09; @ECO-10; @ECO-11] {VN-direct|Low}.
+Cricket One volume claims use different units (crickets per month, fresh tonnes, live tonnes) and are all company claims. We use the 1,000 t a year processing capacity (2023) as the scale anchor [@ECO-07; @ECO-09; @ECO-10; @ECO-11] {VN-direct|Low}.
 
 ## S1.10 Cultivated meat and seafood links
 
@@ -210,13 +215,13 @@ Cricket One volume claims use different units (crickets per month, fresh tonnes,
 
 We found no cultivated meat or seafood company, facility or university group in Vietnam [@ECO-64; @ECO-72] {VN-direct|Medium}. The only cultivated project for Vietnamese soil we found is the 2022 Minh Phu MOU, with no sign it proceeded [@VCO-22] {VN-direct|Medium}. Vinh Hoan has both invested in an alternative-protein startup and signed a feed offtake [@ECO-05; @ECO-58] {VN-direct|Medium}.
 
-## S1.11 Feed majors as buyers
+## S1.11 Feed majors (context)
 
-Feed mills are the B2B buyers that decide whether a novel feed protein has a market. Six firms (Sheng Long/Haid, C.P., Uni-President, Tongwei, Grobest, Gromax) supplied about 640 kt of shrimp feed in 2025, about 70% of the total [@IND-41] {VN-direct|Medium}. Detail on volumes and prices is in [[app-s6-feed-market]].
+This section is context. Feed mills make the feed behind Vietnamese meat, eggs and farmed fish. They would be the business buyers of any novel feed protein, but the study no longer treats feed ingredients as something to make. Six firms (Sheng Long/Haid, C.P., Uni-President, Tongwei, Grobest, Gromax) supplied about 640 kt of shrimp feed in 2025, about 70% of the total [@IND-41] {VN-direct|Medium}. Detail on volumes and prices is in [[app-s6-feed-market]].
 
-| Name | Location | Role for novel protein | Scale signal | Status, last verified | Sources |
+| Name | Location | Role in feed (context) | Scale signal | Status, last verified | Sources |
 |---|---|---|---|---|---|
-| De Heus Vietnam (Royal De Heus; includes former CJ Feed & Care) | Ho Chi Minh City office; plants nationwide, including Vinh Long | Largest single feed buyer; new high-protein marine feed mill; Vinh Long aquaculture R&D facility (opened 29 July 2024) as a possible trial site | 21 plants (14 livestock, 6 aquafeed, 1 premix); Vinh Long marine and cold-water fish mill of 168,000 t a year design capacity (84,000 t in trade press, probably a first phase), opened 22 July 2026 | Active (wave 2) | [@VCO-07; @VCO-08; @VCO-09; @VCO-10; @VCO-11; @IND-45] {VN-direct\|Medium} |
+| De Heus Vietnam (Royal De Heus; includes former CJ Feed & Care) | Ho Chi Minh City office; plants nationwide, including Vinh Long | Largest single feed buyer; new high-protein marine feed mill; Vinh Long aquaculture R&D facility (opened 29 July 2024) | 21 plants (14 livestock, 6 aquafeed, 1 premix); Vinh Long marine and cold-water fish mill of 168,000 t a year design capacity (84,000 t in trade press, probably a first phase), opened 22 July 2026 | Active (wave 2) | [@VCO-07; @VCO-08; @VCO-09; @VCO-10; @VCO-11; @IND-45] {VN-direct\|Medium} |
 | Skretting Vietnam (Nutreco) | Ho Chi Minh City (Alpha Tower office); plants not stated | Commercialised the first insect-meal shrimp feed with Entobel (November 2025); launched Jade+ and LifeStart (April 2026) | About 100,000 t a year supplied (wave 1 trade press, unverified) | Active (wave 2) | [@VCO-27; @VCO-28] {VN-direct\|Medium} |
 | Uni-President Vietnam | Ho Chi Minh City (Song Than 2 Industrial Zone, former Binh Duong); Dong Thap (former Tien Giang); Khanh Hoa (former Ninh Thuan); Da Nang (former Quang Nam) | Aquafeed and livestock feed; also wheat flour | Founded 1999; top-six shrimp feed maker; capacities not published | Active (wave 2) | [@VCO-29; @IND-41] {VN-direct\|Medium} |
 | Grobest Vietnam | Dong Nai (2 plants, wave 1 trade press) | Shrimp feed | Group about 3,000 staff in 8 countries | Operating (wave 2); no plant data | [@VCO-30] {VN-adjacent\|Low} |
@@ -238,7 +243,7 @@ Feed mills are the B2B buyers that decide whether a novel feed protein has a mar
 | Xuan Hong Food Processing Import-Export Co., Ltd | Tay Ninh (Thanh Tan commune) | Cassava starch, not chay food | Capacity 100 t a day (2020) | [@ECO-39] {VN-direct\|Medium} |
 | Vedan Vietnam | Dong Nai | Glucose syrup and starch sold to third parties | Nameplates 1994 to 2004 (see S1.8) | [@VCO-03; @IND-01] {VN-direct\|Medium} |
 
-The pattern is clear: concentrated plant proteins are largely imported in bags through chemical and food-additive distributors (some of China origin), and domestic soybean crushing (four plants) is feed-grade, with no food-grade flake line found [@FORM-11; @FORM-12; @VCO-16; @FORM-09] {VN-direct|Medium}. See [[app-s2-retail-audit]], section S2.10, for trade volumes.
+Concentrated plant proteins are largely imported in bags through chemical and food-additive distributors (some of China origin), and domestic soybean crushing (four plants) is feed-grade, with no food-grade flake line found [@FORM-11; @FORM-12; @VCO-16; @FORM-09] {VN-direct|Medium}. See [[app-s2-retail-audit]], section S2.10, for trade volumes.
 
 > **Correction.** In v0.6 this said the only domestic soybean processor is a feed-grade crusher and that concentrated plant proteins arrive from China; USDA reports four crushing plants (one in the north, three in the south), all feed-grade on our evidence, and only some distributor listings state China origin.
 
@@ -258,11 +263,11 @@ The pattern is clear: concentrated plant proteins are largely imported in bags t
 | Institute of Biotechnology, VAST | Spirulina technology transfer | Active | [@ECO-53] {VN-direct\|Medium} |
 | HSI, Animals Asia, Sinergia Animal, ProVeg, vegetarian associations, expos | Not verified | Search budget exhausted | none {VN-direct\|Low} |
 
-State venture funds (national, Ho Chi Minh City and Hanoi), NATIF and grant-makers are covered in [[app-s11-capital]]. Research institutions are in [[app-s7-research]], and labs and pilot plants in [[app-s8-labs-talent]].
+[[app-s11-capital]] covers state venture funds (national, Ho Chi Minh City and Hanoi), the National Technology Innovation Foundation (NATIF) and grant-makers. Research institutions are in [[app-s7-research]], and labs and pilot plants in [[app-s8-labs-talent]].
 
-## S1.14 Timeline of key events, 2015 to September 2026
+## S1.14 Timeline of main events, 2015 to September 2026
 
-Events come from `timeline.csv` (48 rows) and wave 2 verification. Dates are as reported; "c." means approximate. Before 2015 the incumbents built the base: spirulina at Vinh Hao (site chosen 1976), CJ's entry into Vietnamese food (1999), Thoai An (2005), Vinasoy's Bac Ninh phase 1 (90 million L a year, May 2013) and An Nhien's brand (2014) [@ECO-52; @ECO-34; @ECO-27; @ECO-42; @ECO-28] {VN-direct|Medium}.
+Events come from `timeline.csv` (48 rows) and the wave 2 checks. Dates are as reported, and "c." means approximate. Before 2015 the incumbents built the base: spirulina at Vinh Hao (site chosen 1976), CJ's entry into Vietnamese food (1999), Thoai An (2005), Vinasoy's Bac Ninh phase 1 (90 million L a year, May 2013) and An Nhien's brand (2014) [@ECO-52; @ECO-34; @ECO-27; @ECO-42; @ECO-28] {VN-direct|Medium}.
 
 **2015**
 - August 2015: Vinasoy completes Bac Ninh phase 2, reaching 180 million L a year there after more than VND 1,280 bn of investment [@ECO-42] {VN-direct|Medium}.
@@ -349,7 +354,7 @@ Events come from `timeline.csv` (48 rows) and wave 2 verification. Dates are as 
 | Unverified leads (Song Huong Foods, Hue One Food, Tan Nhat Huong, Deep Blue Island, Hat Viet, Vinaorganic, Tan Huu Qui) | One call or registry look-up each. |
 | Owner of the Xuan Hong dried-slice brand and the Ong Cha Va / NOSAFOOD origin | Read the manufacturer and origin lines on the packs. |
 
-See also [[app-r1-open-questions]].
+Three of these gaps concern feed (Chinese single-cell protein imports, Skretting's H-Meal and the CJ Feed & Care mills). They are context and lower priority, because the study now concentrates on protein for people. See also [[app-r1-open-questions]].
 
 ## Related data files
 

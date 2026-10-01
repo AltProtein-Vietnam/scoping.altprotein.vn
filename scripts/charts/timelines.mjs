@@ -496,8 +496,8 @@ export function visionBackcast(spec, D) {
       rows
         .filter((r) => r.pillar === pl && r.period === p)
         .map((r) => {
-          const v = clamp(wrap(r.value_or_range, cw - 22, 12, 600), 4, cw - 22, 12, 600);
-          const ind = clamp(wrap(r.indicator, cw - 22, 12), 3, cw - 22, 12);
+          const v = clamp(wrap(r.value_or_range, cw - 22, 12, 600), 6, cw - 22, 12, 600);
+          const ind = clamp(wrap(r.indicator, cw - 22, 12), 5, cw - 22, 12);
           return { r, v, ind, h: v.length * 14.5 + ind.length * 14 + 8 };
         }),
     );

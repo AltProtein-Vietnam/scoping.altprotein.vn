@@ -90,7 +90,9 @@ test('routes, redirects, the Vietnamese interface and access rules', async ({ re
 test('plays can be re-ranked and opened', async ({ page }) => {
   await page.goto('/report/ch26-plays');
   const bars = page.locator('.plays-bars li');
-  await expect(bars).toHaveCount(10);
+  // v0.8 retired the feed plays (T2, T3 and T6): seven plays are ranked.
+  await expect(bars).toHaveCount(7);
+  await expect(page.locator('#play-T2')).toHaveCount(0);
   await expect(bars.first()).toContainText('T4');
   await page.locator('select[name="preset"]').selectOption('startups');
   await expect(bars.first()).toContainText('T1');
@@ -106,6 +108,8 @@ test('scenario explorer works with the keyboard', async ({ page }) => {
   await page.goto('/report/ch23-scenarios-2050');
   const tabA = page.getByRole('tab', { name: /Regional workshop/ });
   await expect(tabA).toHaveAttribute('aria-selected', 'true');
+  // Seven plays and four public goods; the five retired in v0.8 are not scored.
+  await expect(page.locator('#scen-panel-A .scen-plays li')).toHaveCount(11);
   await tabA.focus();
   await page.keyboard.press('ArrowRight');
   await expect(page.getByRole('tab', { name: /Security build-out/ })).toHaveAttribute(

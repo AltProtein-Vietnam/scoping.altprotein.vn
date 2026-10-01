@@ -9,17 +9,19 @@ audiences: [research, international, investors, policy, startups, manufacturers]
 reading_time_min: 10
 key_numbers: [kn-actor-check]
 related_data: [actor_register.csv, actor_questions.csv, expansion_lines.csv, sources.csv, open_questions.csv, disagreements.csv]
-related_pages: [ch29-actor-check, app-m3-demand-method, app-m1-method, app-m5-changelog, app-r1-open-questions, app-r2-disagreements, app-r4-sources]
+related_pages: [ch29-actor-check, app-m3-demand-method, app-m1-method, app-m5-changelog, app-r1-open-questions, app-r2-disagreements, app-r4-sources, ch25-demand-to-frontier, ch26-plays, front-how-to-read]
 charts: []
 ---
 
 # M4. The actor check and expansion waves 7 to 9
 
-Part III (v0.3) was written for actors who want to move alternative protein in Vietnam. Version 0.4 tests whether it serves them. This appendix records how, what each research line found, and why we stopped. The reader-facing results are in [[ch29-actor-check]].
+Part III (version 0.3) was written for actors who want to move alternative protein in Vietnam. Version 0.4 tested whether it serves them. This appendix records how we tested it, what each research line found, and why we stopped. The results for readers are in [[ch29-actor-check]].
+
+The page uses the study's codes: plays T1 to T10 ([[ch26-plays]]), target product profiles such as TPP-11, demand moves such as DMV-20 ([[ch25-demand-to-frontier]]), open questions (OQ) and disagreements (DG). All are decoded in [[front-how-to-read]]. The study now concentrates on protein for people, so the feed play T2 and the feed profile TPP-11 named below are context only.
 
 ## M4.1 The actor check
 
-**Selection.** Four research agents each named 20 real actors in one group: funders and field-builders; investors and startups; Vietnamese food makers, retailers and caterers; and policy, research and international bodies. They chose actors that matter for alternative protein in Vietnam or would plausibly act there, and read each actor's own documents (requests for proposals, strategy pages, annual reports, meeting documents, laws and programme documents), preferring 2024 to 2026 [@AFN-05; @AIS-01; @AIB-01; @APR-01] {VN-direct|Medium} {dx:stated}. The register is `actor_register.csv`.
+**Selection.** Four research agents each named 20 real actors in one group: funders and field-builders; investors and startups; Vietnamese food makers, retailers and caterers; and policy, research and international bodies. They chose actors that matter for alternative protein in Vietnam or would plausibly act there. They read each actor's own documents (requests for proposals, strategy pages, annual reports, meeting documents, laws and programme documents), preferring 2024 to 2026 [@AFN-05; @AIS-01; @AIB-01; @APR-01] {VN-direct|Medium} {dx:stated}. The register is `actor_register.csv`.
 
 **Questions.** For each actor we wrote the demand questions it would need answered before acting in Vietnam, and the decision each would inform. Where an actor showed no demand-side interest, we said so.
 
@@ -56,16 +58,16 @@ Yield classes follow the earlier expansion rounds: *changed a conclusion*, *adde
 | 7 | Public meals: rules, menu authority, 48 coded school-weeks | Different | Changed a conclusion; constraint | School verdict; school displacement logic; school arm of the canteen trial; menu-software move |
 | 7 | Fiscal and tariff rules | Different | Constraint; corrections | No tariff shelter against Chinese, ASEAN or Korean protein; plant-milk excise risk; new move DMV-20 |
 | 7 | Funder units and funder fit | Different | Changed a conclusion; constraint | Funder advice rewritten by unit and rules; animals and CO2e added; who would pay each move |
-| 7 | Commitments, private label and competitors | Different | Route; constraints; clean negative on commitments | Private-label route for chay; kitchen price benchmarks; imported analogue exit in B2B |
+| 7 | Commitments, private label and competitors | Different | Route; constraints; clean negative on commitments | Private-label route for *chay* (vegetarian) food; kitchen price benchmarks; imported analogue exit in B2B |
 | 7 | Textured protein unit economics and non-entry | Different | Changed a conclusion; constraint | T1 recast as a debt-financed import-substitution project; quantitative kill test; about one line by 2035 |
 | 7 | Base rates: firms, diet survey, trade seasons | Different | Constraints | Startup advice reworded; chay-day ceiling; feed reading of HS 3504; seasonal swing |
 | 8 | Label, claim and product-standard rules | Different | Changed a conclusion | Most label moves already law; protein-claim threshold; GMO label narrowed |
-| 8 | Feed buyers as actors | Different | Constraint; correction | T2 pull rests on revealed yeast imports; standards neutral; new TPP-11 |
+| 8 | Feed buyers as actors | Different | Constraint; correction | T2 pull rests on revealed yeast imports; standards neutral; new TPP-11 (T2 and TPP-11 since retired) |
 | 8 | Export buyers as actors | Different | Constraint; route; clean negatives | Wrapped foods as the export base; importers as first buyers; Japan and Korea route downgraded |
 | 8 | Nutrition quality for children and public meals | Different | Changed a conclusion (its product proposal later withdrawn) | Protein not the school-age gap; blends keep protein quality |
 | 8 | E-commerce with desk tools | Different | Clean negative; noise | Marketplaces unreadable with fetch tools |
 | 8 | Hybrid extender economics | Different | Changed a conclusion; constraint | Soy is the extender benchmark; replacement caps |
-| 9 | Fillers, fakes and trust (press record) | Different | Constraint | Avoid *độn* framing; test safety before meat DNA in chay |
+| 9 | Fillers, fakes and trust (press record) | Different | Constraint | Avoid *độn* (filler) framing; test safety before meat DNA in chay |
 | 9 | Upland school and canteen plates | Deeper (new places) | Corrected a wave 8 proposal; route | Zinc-fortified dish withdrawn; canteen dish species; kitchens already stretch pork with tofu |
 | 9 | Marketplace counters through a browser | Deeper (method retry) | Minor route; clean negative on two platforms | Plant-milk and dry-piece evidence strengthened; no conclusion changed |
 | 9 | Rules of origin and export recipes | Different | Clean negative | Origin gives domestic textured soy no export customer |
@@ -84,21 +86,30 @@ Yield classes follow the earlier expansion rounds: *changed a conclusion*, *adde
 
 **Yield.** Waves 7 and 8 each changed three conclusions and added constraints that a plan would otherwise have hit late: the school rule, the missing tariff shelter, the sugar tax, the label law, the soy benchmark for extenders, the flat European targets and the unfunded chay route. Wave 9 changed no Part III conclusion. It corrected one of our own wave 8 proposals, added one constraint and closed two lines with clean negatives.
 
-**Why we stopped.** Every remaining candidate was either a deeper version of a question now answered (more school menus, more retailer targets, more DIAAS values, more equipment listings, more company reports, more press) or needed a different method: a written quote, a conditional order, an agency ruling, a trial, a customs extract or a paid report. Each line's own paper said the same about its next step. Further desk work would add citations and change no recommendation. The signal in this round, as in earlier ones, came from asking a different kind of question, and we ran out of different kinds of question that desk research can answer within the project's scope.
+**Why we stopped.** Every remaining candidate was either a deeper version of a question now answered (more school menus, more retailer targets, more DIAAS protein-quality scores, more equipment listings, more company reports, more press) or needed a different method: a written quote, a conditional order, an agency ruling, a trial, a customs extract or a paid report. Each line's own paper said the same about its next step. Further desk work would add citations and change no recommendation. The signal in this round, as in earlier ones, came from asking a different kind of question, and we ran out of different kinds of question that desk research can answer within the project's scope.
 
 **One scope note.** Insect protein stayed a benchmark only. Consumer attitude research was not extended; the round asked what institutions, firms and funders do, not what consumers say.
 
 ## M4.5 Decisions taken when folding the results in
 
 - **The demand model is unchanged.** Its inputs and outputs are as in v0.3. The corrections that bear on it (school sales into the plant slot displace tofu; only import substitution applies an explicit domestic share; the food pool is nearer 35 kt than 40 kt; exported products carry less protein than assumed) are stated beside the results in [[ch18-demand-sizing]] and [[app-d8-demand-model]]. Read together they put the part made in Vietnam for the home market at about 11,000 to 17,000 t of the 19,000 t delivered in 2035 (our calculation) {VN-direct|Low} {fx:estimate} {dx:inferred}.
-- **The supply scores in `plays.csv` are unchanged.** The evidence suggests raising T1's capital efficiency and lowering its Vietnam advantage (no net change) and, weakly, lowering T2's defensibility; these are recorded as notes in `play_demand_check.csv` and [[ch25-demand-to-frontier]].
-- **TPP-11 is the feed profile** (functional microbial feed ingredient for shrimp and pangasius). A zinc-fortified soy dish base proposed in wave 8 was withdrawn after wave 9 found upland lunches already carry meat almost every day; it remains a research option.
+- **The supply scores in `plays.csv` are unchanged.** The evidence suggests raising T1's capital efficiency and lowering its Vietnam advantage (no net change). It also suggests, weakly, lowering the defensibility of T2, a feed play since retired. These are recorded as notes in `play_demand_check.csv` and [[ch25-demand-to-frontier]].
+- **TPP-11 was added as the feed profile** (functional microbial feed ingredient for shrimp and pangasius). It is no longer recommended, because the study now concentrates on protein for people, and stays in the data as the record. A zinc-fortified soy dish base proposed in wave 8 was withdrawn after wave 9 found upland lunches already carry meat almost every day; it remains a research option.
 - **Demand move IDs are kept.** Moves were revised in place; DMV-20 (a written ruling on plant milks and the excise) and DMV-21 (a soy-flour and textured-soy price sheet) were added, with a column naming who would pay.
 - **Later waves win.** Where two lines disagreed, the later wave's evidence was used (for example the rules of origin and the upland nutrition findings).
 
 ## M4.6 Contacts to make
 
-The questions that now decide most are listed with owners in [[ch29-actor-check]] (section 29.5) and in [[app-r1-open-questions]] from OQ-270. The most valuable are: delivered soy-flour quotes and conditional orders from chay makers (T1); the status of the menu software's animal-protein standard and its food list (schools); a written Ministry of Finance ruling on plant milks (T10); a Co.op private-label pitch with its co-packer (chay upgrade); an equal-saving blind test of a fungal extender against soy (T9); a payer for a canteen trial (welfare route); and the names of feed-yeast importers (T2).
+The questions below need calls, quotes, rulings or trials rather than more desk research (M4.4). [[ch29-actor-check]] (section 29.5) lists the questions that now decide most, with owners; [[app-r1-open-questions]] lists them from OQ-270. The most valuable are:
+
+- delivered soy-flour quotes and conditional orders from chay makers (T1);
+- the status of the menu software's animal-protein standard and its food list (schools);
+- a written Ministry of Finance ruling on plant milks (T10);
+- a Co.op private-label pitch with its co-packer (chay upgrade);
+- an equal-saving blind test of a fungal extender against soy (T9);
+- a payer for a canteen trial (welfare route).
+
+The names of feed-yeast importers (T2) are now context only, because the feed play T2 is retired.
 
 ## M4.7 Run log and sources
 

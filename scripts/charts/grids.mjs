@@ -283,7 +283,7 @@ function worldNames(D) {
 const STEP3 = [2, 4, 6];
 
 export function playRobustness(spec, D) {
-  const rows = D.csv(spec.data.file);
+  const rows = D.csv(spec.data.file).filter((r) => (r.status_v0_8 ?? 'active') === 'active'); // spec filter
   const cols = spec.encoding.columns;
   // annotation: "Column labels: A Regional workshop; B ...; ..."
   const ann = (spec.annotations || []).find((a) => /^Column labels:/.test(a));
@@ -294,9 +294,9 @@ export function playRobustness(spec, D) {
         .split(/;\s*/)
     : cols;
   const groups = [
-    { label: 'Plays T1 to T10', test: (r) => /^T/.test(r.play_id) },
-    { label: 'Policy plays P1 to P6', test: (r) => /^P/.test(r.play_id) },
-  ];
+    { label: 'Plays', test: (r) => /^T/.test(r.play_id) },
+    { label: 'Public goods', test: (r) => /^P/.test(r.play_id) },
+  ].map((g) => ({ ...g, label: `${g.label} (${rows.filter(g.test).length})` }));
   const meaning = ['struggles', 'holds with conditions', 'thrives'];
   const grid = [];
   for (const g of groups) {
@@ -352,17 +352,17 @@ export function robustMoves(spec, D) {
   const colLabels = cols.map((c) => (wn[c] ? `${c} ${wn[c]}` : c));
   const order = ['no-regret', 'option', 'bet', 'hedge']; // annotation order
   const plural = {
-    'no-regret': 'No-regret moves',
-    option: 'Options',
-    bet: 'Bets',
-    hedge: 'Hedges',
+    'no-regret': ['No-regret move', 'No-regret moves'],
+    option: ['Option', 'Options'],
+    bet: ['Bet', 'Bets'],
+    hedge: ['Hedge', 'Hedges'],
   };
   const meaning = ['little', 'partly', 'pays off strongly'];
   const grid = [];
   for (const cl of order) {
     const rs = rows.filter((r) => r.class === cl);
     if (!rs.length) continue;
-    grid.push({ header: true, label: `${plural[cl]} (${rs.length})` });
+    grid.push({ header: true, label: `${plural[cl][rs.length === 1 ? 0 : 1]} (${rs.length})` });
     for (const r of rs)
       grid.push({
         label: r.move,

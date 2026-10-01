@@ -1,0 +1,89 @@
+record_id,year,product,hs_codes,quantity_t,value_usd,main_origins,share_of_consumption,source_ids,evidence_label,confidence,notes
+MDI-001,2015,meat and edible offal (Vietnam-reported),"0201 to 0210 (excluding 0205, 0208)",,301366535,,,MIM-01,VN-direct,High,"Our sum of HS 4-digit lines; CIF. Net weights incomplete in the Vietnam report, so quantity left blank"
+MDI-002,2015,dairy (Vietnam-reported),0401 to 0406,,525055773,,,MIM-01,VN-direct,High,Our sum of HS 4-digit lines; CIF
+MDI-003,2015,live bovine animals (Vietnam-reported),0102,,453876450,,,MIM-01,VN-direct,High,Mostly Australian cattle for slaughter; counted as domestic meat once slaughtered
+MDI-004,2016,meat and edible offal (Vietnam-reported),"0201 to 0210 (excluding 0205, 0208)",,348660816,,,MIM-01,VN-direct,High,"Our sum of HS 4-digit lines; CIF. Net weights incomplete in the Vietnam report, so quantity left blank"
+MDI-005,2016,dairy (Vietnam-reported),0401 to 0406,,471351212,,,MIM-01,VN-direct,High,Our sum of HS 4-digit lines; CIF
+MDI-006,2016,live bovine animals (Vietnam-reported),0102,,350086407,,,MIM-01,VN-direct,High,Mostly Australian cattle for slaughter; counted as domestic meat once slaughtered
+MDI-007,2017,meat and edible offal (Vietnam-reported),"0201 to 0210 (excluding 0205, 0208)",,351743321,,,MIM-01,VN-direct,High,"Our sum of HS 4-digit lines; CIF. Net weights incomplete in the Vietnam report, so quantity left blank"
+MDI-008,2017,dairy (Vietnam-reported),0401 to 0406,,592853474,,,MIM-01,VN-direct,High,Our sum of HS 4-digit lines; CIF
+MDI-009,2017,live bovine animals (Vietnam-reported),0102,,315632252,,,MIM-01,VN-direct,High,Mostly Australian cattle for slaughter; counted as domestic meat once slaughtered
+MDI-010,2018,meat and edible offal (Vietnam-reported),"0201 to 0210 (excluding 0205, 0208)",,529293390,,,MIM-01,VN-direct,High,"Our sum of HS 4-digit lines; CIF. Net weights incomplete in the Vietnam report, so quantity left blank"
+MDI-011,2018,dairy (Vietnam-reported),0401 to 0406,,620884002,,,MIM-01,VN-direct,High,Our sum of HS 4-digit lines; CIF
+MDI-012,2018,live bovine animals (Vietnam-reported),0102,,349821504,,,MIM-01,VN-direct,High,Mostly Australian cattle for slaughter; counted as domestic meat once slaughtered
+MDI-013,2019,meat and edible offal (Vietnam-reported),"0201 to 0210 (excluding 0205, 0208)",,788842853,,,MIM-01,VN-direct,High,"Our sum of HS 4-digit lines; CIF. Net weights incomplete in the Vietnam report, so quantity left blank"
+MDI-014,2019,dairy (Vietnam-reported),0401 to 0406,,649128244,,,MIM-01,VN-direct,High,Our sum of HS 4-digit lines; CIF
+MDI-015,2019,live bovine animals (Vietnam-reported),0102,,615117784,,,MIM-01,VN-direct,High,Mostly Australian cattle for slaughter; counted as domestic meat once slaughtered
+MDI-016,2020,meat and edible offal (Vietnam-reported),"0201 to 0210 (excluding 0205, 0208)",,1237248673,,,MIM-01,VN-direct,High,"Our sum of HS 4-digit lines; CIF. Net weights incomplete in the Vietnam report, so quantity left blank"
+MDI-017,2020,dairy (Vietnam-reported),0401 to 0406,,665925344,,,MIM-01,VN-direct,High,Our sum of HS 4-digit lines; CIF
+MDI-018,2020,live bovine animals (Vietnam-reported),0102,,685812166,,,MIM-01,VN-direct,High,Mostly Australian cattle for slaughter; counted as domestic meat once slaughtered
+MDI-019,2021,meat and edible offal (Vietnam-reported),"0201 to 0210 (excluding 0205, 0208)",,1384922554,,,MIM-01,VN-direct,High,"Our sum of HS 4-digit lines; CIF. Net weights incomplete in the Vietnam report, so quantity left blank"
+MDI-020,2021,dairy (Vietnam-reported),0401 to 0406,,754542531,,,MIM-01,VN-direct,High,Our sum of HS 4-digit lines; CIF
+MDI-021,2021,live bovine animals (Vietnam-reported),0102,,509544767,,,MIM-01,VN-direct,High,Mostly Australian cattle for slaughter; counted as domestic meat once slaughtered
+MDI-022,2022,meat and edible offal (Vietnam-reported),"0201 to 0210 (excluding 0205, 0208)",,1525220991,,,MIM-01,VN-direct,High,"Our sum of HS 4-digit lines; CIF. Net weights incomplete in the Vietnam report, so quantity left blank"
+MDI-023,2022,dairy (Vietnam-reported),0401 to 0406,,844181615,,,MIM-01,VN-direct,High,Our sum of HS 4-digit lines; CIF
+MDI-024,2022,live bovine animals (Vietnam-reported),0102,,240545666,,,MIM-01,VN-direct,High,Mostly Australian cattle for slaughter; counted as domestic meat once slaughtered
+MDI-025,2023,meat and edible offal (Vietnam-reported),"0201 to 0210 (excluding 0205, 0208)",,1506103034,,,MIM-01,VN-direct,High,"Our sum of HS 4-digit lines; CIF. Net weights incomplete in the Vietnam report, so quantity left blank"
+MDI-026,2023,dairy (Vietnam-reported),0401 to 0406,,792835395,,,MIM-01,VN-direct,High,Our sum of HS 4-digit lines; CIF
+MDI-027,2023,live bovine animals (Vietnam-reported),0102,,198569189,,,MIM-01,VN-direct,High,Mostly Australian cattle for slaughter; counted as domestic meat once slaughtered
+MDI-028,2023,frozen bovine meat (mostly Indian buffalo meat),0202,,675533824,"India 72.4%, Australia 10.3%, Canada 8.9%, United States 5.3% (value shares)",,MIM-01,VN-direct,High,"Vietnam-reported value, CIF; origin shares of value"
+MDI-029,2023,"pork, fresh, chilled or frozen",0203,,286152976,"Russia 45.5%, Brazil 36.6%, Germany 5.8%",,MIM-01,VN-direct,High,"Vietnam-reported value, CIF; origin shares of value"
+MDI-030,2023,edible offal of pigs and bovines,0206,,210983234,"Germany 21.9%, Russia 20.1%, India 16.9%, Australia 10.0%, Poland 7.8%",,MIM-01,VN-direct,High,"Vietnam-reported value, CIF; origin shares of value"
+MDI-031,2023,poultry meat and offal,0207,,278902646,"United States 35.7%, Korea 24.3%, Poland 14.4%, Brazil 10.2%",,MIM-01,VN-direct,High,"Vietnam-reported value, CIF; origin shares of value"
+MDI-032,2023,live bovine animals,0102,,198569189,Australia 95.2%,,MIM-01,VN-direct,High,"Vietnam-reported value, CIF; origin shares of value"
+MDI-033,2023,"milk and cream, concentrated (milk powder)",0402,,478006729,"New Zealand 52.0%, United States 20.5%, France 8.2%, Belgium 6.9%",,MIM-01,VN-direct,High,"Vietnam-reported value, CIF; origin shares of value"
+MDI-034,2023,butter and milk fat,0405,,65564712,New Zealand 90.5%,,MIM-01,VN-direct,High,"Vietnam-reported value, CIF; origin shares of value"
+MDI-035,2023,cheese,0406,,81421392,"New Zealand 30.3%, Australia 9.5%, Germany 9.0%",,MIM-01,VN-direct,High,"Vietnam-reported value, CIF; origin shares of value"
+MDI-036,2024,"live bovine animals, exports from Australia to Vietnam (mirror)",0102,32144,111473338,Australia,,MIM-02,VN-direct,High,"Exporter-reported, FOB; mirror rows above USD 20 million only"
+MDI-037,2024,"frozen bovine meat, exports from Australia to Vietnam (mirror)",0202,25333,120220949,Australia,,MIM-02,VN-direct,High,"Exporter-reported, FOB; mirror rows above USD 20 million only"
+MDI-038,2024,"pork, exports from Brazil to Vietnam (mirror)",0203,52427,123862995,Brazil,,MIM-02,VN-direct,High,"Exporter-reported, FOB; mirror rows above USD 20 million only"
+MDI-039,2024,"milk powder, exports from Australia to Vietnam (mirror)",0402,26492,82225373,Australia,,MIM-02,VN-direct,High,"Exporter-reported, FOB; mirror rows above USD 20 million only"
+MDI-040,2024,"frozen bovine meat, exports from Canada to Vietnam (mirror)",0202,8013,59761581,Canada,,MIM-02,VN-direct,High,"Exporter-reported, FOB; mirror rows above USD 20 million only"
+MDI-041,2024,"pork, exports from Canada to Vietnam (mirror)",0203,12363,21282981,Canada,,MIM-02,VN-direct,High,"Exporter-reported, FOB; mirror rows above USD 20 million only"
+MDI-042,2024,"edible offal of pigs and bovines, exports from Canada to Vietnam (mirror)",0206,5488,29254222,Canada,,MIM-02,VN-direct,High,"Exporter-reported, FOB; mirror rows above USD 20 million only"
+MDI-043,2024,"pork, exports from Germany to Vietnam (mirror)",0203,13776,24831868,Germany,,MIM-02,VN-direct,High,"Exporter-reported, FOB; mirror rows above USD 20 million only"
+MDI-044,2024,"edible offal of pigs and bovines, exports from Germany to Vietnam (mirror)",0206,39351,40419157,Germany,,MIM-02,VN-direct,High,"Exporter-reported, FOB; mirror rows above USD 20 million only"
+MDI-045,2024,"milk powder, exports from Germany to Vietnam (mirror)",0402,8671,24256640,Germany,,MIM-02,VN-direct,High,"Exporter-reported, FOB; mirror rows above USD 20 million only"
+MDI-046,2024,"poultry meat and offal, exports from Rep. of Korea to Vietnam (mirror)",0207,57098,72695113,Rep. of Korea,,MIM-02,VN-direct,High,"Exporter-reported, FOB; mirror rows above USD 20 million only"
+MDI-047,2024,"poultry meat and offal, exports from Poland to Vietnam (mirror)",0207,44985,56279630,Poland,,MIM-02,VN-direct,High,"Exporter-reported, FOB; mirror rows above USD 20 million only"
+MDI-048,2024,"milk powder, exports from New Zealand to Vietnam (mirror)",0402,48568,147510743,New Zealand,,MIM-02,VN-direct,High,"Exporter-reported, FOB; mirror rows above USD 20 million only"
+MDI-049,2024,"frozen bovine meat, exports from India to Vietnam (mirror)",0202,179720,594939674,India,,MIM-02,VN-direct,High,"Exporter-reported, FOB; mirror rows above USD 20 million only"
+MDI-050,2024,"edible offal of pigs and bovines, exports from India to Vietnam (mirror)",0206,49045,155621096,India,,MIM-02,VN-direct,High,"Exporter-reported, FOB; mirror rows above USD 20 million only"
+MDI-051,2024,"live bovine animals, exports from Thailand to Vietnam (mirror)",0102,25245,54707853,Thailand,,MIM-02,VN-direct,High,"Exporter-reported, FOB; mirror rows above USD 20 million only"
+MDI-052,2024,"frozen bovine meat, exports from USA to Vietnam (mirror)",0202,4101,39807839,USA,,MIM-02,VN-direct,High,"Exporter-reported, FOB; mirror rows above USD 20 million only"
+MDI-053,2024,"poultry meat and offal, exports from USA to Vietnam (mirror)",0207,136865,157255794,USA,,MIM-02,VN-direct,High,"Exporter-reported, FOB; mirror rows above USD 20 million only"
+MDI-054,2024,"milk powder, exports from USA to Vietnam (mirror)",0402,28171,75444466,USA,,MIM-02,VN-direct,High,"Exporter-reported, FOB; mirror rows above USD 20 million only"
+MDI-055,2025,"live bovine animals, exports from Australia to Vietnam (mirror)",0102,17643,75700075,Australia,,MIM-02,VN-direct,High,"Exporter-reported, FOB; mirror rows above USD 20 million only"
+MDI-056,2025,"frozen bovine meat, exports from Australia to Vietnam (mirror)",0202,19091,108797200,Australia,,MIM-02,VN-direct,High,"Exporter-reported, FOB; mirror rows above USD 20 million only"
+MDI-057,2025,"pork, exports from Brazil to Vietnam (mirror)",0203,57317,145031290,Brazil,,MIM-02,VN-direct,High,"Exporter-reported, FOB; mirror rows above USD 20 million only"
+MDI-058,2025,"poultry meat and offal, exports from Brazil to Vietnam (mirror)",0207,26157,26831080,Brazil,,MIM-02,VN-direct,High,"Exporter-reported, FOB; mirror rows above USD 20 million only"
+MDI-059,2025,"milk powder, exports from Australia to Vietnam (mirror)",0402,20265,71768638,Australia,,MIM-02,VN-direct,High,"Exporter-reported, FOB; mirror rows above USD 20 million only"
+MDI-060,2025,"milk powder, exports from Belgium to Vietnam (mirror)",0402,11832,33257573,Belgium,,MIM-02,VN-direct,High,"Exporter-reported, FOB; mirror rows above USD 20 million only"
+MDI-061,2025,"frozen bovine meat, exports from Canada to Vietnam (mirror)",0202,9570,61580830,Canada,,MIM-02,VN-direct,High,"Exporter-reported, FOB; mirror rows above USD 20 million only"
+MDI-062,2025,"edible offal of pigs and bovines, exports from Canada to Vietnam (mirror)",0206,4588,24413042,Canada,,MIM-02,VN-direct,High,"Exporter-reported, FOB; mirror rows above USD 20 million only"
+MDI-063,2025,"milk powder, exports from France to Vietnam (mirror)",0402,7394,23442337,France,,MIM-02,VN-direct,High,"Exporter-reported, FOB; mirror rows above USD 20 million only"
+MDI-064,2025,"pork, exports from Germany to Vietnam (mirror)",0203,13120,27341580,Germany,,MIM-02,VN-direct,High,"Exporter-reported, FOB; mirror rows above USD 20 million only"
+MDI-065,2025,"edible offal of pigs and bovines, exports from Germany to Vietnam (mirror)",0206,52839,51838040,Germany,,MIM-02,VN-direct,High,"Exporter-reported, FOB; mirror rows above USD 20 million only"
+MDI-066,2025,"milk powder, exports from Germany to Vietnam (mirror)",0402,12040,34014415,Germany,,MIM-02,VN-direct,High,"Exporter-reported, FOB; mirror rows above USD 20 million only"
+MDI-067,2025,"poultry meat and offal, exports from Rep. of Korea to Vietnam (mirror)",0207,57070,74769696,Rep. of Korea,,MIM-02,VN-direct,High,"Exporter-reported, FOB; mirror rows above USD 20 million only"
+MDI-068,2025,"poultry meat and offal, exports from Poland to Vietnam (mirror)",0207,37379,41503508,Poland,,MIM-02,VN-direct,High,"Exporter-reported, FOB; mirror rows above USD 20 million only"
+MDI-069,2025,"milk powder, exports from New Zealand to Vietnam (mirror)",0402,66049,231352014,New Zealand,,MIM-02,VN-direct,High,"Exporter-reported, FOB; mirror rows above USD 20 million only"
+MDI-070,2025,"frozen bovine meat, exports from India to Vietnam (mirror)",0202,170561,623523680,India,,MIM-02,VN-direct,High,"Exporter-reported, FOB; mirror rows above USD 20 million only"
+MDI-071,2025,"edible offal of pigs and bovines, exports from India to Vietnam (mirror)",0206,51759,186620214,India,,MIM-02,VN-direct,High,"Exporter-reported, FOB; mirror rows above USD 20 million only"
+MDI-072,2025,"live bovine animals, exports from Thailand to Vietnam (mirror)",0102,106060,232023933,Thailand,,MIM-02,VN-direct,High,"Exporter-reported, FOB; mirror rows above USD 20 million only"
+MDI-073,2025,"frozen bovine meat, exports from USA to Vietnam (mirror)",0202,5670,36597157,USA,,MIM-02,VN-direct,High,"Exporter-reported, FOB; mirror rows above USD 20 million only"
+MDI-074,2025,"poultry meat and offal, exports from USA to Vietnam (mirror)",0207,69025,110323090,USA,,MIM-02,VN-direct,High,"Exporter-reported, FOB; mirror rows above USD 20 million only"
+MDI-075,2025,"milk powder, exports from USA to Vietnam (mirror)",0402,27847,78759465,USA,,MIM-02,VN-direct,High,"Exporter-reported, FOB; mirror rows above USD 20 million only"
+MDI-076,2025,"meat and meat products, all",customs group (chapter 02 lines and by-products),978300,2004000000,"India 19.29% of volume (188.7 kt, USD 681.32 million); Russia and Brazil growing fast","about 14% of meat supply by weight (our calculation: 978.3 / (978.3 + 6,039 kt domestic carcass)); overstates the share eaten",MIM-04; MIM-05; MAC-14; QNT-01,VN-direct,Medium,"Customs via Department of Import and Export; +11.6% volume, +12.2% value on 2024. Product weight; includes feet, offal and buffalo meat that may move on to China"
+MDI-077,2025,"pork, fresh, chilled or frozen",0203,183400,418540000,"Russia 48.44%, Brazil 30.91%, Germany 4.03%, Canada 4%","about 4.5% of pork supply (our calculation: 183.4 / (5,389.2 kt live x 0.723 + 183.4))",MIM-06; MAC-14,VN-direct,Medium,"+18.75% volume; USD 2,273 per t, down 2.8%"
+MDI-078,2025,poultry meat and by-products,0207 and related,359700,,"United States, Korea, Poland, Brazil (2023 to 2025 pattern)","about 16.5% of poultry supply (our calculation: 359.7 / (2,602 kt live x 0.70 + 359.7))",MIM-05; MAC-14,VN-direct,Low,"Quantity derived: 36.77% of 978.3 kt (our calculation). Includes feet, wings, spent hens"
+MDI-079,2025,frozen buffalo meat,0202.30,173000,,India (dominant),with beef: 32% (USDA) to 48% (OECD-FAO) of bovine meat consumption is imported,MIM-05; MIM-03; QNT-01,VN-direct,Low,"Quantity derived: 17.68% of 978.3 kt (our calculation); 31.85% of meat import value. India reported 170,561 t of frozen bovine meat to Vietnam (MIM-02)"
+MDI-080,2025,pork (USDA balance),0203 (carcass weight equivalent),151000,,,"3.7% of consumption (151 / 4,073 kt CWE)",MIM-03,VN-direct,High,"USDA PSD, April 2026 release"
+MDI-081,2025,chicken meat (USDA balance),0207,175000,,,"11.0% of consumption (175 / 1,595 kt)",MIM-03,VN-direct,High,USDA PSD; definition narrower than the customs poultry group
+MDI-082,2025,beef and veal (USDA balance),"0201, 0202 (carcass weight equivalent)",135000,,,32.1% of consumption (135 / 420 kt CWE),MIM-03,VN-direct,High,USDA PSD
+MDI-083,2025,milk and milk products,customs group,,1440000000,"New Zealand 30.5% (USD 437.68 million), Australia 9.0%, United States 8.8%, Germany 5.6%; EU 25.4%",domestic fresh milk meets about 40% of demand (Vietnam Dairy Association claim),MIM-12; MIM-13,VN-direct,Medium,+27.3% on 2024. Self-sufficiency figure is an association claim (Low)
+MDI-084,2025,"milk powder, mirror total of 14 exporters",0402,153098,,"New Zealand 66,049 t, United States 27,847 t, Australia 20,265 t",,MIM-02,VN-direct,Medium,"Our sum; protein about 48 kt in 2023 (our calculation at 36.2% skim and 26.3% whole milk powder, MIM-27)"
+MDI-085,2026,"meat and meat products, January to July",customs group,595700,1700000000,,,MIM-10,VN-direct,Medium,"+11.4% volume, +32.4% value on January to July 2025; value given as more than USD 1.7 billion"
+MDI-086,2026,"poultry meat and by-products, January to July",0207 and related,217371,221140000,,,MIM-09; MIM-10; MIM-11,VN-direct,Medium,"About VND 26,500 per kg"
+MDI-087,2026,"pork, January to July",0203,112090,185540000,,,MIM-09; MIM-10; MIM-11,VN-direct,Medium,"+27.1% volume; USD 1,638 per t, down 38.4%"
+MDI-088,2026,"meat from India, January to June",mostly 0202.30,108200,462800000,India,,MIM-26,VN-direct,Medium,"About USD 4.28 per kg (our calculation); Q2 2026 +40.9% volume, +78.3% value on Q2 2025"

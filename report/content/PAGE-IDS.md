@@ -15,13 +15,13 @@ Version 0.6 renumbered the chapters and re-coded the appendices; the map from th
 
 ## Report
 Part I. Context
-- ch01-why-vietnam: Why Vietnam: a protein-processing economy built on imported plant protein
+- ch01-why-vietnam: Why Vietnam: the protein people eat, and the imports behind it
 - ch02-alt-protein-today: The alternative-protein economy today
 - ch03-regional: Vietnam in the region
 
 Part II. Supply: what Vietnam can make
 - ch04-asset-map: What Vietnam has: raw materials and side streams
-- ch05-industrial-base: The industrial base: fermentation, feed and food processing
+- ch05-industrial-base: The industrial base: fermentation and food processing
 - ch06-knowledge-talent: Knowledge, talent and shared infrastructure
 - ch07-rules: Rules of the game: routes to market, incentives and reforms
 - ch08-capital: Capital
@@ -42,15 +42,15 @@ Part IV. Futures: 2035 and 2050
 - ch19-outlook-2035: Outlook to 2035
 - ch20-drivers-2050: Drivers to 2050: what is near-certain, what is not
 - ch21-frontier-technology: Frontier technology: which windows open for Vietnam, and when
-- ch22-protein-balance-2050: The protein balance to 2050: how much feed protein Vietnam will need
+- ch22-protein-balance-2050: The protein balance to 2050: what people will eat, and the imports behind it
 - ch23-scenarios-2050: Four worlds in 2050: scenarios for Vietnam's protein supply
-- ch24-vision-2050: Vietnam 2050: a vision for a measured, efficient and diversified protein supply (normative; the only page that may use {fx:vision})
+- ch24-vision-2050: Vietnam 2050: a vision for a measured, more diverse and more secure protein supply (normative; the only page that may use {fx:vision})
 
 Part V. What to do
 - ch25-demand-to-frontier: What demand asks of the frontier: product targets, plays and public goods
-- ch26-plays: Ten plays and six public goods
+- ch26-plays: Seven plays and four public goods
 - ch27-policy-options: Policy options
-- ch28-robust-moves: Robust moves: what to do now that pays off in any 2050
+- ch28-robust-moves: Moves that pay off in any 2050
 - ch29-actor-check: What frontier actors asked, and what the answers changed
 - ch30-unknowns: What we do not know, and who can tell us
 
@@ -60,7 +60,7 @@ Part V. What to do
 ## Appendices
 Method and record:
 - app-m1-method: M1. Method, evidence rules and limits
-- app-m2-futures-method: M2. Futures method: how Part IV was built
+- app-m2-futures-method: M2. Futures method: how the 2050 chapters were built
 - app-m3-demand-method: M3. Demand method: how Part III was built
 - app-m4-actor-check-waves: M4. The actor check and expansion waves 7 to 9
 - app-m5-changelog: M5. Changelog and corrections
@@ -120,6 +120,8 @@ Registers:
 - ">50 g/L titer" (Nielsen et al., Annu Rev Food Sci Technol 2024) is an expert assertion; best leghemoglobin titers 3.5, 7.27 and 10.1 g/L.
 - Region I minimum wage 2026: VND 5,310,000/month (Decree 293/2025), not 4.96 M.
 - Vietnamese plant-based-meat research: about 5 on-topic papers (2015 to 2026) and no Vietnamese extrusion study (v0.2: the one candidate, vvae080, is Taiwanese).
+- Soy in processed meat (v0.8): one large processor lists soy protein in 22 of 67 meat formulations (33%), from the Vissan label audit. The 31% (19 of 61) in earlier summaries was the wave 6 count and is superseded.
+- Origin support for imported meat (v0.8): the OECD finds no price support in 2022 to 2024 for US meat and milk, Brazilian poultry and beef, and Australian and New Zealand meat and milk. Brazilian pigmeat (about a third of pork imports) had none in 2022 and 2023 and some in 2024 (a coefficient of 1.66). Support exists in EU poultry and Russian pork, mainly through border protection at home. Do not write "no support for Brazilian meat" without the pigmeat exception.
 
 ## Decisions that apply everywhere (from v0.2)
 - The 2030 industrial feed target (30 to 32 Mt) covers livestock feed only, per Decision 1625/QD-TTg (Medium confidence); the model gives 26.4 Mt of livestock feed in 2030.
@@ -158,3 +160,17 @@ Registers:
 - Footprints per 100 g of protein are Poore and Nemecek (2018) global means as published by Our World in Data; say "means" and note that medians are lower.
 - Alternative protein investment: USD 881 million in 2025 and USD 359 million in the first half of 2026 (GFI, advocacy); the 2021 peak is about USD 7 billion in GFI's current series (USD 5.0 billion as first reported).
 - Protein demand does not "double by 2050": OECD-FAO project 6% more animal-source calories per person from 2025 to 2034 (24% in lower-middle-income countries), and FAO about 20% more land-animal products from the 2020s to 2050.
+
+## Decisions that apply everywhere (from v0.8)
+- Scope: the study is about protein for people. Short form: "Protein for people first; feed only as context." Feed is the hidden import behind the meat, eggs, milk and farmed fish people eat, and part of the food-security picture, but feed ingredients (fishmeal replacements, microbial, insect or duckweed feed) are not something the study recommends making. Insect protein stays an incumbent and benchmark only. No diet goal; no market-size forecast.
+- Retired in v0.8 (kept in the data files as the record, marked in `status_v0_8`): plays T2, T3, T6; public goods P2, P3; product profile TPP-11; demand move DMV-12; moves RM-02, RM-07, RM-16, RM-17, RM-20; policy options PO-017, PO-018, PO-021, PO-029, PO-007 (old ranks in `report_rank_v0_7`). Do not recommend them. Where history matters, say once that they were retired because feed is now context only. Active IDs are not renumbered.
+- Counts: seven plays and four public goods. Three lead under almost every weighting (not "every"): T1 domestic textured plant protein, T4 cassava-starch-to-fermentation-sugar hub, T5 shared pilot and tolling fermentation. T1 and T4 are in the top three under every preset; T5 under five of seven.
+- Policy options: 33 in the register, 19 ranked (ranks 1 to 19 in `report_rank`). "The three highest-ranked options": the Food Safety Law new-food clause (PO-015), a joint note on precision-fermented proteins and GMO status (PO-016) and a novel-food procedure in the implementing decree (PO-019). No feed-list fixes in any summary or brief.
+- Moves (chapter 28, "Moves that pay off in any 2050"; page id and `robust_moves.csv` unchanged; avoid "robust" in reading text): 16 of 21 moves active; seven no-regret moves (RM-01, RM-03, RM-04, RM-05, RM-06, RM-08, RM-09): a national protein balance; a new-food route with deadlines; shared food-grade pilot capacity; a protein-quality laboratory and price series; residue-carbon rules and a by-product atlas; climate-proof siting; process-engineering skills.
+- Other counts: ten active target product profiles (TPP-01 to TPP-10); twenty active demand moves; "4 of the original 19 demand moves" with a funder that fits stays; eighteen unknowns in chapter 30.
+- Feed efficiency is one sentence of context only: better feed conversion and formulation would cut 2050 soybean-meal need by about 3.4 Mt, about twice S-ALT (our calculation); it is outside the study's scope.
+- Scenario axis 1 is "stress on imported protein": the feed behind domestic meat, eggs, milk and farmed fish, and imported protein foods. World names unchanged (A Regional workshop, B Comfortable price-taker, C Security build-out, D Squeezed importer).
+- Vision (chapter 24 only, `{fx:vision}`): pillars Measure, Make, Diversify, Specialise, Secure. Indicators come from the demand model: in 2050, about 67,000 to 172,000 t of protein a year from new routes and about 59,000 to 147,000 t made in Vietnam (D-BENCH to D-STRETCH; model reading); 40% to 60% of the food plant-protein ingredient pool from domestic makers; 0.41% to 1.52% of meat protein displaced. Plus a yearly national protein balance for people, a new-food route, open food-grade pilot capacity and a protein-quality laboratory. Soybean-meal need, the microbial feed share and aquafeed omega-3 are not vision goals. `vision_milestones.csv` has 25 rows; VM-01 to VM-22 now name different milestones from v0.7.
+- Food-security positions: (1) the hypothesis that Vietnam relies on subsidised imported meat is not supported; imported meat is cheaper because farm costs abroad are lower. (2) We found no measured evidence that alternative protein reduces disease, pandemic or antimicrobial-resistance risk (DG-356); its value is a second source that does not fail when animals fall sick. (3) Only domestic-input routes reduce import dependence; protein made from imported soy, pea or wheat gluten moves it (China supplied about 84% of imported food plant-protein ingredient tonnage in 2025). The security case is "real but narrow"; chapter 1 labels the argument "strong, with limits".
+- Headline numbers (v0.8): about 19% to 23% of the protein supply was imported food in 2023 (11% to 13% in 2010); 61% to 71% of the animal protein people eat rested on imports, directly or through feed, in 2023 (our calculation); meat and meat product imports were 978,000 t (USD 2.0 billion) in 2025; in 2025, 79% of typed African swine fever samples in the north were recombinant strains, against which the three licensed vaccines give no protection (MAE, September 2025). Replacing 1 t of meat protein avoids about 4.5 t of soybean-meal and 9.5 t of maize imports (our calculation).
+- Related wording: about 90% of meat supply is domestic (2023). Do not say milk is mostly produced in Vietnam: give both FAO's about 30% self-sufficiency (2023) and the dairy association's "about 40% of demand" (2025), not averaged (DG-373). The 70% rise (2019 to 2020) is the pig producer price; the consumer price index for pork rose 57.23% in 2020; they are different measures.
