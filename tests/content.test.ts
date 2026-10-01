@@ -189,6 +189,22 @@ test('top three plays per preset match chapter 11', () => {
   assert.deepEqual(top('research'), ['T4 4.15', 'T5 4.00']);
 });
 
+test('plays and public goods retired in v0.8 are not ranked or scored', async () => {
+  const { CHARTS } = await import('../src/lib/charts');
+  const { renderScenarioExplorer } = await import('../src/lib/widgets');
+  assert.deepEqual(
+    PLAY_ROWS.map((p) => p.play_id),
+    ['T1', 'T4', 'T5', 'T7', 'T8', 'T9', 'T10'],
+  );
+  const heatmap = CHARTS['chart-play-robustness'].svg;
+  const explorer = renderScenarioExplorer('en');
+  assert.ok(heatmap.includes('>T1 ') && explorer.includes('<span class="rb-id">T1</span>'));
+  for (const id of ['T2', 'T3', 'T6', 'P2', 'P3']) {
+    assert.ok(!heatmap.includes(`>${id} `), `heatmap shows ${id}`);
+    assert.ok(!explorer.includes(`<span class="rb-id">${id}</span>`), `explorer shows ${id}`);
+  }
+});
+
 test('search finds glossary terms in either language and cleans snippets', () => {
   assert.ok(searchRecords('protein thay the').some((r) => r.id === 'GL-001'));
   assert.ok(searchRecords('Emmay').some((r) => r.kind === 'company'));

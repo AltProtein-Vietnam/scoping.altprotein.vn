@@ -1,0 +1,51 @@
+Population (thousand): {2010: 87455.15, 2015: 92823.25, 2020: 98079.19, 2023: 100352.19}
+Imported share of compound-feed ingredients 2025: mass 82.4%; crude protein 92.9% (range 90.4 to 94.4%)
+Imported CP Mt 5.77, local CP Mt 0.44
+2010 total 79.7 g; direct imports gross: plant 4.40 animal 6.20 total 10.60 (13.3%); net: plant 4.05 animal 4.85 total 8.90 (11.2%)
+2015 total 86.0 g; direct imports gross: plant 8.33 animal 4.63 total 12.96 (15.1%); net: plant 7.59 animal 2.53 total 10.12 (11.8%)
+2020 total 93.4 g; direct imports gross: plant 12.43 animal 7.05 total 19.47 (20.8%); net: plant 11.06 animal 5.18 total 16.24 (17.4%)
+2023 total 102.2 g; direct imports gross: plant 16.30 animal 7.64 total 23.94 (23.4%); net: plant 13.86 animal 5.87 total 19.73 (19.3%)
+2023 detail (item, kind, g, gross share, net share), items >0.3 g or share>0.3:
+  Soyabeans                    plant    4.94  gross  97.5%  net  97.4%  -> 4.82 / 4.81 g
+  Wheat and products           plant    3.27  gross 100.0%  net  98.4%  -> 3.27 / 3.22 g
+  Maize and products           plant    2.74  gross  74.6%  net  73.2%  -> 2.04 / 2.01 g
+  Milk - Excluding Butter      animal   2.50  gross  71.6%  net  69.8%  -> 1.79 / 1.74 g
+  Nuts and products            plant    1.55  gross 100.0%  net  56.6%  -> 1.55 / 0.88 g
+  Bovine Meat                  animal   2.74  gross  44.3%  net  43.9%  -> 1.21 / 1.20 g
+  Offals, Edible               animal   2.93  gross  39.5%  net  39.4%  -> 1.16 / 1.15 g
+  Rice and products            plant   26.99  gross   4.0%  net   0.0%  -> 1.09 / 0.00 g
+  Poultry Meat                 animal   8.80  gross  12.3%  net  11.8%  -> 1.08 / 1.04 g
+  Groundnuts                   plant    1.93  gross  46.7%  net  45.7%  -> 0.90 / 0.88 g
+  Beans                        plant    1.52  gross  56.0%  net  54.1%  -> 0.85 / 0.82 g
+  Marine Fish, Other           animal   2.32  gross  36.3%  net   0.0%  -> 0.84 / 0.00 g
+  Vegetables, other            plant   10.78  gross   6.5%  net   4.6%  -> 0.70 / 0.50 g
+  Pelagic Fish                 animal   0.99  gross  52.8%  net  24.8%  -> 0.52 / 0.25 g
+  Pigmeat                      animal  13.27  gross   3.0%  net   2.7%  -> 0.40 / 0.36 g
+  Pulses, Other and products   plant    1.10  gross  18.3%  net  16.6%  -> 0.20 / 0.18 g
+  Crustaceans                  animal   1.69  gross   9.1%  net   0.0%  -> 0.15 / 0.00 g
+  Cephalopods                  animal   1.07  gross  13.0%  net   0.0%  -> 0.14 / 0.00 g
+  Freshwater Fish              animal   4.75  gross   2.4%  net   0.0%  -> 0.11 / 0.00 g
+  Onions                       plant    0.20  gross  51.1%  net  47.4%  -> 0.10 / 0.09 g
+  Fruits, other                plant    0.69  gross  13.7%  net   0.0%  -> 0.09 / 0.00 g
+  Potatoes and products        plant    0.20  gross  40.8%  net  39.5%  -> 0.08 / 0.08 g
+  Fats, Animals, Raw           animal   0.33  gross  24.3%  net  11.1%  -> 0.08 / 0.04 g
+  Oranges, Mandarines          plant    0.34  gross  17.8%  net  17.7%  -> 0.06 / 0.06 g
+  Demersal Fish                animal   0.06  gross 100.0%  net 100.0%  -> 0.06 / 0.06 g
+  Cassava and products         plant    0.23  gross  25.5%  net   0.0%  -> 0.06 / 0.00 g
+  Pepper                       plant    0.26  gross  20.6%  net   0.0%  -> 0.05 / 0.00 g
+Animal reliance 2023: {'protein': 42.9, 'direct_gross': 7.55, 'direct_net': 5.83, 'dom_gross': 0, 'dom_net': 0, 'feed_mass_g': 20.44, 'feed_prot_g': 23.05, 'feed_mass_n': 20.68, 'feed_prot_n': 23.33, 'feed_prot_lo_n': 22.71, 'feed_prot_hi_g': 23.43}
+Animal total 2023 43.23; table covers 42.90
+Low: direct net 5.83 + feed (mass, net) 20.68 = 26.51 g = 61.3% of animal protein
+High: direct gross 7.55 + feed (protein, gross) 23.05 = 30.60 g = 70.8% of animal protein
+CP sensitivity: low-low 28.53 g; high-high 30.98 g
+Meat 2023: protein 25.10 g; on imports 17.37 to 19.28 g (69.2% to 76.8%)
+['S-BASE', 2025, 66.5, 27.3, 1013, 70.4, 78.0, 713, 790]
+['S-BASE', 2030, 75.4, 31.0, 1178, 74.3, 82.4, 876, 971]
+['S-BASE', 2035, 81.9, 33.7, 1309, 76.0, 84.3, 994, 1103]
+['S-BASE', 2040, 84.3, 34.6, 1371, 77.5, 86.0, 1063, 1179]
+['S-BASE', 2050, 87.6, 36.0, 1446, 78.6, 87.2, 1136, 1261]
+['S-HIGH', 2025, 66.5, 27.3, 1013, 70.4, 78.0, 713, 790]
+['S-HIGH', 2030, 80.0, 32.9, 1251, 74.3, 82.4, 929, 1031]
+['S-HIGH', 2035, 88.6, 36.4, 1415, 76.0, 84.3, 1075, 1193]
+['S-HIGH', 2040, 93.8, 38.5, 1525, 77.5, 86.0, 1182, 1311]
+['S-HIGH', 2050, 101.0, 41.5, 1666, 78.6, 87.2, 1310, 1453]

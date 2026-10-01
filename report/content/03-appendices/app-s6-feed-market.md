@@ -4,22 +4,28 @@ title: "S6. Feed and aquafeed market"
 short_title: "Feed and aquafeed market"
 section: appendix
 order: 26
-summary: "The feed-protein market a Vietnamese alternative protein would sell into: feed output and imports, aquafeed by species, fishmeal prices to August 2026, the displaceable fishmeal pool, the incumbent substitutes, trial evidence by species, buyer economics, the prices to beat and the Chinese import counterfactual. It includes the revealed price of imported inactive yeast (about 9,200 t in 2025 for food and feed, 95% of it at about USD 1.1 per kg), the ASC feed-mill register and what Vietnamese mills paid for fishmeal."
+summary: "Context, not a target: the feed market behind the meat, eggs and farmed fish people in Vietnam eat, with feed output and imports, aquafeed by species, fishmeal prices to August 2026 and what Vietnamese mills paid for fishmeal. It also keeps the record of the earlier feed assessment (the displaceable fishmeal pool, incumbent substitutes, trial evidence, buyer economics and the ASC feed-mill register, the prices to beat, the Chinese import counterfactual, and imported inactive yeast, about 9,200 t in 2025 for food and feed, 95% of it at about USD 1.1 per kg), which no longer supports a recommended play."
 audiences: [investors, startups, manufacturers, policy, research, international]
-reading_time_min: 40
+reading_time_min: 42
 key_numbers: [kn-fishmeal-aug-2026, kn-fishmeal-protein-price, kn-shrimp-fishmeal-replacement, kn-fishmeal-soy-ratio, kn-feed-output-2025]
 related_data: [feed_imports.csv, macro_indicators.csv, feed_benchmarks.csv, inclusion_rates.csv, replacement_trials.csv, commodity_prices.csv, outlook.csv, tariffs.csv, routes.csv, facilities.csv, disagreements.csv, open_questions.csv, inactive_yeast_trade.csv, asc_feed_mills.csv, feed_buyer_register.csv, t2_price_per_performance.csv]
-related_pages: [ch01-why-vietnam, ch09-economics, ch10-technology-fit, ch26-plays, app-m5-changelog, app-s4-feedstocks, app-s5-facilities, app-s9-regulation, app-s12-costs, app-s13-science, app-f1-outlook, app-r1-open-questions, app-r2-disagreements, app-f6-aquafeed-feedstock-futures]
+related_pages: [ch01-why-vietnam, ch09-economics, ch10-technology-fit, ch22-protein-balance-2050, ch26-plays, app-m5-changelog, app-s4-feedstocks, app-s5-facilities, app-s9-regulation, app-s12-costs, app-s13-science, app-f1-outlook, app-r1-open-questions, app-r2-disagreements, app-f6-aquafeed-feedstock-futures]
 charts: [chart-fishmeal-price, chart-price-to-beat, chart-feed-import-dependence]
 ---
 
 # S6. Feed and aquafeed market
 
-Feed is where a Vietnamese alternative protein is most likely to find its first large buyers. This appendix sets out the market it would enter: how much feed Vietnam makes and imports, how much aquafeed goes to each species, what fishmeal costs, how much fishmeal a novel protein could realistically displace, which substitutes are already in use, what feed trials show, how feed mills decide, and the prices a new product must beat. It ends with the counterfactual: Chinese microbial proteins that can already be imported. It supports [[ch01-why-vietnam]], [[ch09-economics]] and [[ch26-plays]]. Production costs are in [[app-s12-costs]]; the rules for listing a new feed ingredient are in [[app-s9-regulation]].
+> **Read with care.** The study now concentrates on protein for people. This appendix is kept for two reasons. It is context: it describes the imported feed behind the meat, eggs and farmed fish that people in Vietnam eat. And it is the record of the earlier feed assessment. Its "prices to beat" (S6.11) and its analysis of displaceable fishmeal (S6.7) no longer support a recommended play: the feed plays T2, T3 and T6 were retired.
+
+Most of the meat, eggs and farmed fish that people in Vietnam eat is produced at home on imported feed. This appendix describes that feed market: how much feed Vietnam makes and imports, how much aquafeed goes to each species and what fishmeal costs. It then records the earlier feed assessment: how much fishmeal a novel protein could displace, which substitutes are already in use, what feed trials show, how feed mills decide and the prices a new feed product would have to beat. It ends with the Chinese microbial proteins that can already be imported.
+
+The appendix gives context for [[ch01-why-vietnam]], [[ch09-economics]] and [[ch22-protein-balance-2050]], and holds the evidence behind the feed plays retired from [[ch26-plays]]. Production costs are in [[app-s12-costs]]; the rules for listing a new feed ingredient are in [[app-s9-regulation]].
 
 ## How to read this appendix
 
-- **Terms.** FM is fishmeal. SBM is soybean meal. SPC is soy protein concentrate. SCP is single-cell protein (microbial biomass). CAP is *Clostridium autoethanogenum* protein, a bacterial SCP made from steel-mill off-gas. BSF is black soldier fly. CP is crude protein. FCR is feed conversion ratio (kg of feed per kg of animal gained).
+- **Terms.** FM is fishmeal. SBM is soybean meal. SPC is soy protein concentrate. SCP is single-cell protein (microbial biomass). CAP is *Clostridium autoethanogenum* protein, a bacterial SCP made from steel-mill off-gas. BSF is black soldier fly. CP is crude protein. FCR is feed conversion ratio (kg of feed per kg of animal gained). DDGS is distillers' dried grains with solubles, the residue of grain ethanol. GHG is greenhouse gas; GMO is genetically modified organism.
+- **Play codes.** T2, T3 and T6 are earlier play codes: T2 functional microbial feed ingredients for shrimp and pangasius; T3 bulk microbial protein for fishmeal replacement; T6 duckweed on aquaculture effluent for feed. All three were retired. See [[ch26-plays]].
+- **Organisations and agreements.** USDA is the United States Department of Agriculture. NSO is the National Statistics Office. MAE is the Ministry of Agriculture and Environment. MARA is China's Ministry of Agriculture and Rural Affairs. FAO is the Food and Agriculture Organization of the United Nations. IFC is the International Finance Corporation. ASC is the Aquaculture Stewardship Council and BAP Best Aquaculture Practices, two certification schemes. HS is the harmonised system of customs codes and MFN the most-favoured-nation import duty. ACFTA (ASEAN-China), ATIGA (within ASEAN) and RCEP (Regional Comprehensive Economic Partnership) are trade agreements that set preferential duties.
 - **Protein replacement and functional effects.** "Protein replacement" means a novel ingredient supplies protein in place of fishmeal or soybean meal. A "functional effect" is a benefit such as better survival, immunity or palatability that protein supply does not explain. We keep the two apart, because they support very different prices.
 - **Prices.** World Bank prices are nominal USD per tonne. We express them per tonne of protein at 65% CP for fishmeal and 46% CP for soybean meal. VND converts at 26,000 per USD.
 - **Years.** USDA's "MY2024/25" for Vietnamese soybeans and soybean meal runs from January to December 2025, so it equals calendar 2025.
@@ -67,7 +73,7 @@ USDA's August 2026 quarterly revised the forecasts to 23.6 Mt of livestock and p
 - **Import bill.** The sum of four customs lines (corn USD 2.95 bn, soybeans USD 1.21 bn, wheat USD 1.46 bn and "animal feed and ingredients" USD 4.58 bn) is about USD 10.2 bn for 2025 and about USD 10.6 bn for 2024 (our calculation from [@MAC-07; @MAC-08; @MAC-09; @MAC-10]) {VN-direct|Medium}. It is gross: it includes about 2.85 Mt of milling wheat (USDA food, seed and industrial use, MY2025/26) [@MAC-01] and about 0.54 Mt of food soybeans [@MAC-04]. The physical volume of corn, soybeans, wheat, soybean meal, DDGS and rapeseed meal was about 27.4 Mt in 2025 (our calculation from the table above). The livestock department's narrower 2024 figure is 22.4 Mt and USD 7.7 bn (corn 10 Mt, oil meals 5.5 Mt, wheat and barley 2.36 Mt) [@MAC-28] {VN-direct|Medium}.
 - **Share imported.** Official and industry sources give 65 to 85% of feed raw materials imported, depending on definition [@MAC-25; @MAC-27; @MAC-28] {VN-direct|Low}. We prefer ingredient-specific figures: corn about 74%, soy protein about 99%, wheat and DDGS 100%.
 - **Price history.** The average corn import price was about USD 295/t in 2023 (derived), USD 243/t in 2024 and USD 248/t in 2025 [@MAC-11; @MAC-08] {VN-direct|Medium}. Wheat averaged USD 267/t in 2025, about 37% below the September 2022 average of USD 424/t [@MAC-10; @MAC-44] {VN-direct|Medium}.
-- **Tariffs.** Feed protein and energy imports are duty-free. The MFN duty on feed corn (HS 1005.90.99) and on soybean meal (HS 2304.00.29 and 2304.00.90) fell to 0% on 31 March 2025; soybeans (HS 1201.90) and fishmeal (HS 2301.20) were already at 0% in 2023 [@REG2-21; @REG2-23] {VN-direct|Medium}. Wheat has been at 0% since November 2021 [@MAC-01] {VN-direct|Medium}. So domestic novel proteins get no tariff shelter against soybean meal or fishmeal. Nor against imported microbial protein: Chinese and ASEAN yeast and single-cell protein (HS 2102.10 and 2102.20) enter at 0% under ACFTA, ATIGA and RCEP [@FTR-32] {VN-direct|Medium}.
+- **Tariffs.** Feed protein and energy imports are duty-free. The MFN duty on feed corn (HS 1005.90.99) and on soybean meal (HS 2304.00.29 and 2304.00.90) fell to 0% on 31 March 2025; soybeans (HS 1201.90) and fishmeal (HS 2301.20) were already at 0% in 2023 [@REG2-21; @REG2-23] {VN-direct|Medium}. Wheat has been at 0% since November 2021 [@MAC-01] {VN-direct|Medium}. So a domestic novel feed protein would get no tariff shelter against soybean meal or fishmeal. Nor would it against imported microbial protein: Chinese and ASEAN yeast and single-cell protein (HS 2102.10 and 2102.20) enter at 0% under ACFTA, ATIGA and RCEP [@FTR-32] {VN-direct|Medium}.
 
 ### S6.2.2 The feed-ingredient balance, 2025
 
@@ -196,7 +202,7 @@ We found no Vietnam-specific published inclusion rate. The ranges below are glob
 
 ## S6.7 The displaceable fishmeal pool
 
-How much fishmeal is in Vietnamese aquafeed that a non-animal protein could, in principle, replace? We count only species with both a sourced feed volume and a sourced inclusion range. Feed volumes are the 2025 industry estimates [@MAC-06; @FM-04]; rates are from S6.6. {VN-direct|Low} for volumes, {general|Medium} for rates; the result is Low confidence.
+This section is the version 0.7 estimate, kept as a record; it no longer supports a recommended play. It asks how much fishmeal in Vietnamese aquafeed a non-animal protein could, in principle, replace. We count only species with both a sourced feed volume and a sourced inclusion range. Feed volumes are the 2025 industry estimates [@MAC-06; @FM-04]; rates are from S6.6. {VN-direct|Low} for volumes, {general|Medium} for rates; the result is Low confidence.
 
 | Species | Feed volume, kt | Fishmeal inclusion | Fishmeal, kt (our calculation) |
 |---|---|---|---|
@@ -238,7 +244,7 @@ A new protein competes with substitutes already in use, not only with fishmeal. 
 > **Correction.** Skretting Vietnam (Nutreco) and Entobel announced a strategic partnership on 26 November 2025, and commercial production of Skretting shrimp feed containing Entobel's insect meal began that month. This is the first commercial insect-meal shrimp feed in Vietnam (company claim); no inclusion rate or volume was disclosed [@VCO-28]. Entobel's financing was a USD 32.5 M project: Mekong Capital USD 25 M, Dragon Capital USD 5 M and IFC USD 2.5 M under an "Upstream Collaboration Agreement" (IFC project 46903, board date 23 February 2023). It was not USD 36 M, as earlier drafts said [@ECO-03; @VCO-20].
 
 - **Tariff note.** Inactive yeasts and other dead single-cell organisms (HS 2102.20) carry a 7% MFN duty, but SCP from China and ASEAN enters at 0% under ACFTA, ATIGA and RCEP; the 7% applies only to other origins. So local SCP has no tariff edge over Chinese product, whether or not dried bacterial or yeast SCP classifies under 2102.20 (not verified) [@FTR-32; @REG2-23] {VN-direct|Medium}. Earlier editions read the 7% as a small handicap for imported SCP; that was wrong for the main origins.
-- **Mills already buy microbial ingredients.** The HS 2102.20 imports above are the incumbent equivalent of a functional microbial feed ingredient (T2), bought at about USD 1.1 per kg. HS6 data cannot split feed from food; the unit values suggest mostly feed grade (our inference) [@FBA-17] {VN-direct|Medium}.
+- **Mills already buy microbial ingredients.** The HS 2102.20 imports above are the incumbent equivalent of a functional microbial feed ingredient (retired play T2), bought at about USD 1.1 per kg. HS6 data cannot split feed from food; the unit values suggest mostly feed grade (our inference) [@FBA-17] {VN-direct|Medium}.
 - **Listing status.** Insect meal and yeast protein are listed raw materials for livestock feed. The aquafeed permitted list (Circular 16/2026/TT-BNNMT, Appendix II) has no raw-material section: it lists *Candida utilis*, *Pichia farinosa* and *Saccharomyces cerevisiae* only as microorganisms, and has no methanotrophs or microalgae. Since 5 August 2026, Decree 211/2026 fines VND 10 to 20 M for each unlisted feed raw material used, plus 1 to 3 months' suspension [@REG2-01; @REG2-09; @REG2-10] {VN-direct|High}. See [[app-s9-regulation]].
 
 ---
@@ -318,7 +324,7 @@ At 15% inclusion, fishmeal adds USD 256 per tonne of feed at the 2025 average pr
 
 ### S6.10.4 Who buys
 
-- **Shrimp feed.** Sheng Long, C.P. Vietnam, Uni-President Vietnam, Tongwei, Grobest and Gromax made a combined 640 kt in 2025, about 70% of shrimp feed [@FM-04; @IND-41] {VN-direct|Medium}. New high-protein capacity (C.P. Ca Mau, 124,800 t/yr; De Heus Vinh Long, 84,000 t/yr, opened July 2026 for marine fish whose feeds need 40 to 50% protein) adds premium buyers [@IND-42; @IND-45; @VCO-10] {VN-direct|Medium}. See [[app-s5-facilities]].
+- **Shrimp feed.** Sheng Long, C.P. Vietnam, Uni-President Vietnam, Tongwei, Grobest and Gromax made a combined 640 kt in 2025, about 70% of shrimp feed [@FM-04; @IND-41] {VN-direct|Medium}. New high-protein capacity (C.P. Ca Mau, 124,800 t/yr; De Heus Vinh Long, 168,000 t/yr design capacity, 84,000 t/yr in trade press, possibly a first phase, opened July 2026 for marine fish whose feeds need 40 to 50% protein; DG-128) adds premium buyers [@IND-42; @IND-45; @VCO-10] {VN-direct|Medium}. See [[app-s5-facilities]].
 - **Pangasius.** Vertically integrated groups; Vinh Hoan has contracted to buy at least 15,000 t of insect meal over 2025 to 2027 [@ECO-05] {VN-direct|Medium}.
 - **Livestock feed.** De Heus, GreenFeed, Cargill and Japfa top Vietnam Report's 2025 reputation ranking of feed companies [@MAC-25] {VN-direct|Low}. C.P. Vietnam, with 21 plants, is another major feed group [@IND-43] {VN-direct|Low}. De Heus's purchase of CJ Feed & Care (closed 3 March 2026) concentrates buying power further (our inference) [@VCO-08] {VN-direct|High}.
 - **Integrated pangasius groups own certified mills.** Feed One, 75% owned by Vinh Hoan, has been ASC-certified since July 2024; Nam Viet and Sao Mai feed companies were certified in 2026 (group ownership not verified) and Godaco is in audit [@FBA-15; @FBA-04] {VN-direct|High}.
@@ -339,7 +345,9 @@ A typical sequence, drawn from the trial literature and the published local case
 
 ## S6.11 The price to beat
 
-**Assumptions.** Fishmeal at 65% CP: USD 1,706/t (2025 average) to USD 2,500/t (August 2026). Soybean meal at 46% CP: USD 366/t (2025) to USD 403/t (August 2026) [@FM-01] {general|High}. Novel products: SCP at 70% CP; fungal biomass at 50% CP. Indicative Vietnamese production cost from the fungal feed-protein cost stack in [[app-s12-costs]]: USD 2,227 to 6,612 per tonne of product, or USD 4,050 to 14,700 per tonne of protein (modelled, Low).
+This section is the earlier feed assessment, kept as a record. It no longer supports a recommended play: the feed plays it tested (T2 and T3) were retired.
+
+**Assumptions.** Fishmeal at 65% CP: USD 1,706/t (2025 average) to USD 2,500/t (August 2026). Soybean meal at 46% CP: USD 366/t (2025) to USD 403/t (August 2026) [@FM-01] {general|High}. Novel products: SCP at 70% CP; fungal biomass at 50% CP. Indicative Vietnamese production cost from the fungal biomass cost stack (cost stack A) in [[app-s12-costs]]: USD 2,227 to 6,612 per tonne of product, or USD 4,050 to 14,700 per tonne of protein (modelled, Low).
 
 | Target | Price to beat, USD per t of protein | Parity price, USD per t of product | Indicative Vietnamese cost, USD per t of protein | Gap at the low-cost end | Plausible? |
 |---|---|---|---|---|---|
@@ -369,7 +377,7 @@ All values in this table are our calculation from [@FM-01; @FM-04; @FM-10; @FBA-
 
 Our calculation from [@FBA-17; @FM-04; @COST-43; @COST-44] {VN-direct\|Low}. Shrimp is the only plausible first market for a purpose-grown product; in pangasius only a by-product yeast priced near USD 1.1 per kg works.
 
-**Reading.** A Vietnamese feed protein sold on protein price alone does not clear fishmeal at 2025 prices and cannot touch soybean meal. At the August 2026 fishmeal price, the low end of the indicative cost comes within about 5% of parity, but that depends on the spike lasting. The investable thesis is a functional shrimp or pangasius ingredient with trial data, or a very low-cost by-product route. Pig and poultry feed (about 22 Mt) is ruled out by price, not by volume.
+**Reading.** A Vietnamese feed protein sold on protein price alone does not clear fishmeal at 2025 prices and cannot touch soybean meal. At the August 2026 fishmeal price, the low end of the indicative cost comes within about 5% of parity, but that depends on the spike lasting. In version 0.7 the remaining feed case was a functional shrimp or pangasius ingredient with trial data, or a very low-cost by-product route (play T2); that play is now retired. Pig and poultry feed (about 22 Mt) is ruled out by price, not by volume.
 
 ---
 
@@ -386,6 +394,8 @@ Our calculation from [@FBA-17; @FM-04; @COST-43; @COST-44] {VN-direct\|Low}. Shr
 
 ## S6.13 The Chinese counterfactual
 
+This section is context and record. It shows what a feed microbial protein made in Vietnam would compete with, as assessed in version 0.7.
+
 - **China is pushing soybean meal out of its own feed.** MARA issued a "Three-Year Action Plan" to reduce and substitute soybean meal in feed (2023), and a 2025 review reports that soybean-meal use in Chinese feed fell 8.0% in 2024 [@FM-36] {general|Low}. We could not read the plan's numeric targets. A 2021 MARA plan to reduce corn and soybean meal in feed also named single-cell protein [@RGN-56] {general|Medium}. Earlier, China's fishmeal imports held at 1.0 to 1.5 Mt a year while its aquafeed grew to 19 Mt (2014) [@FM-09] {general|Medium}.
 - **Commercial-scale Chinese microbial protein plants exist.** Calysseo runs a 20,000 t/yr FeedKind plant in China, and CAP from steel-mill gas has been used in fish and shrimp diets [@FM-13; @FM-15] {general|Medium}. Angel Yeast has 11,000 t/yr of yeast-protein capacity in Yichang [@RGN-24; @HSC-14] {general|Low}. Chinese glutamic-acid biomass is already sold in Vietnam [@FM-12] {VN-direct|Medium}.
 - **The trade link runs both ways.** Vietnam sends 93.5% of its fishmeal exports (USD 402.3 M in 2023) to China [@FM-38] {VN-direct|Medium}.
@@ -395,6 +405,8 @@ Our calculation from [@FBA-17; @FM-04; @COST-43; @COST-44] {VN-direct\|Low}. Shr
 ---
 
 ## Gaps and how to close them
+
+These gaps now matter as context and for the record, not as tests of a recommended play.
 
 | # | Gap | Why it matters | Cheapest way to close it |
 |---|---|---|---|

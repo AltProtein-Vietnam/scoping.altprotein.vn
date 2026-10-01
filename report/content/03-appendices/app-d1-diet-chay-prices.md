@@ -4,9 +4,9 @@ title: "D1. Protein diet, chay and price data"
 short_title: "D1. Diet and prices"
 section: appendix
 order: 41
-summary: "The data behind chapters 11 and 12: protein supply and intake by food group, household use of meat, fish, eggs and tofu by area, income and region, food spending and eating out, retail prices per 100 g of protein, demand drivers and projections to 2035, the protein ladder of Vietnam and its neighbours, the chay practice and market registers, national diet surveillance (7.9% of adults had a flesh-free day in 2021; 40% ate tofu, soy milk or beans) and what children's school plates carry, including upland boarding schools."
+summary: "The data behind chapters 11 and 12. It covers protein supply and intake by food group; household use of meat, fish, eggs and tofu by area, income and region; food spending and eating out; retail prices per 100 g of protein; demand drivers and projections to 2035; and the protein ladder of Vietnam and its neighbours. It also holds the chay practice and market registers, national diet surveillance (7.9% of adults had a flesh-free day in 2021; 40% ate tofu, soy milk or beans) and what children's school plates carry, including upland boarding schools."
 audiences: [research, startups, investors, policy, manufacturers, international]
-reading_time_min: 55
+reading_time_min: 58
 key_numbers: []
 related_data: [demand_protein_intake.csv, demand_protein_prices.csv, demand_food_spending.csv, demand_protein_ladder.csv, demand_drivers.csv, chay_practice.csv, chay_market.csv, diet_quality_vietnam.csv, trade_seasonal_summary.csv, upland_school_weeks.csv, protein_quality.csv, protein_food_micronutrients.csv, cost_per_quality_protein.csv, nutrition_trials.csv]
 related_pages: [ch11-protein-diet, ch12-chay-baseline, ch15-channels, app-m3-demand-method, app-d3-retail-demand-signals]
@@ -14,24 +14,28 @@ charts: []
 ---
 # D1. Protein diet, chay and price data
 
-**What this appendix contains.** The micro data behind [[ch11-protein-diet]] and [[ch12-chay-baseline]], generated from the data files named in each section. Different sources measure different things (food supply, individual intake, household acquisition for home use), so we never average them.
+**What this appendix contains.** This appendix holds the detailed data behind [[ch11-protein-diet]] and [[ch12-chay-baseline]]. Each section is generated from the data files it names. The sources measure different things: the food available in the country (supply), what people eat (intake) and what households buy to eat at home. So we never average them.
+
+*Chay* is the Vietnamese practice of not eating animal flesh (meat, poultry or fish), usually on set days of the lunar month and at festivals; it is also the name of the cuisine and its products. Vu Lan is the Buddhist festival on the 15th day of the seventh lunar month, when demand for chay food peaks. See [[app-r3-glossary]] for other terms.
 
 ## D1.1 Which source measures what
 
+Each source answers a different question. Use the last column to pick the right one.
+
 | Source | What it measures | Weight basis | Latest year | Use it for |
 |---|---|---|---|---|
-| FAOSTAT food balance sheets [@DIE-07; @DIE-08] | Food available for consumption, national | Meat carcass weight, fish live weight | 2023 | Levels against neighbours, protein ladder, trends |
-| OECD-FAO Outlook 2026 to 2035 [@DIE-11] | Food use per person, modelled | Meat retail weight | 2035 projection | Direction and speed to 2035 |
-| USDA PSD [@DIE-10] | Domestic consumption tonnes | Pork and beef carcass, chicken ready to cook | 2026 forecast | Year-on-year shocks and trade |
-| NIN General Nutrition Survey [@DIE-01; @DIE-02] | Individual intake, 22,400 households in 25 provinces | As eaten | 2019 to 2020 | Intake against recommendations |
-| VHLSS 2024 [@DIE-05] | Household acquisition for home use, 46,995 households | As bought | 2024 | Trends by urban and rural, income, region; spending |
-| Hoang Thu Nga et al. [@DIE-32] | 24-hour recall, 929 adults, Red River Delta | As eaten | 2022 | Recent measured protein intake |
-| Global Diet Quality Project, Vietnam round [@APR-36; @BRD-02; @BRD-03] | Whether each of 29 food groups was eaten on the previous day; Gallup telephone probability sample, 1,007 adults aged 15 and over | Yes or no, no grams | 2021 (13 November to 12 December) | Daily reach of food groups; flesh-free days as a ceiling for chay days (D1.9) |
-| School menus and weighed boarding diets [@PMR-26; @UPL-01; @UPL-18] | Published lunch nutrition sheets (Hanoi); published upland boarding menus (13 schools, our register `upland_school_weeks.csv`); kitchen-weighed diets (two Yen Bai schools) | As planned or as served | 2019 to 2026 | What children's school plates carry (D1.10) |
+| FAOSTAT food balance sheets (statistics of the UN Food and Agriculture Organization, FAO) [@DIE-07; @DIE-08] | Food available for consumption, national | Meat carcass weight, fish live weight | 2023 | Levels against neighbours, protein ladder, trends |
+| OECD-FAO Agricultural Outlook 2026 to 2035 (joint projections of the OECD and FAO) [@DIE-11] | Food use per person, modelled | Meat retail weight | 2035 projection | Direction and speed to 2035 |
+| USDA PSD (US Department of Agriculture production, supply and distribution database, from its Foreign Agricultural Service, FAS) [@DIE-10] | Domestic consumption tonnes | Pork and beef carcass, chicken ready to cook | 2026 forecast | Year-on-year shocks and trade |
+| General Nutrition Survey of the National Institute of Nutrition (NIN) [@DIE-01; @DIE-02] | Individual intake, 22,400 households in 25 provinces | As eaten | 2019 to 2020 | Intake against recommendations |
+| Vietnam Household Living Standards Survey (VHLSS) 2024 [@DIE-05] | What households bought or obtained for home use, 46,995 households | As bought | 2024 | Trends by urban and rural, income, region; spending |
+| Hoang Thu Nga et al. [@DIE-32] | 24-hour recall (people list all they ate the day before), 929 adults, Red River Delta | As eaten | 2022 | Recent measured protein intake |
+| Global Diet Quality Project, Vietnam round [@APR-36; @BRD-02; @BRD-03] | Whether each of 29 food groups was eaten on the previous day; Gallup telephone probability sample (a random sample that represents the population), 1,007 adults aged 15 and over | Yes or no, no grams | 2021 (13 November to 12 December) | Daily reach of food groups; flesh-free days as a ceiling for chay days (D1.9) |
+| School menus and weighed boarding diets [@PMR-26; @UPL-01; @UPL-18] | Published lunch nutrition sheets (Hanoi); published upland boarding menus (13 schools, our register `upland_school_weeks.csv`); kitchen-weighed diets (two schools in Lao Cai (former Yen Bai)) | As planned or as served | 2019 to 2026 | What children's school plates carry (D1.10) |
 
 ## D1.2 Protein supply, intake and household use
 
-Selected rows from `demand_protein_intake.csv` (460 rows in all).
+Selected rows from `demand_protein_intake.csv` (460 rows in all). In the "Measure" column, supply is food available on the food balance sheet; intake is what people eat or say they eat.
 
 | Source | Year | Geography | Food group | Value | Unit | Measure | Source |
 |---|---|---|---|---|---|---|---|
@@ -75,12 +79,12 @@ Selected rows from `demand_protein_intake.csv` (460 rows in all).
 | NIN General Nutrition Survey 2019 to 2020 (press report of launch) | 2020 | Vietnam, urban | Meat (all) | 155.3 | g per person per day | intake | [@DIE-01; @DIE-02] {VN-direct\|Medium} {dx:revealed} |
 | NIN General Nutrition Survey 2009 to 2010 (as cited at 2021 launch) | 2010 | Vietnam | Meat (all) | 84 | g per person per day | intake | [@DIE-02] {VN-direct\|Medium} {dx:revealed} |
 | NIN General Nutrition Survey 2019 to 2020 (press report of launch) | 2020 | Vietnam | Energy | 2023 | kcal per person per day | intake | [@DIE-01; @DIE-02] {VN-direct\|Medium} {dx:revealed} |
-| Our derivation from NIN GNS 2019 to 2020 (2,023 kcal x 15.8% protein energy / 4 kcal per g) | 2020 | Vietnam | All foods (protein) | 79.9 | g protein per person per day | intake (derived) | [@DIE-01] {VN-direct\|Low} {dx:inferred} |
+| Our derivation from the NIN General Nutrition Survey 2019 to 2020 (2,023 kcal x 15.8% protein energy / 4 kcal per g) | 2020 | Vietnam | All foods (protein) | 79.9 | g protein per person per day | intake (derived) | [@DIE-01] {VN-direct\|Low} {dx:inferred} |
 | NIN General Nutrition Survey 2019 to 2020 (press report of launch) | 2020 | Vietnam | Vegetables | 231.0 | g per person per day | intake | [@DIE-01; @DIE-02] {VN-direct\|Medium} {dx:revealed} |
 | NIN General Nutrition Survey 2019 to 2020 (press report of launch) | 2020 | Vietnam | Fruit | 140.7 | g per person per day | intake | [@DIE-01; @DIE-02] {VN-direct\|Medium} {dx:revealed} |
 | Hoang Thu Nga et al. 2024, 24 h recall | 2022 | Red River Delta: urban (Cau Giay, Hanoi) | All foods (protein) | 72.3 | g protein per person per day (mean) | intake | [@DIE-32] {VN-direct\|High} {dx:revealed} |
 | Hoang Thu Nga et al. 2024, 24 h recall | 2022 | Red River Delta: peri-urban (Gia Lam, Hanoi) | All foods (protein) | 71.0 | g protein per person per day (mean) | intake | [@DIE-32] {VN-direct\|High} {dx:revealed} |
-| Hoang Thu Nga et al. 2024, 24 h recall | 2022 | Red River Delta: rural (Vu Thu, Thai Binh) | All foods (protein) | 77.8 | g protein per person per day (mean) | intake | [@DIE-32] {VN-direct\|High} {dx:revealed} |
+| Hoang Thu Nga et al. 2024, 24 h recall | 2022 | Red River Delta: rural (Vu Thu, in Hung Yen, former Thai Binh) | All foods (protein) | 77.8 | g protein per person per day (mean) | intake | [@DIE-32] {VN-direct\|High} {dx:revealed} |
 | Hoang Thu Nga et al. 2024, 24 h recall | 2022 | Red River Delta: all three sites | All foods (protein) | 72.8 | g protein per person per day (mean) | intake | [@DIE-32] {VN-direct\|High} {dx:revealed} |
 
 **Household use for home consumption (VHLSS), per person per month.**
@@ -166,7 +170,7 @@ Selected rows from `demand_protein_intake.csv` (460 rows in all).
 | Vietnam, South East (pre-2025 statistical region) | Tofu | 0.31 | kg per person per month | [@DIE-05] {VN-direct\|High} {dx:revealed} |
 | Vietnam, Mekong River Delta (pre-2025 statistical region) | Tofu | 0.19 | kg per person per month | [@DIE-05] {VN-direct\|High} {dx:revealed} |
 
-**Projections (OECD-FAO baseline) and USDA consumption.**
+**USDA consumption and OECD-FAO projections (baseline).** USDA rows are national consumption in thousand tonnes; OECD-FAO rows are food use per person. Values for 2026 (USDA) and for 2030 and 2035 (OECD-FAO) are forecasts or projections.
 
 | Source | Year | Food | Value | Unit | Source |
 |---|---|---|---|---|---|
@@ -222,7 +226,12 @@ Selected rows from `demand_protein_intake.csv` (460 rows in all).
 
 ## D1.3 Retail price per 100 g of protein, 24 September 2026
 
-Formula: VND per 100 g of protein = 100 x price per kg / (10 x protein g per 100 g x edible share). Protein values from the Vietnamese Food Composition Table unless stated. USD at 26,000 VND.
+This table prices each food by the protein it carries, so that foods of different protein content can be compared.
+
+- Formula: VND per 100 g of protein = 100 x price per kg / (10 x protein g per 100 g x edible share).
+- The edible share is the part of the food as bought that people eat (for example, whole shrimp loses its head and shell).
+- Protein values come from the Vietnamese Food Composition Table (FCT) unless stated.
+- USD at 26,000 VND per USD.
 
 | Food | Product | Retailer or basis | VND per kg | Protein g per 100 g | Edible share | VND per 100 g protein | USD per 100 g protein | Source |
 |---|---|---|---|---|---|---|---|---|
@@ -242,20 +251,19 @@ Formula: VND per 100 g of protein = 100 x price per kg / (10 x protein g per 100
 | Beef, shank (bap bo) | Bap bo, 200 g | Bach Hoa Xanh online | 267840 | 21.0 | 0.98 | 130146 | 5.01 | [@DIE-16; @DIE-12] {VN-direct\|Medium} {dx:revealed} |
 | Beef, flank or brisket (nam bo) | Nam bo, 200 g | Bach Hoa Xanh online | 245000 | 18.0 | 0.98 | 138889 | 5.34 | [@DIE-16; @DIE-12] {VN-direct\|Medium} {dx:revealed} |
 | Tofu, fresh | Dau phu tuoi Lang Mo, box 400 g | WinMart online | 32750 | 10.9 | 1.0 | 30046 | 1.16 | [@DIE-23; @DIE-12] {VN-direct\|Medium} {dx:revealed} |
-| Tofu, fresh (audit, label basis) | Five tofu SKUs, Co.opmart HCMC, Sept 2026 | Retail audit ([@FORM-01]) |  |  | 1.0 | 66265 | 2.55 | [@FORM-01] {VN-direct\|Medium} {dx:revealed} |
+| Tofu, fresh (audit, label basis) | Five tofu products, Co.opmart Ho Chi Minh City, September 2026 | Retail audit ([@FORM-01]) |  |  | 1.0 | 66265 | 2.55 | [@FORM-01] {VN-direct\|Medium} {dx:revealed} |
 | Soy milk, packaged | Fami nguyen chat, carton 36 x 200 ml | Bach Hoa Xanh online | 20833 | 1.9 | 1.0 | 109647 | 4.22 | [@DIE-17; @FORM-01] {VN-direct\|Medium} {dx:revealed} |
 | Peanuts, shelled | Dau phong Xuan Hong 500 g | Co.op Online | 104400 | 27.5 | 0.98 | 38738 | 1.49 | [@DIE-21; @DIE-12] {VN-direct\|Medium} {dx:revealed} |
 | Mung beans, dehulled | Dau xanh khong vo Xuan Hong 500 g | Co.op Online | 84600 | 23.4 | 0.98 | 36892 | 1.42 | [@DIE-20; @DIE-12] {VN-direct\|Medium} {dx:revealed} |
 | Soybeans, dry | Dau nanh Xuan Hong 500 g | Co.op Online | 48400 | 34.0 | 0.98 | 14526 | 0.56 | [@DIE-22; @DIE-12] {VN-direct\|Medium} {dx:revealed} |
-| Milk, fresh UHT | Vinamilk 100% khong duong, 12 x 1 L | Bach Hoa Xanh online | 34789 (35,833 per L at density 1.03) | 3.9 | 1.0 | 89203 | 3.43 | [@DIE-18; @DIE-12] {VN-direct\|Low} {dx:revealed} |
+| Milk, fresh, UHT (long-life) | Vinamilk 100% khong duong, 12 x 1 L | Bach Hoa Xanh online | 34789 (35,833 per L at density 1.03) | 3.9 | 1.0 | 89203 | 3.43 | [@DIE-18; @DIE-12] {VN-direct\|Low} {dx:revealed} |
 | Meat, all types (household average; protein: FCT medium-fat pork as proxy) | VHLSS 2024: meat spending 349,800 VND and 2.60 kg per person per month | National household average (all channels) | 134538 | 16.5 | 0.98 | 83202 | 3.20 | [@DIE-05; @DIE-12] {VN-direct\|Low} {dx:revealed} |
 | Tofu (household average) | VHLSS 2024: tofu spending 9,200 VND and 0.43 kg per person per month | National household average (all channels) | 21395 | 10.9 | 1.0 | 19628 | 0.75 | [@DIE-05; @DIE-12] {VN-direct\|Low} {dx:revealed} |
 | Rice (household average) | VHLSS 2024: rice spending 118,500 VND and 6.45 kg per person per month | National household average (all channels) | 18372 | 7.9 | 1.0 | 23256 | 0.89 | [@DIE-05; @DIE-12] {VN-direct\|Low} {dx:revealed} |
 
 ## D1.4 Food spending and eating out
 
-| Indicator | Year | Value | Unit | Source |
-|---|---|---|---|---|
+Richer and urban households spend far more on eating out [@DIE-05] {VN-direct|High} {dx:revealed}. The table gives spending per person per month in 2024, from the VHLSS, in thousand VND at current prices. Quintiles split households into five equal groups by income, from the poorest (quintile 1) to the richest (quintile 5).
 
 | Indicator | Geography | Group | Value | Unit | Source |
 |---|---|---|---|---|---|
@@ -275,6 +283,8 @@ Formula: VND per 100 g of protein = 100 x price per kg / (10 x protein g per 100
 | Eating-out spending per person per month | Vietnam, rural | all households | 179.1 | thousand VND per person per month | [@DIE-05] {VN-direct\|High} {dx:revealed} |
 
 ## D1.5 Demand drivers: population, income, health, prices and food safety
+
+Selected rows from `demand_drivers.csv`. Population values for 2030 and later are projections (UN World Population Prospects 2024, medium variant). PPP (purchasing power parity) adjusts income for differences in prices between countries. BMI (body mass index) is weight in kilograms divided by the square of height in metres.
 
 | Driver | Indicator | Value | Unit | Year | Source |
 |---|---|---|---|---|---|
@@ -338,7 +348,7 @@ Formula: VND per 100 g of protein = 100 x price per kg / (10 x protein g per 100
 
 ## D1.6 The protein ladder: Vietnam and its neighbours
 
-Animal share of protein supply, meat supply and income. Selected years from `demand_protein_ladder.csv` (1961 to 2023). Transfer assumption: neighbours show where diets have levelled off, not where Vietnam must go.
+This table compares Vietnam with its neighbours on protein supply, the animal share of that supply, meat and fish supply, and income. It shows selected years from `demand_protein_ladder.csv`, which runs from 1961 to 2023. Transfer assumption: neighbours show where diets have levelled off, not a path Vietnam has to follow.
 
 | Country | Year | Protein supply, g per person per day | Animal share, % | Meat, kg per person | Fish, kg per person | GDP per person, PPP 2021 USD | Source |
 |---|---|---|---|---|---|---|---|
@@ -380,25 +390,27 @@ Animal share of protein supply, meat supply and income. Selected years from `dem
 
 ## D1.7 Chay practice: every survey and estimate we found
 
-None of the surveys below is a probability sample with a diet question; online panels count tofu and soy milk as plant-based, so they measure familiarity with the incumbent. The one probability survey that asks about diet, the Diet Quality Questionnaire (2021), does not ask about chay but caps it; it is set out in D1.9.
+No survey below is a probability sample that also asks about diet. Online panels count tofu and soy milk as plant-based, so they measure how familiar people are with these established soy foods. The one probability survey that asks about diet, the Diet Quality Questionnaire (2021), does not ask about chay. But it does set a ceiling on chay days, as D1.9 shows.
 
 | ID | Source | Run by | Year | Sample | Frame | Full-time vegetarian | Periodic | Frequency definition | Source |
 |---|---|---|---|---|---|---|---|---|---|
 | S01 | Xu hướng ăn chay của người Việt Nam | W&S online market research | 2012 | 659 (355 men, 304 women) | Online panel, aged 16 and over, national online users | Not reported | 59% 'regularly' eat vegetarian | Mostly on lunar 1st and 15th and Buddhist holidays (no day counts published) | [@CHY-01] {VN-direct\|Low} {dx:stated} |
 | S02 | Plant-based food alternatives: future or present? | Rakuten Insight | 2021 (12 to 30 November) | 4,018 | Rakuten Insight proprietary online panel, men and women aged 16 and over | 10% 'I only consume plant-based food' (base appears to be consumers; not stated) | 44% several times a week; 29% several times a month; 10% once or twice a month; 6% several times a year; 1% never | Self-reported frequency of 'plant-based alternatives', not chay days | [@CHY-02] {VN-direct\|Medium} {dx:stated} |
 | S03 | Rakuten Insight plant-based survey 2024 (via Statista) | Rakuten Insight | 2024 (8 to 29 February) | 3,206 total; 2,757 had consumed; 332 answered the reasons-against question | Online panel, aged 16 and over | Not available (paywalled) | Secondary reports give 44% or 45% several times a week (B-Company); values not verified | Self-reported frequency of plant-based alternatives | [@CHY-03; @CHY-04; @CHY-05; @CHY-13; @CHY-14] {VN-direct\|Low} {dx:stated} |
-| S04 | Religion and Spirituality in East Asian Societies | Pew Research Center | 2023 (2 June to 17 September) | 2,255 adults | Face-to-face CAPI, multistage cluster probability sample stratified by region and urbanicity; about 11% of population inaccessible | No diet question asked | No diet question asked | Not applicable | [@CHY-06] {VN-direct\|High} {dx:stated} |
+| S04 | Religion and Spirituality in East Asian Societies | Pew Research Center | 2023 (2 June to 17 September) | 2,255 adults | Face-to-face computer-assisted interviews, multistage cluster probability sample stratified by region and urbanicity; about 11% of population inaccessible | No diet question asked | No diet question asked | Not applicable | [@CHY-06] {VN-direct\|High} {dx:stated} |
 | S05 | White Paper on religion and religious policy (as reported) | Government Committee for Religious Affairs | 2023 (published 9 March 2023) | Administrative count | Registered followers of recognised religions | Not applicable | Not applicable | Not applicable | [@CHY-07] {VN-direct\|Medium} {dx:revealed} |
 | S06 | 2019 Population and Housing Census (as reported) | General Statistics Office | 2019 | Full census | All residents; self-declared religion | Not applicable | Not applicable | Not applicable | [@CHY-08] {VN-direct\|Low} {dx:stated} |
 | S07 | SHOULD model of plant-based food choice | Nguyen T.L. et al. (academic) | 2019 (September to October) | 1,477 | Convenience sample of people eating at vegetarian restaurants, chay inns and pagodas in 10 of 19 southern provinces | Not reported | Not reported | Describes 1st and 15th, 4 days (1st, 14th, 15th, 29th or 30th) and 10 days a month schedules | [@CHY-09] {VN-direct\|Medium} {dx:stated} |
 | S08 | Intention to adopt a periodic vegetarian diet | Nguyen T.Q.N., Nguyen V.N., Nguyen M.D. (Tra Vinh University) | 2025 (year of publication; fieldwork date not stated) | 378 valid of 400 | Convenience sample at chay restaurants, chay food stores and pagodas, Ho Chi Minh City | Not reported | 'Many' follow 1st and 15th (no share given) | 1st, 8th, 14th, 15th; first and seventh lunar months | [@CHY-10] {VN-direct\|Low} {dx:stated} |
-| S09 | Urban students' shift toward vegetarian practices | Tran T.N.N. et al. (VNU Ho Chi Minh City) | 2024 to 2025 (October 2024 to March 2025) | 707 | Criterion-based convenience sample of students at seven universities, Ho Chi Minh City, quota on diet and gender | Not reported | 49.6% classed vegetarian (set by quota, not a prevalence) | 'Regularly' or about 4 to 10 days a month | [@CHY-11] {VN-direct\|Low} {dx:stated} |
-| S10 | Meat consumption practices of green consumers | Markoni E., Ha T.M. et al. (Bern University of Applied Sciences, VNUA) | 2021 to 2022 (November 2021 to March 2022) | 44 participants in 7 online group discussions | Self-identified green consumers in Hanoi, Ho Chi Minh City, Da Nang, Thanh Hoa, Nghe An | Not applicable | Buddhist meat-free days noted in the paper's background, not as a discussion finding | Not quantified | [@CHY-12] {VN-direct\|Medium} {dx:stated} |
-| S11 | Southeast Asia plant-based consumer survey (GFI APAC with Good Growth) | GFI APAC and Good Growth | 2023 | Nearly 6,000 across 6 countries | Six Southeast Asian countries including Vietnam; frame not stated on summary page | Not reported for Vietnam | Not reported for Vietnam | Not applicable | [@ECO-24; @ECO-23] {VN-adjacent\|Medium} {dx:stated} |
+| S09 | Urban students' shift toward vegetarian practices | Tran T.N.N. et al. (Vietnam National University, VNU, Ho Chi Minh City) | 2024 to 2025 (October 2024 to March 2025) | 707 | Criterion-based convenience sample of students at seven universities, Ho Chi Minh City, quota on diet and gender | Not reported | 49.6% classed vegetarian (set by quota, not a prevalence) | 'Regularly' or about 4 to 10 days a month | [@CHY-11] {VN-direct\|Low} {dx:stated} |
+| S10 | Meat consumption practices of green consumers | Markoni E., Ha T.M. et al. (Bern University of Applied Sciences and Vietnam National University of Agriculture, VNUA) | 2021 to 2022 (November 2021 to March 2022) | 44 participants in 7 online group discussions | Self-identified green consumers in Hanoi, Ho Chi Minh City, Da Nang, Thanh Hoa, Nghe An | Not applicable | Buddhist meat-free days noted in the paper's background, not as a discussion finding | Not quantified | [@CHY-12] {VN-direct\|Medium} {dx:stated} |
+| S11 | Southeast Asia plant-based consumer survey (Good Food Institute Asia Pacific, GFI APAC, with Good Growth) | GFI APAC and Good Growth | 2023 | Nearly 6,000 across 6 countries | Six Southeast Asian countries including Vietnam; frame not stated on summary page | Not reported for Vietnam | Not reported for Vietnam | Not applicable | [@ECO-24; @ECO-23] {VN-adjacent\|Medium} {dx:stated} |
 | S12 | Vietnam cooking survey (6,000 dinner photos) | Q&Me | 2023 (April) | 300 female home cooks cooking 5 or more times a week | Ho Chi Minh City and Hanoi (frame not stated) | Not reported | Not reported | Not reported | [@CHY-66] {VN-direct\|Medium} {dx:revealed} |
 | S13 | Press estimate '10% of Vietnamese are vegetarian' | VTV; repeated by VnEconomy | 2024 to 2025 | None | None | 'About 10%' claimed | Not applicable | Undefined | [@CHY-15; @CHY-18] {VN-direct\|Low} {dx:stated} |
 
 ## D1.8 Chay market: volumes, spikes, restaurants and prices
+
+Selected rows from `chay_market.csv`: how much soy and chay food is eaten, how demand rises at festivals, how many chay restaurants there are, and what chay food costs. The "Method quality" column grades each row and says why. Most spike figures are quotes from shops and retailers in the press, so they are Low.
 
 | Category | Metric | Value | Unit | Year | Geography | Method quality | Source |
 |---|---|---|---|---|---|---|---|
@@ -410,7 +422,7 @@ None of the surveys below is a probability sample with a diet question; online p
 | soy foods | Adults who ate dried beans, soybeans, tofu, soy milk or bean flour on the previous day | 40.0 (35.2 to 44.9) | % of adults | 2021 | Vietnam | Medium: national telephone probability sample, n = 1,007 | [@APR-36; @BRD-01] {VN-direct\|Medium} {dx:revealed} |
 | soy foods | Soy milk plus tofu consumed | 286,000 | tonnes (basis not stated) | 2023 | Vietnam | Low: industry body summary, method not public, interested party | [@CHY-46] {VN-direct\|Low} {dx:revealed} |
 | soy foods | Soy milk plus tofu consumed, forecast | 299,000 | tonnes | 2026 | Vietnam | Low: industry forecast | [@CHY-46] {VN-direct\|Low} {dx:inferred} |
-| tofu | Tofu consumed, implied by USSEC split | about 31,500 | tonnes | 2023 | Vietnam | Low: our derivation 11% of 286,000 t; conflicts with craft village evidence | [@CHY-46] {VN-direct\|Low} {dx:inferred} |
+| tofu | Tofu consumed, implied by the US Soybean Export Council (USSEC) split | about 31,500 | tonnes | 2023 | Vietnam | Low: our derivation 11% of 286,000 t; conflicts with craft village evidence | [@CHY-46] {VN-direct\|Low} {dx:inferred} |
 | tofu | Soybeans processed per tofu household, Vong La village (Dong Anh, Hanoi) | 150 | kg soybeans per household per day | 2020 | Hanoi | Medium: municipal culture department page | [@CHY-49] {VN-direct\|Medium} {dx:revealed} |
 | tofu | Soybeans processed per day, Hong Ha commune (333 tofu households) | 20 to 30 | tonnes of soybeans per day | 2017 | Hanoi | Low: press report | [@CHY-48] {VN-direct\|Low} {dx:revealed} |
 | tofu | Tofu price per block, Mo village (Hanoi) | 2,500 | VND per block (weight not stated) | 2025 | Hanoi | Low: press | [@CHY-50] {VN-direct\|Low} {dx:revealed} |
@@ -421,10 +433,10 @@ None of the surveys below is a probability sample with a diet question; online p
 | mushrooms | Mushroom production | 250,000 to 270,000 | tonnes a year | 2025 | Vietnam | Low: press citing unnamed research institutions and Ken Research | [@CHY-51] {VN-direct\|Low} {dx:revealed} |
 | mushrooms | Straw mushroom price in Vu Lan | about 160,000 | VND per kg | 2026 (August) | Ho Chi Minh City | Low: press market check | [@CHY-22] {VN-direct\|Low} {dx:revealed} |
 | mushrooms | King oyster (dui ga) mushroom price in Vu Lan | 150,000 | VND per kg | 2026 (August) | Ho Chi Minh City | Low: press market check | [@CHY-22] {VN-direct\|Low} {dx:revealed} |
-| industrial do chay | Vissan processed food output target (meat and chay combined) | 20,350 | tonnes | 2026 (plan) | Vietnam | Medium: AGM target reported by press | [@CHY-30] {VN-direct\|Medium} {dx:inferred} |
+| industrial do chay | Vissan processed food output target (meat and chay combined) | 20,350 | tonnes | 2026 (plan) | Vietnam | Medium: annual general meeting target reported by press | [@CHY-30] {VN-direct\|Medium} {dx:inferred} |
 | industrial do chay | Vissan chay ha cao 250 g launch price (20% promotion) | 20,800 | VND per pack (about 83,200 per kg) | 2026 (August) | Ho Chi Minh City | Medium: press report of company launch | [@CHY-29] {VN-direct\|Medium} {dx:revealed} |
 | industrial do chay | Vissan chay hoanh thanh 200 g launch price (20% promotion) | 19,200 | VND per pack (about 96,000 per kg) | 2026 (August) | Ho Chi Minh City | Medium | [@CHY-29] {VN-direct\|Medium} {dx:revealed} |
-| industrial do chay | Frozen or chilled do chay price range, modern retail (23 SKUs with weight) | 5,580 to 18,900 | VND per 100 g of product | 2026 (September) | Nha Trang | Medium: supply study field log, some price pairings flagged | [@FORM-01] {VN-direct\|Medium} {dx:revealed} |
+| industrial do chay | Frozen or chilled do chay price range, modern retail (23 products with weight) | 5,580 to 18,900 | VND per 100 g of product | 2026 (September) | Nha Trang | Medium: supply study field log, some price pairings flagged | [@FORM-01] {VN-direct\|Medium} {dx:revealed} |
 | industrial do chay | Chay versus meat equivalent price difference (5 logged pairs) | 19% dearer to 52% cheaper | percent | 2026 (September) | Nha Trang | Medium: supply study field log | [@FORM-01] {VN-direct\|Medium} {dx:revealed} |
 | industrial do chay | Imported canned soy 'plant based' luncheon meat (origin reported as China) | 30,811 to 35,000 | VND per 100 g | 2026 (September) | Nha Trang | Medium: supply study field log | [@FORM-01] {VN-direct\|Medium} {dx:revealed} |
 | industrial do chay | Label protein, Coop Select chay gyoza with noodles | 4.2 | g protein per 100 g | 2026 | Nha Trang | High: back label photographed | [@FORM-01] {VN-direct\|High} {dx:revealed} |
@@ -446,8 +458,8 @@ None of the surveys below is a probability sample with a diet question; online p
 | demand spike | Feast-tray (*cỗ*) purchasing power year on year, one Hanoi restaurant | -20 to -30 | percent | 2026 | Hanoi | Low: single business | [@CHY-21] {VN-direct\|Low} {dx:revealed} |
 | demand spike | First lunar month chay demand versus normal days, with sellers forecasting 2 to 3 times near full moon | +15 to +20 | percent | 2026 (February) | Can Tho | Low: press | [@CHY-25] {VN-direct\|Low} {dx:revealed} |
 | demand spike | Pre-made chay food sales at some outlets and online channels in Vu Lan | +5 to +10 | percent | 2020 | Ho Chi Minh City | Low: government press centre report | [@CHY-28] {VN-direct\|Low} {dx:revealed} |
-| demand spike | China's textured protein shipments to Vietnam (HS 2106.10), two months before the Vu Lan month, against an average month | 1.33 (5 of 6 years); 1.04 to the world; 1.02 to Thailand | index | 2019 to 2024 | Vietnam | Medium: monthly trade data, our calculation (`trade_seasonal_summary.csv`) | [@BRD-05; @BRD-07] {VN-direct\|Medium} {dx:revealed} |
-| demand spike | China's textured protein shipments to Vietnam in the Tet month, against an average month | 0.38 | index | 2019 to 2024 | Vietnam | Medium: every Vietnam-bound flow, feed included, dips in the Tet month | [@BRD-05; @BRD-07] {VN-direct\|Medium} {dx:revealed} |
+| demand spike | China's textured protein shipments to Vietnam (customs code HS 2106.10), two months before the Vu Lan month, against an average month | 1.33 (5 of 6 years); 1.04 to the world; 1.02 to Thailand | index | 2019 to 2024 | Vietnam | Medium: monthly trade data, our calculation (`trade_seasonal_summary.csv`) | [@BRD-05; @BRD-07] {VN-direct\|Medium} {dx:revealed} |
+| demand spike | China's textured protein shipments to Vietnam in the Tet (Lunar New Year) month, against an average month | 0.38 | index | 2019 to 2024 | Vietnam | Medium: every Vietnam-bound flow, feed included, dips in the Tet month | [@BRD-05; @BRD-07] {VN-direct\|Medium} {dx:revealed} |
 | demand spike | China's shipments of HS 3504 (protein isolates and other proteins) to Vietnam, two months before the Vu Lan month | 0.79 (1 of 6 years) | index | 2019 to 2024 | Vietnam | Medium: no chay timing; the 2024 jump in this code behaves like a feed or technical protein | [@BRD-05; @BRD-07] {VN-direct\|Medium} {dx:revealed} |
 | demand spike | Chay Garden buffet surcharge on holy days (lunch; dinner) | 12.6; 8.3 | percent | 2026 | Ho Chi Minh City | Medium: booking platform price list; our derivation | [@CHY-33] {VN-direct\|Medium} {dx:revealed} |
 | restaurants | Foody 'An chay' listings, Ho Chi Minh City (old boundary) | more than 1,873 | listings | 2026 (September) | Ho Chi Minh City | Medium: platform count; cumulative, includes closed venues | [@CHY-31] {VN-direct\|Medium} {dx:revealed} |
@@ -466,7 +478,7 @@ None of the surveys below is a probability sample with a diet question; online p
 | price | Central Ho Chi Minh City chay rice; chay buffet | 30,000; 45,000 | VND | 2024 | Ho Chi Minh City | Low: press listicle | [@CHY-42] {VN-direct\|Low} {dx:revealed} |
 | price | Self-serve chay buffet plate, Long Xuyen | 17,000 to 20,000 | VND per plate | 2022 | An Giang | Low: press | [@CHY-43] {VN-direct\|Low} {dx:revealed} |
 | price | Chay dish, Nha Trang restaurants | 25,000 to 60,000 | VND per dish | 2025 | Nha Trang | Low: promotional listicle | [@CHY-44] {VN-direct\|Low} {dx:revealed} |
-| price | Meat rice plate, Ho Chi Minh City street | 30,000 to 35,000 | VND per plate | 2026 | Ho Chi Minh City | Low: press | [@CHY-40] {VN-direct\|Low} {dx:revealed} |
+| price | Meat rice plate, Ho Chi Minh City street | 29,000 to 35,000 | VND per plate | 2026 | Ho Chi Minh City | Low: press | [@CHY-40] {VN-direct\|Low} {dx:revealed} |
 | price | Student rice meal average, Ho Chi Minh City | 30,000 | VND per meal | 2025 | Ho Chi Minh City | Low: press | [@CHY-41] {VN-direct\|Low} {dx:revealed} |
 | price | Premium chay restaurant average spend (Hum) | 350,000 to 400,000 | VND per customer per meal | 2022 | Ho Chi Minh City | Low: press | [@CHY-37] {VN-direct\|Low} {dx:revealed} |
 | price | Chay Garden buffet (weekday lunch to holy-day dinner) | 239,000 to 379,000 | VND per person | 2026 | Ho Chi Minh City | Medium: booking platform | [@CHY-33] {VN-direct\|Medium} {dx:revealed} |
@@ -475,11 +487,17 @@ None of the surveys below is a probability sample with a diet question; online p
 | price | Pre-made chay offering tray, basic to premium | 380,000 to 2,000,000 | VND per tray | 2026 | Hanoi and Ho Chi Minh City | Low: press | [@CHY-20; @CHY-22] {VN-direct\|Low} {dx:revealed} |
 | religion base | Buddhist places of worship | 18,544 | facilities | 2021 (reported 2023) | Vietnam | Medium: government White Paper as reported | [@CHY-07] {VN-direct\|Medium} {dx:revealed} |
 
-> **Correction.** In v0.6 this table said Hanoi sellers reported Vu Lan chay volumes at 2 to 3 times normal, one Hai Phong restaurant saw chay offering-tray orders fall 20 to 30% year on year, and mainstream Ho Chi Minh City chay buffets cost 100,000 to 200,000 VND a person. The sources say the 2 to 3 times came from a fruit seller (the Hanoi chay shop gave no multiple), the 20 to 30% fall was feast-tray purchasing power at one Hanoi restaurant, and 100,000 to 200,000 VND was one Hanoi eatery's buffet; Ho Chi Minh City hotel chay buffets cost 190,000 to 650,000 VND.
+> **Correction.** Version 0.6 of this table misread three sources. We have corrected them:
+>
+> - It said Hanoi sellers reported Vu Lan chay volumes at 2 to 3 times normal. The 2 to 3 times came from a fruit seller; the Hanoi chay shop gave no multiple.
+> - It said one Hai Phong restaurant saw chay offering-tray orders fall 20 to 30% year on year. The 20 to 30% fall was feast-tray purchasing power at one Hanoi restaurant.
+> - It said mainstream Ho Chi Minh City chay buffets cost 100,000 to 200,000 VND a person. That was one Hanoi eatery's buffet; Ho Chi Minh City hotel chay buffets cost 190,000 to 650,000 VND.
 
 ## D1.9 National diet surveillance: the Diet Quality Questionnaire
 
-The Global Diet Quality Project (GAIN, Harvard and Gallup) asked a nationally representative sample of 1,007 Vietnamese adults aged 15 and over, by mobile telephone in Vietnamese, whether they ate each of 29 food groups on the previous day. Fieldwork ran from 13 November to 12 December 2021, an ordinary month holding two principal chay days; the design effect is 2.56 and the maximum margin of error 4.9 points. The country web page gives the fieldwork a month later; the data file and Gallup's methods table agree on November to December, and we use those [@APR-36; @BRD-02; @BRD-03; @BRD-04] {VN-direct|High} {dx:revealed}. The Vietnamese pulse item names *đậu khô, đậu nành, đậu phụ, sữa đậu nành hoặc bột đậu* (dried beans, soybeans, tofu, soy milk or bean flour), so it measures the daily reach of the incumbent soy foods; the processed-meat item leaves out *giò*, *chả* and *nem chua* (pork rolls, loaves and fermented pork), so it is a floor [@BRD-01; @BRD-02] {VN-direct|High}. Full rows: `diet_quality_vietnam.csv`.
+The Diet Quality Questionnaire is the only probability sample we found with Vietnamese data on plant-protein eating. The Global Diet Quality Project (run by the Global Alliance for Improved Nutrition, GAIN, with Harvard and Gallup) asked 1,007 Vietnamese adults aged 15 and over whether they ate each of 29 food groups on the previous day. The sample is nationally representative, and interviews were by mobile telephone in Vietnamese. Fieldwork ran from 13 November to 12 December 2021, an ordinary month holding two principal chay days. The design effect (how much the sample design widens the error) is 2.56, and the maximum margin of error is 4.9 points. The country web page gives the fieldwork a month later; the data file and Gallup's methods table agree on November to December, and we use those [@APR-36; @BRD-02; @BRD-03; @BRD-04] {VN-direct|High} {dx:revealed}.
+
+The Vietnamese question on pulses names *đậu khô, đậu nành, đậu phụ, sữa đậu nành hoặc bột đậu* (dried beans, soybeans, tofu, soy milk or bean flour). So it measures how many people eat the established soy foods each day. The processed-meat question leaves out *giò*, *chả* and *nem chua* (pork rolls, loaves and fermented pork), so its result is a floor [@BRD-01; @BRD-02] {VN-direct|High}. Full rows: `diet_quality_vietnam.csv`.
 
 | Indicator (previous day, % of adults) | All (95% interval) | Women | Men | Urban | Rural | Source |
 |---|---|---|---|---|---|---|
@@ -495,7 +513,9 @@ The Global Diet Quality Project (GAIN, Harvard and Gallup) asked a nationally re
 | No meat, poultry or fish (our calculation) | 7.9 (5.3 to 11.0) | 9.1 | 6.7 | 8.6 | 6.4 | [@APR-36; @BRD-01] {VN-direct\|Medium} {dx:revealed} |
 | No animal-source food at all (our calculation) | 4.3 (2.3 to 7.0) | 3.8 | 4.9 | 3.8 | 5.4 | [@APR-36] {VN-direct\|Medium} {dx:revealed} |
 
-Sample: 547 men, 460 women, 768 urban, 238 rural (weighted estimates); the rural subgroup is small, and subgroup differences sit within overlapping intervals except dairy (milk and yogurt included) by sex and sweet beverages by urban or rural residence. The public results give no age, income or education split, and we found no downloadable microdata [@BRD-03; @BRD-04] {VN-direct|High}.
+The sample held 547 men and 460 women, and 768 urban and 238 rural adults (weighted estimates). The rural subgroup is small. Subgroup differences sit within overlapping intervals, except for dairy (milk and yoghurt included) by sex and sweet drinks by urban or rural residence. The public results give no split by age, income or education, and we found no downloadable microdata (individual answers) [@BRD-03; @BRD-04] {VN-direct|High}.
+
+The same survey in neighbouring countries:
 
 | Country | Fieldwork | No meat, poultry or fish (%) | Pulses (%) | Processed meats (%) | Source |
 |---|---|---|---|---|---|
@@ -509,20 +529,20 @@ Sample: 547 men, 460 women, 768 urban, 238 rural (weighted estimates); the rural
 | China | Sep to Dec 2021 | 14.9 | 57.8 | 32.8 | [@APR-36; @BRD-03] {VN-adjacent\|Medium} {dx:revealed} |
 | Myanmar | Sep to Oct 2023 | 17.3 | 36.8 | 10.5 | [@APR-36; @BRD-03] {VN-adjacent\|Medium} {dx:revealed} |
 
-Flesh-free shares are our calculation; food lists differ by country, so comparisons are indicative.
+Flesh-free shares are our calculation. Food lists differ by country, so the comparisons are only indicative.
 
-**What it tests (our calculation)** {VN-direct|Medium} {dx:inferred}:
+**What the survey tests (our calculation)** {VN-direct|Medium} {dx:inferred}:
 
-- **The central chay assumption is supported as a ceiling only.** A chay day is flesh-free, so chay-day person-days cannot exceed 7.9% in a month without festivals. Part III's 2.5% (30% keeping 2.5 days a month) uses about a third of the ceiling. If Vietnam's other flesh-free days were at Cambodia's or the Philippines' level (3.3 to 5.8%), chay-type days would be 2.1 to 4.6% of person-days (illustrative, Low), which brackets 2.5%.
-- **The top of the earlier range is contradicted in practice.** 6.7% would need 85% of all flesh-free days to be chay days and exceeds the lower confidence bound (5.3%); about 5% is a practical upper bound. The sensitivity range in [[ch18-demand-sizing]] (1.7 to 4.2%) sits inside the ceiling.
-- **"About 10% of Vietnamese are vegetarian" is contradicted.** Ten per cent vegetarians plus even the low chay case would exceed the 11.0% upper bound of flesh-free days.
-- **Processed meat cannot be tested.** The item omits *giò* and *chả* and counts days, not grams.
-- **Legume supply and the chay-day protein assumption are consistent.** FAO balance sheets give soybeans and other pulses 6.94 g of protein per person a day in 2021; spread over the 40% of adults who eat legumes on a given day, that is about 17 g per eating day (supply, not intake), the same order as the 12 g a chay day is assumed to carry [@DIE-07; @APR-36].
-- **A cheap next step.** Gallup holds the interview dates, so the flesh-free share on recall days that fell on the lunar 1st or 15th (about 65 of them, our estimate) can be compared with other days; at this sample size only an effect larger than a doubling would be detectable [@BRD-03; @BRD-07].
+- **It supports the central chay assumption, but only as a ceiling.** A chay day has no meat, poultry or fish. So chay days cannot exceed 7.9% of person-days (one person on one day) in a month without festivals. Part III uses 2.5% (30% of people keeping 2.5 chay days a month), about a third of the ceiling. If Vietnam's other flesh-free days were at Cambodia's or the Philippines' level (3.3 to 5.8%), chay-type days would be 2.1 to 4.6% of person-days (illustrative, Low). That range brackets 2.5%.
+- **It contradicts the top of the earlier range in practice.** A share of 6.7% would need 85% of all flesh-free days to be chay days. It is also above the lower confidence bound (5.3%). About 5% is a practical upper bound. The sensitivity range in [[ch18-demand-sizing]] (1.7 to 4.2%) sits inside the ceiling.
+- **It contradicts the claim that "about 10% of Vietnamese are vegetarian".** Ten per cent vegetarians plus even the low chay case would exceed the upper bound of flesh-free days (11.0%).
+- **It cannot test processed meat.** The question leaves out *giò* and *chả*, and it counts days, not grams.
+- **Legume supply fits the chay-day protein assumption.** FAO balance sheets give soybeans and other pulses 6.94 g of protein per person a day in 2021. Spread over the 40% of adults who eat legumes on a given day, that is about 17 g per eating day (supply, not intake). This is the same order as the 12 g that Part III assumes a chay day carries [@DIE-07; @APR-36].
+- **A cheap next step.** If Gallup holds the interview dates (likely, but not confirmed), the flesh-free share on recall days that fell on the lunar 1st or 15th (about 65 of them, our estimate) can be compared with other days. The test is weak. From a 7.9% base, a doubling would give a test statistic of about 1.7, just short of the usual 1.96 threshold, and about 1.1 once the survey's design effect of 2.56 is allowed for; even a tripling would fall short (our calculation) [@BRD-03; @BRD-07] {VN-direct|Low} {dx:inferred}.
 
 ## D1.10 What children's school plates carry
 
-The data behind the correction in [[ch11-protein-diet]] section 11.2: for school-age children, including upland boarders, protein and zinc are met at lunch and dinner, and the documented shortfalls are breakfast, calcium and vitamin A. Rows are selected from `upland_school_weeks.csv`, `protein_quality.csv`, `protein_food_micronutrients.csv` and `nutrition_trials.csv`; school channels are in [[ch15-channels]].
+For school-age children, including pupils at upland boarding schools, lunch and dinner meet protein and zinc needs. The documented shortfalls are breakfast, calcium and vitamin A. This section holds the data behind that correction in [[ch11-protein-diet]] section 11.2. Rows are selected from `upland_school_weeks.csv`, `protein_quality.csv`, `protein_food_micronutrients.csv` and `nutrition_trials.csv`. School channels are in [[ch15-channels]].
 
 | Topic | Indicator | Value | Year | Source |
 |---|---|---|---|---|
@@ -533,14 +553,14 @@ The data behind the correction in [[ch11-protein-diet]] section 11.2: for school
 | Upland plates | Breakfasts with little or no animal food (our register `upland_school_weeks.csv`) | 95 of 111 (85.6%) | 2026 | [@UPL-01; @UPL-02; @UPL-03; @UPL-05; @UPL-06; @UPL-07; @UPL-09; @UPL-10; @UPL-11; @UPL-12; @UPL-13; @UPL-14; @UPL-15; @UPL-16] {VN-direct\|High} {dx:revealed} |
 | Upland plates | Raw pork bought per pupil a day, four kitchens with published cost sheets | about 110 to 270 g | 2026 | [@UPL-01; @UPL-04; @UPL-07; @UPL-09; @UPL-10] {VN-direct\|High} {dx:revealed} |
 | Upland plates | Zinc in observed boarding and border-commune lunches, against a lunch share of 1.7 to 3.4 mg (our calculation, lean-pork values) | 4.9 to 8.2 mg | 2026 | [@UPL-01; @UPL-04; @APR-04; @DIE-12] {VN-direct\|Low} {dx:inferred} |
-| Weighed diets | Kitchen-weighed boarding diets, two Yen Bai (now Lao Cai) schools: protein; zinc; calcium; vitamin A; vitamin B2, as % of need | 74.4 g a day (38% animal); 131 to 157%; 36.5%; 41 to 45%; 48 to 52% | 2019 | [@UPL-18] {VN-direct\|Medium} {dx:revealed} |
+| Weighed diets | Kitchen-weighed boarding diets, two Lao Cai (former Yen Bai) schools: protein; zinc; calcium; vitamin A; vitamin B2, as % of need | 74.4 g a day (38% animal); 131 to 157%; 36.5%; 41 to 45%; 48 to 52% | 2019 | [@UPL-18] {VN-direct\|Medium} {dx:revealed} |
 | Money | Border-commune lunch support (Decree 339/2025) | VND 450,000 a month plus 8 kg of rice; about 418,000 pupils (draft-stage estimate, press) | 2025 | [@APR-09; @UPL-22] {VN-direct\|Medium} {dx:revealed} |
-| Quality | DIAAS: pork (older-child pattern); tofu; extruded soybean; wheat-based sausage | 113 to 137; 64 (0.5 to 3 year pattern) to 98 (older pattern); 65 to 97; 33 (in vitro) | various | [@NQR-05; @NQR-07; @NQR-09; @NQR-10] {general\|Medium} {dx:revealed} |
+| Quality | DIAAS (a protein-quality score): pork (older-child pattern); tofu; extruded soybean; wheat-based sausage | 113 to 137; 64 (0.5 to 3 year pattern) to 98 (older pattern); 65 to 97; 33 (in vitro) | various | [@NQR-05; @NQR-07; @NQR-09; @NQR-10] {general\|Medium} {dx:revealed} |
 | Quality | DIAAS of a minced pork dish with 20 to 30% of its protein from textured soy (our calculation, additivity; extruded soybean as the soy proxy, so 97 is a conservative floor) | 97 or more | not applicable | [@NQR-05; @NQR-07] {general\|Medium} {dx:inferred} |
 | Rules | Mandatory fortification (Decree 09/2016): vehicles | Iodised salt, wheat flour for processing (iron and zinc), vegetable oil (vitamin A); no soy product | 2016 | [@NQR-02] {VN-direct\|Medium} {dx:revealed} |
 | Rules | Nutritional products for children up to 36 months | Must register; ordinary processed foods self-declare | 2018 | [@NQR-04] {VN-direct\|High} {dx:revealed} |
 | Trials | Fortified biscuits (5.6 mg zinc, 6 mg iron), rural Vietnam, 510 children aged 6 to 8, four months | Risk of anaemia and zinc deficiency cut by more than 40% | 2009 | [@NQR-22] {VN-direct\|High} {dx:tested} |
 
-Reading (our inference) {VN-direct|Medium} {dx:inferred}: no coded upland lunch was without meat, fish or egg, so a zinc-fortified soy dish sold to these kitchens would stretch pork, as tofu already does, rather than fill a gap. The documented gaps (breakfast, calcium, vitamin A) and stunting before age two point to other instruments. A fortified plant item for boarding breakfasts or charity-funded lunches is a research option to test on calcium and vitamin A as well as zinc.
+**What this means (our inference)** {VN-direct|Medium} {dx:inferred}: no coded upland lunch lacked meat, fish or egg. So a zinc-fortified soy dish sold to these kitchens would stretch pork, as tofu already does, rather than fill a gap. The documented gaps (breakfast, calcium, vitamin A) and stunting before age two point to other tools. A fortified plant item for boarding breakfasts or charity-funded lunches is a research option. It would need testing on calcium and vitamin A as well as zinc.
 
 **Related:** [[ch11-protein-diet]], [[ch12-chay-baseline]], [[app-d3-retail-demand-signals]].

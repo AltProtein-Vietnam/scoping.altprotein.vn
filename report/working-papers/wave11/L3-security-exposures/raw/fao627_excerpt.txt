@@ -1,0 +1,42 @@
+Excerpts from FAO (2018) Impacts of climate change on fisheries and aquaculture, Technical Paper 627, https://www.fao.org/3/i9705en/i9705en.pdf (text extracted with pdftotext, 2026-10-01).
+
+== Table 4.1 caption and header (DBEM) ==
+TABLE 4.1
+Projected changes in catch potential (%) by 2050 and 2100 relative to 2000 under RCP2.6 and RCP8.5 based on
+outputs from the dynamic bioclimate envelope model. The table shows the average change per EEZ, as well as the
+variability (range) around the average, representing the different estimates from the array of climate models used
+to drive the fisheries projections
+ Scenarios                    DBEM model:            DBEM model:                 DBEM model:              DBEM model:
+                            Mid Century RCP2.6     Mid Century RCP8.5        End of Century RCP2.6    End of Century RCP8.5
+ Metric                     Average       Range    Average          Range     Average        Range     Average        Range
+ American Samoa                -1.96        4.34      -9.52         16.81        -4.98         3.07      -66.73        27.57
+== Viet Nam row, Table 4.1 ==
+Viet Nam                        -6.77        8.85     -11.71          9.76        -7.49         2.30      -40.76        16.39
+
+== Table 4.2 caption and header (dynamic size-based food web model) ==
+TABLE 4.2
+Projected changes in catch potential (%) by 2050 and 2100 relative to 2000 under RCP2.6 and RCP8.5 based on outputs
+from the dynamic size-based food web model. The table shows the average change per EEZ as well as the variability
+(range) around the average, representing the different estimates from the array of climate models used to drive the
+projections
+Scenarios                     Dynamic size-based       Dynamic size-based      Dynamic size-based       Dynamic size-based
+                               food web model:          food web model:         food web model:          food web model:
+                              Mid Century RCP2.6       Mid Century RCP8.5     End of Century RCP2.6    End of Century RCP8.5
+Metric                         Average       Range     Average       Range     Average        Range     Average        Range
+American Samoa                    -2.22       15.34       -7.61       48.31        -2.96       21.61       -6.55        90.51
+== Viet Nam row, Table 4.2 ==
+Viet Nam                          -2.78      14.83        -4.27       11.12        0.00        11.30       -6.53        18.22
+
+== Chapter 21 aquaculture vulnerability ==
+prepared, to invest in adapting to impacts on production.
+   The vulnerability of freshwater aquaculture is greatest in Asia, with its large
+aquaculture sector. Viet Nam is the most vulnerable country followed by Bangladesh,
+The Lao People’s Democratic Republic and China (Figure 21.2a). Within the Americas,
+Belize, Honduras, Costa Rica and Ecuador appear most vulnerable. Uganda is
+indicated as the most vulnerable country in Africa followed by Nigeria and Egypt. It
+is worth noting that while African countries are ranked quite low in the overall VA
+because of relatively low current levels of aquaculture production, many also have low
+levels of adaptive capacity.
+   For brackish water production, Viet Nam, again, has high vulnerability scores,
+as does Ecuador. Egypt with its aquaculture production within the Nile delta and
+Thailand with its significant brackish water production of crustaceans also feature

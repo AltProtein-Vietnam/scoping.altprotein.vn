@@ -39,6 +39,8 @@ charts: [chart-feed-imports]                                 # ids in charts/cha
 ## 3. Writing
 
 - Plain English, short sentences, defined terms. Written so it survives machine translation into Vietnamese.
+- Follow the GOV.UK clear-language guidance (summarised in `working-papers/wave11/EDITORIAL-v0.8.md`, section 4): sentences of 15 to 20 words and none over 25 where avoidable; paragraphs of at most five sentences; main point first; active voice; plain words (buy, about, use, help, start); no buzzwords (deliver, leverage, robust, key, drive, facilitate, impact as a verb, going forward, in order to); explain every abbreviation and specialist term on first use on each page; no contractions.
+- Chapter openings use a `**In brief.**` box: one paragraph of at most five sentences, or three to six short bullets.
 - No em dashes. Use commas, colons, or separate sentences.
 - British spelling (programme, organisation, fibre).
 - Numbers: units always; say the year the number refers to; ranges with "to" (4 to 8 Mt). Mt = million tonnes, kt = thousand tonnes, t = tonne. Currency: USD unless stated; VND with thousands separators (26,000 VND per USD used throughout unless stated).
@@ -58,7 +60,7 @@ charts: [chart-feed-imports]                                 # ids in charts/cha
 
 ## 6. Scope reminder
 
-Supply side: raw materials, processes, manufacturing, rules, capital, science (Parts I, II and IV). Food and feed. Insect protein appears as an incumbent and benchmark, not as a recommended play. Part III covers the demand side as a design input: households, foodservice and institutions, business buyers and export demand. Consumer marketing plans and market-size forecasts remain out of scope; demand is sized only as labelled scenarios, and published market sizes without a traceable method are not used.
+Supply side: raw materials, processes, manufacturing, rules, capital, science (Parts I, II and IV). From version 0.8 the study is about protein for people (human food). Feed appears only as context: it is the hidden import behind the meat, eggs, milk and farmed fish people eat. Feed ingredients (fishmeal replacements, microbial, insect or duckweed feed) are not treated as a production target or a recommended play. Insect protein appears as an incumbent and benchmark, not as a recommended play. Part III covers the demand side as a design input: households, foodservice and institutions, business buyers and export demand. Consumer marketing plans and market-size forecasts remain out of scope; demand is sized only as labelled scenarios, and published market sizes without a traceable method are not used.
 
 ## 7. Versions and structure
 

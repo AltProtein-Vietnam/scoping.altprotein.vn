@@ -4,9 +4,9 @@ title: "F5. Targets, benchmarks and places: the policy and spatial frame to 2050
 short_title: "F5. Targets and hubs"
 section: appendix
 order: 65
-summary: "The evidence behind chapters 24 and 28: every official Vietnamese target relevant to protein supply from 2025 to 2050 and what the targets leave out, how protein and bioeconomy strategies abroad have fared, the map layers and six candidate hubs for a protein bioeconomy, and the full registers of the 22 normative vision milestones and the 21 robust moves."
+summary: "The evidence behind chapters 24 and 28: every official Vietnamese target relevant to protein supply from 2025 to 2050 and what the targets leave out, how protein and bioeconomy strategies abroad have fared, the map layers and six candidate hubs (clusters of plants on one site), and the full registers of the 25 vision milestones and the 21 moves tested for chapter 28."
 audiences: [policy, international, investors, research, manufacturers, startups]
-reading_time_min: 45
+reading_time_min: 53
 key_numbers: [kn-ag-emissions-cap-2050, kn-protein-plan-horizons]
 related_data: [national_targets_2050.csv, protein_strategies_benchmark.csv, foresight_methods.csv, bioeconomy_strategies.csv, hub_layers.csv, candidate_hubs.csv, vision_milestones.csv, robust_moves.csv, signposts_2050.csv, emissions_targets.csv, vn_energy_inputs_2050.csv]
 related_pages: [ch24-vision-2050, ch28-robust-moves, ch20-drivers-2050, ch21-frontier-technology, ch22-protein-balance-2050, ch23-scenarios-2050, ch27-policy-options, app-f1-outlook, app-s9-regulation, app-s3-regional, app-s10-admin-map, app-m2-futures-method, app-f2-drivers-signals, app-f6-aquafeed-feedstock-futures, app-r1-open-questions, app-r2-disagreements]
@@ -15,11 +15,19 @@ charts: []
 
 # F5. Targets, benchmarks and places: the policy and spatial frame to 2050
 
-**What this appendix contains.** The evidence behind [[ch24-vision-2050]] and [[ch28-robust-moves]]: a register of Vietnam's official targets relevant to protein supply by horizon, what those targets leave out, benchmarks from protein and bioeconomy strategies abroad, the map layers and six candidate hubs for a protein bioeconomy, and the full registers of the 22 vision milestones and the 21 robust moves.
+**What this appendix contains.** The evidence behind [[ch24-vision-2050]] and [[ch28-robust-moves]]:
+- a register of Vietnam's official targets relevant to protein supply, by horizon, and what those targets leave out;
+- benchmarks from protein and bioeconomy strategies abroad;
+- the map layers and six candidate hubs. A hub here means a cluster of plants on one site, or a few nearby sites, that share inputs such as sugar, power or buyers;
+- the full registers of the 25 vision milestones and the 21 moves tested for chapter 28.
 
-**How to use it.** Policy makers can start with F5.1 and F5.2 (what is planned, what is missing, and the 2026 to 2030 windows to add targets). Investors and founders can start with F5.5 (places and timing). F5.6 and F5.7 are the full tables behind chapters 24 and 28.
+The study now concentrates on protein for people. Many official targets are feed targets, and some hubs were first assessed for feed. We keep them as context and say where a hub or move served feed only.
 
-> **Method note.** Official targets carry *projection*: they are official targets, not forecasts. Hub scores, hub timings and site arithmetic are our estimates and carry no probabilities. The milestones in F5.6 are normative. We read the legal texts on thuvienphapluat.vn, a commercial mirror of official texts; the extraction tool sometimes paraphrased, so quotes are Medium confidence unless confirmed twice. Every "we found no" was checked with explicit keyword searches on thuvienphapluat.vn (24 September 2026; our search log). Decision numbers are Prime Minister decisions (QD-TTg) unless stated.
+**How to use it.** Policy makers can start with F5.1 and F5.2: what is planned, what is missing, and the windows to add targets in 2026 to 2030. Investors and founders can start with F5.5 (places and timing). F5.6 and F5.7 are the full tables behind chapters 24 and 28. Codes such as T1 (a play), P4 (a public good), RM-01 (a move), VM-01 (a vision milestone), CH-1 (a candidate hub) and S-ALT (a balance-model scenario) are decoded in [[front-how-to-read]].
+
+> **Method note.** Official targets carry *projection*: they are official targets, not forecasts. Hub scores, hub timings and site arithmetic are our estimates and carry no probabilities. The milestones in F5.6 are normative. We read the legal texts on thuvienphapluat.vn, a commercial mirror of official texts. The extraction tool sometimes paraphrased, so quotes are Medium confidence unless confirmed twice. We checked every "we found no" with explicit keyword searches on thuvienphapluat.vn (24 September 2026; our search log). Decision numbers are Prime Minister decisions (QD-TTg) unless stated.
+>
+> Abbreviations: MAE, Ministry of Agriculture and Environment (it now holds the former tasks of MARD and MONRE); MOST, Ministry of Science and Technology; MOF, Ministry of Finance; MOIT, Ministry of Industry and Trade; MOH, Ministry of Health; MOET, Ministry of Education and Training; VAST, Vietnam Academy of Science and Technology; NSO, National Statistics Office; NDC, Vietnam's nationally determined contribution under the Paris Agreement; DFI, development-finance institution; H2, hydrogen; MtCO2e, million tonnes of carbon dioxide equivalent.
 
 ---
 
@@ -42,7 +50,7 @@ charts: []
 | Domain | Instrument | Target for 2030 | Evidence |
 |---|---|---|---|
 | Livestock | Decision 1520 | Meat 6.0 to 6.5 Mt carcass; 58 to 62 kg per person. Names side streams to use as feed: spent grain, brewer's yeast, pineapple and cassava pulp, slaughter by-products, shrimp heads and shells, pangasius bone and fat | [@NTS-07; @REG-54; @MAC-23] {VN-direct\|High} {fx:projection} |
-| Feed | Decisions 1520 and 1625 | Industrial *thức ăn chăn nuôi* (livestock feed) 30 to 32 Mt; the 1625 text points to livestock feed only. Our model gives 26.4 Mt of livestock and poultry feed in 2030, so the target looks out of reach ([[ch22-protein-balance-2050]]) | [@NTS-23; @REG-54] {VN-direct\|Medium} {fx:projection} {fx:estimate} |
+| Feed | Decisions 1520 and 1625 | Industrial *thức ăn chăn nuôi* (livestock feed) 30 to 32 Mt; the 1625 text points to livestock feed only. Our model gives 26.4 Mt of livestock and poultry feed in 2030, so the target looks out of reach ([[app-f4-balance-model]], F4.7.2) | [@NTS-23; @REG-54] {VN-direct\|Medium} {fx:projection} {fx:estimate} |
 | Feed additives | Decision 1625 | Domestic additives 30 to 35% of demand. Budget VND 1,310 billion (about USD 50 million) for 2023 to 2030, about VND 700 billion for by-product processing | [@NTS-23] {VN-direct\|Medium} {fx:projection} |
 | Feed self-reliance | Resolution 19-NQ/TW (2022, continued in 2025 and 2026); Decision 150 (2022) | "Raise self-reliance in feed production"; command of the supply of seed, feed and fertiliser. No ratio | [@NTS-04; @NTS-05; @NTS-06] {VN-direct\|Medium} {fx:projection} |
 | Aquaculture | Decision 339 (11 Mar 2021), fisheries strategy | Aquaculture 7.0 Mt; fisheries 9.8 Mt; seafood exports USD 14 to 16 billion. Industrial feed to replace *cá tạp* (trash fish), with no volume or date | [@NTS-08] {VN-direct\|Medium} {fx:projection} |
@@ -156,13 +164,13 @@ None can be read from customs data today. Resolution 36's biotech share of GDP (
 | Window | Lead | Expected | What it could carry | Evidence |
 |---|---|---|---|---|
 | Food Safety Law and its decree | MOH | 2026 to 2027 | A definition of new food and a route with deadlines | [@REG-12; @REG-14] {VN-direct\|Medium} {fx:signal} |
-| Biotechnology-cluster plan (Directive 13) | MAE | December 2026 | Named fermentation and feed-protein sites | [@NTS-37; @HUB-09] {VN-direct\|Medium} {fx:signal} |
+| Biotechnology-cluster plan (Directive 13) | MAE | December 2026 | Named food-fermentation sites | [@NTS-37; @HUB-09] {VN-direct\|Medium} {fx:signal} |
 | National biotechnology strategy, vision 2045 | MOST | 2026 to 2027 (draft) | Fermentation and protein named; an import basket | [@FTB-49] {VN-direct\|Medium} {fx:signal} |
 | NDC 3.0 (2026 to 2035) | MAE | Approval due Q1 2026; we found none by September 2026 | First 2035 agriculture and livestock pathways | [@NTS-27; @CLM-03] {VN-direct\|Medium} {fx:signal} |
 | Water resources strategy to 2050 | MAE | 2026 | Groundwater rules for Mekong plants and farms | [@NTS-05] {VN-direct\|Medium} {fx:signal} |
-| Provincial hi-tech agriculture zones (Decree 263/2026) | Provinces | From July 2026 | Pilot fermentation and feed-trial campuses | [@HUB-26] {VN-direct\|Medium} {fx:signal} |
+| Provincial hi-tech agriculture zones (Decree 263/2026) | Provinces | From July 2026 | Pilot food-fermentation campuses | [@HUB-26] {VN-direct\|Medium} {fx:signal} |
 | Legal track for offshore wind "for new energy" | MOIT | 2027 to 2030 | Hydrogen siting for protein from power | [@FTG-28; @HUB-29] {VN-direct\|Medium} {fx:signal} |
-| Successor livestock and fisheries strategies | MAE | Drafting 2028 to 2030 | Protein and feed-balance targets for 2035 to 2050 | [@NTS-05; @NTS-07; @NTS-08] {VN-direct\|Low} {fx:signal} |
+| Successor livestock and fisheries strategies | MAE | Drafting 2028 to 2030 | Targets from a national protein balance for 2035 to 2050 | [@NTS-05; @NTS-07; @NTS-08] {VN-direct\|Low} {fx:signal} |
 
 ---
 
@@ -211,13 +219,13 @@ Simple averages between two published points (`working-papers/wave3/vision_bench
 
 | Analogue | Metric | Achieved pace | Pace the target needs | Use for Vietnam | Evidence |
 |---|---|---|---|---|---|
-| China | Soybean-meal share of feed, 2017 to 2025 | Minus 0.14 (17% in 2017 to about 16% in 2024, USDA and industry) to 0.45 points a year (to 13.4% in 2025, official) (0.9 to 2.9% relative) | Minus 0.68 points a year to 2030 | The formulation lever; RM-02's 1 to 2% a year sits inside it | [@GEO-10; @GEO-11] {VN-adjacent\|Medium} |
+| China | Soybean-meal share of feed, 2017 to 2025 | Minus 0.14 (17% in 2017 to about 16% in 2024, USDA and industry) to 0.45 points a year (to 13.4% in 2025, official) (0.9 to 2.9% relative) | Minus 0.68 points a year to 2030 | The formulation lever (feed context); the retired move RM-02's 1 to 2% a year sat inside it | [@GEO-10; @GEO-11] {VN-adjacent\|Medium} |
 | EU | EU-grown share of crop feed protein | About 0, 2018 to 2025 | Plus 0.92 points a year to 2035 | Upper bound for a domestic-origin share | [@VIS-15; @VIS-17] {general\|High} |
 | Japan | Pure-domestic feed self-sufficiency | About 0 points a year, FY2000 to FY2024 (26% in both) | Plus 0.8 points a year, FY2025 (24%) to FY2030 (28%) | Downside: land-poor importers do not move it | [@VIS-12] {VN-adjacent\|High} |
-| Norway | Marine share of salmon feed | Minus 2.6 (1990 to 2013), then minus 1.1 points a year (to 2020) | None | Price can drive fast substitution in aquafeed | [@VIS-18; @VIS-19] {general\|High} |
+| Norway | Marine share of salmon feed | Minus 2.6 (1990 to 2013), then minus 1.1 points a year (to 2020) | None | Price can cause fast substitution in aquafeed | [@VIS-18; @VIS-19] {general\|High} |
 | Norway | Novel ingredients in salmon feed | 0.4% in 2020; overall feed composition similar to 2016 | None | Ceiling for novel feed protein at national scale today | [@VIS-18; @VIS-20] {general\|High} |
 
-**Applied to Vietnam (our calculation, `vis_calc.py` parts B and C).** A soybean-meal inclusion trend of minus 1% a year lowers inclusion by 22% by 2050; minus 2% a year by 40% {VN-direct|Low} {fx:estimate}. The balance model's S-ALT scenario puts microbial protein at 1.0% (2030), 2.7% (2035), 4.4% (2040) and 8.4% (2050) of high-protein feed protein: plausible in 2030 against Norway's 0.4% (novel ingredients including insect meal, as a share of all salmon-feed ingredients, a different denominator), above any analogue in 2050 [@VIS-18] {VN-direct|Low} {fx:estimate}.
+**Applied to Vietnam, as feed context (our calculation, `vis_calc.py` parts B and C).** A soybean-meal inclusion trend of minus 1% a year lowers inclusion by 22% by 2050; minus 2% a year by 40% {VN-direct|Low} {fx:estimate}. The balance model's S-ALT scenario puts microbial protein at 1.0% (2030), 2.7% (2035), 4.4% (2040) and 8.4% (2050) of high-protein feed protein: plausible in 2030 against Norway's 0.4% (novel ingredients including insect meal, as a share of all salmon-feed ingredients, a different denominator), above any analogue in 2050 [@VIS-18] {VN-direct|Low} {fx:estimate}.
 
 ### F5.3.3 Peer budgets
 
@@ -229,13 +237,13 @@ Simple averages between two published points (`working-papers/wave3/vision_bench
 | Korea: food-tech policy funds | KRW 100 bn cumulative by 2027 | About USD 68 M in total | [@VIS-14; @VIS-06] {VN-adjacent\|Medium} |
 | Vietnam: feed scheme (Decision 1625) | VND 1,310 bn, 2023 to 2030 | USD 6.3 M | [@NTS-23] {VN-direct\|Medium} |
 
-A dedicated Vietnamese protein and feed-innovation line of USD 5 to 15 M a year from 2027 (VM-04, RM-11) would sit inside this peer range (our estimate; currency conversions approximate) {VN-direct|Low} {fx:estimate}.
+A dedicated Vietnamese food-protein innovation line of USD 5 to 15 M a year from 2027 (VM-04, RM-11) would sit inside this peer range (our estimate; currency conversions approximate) {VN-direct|Low} {fx:estimate}.
 
 ### F5.3.4 Framing and review cycles
 
 - **Security framing has displaced climate framing (2024 to 2026).** The EU's July 2026 plan is titled for "resilience, strategic autonomy and sustainability"; Japan and Korea state targets as food security; Singapore left alternative protein out of its food-security targets for cost and acceptance reasons [@VIS-15; @VIS-13; @VIS-29; @VIS-25] {general|Medium} {fx:signal}.
 - **Denmark alone pairs a transition fund with a price on livestock emissions** from 2030. Vietnam's carbon market excludes agriculture, so this is a benchmark for the 2040s, not a near-term lever [@VIS-03; @VIS-04; @ECF-13] {general|Medium} {fx:signal}.
-- **Review cycles decide whether a vision survives.** Japan checks KPIs every year; Finland reports each electoral term; Korea runs five-year plans under a statute (`foresight_methods.csv`, FSM-012, FSM-017, FSM-018) [@VIS-13; @VIS-44; @VIS-14; @VIS-28] {general|Medium}.
+- **Review cycles decide whether a vision survives.** Japan checks its indicators every year; Finland reports each electoral term; Korea runs five-year plans under a statute (`foresight_methods.csv`, FSM-012, FSM-017, FSM-018) [@VIS-13; @VIS-44; @VIS-14; @VIS-28] {general|Medium}.
 - **Vietnam's foresight base is thin.** The Delphi for the 2021 to 2030 science strategy had 15 experts per field; its authors advise small scenario workshops [@VIS-45] {VN-direct|Medium}. *Vietnam 2035* is the precedent for a jointly written national vision [@VIS-46] {VN-direct|Medium}. Method: [[app-m2-futures-method]].
 
 ---
@@ -264,6 +272,14 @@ Condensed from the 24 rows of `bioeconomy_strategies.csv`.
 ## F5.5 Places: the spatial frame
 
 No official text sites a protein or fermentation industry. The six candidate hubs combine sourced map layers into places where several inputs meet. They are options to test, not forecasts. Files: `hub_layers.csv`, `candidate_hubs.csv`, `working-papers/wave3/spatial_hubs/hub_calc.py`.
+
+**For protein for people, four hubs matter most:**
+- CH-4, Ho Chi Minh City and Dong Nai: pilot plants, food fermentation and tolling (renting time on someone else's fermenter);
+- CH-3, Tay Ninh: fermentation sugar from cassava;
+- CH-2, the Mekong river belt: rice side streams;
+- CH-6, the north: research.
+
+CH-5, the south-central coast, holds small food niches. CH-1, the Mekong shrimp coast, is context only: its case rests on aquafeed buyers and on hydrogen for protein from power, both feed uses. We keep the layers, scores and timings below as first assessed, with the feed plays marked.
 
 **Place names** (current unit, former units in brackets; [[app-s10-admin-map]]): Ca Mau (former Ca Mau, Bac Lieu); Vinh Long (former Vinh Long, Tra Vinh, Ben Tre); Dong Thap (former Dong Thap, Tien Giang); Can Tho (former Can Tho, Hau Giang, Soc Trang); An Giang (former An Giang, Kien Giang); Tay Ninh (former Tay Ninh, Long An); Dong Nai (former Dong Nai, Binh Phuoc); Ho Chi Minh City (former Ho Chi Minh City, Binh Duong, Ba Ria-Vung Tau); Khanh Hoa (former Khanh Hoa, Ninh Thuan); Lam Dong (former Lam Dong, Binh Thuan, Dak Nong); Gia Lai (former Gia Lai, Binh Dinh); Quang Ngai (former Quang Ngai, Kon Tum); Da Nang (former Da Nang, Quang Nam); Hai Phong (former Hai Phong, Hai Duong); Hung Yen (former Hung Yen, Thai Binh); Bac Ninh (former Bac Ninh, Bac Giang); Ninh Binh (former Ninh Binh, Ha Nam, Nam Dinh); Quang Tri (former Quang Tri, Quang Binh).
 
@@ -296,16 +312,18 @@ Our judgement for hubs opening between now and 2050: 0 absent, 3 strong; climate
 | CH-5 South-central coast | 3 | 0 | 1 | 1 | 1 | 2 | 1 | 2 | 2 | 13 |
 | CH-6 North | 2 | 2 | 1 | 1 | 2 | 3 | 3 | 2 | 2 | 18 |
 
+The buyers column mostly scores feed buyers (farms, hatcheries and feed mills), so it may overstate the Mekong hubs for protein for people. We have not rescored it for food buyers.
+
 ### F5.5.3 Six candidate hubs, in order of opening
 
 | Hub | Provinces | Assets | Missing | Fitting plays | Timing | Opens when | Evidence |
 |---|---|---|---|---|---|---|---|
 | CH-4 Pilot, tolling and port hub | Ho Chi Minh City; Dong Nai | Vedan, Ajinomoto and AB Mauri fermenters; about 140 kt a year of glucose syrup (Vedan nameplate, 1995); Saigon Hi-Tech Park; Region II aquafeed trial centre; Cai Mep Ha free trade zone; soybean crusher; fertiliser and ethanol CO2 | An open food-grade pilot offer; affordable land | T5, T7, T1, T9, T8 research | Now to 2035; regional contract role from 2035 | A fermenter or the hi-tech park publishes a tolling offer | [@IND-01; @IND-04; @HUB-06; @VCO-16; @COST-21] {VN-direct\|Medium} {fx:estimate} |
-| CH-2 Pangasius, rice and university hub | Dong Thap; An Giang; Can Tho; inland Vinh Long | About 35% of 1.74 Mt of pangasius (Dong Thap); about 26% of national straw-power potential (former Dong Thap, An Giang and Kien Giang: 660 of 2,565 MW, our sum); Can Tho University; Region I trial sub-centre; aquafeed mills | Pilot fermentation; an energy edge | T2, T6, T9, T10; side-stream microbial protein; straw fermentation after 2035 | 2027 to 2035 | A shared pilot fermenter opens in Can Tho | [@HUB-13; @HUB-14; @HUB-27; @INF-28] {VN-direct\|Low} {fx:estimate} |
-| CH-3 Cassava fermentation-sugar hub | Tay Ninh; Dong Nai cassava areas | 68 starch factories and 6.4 Mt a year of root capacity (former Tay Ninh alone); pulp and biogas; the lowest industrial-park occupancy in the south (60.9% in the second quarter of 2026) and a large land bank | Third-party glucose; secure roots (Cambodian supply near exhaustion; mosaic disease); CO2 and hydrogen | T4, T3, T2, T7 by tolling, T9 | 2028 to 2040 | A starch group sells glucose under contract | [@FS-03; @FS-14; @COST-21] {VN-direct\|Low} {fx:estimate} |
-| CH-1 Aquafeed-and-hydrogen hub | Ca Mau; coastal Vinh Long; coastal Can Tho | Ca Mau farmed about 595,000 t of shrimp in 2025; three large aquafeed sites; about 118 kt a year of planned hydrogen (former Tra Vinh, Ben Tre and Bac Lieu); 1,740 MW of approved wind; Dinh An Economic Zone | Built hydrogen; a legal track for new-energy offshore wind; a working zone; CO2 data; subsidence-safe sites | T2 now; T6; T3 after 2030; hydrogen-oxidising bacteria | T2 2027 to 2030; demonstration 2032 to 2035; scale 2040 to 2045 | An electrolyser reaches investment decision and new-energy wind gets a legal track | [@HUB-04; @HUB-05; @HUB-15; @HUB-22; @CLM-14; @IND-66] {VN-direct\|Low} {fx:estimate} |
-| CH-6 Research-and-industry hub | Hanoi; Hai Phong; Quang Ninh; Hung Yen; Bac Ninh; Ninh Binh | Hanoi Biotechnology Hi-Tech Park; Hoa Lac and its AI compute; national institutes; Livestock trial centre I; northern renewable centre; steel CO2 | A biofoundry; cheap hydrogen; carbohydrate; aquafeed demand | AI bio-design and a build-test lab; T8; T7 strains; T9; P3, P4 | Research now to 2035; industry 2040 to 2050 | Northern offshore wind and published CO2 purity data | [@HUB-19; @HUB-20; @INF-25; @FTB-16; @FTG-18; @INF-18] {VN-direct\|Low} {fx:estimate} |
-| CH-5 Renewable-protein coast | Khanh Hoa; Lam Dong; link to Gia Lai | Southern renewable centre; top irradiance (former Binh Thuan); planned nuclear (4.0 to 6.4 GW, 2030 to 2035); over 30% of national shrimp postlarvae (former Ninh Thuan); Nha Trang research | Concentrated CO2; hydrogen projects; buyers; a pilot site; water (not verified) | Hatchery microalgae and larval feeds (2027 to 2035); protein from renewable power (2040 to 2050) | 2035 to 2050 | New-energy wind is legal and an electrolyser is built here | [@HUB-02; @HUB-23; @FTG-15; @FTG-18] {VN-direct\|Low} {fx:estimate} |
+| CH-2 Pangasius, rice and university hub | Dong Thap; An Giang; Can Tho; inland Vinh Long | About 35% of 1.74 Mt of pangasius (Dong Thap); about 26% of national straw-power potential (former Dong Thap, An Giang and Kien Giang: 660 of 2,565 MW, our sum); Can Tho University; Region I trial sub-centre; aquafeed mills | Pilot fermentation; an energy edge | T9 (fungal foods on rice bran and broken rice), T10 (rice protein); side-stream microbial protein; straw fermentation after 2035. Feed plays T2 and T6 are retired | 2027 to 2035 | A shared pilot fermenter opens in Can Tho | [@HUB-13; @HUB-14; @HUB-27; @INF-28] {VN-direct\|Low} {fx:estimate} |
+| CH-3 Cassava fermentation-sugar hub | Tay Ninh; Dong Nai cassava areas | 68 starch factories and 6.4 Mt a year of root capacity (former Tay Ninh alone); pulp and biogas; the lowest industrial-park occupancy in the south (60.9% in the second quarter of 2026) and a large land bank | Third-party glucose; secure roots (Cambodian supply near exhaustion; mosaic disease); CO2 and hydrogen | T4, T7 by tolling, T9. Feed plays T3 and T2 are retired | 2028 to 2040 | A starch group sells glucose under contract | [@FS-03; @FS-14; @COST-21] {VN-direct\|Low} {fx:estimate} |
+| CH-1 Aquafeed-and-hydrogen hub (context only) | Ca Mau; coastal Vinh Long; coastal Can Tho | Ca Mau farmed about 595,000 t of shrimp in 2025; three large aquafeed sites; about 118 kt a year of planned hydrogen (former Tra Vinh, Ben Tre and Bac Lieu); 1,740 MW of approved wind; Dinh An Economic Zone | Built hydrogen; a legal track for new-energy offshore wind; a working zone; CO2 data; subsidence-safe sites | None of the active plays. Its fit rested on feed: T2, T6 and T3 (retired) and hydrogen-oxidising bacteria for feed protein | As first assessed for feed: T2 2027 to 2030; demonstration 2032 to 2035; scale 2040 to 2045 | An electrolyser reaches investment decision and new-energy wind gets a legal track | [@HUB-04; @HUB-05; @HUB-15; @HUB-22; @CLM-14; @IND-66] {VN-direct\|Low} {fx:estimate} |
+| CH-6 Research-and-industry hub | Hanoi; Hai Phong; Quang Ninh; Hung Yen; Bac Ninh; Ninh Binh | Hanoi Biotechnology Hi-Tech Park; Hoa Lac and its AI compute; national institutes; Livestock trial centre I; northern renewable centre; steel CO2 | A biofoundry; cheap hydrogen; carbohydrate | AI bio-design and a build-test lab; T8; T7 strains; T9; P4. P3 (feed trials) is retired | Research now to 2035; industry 2040 to 2050 | Northern offshore wind and published CO2 purity data | [@HUB-19; @HUB-20; @INF-25; @FTB-16; @FTG-18; @INF-18] {VN-direct\|Low} {fx:estimate} |
+| CH-5 Renewable-protein coast | Khanh Hoa; Lam Dong; link to Gia Lai | Southern renewable centre; top irradiance (former Binh Thuan); planned nuclear (4.0 to 6.4 GW, 2030 to 2035); over 30% of national shrimp postlarvae (former Ninh Thuan); Nha Trang research | Concentrated CO2; hydrogen projects; buyers; a pilot site; water (not verified) | For food: seaweed protein and small T7. Protein from renewable power for feed or export (2040 to 2050) and hatchery microalgae and larval feeds (2027 to 2035) are context | 2035 to 2050 | New-energy wind is legal and an electrolyser is built here | [@HUB-02; @HUB-23; @FTG-15; @FTG-18] {VN-direct\|Low} {fx:estimate} |
 
 **A corridor to watch, not a hub.** Quang Ngai (Dung Quat steel, refinery, ethanol), Da Nang and Gia Lai hold the largest CO2 sources but few feed buyers and no hydrogen; the Ca Voi Xanh gas field had no first-gas date in July 2026. The corridor could fit protein from steel off-gas in 2035 to 2045 if a steel maker chose that route [@HUB-24; @HUB-25; @FTG-20] {VN-direct|Low} {fx:signal}.
 
@@ -326,8 +344,8 @@ The Mekong total is about 123 kt a year (our sum), against a national target of 
 
 ### F5.5.5 Zones
 
-- **Cai Mep Ha free trade zone (Decision 4560/QD-UBND, 23 July 2026):** 4,174.35 ha in Ho Chi Minh City, with 906.07 ha for logistics and 850.67 ha for industry, urban use and services beside a deep-sea port. "Green" and "circular" production are named; biotech and food are not [@HUB-06] {VN-direct|High}. Its neighbours, the VAL crusher (nearly 2 Mt of soybean meal a year) and Entobel's insect plant, are the incumbents a novel feed protein must beat [@VCO-16; @FS-43] {VN-direct|Medium}.
-- **Decree 263/2026 on *khu nông nghiệp ứng dụng công nghệ cao* (hi-tech agriculture zones), in force from 1 July 2026:** provinces decide; functions are research, trials, pilot production and incubation; incentives are 70% interest support capped at 8% a year and land-fee exemption for infrastructure. It fits a feed-trial and pilot-fermentation campus; we could not tell whether full-scale plants qualify [@HUB-26; @INF-23] {VN-direct|Medium} {fx:signal}.
+- **Cai Mep Ha free trade zone (Decision 4560/QD-UBND, 23 July 2026):** 4,174.35 ha in Ho Chi Minh City, with 906.07 ha for logistics and 850.67 ha for industry, urban use and services beside a deep-sea port. "Green" and "circular" production are named; biotech and food are not [@HUB-06] {VN-direct|High}. Its neighbours are the VAL crusher (nearly 2 Mt of soybean meal a year) and Entobel's insect plant, the feed incumbents, which are context for this study [@VCO-16; @FS-43] {VN-direct|Medium}.
+- **Decree 263/2026 on *khu nông nghiệp ứng dụng công nghệ cao* (hi-tech agriculture zones), in force from 1 July 2026:** provinces decide; functions are research, trials, pilot production and incubation; incentives are 70% interest support capped at 8% a year and land-fee exemption for infrastructure. It fits a pilot food-fermentation campus; we could not tell whether full-scale plants qualify [@HUB-26; @INF-23] {VN-direct|Medium} {fx:signal}.
 - **The bioeconomy's own map is blank:** on 24 September 2026 MAE had published no location for its biotechnology clusters (due December 2026) or its "at least 5" innovation centres to 2030 [@HUB-09; @HUB-10; @NTS-37] {VN-direct|Medium} {fx:signal}.
 - **Lessons from stalled zones.** The 418 ha Bac Lieu shrimp hi-tech zone (2017), whose scope includes feed processing, lost investors while land procedures stayed unresolved. The 5,200 ha Hau Giang zone (2012) had cleared only 10 ha for investors by 2020. Fix land procedures before announcing [@HUB-11; @HUB-12] {VN-direct|Medium}.
 - **Rivals put pilot capacity inside designated zones:** Thailand's EECi (two 15,000 L fermenters), Singapore's ScaleUp Bio, India's BioE3 hubs [@RGN-36; @FTB-17; @ECO-23] {VN-adjacent|Medium}.
@@ -368,60 +386,76 @@ Our calculation in `hub_calc.py` for sites built 2035 to 2045 {VN-direct|Low} {f
 | The S-ALT 2050 feed product (about 860 kt dry) | About 78 times Entobel's Vietnamese capacity (11 kt a year across two plants) or 43 plants of Calysseo's 20 kt size |
 | Buyers | Ca Mau farmed 594,851 t of shrimp in 2025; Dong Thap's pangasius needs 0.91 to 1.04 Mt of feed a year at a feed conversion ratio of 1.5 to 1.7 (assumed) |
 
-**Reading.** For a protein pilot, co-location with an electrolyser matters more than the hydrogen itself: by-product oxygen and ammonia and a buyer next door are the advantage. Several sugar-route plants fit in Tay Ninh; a national 2050 build-out does not [@HUB-05; @FS-03] {VN-direct|Low} {fx:estimate}.
+**Reading.** Several sugar-route plants fit in Tay Ninh, enough for food fermentation at the scale demand supports; the whole S-ALT build-out for 2050 does not. For a pilot on hydrogen, co-location with an electrolyser matters more than the hydrogen itself: by-product oxygen and ammonia and a buyer next door are the advantage. That route served feed in our assessment and is now context [@HUB-05; @FS-03] {VN-direct|Low} {fx:estimate}.
 
 ### F5.5.9 A siting rule for 2050, and the scenarios
 
-A siting rule for the S-ALT plants in 2050, not a forecast {VN-direct|Low} {fx:estimate}: plants on sugar follow carbohydrate (CH-3, CH-4, the Central Highlands); plants on hydrogen follow electrolysers (CH-1 first, CH-5 later); functional-ingredient plants follow buyers and trial sites (CH-2, CH-4). No hub can host the whole scenario. In the 2035 scenarios of [[ch19-outlook-2035]], CH-4 alone matters in Scenario 1; CH-2 and CH-3 lead Scenario 2; Scenario 3 needs CH-4 for tolling and CH-6 for research. The hydrogen hubs (CH-1 at scale, CH-5) belong only to 2040 to 2050 worlds in which new-energy offshore wind is built; the mapping to the 2050 worlds is in [[ch23-scenarios-2050]].
+A siting rule for the S-ALT plants in 2050, not a forecast {VN-direct|Low} {fx:estimate}:
+- plants on sugar follow carbohydrate (CH-3, CH-4, the Central Highlands);
+- plants on hydrogen follow electrolysers (CH-1 first, CH-5 later);
+- functional-ingredient plants follow buyers and trial sites (CH-2, CH-4).
+
+For protein for people, the first rule is the one that matters: food fermentation on sugar. The other two served feed plays and are now context. No hub can host the whole scenario.
+
+In the 2035 scenarios of [[ch19-outlook-2035]], CH-4 alone matters in Scenario 1; CH-2 and CH-3 lead Scenario 2; Scenario 3 needs CH-4 for tolling and CH-6 for research. The hydrogen hubs (CH-1 at scale, CH-5) belong only to 2040 to 2050 worlds in which new-energy offshore wind is built; the mapping to the 2050 worlds is in [[ch23-scenarios-2050]].
 
 ---
 
 ## F5.6 Vision milestones
 
-All 22 rows of `vision_milestones.csv`. Each row is a **normative milestone** of [[ch24-vision-2050]]: a goal put forward for discussion, not a forecast and not an official target. The benchmark and evidence tag describe what makes it plausible.
+All 25 rows of `vision_milestones.csv`. Each row is a **normative milestone** of [[ch24-vision-2050]]: a goal put forward for discussion, not a forecast and not an official target. Chapter 24 marks the values as vision values; the benchmark and evidence tag here describe what makes each plausible. The five pillars are Measure, Make, Diversify, Specialise and Secure.
+
+Soybean-meal import need, the microbial share of feed protein and non-marine omega-3 in aquafeed are no longer vision goals, because the study now concentrates on protein for people. The ranges behind them stay as context in [[app-f4-balance-model]] (F4.8) and [[app-f6-aquafeed-feedstock-futures]] (F6.6).
+
+**How to read the model rows.** The ranges in VM-08, VM-09, VM-11 to VM-14, VM-16, VM-17 and VM-21 to VM-24 run from the benchmark path (D-BENCH) to the stretch path (D-STRETCH) of the demand model. The trend column gives the drift path (D-DRIFT), in which new protein stays a small import-substitution business ([[ch18-demand-sizing]], [[app-d8-demand-model]]). "Made in Vietnam" is the model reading of routes R1 to R6. Routes R2 to R6 count protein of any origin. New routes are import substitution, upgraded *chay* (traditional vegetarian food), blends, canteen dishes, analogues, plant drinks and exports.
 
 | ID | Year | Plan cycle | Pillar | Normative milestone | Value | Trend | Benchmark | Evidence |
 |---|---|---|---|---|---|---|---|---|
-| VM-01 | 2026 to 2028 | 2026 to 2030 | Measure | First national protein and feed balance, then yearly | By 2028 | None exists | EU balance sheet; Japan's yearly KPI checks | [@VIS-15; @VIS-13] {general\|Medium} |
-| VM-02 | 2026 to 2028 | 2026 to 2030 | Rules | New-food procedure with timelines and reliance; aquafeed entries for microbial biomass and algal oils | By 2027 to 2028 | No procedure | Korea changed a rule in about nine months | [@REG-12; @REG2-01; @RGN-19; @RGN-21] {VN-direct\|Medium} |
-| VM-03 | 2026 to 2028 | 2026 to 2030 | Places | Fermentation and feed-protein sites named in the MAE cluster plan | December 2026 to 2027 | Map blank | Thailand's EECi; India's BioE3 hubs | [@HUB-09; @FTB-17; @RGN-36] {VN-direct\|Medium} |
-| VM-04 | 2026 to 2028 | 2026 to 2030 | Money | Dedicated protein and feed-innovation line | USD 5 to 15 M a year | About USD 6 M (feed scheme) | Denmark, Germany, Canada | [@VIS-01; @VIS-24; @NTS-23] {general\|Medium} |
-| VM-05 | 2030 | 2026 to 2030 | Economise | Soybean-meal import need near the efficiency path | 7.8 to 8.3 Mt (our balance model) | 8.5 Mt (our balance model) | China's formulation pace | [@GEO-10; @GEO-11] {VN-adjacent\|Low} |
-| VM-06 | 2030 | 2026 to 2030 | Diversify | Microbial (non-insect) feed protein in use | About 1% of high-protein feed protein (about 50 kt of protein; about 4.5 times Entobel's Vietnamese capacity of 11 kt a year by tonnage, or about nine times on a protein basis, our calculation) | Near 0 | Norway 0.4% (2020) | [@VIS-18; @ECO-02] {general\|Low} |
-| VM-07 | 2030 | 2026 to 2030 | Places | One open food-grade pilot plant | 10,000 to 30,000 L | None | ScaleUp Bio; EECi | [@RGN-36] {VN-adjacent\|Medium} |
-| VM-08 | 2030 | 2031 to 2035 | Measure | Successor livestock and fisheries strategies carry protein-balance targets for 2035 to 2040 | Targets adopted | Targets stop at 2030 | EU 2035 target | [@NTS-05; @VIS-15; @NTS-07; @NTS-08] {VN-direct\|Medium} |
-| VM-09 | 2035 | 2031 to 2035 | Economise | Soybean-meal need below trend | 8.1 to 9.0 Mt (our balance model) | 9.5 Mt (our balance model) | EU target pace | [@VIS-15] {general\|Low} |
-| VM-10 | 2035 | 2031 to 2035 | Diversify | Microbial feed protein grows with fishmeal parity | 1 to 3% | Near 0 | Norway, the best-documented case, is 0.4% | [@VIS-18] {general\|Low} |
-| VM-11 | 2035 | 2031 to 2035 | Measure | Domestic-origin share of feed protein rises | Plus 3.5 to 7 points on the baseline | Flat (Japan) | EU pace (0.9 points a year) as the top | [@VIS-15; @VIS-12] {general\|Low} |
-| VM-12 | 2035 | 2031 to 2035 | Review | First full review against the scenario signposts | Review published | None | JRC stress test; FAO triggers | [@VIS-35; @VIS-36; @VIS-32] {general\|Medium} |
-| VM-13 | 2040 | 2036 to 2040 | Economise | Soybean-meal need below trend | 7.8 to 9.2 Mt | 10.0 Mt | S-EFF to S-ALT | Our balance model (QNT-model, [[app-f4-balance-model]]) {VN-direct\|Low} {fx:estimate} |
-| VM-14 | 2040 | 2036 to 2040 | Diversify | Microbial feed protein | 2 to 4% | Near 0 | S-ALT (4.4%) | Our balance model (QNT-model, [[app-f4-balance-model]]) {VN-direct\|Low} {fx:estimate} |
-| VM-15 | 2040 | 2036 to 2040 | Decarbonise | Residue carbon and clean power supply most new fermentation capacity | A majority of new capacity | Cassava and grid power | Power plan: 74 to 75% non-hydro renewables by 2050 | [@GT-11] {VN-direct\|Low} |
-| VM-16 | 2045 | 2041 to 2045 | Specialise | In line with the 2045 visions of Resolutions 36 and 57: biotechnology a major industry; high-income status | Biotech 10 to 15% of GDP (undefined statistic) | n/a | Official 2045 visions | [@NTS-01; @REG-51; @NTS-03; @NTS-28] {VN-direct\|Medium} |
-| VM-17 | 2045 | 2041 to 2045 | Diversify | Protein from power at commercial scale on the Mekong shrimp coast, if the five conditions of chapter 21 align | At least one plant (conditional) | None | Chapter 21 conditions | [@FTG-01; @HUB-05] {VN-direct\|Low} |
-| VM-18 | 2050 | 2046 to 2050 | Economise | Soybean-meal need well below trend | 7.0 to 8.8 Mt (our balance model) | 10.4 Mt (our balance model) | Balance model; China and Norway | [@QNT-01; @VIS-19] {VN-direct\|Low} |
-| VM-19 | 2050 | 2046 to 2050 | Diversify | Microbial feed protein | 4 to 8% | Near 0 | 10 to 20 times Norway's 0.4% (2020) | [@VIS-18] {general\|Low} |
-| VM-20 | 2050 | 2046 to 2050 | Diversify | Non-marine omega-3 in aquafeed | 15 to 50% of EPA plus DHA | Near 0 | Algal and oilseed oils are commercial | [@AQF-19; @AQF-23; @AQF-24] {general\|Low} |
-| VM-21 | 2050 | 2046 to 2050 | Measure | Domestic-origin share of feed protein | Plus 11 to 22 points on the 2028 baseline | Flat | EU pace as the top | [@VIS-15] {general\|Low} |
-| VM-22 | 2050 | 2046 to 2050 | Decarbonise | Agriculture within its cap, with feed protein counted | 56 MtCO2e or less | 104.5 MtCO2e (2020, NDC BAU projection) | Official cap | [@CLM-01; @CLM-08] {VN-direct\|Medium} |
+| VM-01 | 2026 to 2028 | 2026 to 2030 | Measure | First national protein balance for people (what people eat by food, source and origin, with a memo line for the imported feed behind domestic animal protein), then yearly | Yes, by 2028 | None exists | EU balance-sheet guidance; Japan's yearly indicator checks | [@VIS-15; @VIS-13] {general\|Medium} |
+| VM-02 | 2026 to 2028 | 2026 to 2030 | Make | New-food route: a delegation clause in the Food Safety Law before the vote considered in May 2027, then a proportionate novel-food procedure in its implementing decree, with statutory timelines and reliance on reference regulators | Clause by early 2027; procedure by 2027 to 2028 | No procedure | Korea amended an existing rule in about nine months | [@APR-07; @REG-12; @RGN-19; @RGN-21; @RGN-34] {VN-direct\|Medium} |
+| VM-03 | 2026 to 2028 | 2026 to 2030 | Make | Food-fermentation sites named in the MAE biotechnology-cluster plan | December 2026 to 2027 | Map blank | Thailand's EECi; India's BioE3 hubs | [@HUB-09; @FTB-17] {VN-direct\|Medium} |
+| VM-04 | 2026 to 2028 | 2026 to 2030 | Make | Dedicated public food-protein innovation line | USD 5 to 15 M a year | None for food protein; a feed-industry scheme has about USD 6 M a year | Denmark, Germany, Canada | [@VIS-01; @VIS-04; @VIS-24; @NTS-23] {general\|Medium} |
+| VM-05 | 2026 to 2028 | 2026 to 2030 | Secure | New protein plants on climate-proof sites: raised sites, surface water rather than groundwater, and process designs for cooling water at 40 °C in the Mekong | Siting rule applied from 2027 | No rule | Mekong subsidence of about 1.1 cm a year | [@CLM-13; @CLM-14; @CLM-16] {VN-direct\|Medium} |
+| VM-06 | 2028 to 2030 | 2026 to 2030 | Measure | Protein-quality laboratory with accredited amino-acid and digestibility testing, and a public price series for food protein ingredients | By 2030 | No laboratory page we read lists digestibility testing | Overseas laboratories used for now | [@INF-03; @INF-10; @INF-11; @INF-13; @INF-14] {VN-direct\|Medium} |
+| VM-07 | 2030 | 2026 to 2030 | Make | One open food-grade pilot fermentation plant operating | 10,000 to 30,000 L | None | ScaleUp Bio; EECi | [@RGN-36; @RGN-13] {VN-adjacent\|Medium} |
+| VM-08 | 2030 | 2026 to 2030 | Make | Protein made in Vietnam for the home market (model reading) | 5.2 to 12.1 kt of protein a year | 1.2 (D-DRIFT) | Demand model, D-BENCH to D-STRETCH | [@BUY-02; @GT-12; @QNT-01] {VN-direct\|Low} {fx:estimate} {dx:inferred} |
+| VM-09 | 2030 | 2026 to 2030 | Diversify | Protein supplied by new routes | 5.9 to 14.1 kt of protein a year | 1.3 (D-DRIFT) | Demand model, D-BENCH to D-STRETCH | [@BUY-02; @GLB-09; @GT-12; @QNT-01] {VN-direct\|Low} {fx:estimate} {dx:inferred} |
+| VM-10 | 2030 | 2031 to 2035 | Measure | Successor livestock and fisheries strategies carry targets from the protein balance for 2035 to 2040 | Targets in the strategies | Targets stop at 2030 | EU protein plan targets for 2035 | [@NTS-05; @VIS-15] {VN-direct\|Medium} |
+| VM-11 | 2035 | 2031 to 2035 | Make | Protein made in Vietnam for the home market (model reading) | 16.6 to 38.1 kt of protein a year (strict benchmark reading about 11.4) | 3.0 (D-DRIFT) | Demand model, D-BENCH to D-STRETCH | [@BUY-02; @GT-12; @QNT-01] {VN-direct\|Low} {fx:estimate} {dx:inferred} |
+| VM-12 | 2035 | 2031 to 2035 | Make | Domestic makers supply part of the food plant-protein ingredient pool now imported (textured soy, gluten, isolates) | 25 to 45% of the pool | 5% (D-DRIFT) | Demand model, D-BENCH to D-STRETCH | [@BUY-02] {VN-direct\|Low} {fx:estimate} {dx:inferred} |
+| VM-13 | 2035 | 2031 to 2035 | Diversify | Protein supplied by new routes | 19.1 to 45.6 kt of protein a year | 3.2 (D-DRIFT) | Demand model, D-BENCH to D-STRETCH | [@BUY-02; @GLB-09; @GT-12; @QNT-01] {VN-direct\|Low} {fx:estimate} {dx:inferred} |
+| VM-14 | 2035 | 2031 to 2035 | Secure | New protein adds a second source beside meat (tracked to show scale, not a diet target) | 0.18 to 0.71% of meat protein displaced | 0.01% (D-DRIFT) | Demand model; existing *chay* days already avoid about 2.5% of meat protein | [@CHY-06; @GLB-19] {VN-direct\|Low} {fx:estimate} {dx:inferred} |
+| VM-15 | 2035 | 2031 to 2035 | Measure | First full review of the vision against the scenario signposts | Review published | None | EU Joint Research Centre stress test; FAO triggers | [@VIS-35; @VIS-36] {general\|Medium} |
+| VM-16 | 2040 | 2036 to 2040 | Make | Protein made in Vietnam for the home market (model reading) | 28.7 to 64.7 kt of protein a year | 5.0 (D-DRIFT) | Demand model, D-BENCH to D-STRETCH | [@BUY-02; @GT-12; @QNT-01] {VN-direct\|Low} {fx:estimate} {dx:inferred} |
+| VM-17 | 2040 | 2036 to 2040 | Diversify | Protein supplied by new routes | 33.1 to 78.4 kt of protein a year | 5.5 (D-DRIFT) | Demand model, D-BENCH to D-STRETCH | [@BUY-02; @GLB-09; @GT-12; @QNT-01] {VN-direct\|Low} {fx:estimate} {dx:inferred} |
+| VM-18 | 2040 | 2036 to 2040 | Secure | Residue carbon and clean power supply a growing share of new food-fermentation capacity | Growing; a majority only if cellulosic or one-carbon sugar works | Cassava and grid power | Power plan: 74 to 75% non-hydro renewables by 2050 | [@GT-11; @NGF-01; @NGF-11] {VN-direct\|Low} |
+| VM-19 | 2045 | 2041 to 2045 | Specialise | Aligned with official 2045 goals (official targets, not part of our vision): biotechnology at 10 to 15% of GDP (Resolution 36); developed, high-income status (Resolution 109/NQ-CP) | Biotech 10 to 15% of GDP (undefined statistic); high income | n/a | Official 2045 goals | [@NTS-01; @NTS-28] {VN-direct\|Medium} {fx:projection} |
+| VM-20 | 2045 | 2041 to 2045 | Specialise | Vietnam supplies fermentation sugar from cassava and contract food fermentation to buyers in the region | At least one site selling to regional buyers | Starch exported; almost no glucose sold to China (2024) | Vietnam became China's largest cassava-starch supplier in 2025; existing tanks for MSG (monosodium glutamate), lysine and yeast | [@FS-01; @FS-13; @RGN-51; @RGN-55; @IND-01] {VN-direct\|Low} |
+| VM-21 | 2050 | 2046 to 2050 | Make | Protein made in Vietnam for the home market (model reading) | 59.2 to 146.5 kt of protein a year | 9.9 (D-DRIFT) | Demand model, D-BENCH to D-STRETCH | [@BUY-02; @GT-12; @QNT-01] {VN-direct\|Low} {fx:estimate} {dx:inferred} |
+| VM-22 | 2050 | 2046 to 2050 | Make | Domestic makers supply part of the food plant-protein ingredient pool now imported (textured soy, gluten, isolates) | 40 to 60% of the pool | 10% (D-DRIFT) | Demand model, D-BENCH to D-STRETCH | [@BUY-02] {VN-direct\|Low} {fx:estimate} {dx:inferred} |
+| VM-23 | 2050 | 2046 to 2050 | Diversify | Protein supplied by new routes | 66.7 to 171.5 kt of protein a year | 10.7 (D-DRIFT) | Demand model, D-BENCH to D-STRETCH | [@BUY-02; @GLB-09; @GT-12; @QNT-01] {VN-direct\|Low} {fx:estimate} {dx:inferred} |
+| VM-24 | 2050 | 2046 to 2050 | Secure | New protein adds a second source beside meat (tracked to show scale, not a diet target) | 0.41 to 1.52% of meat protein displaced | 0.04% (D-DRIFT) | Demand model; existing *chay* days already avoid about 2.5% of meat protein | [@CHY-06; @GLB-19] {VN-direct\|Low} {fx:estimate} {dx:inferred} |
+| VM-25 | 2050 | 2046 to 2050 | Secure | Agriculture within its 56 MtCO2e cap, with every new protein plant shown lower-carbon than the protein it replaces on a published method | 56 MtCO2e or less | 104.5 MtCO2e in 2020 | Official cap | [@CLM-01] {VN-direct\|Medium} |
 
-**Links.** VM-03 depends on the December 2026 cluster plan (F5.2.3) and the hubs of F5.5; VM-04 sits inside the peer budgets of F5.3.3; VM-08 is the only milestone that would put a protein number into an official strategy beyond 2030; VM-11 and VM-21 take the EU pace (F5.3.2) as their top; VM-16 and VM-22 restate official targets from F5.1.
+**Links.** VM-03 depends on the December 2026 cluster plan (F5.2.3) and the hubs of F5.5. VM-04 sits inside the peer budgets of F5.3.3. VM-05 applies the climate limits of F5.5.7. VM-10 is the only milestone that would put a protein number into an official strategy beyond 2030. VM-19 and VM-25 restate official targets from F5.1. VM-20 rests on the cassava hub, CH-3.
 
 ---
 
-## F5.7 Robust moves register
+## F5.7 Register of moves that pay off in any 2050
 
-All 21 rows of `robust_moves.csv`, short form. Class and scores are our judgement of payoffs to 2050 across the worlds of [[ch23-scenarios-2050]], in the order A, B, C, D (2 thrives, 1 holds, 0 struggles) {VN-direct|Low} {fx:estimate}. Signposts (`signposts_2050.csv`): SP-01 fishmeal above USD 2,500 per t for 12 months; SP-02 anchoveta quota below 2 Mt in two of five years; SP-05 a month-long shipping disruption; SP-10 Chinese yeast and protein imports up over 20% a year for three years; SP-12 an ASEAN novel-food reliance mechanism; SP-13 non-Chinese Asian plants above 10 kt a year selling regionally; SP-16 landed Chinese microbial protein below its production cost for two quarters.
+All 21 rows of `robust_moves.csv`, short form. Five moves are retired because the study now concentrates on protein for people: RM-02, RM-07, RM-16, RM-17 and RM-20, all feed moves. Their rows stay as the record. That leaves 16 active moves: seven no-regret moves, six options, two bets and one hedge.
+
+Class and scores are our judgement of payoffs to 2050 across the four worlds of [[ch23-scenarios-2050]], in the order A, B, C, D (2 thrives, 1 holds, 0 struggles) {VN-direct|Low} {fx:estimate}. Signposts (`signposts_2050.csv`): SP-01 fishmeal above USD 2,500 per t for 12 months; SP-02 anchoveta quota below 2 Mt in two of five years; SP-05 a month-long shipping disruption; SP-10 Chinese yeast and protein imports up over 20% a year for three years; SP-12 an ASEAN novel-food reliance mechanism; SP-13 non-Chinese Asian plants above 10 kt a year selling regionally; SP-16 landed Chinese microbial protein below its production cost for two quarters.
 
 | ID | Move | Class | Lead actors | Start by | Pays off in (A, B, C, D) | Trigger | Evidence |
 |---|---|---|---|---|---|---|---|
-| RM-01 | Publish a national protein and feed balance | No-regret | MAE; NSO; feed association | 2028 | All (2, 2, 2, 2) | None needed | [@VIS-15; @VIS-13] {general\|Medium} {fx:estimate} |
-| RM-02 | Feed-efficiency and formulation programme | No-regret | MAE; integrators; feed mills; universities | 2027 | All (2, 2, 2, 2) | None needed | [@GEO-10; @GEO-11] {VN-adjacent\|Medium} {fx:estimate} |
-| RM-03 | New-food and new-feed-ingredient routes with deadlines | No-regret | MOH; MAE | 2027 to 2028 | All (2, 2, 2, 2) | Food Safety Law and decree; feed-list updates | [@REG-12; @REG2-01] {VN-direct\|Medium} {fx:estimate} |
-| RM-04 | Shared food-grade pilot and feed-trial capacity | No-regret | MOST; Ho Chi Minh City; universities; DFIs | 2030 | All (2, 2, 2, 2) | None needed | [@RGN-36; @FTB-42] {VN-adjacent\|Medium} {fx:estimate} |
+| RM-01 | Publish a national protein balance (what people eat, with a memo line for the feed behind domestic animal protein) | No-regret | MAE; NSO; MOH (National Institute of Nutrition) | 2028 | All (2, 2, 2, 2) | None needed | [@VIS-15; @VIS-13] {general\|Medium} {fx:estimate} |
+| RM-02 | Feed-efficiency and formulation programme (retired: feed) | No-regret (retired) | MAE; integrators; feed mills; universities | 2027 | All (2, 2, 2, 2) | None needed | [@GEO-10; @GEO-11] {VN-adjacent\|Medium} {fx:estimate} |
+| RM-03 | New-food route with deadlines | No-regret | MOH; MAE | 2027 to 2028 | All (2, 2, 2, 2) | Food Safety Law and decree; feed-list updates | [@REG-12; @REG2-01] {VN-direct\|Medium} {fx:estimate} |
+| RM-04 | Shared food-grade pilot capacity | No-regret | MOST; Ho Chi Minh City; universities; DFIs | 2030 | All (2, 2, 2, 2) | None needed | [@RGN-36; @FTB-42] {VN-adjacent\|Medium} {fx:estimate} |
 | RM-05 | Protein-quality laboratory and open price series | No-regret | MOST; MAE; a university | 2028 | All (2, 2, 2, 2) | None needed | Adulteration is a listed wildcard ([[app-f2-drivers-signals]]) {VN-direct\|Low} {fx:estimate} |
 | RM-06 | Residue-carbon rules and a by-product atlas | No-regret | MAE; provinces; industry | 2028 | All (2, 2, 2, 2) | None needed | [@NTS-32; @NGF-14] {VN-direct\|Medium} {fx:estimate} |
-| RM-07 | Omega-3 sourcing plan for aquafeed | No-regret | Feed mills; MAE; research institutes | 2028 | All (2, 2, 2, 2) | None needed | [@AQF-16; @AQF-19] {general\|Medium} {fx:estimate} |
+| RM-07 | Omega-3 sourcing plan for aquafeed (retired: feed) | No-regret (retired) | Feed mills; MAE; research institutes | 2028 | All (2, 2, 2, 2) | None needed | [@AQF-16; @AQF-19] {general\|Medium} {fx:estimate} |
 | RM-08 | Climate-proof siting for new plants | No-regret | Provinces; MAE; investors | 2027 | All (2, 2, 2, 2) | None needed | [@CLM-13; @CLM-14; @CLM-16] {VN-direct\|Medium} {fx:estimate} |
 | RM-09 | Process-engineering skills | No-regret | MOET; MOST; universities; industry | 2027 | All (2, 2, 2, 2) | None needed | [@ECF-41; @ECF-39] {VN-direct\|Medium} {fx:estimate} |
 | RM-10 | Reserve hub sites | Option | MAE; provinces | 2026 to 2027 | A, C; D partly (2, 0, 2, 1) | Cluster plan drafting now | [@HUB-09; @HUB-26; @NTS-37] {VN-direct\|Medium} {fx:estimate} |
@@ -430,20 +464,20 @@ All 21 rows of `robust_moves.csv`, short form. Class and scores are our judgemen
 | RM-13 | Join regional approval and statistics networks | Option | MOH; MAE; MOIT | 2027 | A, C (2, 1, 2, 1) | SP-12 | [@REG-63; @VIS-15] {general\|Medium} {fx:estimate} |
 | RM-14 | Seed research on cultivated seafood cells and gas fermentation | Option | MOST; VAST; universities | 2028 | A, C (2, 0, 2, 0) | None needed | [@FTG-14] {VN-direct\|Medium} {fx:estimate} |
 | RM-15 | Clear rules for second-hand fermentation equipment | Option | MOF; MOIT | 2027 | C; A, D partly (1, 0, 2, 1) | Distressed-asset sales abroad | [@FTB-38] {general\|Low} {fx:estimate} |
-| RM-16 | Bulk microbial feed protein beyond about 1% of feed protein | Bet | Investors; feed mills; DFIs | On signpost | C; D partly (0, 0, 2, 1) | SP-01 sustained, and pilot cost within 1.2 times fishmeal-protein parity | [@VIS-18; @VIS-20] {general\|Low} {fx:estimate} |
-| RM-17 | Protein-from-power demonstration on the Mekong shrimp coast | Bet | Investors; hydrogen developers; MOIT | 2032 to 2035 at the earliest | C; A partly (1, 0, 2, 0) | Green hydrogen below USD 2 per kg; firm renewable power below USD 45 per MWh | [@FTG-01; @HUB-05; @FTG-18; @FTG-19] {VN-direct\|Low} {fx:estimate} |
+| RM-16 | Bulk microbial feed protein beyond about 1% of feed protein (retired: feed) | Bet (retired) | Investors; feed mills; DFIs | On signpost | C; D partly (0, 0, 2, 1) | SP-01 sustained, and pilot cost within 1.2 times fishmeal-protein parity | [@VIS-18; @VIS-20] {general\|Low} {fx:estimate} |
+| RM-17 | Protein-from-power demonstration on the Mekong shrimp coast (retired: feed) | Bet (retired) | Investors; hydrogen developers; MOIT | 2032 to 2035 at the earliest | C; A partly (1, 0, 2, 0) | Green hydrogen below USD 2 per kg; firm renewable power below USD 45 per MWh | [@FTG-01; @HUB-05; @FTG-18; @FTG-19] {VN-direct\|Low} {fx:estimate} |
 | RM-18 | Contract precision-fermentation plant for export | Bet | Investors; foreign partners | 2030 to 2035 | A; C partly (2, 0, 1, 0) | A new-food route, SP-12 or SP-13, and an anchor customer | [@FTB-18; @FTB-41] {general\|Low} {fx:estimate} |
 | RM-19 | Cellulosic sugar from rice straw | Bet | Investors; MOIT; provinces | On signpost | C; A partly (1, 0, 2, 0) | An Asian straw plant above 80% of design capacity for two years | [@NGF-11; @NGF-33] {general\|Low} {fx:estimate} |
-| RM-20 | Diversified feed-protein sourcing and working stocks | Hedge | Feed mills; integrators; MOIT | 2027 | C, D (1, 1, 2, 2) | SP-05 | [@MAC-24; @COST-33] {VN-direct\|Low} {fx:estimate} |
+| RM-20 | Diversified feed-protein sourcing and working stocks (retired: feed) | Hedge (retired) | Feed mills; integrators; MOIT | 2027 | C, D (1, 1, 2, 2) | SP-05 | [@MAC-24; @COST-33] {VN-direct\|Low} {fx:estimate} |
 | RM-21 | Import monitoring and equal standards for protein imports | Hedge | MOF (customs); MAE | 2027 | B, D (1, 2, 1, 2) | SP-10; SP-16 | We found no baseline import series {VN-direct\|Low} {fx:estimate} |
 
-**Links.** RM-10 is the spatial move (F5.5.5); RM-08 applies the climate limits of F5.5.7; RM-01, RM-03 and RM-06 would fill absences in F5.2.1; RM-17 depends on the hydrogen pipeline of F5.5.4.
+**Links.** RM-10 is the spatial move (F5.5.5): it would name food-fermentation sites. RM-08 applies the climate limits of F5.5.7. RM-01, RM-03 and RM-06 would fill absences in F5.2.1. The retired RM-17 depended on the hydrogen pipeline of F5.5.4.
 
 ---
 
 ## F5.8 Gaps and open questions
 
-These feed [[app-r1-open-questions]]; conflicting numbers go to [[app-r2-disagreements]].
+These go to [[app-r1-open-questions]]; conflicting numbers go to [[app-r2-disagreements]].
 
 | # | Gap | Cheapest way to close it |
 |---|---|---|
@@ -484,8 +518,8 @@ These feed [[app-r1-open-questions]]; conflicting numbers go to [[app-r2-disagre
 - `bioeconomy_strategies.csv` (24 rows): bioeconomy and biomanufacturing strategies in Vietnam and abroad.
 - `hub_layers.csv` (92 rows): map layers (energy, hydrogen, CO2, zones, carbohydrate, residues, buyers, research) by current and former province.
 - `candidate_hubs.csv` (6 rows): the six candidate hubs with assets, gaps, plays, horizon and signposts.
-- `vision_milestones.csv` (22 rows): the normative milestones of chapter 24.
-- `robust_moves.csv` (21 rows): the moves of chapter 28, with scores by world and triggers.
+- `vision_milestones.csv` (25 rows): the normative milestones of chapter 24.
+- `robust_moves.csv` (21 rows): the moves of chapter 28, with scores by world, triggers and status (five feed moves retired).
 - `signposts_2050.csv` (16 rows): signposts and thresholds used as triggers.
 - `emissions_targets.csv` (19 rows): official emission and methane caps.
 - `vn_energy_inputs_2050.csv` (50 rows): power, hydrogen and grid inputs to 2050.

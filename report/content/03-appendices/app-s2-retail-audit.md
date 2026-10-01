@@ -6,7 +6,7 @@ section: appendix
 order: 22
 summary: "What 186 plant-protein products on 11 Vietnamese shelves are made of, who makes them and where their protein comes from. Most of the shelf is low in protein, every protein-dense local product runs on imported soy protein or wheat gluten, and no Vietnamese textured soy protein plant was found."
 audiences: [manufacturers, startups, investors, research, policy]
-reading_time_min: 37
+reading_time_min: 38
 key_numbers: [kn-retail-median-protein, kn-imported-protein-ingredient-share, kn-china-tvp-exports]
 related_data: [retail_audit_skus.csv, brands.csv, marketplace_sku_counters.csv, ingredient_suppliers.csv, retail_audit_summary_archetypes.csv, retail_audit_summary_protein_by_type.csv, retail_audit_summary_price_per_100g_by_type.csv, retail_audit_summary_price_per_protein_by_type.csv, retail_audit_summary_primary_protein_family_by_type.csv, trade_flows.csv, feed_imports.csv]
 related_pages: [ch02-alt-protein-today, ch04-asset-map, app-s1-directory, app-s4-feedstocks, app-s5-facilities, app-s12-costs, app-r2-disagreements, app-r1-open-questions, brief-manufacturers, brief-startups, app-d3-retail-demand-signals]
@@ -15,24 +15,26 @@ charts: [chart-retail-protein-archetypes, chart-retail-price-per-protein]
 
 # S2. Retail formulation audit (Nha Trang and Ho Chi Minh City, September 2026)
 
-This appendix reads the retail shelf as supply-side evidence. A product label tells us which protein ingredient a Vietnamese manufacturer buys, who made the product, where the plant is, and how much protein reaches the consumer. We use the shelf to map ingredient demand and manufacturers, not to size a consumer market.
+This appendix uses the retail shelf as evidence on supply. A product label tells us which protein ingredient a Vietnamese manufacturer buys, who made the product, where the plant is, and how much protein reaches the consumer. We use the shelf to map ingredient demand and manufacturers, not to size a consumer market.
 
-The audit covered every non-animal protein product we could find in 11 modern and specialty stores: traditional Vietnamese vegetarian food, *đồ chay* (mock meats, filled wrappers and ready meals), tofu, plant milks and yoghurts, vegan cheese, imported "modern" meat analogues and protein powders. The field data are cited as [@FORM-01]. Trade figures, company facts and ingredient channels are cited to their own sources.
+The audit covered every non-animal protein product we could find in 11 modern and specialty stores. That included traditional Vietnamese vegetarian food, *đồ chay* (mock meats, filled wrappers and ready meals), tofu, plant milks and yoghurts, vegan cheese, imported "modern" meat analogues and protein powders. We cite the field data as [@FORM-01]. We cite trade figures, company facts and ingredient channels to their own sources.
 
 Terms used in this appendix:
 
-- **TVP**: textured vegetable (soy) protein, made by extrusion.
+- **TVP**: textured vegetable (soy) protein, made by extrusion (cooking a protein dough under pressure and pushing it through a die).
 - **SPC**: soy protein concentrate. **SPI**: soy protein isolate, the more refined, higher-protein form.
 - *đạm đậu nành* (soy protein): the label term used for TVP, SPC and SPI alike. Labels rarely say which.
 - *tàu hũ ky* (tofu skin, yuba). *mì căn* (wheat gluten, seitan).
 - **Hydrated**: sold wet (ready-to-cook or ready-to-eat). **Dry**: sold dried, for example dried TVP slices.
 - **SKU row**: one product in one store. The same product seen in three stores is three SKU rows but one **unique product**.
+- **Analogue**: a product made to look and eat like meat or seafood. **Co-packer**: a firm that makes products for another brand.
+- **HS code**: the harmonised system code that customs use to classify a product (for example HS 2106.10). **WITS**: the World Bank's World Integrated Trade Solution database. **USDA Post**: the US Department of Agriculture's office in Vietnam.
 
-## S2.1 Key findings
+## S2.1 Main findings
 
 1. **Most of the plant-protein shelf is not a protein product.** Plant milks (51 SKU rows, 27%) and filled wrappers such as spring rolls, dumplings and buns (47 rows, 25%) are the two largest groups among 186 SKU rows [@FORM-01] {VN-direct|High}. Across 43 unique hydrated foods with a label value, median protein is 4.7 g per 100 g; 53% have under 5 g and 16% reach 10 g [@FORM-01] {VN-direct|High}.
 2. **Chay has two protein tiers with little in between.** Filled wrappers with mung bean fillings carry 1.5 to 5.7 g protein per 100 g (median 4.0 g, 14 products). Gluten or TVP analogues carry 12 to 25 g hydrated (median 19 g, 5 products), and dried TVP or gluten slices 53 to 67 g as sold (median 64 g, 5 products) [@FORM-01] {VN-direct|High}.
-3. **Every locally made product with 10 g or more protein per 100 g runs on an imported protein ingredient.** All 10 such unique products (8 An Nhien, 1 Xuan Hong, 1 Au Lac) use (or, for three, almost certainly use) soy protein, TVP, SPC or wheat gluten. Local foods with no imported protein ingredient reach at most 4.6 g (median 3.0 g, n = 8) [@FORM-01] {VN-direct|High}.
+3. **Every locally made product with 10 g or more protein per 100 g runs on an imported protein ingredient.** There are 10 such unique products (8 An Nhien, 1 Xuan Hong, 1 Au Lac). All use soy protein, TVP, SPC or wheat gluten (for three of them, almost certainly). Local foods with no imported protein ingredient reach at most 4.6 g (median 3.0 g, n = 8) [@FORM-01] {VN-direct|High}.
 4. **About 77 to 88% of SKU rows depend on an imported main protein ingredient.** Of 170 SKU rows where the main protein ingredient could be identified, 77% rely on an imported one, 11% partly and 12% on a domestic one [@FORM-01] {VN-direct|Medium}.
 5. **China is a major supplier of concentrated plant-protein ingredients.** China reported exports to Vietnam in 2023 of 7,957 t of protein concentrates and textured protein (HS 2106.10), 10,028 t of HS 3504 (which includes SPI) and 10,338 t of wheat gluten [@FORM-05; @FORM-06; @FORM-07] {VN-direct|High}.
 6. **We found no commercial TVP extrusion in Vietnam.** Distributors sell Chinese SPI and gluten in 20 to 25 kg bags; one An Nhien label names soy protein from Serbia (logged as SPC); Chinese extrusion lines are offered for sale [@FORM-11; @FORM-12; @FORM-01; @FORM-34] {VN-direct|Medium}. This is absence of evidence after a limited search.
@@ -45,7 +47,7 @@ Terms used in this appendix:
 
 ### Stores, dates and collector
 
-One field collector working for AltProtein Vietnam visited 11 stores on three days: five in Nha Trang (Khanh Hoa) on 6 September 2026, two in Ho Chi Minh City on 16 September 2026 and four in Ho Chi Minh City on 20 September 2026 [@FORM-01] {VN-direct|High}. The collector photographed shelves, price tags and packs, then filled ingredients and nutrition from pack photos or, where the pack was not legible, from the brand's own page or a retailer listing ("collector OSINT", with the link logged per row).
+One field collector working for AltProtein Vietnam visited 11 stores on three days: five in Nha Trang (Khanh Hoa) on 6 September 2026, two in Ho Chi Minh City on 16 September 2026 and four in Ho Chi Minh City on 20 September 2026 [@FORM-01] {VN-direct|High}. The collector photographed shelves, price tags and packs. Ingredients and nutrition came from the pack photos. Where a pack was not legible, they came from the brand's own page or a retailer listing, with the link logged for each row ("collector OSINT", meaning open-source research).
 
 | Store | City | Date | Channel | Price positioning | SKU rows | Imported finished rows |
 |---|---|---|---|---|---|---|
@@ -68,7 +70,7 @@ Source for the table: [@FORM-01] {VN-direct|High}. "Imported finished rows" coun
 
 The product log has 23 fields per SKU row: store, product name, brand, origin, category, format, pack size, shelf price, price per 100 g, a conventional equivalent price where logged, shelf placement, ingredients, and five nutrition values per 100 g or 100 ml (energy, protein, fat, carbohydrate, sodium) [@FORM-01] {VN-direct|High}. The cleaned file `retail_audit_skus.csv` has 46 fields. It keeps the logged values and adds derived fields such as product type, as-sold form, formulation archetype, primary and secondary protein sources, a non-vegan flag, price per 100 g of protein, an import flag, brand owner, manufacturer, plant location and confidence.
 
-Coverage of the key fields [@FORM-01] {VN-direct|High}:
+Coverage of the main fields [@FORM-01] {VN-direct|High}:
 
 - 120 SKU rows have an ingredient list.
 - 78 SKU rows (66 unique products) have a protein value.
@@ -229,7 +231,7 @@ The collector logged a conventional (meat) equivalent for five chay SKUs, all in
 
 Only the VISSAN pair is a high-confidence, same-brand comparison: the chay spring roll is 38% cheaper per 100 g than the meat version [@FORM-01] {VN-direct|Medium}. The other four pairs range from 52% cheaper to 19% dearer on low-confidence reads [@FORM-01] {VN-direct|Low}. The field notes stated a range of 17 to 38% cheaper for same-brand spring-roll pairs [@FORM-01] {VN-direct|Low}. Our position: chay is often cheaper than meat per 100 g of product for spring rolls; this is not established across categories (logged in [[app-r2-disagreements]]).
 
-No protein values were captured for the conventional products. Because most chay wrappers hold about 2 to 6 g of protein per 100 g (median 4.3 g) [@FORM-01] {VN-direct|High}, a cheaper pack is not cheaper protein. For supply-side purposes this matters: chay sells at or below the price of meat, so formulators have little room to pay more for protein ingredients.
+We captured no protein values for the conventional products. Most chay wrappers hold about 2 to 6 g of protein per 100 g (median 4.3 g) [@FORM-01] {VN-direct|High}, so a cheaper pack is not cheaper protein. This matters for supply: chay sells at or below the price of meat, so formulators have little room to pay more for protein ingredients.
 
 ## S2.9 Import dependence of the main protein ingredient
 
@@ -295,8 +297,8 @@ Cautions:
 
 ### Soybeans and crushing
 
-- Soybeans for tofu, soy milk and tofu skin are imported (see the correction in S2.9). USDA Post estimated food use at 540,000 t (MY2024/25) rising to 550,000 t [@FORM-09] {VN-direct|High}.
-- **Domestic crushing is feed-grade.** VAL (Bunge-Wilmar joint venture) at Phu My 1 Industrial Park, Ho Chi Minh City (former Ba Ria-Vung Tau), can crush 2.6 Mt of soybeans and make nearly 2 Mt of meal a year after a USD 100 million second line (December 2025), and is expected by a Ho Chi Minh City People's Committee official to supply about 30% of the domestic soybean meal market for feed [@VCO-16; @FORM-10] {VN-direct|Medium}. It has no food-grade defatted flake or soy protein line on record [@VCO-16] {VN-direct|Medium}. A food-grade stream from such a crusher is the obvious domestic feedstock for Vietnamese TVP.
+- Soybeans for tofu, soy milk and tofu skin are imported (see the correction in S2.9). USDA Post estimated food use at 540,000 t (marketing year 2024/25) rising to 550,000 t [@FORM-09] {VN-direct|High}.
+- **Domestic crushing is feed-grade.** VAL (Bunge-Wilmar joint venture) at Phu My 1 Industrial Park, Ho Chi Minh City (former Ba Ria-Vung Tau), can crush 2.6 Mt of soybeans and make nearly 2 Mt of meal a year after a USD 100 million second line (December 2025). A Ho Chi Minh City People's Committee official expects it to supply about 30% of the domestic soybean meal market for feed [@VCO-16; @FORM-10] {VN-direct|Medium}. It has no food-grade defatted flake or soy protein line on record [@VCO-16] {VN-direct|Medium}. A food-grade stream from such a crusher is the obvious domestic feedstock for Vietnamese TVP.
 
 > **Correction.** The formulation note quoted soybean meal imports of "about 5.9 to 6 Mt a year" from the VAL press article [@FORM-10] {VN-direct|Medium}. The report uses 5.70 Mt of soybean meal imported in 2025 and 7.2 Mt fed [@MAC-04] {VN-direct|Medium}; see [[app-s6-feed-market]].
 
@@ -315,7 +317,7 @@ A 2022 to 2023 survey covered 126 vegetarian food production, processing and tra
 - **Dried TVP retails at 8 to 12 times the import unit value.** Retail dried TVP costs VND 327,000 to 500,000 per kg [@FORM-01] {VN-direct|Medium}; the 2023 China-reported unit value of HS 2106.10 exports to Vietnam was USD 1.59/kg, about VND 41,300 per kg at VND 26,000 per USD (our calculation: 327,000 / 41,340 = 7.9; 500,000 / 41,340 = 12.1) [@FORM-05] {VN-direct|Low}.
 - **Gluten is roughly 5 to 7% of the retail price of a 19 g protein gluten analogue** (our calculation). Inputs: analogue at VND 23,200 per 100 g (VND 232,000 per kg) and 19 g protein per 100 g [@FORM-01] {VN-direct|Medium}; vital wheat gluten assumed at about 75% protein and supplying all the protein, so about 253 g of gluten per kg of product; gluten at USD 1.73/kg (China-reported) to USD 2.52/kg (Vietnam-reported, all origins) [@FORM-07; @FORM-03] {VN-direct|High}, converted at VND 26,000 per USD. Result: VND 11,400 to 16,600 of gluten per kg, or 4.9 to 7.2% of the retail price {VN-direct|Low}. This is modelled arithmetic, not company cost data.
 
-Implication: a domestic TVP needs an ex-works price near the China-reported unit value of exports to Vietnam (USD 1.59/kg, about VND 41,300 per kg at VND 26,000 per USD, our calculation; before freight, duty and distributor margin) to compete head-on [@FORM-05] {VN-direct|Medium}. Formulators may pay a modest premium for consistency, non-GMO status, traceability or local supply security, but not a large one, because chay sells at or below meat prices (section S2.8).
+What this means: to compete head-on, a domestic TVP needs an ex-works (factory-gate) price near the China-reported unit value of exports to Vietnam. That value was USD 1.59/kg, about VND 41,300 per kg at VND 26,000 per USD (our calculation), before freight, duty and distributor margin [@FORM-05] {VN-direct|Medium}. Formulators may pay a small premium for consistency, non-GMO (not genetically modified) status, traceability or local supply security. But they will not pay a large one, because chay sells at or below meat prices (section S2.8).
 
 ## S2.11 Technology level
 
@@ -358,7 +360,7 @@ Mainstream makers minimise protein ingredients. The protein-dense segment is sma
 
 ## S2.13 First customers for a domestic protein ingredient
 
-Named buyers with label or product-page evidence of the ingredient they use today, except Au Lac (inferred from protein level) [@FORM-01] {VN-direct|Medium}:
+These are named buyers with label or product-page evidence of the protein ingredient they use today. The one exception is Au Lac, where we infer the ingredient from the protein level [@FORM-01] {VN-direct|Medium}:
 
 1. **An Nhien / Pham Gia Phat**: soy protein, SPC and gluten; 12 SKU rows; dried and frozen analogues [@FORM-01; @FORM-16; @FORM-17] {VN-direct|High}.
 2. **Au Lac**: a 25.1 g protein analogue implies gluten or soy protein; long-established Ho Chi Minh City maker with export claims [@FORM-01; @FORM-20; @ECO-26] {VN-direct|Medium}.
@@ -371,11 +373,11 @@ Named buyers with label or product-page evidence of the ingredient they use toda
 9. **Retailer co-packers**, such as GN Foods (Tay Ninh), which Co.op Online names as the maker of all five Co.op Select frozen chay dishes [@FORM-01; @ECO-35; @CPC-15] {VN-direct|Medium}. A co-packer can take a protein upgrade to the retailer without a consumer brand.
 10. **Vinamilk and Vinasoy** for plant-milk proteins: pea protein at Vinamilk and soy and oat at Vinasoy today; okara and soy by-products are a separate lead [@FORM-01] {VN-direct|Medium}.
 
-What a supplier could displace, in order of realism (our reading of the evidence):
+What a domestic supplier could replace, most realistic first (our reading of the evidence):
 
 - **Textured soy granules, chunks and slices** in chay fillings, dried analogues and canned slices. The import pool is about 8,000 t a year of China-origin HS 2106.10 (2023), part of which is TVP [@FORM-05] {VN-direct|Medium}. A 5,000 to 10,000 t a year extruder would be sized to replace a large share of it if it matched price (our calculation on the same input; the TVP share of the code is unknown).
 - **Wheat gluten** in *chả*, *giò* and seafood analogues (10,000 to 12,000 t or more a year of imports) [@FORM-07; @FORM-03] {VN-direct|Medium}. Hard to displace: gluten gives an elastic bite that rice, mung bean or fungal proteins do not. Blends are more realistic than substitution.
-- **Pea protein** in plant milks and yoghurts. A mung bean protein isolate is the closest functional substitute with a regional supply base (Myanmar, Cambodia, Vietnam), but it is an origin or allergen play, not a price play [@FORM-08] {general|Low}.
+- **Pea protein** in plant milks and yoghurts. A mung bean protein isolate is the closest functional substitute with a regional supply base (Myanmar, Cambodia, Vietnam), but its case rests on origin or allergens, not on price [@FORM-08] {general|Low}.
 - **Protein upgrading of filled wrappers** (archetype A1, 38 rows, about 4 g protein). Adding 3 to 5% TVP or mung bean protein could lift these to about 5.5 to 7 g (our estimate), but the A1 median price is about VND 11,000 per 100 g (our calculation, 30 priced rows), so the added ingredient must be cheap [@FORM-01] {VN-direct|Low}.
 
 ## S2.14 Limitations
@@ -392,14 +394,14 @@ What a supplier could displace, in order of realism (our reading of the evidence
 
 ## S2.15 What a follow-up audit should capture
 
-Designed for supply-side use (ingredients and manufacturers), at low cost:
+These items serve supply-side use (ingredients and manufacturers) and are cheap to collect:
 
 1. **Manufacturer name, address and registration number from every pack** (the "manufactured by" and "self-declaration" lines). This gives plant locations directly and links products to co-packers.
 2. **Origin of every protein ingredient where printed** ("xuất xứ", non-GMO claims, country of SPC or TVP), and the full ingredient list with percentages.
 3. **Nutrition panels for conventional equivalents** (VISSAN *giò lụa*, *giò thủ*, *chả giò* with meat; Cau Tre *chả giò* with meat), so that price per gram of protein can be compared, not only price per 100 g.
-4. **Laboratory protein and moisture** for 10 to 15 high-volume chay SKUs at an accredited Vietnamese laboratory (for example NIFC or a QUATEST unit; see [[app-s8-labs-talent]]).
+4. **Laboratory protein and moisture** for 10 to 15 high-volume chay SKUs at an accredited Vietnamese laboratory (for example the National Institute for Food Control, NIFC, or a state QUATEST quality-testing centre; see [[app-s8-labs-talent]]).
 5. **Dedicated chay shops and wet markets**: a half-day visit to three or four shops around Nguyen Kiem (near Au Lac) in Ho Chi Minh City, and small makers in Hanoi, Hue and Tay Ninh.
-6. **Online listings**: a read of marketplace chay listings for brands and prices not on modern-retail shelves. We later tested the reach: in a logged-out desktop browser, Lazada and Tiki show unit-sales counters, sellers and review counts (96 SKUs read on 25 September 2026, in `marketplace_sku_counters.csv`), while Shopee sends search and product pages to a login wall and TikTok Shop shows a puzzle CAPTCHA, so both stay unread [@MKT-01; @MKT-02; @MKT-03; @MKT-05] {VN-direct|High}. On Lazada the small online chay sellers are dry-piece shops: nine listings of dry soy-and-gluten pieces show about 40,700 kg sold, 82% from one shop, with makers not named on the pages [@MKT-03] {VN-direct|Low}. Tiki lists no chay foods. The remaining step is a repeat read of the same listings to turn cumulative counters into sales rates, and a way to read Shopee and TikTok Shop that respects their access rules (for example a paid market-data report).
+6. **Online listings**: a read of marketplace chay listings for brands and prices not on modern-retail shelves. We later tested what can be read. In a logged-out desktop browser, Lazada and Tiki show unit-sales counters, sellers and review counts (96 SKUs read on 25 September 2026, in `marketplace_sku_counters.csv`). Shopee sends search and product pages to a login wall, and TikTok Shop shows a puzzle CAPTCHA, so both stay unread [@MKT-01; @MKT-02; @MKT-03; @MKT-05] {VN-direct|High}. On Lazada the small online chay sellers are dry-piece shops: nine listings of dry soy-and-gluten pieces show about 40,700 kg sold, 82% from one shop, with makers not named on the pages [@MKT-03] {VN-direct|Low}. Tiki lists no chay foods. The remaining step is a repeat read of the same listings to turn cumulative counters into sales rates, and a way to read Shopee and TikTok Shop that respects their access rules (for example a paid market-data report).
 7. **A shelf-space proxy**: number of facings or shelf metres per brand, to approach volume without sales data.
 8. **Receipt or tag photo tied to each SKU**, to remove the low-confidence price pairings; and a repeat visit to the same stores to measure price variance.
 9. **Claim wording**: *chay*, *thuần chay*, "plant-based", "100% plant protein", Halal, non-GMO, and egg or dairy content, for the labelling questions in [[app-s9-regulation]].
@@ -412,7 +414,7 @@ Designed for supply-side use (ingredients and manufacturers), at low cost:
 | Protein content of conventional equivalents | Photograph nutrition panels of the meat versions on the next store visit. |
 | CJ's Cau Tre acquisition year and CJ Foods Vietnam plant locations | CJ CheilJedang disclosures on Korea's DART system; Cau Tre shareholder filings; the national business registry. |
 | Origin of Ong Cha Va / NOSAFOOD canned products | Read the "xuất xứ" line on the can. |
-| Domestic mung bean production and prices | NSO statistical yearbook; MAE crop statistics. |
+| Domestic mung bean production and prices | National Statistics Office (NSO) statistical yearbook; crop statistics from the Ministry of Agriculture and Environment (MAE). |
 | Where Vinamilk's pea protein comes from | Vinamilk procurement or investor relations; customs consignee data for HS 3504 and 2106.10. |
 | Tofu skin and gluten import volumes by 8-digit line | General Department of Customs 8-digit data or a trade-data vendor. |
 | Laboratory verification of label protein | Send 10 to 15 SKUs to an accredited laboratory. |

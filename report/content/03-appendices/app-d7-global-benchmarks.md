@@ -14,9 +14,24 @@ charts: [chart-us-pbm-trend, chart-forecast-vs-actual]
 ---
 # D7. Global and Asian demand benchmarks
 
-**What this appendix contains.** Benchmarks from markets that ran the modern plant-based experiment first, used in [[ch13-consumers]] and to calibrate [[ch18-demand-sizing]]. Almost all rows are `general` or `VN-adjacent`: they say what happened elsewhere, not what will happen in Vietnam. Most come from licensed scanner and household-panel data published by advocacy organisations, or from peer-reviewed studies.
+**What this appendix contains.** Benchmarks from the markets that tried modern plant-based products first. [[ch13-consumers]] uses them, and they calibrate the demand model in [[ch18-demand-sizing]]. Almost all rows are `general` or `VN-adjacent`: they say what happened elsewhere, not what will happen in Vietnam. Most come from peer-reviewed studies, or from licensed scanner and household-panel data (records of what shops sold and households bought) published by advocacy organisations.
 
-**Calibration values used in Part III** {general|High} {dx:revealed}: peak annual household trial of plant-based meat 19 to 20% (US, 2021) and 32 to 39% (Germany and UK, 2022); households buying monthly or more 8.6 to 10.4%; repeat rate about 60 to 64%; retail share 3.1 to 4.1% of pre-packaged meat volume (Germany and Netherlands, 2024) and about 0.7% of total meat value (US); own-price elasticity about -0.8 to -1.6; displacement of meat per unit bought not distinguishable from zero, in shops and, on 1.2 million transactions, in restaurants; plant milk displaces 0.43 to 0.93 units of dairy per unit; plant milk levels off at about 7 to 16% of milk [@GLB-01; @GLB-02; @GLB-09; @GLB-10; @GLB-11; @GLB-16; @GLB-03; @GLB-19; @GLB-28; @GLB-22; @AFN-07]. For institutional routes, the programme benchmark is Animal Charity Evaluators' (ACE) estimate for Sinergia Animal: about 3.4 meals and 0.5 animals per USD; Sinergia's institutions estimated about 0.13 animals per meal replaced (134,000 animals over 998,000 meals, our division) (D7.4) [@AFN-26] {general|Medium} {dx:revealed}.
+**Calibration values used in Part III** {general|High} {dx:revealed}:
+
+- peak annual household trial of plant-based meat: 19 to 20% (US, 2021) and 32 to 39% (Germany and UK, 2022);
+- households buying monthly or more: 8.6 to 10.4%;
+- repeat rate: about 60 to 64%;
+- retail share: 3.1 to 4.1% of pre-packaged meat volume (Germany and Netherlands, 2024) and about 0.7% of total meat value (US);
+- own-price elasticity (the percentage change in quantity bought when the price rises 1%): about -0.8 to -1.6;
+- displacement of meat per unit bought: not distinguishable from zero, in shops and, on 1.2 million transactions, in restaurants;
+- plant milk: displaces 0.43 to 0.93 units of dairy per unit, and levels off at about 7 to 16% of milk.
+
+Sources for the list: [@GLB-01; @GLB-02; @GLB-09; @GLB-10; @GLB-11; @GLB-16; @GLB-03; @GLB-19; @GLB-28; @GLB-22; @AFN-07].
+
+**Benchmark for institutional routes** (D7.4) [@AFN-26] {general|Medium} {dx:revealed}. The programme benchmark is Sinergia Animal, a charity that works with schools and institutions:
+
+- Animal Charity Evaluators (ACE) estimates about 3.4 meals and 0.5 animals per USD;
+- Sinergia's institutions estimated about 0.13 animals per meal replaced (134,000 animals over 998,000 meals, our division).
 
 {{chart:chart-us-pbm-trend}}
 
@@ -153,10 +168,10 @@ charts: [chart-us-pbm-trend, chart-forecast-vs-actual]
 | plant and fermented protein from local crops proposed for PM-POSHAN and ICDS feeding schemes | school and child feeding | India | at roundtable stage; budgets under INR 10 per student per day | not applicable | policy roundtable (reported August 2026) | not applicable | [@AFN-14] {VN-adjacent\|Medium} {dx:stated} |
 | free nutritious school meals programme | public schools | Indonesia | nutritionists urge animal protein first | not applicable | national programme since January 2025 | not applicable | [@AFN-43] {VN-adjacent\|Low} {dx:stated} |
 
-**What the programme benchmarks mean for route R4** (our calculation) {VN-direct|Low} {fx:estimate} {dx:inferred}. Asian public-meal and corporate-menu precedents exist, but none measures meat displaced, and the only cost benchmark is ACE's estimate for Sinergia Animal. Two comparisons follow for [[ch18-demand-sizing]]:
+**What the programme benchmarks mean for route R4, canteen and school meals** (our calculation) {VN-direct|Low} {fx:estimate} {dx:inferred}. Asian public-meal and corporate-menu precedents exist, but none measures meat displaced. The only cost benchmark is ACE's estimate for Sinergia Animal. Two comparisons follow for [[ch18-demand-sizing]]:
 
-- **Scale.** The benchmark path's canteen share implies 36.6 million canteen meal-equivalents a year in Vietnam by 2035. That is about 37 times Sinergia Animal's 2023 total across three countries and about 16 times the meals Humane World secured outside the US in 2025 (2.3 million meals a year in seven countries), so it can only come from caterers' own commercial use of plant or novel protein, not from diet-change campaigns.
-- **Animals per meal.** At 20 g of protein per dish and 0.8 net displacement, a Vietnamese canteen meal shifted spares about 0.015 animals at the meat mix on caterers' published menus (0.010 to 0.029 across five caterers) and about 0.020 at the national mix, against about 0.13 in the Sinergia estimate. Only replacing a chicken dish (about 0.055) comes near it, and chicken leads 13% of Vietnamese canteen protein dishes [@UPL-27; @UPL-32; @FUF-03; @AFN-26]. The Korean school pattern, one or two plant-based days a month, is the nearest calendar analogue to canteen chay days, and Seoul's evidence that such menus carry less protein bears on any school plant dish ([[ch15-channels]]).
+- **Scale.** The benchmark path's canteen share implies 36.6 million canteen meal-equivalents a year in Vietnam by 2035. That is about 37 times Sinergia Animal's 2023 total across three countries. It is also about 16 times the meals Humane World secured outside the US in 2025 (2.3 million meals a year in seven countries). So it can only come from caterers' own commercial use of plant or novel protein, not from diet-change campaigns.
+- **Animals per meal.** At 20 g of protein per dish and 0.8 net displacement, a Vietnamese canteen meal shifted spares about 0.015 animals at the meat mix on caterers' published menus (0.010 to 0.029 across five caterers). At the national mix it spares about 0.020, against about 0.13 in the Sinergia estimate. Only replacing a chicken dish (about 0.055) comes near it, and chicken leads 13% of Vietnamese canteen protein dishes [@UPL-27; @UPL-32; @FUF-03; @AFN-26]. The Korean school pattern, one or two plant-based days a month, is the nearest calendar analogue to canteen *chay* (vegetarian) days. Seoul's evidence that such menus carry less protein matters for any school plant dish ([[ch15-channels]]).
 
 ## D7.5 Forecast track record
 
@@ -176,6 +191,10 @@ charts: [chart-us-pbm-trend, chart-forecast-vs-actual]
 | Good Food Institute | 2022 | not dated | US plant-based meat share of total meat | could reach plant-based milk's 16% dollar share, worth USD 16 billion | 0.7% of total meat dollar sales, USD 1.0 billion; plant-based milk itself fell to 13% | share halved instead of rising | [@GLB-02; @GLB-01] {general\|High} {dx:revealed} |
 | Krungthai COMPASS (via USDA FAS) | 2020 to 2021 | 2024 | Thai plant-based food market value | USD 1.5 billion from USD 935 million in 2019 (10 to 35% growth per year) | Euromonitor dairy plus meat alternatives USD 842.7 million (2019) and 824.1 million (2020); no same-scope 2024 value retrieved | early years below the growth path; 2024 comparison open | [@GLB-52] {VN-adjacent\|Low} {dx:inferred} |
 
-**How Part III labels scenarios.** Following this record, any pathway that assumes a share of meat replaced is labelled exploratory; a benchmark-anchored scenario is built from observed values; anything above those anchors is a stretch that needs conditions not yet seen anywhere ([[ch18-demand-sizing]]).
+**How Part III labels scenarios.** Part III labels its scenarios to match this record ([[ch18-demand-sizing]]):
+
+- any pathway that assumes a share of meat replaced is labelled exploratory;
+- a benchmark-anchored scenario is built from observed values;
+- anything above those anchors is a stretch, which needs conditions not yet seen anywhere.
 
 **Related:** [[ch13-consumers]], [[ch18-demand-sizing]], [[app-d8-demand-model]].

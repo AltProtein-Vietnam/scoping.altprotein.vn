@@ -16,8 +16,8 @@ const code = (id: string) => `${vi ? 'Phụ lục' : 'Appendix'} ${appendixCode(
         <h1>{s.about}</h1>
         <p>
           {vi
-            ? 'Một nghiên cứu có gắn nhãn bằng chứng về năng lực sản xuất protein thay thế cho thực phẩm và thức ăn chăn nuôi của Việt Nam, và về những ai sẽ mua.'
-            : "An evidence-tagged scoping study of Vietnam's capacity to produce alternative proteins for food and feed, and of who would buy them."}
+            ? 'Một nghiên cứu có gắn nhãn bằng chứng về những loại protein Việt Nam có thể tự sản xuất cho người dân ăn, và về những ai sẽ mua.'
+            : 'An evidence-tagged scoping study of the protein Vietnam could make at home for people to eat, and of who would buy it.'}
         </p>
       </header>
       <div class="prose">
@@ -33,11 +33,13 @@ const code = (id: string) => `${vi ? 'Phụ lục' : 'Appendix'} ${appendixCode(
           <>
             <h2 id="scope">Phạm vi</h2>
             <p>
-              Phía cung (nguyên liệu, quy trình, sản xuất, quy định, vốn, khoa học), cho cả thực
-              phẩm và thức ăn chăn nuôi, hiện nay và đến năm 2050. Phần về tương lai dùng phương
-              pháp dự báo chiến lược: các kịch bản có dấu hiệu báo trước và một tầm nhìn chuẩn tắc
-              được ghi rõ; không phần nào là dự báo. Thịt nuôi cấy được xem xét đầy đủ. Côn trùng
-              chỉ là mốc so sánh, không phải hướng đi được khuyến nghị.
+              Phía cung (nguyên liệu, quy trình, sản xuất, quy định, vốn, khoa học) của protein cho
+              người dân ăn, hiện nay và đến năm 2050. Thức ăn chăn nuôi chỉ là bối cảnh: đó là đầu
+              vào nhập khẩu đằng sau thịt, trứng, sữa và cá nuôi mà người dân ăn, không phải thứ
+              nghiên cứu đề xuất sản xuất. Phần về tương lai dùng phương pháp dự báo chiến lược: các
+              kịch bản có dấu hiệu báo trước và một tầm nhìn chuẩn tắc được ghi rõ; không phần nào
+              là dự báo. Thịt nuôi cấy được xem xét đầy đủ. Côn trùng chỉ là mốc so sánh, không phải
+              hướng đi được khuyến nghị.
             </p>
             <p>
               Phần về phía cầu coi nhu cầu là đầu vào cho thiết kế: hộ gia đình, bếp ăn, doanh
@@ -48,20 +50,22 @@ const code = (id: string) => `${vi ? 'Phụ lục' : 'Appendix'} ${appendixCode(
               nghiên cứu thực sự quyết định, chi trả và hỏi.
             </p>
             <p>
-              Cách tiếp cận trung lập, lấy an ninh thực phẩm và thức ăn chăn nuôi, giá trị công
-              nghiệp và thương mại làm trọng tâm. Nghiên cứu này không phải là tư vấn đầu tư, pháp
-              lý hay kỹ thuật.
+              Cách tiếp cận trung lập, lấy an ninh nguồn protein người dân ăn, giá trị công nghiệp
+              và thương mại làm trọng tâm. Nghiên cứu này không phải là tư vấn đầu tư, pháp lý hay
+              kỹ thuật.
             </p>
           </>
         ) : (
           <>
             <h2 id="scope">Scope and framing</h2>
             <p>
-              The supply side (raw materials, processes, manufacturing, rules, capital and science),
-              for food and feed, today and to 2050. The futures part uses foresight: scenarios with
-              signposts and one clearly labelled normative vision; none of it is a forecast.
-              Cultivated meat is fully scoped. Insect protein appears as an incumbent and benchmark,
-              not as a recommended play.
+              The supply side (raw materials, processes, manufacturing, rules, capital and science)
+              of protein for people to eat, today and to 2050. Feed is context only: it is the
+              imported input behind the meat, eggs, milk and farmed fish people eat, not something
+              the study proposes to make. The futures part uses foresight: scenarios with signposts
+              and one clearly labelled normative vision; none of it is a forecast. Cultivated meat
+              is fully scoped. Insect protein appears as an incumbent and benchmark, not as a
+              recommended play.
             </p>
             <p>
               The demand part treats demand as a design input: what households, kitchens, food
@@ -72,9 +76,9 @@ const code = (id: string) => `${vi ? 'Phụ lục' : 'Appendix'} ${appendixCode(
               and ask.
             </p>
             <p>
-              The framing is neutral and led by food and feed security, industrial value and trade;
-              animal welfare and environment are stated as motivations for some actors. The study is
-              not investment, legal or engineering advice.
+              The framing is neutral and led by the security of the protein people eat, industrial
+              value and trade; animal welfare and environment are stated as motivations for some
+              actors. The study is not investment, legal or engineering advice.
             </p>
           </>
         )}

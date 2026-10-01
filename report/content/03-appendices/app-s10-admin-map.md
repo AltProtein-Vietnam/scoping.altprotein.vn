@@ -15,9 +15,9 @@ charts: []
 
 # S10. Administrative map after the 2025 reforms
 
-Vietnam redrew its provincial map and merged several ministries in 2025. Every location and agency name in this report uses the new map and the new names. This appendix is the reference for doing so. It is built from `provinces.csv` (34 rows) and `ministries.csv` (6 rows).
+In 2025 Vietnam cut its provinces from 63 to 34, ended the district tier and merged several ministries. Every place and agency name in this report uses the new map and the new names. This appendix is the reference for doing so. It is built from `provinces.csv` (34 rows) and `ministries.csv` (6 rows).
 
-> **Method note.** The provincial list, the former units, area and population are taken from Resolution 202/2025/QH15 itself. The former unit that hosts each new administrative centre comes from Party Resolution 60-NQ/TW. The ward names of the centres come from English Wikipedia, because the resolutions name only the former province [@GT-01; @GT-02; @GT-03] {VN-direct|High}. Area and population are the Government dossier figures stated in the resolution; the resolution does not state their reference date.
+> **Method note.** We took the provincial list, the former units, area and population from Resolution 202/2025/QH15 itself. The former unit that hosts each new administrative centre comes from Party Resolution 60-NQ/TW. The ward names of the centres come from English Wikipedia, because the resolutions name only the former province [@GT-01; @GT-02; @GT-03] {VN-direct|High}. Area and population are the Government dossier figures stated in the resolution. The resolution does not say what date they refer to.
 
 ## S10.1 What changed, and when
 
@@ -30,7 +30,7 @@ Vietnam redrew its provincial map and merged several ministries in 2025. Every l
 
 The result is 34 provincial-level units: 28 provinces and 6 centrally governed cities (Hanoi, Hue, Hai Phong, Da Nang, Ho Chi Minh City and Can Tho) [@GT-01] {VN-direct|High}. The 11 unchanged units are Hanoi, Hue, Cao Bang, Dien Bien, Ha Tinh, Lai Chau, Lang Son, Nghe An, Quang Ninh, Thanh Hoa and Son La [@GT-01] {VN-direct|High}. We did not verify the final number of communes.
 
-> **Correction.** Earlier drafts placed Long An inside Ho Chi Minh City. Resolution 202/2025/QH15 Art 1(18) merges Long An into **Tay Ninh**, whose centre is in former Long An. Binh Duong and Ba Ria-Vung Tau did merge into Ho Chi Minh City, and Binh Phuoc into Dong Nai [@GT-01; @GT-02] {VN-direct|High}. A machine summary also reported "8 municipalities"; the resolution lists 6 centrally governed cities. See DG-123 and DG-124.
+> **Correction.** Earlier drafts placed Long An inside Ho Chi Minh City. Resolution 202/2025/QH15 Art 1(18) merges Long An into **Tay Ninh**, whose centre is in former Long An. Binh Duong and Ba Ria-Vung Tau did merge into Ho Chi Minh City, and Binh Phuoc into Dong Nai [@GT-01; @GT-02] {VN-direct|High}. A machine summary also reported "8 municipalities"; the resolution lists 6 centrally governed cities. See disagreements DG-123 and DG-124 in [[app-r2-disagreements]].
 
 ## S10.2 The 34 provincial-level units
 
@@ -77,7 +77,7 @@ Unchanged units were not reorganised at provincial level, but their communes wer
 
 ## S10.3 Seven units named after one former province and run from another
 
-In 7 merged units, the name comes from one former province and the administrative centre from another. This matters for company addresses and for which office handles a licence [@GT-02; @GT-03] {VN-direct|High}.
+In 7 merged units, the name comes from one former province and the administrative centre from another. This matters for company addresses and for knowing which office handles a licence [@GT-02; @GT-03] {VN-direct|High}.
 
 | New unit | Centre is in former | Centre ward |
 |---|---|---|
@@ -93,12 +93,14 @@ In 7 merged units, the name comes from one former province and the administrativ
 
 The clusters below are the ones this report relies on. Each row gives the current unit, the former unit in brackets, and the evidence that places the activity there. Details are in [[app-s4-feedstocks]] and [[app-s5-facilities]].
 
+The study concentrates on protein for people. Rows on feed and aquafeed mills are kept as context: they locate the feed industry behind the meat and farmed fish people eat, not a target for new production.
+
 | Cluster | Current unit (former unit) | What is there | Evidence |
 |---|---|---|---|
 | Cassava starch and pulp | Tay Ninh (former Tay Ninh) | About 61,000 ha of cassava, 68 starch factories and 6.4 Mt of root capacity in the former province; the natural pilot site for pulp fermentation | [@FS-03] {VN-direct\|Medium} |
 | Food and fermentation plants | Tay Ninh (former Long An) | Saf-Viet (Lesaffre) yeast plant (site not confirmed by our sources); VNVC vaccine and biologics plant; the new provincial centre | [@IND-17; @IND-31; @GT-02] {VN-direct\|Medium} |
 | Other cassava areas | Gia Lai (with former Binh Dinh and the Quy Nhon export port); Dak Lak; Quang Ngai (with former Kon Tum); Dong Nai (former Binh Phuoc) | Root production and starch factories; no ranked provincial table found | [@FS-11; @FS-07; @IND-02; @GT-01] {VN-direct\|Medium} |
-| Industrial fermentation | Dong Nai (former Dong Nai, Bien Hoa area) | Vedan's Phuoc Thai MSG and lysine complex; Ajinomoto's Bien Hoa and Long Thanh plants; AB Mauri's La Nga yeast plant; a QUATEST 3 transaction office in Tran Bien ward | [@IND-01; @IND-04; @IND-08; @IND-15; @INF-13] {VN-direct\|Medium} |
+| Industrial fermentation | Dong Nai (former Dong Nai, Bien Hoa area) | Vedan's Phuoc Thai MSG (monosodium glutamate) and lysine complex; Ajinomoto's Bien Hoa and Long Thanh plants; AB Mauri's La Nga yeast plant; a transaction office of QUATEST 3, a state testing centre, in Tran Bien ward | [@IND-01; @IND-04; @IND-08; @IND-15; @INF-13] {VN-direct\|Medium} |
 | Starch and ethanol | Dong Nai (former Binh Phuoc) | Vedan's Phuoc Long tapioca starch plant; the Binh Phuoc bio-ethanol plant | [@IND-02; @IND-04; @IND-20; @IND-66] {VN-direct\|Medium} |
 | Insect protein, soybean crushing, breweries, industrial parks | Ho Chi Minh City (former Ba Ria-Vung Tau and former Binh Duong) | Entobel's insect plant in the Dat Do industrial zone; the VAL soybean crushing plant at Phu My; Heineken's Vung Tau brewery (former Ba Ria-Vung Tau); a Vinasoy soy milk plant (former Binh Duong) | [@REG-44; @VCO-16; @IND-25; @IND-49] {VN-direct\|Medium} |
 | Hi-tech park and food processors | Ho Chi Minh City (former Ho Chi Minh City) | Saigon Hi-Tech Park; meat and *đồ chay* (traditional vegetarian) processors (Ho Chi Minh City base not confirmed: our product log records no maker addresses) | [@IND-57] {VN-direct\|Medium} (park); [@IND-53] {VN-direct\|Low} (processors) |
@@ -119,12 +121,12 @@ Size of the units that matter most, from Resolution 202 [@GT-01] {VN-direct|High
 
 - From 1 July 2025, local government has two tiers: province and commune (including wards). District-level units no longer exist [@GT-02] {VN-direct|High}.
 - Addresses now read "ward or commune, province". For example, Entobel's plant is at Lot 05, Street N3, Dat Do I Industrial Zone, Dat Do commune, Ho Chi Minh City [@REG-44] {VN-direct|Medium}.
-- Licensing moved to provincial chairs. Many feed and aquafeed procedures now sit with provincial People's Committee chairs: feed factory certificates, supplement-feed appraisal, import licences for unpublished feed, aquafeed trial recognition and import licences for unlisted aquafeed [@REG-41; @REG-35] {VN-direct|High}. Expect provincial officials, not district officials, to handle them. See [[app-s9-regulation]].
+- Licensing moved to provincial chairs. Many feed and aquafeed procedures, which this study treats as context, now sit with the chairs of provincial People's Committees: feed factory certificates, supplement-feed appraisal, import licences for unpublished feed, aquafeed trial recognition and import licences for unlisted aquafeed [@REG-41; @REG-35] {VN-direct|High}. Expect provincial officials, not district officials, to handle them. See [[app-s9-regulation]].
 - The number and date of the Law on Organisation of Local Government that sets the two-tier model were not verified [@GT-02] {VN-direct|Medium}.
 
 ## S10.6 Ministries after the 2025 restructuring
 
-From `ministries.csv`. All took effect on 1 March 2025, except the provincial row (1 July 2025).
+From `ministries.csv`. All took effect on 1 March 2025, except the provincial row (1 July 2025). In the table, GMO means genetically modified organism, EIA environmental impact assessment and IP intellectual property. The sandbox is a regulatory sandbox: a scheme that lets firms test new technology under temporary, supervised rules.
 
 | ID | Ministry now | Vietnamese name | Predecessors | Legal basis | Units relevant to alternative protein | Roles | Evidence |
 |---|---|---|---|---|---|---|---|
@@ -166,5 +168,5 @@ From `ministries.csv`. All took effect on 1 March 2025, except the provincial ro
 - `provinces.csv`: the 34 units with type, administrative centre, former units, area and population (section S10.2).
 - `ministries.csv`: the six ministry and provincial rows (section S10.6).
 - `facilities.csv`, `feedstocks.csv` and `companies.csv`: carry `province_current` and `province_former` columns mapped with `provinces.csv` (see [[app-s5-facilities]], [[app-s4-feedstocks]] and [[app-s1-directory]]).
-- `disagreements.csv`: DG-123 and DG-124 (see [[app-r2-disagreements]]).
+- `disagreements.csv`: disagreements DG-123 and DG-124 (see [[app-r2-disagreements]]).
 - Working paper: `working-papers/wave2/geo_time/geo_time.md`.

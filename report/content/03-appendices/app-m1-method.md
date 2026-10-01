@@ -4,20 +4,26 @@ title: "M1. Method, evidence rules and limits"
 short_title: "M1. Method"
 section: appendix
 order: 1
-summary: "How the study was designed around six audiences, how two research waves and a retail audit were run, which tools were and were not available, how evidence was labelled and checked, how earlier drafts were used, and what the limits are. Section M1.10 summarises the futures round added in v0.2; the full futures method is in Appendix M2."
+summary: "The study's scope (protein for people first, feed only as context) and how it was designed around six audiences: the first two research waves and the retail audit, the tools used, how evidence was labelled and checked, how earlier drafts were used, and the limits. Sections M1.10 to M1.13 summarise the later rounds, described in full in Appendices M2 to M4."
 audiences: [research, investors, policy, international, startups, manufacturers]
-reading_time_min: 8
+reading_time_min: 9
 key_numbers: [kn-sources-count, kn-open-questions, kn-disagreements]
 related_data: [sources.csv, open_questions.csv, disagreements.csv]
-related_pages: [front-prologue, app-m4-actor-check-waves, front-how-to-read, app-m5-changelog, app-r1-open-questions, app-r2-disagreements, app-r4-sources, ch30-unknowns, app-m2-futures-method, app-f4-balance-model, app-m3-demand-method]
+related_pages: [front-prologue, app-m4-actor-check-waves, front-how-to-read, app-m5-changelog, app-r1-open-questions, app-r2-disagreements, app-r4-sources, ch30-unknowns, app-m2-futures-method, app-f4-balance-model, app-m3-demand-method, app-s6-feed-market, app-f6-aquafeed-feedstock-futures]
 charts: [chart-sources-by-type]
 ---
 
 # M1. Method, evidence rules and limits
 
+**What this appendix contains.** How we designed, researched and checked the study, and its limits. Sections M1.1 to M1.9 describe the first version (0.1). Sections M1.10 to M1.13 summarise the later rounds; their full methods are in Appendices M2 to M4.
+
+**Scope.** This study is about protein for people: what Vietnam could make at home for people to eat, from what, at what cost, under which rules, and who would buy it, now and to 2050. Feed appears only as context. It is the hidden import behind the meat, eggs, milk and farmed fish that people eat, and so part of the food-security picture. But the study no longer treats feed ingredients (fishmeal replacements, or microbial, insect or duckweed feed) as something to make. Versions 0.1 to 0.7 covered food and feed together and assessed feed ingredients as products; that record stays in [[app-s6-feed-market]], [[app-f6-aquafeed-feedstock-futures]] and the changelog ([[app-m5-changelog]]).
+
+Insect protein is a benchmark and incumbent only. Diet change is not a goal the study sets: Part III sizes what people and firms would buy, as labelled scenarios. Market-size forecasts are out of scope.
+
 ## M1.1 Design: six audiences, eleven questions
 
-The study started from the decisions six groups of readers face, and set a research goal for each:
+The study started from the decisions that six groups of readers face. We set a research goal for each group. These are the goals set for version 0.1, when food and feed manufacturers were one audience; feed makers are now readers for context only.
 
 | Audience | Decision they face | Research goal |
 |---|---|---|
@@ -28,13 +34,13 @@ The study started from the decisions six groups of readers face, and set a resea
 | Research bodies | What to research, with whom, with what funding | Bibliometric map; institution directory; gaps Vietnam is placed to fill |
 | International organisations | Where programmes can move the frontier | Partner map; fundable public goods |
 
-These goals were turned into eleven macro questions (protein economy, asset map, industrial capacity, the existing market, rules, knowledge base, capital, regional position, economics, technology fit, synthesis), which became the chapters, and a list of micro deliverables (directories, registers, data sheets), which became the appendices and data files.
+We turned these goals into eleven macro questions, which became the chapters: protein economy, asset map, industrial capacity, the existing market, rules, knowledge base, capital, regional position, economics, technology fit and synthesis. We also set a list of micro deliverables (directories, registers, data sheets), which became the appendices and data files.
 
-After the first research wave we re-read the goals and recorded, for each audience, what was still missing. The second wave was designed to close those gaps.
+After the first research wave we re-read the goals and recorded, for each audience, what was still missing. We designed the second wave to close those gaps.
 
 ## M1.2 Research waves
 
-Research was carried out by AltProtein Vietnam with AI research assistants organised as parallel research streams (called "agents" in the working papers), each with a written brief, a shared protocol and its own source-ID prefix. Their notes were then consolidated, checked and synthesised into this report.
+AltProtein Vietnam carried out the research with AI research assistants. They worked as parallel research streams (called "agents" in the working papers), each with a written brief, a shared protocol and its own source-ID prefix. We then consolidated, checked and synthesised their notes into this report.
 
 | Wave | Stream | Prefix | Topic |
 |---|---|---|---|
@@ -69,7 +75,7 @@ In total the streams logged **806 sources** (599 in wave 1, 207 in wave 2): 180 
 
 ## M1.4 The retail audit
 
-AltProtein Vietnam recorded 186 alternative-protein and plant-based products (SKUs) in 11 stores: five in Nha Trang on 6 September 2026 and six in Ho Chi Minh City on 16 and 20 September 2026, from hypermarkets to specialty importers. Records include price, pack size, ingredients and label nutrition where legible; low-confidence price reads are flagged. The audit is a convenience sample in two cities, not a national survey ([[app-s2-retail-audit]]). Source ID FORM-01.
+AltProtein Vietnam recorded 186 alternative-protein and plant-based products (stock-keeping units, SKUs) in 11 stores, from hypermarkets to specialty importers. Five stores were in Nha Trang (6 September 2026) and six in Ho Chi Minh City (16 and 20 September 2026). Records include price, pack size, ingredients and label nutrition where legible; low-confidence price reads are flagged. The audit is a convenience sample in two cities, not a national survey ([[app-s2-retail-audit]]). Source ID FORM-01.
 
 ## M1.5 Evidence rules
 
@@ -90,8 +96,8 @@ AltProtein Vietnam recorded 186 alternative-protein and plant-based products (SK
 ## M1.7 Synthesis methods
 
 - **Technology fit** ([[ch10-technology-fit]]) rates ten families on seven conditions (strong, moderate, weak).
-- **Plays** ([[ch26-plays]]) are scored 1 to 5 on seven criteria, with weight presets per audience in `play_weight_presets.csv`. Scores are judgements based on the cited evidence.
-- **Policy options** ([[ch27-policy-options]]) are ranked by impact on investability, feasibility and time-criticality.
+- **Plays** ([[ch26-plays]]) are scored 1 to 5 on seven criteria, with weight presets per audience in `play_weight_presets.csv`. Scores are judgements based on the cited evidence. Seven plays and four public goods are active. Three feed plays (T2, T3, T6) and two feed public goods (P2, P3) keep their scores in `plays.csv` as a record, but are no longer recommended, because the study now concentrates on protein for people.
+- **Policy options** ([[ch27-policy-options]]) are ranked by impact on investability, feasibility and time-criticality. Five feed options keep their earlier rank in `policy_options.csv` as a record but are no longer ranked.
 - **Scenarios** ([[ch19-outlook-2035]]) are internally consistent pictures with signposts, not forecasts.
 - **Cost stacks** ([[ch09-economics]]) combine sourced Vietnamese prices with stated engineering assumptions and are indicative.
 
@@ -131,3 +137,20 @@ Version 0.4 checks Part III against 80 named actors and 118 decision questions, 
 ## M1.13 Version 0.5: the prologue
 
 Version 0.5 adds a prologue for readers new to alternative protein ([[front-prologue]], [[front-prologue-vi]]). Three research agents, working from a common brief, gathered facts on definitions and technology families, the general arguments for and against alternative protein, and the international landscape (wave 10, 81 sources). Each reused package sources where they applied and recorded a short verbatim quote for every key number; an independent check compared the prologue with those notes before release. The briefs and notes are in `working-papers/wave10/`. The prologue is background: it adds no finding about Vietnam and changes none.
+
+## M1.14 Version 0.8: protein for people, food-security hypotheses and clear language
+
+Version 0.8 made three changes at the owner's request.
+
+**A narrower scope.** The study is now about protein for people. Feed appears only as context: it is the hidden import behind the meat, eggs, milk and farmed fish that people eat. Feed ingredients (fishmeal replacements, and microbial, insect or duckweed feed) are no longer treated as something to make. Three feed plays, two feed public goods, one product profile, one demand move, five moves for 2050 and five policy options were retired from the recommendations. They stay in the data files with a `status_v0_8` column as the record. Chapters 22 and 24 were rebuilt around what people eat; the vision now draws its indicators from the demand model.
+
+**Wave 11: food-security hypotheses.** Four research lines tested hypotheses about the security of the protein people eat (90 sources, 1 October 2026). Each worked from one brief (`working-papers/wave11/BRIEF.md`) and the research protocol, and wrote a working paper, sources, data tables, open questions and disagreements in its own folder:
+
+- **Imported meat, offal and dairy (prefix MIM, 28 sources).** It tested whether Vietnam relies on subsidised imported meat. Meat imports are real and growing, but OECD estimates show little or no price support for meat and milk in most of the main origins, and a large cost gap, so the subsidy hypothesis is not supported.
+- **Animal disease, zoonoses and pandemic risk (PAN, 40 sources).** Disease makes pork supply and prices volatile, and the licensed African swine fever vaccines do not protect against the recombinant strains now dominant in the north. We found no study that measures lower disease, pandemic or resistance risk from replacing animal-source food.
+- **Other food-security exposures (SEC, 17 sources).** Alternative protein made from imported soy, pea or gluten moves import dependence rather than reducing it; only domestic-input routes reduce it. Wild marine fish stocks have fallen, and the official food-security resolution has no import or protein indicator.
+- **Protein for people (FBS, 5 sources).** FAO food balance sheets show where the protein people eat comes from; with the imported feed behind domestic animal protein, about two thirds of animal protein rests on imports.
+
+The lines added 26 open questions (OQ-447 to OQ-472), 21 disagreements (DG-353 to DG-373), ten data files and 16 stat tiles. A consolidating editor folded the results into chapters 1, 11, 14, 16, 20, 22, 23, 28 and 30, Appendix F2, the summaries and the briefs. The scripts used to register sources, questions, data and tiles are in `working-papers/wave11/`. An editorial check of names, glosses and affiliations, run the same day, added six sources under the prefix OIC (`working-papers/wave11/editorial/OPEN-ISSUES-check.md`).
+
+**Clear language.** Every page was edited to the GOV.UK clear-language standard: short sentences and paragraphs, the main point first, active voice, plain words and abbreviations explained on first use. Chapter openings became short "In brief" boxes. Editors worked from a common brief (`working-papers/wave11/EDITORIAL-v0.8.md`) on separate files. They compared their pages with version 0.7 to check that numbers, citations and tags were kept unless a feed claim was deliberately removed, and a final package-wide check lists the sources no longer cited in any page (Appendix M5, section M5.14). The registers (Appendices R1, R2 and R4) were not rewritten. Every substantive change is listed in [[app-m5-changelog]], section M5.14.

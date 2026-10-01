@@ -4,9 +4,9 @@ title: "S8. Pilot facilities, laboratories and talent"
 short_title: "S8. Labs and talent"
 section: appendix
 order: 28
-summary: "Where a founder in Vietnam can pilot, test, run official feed trials, find land with incentives, hire graduates and buy equipment in 2026. No public food-grade pilot fermentation service and no digestibility testing service were found, and only one laboratory lists amino-acid analysis equipment; the state feed-trial system was reorganised in 2025 and 2026."
+summary: "Where a founder in Vietnam can pilot, test, find land with incentives, hire graduates and buy equipment in 2026. We found no public food-grade pilot fermentation service and no digestibility testing service, and only one laboratory lists amino-acid analysis equipment. The state feed-trial centres, reorganised in 2025 and 2026, are kept as context."
 audiences: [startups, investors, manufacturers, policy, research, international]
-reading_time_min: 21
+reading_time_min: 22
 key_numbers: [kn-ctu-places]
 related_data: [pilot_labs.csv, talent.csv, engineering_suppliers.csv, facilities.csv, institutions.csv, instruments.csv]
 related_pages: [ch06-knowledge-talent, ch07-rules, app-s5-facilities, app-s9-regulation, app-s6-feed-market, app-s7-research, app-s12-costs, brief-startups]
@@ -15,16 +15,25 @@ charts: []
 
 # S8. Pilot facilities, laboratories and talent
 
-This appendix is a practical map for founders and funders: where in Vietnam to run a pilot batch, get a product tested, run the official feed trial a new ingredient needs, rent land or lab space with incentives, hire graduates, and buy or build process equipment. It draws on a wave 2 infrastructure pass (direct reads of known pages, no web search) and the wave 1 industry and research notes (sources INF, IND and RD in `sources.csv`).
+This appendix is a practical map for founders and funders. It shows where in Vietnam to run a pilot batch, get a product tested, rent land or lab space with incentives, hire graduates, and buy or build process equipment. It also lists the state centres that run official feed trials. The study now concentrates on protein for people, so the feed-trial material is kept as context and as the record. Sources are a wave 2 infrastructure pass (direct reads of known pages, no web search) and the wave 1 industry and research notes (sources INF, IND and RD in `sources.csv`).
 
-Many official sites failed to load in wave 2, so an absence in this appendix often means "not published on the pages we could read", not "does not exist". Every row marked "ask" should be confirmed by phone before a founder relies on it. Industrial plants that could host a line (fermentation, starch, feed mills) are in [[app-s5-facilities]]; the rules that trigger a feed trial are in [[app-s9-regulation]].
+Many official sites failed to load in wave 2. So an absence in this appendix often means "not published on the pages we could read", not "does not exist". A founder should confirm every row marked "ask" by phone before relying on it. Industrial plants that could host a line (fermentation, starch, feed mills) are in [[app-s5-facilities]]. The food rules, and the feed rules that trigger a feed trial, are in [[app-s9-regulation]].
+
+Terms used in this appendix:
+
+- FIRI: Food Industries Research Institute, under the Ministry of Industry and Trade (MOIT). NACEFA, the National Center for Food Analysis and Assessment, is its testing laboratory.
+- MAE: Ministry of Agriculture and Environment. MOH: Ministry of Health. MOST: Ministry of Science and Technology. MOET: Ministry of Education and Training.
+- VILAS (Vietnam Laboratory Accreditation Scheme): the scheme under which Vietnam's National Accreditation Bureau (BoA) has accredited testing and calibration laboratories since 1997 [@OIC-02] {VN-direct|High}. ISO/IEC 17025 is the international standard for testing laboratories.
+- PDCAAS and DIAAS: protein-quality scores that correct amino-acid content for digestibility. HPLC: high-performance liquid chromatography, used to measure amino acids.
+- GMP: good manufacturing practice. TVP: textured vegetable protein. CTU: Can Tho University.
+- Tolling: renting time on someone else's equipment, such as a fermenter. CDMO: a contract development and manufacturing organisation.
 
 ## S8.1 Key findings
 
 1. **We found no Vietnamese facility that publicly offers food-grade pilot fermentation to outside firms.** FIRI's pilot centre lists soymilk, tofu, juice and powder processes and a bag-filling line, but no fermenters; the Ho Chi Minh City Biotechnology Center lists agri and aqua services, not contract fermentation [@INF-02; @INF-05] {VN-direct|Medium}.
-2. **FIRI's NACEFA is the most specific testing laboratory found:** ISO/IEC 17025 under VILAS 259, more than 100 accredited parameters and more than 300 offered, designated by MAE to test imported feed ingredients and by MOIT for imported food [@INF-03] {VN-direct|High}.
+2. **FIRI's NACEFA is the most specific testing laboratory we found:** ISO/IEC 17025 under VILAS 259, more than 100 accredited parameters and more than 300 offered, designated by MOIT to test imported food and by MAE for imported feed ingredients [@INF-03] {VN-direct|High}.
 3. **No laboratory page we read lists a protein-digestibility assay.** FIRI's NACEFA lists amino-acid analysis by HPLC only (scope and accreditation unconfirmed). PDCAAS and DIAAS work will probably need an overseas laboratory for now [@INF-03; @INF-10; @INF-11; @INF-13; @INF-14] {VN-direct|Medium}.
-4. **The state feed-trial system was reorganised.** From 1 October 2026, livestock feed trials move to the Central Livestock and Veterinary Trial and Testing Centre I (Hanoi, serving Hue and the provinces to its north) or Centre II (set up by Decision 3065/QĐ-BNNMT; decision not read); aquafeed trials sit with one national centre with sub-centres in Can Tho and Ho Chi Minh City [@INF-18; @INF-17; @INF-28; @INF-19] {VN-direct|High}.
+4. **The state feed-trial system was reorganised (context only).** From 1 October 2026, livestock feed trials move to the Central Livestock and Veterinary Trial and Testing Centre I (Hanoi, serving Hue and the provinces to its north) or Centre II (set up by Decision 3065/QĐ-BNNMT; decision not read); aquafeed trials sit with one national centre with sub-centres in Can Tho and Ho Chi Minh City [@INF-18; @INF-17; @INF-28; @INF-19] {VN-direct|High}.
 5. **Saigon Hi-Tech Park is the best-documented southern base:** 913 ha, 165 projects, USD 14.08 billion registered, with an incubator, an R&D centre and a biotechnology centre [@INF-06] {VN-direct|High}.
 6. **Decree 263/2026/NĐ-CP (effective 1 July 2026) lets provinces create hi-tech agriculture zones**, with incentives including priority for state R&D funds and up to 70% interest subsidy on loans to commercialise technology [@INF-23] {VN-direct|Medium}.
 7. **Can Tho University alone has a 2026 quota of 860 places across food technology, biotechnology and aquaculture**; a national intake figure could not be built [@INF-15] {VN-direct|High}.
@@ -32,13 +41,13 @@ Many official sites failed to load in wave 2, so an absence in this appendix oft
 
 ## S8.2 Where to go for what
 
-| You need | Go to first | Also try | What is confirmed | What you must ask |
+| You need | Go to first | Also try | What is confirmed | What to ask |
 |---|---|---|---|---|
 | Small pilot runs of soy, tofu, juice or powder products | FIRI Food Production Pilot and Technology Transfer Center (FTET), Hanoi | Local tofu and soymilk machine makers (unverified) | Transfers soymilk, tofu, tofu pudding and vegetable and fruit powder processes; automatic bag-filling [@INF-02] {VN-direct\|High} | Fermenter, dryer and extruder sizes; food-safety certificate; day rate |
 | Pilot fermentation, 50 to 3,000 L, food grade | No confirmed public offer anywhere in Vietnam | FIRI; Ho Chi Minh City Biotechnology Center; tolling talks with Vedan or Ajinomoto | Neither FIRI nor the Biotechnology Center publishes vessel sizes or a contract-fermentation service [@INF-01; @INF-05] {VN-direct\|Medium} | Vessel list, food-grade status, whether outside firms can book time |
 | Lab space and incubation in the south | Saigon Hi-Tech Park: SHTP-IC incubator, SHTP Labs | Ho Chi Minh City Biotechnology Center | 913 ha; 165 projects; biotechnology for agriculture is an encouraged sector [@INF-06] {VN-direct\|High} | Wet-lab rent, biosafety level, food-grade rooms |
 | Lab space and incubation in the north | Hoa Lac Hi-Tech Park (263.15 ha R&D zone) | VNUA and HUST laboratories | Zone areas published; no biotech or food tenant named [@INF-25] {VN-direct\|Medium} | Whether any shared biology or food laboratory exists |
-| Proximate analysis, contaminants, mycotoxins, heavy metals, microbiology | FIRI NACEFA (Hanoi); NIFC (Hanoi, Ho Chi Minh City branch) | Eurofins Sac Ky Hai Dang, QUATEST 3, CASE (Ho Chi Minh City) | NACEFA: VILAS 259, LC-MS/MS, 4 HPLC, 3 GC. NIFC: ISO/IEC 17025:2017 and OECD GLP (BoA GLP entry matched by address) [@INF-03; @INF-09; @INF-10; @INF-11; @INF-13; @INF-14] {VN-direct\|High} | Current accreditation scope (method list) for your matrix |
+| Proximate analysis, contaminants, mycotoxins, heavy metals, microbiology | FIRI NACEFA (Hanoi); NIFC (Hanoi, Ho Chi Minh City branch) | Eurofins Sac Ky Hai Dang, QUATEST 3, CASE (the Center of Analytical Services and Experimentation, Ho Chi Minh City) | NACEFA: VILAS 259, LC-MS/MS, 4 HPLC, 3 GC. NIFC: ISO/IEC 17025:2017 and OECD GLP (BoA GLP entry matched by address) [@INF-03; @INF-09; @INF-10; @INF-11; @INF-13; @INF-14] {VN-direct\|High} | Current accreditation scope (method list) for your matrix |
 | Conformity test of an imported feed ingredient | FIRI NACEFA | NIFC | MAE-designated to test imported feed ingredients against QCVN 01-190:2020 and QCVN 01-183:2016 [@INF-03] {VN-direct\|High} | Turnaround and fee |
 | Amino-acid profile | Ask NACEFA, NIFC, Eurofins, CASE | Send abroad (Eurofins group laboratories) | NACEFA lists an HPLC system for amino acids as equipment; accredited scope not confirmed on any page read [@INF-03; @INF-11] {VN-direct\|Medium} | Whether amino acids (including tryptophan and sulphur amino acids) are in the VILAS scope |
 | Protein digestibility for PDCAAS or DIAAS | No Vietnamese commercial laboratory found | HUST research group (in vitro only); overseas laboratories | Nothing confirmed; no Vietnamese DIAAS or PDCAAS study found [@INF-03; @RD-23] {VN-direct\|Medium} | In vivo DIAAS needs pig ileal trials: budget for an overseas laboratory |
@@ -49,6 +58,8 @@ Many official sites failed to load in wave 2, so an absence in this appendix oft
 | Process design and equipment purchase | Rieckermann (turnkey process lines) | HTG Engineering (utilities, cleanroom); TECOVA (GMP validation) | Rieckermann lists a croissant line project in Vietnam; HTG built Ajinomoto utilities [@INF-24; @IND-64] {VN-direct\|Medium}; TECOVA's GMP work from its own company blog [@IND-65] {VN-direct\|Low} | Local stock, service engineers, lead times |
 | Extruders (TVP, high-moisture, aquafeed) | Buhler, Clextral, Famsun (Vietnam presence not verified) | Chinese lines sold by a Ho Chi Minh City dealer | Nothing confirmed for the multinationals [@INF-27; @INF-30; @INF-31] {general\|Low}; Chinese soy extrusion lines of 100 to 2,000 kg/h on offer [@FORM-34] {VN-direct\|Medium} | Nearest application or test centre |
 | Land with high-tech incentives | Saigon Hi-Tech Park; Hoa Lac Hi-Tech Park; provincial hi-tech agriculture zones | Quang Ninh, Thai Nguyen, Dong Nai (former Binh Phuoc) zones | Decree 263/2026 lets provinces set up hi-tech agriculture zones [@INF-23] {VN-direct\|Medium} | Incentive package in writing |
+
+The four feed rows (imported feed ingredient, livestock feed trial, aquafeed trial, and fish and shrimp feeding trials) are now context only.
 
 ## S8.3 Pilot and scale-up facilities
 
@@ -67,9 +78,9 @@ Many official sites failed to load in wave 2, so an absence in this appendix oft
 
 > **Correction.** Wave 1 recorded the Ho Chi Minh City Biotechnology Center as offering "pilot-scale fermentation and incubation services" (Low confidence; wave 1 file `working-papers/wave1/rnd/institutions.csv`) {VN-direct|Low}. Its own service pages list agricultural and aquaculture technology transfers and laboratory design only [@INF-05] {VN-direct|Medium}. We found no published pilot fermentation service there; it remains a lead to check by phone (logged in [[app-r2-disagreements]]).
 
-Industrial capacity is not rentable either. Our modelled estimate of installed aerobic, aseptic fermentation volume is about 11,000 to 34,000 m3, almost all inside three captive amino-acid producers (Vedan, Ajinomoto, Daesang), and we found no toll-fermentation or CDMO offer from any of them [@IND-01; @IND-08; @IND-11; @IND-13] {VN-direct|Low}. The realistic routes to scale are therefore own equipment, a structured deal with an incumbent, or the frozen-food co-packers that already make chay ([[app-s5-facilities]]).
+Industrial capacity cannot be rented either. Our modelled estimate of installed aerobic, aseptic fermentation volume is about 11,000 to 34,000 m3, almost all inside three captive amino-acid producers (Vedan, Ajinomoto, Daesang), and we found no toll-fermentation or CDMO offer from any of them [@IND-01; @IND-08; @IND-11; @IND-13] {VN-direct|Low}. So the realistic routes to scale are own equipment, a structured deal with an incumbent, or the frozen-food co-packers that already make chay ([[app-s5-facilities]]).
 
-National key laboratories relevant to food and biotechnology were not established in this research; a National Key Laboratory of Gene Technology at IBT VAST is reported from agent knowledge only and was not verified.
+We did not establish which national key laboratories are relevant to food and biotechnology. A National Key Laboratory of Gene Technology at IBT VAST (the Institute of Biotechnology of the Vietnam Academy of Science and Technology) is reported from agent knowledge only; we did not verify it.
 
 ## S8.4 Testing laboratories and accreditation
 
@@ -92,9 +103,11 @@ Notes:
 
 ## S8.5 State feed and aquafeed trial centres after the 2025 to 2026 reorganisation
 
+> **Read with care.** The study now concentrates on protein for people and treats feed only as context. This section on official feed trials is kept as context and as the record.
+
 ### When a trial is needed
 
-A new livestock feed raw material that is not on the permitted list must pass an official feed trial (*khảo nghiệm*) before it can be added. The legal basis is Article 37 of the Law on Animal Husbandry (32/2018/QH14) and Chapter III of Circular 94/2025/TT-BNNMT (in force 1 January 2026) [@REG-29; @REG-34] {VN-direct|High}. Circular 94/2025 sets the agency steps: a council reviews the trial protocol within 15 working days and the Department of Livestock Production and Animal Health (DLPAH) decides within 5 more; after the trial, recognition of the result takes 15 plus 5 working days; a recognised result is the basis for adding the material to the permitted list [@REG-34] {VN-direct|High}.
+A new livestock feed raw material that is not on the permitted list must pass an official feed trial (*khảo nghiệm*) before it can be added. The legal basis is Article 37 of the Law on Animal Husbandry (32/2018/QH14) and Chapter III of Circular 94/2025/TT-BNNMT (in force 1 January 2026) [@REG-29; @REG-34] {VN-direct|High}. Circular 94/2025 sets the agency steps. A council reviews the trial protocol within 15 working days, and the Department of Livestock Production and Animal Health (DLPAH) decides within 5 more. After the trial, recognition of the result takes 15 plus 5 working days, and a recognised result is the basis for adding the material to the permitted list [@REG-34] {VN-direct|High}.
 
 That is about 40 working days of agency time (our calculation: 15 + 5 + 15 + 5), plus the trial itself, whose length the circular leaves to the approved protocol [@REG-34] {VN-direct|High}. A total of 6 to 18 months from protocol to listing is the report's estimate, not a published figure; it depends mostly on trial length and on queues at the trial centres. The inputs are discussed in [[app-s9-regulation]] {VN-direct|Low}.
 
@@ -114,7 +127,7 @@ For aquafeed, the permitted list in Appendix II of Circular 16/2026/TT-BNNMT (9 
 | Can Tho University wet labs | CTU | Can Tho | Research-grade feeding and digestibility trials | n/a | [@RD-47; @RD-50] {VN-direct\|Medium} |
 | ShrimpVet Laboratory | Not stated | Ho Chi Minh City (site not verified) | Contract shrimp challenge and additive trials | n/a; site failed TLS verification on 23 September 2026 | [@ECO-70; @INF-20] {VN-direct\|Low} |
 | RIA2, RIA3 | MAE | Ho Chi Minh City; Khanh Hoa | Aquaculture research; nutrition laboratories not verified; outputs not visible in our Scite searches | n/a; RIA2 site DNS failure (wave 2 fetch log, `working-papers/wave2/infra/infra.md`) | [@RD-01] {VN-direct\|Low} |
-| De Heus aquaculture R&D facility | Royal De Heus | Vinh Long | Company R&D facility (opened 29 July 2024); a possible partner for novel aquafeed trials | n/a | [@VCO-11] {VN-direct\|Medium} |
+| De Heus aquaculture R&D facility | Royal De Heus | Vinh Long | Company R&D facility (opened 29 July 2024); relevant only to aquafeed trials, which are context | n/a | [@VCO-11] {VN-direct\|Medium} |
 
 We found no published list of MAE-recognised private feed-trial facilities; the 2025 and 2026 decisions we found define the state centres' trial functions [@INF-17] {VN-direct|Medium}. For trial batches, spare pelleting capacity probably exists: 269 industrial feed mills had 43.2 Mt a year of design capacity in 2023 and produced 20.8 Mt in 2022, about 48% national utilisation (our calculation, 2022 output against 2023 capacity) [@IND-39] {VN-direct|Medium}.
 
@@ -170,7 +183,7 @@ Readings:
 - Vabiotech (Hanoi) makes a WHO-GMP recombinant hepatitis B vaccine [@IND-37] {VN-direct|Medium}. If it is yeast-expressed (not confirmed), it is the closest local GMP precision-fermentation know-how we found.
 - The VNVC vaccine plant in Tay Ninh (former Long An) is designed for 100 million doses a year and due to operate at the end of 2027; its budget was reported as VND 2,000 bn (May 2025) and VND 2,500 bn (July 2026) [@IND-31; @IND-32] {VN-direct|Medium}.
 
-**Wages.** No salary survey for food or biotechnology engineers was reached in either wave. The only statutory floor we use is the Region I minimum wage for 2026: VND 5,310,000 a month under Decree 293/2025/ND-CP [@COST-19] {VN-direct|High}.
+**Wages.** We reached no salary survey for food or biotechnology engineers in either wave. The only statutory floor we use is the Region I minimum wage for 2026: VND 5,310,000 a month under Decree 293/2025/ND-CP [@COST-19] {VN-direct|High}.
 
 > **Correction.** Earlier drafts gave the Region I minimum wage as VND 4.96 million a month. The 2026 figure under Decree 293/2025 is VND 5,310,000 a month [@COST-19] {VN-direct|High}. See [[app-s12-costs]].
 
@@ -205,12 +218,12 @@ Readings:
 | Which laboratories hold amino-acid and digestibility methods in their VILAS scope | Phone NACEFA, NIFC, Eurofins Sac Ky Hai Dang and CASE; or query the BoA form by field and province. |
 | National intake for codes 7540101, 7420201 and 7620301 | MOET admissions portal data, or each university's *Đề án tuyển sinh* (admissions plan) PDF. |
 | Salaries for food and biotech engineers | Navigos Group, Talentnet-Mercer or Adecco Vietnam 2026 salary guides. |
-| Location and scope of Centre II and the aquatic Region I centre | Read Decisions 3065/QĐ-BNNMT and 173/QĐ-TSKN on thuvienphapluat.vn. |
+| Location and scope of Centre II and the aquatic Region I centre (feed context) | Read Decisions 3065/QĐ-BNNMT and 173/QĐ-TSKN on thuvienphapluat.vn. |
 | Vietnam entities of Buhler, GEA, Alfa Laval and Famsun | National business registry, or the vendors' Singapore offices. |
 | Da Nang Hi-Tech Park and the Ho Chi Minh City hi-tech agriculture park | Other official domains, or the Da Nang People's Committee portal. |
 | National key laboratories for food and biotechnology | Ask MOST for its list. |
 | Whether alternative-protein processing qualifies under Decree 263/2026 | Read the decree text and the Law on High Technology 2025; ask a provincial Department of Agriculture and Environment. |
-| Whether NACEFA's feed-import designation covers new microbial feed materials | Ask NACEFA. |
+| Whether NACEFA's feed-import designation covers new microbial feed materials (feed: context only) | Ask NACEFA. |
 
 See also [[app-r1-open-questions]].
 

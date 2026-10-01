@@ -19,6 +19,7 @@
   "confidence": "Medium",
   "primary_page": "ch01-why-vietnam",
   "pages": [
+   "brief-manufacturers",
    "brief-policy",
    "ch01-why-vietnam",
    "front-at-a-glance",
@@ -26,7 +27,8 @@
    "front-exec-summary",
    "front-exec-summary-vi",
    "front-prologue",
-   "front-prologue-vi"
+   "front-prologue-vi",
+   "front-two-minute"
   ]
  },
  {
@@ -145,16 +147,11 @@
   "derived": false,
   "evidence": "general",
   "confidence": "High",
-  "primary_page": "ch01-why-vietnam",
+  "primary_page": "app-s6-feed-market",
   "pages": [
-   "app-s6-feed-market",
-   "brief-manufacturers",
-   "ch01-why-vietnam",
-   "front-at-a-glance",
-   "front-cover",
-   "front-exec-summary",
-   "front-exec-summary-vi"
-  ]
+   "app-s6-feed-market"
+  ],
+  "version": "0.8"
  },
  {
   "id": "kn-pork-output-2025",
@@ -377,7 +374,8 @@
    "app-s5-facilities",
    "ch05-industrial-base",
    "front-at-a-glance",
-   "front-exec-summary"
+   "front-exec-summary",
+   "front-exec-summary-vi"
   ]
  },
  {
@@ -399,8 +397,7 @@
   "primary_page": "ch05-industrial-base",
   "pages": [
    "app-s5-facilities",
-   "ch05-industrial-base",
-   "front-at-a-glance"
+   "ch05-industrial-base"
   ]
  },
  {
@@ -420,12 +417,11 @@
   "derived": false,
   "evidence": "VN-direct",
   "confidence": "Medium",
-  "primary_page": "ch05-industrial-base",
+  "primary_page": "app-s5-facilities",
   "pages": [
-   "app-s5-facilities",
-   "brief-manufacturers",
-   "ch05-industrial-base"
-  ]
+   "app-s5-facilities"
+  ],
+  "version": "0.8"
  },
  {
   "id": "kn-val-crush",
@@ -499,7 +495,8 @@
    "brief-manufacturers",
    "ch02-alt-protein-today",
    "front-at-a-glance",
-   "front-exec-summary"
+   "front-exec-summary",
+   "front-exec-summary-vi"
   ]
  },
  {
@@ -569,11 +566,11 @@
   "derived": false,
   "evidence": "VN-direct",
   "confidence": "High",
-  "primary_page": "ch02-alt-protein-today",
+  "primary_page": "app-s1-directory",
   "pages": [
-   "app-s1-directory",
-   "ch02-alt-protein-today"
-  ]
+   "app-s1-directory"
+  ],
+  "version": "0.8"
  },
  {
   "id": "kn-vinh-hoan-offtake",
@@ -593,11 +590,11 @@
   "derived": false,
   "evidence": "VN-direct",
   "confidence": "Medium",
-  "primary_page": "ch02-alt-protein-today",
+  "primary_page": "app-s1-directory",
   "pages": [
-   "app-s1-directory",
-   "ch02-alt-protein-today"
-  ]
+   "app-s1-directory"
+  ],
+  "version": "0.8"
  },
  {
   "id": "kn-food-law-window",
@@ -623,10 +620,12 @@
    "app-s9-regulation",
    "brief-international",
    "brief-investors",
+   "brief-manufacturers",
    "brief-policy",
+   "brief-startups",
    "ch07-rules",
-   "ch27-policy-options",
    "ch19-outlook-2035",
+   "ch27-policy-options",
    "front-at-a-glance",
    "front-cover",
    "front-exec-summary",
@@ -651,11 +650,11 @@
   "derived": false,
   "evidence": "VN-direct",
   "confidence": "High",
-  "primary_page": "ch07-rules",
+  "primary_page": "app-s9-regulation",
   "pages": [
-   "app-s9-regulation",
-   "ch07-rules"
-  ]
+   "app-s9-regulation"
+  ],
+  "version": "0.8"
  },
  {
   "id": "kn-unlisted-feed-fine",
@@ -673,11 +672,11 @@
   "derived": false,
   "evidence": "VN-direct",
   "confidence": "High",
-  "primary_page": "ch07-rules",
+  "primary_page": "app-s9-regulation",
   "pages": [
-   "app-s9-regulation",
-   "ch07-rules"
-  ]
+   "app-s9-regulation"
+  ],
+  "version": "0.8"
  },
  {
   "id": "kn-cit-hightech",
@@ -874,7 +873,8 @@
    "brief-policy",
    "ch03-regional",
    "front-at-a-glance",
-   "front-exec-summary"
+   "front-exec-summary",
+   "front-exec-summary-vi"
   ]
  },
  {
@@ -944,8 +944,7 @@
   "primary_page": "ch03-regional",
   "pages": [
    "app-s3-regional",
-   "ch03-regional",
-   "ch16-business-buyers"
+   "ch03-regional"
   ],
   "version_note": "Id changed in v0.6 (was a duplicate of kn-protein-ingredient-imports)"
  },
@@ -1050,7 +1049,7 @@
   "value_high": 14700,
   "unit": "USD per t protein",
   "as_of": "2026",
-  "context": "Our indicative 2026 cost stack for a 10,000 t a year plant, not a feasibility study. Capital charges and maintenance are 54% to 67% of cost; fishmeal protein costs USD 2,625 to 3,846.",
+  "context": "Our indicative 2026 cost stack for a 10,000 t a year plant, not a feasibility study. Capital charges and maintenance are 54% to 67% of cost; fishmeal protein costs USD 2,625 to 3,846. Feed-grade cost stack kept as the record; chapter 9 now compares fungal protein with food prices.",
   "source_ids": [
    "COST-01",
    "COST-19",
@@ -1065,15 +1064,11 @@
   "derived": true,
   "evidence": "VN-direct",
   "confidence": "Low",
-  "primary_page": "ch09-economics",
+  "primary_page": "app-s12-costs",
   "pages": [
-   "app-s12-costs",
-   "brief-investors",
-   "ch09-economics",
-   "front-at-a-glance",
-   "front-exec-summary",
-   "front-exec-summary-vi"
-  ]
+   "app-s12-costs"
+  ],
+  "version": "0.8"
  },
  {
   "id": "kn-fishmeal-protein-price",
@@ -1092,14 +1087,11 @@
   "derived": true,
   "evidence": "general",
   "confidence": "High",
-  "primary_page": "ch09-economics",
+  "primary_page": "app-s6-feed-market",
   "pages": [
-   "app-s6-feed-market",
-   "brief-investors",
-   "ch09-economics",
-   "front-at-a-glance",
-   "front-exec-summary"
-  ]
+   "app-s6-feed-market"
+  ],
+  "version": "0.8"
  },
  {
   "id": "kn-tvp-cost",
@@ -1153,9 +1145,7 @@
   "confidence": "Medium",
   "primary_page": "ch09-economics",
   "pages": [
-   "brief-startups",
-   "ch09-economics",
-   "front-at-a-glance"
+   "ch09-economics"
   ]
  },
  {
@@ -1227,13 +1217,11 @@
   "derived": false,
   "evidence": "general",
   "confidence": "High",
-  "primary_page": "ch10-technology-fit",
+  "primary_page": "app-s6-feed-market",
   "pages": [
-   "app-s6-feed-market",
-   "app-s13-science",
-   "brief-manufacturers",
-   "ch10-technology-fit"
-  ]
+   "app-s6-feed-market"
+  ],
+  "version": "0.8"
  },
  {
   "id": "kn-mung-diaas",
@@ -1287,12 +1275,12 @@
   "id": "kn-plays-count",
   "label": "Plays and public goods assessed",
   "label_vi": "Số hướng đi kinh doanh và hàng hóa công được đánh giá",
-  "value": "10 plays and 6 public goods",
-  "value_low": 10,
-  "value_high": 10,
+  "value": "7 plays and 4 public goods",
+  "value_low": 7,
+  "value_high": 7,
   "unit": "count",
-  "as_of": "Sep 2026",
-  "context": "Our count from plays.csv (September 2026): ten businesses or programmes, each with conditions, kill tests, first customers and a horizon, plus six public goods that lower the cost of all of them.",
+  "as_of": "Oct 2026",
+  "context": "Our count from plays.csv (October 2026): seven businesses or programmes for protein people eat, each with conditions, kill tests, first customers and a horizon, plus four public goods that lower the cost of all of them. Three feed plays and two feed public goods assessed earlier are kept in the file as the record but no longer recommended.",
   "source_ids": [],
   "derived": true,
   "evidence": "VN-direct",
@@ -1300,7 +1288,8 @@
   "primary_page": "ch26-plays",
   "pages": [
    "ch26-plays"
-  ]
+  ],
+  "version": "0.8"
  },
  {
   "id": "kn-top-play-balanced",
@@ -1310,27 +1299,29 @@
   "value_low": 3.8,
   "value_high": 3.9,
   "unit": "score out of 5",
-  "as_of": "Sep 2026",
-  "context": "The cassava-starch-to-sugar hub (T4) and domestic textured plant protein (T1) lead under balanced weights in 2026; T2 and T5 follow at 3.45. Scores are our judgement, not an investment rating.",
+  "as_of": "Oct 2026",
+  "context": "The cassava-starch-to-sugar hub (T4) and domestic textured plant protein (T1) lead under balanced weights; shared pilot and tolling fermentation (T5) follows at 3.45. Scores are our judgement, not an investment rating.",
   "source_ids": [],
   "derived": true,
   "evidence": "VN-direct",
   "confidence": "Medium",
   "primary_page": "ch26-plays",
   "pages": [
-   "ch26-plays"
-  ]
+   "ch26-plays",
+   "front-at-a-glance"
+  ],
+  "version": "0.8"
  },
  {
   "id": "kn-policy-options-count",
   "label": "Policy options in the register",
   "label_vi": "Số phương án chính sách trong danh mục",
-  "value": "33 options (24 ranked)",
+  "value": "33 options (19 ranked)",
   "value_low": 33,
   "value_high": 33,
   "unit": "count",
-  "as_of": "Sep 2026",
-  "context": "Our count from policy_options.csv (September 2026): 33 options, of which chapter 27 ranks 24; the other nine earlier options are kept but superseded by more specific ones.",
+  "as_of": "Oct 2026",
+  "context": "Our count from policy_options.csv (October 2026): 33 options, of which chapter 27 ranks 19; nine earlier options are superseded by more specific ones and five feed options are kept as the record but no longer ranked.",
   "source_ids": [],
   "derived": true,
   "evidence": "VN-direct",
@@ -1338,18 +1329,19 @@
   "primary_page": "ch27-policy-options",
   "pages": [
    "ch27-policy-options"
-  ]
+  ],
+  "version": "0.8"
  },
  {
   "id": "kn-low-effort-options",
   "label": "Ranked policy options needing low effort",
   "label_vi": "Số phương án chính sách đã xếp hạng, dễ triển khai",
-  "value": "16 of 24 ranked options",
-  "value_low": 16,
-  "value_high": 16,
+  "value": "13 of 19 ranked options",
+  "value_low": 13,
+  "value_high": 13,
   "unit": "count",
-  "as_of": "Sep 2026",
-  "context": "Derived from policy_options.csv: ranked options rated Low effort (a letter, guidance or list update), as of September 2026. The report text does not state this total; ranks 1 to 4 are all low effort.",
+  "as_of": "Oct 2026",
+  "context": "Derived from policy_options.csv: ranked options rated Low effort (a letter, guidance or list update), as of October 2026. The report text does not state this total; ranks 1 and 2 are low effort.",
   "source_ids": [],
   "derived": true,
   "evidence": "VN-direct",
@@ -1357,7 +1349,8 @@
   "primary_page": "ch27-policy-options",
   "pages": [
    "ch27-policy-options"
-  ]
+  ],
+  "version": "0.8"
  },
  {
   "id": "kn-feed-target-2030",
@@ -1382,8 +1375,7 @@
   "pages": [
    "app-f1-outlook",
    "brief-policy",
-   "ch19-outlook-2035",
-   "front-at-a-glance"
+   "ch19-outlook-2035"
   ]
  },
  {
@@ -1424,23 +1416,23 @@
   "derived": true,
   "evidence": "general",
   "confidence": "High",
-  "primary_page": "ch19-outlook-2035",
+  "primary_page": "app-s6-feed-market",
   "pages": [
-   "app-s6-feed-market",
    "app-f1-outlook",
-   "ch19-outlook-2035"
-  ]
+   "app-s6-feed-market"
+  ],
+  "version": "0.8"
  },
  {
   "id": "kn-open-questions",
   "label": "Open questions in the register",
   "label_vi": "Số câu hỏi còn bỏ ngỏ",
-  "value": "446",
-  "value_low": 446,
-  "value_high": 446,
+  "value": "473",
+  "value_low": 473,
+  "value_high": 473,
   "unit": "count",
-  "as_of": "Sep 2026",
-  "context": "Our count from open_questions.csv (v0.7, September 2026), including 28 added by the futures round, 114 by the demand round, 107 by the actor check and expansion waves 7 to 9 and 70 by the v0.7 citation check. Each question records why it matters, the cheapest way to close it and who to ask; chapter 30 ranks the twenty supply-side questions that matter most.",
+  "as_of": "Oct 2026",
+  "context": "Our count from open_questions.csv (v0.8, October 2026), including 28 added by the futures round, 114 by the demand round, 107 by the actor check and expansion waves 7 to 9, 70 by the v0.7 citation check, 26 by the food-security round (wave 11) and one added in consolidation (OQ-473). Each question records why it matters, the cheapest way to close it and who to ask; chapter 30 ranks the eighteen questions that matter most.",
   "source_ids": [],
   "derived": true,
   "evidence": "VN-direct",
@@ -1450,18 +1442,19 @@
    "app-m1-method",
    "app-r1-open-questions",
    "ch30-unknowns"
-  ]
+  ],
+  "version": "0.8"
  },
  {
   "id": "kn-disagreements",
   "label": "Recorded disagreements between sources",
   "label_vi": "Số điểm bất nhất giữa các nguồn",
-  "value": "352",
-  "value_low": 352,
-  "value_high": 352,
+  "value": "373",
+  "value_low": 373,
+  "value_high": 373,
   "unit": "count",
-  "as_of": "Sep 2026",
-  "context": "Our count from disagreements.csv (v0.4, September 2026), including 28 added by the futures round, 89 by the demand round and 93 by the actor check and expansion waves 7 to 9. Each entry gives both claims and the position we took; we never average disagreeing numbers.",
+  "as_of": "Oct 2026",
+  "context": "Our count from disagreements.csv (v0.8, October 2026), including 28 added by the futures round, 89 by the demand round, 93 by the actor check and expansion waves 7 to 9 and 21 by the food-security round (wave 11). Each entry gives both claims and the position we took; we never average disagreeing numbers.",
   "source_ids": [],
   "derived": true,
   "evidence": "VN-direct",
@@ -1471,18 +1464,19 @@
    "app-m1-method",
    "app-r2-disagreements",
    "ch30-unknowns"
-  ]
+  ],
+  "version": "0.8"
  },
  {
   "id": "kn-sources-count",
   "label": "Sources logged",
   "label_vi": "Số nguồn tài liệu đã ghi nhận",
-  "value": "2,384",
-  "value_low": 2384,
-  "value_high": 2384,
+  "value": "2,480",
+  "value_low": 2480,
+  "value_high": 2480,
   "unit": "count",
-  "as_of": "Sep 2026",
-  "context": "Our count from sources.csv: 599 sources from wave 1 and 207 from wave 2 (v0.1), 469 from the futures round (waves 3 to 5, v0.2), 451 from the demand round (wave 6, v0.3), 577 from the actor check and expansion waves 7 to 9 (v0.4) and 81 from the prologue research (wave 10, v0.5), including press, peer-reviewed papers, company pages, statistics and legal texts.",
+  "as_of": "Oct 2026",
+  "context": "Our count from sources.csv: 599 sources from wave 1 and 207 from wave 2 (v0.1), 469 from the futures round (waves 3 to 5, v0.2), 451 from the demand round (wave 6, v0.3), 577 from the actor check and expansion waves 7 to 9 (v0.4), 81 from the prologue research (wave 10, v0.5) and 96 from the food-security round (wave 11, v0.8, six of them from its editorial checks), including press, peer-reviewed papers, company pages, statistics and legal texts.",
   "source_ids": [],
   "derived": true,
   "evidence": "VN-direct",
@@ -1491,7 +1485,8 @@
   "pages": [
    "app-m1-method",
    "app-r4-sources"
-  ]
+  ],
+  "version": "0.8"
  },
  {
   "id": "kn-provinces-count",
@@ -1633,7 +1628,7 @@
   "value_high": 6.5,
   "unit": "USD per kg protein",
   "as_of": "2026 inputs",
-  "context": "Our estimate for hydrogen-route protein made in Vietnam: USD 6.9 to 12.6 per kg (2030), 4.7 to 8.6 (2040), 3.3 to 6.5 (2050), against fishmeal protein at 2.6 to 3.8 and soybean-meal protein at about 0.88 per kg (2025 to 2026 prices).",
+  "context": "Our estimate for hydrogen-route protein made in Vietnam: USD 6.9 to 12.6 per kg (2030), 4.7 to 8.6 (2040), 3.3 to 6.5 (2050), against fishmeal protein at 2.6 to 3.8 and soybean-meal protein at about 0.88 per kg (2025 to 2026 prices). The fishmeal and soybean-meal comparison is feed context; the study now compares new protein with food prices (chapter 9).",
   "source_ids": [
    "FTG-01",
    "FTG-19"
@@ -1644,13 +1639,12 @@
   "primary_page": "ch21-frontier-technology",
   "pages": [
    "app-f3-frontier-tech",
-   "brief-investors",
    "ch21-frontier-technology",
    "front-at-a-glance"
   ],
   "foresight_type": "estimate",
   "horizon": "2050",
-  "version": "0.2"
+  "version": "0.8"
  },
  {
   "id": "kn-learning-rate-fermentation",
@@ -1702,15 +1696,13 @@
   "derived": true,
   "evidence": "VN-direct",
   "confidence": "Low",
-  "primary_page": "ch21-frontier-technology",
+  "primary_page": "app-f3-frontier-tech",
   "pages": [
-   "app-f3-frontier-tech",
-   "brief-startups",
-   "ch21-frontier-technology"
+   "app-f3-frontier-tech"
   ],
   "foresight_type": "estimate",
   "horizon": "2030 to 2050",
-  "version": "0.2"
+  "version": "0.8"
  },
  {
   "id": "kn-p2p-energy-per-mt",
@@ -1788,11 +1780,12 @@
   "pages": [
    "app-f4-balance-model",
    "brief-manufacturers",
+   "brief-policy",
    "ch22-protein-balance-2050",
    "front-at-a-glance",
-   "front-cover",
    "front-exec-summary",
-   "front-exec-summary-vi"
+   "front-exec-summary-vi",
+   "front-two-minute"
   ],
   "foresight_type": "estimate",
   "horizon": "2050",
@@ -1817,8 +1810,7 @@
   "primary_page": "ch22-protein-balance-2050",
   "pages": [
    "app-f4-balance-model",
-   "ch22-protein-balance-2050",
-   "front-at-a-glance"
+   "ch22-protein-balance-2050"
   ],
   "foresight_type": "estimate",
   "horizon": "2050",
@@ -1867,18 +1859,13 @@
   "derived": true,
   "evidence": "VN-direct",
   "confidence": "Low",
-  "primary_page": "ch22-protein-balance-2050",
+  "primary_page": "app-f4-balance-model",
   "pages": [
-   "app-f4-balance-model",
-   "brief-manufacturers",
-   "ch22-protein-balance-2050",
-   "front-at-a-glance",
-   "front-exec-summary",
-   "front-exec-summary-vi"
+   "app-f4-balance-model"
   ],
   "foresight_type": "estimate",
   "horizon": "2050",
-  "version": "0.2"
+  "version": "0.8"
  },
  {
   "id": "kn-salt-plants-2050",
@@ -1899,15 +1886,13 @@
   "derived": true,
   "evidence": "VN-direct",
   "confidence": "Low",
-  "primary_page": "ch22-protein-balance-2050",
+  "primary_page": "app-f4-balance-model",
   "pages": [
-   "app-f4-balance-model",
-   "brief-investors",
-   "ch22-protein-balance-2050"
+   "app-f4-balance-model"
   ],
   "foresight_type": "estimate",
   "horizon": "2030, 2050",
-  "version": "0.2"
+  "version": "0.8"
  },
  {
   "id": "kn-omega3-need-2050",
@@ -1927,15 +1912,13 @@
   "derived": true,
   "evidence": "VN-direct",
   "confidence": "Low",
-  "primary_page": "ch22-protein-balance-2050",
+  "primary_page": "app-f6-aquafeed-feedstock-futures",
   "pages": [
-   "app-f6-aquafeed-feedstock-futures",
-   "brief-startups",
-   "ch22-protein-balance-2050"
+   "app-f6-aquafeed-feedstock-futures"
   ],
   "foresight_type": "estimate",
   "horizon": "2050",
-  "version": "0.2"
+  "version": "0.8"
  },
  {
   "id": "kn-feed-target-livestock-2030",
@@ -1955,15 +1938,13 @@
   "derived": true,
   "evidence": "VN-direct",
   "confidence": "Medium",
-  "primary_page": "ch22-protein-balance-2050",
+  "primary_page": "app-f4-balance-model",
   "pages": [
-   "app-f4-balance-model",
-   "brief-policy",
-   "ch22-protein-balance-2050"
+   "app-f4-balance-model"
   ],
   "foresight_type": "estimate",
   "horizon": "2030",
-  "version": "0.2"
+  "version": "0.8"
  },
  {
   "id": "kn-anchoveta-2026",
@@ -1996,12 +1977,12 @@
   "id": "kn-no-regret-plays",
   "label": "Plays that thrive in all four 2050 worlds",
   "label_vi": "Số hướng đi thành công trong cả bốn kịch bản 2050",
-  "value": "3 of 16, all public infrastructure",
-  "value_low": 3,
-  "value_high": 3,
+  "value": "2 of 11, both public infrastructure",
+  "value_low": 2,
+  "value_high": 2,
   "unit": "plays",
   "as_of": "2026 assessment",
-  "context": "Public feed-trial capacity, a protein-quality laboratory and an open cost model and price series. Ten more plays hold in every world with conditions; two are bets; one is a research option. Our judgement.",
+  "context": "A protein-quality laboratory and an open cost model and price series. Seven more plays and public goods hold in every world with conditions; one is a bet; one is a research option. Our judgement.",
   "source_ids": [
    "VIS-35",
    "VIS-36"
@@ -2015,92 +1996,7 @@
   ],
   "foresight_type": "estimate",
   "horizon": "2050",
-  "version": "0.2"
- },
- {
-  "id": "kn-vision-sbm-2050",
-  "label": "Vision: soybean-meal need in 2050",
-  "label_vi": "Tầm nhìn: nhu cầu khô đậu tương năm 2050",
-  "value": "7 to 9 Mt, against 10.4 Mt on trend",
-  "value_low": 7.0,
-  "value_high": 8.8,
-  "unit": "Mt",
-  "as_of": "vision",
-  "context": "Normative goal, not a forecast: a credible ambitious range based on the balance model's efficiency and alternative-protein scenarios (app-f4-balance-model) and on China's and Norway's achieved pace. Holding need at the 2025 level of 7.2 Mt is a stretch.",
-  "source_ids": [
-   "QNT-01",
-   "VIS-19",
-   "GEO-11",
-   "MAC-04"
-  ],
-  "derived": true,
-  "evidence": "VN-direct",
-  "confidence": "Low",
-  "primary_page": "ch24-vision-2050",
-  "pages": [
-   "brief-policy",
-   "ch24-vision-2050",
-   "front-at-a-glance",
-   "front-exec-summary",
-   "front-exec-summary-vi"
-  ],
-  "foresight_type": "vision",
-  "horizon": "2050",
-  "version": "0.2"
- },
- {
-  "id": "kn-vision-microbial-share-2050",
-  "label": "Vision: microbial protein in feed, 2050",
-  "label_vi": "Tầm nhìn: tỷ lệ đạm vi sinh trong thức ăn năm 2050",
-  "value": "4 to 8% of high-protein feed protein",
-  "value_low": 4,
-  "value_high": 8,
-  "unit": "%",
-  "as_of": "vision",
-  "context": "Normative goal: about 1% by 2030, 1 to 3% by 2035, 2 to 4% by 2040. No feed sector we found has reached 1%; Norwegian salmon feed, the best documented, used 0.4% novel ingredients by mass in 2020. The top of the range is a stretch.",
-  "source_ids": [
-   "VIS-18",
-   "VIS-20"
-  ],
-  "derived": true,
-  "evidence": "VN-direct",
-  "confidence": "Low",
-  "primary_page": "ch24-vision-2050",
-  "pages": [
-   "ch24-vision-2050",
-   "front-exec-summary",
-   "front-exec-summary-vi"
-  ],
-  "foresight_type": "vision",
-  "horizon": "2050",
-  "version": "0.2"
- },
- {
-  "id": "kn-vision-omega3-2050",
-  "label": "Vision: non-marine omega-3 in aquafeed, 2050",
-  "label_vi": "Tầm nhìn: omega-3 không từ biển trong thức ăn thủy sản năm 2050",
-  "value": "15 to 50% of EPA plus DHA",
-  "value_low": 15,
-  "value_high": 50,
-  "unit": "%",
-  "as_of": "vision",
-  "context": "Normative goal based on commercial algal and oilseed omega-3 oils; in one trial, omega-3 canola oil replaced all fish oil in low-fishmeal shrimp diets without growth loss.",
-  "source_ids": [
-   "AQF-19",
-   "AQF-23",
-   "AQF-24"
-  ],
-  "derived": true,
-  "evidence": "general",
-  "confidence": "Low",
-  "primary_page": "ch24-vision-2050",
-  "pages": [
-   "app-f6-aquafeed-feedstock-futures",
-   "ch24-vision-2050"
-  ],
-  "foresight_type": "vision",
-  "horizon": "2050",
-  "version": "0.2"
+  "version": "0.8"
  },
  {
   "id": "kn-protein-plan-horizons",
@@ -2140,12 +2036,12 @@
   "id": "kn-no-regret-moves",
   "label": "No-regret moves for 2026 to 2030",
   "label_vi": "Số biện pháp không hối tiếc cho giai đoạn 2026 đến 2030",
-  "value": "9 of 21 moves",
-  "value_low": 9,
-  "value_high": 9,
+  "value": "7 of 21 moves",
+  "value_low": 7,
+  "value_high": 7,
   "unit": "moves",
   "as_of": "2026 assessment",
-  "context": "A protein and feed balance; feed efficiency and formulation; new-food and new-feed routes with deadlines; shared pilot and trial capacity; a quality laboratory and price series; residue-carbon rules; an omega-3 plan; climate-proof siting; process skills. Our judgement.",
+  "context": "A national protein balance; a new-food route with deadlines; shared food-grade pilot capacity; a protein-quality laboratory and price series; residue-carbon rules and a by-product atlas; climate-proof siting; process-engineering skills. Five feed moves tested earlier are no longer recommended. Our judgement.",
   "source_ids": [
    "VIS-35",
    "VIS-36"
@@ -2164,7 +2060,7 @@
   ],
   "foresight_type": "estimate",
   "horizon": "2030",
-  "version": "0.2"
+  "version": "0.8"
  },
  {
   "id": "kn-capital-charge-lever",
@@ -2175,7 +2071,7 @@
   "value_high": 3610,
   "unit": "USD per t protein (2030 low end)",
   "as_of": "2026 inputs",
-  "context": "Cutting the annual capital charge from 12% to 9% lowers the 2030 low-end cost of fungal feed protein to about USD 3,610 per t of protein with no learning at all, close to the central learning case in 2030 (USD 3,557 after two doublings of output). Our calculation (ecf_calc.py) on the chapter 9 cost stack.",
+  "context": "Cutting the annual capital charge from 12% to 9% lowers the 2030 low-end cost of fungal biomass protein (feed-grade cost stack) to about USD 3,610 per t of protein with no learning at all, close to the central learning case in 2030 (USD 3,557 after two doublings of output). Our calculation (ecf_calc.py) on the chapter 9 cost stack.",
   "source_ids": [
    "COST-01",
    "COST-19",
@@ -2195,7 +2091,7 @@
   ],
   "foresight_type": "estimate",
   "horizon": "2030",
-  "version": "0.2"
+  "version": "0.8"
  },
  {
   "id": "kn-meat-intake-2020",
@@ -2218,8 +2114,14 @@
   "primary_page": "ch11-protein-diet",
   "demand_evidence_type": "revealed",
   "pages": [
+   "brief-international",
+   "brief-policy",
+   "ch01-why-vietnam",
    "ch11-protein-diet",
-   "front-at-a-glance"
+   "front-at-a-glance",
+   "front-cover",
+   "front-exec-summary",
+   "front-exec-summary-vi"
   ],
   "version": "0.3"
  },
@@ -2243,7 +2145,9 @@
   "primary_page": "ch11-protein-diet",
   "demand_evidence_type": "revealed",
   "pages": [
-   "ch11-protein-diet"
+   "ch01-why-vietnam",
+   "ch11-protein-diet",
+   "front-at-a-glance"
   ],
   "version": "0.3"
  },
@@ -2875,8 +2779,6 @@
   "primary_page": "ch16-business-buyers",
   "demand_evidence_type": "revealed",
   "pages": [
-   "app-s3-regional",
-   "ch03-regional",
    "ch16-business-buyers"
   ],
   "version": "0.3"
@@ -3057,10 +2959,13 @@
    "brief-international",
    "brief-investors",
    "ch18-demand-sizing",
+   "ch24-vision-2050",
    "ch25-demand-to-frontier",
    "front-at-a-glance",
+   "front-cover",
    "front-exec-summary",
-   "front-exec-summary-vi"
+   "front-exec-summary-vi",
+   "front-two-minute"
   ],
   "version": "0.3"
  },
@@ -3427,7 +3332,8 @@
   "pages": [
    "brief-investors",
    "ch09-economics",
-   "ch25-demand-to-frontier"
+   "ch25-demand-to-frontier",
+   "front-at-a-glance"
   ],
   "version": "0.4"
  },
@@ -3514,21 +3420,19 @@
   "value_high": 9193,
   "unit": "t",
   "as_of": "2025",
-  "context": "Partners reported exporting 9,193 t to Vietnam in 2025 (mirror data, incomplete; 2024: 9,336 t). 8,729 t (95%) came in at below USD 2 per kg, averaging USD 1.10 per kg FOB; 464 t of specialty products averaged USD 8.55. 2.4 times the 2019 tonnage; the trade code does not separate feed from food. The revealed price a Vietnamese microbial feed ingredient must beat. Partners also reported importing 8,166 t from Vietnam in 2025.",
+  "context": "Partners reported exporting 9,193 t to Vietnam in 2025 (mirror data, incomplete; 2024: 9,336 t). 8,729 t (95%) came in at below USD 2 per kg, averaging USD 1.10 per kg FOB; 464 t of specialty products averaged USD 8.55. 2.4 times the 2019 tonnage; the trade code does not separate feed from food. The revealed price any Vietnamese yeast or microbial ingredient for food must beat. Partners also reported importing 8,166 t from Vietnam in 2025.",
   "source_ids": [
    "FBA-17"
   ],
   "derived": false,
   "evidence": "VN-direct",
   "confidence": "Medium",
-  "primary_page": "ch17-export-demand",
+  "primary_page": "brief-manufacturers",
   "demand_evidence_type": "revealed",
   "pages": [
-   "brief-investors",
-   "brief-manufacturers",
-   "ch17-export-demand"
+   "brief-manufacturers"
   ],
-  "version": "0.4"
+  "version": "0.8"
  },
  {
   "id": "kn-stuffed-pasta-exports",
@@ -3709,5 +3613,530 @@
    "front-prologue-vi"
   ],
   "version": "0.5"
+ },
+ {
+  "id": "kn-animal-protein-on-imports",
+  "label": "Animal protein people eat that rests on imports, directly or through feed",
+  "label_vi": "Tỷ lệ đạm động vật trong khẩu phần phụ thuộc nhập khẩu, trực tiếp hoặc qua thức ăn chăn nuôi",
+  "value": "61% to 71%",
+  "value_low": 61,
+  "value_high": 71,
+  "unit": "% of animal protein supply",
+  "as_of": "2023",
+  "context": "Imported meat, offal, milk and fish, plus domestic pork, poultry, eggs and farmed fish attributed to imported compound feed (82% of feed ingredients by weight and about 93% by protein were imported in 2025). FAO food balance sheets, supply basis. Our calculation.",
+  "source_ids": [
+   "DIE-07",
+   "MAC-01",
+   "FS-23"
+  ],
+  "derived": true,
+  "evidence": "VN-direct",
+  "confidence": "Low",
+  "primary_page": "ch01-why-vietnam",
+  "pages": [
+   "brief-international",
+   "brief-investors",
+   "brief-policy",
+   "ch01-why-vietnam",
+   "front-at-a-glance",
+   "front-cover",
+   "front-exec-summary",
+   "front-exec-summary-vi",
+   "front-two-minute"
+  ],
+  "version": "0.8"
+ },
+ {
+  "id": "kn-protein-supply-imported",
+  "label": "Protein supply that is imported food",
+  "label_vi": "Tỷ lệ đạm trong nguồn cung thực phẩm đến trực tiếp từ thực phẩm nhập khẩu",
+  "value": "19% to 23%",
+  "value_low": 19,
+  "value_high": 23,
+  "unit": "% of protein supply",
+  "as_of": "2023",
+  "context": "Net to gross import basis on FAO food balance sheets; 11% to 13% in 2010. Soybeans, wheat, maize, milk, beef, offal, poultry, groundnuts and beans carry most of it. Our calculation.",
+  "source_ids": [
+   "DIE-07"
+  ],
+  "derived": true,
+  "evidence": "VN-direct",
+  "confidence": "Medium",
+  "primary_page": "ch01-why-vietnam",
+  "pages": [
+   "brief-policy",
+   "brief-research",
+   "ch01-why-vietnam",
+   "front-at-a-glance",
+   "front-exec-summary",
+   "front-exec-summary-vi"
+  ],
+  "demand_evidence_type": "revealed",
+  "version": "0.8"
+ },
+ {
+  "id": "kn-soybean-import-dependence",
+  "label": "Import dependence of soybeans, the base of tofu and soy milk",
+  "label_vi": "Tỷ lệ phụ thuộc nhập khẩu của đậu tương, nguyên liệu làm đậu phụ và sữa đậu nành",
+  "value": "97.5%",
+  "value_low": 97.5,
+  "value_high": 97.5,
+  "unit": "% (import dependency ratio)",
+  "as_of": "2023",
+  "context": "Soy foods supply 4.9 g of protein per person per day, about 181,000 t of protein a year; domestic beans (48 kt) could cover at most 9% of the 533 kt used as food. Our calculation from FAO food balance sheets.",
+  "source_ids": [
+   "DIE-07"
+  ],
+  "derived": true,
+  "evidence": "VN-direct",
+  "confidence": "High",
+  "primary_page": "ch11-protein-diet",
+  "pages": [
+   "brief-research",
+   "ch11-protein-diet",
+   "front-at-a-glance",
+   "front-exec-summary",
+   "front-exec-summary-vi"
+  ],
+  "version": "0.8"
+ },
+ {
+  "id": "kn-milk-self-sufficiency",
+  "label": "Milk and dairy self-sufficiency",
+  "label_vi": "Tỷ lệ tự cung sữa và sản phẩm sữa",
+  "value": "about 30%",
+  "value_low": 30,
+  "value_high": 30,
+  "unit": "% (milk equivalent)",
+  "as_of": "2023",
+  "context": "Production over production plus imports minus exports, FAO food balance sheets; the FAO milk series swings between years, so read it as a level, not a trend. Decision 309/QD-TTg targets domestic raw milk meeting 60% to 65% of processing demand by 2030, a different basis. Our calculation.",
+  "source_ids": [
+   "DIE-07",
+   "APR-11"
+  ],
+  "derived": true,
+  "evidence": "VN-direct",
+  "confidence": "Medium",
+  "primary_page": "ch01-why-vietnam",
+  "pages": [
+   "ch01-why-vietnam",
+   "front-at-a-glance",
+   "front-exec-summary",
+   "front-exec-summary-vi"
+  ],
+  "version": "0.8"
+ },
+ {
+  "id": "kn-meat-protein-on-imports-2050",
+  "label": "Meat protein resting on imports in 2050, trend scenario",
+  "label_vi": "Tỷ lệ đạm từ thịt phụ thuộc nhập khẩu năm 2050, kịch bản xu hướng",
+  "value": "79% to 87%",
+  "value_low": 79,
+  "value_high": 87,
+  "unit": "% of meat protein",
+  "as_of": "2050",
+  "context": "Balance model trend scenario (S-BASE): about 1,446 kt of meat protein in 2050, of which 1,136 to 1,261 kt rests on imports directly or through feed (69% to 77% in 2023). Self-sufficiency and imported feed shares held at 2025 values. Our estimate; a scenario, not a forecast.",
+  "source_ids": [
+   "QNT-01",
+   "MAC-01",
+   "DIE-07"
+  ],
+  "derived": true,
+  "evidence": "VN-direct",
+  "confidence": "Low",
+  "primary_page": "ch22-protein-balance-2050",
+  "pages": [
+   "ch22-protein-balance-2050",
+   "front-at-a-glance"
+  ],
+  "foresight_type": "estimate",
+  "horizon": "2050",
+  "version": "0.8"
+ },
+ {
+  "id": "kn-asf-recombinant-share",
+  "label": "Recombinant African swine fever virus in typed samples, northern Vietnam",
+  "label_vi": "Tỷ lệ chủng vi rút dịch tả lợn châu Phi tái tổ hợp trong mẫu giám sát ở miền Bắc",
+  "value": "79%",
+  "value_low": 79,
+  "value_high": 79,
+  "unit": "% of typed samples",
+  "as_of": "2025",
+  "context": "158 of 200 samples; 76% in the centre and Central Highlands, 60% in the south. MAE says the three licensed vaccines, made from genotype II virus, have no protective effect against the recombinant strains (official letter 2481/CNTY-DT, September 2025).",
+  "source_ids": [
+   "PAN-33"
+  ],
+  "derived": false,
+  "evidence": "VN-direct",
+  "confidence": "High",
+  "primary_page": "ch20-drivers-2050",
+  "pages": [
+   "brief-policy",
+   "brief-research",
+   "ch20-drivers-2050",
+   "front-at-a-glance",
+   "front-exec-summary",
+   "front-exec-summary-vi"
+  ],
+  "version": "0.8"
+ },
+ {
+  "id": "kn-h5n1-human-cases",
+  "label": "Human H5N1 cases in Vietnam since 2003",
+  "label_vi": "Số ca mắc cúm A(H5N1) ở người tại Việt Nam từ năm 2003",
+  "value": "130 cases (65 deaths)",
+  "value_low": 130,
+  "value_high": 130,
+  "unit": "cases",
+  "as_of": "6 Sep 2026",
+  "context": "None in 2026 to 6 September; 1 in 2025; 2 in 2020 to 2024. WHO judges sustained human-to-human spread unlikely at present.",
+  "source_ids": [
+   "PAN-01",
+   "PAN-02"
+  ],
+  "derived": false,
+  "evidence": "VN-direct",
+  "confidence": "High",
+  "primary_page": "app-f2-drivers-signals",
+  "pages": [
+   "app-f2-drivers-signals"
+  ],
+  "version": "0.8"
+ },
+ {
+  "id": "kn-asf-culls-vs-spared",
+  "label": "Pigs culled for African swine fever in 2025, against pigs the benchmark demand path spares in 2035",
+  "label_vi": "Số lợn tiêu hủy do dịch tả lợn châu Phi năm 2025 so với số lợn được tránh giết mổ theo kịch bản D-BENCH năm 2035",
+  "value": "8.4 times",
+  "value_low": 8.4,
+  "value_high": 8.4,
+  "unit": "times",
+  "as_of": "2025 and 2035",
+  "context": "About 1.2 million pigs culled in 2025 against about 142,000 pigs spared a year in 2035 on the benchmark path (D-BENCH); 41.5 times for the 2019 epidemic. Alternative protein at the scale demand supports does not change disease exposure. Our calculation.",
+  "source_ids": [
+   "MAC-01",
+   "PAN-03"
+  ],
+  "derived": true,
+  "evidence": "VN-direct",
+  "confidence": "Low",
+  "primary_page": "ch01-why-vietnam",
+  "pages": [
+   "brief-international",
+   "brief-policy",
+   "ch01-why-vietnam",
+   "front-at-a-glance",
+   "front-exec-summary",
+   "front-exec-summary-vi"
+  ],
+  "foresight_type": "estimate",
+  "horizon": "2035",
+  "demand_evidence_type": "inferred",
+  "version": "0.8"
+ },
+ {
+  "id": "kn-china-share-plant-protein-ingredients",
+  "label": "China's share of imported food plant-protein ingredients",
+  "label_vi": "Tỷ trọng của Trung Quốc trong lượng nguyên liệu đạm thực vật nhập khẩu",
+  "value": "84%",
+  "value_low": 84,
+  "value_high": 84,
+  "unit": "% of tonnage (HS 3504, 2106.10, 1109)",
+  "as_of": "2025",
+  "context": "53,976 of 64,248 t reaching Vietnam, partner-reported (our calculation). Alternative protein made from these ingredients moves dependence to China rather than reducing it.",
+  "source_ids": [
+   "BUY-02"
+  ],
+  "derived": true,
+  "evidence": "VN-direct",
+  "confidence": "Medium",
+  "primary_page": "ch01-why-vietnam",
+  "pages": [
+   "brief-international",
+   "brief-investors",
+   "brief-policy",
+   "brief-startups",
+   "ch01-why-vietnam",
+   "front-at-a-glance",
+   "front-exec-summary",
+   "front-exec-summary-vi"
+  ],
+  "demand_evidence_type": "revealed",
+  "version": "0.8"
+ },
+ {
+  "id": "kn-pork-price-2020",
+  "label": "Consumer pork price rise in 2020, after African swine fever",
+  "label_vi": "Giá thịt lợn tiêu dùng tăng năm 2020, sau dịch tả lợn châu Phi",
+  "value": "57.23%",
+  "value_low": 57.23,
+  "value_high": 57.23,
+  "unit": "% on 2019 (consumer price index item)",
+  "as_of": "2020",
+  "context": "1.94 points of a 3.23% rise in the consumer price index. In 2022, the year world feed prices peaked, pork fell 10.68% and food rose 1.62%: consumers felt disease more than imported feed.",
+  "source_ids": [
+   "SEC-08",
+   "SEC-09"
+  ],
+  "derived": false,
+  "evidence": "VN-direct",
+  "confidence": "High",
+  "primary_page": "ch01-why-vietnam",
+  "pages": [
+   "brief-policy",
+   "ch01-why-vietnam",
+   "front-at-a-glance",
+   "front-exec-summary",
+   "front-exec-summary-vi"
+  ],
+  "demand_evidence_type": "revealed",
+  "version": "0.8"
+ },
+ {
+  "id": "kn-marine-stock-fall",
+  "label": "Fall in marine fish standing stock",
+  "label_vi": "Mức suy giảm trữ lượng nguồn lợi hải sản",
+  "value": "22.1%",
+  "value_low": 22.1,
+  "value_high": 22.1,
+  "unit": "% (2016 to 2020 against 2000 to 2005)",
+  "as_of": "2020",
+  "context": "About 3.95 Mt in 2016 to 2020; capture still rose from 3.26 Mt (2016) to 3.83 Mt (2024). Policy aims to cut capture about 27% by 2030; FAO projects climate losses of 2.8% to 11.7% of catch potential by 2050.",
+  "source_ids": [
+   "SEC-06",
+   "SEC-07"
+  ],
+  "derived": false,
+  "evidence": "VN-direct",
+  "confidence": "Medium",
+  "primary_page": "ch20-drivers-2050",
+  "pages": [
+   "ch20-drivers-2050",
+   "front-at-a-glance",
+   "front-exec-summary",
+   "front-exec-summary-vi"
+  ],
+  "version": "0.8"
+ },
+ {
+  "id": "kn-vision-protein-new-routes-2050",
+  "label": "Vision: protein from new routes, 2050",
+  "label_vi": "Tầm nhìn: lượng đạm từ các kênh mới năm 2050",
+  "value": "about 67,000 to 172,000 t of protein a year",
+  "value_low": 66.7,
+  "value_high": 171.5,
+  "unit": "kt protein",
+  "as_of": "vision",
+  "context": "A goal, not a forecast: the benchmark (D-BENCH) and stretch (D-STRETCH) paths of the demand model. Routes: import substitution (about two-thirds on the benchmark path), upgraded chay, blends, canteen dishes, analogues, plant drinks and exports. The stretch path assumes conditions not yet seen anywhere. Drift path: about 10.7 kt.",
+  "source_ids": [
+   "BUY-02",
+   "GLB-09",
+   "GT-12",
+   "QNT-01"
+  ],
+  "derived": true,
+  "evidence": "VN-direct",
+  "confidence": "Low",
+  "primary_page": "ch24-vision-2050",
+  "pages": [
+   "ch24-vision-2050",
+   "front-at-a-glance"
+  ],
+  "foresight_type": "vision",
+  "horizon": "2050",
+  "demand_evidence_type": "inferred",
+  "version": "0.8"
+ },
+ {
+  "id": "kn-vision-made-in-vietnam-2050",
+  "label": "Vision: protein made in Vietnam for the home market, 2050",
+  "label_vi": "Tầm nhìn: lượng đạm sản xuất tại Việt Nam cho thị trường trong nước năm 2050",
+  "value": "about 59,000 to 147,000 t of protein a year",
+  "value_low": 59.15,
+  "value_high": 146.51,
+  "unit": "kt protein",
+  "as_of": "vision",
+  "context": "Demand model, benchmark to stretch path (routes R1 to R6). Only import substitution applies an explicit domestic share; the other routes count protein of any origin, so this is the upper, model reading. Most of it is plant protein processed in Vietnam in place of imported ingredients.",
+  "source_ids": [
+   "BUY-02",
+   "GT-12",
+   "QNT-01"
+  ],
+  "derived": true,
+  "evidence": "VN-direct",
+  "confidence": "Low",
+  "primary_page": "ch24-vision-2050",
+  "pages": [
+   "ch24-vision-2050",
+   "front-at-a-glance"
+  ],
+  "foresight_type": "vision",
+  "horizon": "2050",
+  "demand_evidence_type": "inferred",
+  "version": "0.8"
+ },
+ {
+  "id": "kn-vision-domestic-ingredient-share-2050",
+  "label": "Vision: domestic share of food plant-protein ingredients, 2050",
+  "label_vi": "Tầm nhìn: tỷ lệ nguyên liệu đạm thực vật cho thực phẩm do doanh nghiệp trong nước cung cấp năm 2050",
+  "value": "40% to 60%",
+  "value_low": 40,
+  "value_high": 60,
+  "unit": "% of the ingredient pool",
+  "as_of": "vision",
+  "context": "Share of the food plant-protein ingredient pool (textured soy, gluten, isolates; about 35,000 to 40,000 t of product in 2025, mostly from China) supplied by domestic makers: demand-model assumptions for the benchmark and stretch paths. 25% to 45% in 2035; drift path 10% in 2050. Made from imported soy, this moves rather than removes import dependence.",
+  "source_ids": [
+   "BUY-02",
+   "BRD-05",
+   "BRD-06"
+  ],
+  "derived": true,
+  "evidence": "VN-direct",
+  "confidence": "Low",
+  "primary_page": "ch24-vision-2050",
+  "pages": [
+   "ch24-vision-2050",
+   "front-at-a-glance"
+  ],
+  "foresight_type": "vision",
+  "horizon": "2050",
+  "demand_evidence_type": "inferred",
+  "version": "0.8"
+ },
+ {
+  "id": "kn-meat-imports-2025",
+  "label": "Meat and meat product imports, 2025",
+  "label_vi": "Nhập khẩu thịt và các sản phẩm từ thịt năm 2025",
+  "value": "978,000 t (USD 2.0 billion)",
+  "value_low": 978.3,
+  "value_high": 978.3,
+  "unit": "kt",
+  "as_of": "2025",
+  "context": "Customs data via the Ministry of Industry and Trade; up 11.6% in volume and 12.2% in value on 2024. Mostly poultry by-products, Indian buffalo meat, frozen pork and offal.",
+  "source_ids": [
+   "MIM-04",
+   "MIM-05"
+  ],
+  "derived": false,
+  "evidence": "VN-direct",
+  "confidence": "Medium",
+  "primary_page": "ch01-why-vietnam",
+  "pages": [
+   "brief-manufacturers",
+   "brief-policy",
+   "ch01-why-vietnam",
+   "front-at-a-glance",
+   "front-exec-summary",
+   "front-exec-summary-vi"
+  ],
+  "demand_evidence_type": "revealed",
+  "version": "0.8"
+ },
+ {
+  "id": "kn-beef-import-share",
+  "label": "Share of beef and buffalo meat eaten that is imported",
+  "label_vi": "Tỷ trọng thịt bò và thịt trâu nhập khẩu trong tiêu dùng",
+  "value": "32% to 48%",
+  "value_low": 32,
+  "value_high": 48,
+  "unit": "% of consumption",
+  "as_of": "2025",
+  "context": "USDA puts it at 32.1% and OECD-FAO at 47.8%; the two are not averaged. Pork is about 3.7% to 4.5% imported and poultry 11% to 17% (the higher figure counts by-products).",
+  "source_ids": [
+   "MIM-03",
+   "QNT-01"
+  ],
+  "derived": true,
+  "evidence": "VN-direct",
+  "confidence": "Medium",
+  "primary_page": "ch01-why-vietnam",
+  "pages": [
+   "ch01-why-vietnam"
+  ],
+  "demand_evidence_type": "revealed",
+  "version": "0.8"
+ },
+ {
+  "id": "kn-dairy-imports-2025",
+  "label": "Dairy imports, 2025",
+  "label_vi": "Nhập khẩu sữa và sản phẩm sữa năm 2025",
+  "value": "USD 1.44 billion",
+  "value_low": 1.44,
+  "value_high": 1.44,
+  "unit": "USD billion",
+  "as_of": "2025",
+  "context": "Up 27.3% on 2024; New Zealand supplied 30.5%. Domestic fresh milk meets about 40% of demand (industry association claim).",
+  "source_ids": [
+   "MIM-12",
+   "MIM-13"
+  ],
+  "derived": false,
+  "evidence": "VN-direct",
+  "confidence": "Medium",
+  "primary_page": "ch01-why-vietnam",
+  "pages": [
+   "ch01-why-vietnam",
+   "front-at-a-glance"
+  ],
+  "demand_evidence_type": "revealed",
+  "version": "0.8"
+ },
+ {
+  "id": "kn-origin-price-support",
+  "label": "Producer price support for meat and milk in the main origins of Vietnam's imports",
+  "label_vi": "Mức hỗ trợ giá cho người sản xuất thịt và sữa tại các nước xuất khẩu chính sang Việt Nam",
+  "value": "none for most (coefficient 1.00)",
+  "value_low": 1.0,
+  "value_high": 1.0,
+  "unit": "producer nominal protection coefficient (1.00 = no price support)",
+  "as_of": "2022 to 2024",
+  "context": "OECD estimates for US meat and milk, Brazilian poultry and beef, and Australian and New Zealand meat and milk. India's bovine meat is taxed rather than supported (0.78 to 0.90). Exceptions: Brazilian pigmeat 1.66 in 2024 (1.00 in 2022 and 2023), Russian pigmeat 1.19 to 1.65, EU poultry 1.30 to 1.45. Agricultural export subsidies ended under WTO rules (2015 to 2023). The evidence does not support the claim that Vietnam relies on subsidised imported meat.",
+  "source_ids": [
+   "MIM-15"
+  ],
+  "derived": false,
+  "evidence": "general",
+  "confidence": "High",
+  "primary_page": "ch01-why-vietnam",
+  "pages": [
+   "brief-policy",
+   "ch01-why-vietnam",
+   "front-at-a-glance",
+   "front-exec-summary",
+   "front-exec-summary-vi"
+  ],
+  "version": "0.8"
+ },
+ {
+  "id": "kn-imported-meat-displaceable-2035",
+  "label": "Imported meat protein that new protein could displace by 2035, benchmark path",
+  "label_vi": "Tỷ lệ đạm thịt nhập khẩu mà protein thay thế (kịch bản chuẩn) có thể thay thế vào năm 2035",
+  "value": "at most about 1.6%",
+  "value_low": 1.6,
+  "value_high": 1.6,
+  "unit": "% of 2025 imported meat protein (upper bound)",
+  "as_of": "2035",
+  "context": "About 2,350 t of meat protein displaced on the benchmark path (D-BENCH) against about 147,000 t of protein in 2025 meat imports (978,300 t x 0.15). Upper bound: assumes all displacement falls on imports. Our calculation.",
+  "source_ids": [
+   "MIM-04",
+   "QNT-01"
+  ],
+  "derived": true,
+  "evidence": "VN-direct",
+  "confidence": "Low",
+  "primary_page": "ch01-why-vietnam",
+  "pages": [
+   "brief-manufacturers",
+   "ch01-why-vietnam",
+   "ch14-frontier-demand",
+   "ch16-business-buyers",
+   "front-at-a-glance",
+   "front-exec-summary",
+   "front-exec-summary-vi"
+  ],
+  "foresight_type": "estimate",
+  "horizon": "2035",
+  "demand_evidence_type": "inferred",
+  "version": "0.8"
  }
 ]

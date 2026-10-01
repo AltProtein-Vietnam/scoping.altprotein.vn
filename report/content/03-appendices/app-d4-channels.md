@@ -4,9 +4,9 @@ title: "D4. Channels and institutions data"
 short_title: "D4. Channels"
 section: appendix
 order: 44
-summary: "The data behind chapter 15: food retail by channel and the store counts of every major chain, private label, fresh meat and cold chain, foodservice size and chain outlets, the meat-free items chains and B2B platforms have tried, corporate commitments, factory canteens and their dish mix, public meal rules and who writes the menus, the school menu audit, upland boarding meals, hospitals and the army, kitchen protein prices, e-commerce counters, tourism arrivals by market and in Khanh Hoa, and the channel ranking for five product types."
+summary: "The data behind chapter 15 on where people buy and eat protein. It covers food retail by channel and the store counts of every major chain, private label, fresh meat and cold chain, foodservice size and chain outlets, the meat-free items chains and business-to-business platforms have tried, corporate commitments, factory canteens and their dish mix, public meal rules and who writes the menus, the school menu audit, upland boarding meals, hospitals and the army, kitchen protein prices, e-commerce counters, tourism arrivals by market and in Khanh Hoa, and the channel ranking for five product types."
 audiences: [startups, manufacturers, investors, policy, research, international]
-reading_time_min: 39
+reading_time_min: 40
 key_numbers: []
 related_data: [retail_structure.csv, foodservice.csv, meal_programmes.csv, tourism.csv, channel_ranking.csv, public_meal_rules.csv, menu_authority.csv, school_menu_weeks.csv, public_meal_protein_cost.csv, upland_school_weeks.csv, canteen_dish_summary.csv, corporate_commitments.csv, private_label.csv, b2b_competitor_prices.csv, marketplace_sku_counters.csv, kitchen_platform_counters.csv]
 related_pages: [ch15-channels, app-m3-demand-method, ch16-business-buyers, ch18-demand-sizing]
@@ -14,7 +14,15 @@ charts: []
 ---
 # D4. Channels and institutions data
 
-**What this appendix contains.** The data behind [[ch15-channels]], generated from the data files named in each section. Most rows are revealed structure (store counts, sales, prices, budgets, rules, menus); the fit of each channel for new protein is inferred in the chapter. It also holds the actor check and the wave 7 to 9 lines on public meals, upland and canteen plates, commitments and competitors, and e-commerce (D4.1 to D4.6 updated; D4.7 to D4.9 new; [[app-m4-actor-check-waves]]).
+**What this appendix contains.** This appendix holds the data behind [[ch15-channels]], the chapter on where people buy and eat protein. Each section names the data files it comes from. Most rows are revealed evidence, records of what firms and public bodies actually do: store counts, sales, prices, budgets, rules and menus. How well each channel fits new protein is our inference, made in the chapter. The actor check and research waves 7 to 9 updated sections D4.1 to D4.6 and added D4.7 to D4.9, on public meals, upland and canteen plates, corporate commitments, competitors and e-commerce ([[app-m4-actor-check-waves]]).
+
+**Terms used.**
+
+- *Chay*: Vietnamese vegetarian practice and cuisine, and the name of the product category. *Đồ chay* is traditional vegetarian food.
+- B2B: business to business. HoReCa: hotels, restaurants and cafes. QSR: quick-service (fast-food) restaurants.
+- SKU (stock-keeping unit): one product in one pack size. BHX: the Bach Hoa Xanh chain.
+- MOH: Ministry of Health. MOET: Ministry of Education and Training. NIN: National Institute of Nutrition.
+- BRCGS, ISO 22000 and HACCP: food-safety certifications.
 
 ## D4.1 Retail structure and chains
 
@@ -150,14 +158,15 @@ charts: []
 | CP Meat Zero on Kamereo (HoReCa platform) | plant-based pork, 8 SKUs imported from Thailand | 175000 to 378000 | VND per kg | 2025 to 2026 | 1.5 to 2.1 times CP frozen minced pork (VND 114,450 per kg) on the same platform for the minced and roast SKUs, about 3.3 times for the bologna; 386 units on the sold counter against 24,769 for the minced pork; none orderable on 25 Sep 2026 | [@AIS-25; @CPC-12] {VN-direct\|Medium} {dx:revealed} |
 | Green Rebel (Indonesia) | regional-dish plant-based products through foodservice partners | 10.5 to 12.5 | USD million raised | 2026 | growth driven by foodservice partners and regional dishes; the regional exception among restaurant-first firms | [@AIS-30; @AIS-31] {VN-adjacent\|Medium} {dx:revealed} |
 
-**Startup outcomes by first channel** (24 regional and Vietnamese firms, 2019 to 2026; full register in `firm_outcomes.csv` and `firm_base_rates.csv`). Operating means active or pivoted; dormant means no news found after the last dated item, not proof of closure. Counts are our calculation from the register; the sources cited in each row are examples. Bien Phuong, whose first channel is unknown, is in the total only, so the channel rows sum to 23 firms and 10 dormant.
+**Startup outcomes by first channel** (24 regional and Vietnamese firms, 2019 to 2026; full register in `firm_outcomes.csv` and `firm_base_rates.csv`). Operating means active or pivoted; dormant means no news found after the last dated item, not proof of closure. Counts are our calculation from the register; the sources cited in each row are examples. Bien Phuong, whose first channel is not documented, has its own row, so the channel rows sum to the 24 firms and 11 dormant.
 
 | Group | Firms | Active | Pivoted | Exited | Dormant | Operating | Source |
 |---|---|---|---|---|---|---|---|
 | All startups and scale-ups | 24 | 7 | 4 | 2 | 11 | 46% | `firm_outcomes.csv` (our calculation); examples [@AIS-28; @BRD-08; @BRD-10] {VN-adjacent\|Low} {dx:revealed} |
 | Own brand first in shops, online or own outlets | 5 | 4 | 0 | 0 | 1 | 80% | `firm_outcomes.csv` (our calculation); examples [@AIS-39; @AIS-43] {VN-adjacent\|Low} {dx:revealed} |
 | Own brand first on restaurant or cafe menus | 12 | 2 | 3 | 0 | 7 | 42% | `firm_outcomes.csv` (our calculation); examples [@AIS-28; @AIS-37; @BRD-09] {VN-adjacent\|Low} {dx:revealed} |
-| No own brand at launch (B2B ingredient, technology or OEM; INNOHAS also launched its own brand, Sunlit Foods) | 6 | 1 | 1 | 2 | 2 | 33% | `firm_outcomes.csv` (our calculation); examples [@AIS-16; @AIS-34] {VN-adjacent\|Low} {dx:revealed} |
+| No own brand at launch (B2B ingredient, technology or contract manufacturing for other brands (OEM); INNOHAS also launched its own brand, Sunlit Foods) | 6 | 1 | 1 | 2 | 2 | 33% | `firm_outcomes.csv` (our calculation); examples [@AIS-16; @AIS-34] {VN-adjacent\|Low} {dx:revealed} |
+| First channel not documented (Bien Phuong, a Vietnam-founded seafood analogue maker) | 1 | 0 | 0 | 0 | 1 | 0% | `firm_outcomes.csv` (our calculation); last dated evidence [@ECO-17; @ECO-19] {VN-direct\|Low} {dx:revealed} |
 | Vietnam-based meat-analogue makers (three Vietnam-founded; Yukino belongs to a Japan-headquartered group) | 4 | 0 | 0 | 0 | 4 | 0% | `firm_outcomes.csv` (our calculation); last dated evidence [@AIS-41; @ECO-15; @ECO-17; @ECO-19] {VN-direct\|Low} {dx:revealed} |
 | Vietnam-founded traditional or whole-food formats | 3 | 3 | 0 | 0 | 0 | 100% | [@AIS-39; @AIS-42; @AIS-43] {VN-direct\|Low} {dx:revealed} |
 
@@ -165,18 +174,18 @@ Three of the four pivots (TiNDLE, Vow, UMAMI Bioworks) moved towards private lab
 
 ## D4.4 Institutions: canteens, schools, school milk, hospitals and the military
 
-**Programmes, budgets and rules.** The rules now in force are (Decision 3958/QĐ-BYT, Decision 973/QĐ-TTg, Directive 33/CT-TTg, Decrees 66/2025, 188/2026 and 339/2025), the 2026 to 2027 prices and the hospital and army rows; rule-by-rule extraction in `public_meal_rules.csv`.
+**Programmes, budgets and rules.** The table gives the rules now in force (Decision 3958/QĐ-BYT, Decision 973/QĐ-TTg, Directive 33/CT-TTg, and Decrees 66/2025, 188/2026 and 339/2025). It also gives the 2026 to 2027 meal prices and rows for hospitals and the army. `public_meal_rules.csv` sets out each rule in turn.
 
 | Programme or channel | People served | Unit | Meals a year | Basis | Price per meal, VND | Rules | Year | Source |
 |---|---|---|---|---|---|---|---|---|
-| Industrial park and economic zone canteens (national) | 4150000 | workers | 1245000000 | our calculation: 4.15 million x 300 meal days; upper bound | 17000 to 40000 | Union floors VND 25,000 with a caterer and 20,000 when the firm cooks (regions I and II; VND 22,000 and 18,000 in regions III and IV; VGCL Conclusion 03); a protein food in every meal; employer-organised meals tax exempt; cash allowance tax-free to VND 1.2 million per month (Decree 253/2026; start date not confirmed); VND 17,000 at some Hai Phong firms | 2023 workers; 2026 prices | [@CHN-37; @CHN-40; @AIB-43; @UPL-34] {VN-direct\|Low} {dx:inferred} |
+| Industrial park and economic zone canteens (national) | 4150000 | workers | 1245000000 | our calculation: 4.15 million x 300 meal days; upper bound | 17000 to 40000 | Union floors VND 25,000 with a caterer and 20,000 when the firm cooks (regions I and II; VND 22,000 and 18,000 in regions III and IV; Conclusion 03 of the Vietnam General Confederation of Labour); a protein food in every meal; employer-organised meals tax exempt; cash allowance tax-free to VND 1.2 million per month (Decree 253/2026; start date not confirmed); VND 17,000 at some Hai Phong firms | 2023 workers; 2026 prices | [@CHN-37; @CHN-40; @AIB-43; @UPL-34] {VN-direct\|Low} {dx:inferred} |
 | Hai Phong factory canteens (all unionised firms) | 643278 | union members in 3,043 firms |  |  | 25000 to 30000 typical; 35000 at one firm | 2 to 3 main dishes, 1 vegetable dish, soup, dessert; nearly 62% of unionised firms use kitchens, caterers, vouchers or cash | 2026 | [@CHN-39] {VN-direct\|Medium} {dx:revealed} |
 | Hai Phong canteens, 2026 average |  |  |  |  | 27000 (west) to 31000 (east); some firms 17000 | Union report | 2026 | [@UPL-34] {VN-direct\|Medium} {dx:revealed} |
 | Northern garment firm and Ho Guom group canteens |  |  |  |  | 17000 (Ho Guom, 2024) to 29000 (proposed) | Union-negotiated; 2016 minimum VND 15,000; 2022 recommendation 18,000 to 20,000; proposals of 27,000 to 29,000 against a current VND 25,000 | 2026 | [@CHN-38] {VN-direct\|Medium} {dx:revealed} |
 | Contract catering market (all segments) |  |  |  |  | 29000 standard; 20000 to 50000 range | Food 60% to 80% of meal value; informal commissions VND 500 to 1,000 per meal to purchasing staff | 2024 | [@CHN-41; @CHN-35] {VN-direct\|Low} {dx:revealed} |
 | Haseca (a leading caterer) | 200000 | meals a day, lower bound (company claim) |  |  | 18000 to 45000 (five tiers) | More than 120 kitchens and 90 multinational clients; ISO 22000; recommended rotation template "2 days pork, 2 days chicken or fish, 1 day tofu or egg"; main dish 90 to 120 g | 2025 | [@AIB-36; @UPL-32] {VN-direct\|Low} {dx:stated} |
 | Shift-meal nutrition rules |  |  |  |  |  | Decision 1982/QĐ-BYT chapter V (1 Jul 2026): Ten tips, recommended intakes and NIN guidance; no plant slot, protein norm or cost norm; an occupational-health expert in a union newspaper advises about 30 to 50% of protein from animal sources | 2026 | [@APR-16; @UPL-36] {VN-direct\|Medium} {dx:revealed} |
-| Hanoi primary school lunch subsidy (ban tru) | 768000 | pupils | 128000000 | our calculation: VND 3,063 bn / VND 20,000 to 30,000 = about 100 to 150 million pupil meals (midpoint shown) | 30000 to 35000 | Subsidy VND 20,000 per day, VND 30,000 in mountain communes and Red River mid-river communes; minimum meal VND 30,000; up to 9 months; parents pay the difference; 703 schools (90.4%) provide ban tru | 2025 to 2026 | [@CHN-29] {VN-direct\|High} {dx:revealed} |
+| Hanoi primary school lunch subsidy (*bán trú*, lunch and midday care at school) | 768000 | pupils | 128000000 | our calculation: VND 3,063 bn / VND 20,000 to 30,000 = about 100 to 150 million pupil meals (midpoint shown) | 30000 to 35000 | Subsidy VND 20,000 per day, VND 30,000 in mountain communes and Red River mid-river communes; minimum meal VND 30,000; up to 9 months; parents pay the difference; 703 schools (90.4%) provide *bán trú* | 2025 to 2026 | [@CHN-29] {VN-direct\|High} {dx:revealed} |
 | Hanoi public primary lunch, 2026 to 2027 |  |  |  |  | 40000 | City VND 28,000 and parents VND 12,000 (Resolution 84/2026/NQ-HĐND); ward evaluation councils assign caterers and food, milk and water suppliers to each school; the caterer writes the menu and the principal co-signs | 2026 to 2027 | [@PMR-05; @PMR-06; @PMR-24] {VN-direct\|High} {dx:revealed} |
 | Hanoi school meal ceilings (all levels) |  |  |  |  | 35000 current; 50000 proposed | Lunch ceiling VND 35,000 to 50,000; breakfast 20,000 to 25,000; preschool 35,000 to 40,000; covers labour, equipment, transport, QA | 2026 | [@CHN-28] {VN-direct\|Medium} {dx:revealed} |
 | Ho Chi Minh City primary lunch |  |  |  |  | 35000 | School kitchen or caterer approved by the principal; schools ask for quotes with a price plan and capability dossier | 2025 to 2026 | [@PMR-32; @PMR-33; @PMR-08] {VN-direct\|High} {dx:revealed} |
@@ -184,7 +193,7 @@ Three of the four pivots (TiNDLE, Vow, UMAMI Bioworks) moved towards private lab
 | Public school meals nationally | 25000000 | students (all levels, B&Company) |  |  | 25000 to 40000 | Minimum VND 30,000 in major cities; international schools VND 120,000 to 140,000 a day for three meals | 2024 to 2025 | [@CHN-35] {VN-direct\|Low} {dx:revealed} |
 | School meal nutrition guidance (national) |  |  |  |  |  | Decision 3958/QĐ-BYT (25 Dec 2025): no animal share; protein 13 to 20% of energy; animal protein at least 4 to 5 days a week alternating with plant protein (legumes, tofu) at least twice a week; fish 2 to 3 times a week; limit processed meat and sausages; food table without textured soy, gluten or analogue; guidance, no sanction; preschools excluded | 2025 | [@AIB-39; @APR-04] {VN-direct\|High} {dx:revealed} |
 | School menu software (MOET, Ajinomoto, NIN) | 4262 | schools registered by Nov 2022 |  |  |  | More than 120 menus and 360 dishes; nutrition sheets print "animal protein at least 48%" of lunch protein, unenforced (9 of 25 published days below it) | 2022 to 2026 | [@PMR-26; @AFN-46; @AIB-24] {VN-direct\|Medium} {dx:revealed} |
-| School Health Programme 2026 to 2035 |  |  |  |  |  | Decision 973/QĐ-TTg (1 Jun 2026): MOET circular on ban tru meal organisation (2026); MOET digital menu tools (2027 to 2028); 100% of schools with meals meeting food-safety conditions by 2030; the decision names no company, menu count or milk | 2026 | [@PMR-01; @APR-12] {VN-direct\|High} {dx:revealed} |
+| School Health Programme 2026 to 2035 |  |  |  |  |  | Decision 973/QĐ-TTg (1 Jun 2026): MOET circular on *bán trú* meal organisation (2026); MOET digital menu tools (2027 to 2028); 100% of schools with meals meeting food-safety conditions by 2030; the decision names no company, menu count or milk | 2026 | [@PMR-01; @APR-12] {VN-direct\|High} {dx:revealed} |
 | School meals, national rules after 2026 pork case |  |  |  |  |  | Dispatch 64/CD-TTg: procurement not solely on lowest price; supplier food-safety capability and traceability. Directive 33/CT-TTg (14 Aug 2026): supplier listing and certificate checks; daily public disclosure of caterer, ingredients, invoices, menus and tray photos; no food type restricted | 2026 | [@CHN-30; @CHN-36; @PMR-02; @AIB-42] {VN-direct\|Medium} {dx:revealed} |
 | Semi-boarders, ethnic-minority schools (Decree 66/2025) |  |  |  |  | about 40700 to 46800 a day (our calculation) | VND 936,000 a month and 15 kg of rice per semi-boarder for up to 9 months; school kitchens cook | 2025 | [@UPL-20] {VN-direct\|Medium} {dx:revealed} |
 | Full boarders in the new boarding schools (Decree 188/2026) |  |  |  |  |  | VND 1,170,000 and 15 kg of rice a month per full boarder; midday boarders VND 450,000 and 8 kg; VND 100,000 a pupil a month for running costs | 2026 | [@UPL-21] {VN-direct\|Medium} {dx:revealed} |
@@ -210,7 +219,7 @@ Three of the four pivots (TiNDLE, Vow, UMAMI Bioworks) moved towards private lab
 | Days with a minced or processed meat or fish dish | 21 (16.8%) | 38 (47.5%) | 9 (26.5%) | 68 (28.5%) |
 | Textured soy, mock meat or analogue | 0 | 0 | 0 | 0 |
 
-The software sheets imply 31.8 g of protein per lunch (21.2 to 38.6 g, rice included), 17.5 g of it animal; tofu days carry 33.4 g, 14.8 g animal (our calculation) [@PMR-26] {VN-direct|Medium} {dx:inferred}. Hanoi's higher plant share comes from its two-dish lunch, and caterer clustering means its six schools are closer to four independent menu writers. Per school, the average plant-day share is 12.7% (median 10%).
+The software sheets imply 31.8 g of protein per lunch (21.2 to 38.6 g, rice included), 17.5 g of it animal; tofu days carry 33.4 g, 14.8 g animal (our calculation) [@PMR-26] {VN-direct|Medium} {dx:inferred}. Hanoi's plant share is higher because its lunch has two protein dishes. Some of its schools share a caterer, so its six schools are closer to four independent menu writers. Per school, the average plant-day share is 12.7% (median 10%).
 
 **Who writes public menus** (`menu_authority.csv`).
 
@@ -237,7 +246,7 @@ The software sheets imply 31.8 g of protein per lunch (21.2 to 38.6 g, rice incl
 | Minced or processed meat | 58 (24.0%) | | |
 | Textured soy or mock meat | 0 | 0 | 0 |
 
-Four kitchens that publish cost sheets, all in two border areas of Dien Bien, bought about 110 to 270 g of raw pork per pupil a day; on Decree 339 pork days pork took 97 to 98% of the non-rice lunch spend; a tofu lunch at Muong Nhe used 35% less pork and cost 27% less for about 8% less protein (our calculation) [@UPL-01; @UPL-04; @UPL-07; @UPL-09; @UPL-10] {VN-direct|High} {dx:inferred}. Kitchen-weighed boarding diets in Yen Bai (now Lao Cai, 2019) met protein and zinc (131 to 157% of need) but supplied 36.5% of calcium and 41 to 45% of vitamin A [@UPL-18] {VN-direct|High} {dx:revealed}.
+Four kitchens that publish cost sheets, all in two border areas of Dien Bien, bought about 110 to 270 g of raw pork per pupil a day. On Decree 339 pork days, pork took 97 to 98% of the non-rice lunch spend. A tofu lunch at Muong Nhe used 35% less pork and cost 27% less, for about 8% less protein (our calculation) [@UPL-01; @UPL-04; @UPL-07; @UPL-09; @UPL-10] {VN-direct|High} {dx:inferred}. Kitchen-weighed boarding diets in Yen Bai (now Lao Cai, 2019) met protein and zinc (131 to 157% of need) but supplied 36.5% of calcium and 41 to 45% of vitamin A [@UPL-18] {VN-direct|High} {dx:revealed}.
 
 > **Correction.** In v0.6 this said the four kitchens bought 107 to 215 g of raw pork per pupil a day and that pork took 91 to 97% of the non-rice spend on Decree 339 pork days; the cost sheets give about 110 to 270 g a day (Muong Nhe boarders about 271 g on a day with pork at lunch and dinner) and 97 to 98% (91% is pork and tofu together on a tofu day).
 
@@ -252,13 +261,13 @@ Four kitchens that publish cost sheets, all in two border areas of Dien Bien, bo
 | Haseca | North | 27 | 37.0% | 18.5% | 22.2% | 7.4% | 14.8% | 0 | 7.4% | [@UPL-32] {VN-direct\|Medium} {dx:stated} |
 | All, dish-weighted | | 172 | 33.1% | 25.6% | 13.4% | 9.9% | 8.7% | 5.8% | 2.9% | [@UPL-27; @UPL-28; @UPL-29; @UPL-30; @UPL-32] {VN-direct\|Medium} {dx:stated} |
 
-Minced or processed meat is 17.4% of dishes; of meat-led dishes, 62.6% are pork, 26.4% poultry and 11.0% beef; one caterer serves chay dishes on the 1st and 15th of the lunar month; none names textured soy, gluten or mock meat (our calculation) [@UPL-27; @UPL-28; @UPL-29; @UPL-30; @UPL-32; @UPL-31; @UPL-33] {VN-direct|Medium} {dx:stated}.
+Minced or processed meat is 17.4% of dishes. Of meat-led dishes, 62.6% are pork, 26.4% poultry and 11.0% beef. One caterer serves chay dishes on the 1st and 15th of the lunar month. None names textured soy, gluten or mock meat (our calculation) [@UPL-27; @UPL-28; @UPL-29; @UPL-30; @UPL-32; @UPL-31; @UPL-33] {VN-direct|Medium} {dx:stated}.
 
 **Cost of 25 g of protein for a public meal** (retail prices of 24 September 2026 unless stated; `public_meal_protein_cost.csv`; our calculation).
 
 | Source | VND per 100 g protein | VND per 25 g protein | Basis | Source |
 |---|---|---|---|---|
-| Tofu, household average paid | 19,600 | 4,900 | VHLSS 2024 unit value | [@DIE-05; @DIE-12] {VN-direct\|Low} {dx:inferred} |
+| Tofu, household average paid | 19,600 | 4,900 | Household living standards survey (VHLSS) 2024 unit value | [@DIE-05; @DIE-12] {VN-direct\|Low} {dx:inferred} |
 | Tofu, supermarket | 30,000 | 7,500 | Retail | [@DIE-23] {VN-direct\|Medium} {dx:inferred} |
 | Hen eggs | 34,300 to 40,000 | 8,575 to 10,000 | Retail, sale and regular box price | [@COST-41; @DIE-12] {VN-direct\|Medium} {dx:inferred} |
 | Chicken thigh | 39,000 | 9,750 | Promotional retail, 400 g pack | [@COST-40; @DIE-12] {VN-direct\|Medium} {dx:inferred} |
@@ -266,7 +275,7 @@ Minced or processed meat is 17.4% of dishes; of meat-led dishes, 62.6% are pork,
 | Textured soy ingredient, ex-factory | 3,700 to 10,700 | 925 to 2,675 | Supply-study cost stack; ingredient only | [@COST-01; @COST-21; @COST-28] {VN-direct\|Low} {dx:inferred} |
 | Branded retail textured analogue | 112,000 | 28,000 | Retail audit, median of 4 SKUs (three online reference prices) | [@FORM-01] {VN-direct\|Medium} {dx:inferred} |
 
-A textured-soy ingredient giving the protein of an 80 g tofu portion (about 8.7 g) costs VND 320 to 930 against VND 1,700 to 2,600 for the tofu, before oil, sauce and labour. At today's plant-day frequency the school plant slot holds about 1,000 t of protein a year (660 to 1,580 t), about 2,800 t if every school met the rule; a 25% blend in every minced dish would remove about 460 t of meat protein a year (our calculation from 0.5 to 1.2 billion school lunches a year) {VN-direct|Low} {dx:inferred}.
+A textured-soy ingredient giving the protein of an 80 g tofu portion (about 8.7 g) costs VND 320 to 930 against VND 1,700 to 2,600 for the tofu, before oil, sauce and labour. At today's plant-day frequency, the school plant slot holds about 1,000 t of protein a year (660 to 1,580 t). It would hold about 2,800 t if every school met the rule. A 25% blend in every minced dish would remove about 460 t of meat protein a year (our calculation from 0.5 to 1.2 billion school lunches a year) {VN-direct|Low} {dx:inferred}.
 
 ## D4.5 Tourism
 
@@ -313,11 +322,15 @@ A textured-soy ingredient giving the protein of an 80 g tofu portion (about 8.7 
 
 ## D4.6 Channel ranking by product type
 
-Ranks are our judgement. Evidence strength: M, at least one Medium or High Vietnam-direct revealed source supports the channel's size and fit; L, size documented but fit inferred; VL, both inferred.
+Ranks are our judgement. The evidence-strength column has three grades:
+
+- M: at least one Medium or High Vietnam-direct source of revealed evidence supports both the channel's size and its fit.
+- L: the size is documented, but the fit is inferred.
+- VL: both the size and the fit are inferred.
 
 | Product type | Rank | Channel | Why | Price or specification to meet | Main barrier | Evidence strength | Source |
 |---|---|---|---|---|---|---|---|
-| a textured plant protein ingredient | 1 | Do chay and processed-meat manufacturers (B2B), including small makers of dry chay pieces | All local products with 10 g or more protein already use textured soy, soy protein or gluten, likely imported | Near Chinese textured protein landed at 0% duty (VNTR schedule, not rechecked; about USD 1.29 to 1.38 per kg in 2025, our calculation from FOB prices); consistent specification; traceable | Switching cost from cheap, duty-free Chinese supply | M | [@FORM-01; @FTR-32; @TIC-12] {VN-direct\|Medium} {dx:revealed} |
+| a textured plant protein ingredient | 1 | *Đồ chay* and processed-meat manufacturers (B2B), including small makers of dry chay pieces | All local products with 10 g or more protein already use textured soy, soy protein or gluten, likely imported | Near Chinese textured protein landed at 0% duty (Vietnam National Trade Repository schedule, not rechecked; about USD 1.29 to 1.38 per kg in 2025, our calculation from FOB prices); consistent specification; traceable | Switching cost from cheap, duty-free Chinese supply | M | [@FORM-01; @FTR-32; @TIC-12] {VN-direct\|Medium} {dx:revealed} |
 | a textured plant protein ingredient | 2 | Contract caterers, reached through chay-piece makers and HoReCa distributors (Kamereo, MM Mega Market) | Up to about 1.2 billion meals a year; tofu leads 9% and minced or processed meat 17% of five caterers' sample-menu protein dishes (`canteen_dish_summary.csv`, our calculation) | Cheaper per 20 g of protein than dry soy-gluten pieces (about VND 4,000 to 5,100) and tofu (VND 7,200 to 9,500) (our calculation from D4.8 prices and protein values); bulk-cook tolerant | Commissions to purchasing staff; post-2026 traceability demands; cheaper incumbents already on sale | L | [@CHN-37; @CPC-12; @UPL-27; @UPL-28; @UPL-29; @UPL-30; @UPL-32] {VN-direct\|Low} {dx:inferred} |
 | a textured plant protein ingredient | 3 | Traditional distribution of dry chay ingredients to wet-market stalls and street food, and online specialist shops | Only no-cold-chain route into 650,000 traditional outlets and 152,000 street stalls; about 40,700 kg of dry soy-and-gluten pieces sold on Lazada, about 82% by one small shop (`marketplace_sku_counters.csv`, read 25 Sep 2026) | Dry, shelf-stable, 1 to 3 kg bags | No data on offline volumes; price competition | VL | [@CHN-02; @CHN-03; @MKT-03] {VN-direct\|Low} {dx:inferred} |
 | a textured plant protein ingredient | 4 (later) | School, hospital and upland school kitchens for the plant slot | Decision 3958 plant slot used on 15.1% of audited school days (`school_menu_weeks.csv`); hospital tender accepts 120 g tofu for 60 g meat; upland kitchens stretch pork with tofu | Beat tofu at VND 4,900 to 7,500 per 25 g of protein; food-safety certificate, clear origin, labelled packaging with a use-by date | Replaces tofu, not meat; small slot (about 1,000 t of protein a year) | L | [@PMR-10; @AIB-44; @UPL-01; @DIE-05; @DIE-23] {VN-direct\|Low} {dx:inferred} |
@@ -328,18 +341,18 @@ Ranks are our judgement. Evidence strength: M, at least one Medium or High Vietn
 | c premium modern analogue | 1 | Premium HoReCa and cafe chains in Ho Chi Minh City and Hanoi | Only channel where imported analogues have appeared (2019, 2023) | Chef-grade performance in named dishes | Limited-time launches (2019, 2023); imported analogue at retail VND 542,000 to 622,000 per 100 g protein (retail audit, our calculation) | L | [@CHN-03; @ECO-16; @ECO-20; @FORM-01] {VN-direct\|Low} {dx:revealed} |
 | c premium modern analogue | 2 | Premium import-led retail (AEON, Lotte, Annam, Tops) and e-commerce | Fewer than 200 foreign-owned hyper and supermarkets (our tally from chain counts); no branded analogue found on Lazada or Tiki | Premium price acceptable | Small base; cold chain for delivery | L | [@CHN-01; @AIB-31; @MKT-03; @MKT-05] {VN-direct\|Low} {dx:inferred} |
 | c premium modern analogue | 3 | Four and five star hotels in tourist cities, Nha Trang included | 70,500 rooms in Khanh Hoa, over 40% four and five star; Accor's 50% vegetarian or plant-based dish target by 2030 binds its 43 Vietnamese hotels (October 2024) | Buffet and menu formats | Visitor mix Korea, China, Russia; small volume; dish metric can be met with vegetables and tofu | VL | [@CHN-47; @AFN-40; @AFN-41] {VN-direct\|Low} {dx:inferred} |
-| d hybrid meat and plant | 1 | Integrated meat-and-retail groups (Masan MEATLife in WinCommerce; C.P. Vietnam shops; Vissan), industrial *xúc xích* and coarse fillings first | Own brand trust, cold chain and stores; soy extension already pays at every annual hog price from 2019 to 2024 (our calculation) | Cheaper or better tolerated than the processor's own soy recipe; plant part named as an ingredient | Incumbents' diversification is into animal protein; the *độn* (filler) frame | L | [@CHN-15; @CHN-17; @AIB-15] {VN-direct\|Low} {dx:inferred} |
+| d hybrid meat and plant | 1 | Integrated meat-and-retail groups (Masan MEATLife in WinCommerce; C.P. Vietnam shops; Vissan), industrial *xúc xích* (sausages) and coarse fillings first | Own brand trust, cold chain and stores; soy extension already pays at every annual hog price from 2019 to 2024 (our calculation) | Cheaper or better tolerated than the processor's own soy recipe; plant part named as an ingredient | Incumbents' diversification is into animal protein; the *độn* (filler) frame | L | [@CHN-15; @CHN-17; @AIB-15] {VN-direct\|Low} {dx:inferred} |
 | d hybrid meat and plant | 2 | Factory canteens | Minced or processed meat is 17% of caterers' protein dishes; meal floors of VND 20,000 to 25,000 (regions I and II) squeeze protein cost | Lower cost per protein portion | Trust and commissions | L | [@UPL-27; @UPL-28; @UPL-29; @UPL-30; @UPL-32; @AIB-43; @CHN-41] {VN-direct\|Low} {dx:inferred} |
 | d hybrid meat and plant | 3 | QSR and convenience formats (nuggets, sausages, meatballs) | Central buying; national listing | VND 39,000 price point (Lotteria's meat-free burger, not a hybrid) | No sales outcomes from meat-free launches; trial feedback brand-reported | VL | [@CHN-06; @CHN-24] {VN-direct\|Low} {dx:inferred} |
-| d hybrid meat and plant | 4 (later) | Schools, as a named processor's labelled blend in minced-meat and fish-cake dishes | Minced dishes on 28.5% of audited school days; a 20 to 30% soy extender keeps DIAAS about 97 or more (our calculation) | Labelled blend from a trusted processor; caterer documents under Directive 33 | Trust crisis (parents testing meat composition in 2026); no trial | L | [@PMR-10; @NQR-05; @NQR-07; @TRU-21] {VN-direct\|Low} {dx:inferred} |
+| d hybrid meat and plant | 4 (later) | Schools, as a named processor's labelled blend in minced-meat and fish-cake dishes | Minced dishes on 28.5% of audited school days; a 20 to 30% soy extender keeps DIAAS (a measure of protein quality) about 97 or more (our calculation) | Labelled blend from a trusted processor; caterer documents under Directive 33 | Trust crisis (parents testing meat composition in 2026); no trial | L | [@PMR-10; @NQR-05; @NQR-07; @TRU-21] {VN-direct\|Low} {dx:inferred} |
 | e cultivated or fermentation derived | 1 | B2B functional ingredient into hybrid products via large manufacturers | Smallest regulatory exposure per unit sold | Function per VND | No novel-food route; the mandatory GMO label applies only above 5% of ingredients, so low-dose uses escape it | VL | [@REG-02; @LBL-10] {VN-direct\|Low} {dx:inferred} |
 | e cultivated or fermentation derived | 2 | Premium HoReCa showcase in Ho Chi Minh City and Hanoi | Michelin Guide Vietnam in third year; chef demand for novelty assumed | Showcase dishes | Regulation first | VL | [@CHN-03] {VN-direct\|Low} {dx:inferred} |
 
-**Not first.** For premium analogues, business-to-business foodservice distribution: CP Meat Zero was listed on Kamereo at 1.5 to 2.1 times CP's minced pork per kilogram (minced and roast SKUs; bologna about 3.3 times) and is not orderable [@AIS-25; @CPC-12] {VN-direct|Medium} {dx:revealed}. For branded or meat-replacement products, schools.
+**Not first.** Two channels should not come first. For premium analogues, do not start with business-to-business foodservice distribution: CP Meat Zero was listed on Kamereo at 1.5 to 2.1 times CP's minced pork per kilogram (minced and roast SKUs; bologna about 3.3 times) and is not orderable [@AIS-25; @CPC-12] {VN-direct|Medium} {dx:revealed}. For branded or meat-replacement products, do not start with schools.
 
 ## D4.7 Corporate commitments and private label
 
-**Commitments that could touch Vietnamese protein buying** (full inventory of 27 rows in `corporate_commitments.csv`). Only Accor's dish target binds business units in Vietnam; we found no Vietnamese protein buyer with a published diversification target.
+**Commitments that could affect protein buying in Vietnam** (the full inventory of 27 rows is in `corporate_commitments.csv`). Only Accor's dish target binds business units in Vietnam. We found no Vietnamese protein buyer with a published target to diversify its protein. APB 100 is the Asia Protein Buyers 100, a benchmark of 100 listed Asian protein buyers (see its row).
 
 | Company | Commitment and metric | Deadline | Covers Vietnam | Progress reported | Source |
 |---|---|---|---|---|---|
@@ -356,7 +369,7 @@ Ranks are our judgement. Evidence strength: M, at least one Medium or High Vietn
 | Asia Protein Buyers 100 (aggregate) | Benchmark of 100 listed Asian buyers | n/a | 5 Vietnamese companies | 2 of 100 have targets to boost plant-protein sales and report sourcing volume; protein diversification theme score averages 7.4% | [@AFN-18] {VN-adjacent\|Medium} {dx:revealed} |
 | Lever Foundation | Converts pledges into procurement ratios in Asian hotels and caterers | n/a | No Vietnam programme; July 2026 expansion to India and Thailand | 175 or more Asian sourcing commitments (Lever claim) | [@CPC-10; @AFN-38; @AFN-39] {VN-adjacent\|Medium} {dx:stated} |
 
-**Private label** (`private_label.csv`). Prices listed on 25 September 2026 unless stated; no page shows protein per 100 g for the chay SKUs, whose archetype medians in the retail audit are 3.95 g (filled wrappers) and 5.74 g (wheat-dough dim sum).
+**Private label** (`private_label.csv`). Prices are as listed on 25 September 2026 unless stated. No retailer page shows protein per 100 g for the chay SKUs. In the retail audit, the medians for these product types are 3.95 g (filled wrappers) and 5.74 g (wheat-dough dim sum).
 
 | Retailer | Product or programme | VND per kg | Main protein ingredient | Maker named | Source |
 |---|---|---|---|---|---|
@@ -371,11 +384,11 @@ Ranks are our judgement. Evidence strength: M, at least one Medium or High Vietn
 | WinCommerce | 27 chay results at one online store; none house brand (target of 25 to 50 house brands) | n/a | n/a | n/a | [@CPC-19; @AIB-12] {VN-direct\|Low} {dx:revealed} |
 | AEON Vietnam | No Topvalu chay, tofu or plant-based item found online; own-label AEON DELICA chay deli dishes listed (30 Sep 2026) | n/a | n/a | n/a | [@CPC-20; @AIB-32] {VN-direct\|Low} {dx:revealed} |
 
-A 10 g per 100 g version of a Co.op Select chay dish at today's price per kilogram would cost roughly VND 112,000 to 142,000 per 100 g of protein, still above tofu and eggs, so the pitch must rest on taste, convenience and a numeric protein claim, not on protein value (our calculation) [@CPC-15; @FORM-01] {VN-direct|Low} {dx:inferred}.
+A version of a Co.op Select chay dish with 10 g of protein per 100 g, sold at today's price per kilogram, would cost roughly VND 112,000 to 142,000 per 100 g of protein. That is still above tofu and eggs. So the pitch has to rest on taste, convenience and a numeric protein claim, not on protein value (our calculation) [@CPC-15; @FORM-01] {VN-direct|Low} {dx:inferred}.
 
 ## D4.8 Kitchen and B2B protein prices
 
-Listed prices on Kamereo, a platform supplying restaurants, cafés and hotels, on 25 September 2026 (`b2b_competitor_prices.csv`). The units-sold counter has no stated period and ranks products; it does not measure volume. Protein values are labels where available, otherwise the Vietnamese food composition table; the dry chay pieces use a borrowed range (Low).
+The table gives prices listed on 25 September 2026 on Kamereo, a platform that supplies restaurants, cafes and hotels (`b2b_competitor_prices.csv`). The units-sold counter has no stated period. It ranks products; it does not measure volume. Protein values come from labels where available, otherwise from the Vietnamese food composition table. The protein value for the dry chay pieces is a borrowed range (Low confidence).
 
 | Product | Origin | VND per kg | Availability | Units sold (counter) | VND per 20 g of protein | Source |
 |---|---|---|---|---|---|---|
@@ -388,11 +401,11 @@ Listed prices on Kamereo, a platform supplying restaurants, cafés and hotels, o
 | CP fresh chicken breast 1 kg | Vietnam | 97,650 | in stock | 70,297 | 9,600 | [@CPC-12; @DIE-12] {VN-direct\|Medium} {dx:inferred} |
 | CP eggs, box of 10 | Vietnam | n/a | in stock | 284,699 | 8,800 | [@CPC-12; @DIE-12] {VN-direct\|Medium} {dx:inferred} |
 
-To cost less per gram of protein than CP's minced pork on the same platform, Meat Zero minced would need more than 35.2 g of protein per 100 g in the 1 kg pack and 25.6 g in the 220 g pack; the most protein-dense chilled or frozen chay analogues in the retail audit carry 18.8 to 25.1 g (our calculation) [@CPC-12; @FORM-01; @DIE-12] {VN-direct|Medium} {dx:inferred}.
+To cost less per gram of protein than CP's minced pork on the same platform, Meat Zero minced would need more than 35.2 g of protein per 100 g in the 1 kg pack and 25.6 g in the 220 g pack. The most protein-dense chilled or frozen chay analogues in the retail audit carry 18.8 to 25.1 g (our calculation) [@CPC-12; @FORM-01; @DIE-12] {VN-direct|Medium} {dx:inferred}.
 
 ## D4.9 E-commerce counters
 
-Cumulative sold counters read logged out on Lazada and Tiki in September 2026 (Shopee and TikTok Shop sit behind login or puzzle checks), and on Kamereo for kitchens (`marketplace_sku_counters.csv`, `kitchen_platform_counters.csv`). Sums of the SKUs read on the first page of searches; they are not market shares.
+We read the cumulative "sold" counters on Lazada and Tiki in September 2026 without logging in, and on Kamereo for kitchens (`marketplace_sku_counters.csv`, `kitchen_platform_counters.csv`). We could not read Shopee and TikTok Shop, which sit behind login or puzzle checks. The figures are sums for the SKUs on the first page of search results. They are not market shares.
 
 | Comparison | Kitchen channel (Kamereo) | Consumer marketplaces (Lazada, Tiki) | Reading | Source |
 |---|---|---|---|---|

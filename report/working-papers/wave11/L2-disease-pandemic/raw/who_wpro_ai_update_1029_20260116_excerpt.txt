@@ -1,0 +1,50 @@
+                      Avian Influenza Weekly Update Number 1029
+                     16 January 2026
+
+Note: The reporting date of human infections included in this weekly update is based on the Event Information Site
+(EIS) posting date, rather than the date of initial notification received through the International Health Regulations
+(2005) (IHR).
+
+
+Human infection with avian influenza A(H5) viruses
+Human infection with avian influenza A(H5N1) virus
+From 9 to 15 January 2026, no new case of human infection with avian influenza A(H5N1) virus was
+reported to WHO in the Western Pacific Region. The last case was reported from Phnom Penh, Cambodia,
+with an onset of symptoms on 10 November 2025.
+
+From 1 January 2003 to 19 December 2025, a total of 481 cases of human infection with avian influenza
+A(H5N1) virus have been reported from six countries within the Western Pacific Region (Table 1). Of these
+cases, 319 were fatal, resulting in a case fatality rate (CFR) of 66.3%.
+
+ Table 1: Cumulative number of laboratory-confirmed human cases (C) and deaths (D) of influenza A(H5N1) virus
+            infection reported to WHO, 1 January 2003 to 19 December 2025, Western Pacific Region.
+
+                        2003-2009        2010-2014         2015-2019        2020-2024           2025             Total
+        Country
+                       C        D        C           D    C        D        C       D       C          D   C             D
+
+Australia              0        0        0           0    0        0        1       0       0          0    1             0
+Cambodia               9        7       47       30       0        0        16      6      18          9   90            52
+China                  38       25       9           5    6        1        3       1       1          0   57            32
+Indonesia             162      134      35       31       3        3        0       0       0          0   200           168
+
+Lao PDR                2        2        0           0    0        0        1       0       0          0    3             2
+Viet Nam              112       57      15           7    0        0        2       1       1          0   130           65
+         Total        323      225      106      73       9        4        23      8      19          8   481           319
+
+                  Source: Confirmed human cases of avian influenza A(H5N1) reported to WHO, 2003-2025
+
+Globally, from 1 January 2003 to 19 December 2025, 993 cases of human infection with avian influenza
+A(H5N1) virus were reported from 25 countries. Of these 993 cases, 477 were fatal (CFR of 48.0%).
+
+Human infection with avian influenza A(H5N6) virus
+From 9 to 15 January 2026, no new case of human infection with avian influenza A(H5N6) virus was
+reported to WHO in the Western Pacific Region. Since 2014, a total of 93 laboratory-confirmed cases of
+human infection with influenza A(H5N6) virus including 57 deaths (CFR 61.3%) have been reported to WHO
+in the Western Pacific Region. The last case was reported from Anhui Province, China, with an onset date
+of 17 June 2024.
+
+Human infection with avian influenza A(H5) virus
+From 9 to 15 January 2026, no new case of human infection with avian influenza A(H5) virus was reported
+to WHO in the Western Pacific Region. The last case was reported from Long An Province, Viet Nam, with
+an onset date of 9 November 2024.

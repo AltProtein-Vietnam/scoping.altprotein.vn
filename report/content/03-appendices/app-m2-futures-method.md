@@ -4,20 +4,22 @@ title: "M2. Futures method: how the 2050 chapters were built"
 short_title: "M2. Futures method"
 section: appendix
 order: 2
-summary: "How the futures round behind Part IV was designed, researched and checked: the ten questions it answers, the twelve research streams and their 469 sources, the foresight badges on every forward-looking claim, the two-axis scenario method, the stress test of plays and moves, the vision and backcasting method, and the limits of the work."
+summary: "How the futures round behind Part IV was designed, researched and checked: the ten questions it answers, the twelve research streams and their 469 sources, the foresight badges on every forward-looking claim, the two-axis scenario method, the stress test of plays and moves, the vision and backcasting method, and the limits of the work. It also marks the feed plays, moves and vision indicators that are no longer recommended now that the study concentrates on protein for people."
 audiences: [research, policy, international, investors, startups, manufacturers]
-reading_time_min: 33
+reading_time_min: 36
 key_numbers: []
 related_data: [foresight_methods.csv, scenarios_2050.csv, signposts_2050.csv, wildcards.csv, play_robustness.csv, robust_moves.csv, vision_milestones.csv, sources.csv, biblio_trends_frontier.csv, vn_research_profile.csv]
-related_pages: [app-m1-method, ch19-outlook-2035, ch20-drivers-2050, ch23-scenarios-2050, ch24-vision-2050, ch28-robust-moves, app-f4-balance-model, app-f2-drivers-signals, app-r1-open-questions, app-r2-disagreements, app-r4-sources]
+related_pages: [app-m1-method, ch19-outlook-2035, ch20-drivers-2050, ch23-scenarios-2050, ch24-vision-2050, ch28-robust-moves, app-f4-balance-model, app-d8-demand-model, app-f2-drivers-signals, app-r1-open-questions, app-r2-disagreements, app-r4-sources]
 charts: []
 ---
 
 # M2. Futures method: how Part IV was built
 
-**What this appendix contains.** The method behind the 2050 futures work (chapters 20 to 24 in Part IV and chapter 28 in Part V): the decisions that set its scope, the questions it answers, the twelve research streams and their tools, the evidence and foresight labels, how the scenarios, stress tests and vision were built, how the work was checked, and its limits. It extends the v0.1 method in [[app-m1-method]], which still applies unless this page says otherwise.
+**What this appendix contains.** The method behind the 2050 futures work: chapters 20 to 24 in Part IV and chapter 28 in Part V. It covers the decisions that set the scope, the ten questions, the twelve research streams and their tools, and the evidence and foresight labels. It then explains how we built the scenarios, stress tests and vision, how we checked the work, and its limits. It extends the version 0.1 method in [[app-m1-method]], which still applies unless this page says otherwise.
 
 **How to use it.** If you meet a foresight badge such as *estimate* in Part IV, start with section M2.4. To rerun or challenge a result, use sections M2.5 to M2.8, which name the data files and scripts.
+
+**A later change of scope.** The futures round ran in version 0.2, when the study covered food and feed together. The study now concentrates on protein for people, with feed only as context ([[app-m1-method]]). So this page records some feed plays, feed moves and feed vision indicators that the current chapters no longer recommend. Sections M2.5.4, M2.6.2 and M2.7 say which; the rows stay in the data files as the record.
 
 ---
 
@@ -33,7 +35,7 @@ Version 0.1 (September 2026) describes Vietnam's alternative-protein supply toda
 | Demand | Demand enters only as a macro input (population, income, diet, published outlooks) | No consumer research; no market-size forecast for Vietnamese alternative-protein products |
 | Insects | Incumbent and benchmark only | No insect play recommended; insect papers in the bibliometric screen set aside as benchmark material |
 
-Unchanged from v0.1: the supply-side scope; food and feed together; neutral framing led by food and feed security, industry and trade; English text with a Vietnamese summary.
+Unchanged from v0.1: the supply-side scope; food and feed together; neutral framing led by food and feed security, industry and trade; English text with a Vietnamese summary. Version 0.8 later narrowed the scope to protein for people, with feed as context only.
 
 ## M2.2 Who Part IV is for, and the questions it answers
 
@@ -61,7 +63,7 @@ Unchanged from v0.1: the supply-side scope; food and feed together; neutral fram
 | Q7. Signals and wildcards | Early signals and low-probability, high-impact events | [[ch20-drivers-2050]], [[ch23-scenarios-2050]] | [[app-f2-drivers-signals]] | HSC, FTB, GEO |
 | Q8. Scenarios | Which uncertainties define distinct 2050 worlds; signposts; link to 2035 | [[ch23-scenarios-2050]] | [[app-f2-drivers-signals]]; M2.5 and M2.6 here | HSC, all |
 | Q9. Vision | An ambitious but plausible 2050 vision with milestones for 2030 to 2045 | [[ch24-vision-2050]] | [[app-f5-targets-hubs]]; M2.7 here | VIS, NTS, HUB, QNT |
-| Q10. Robust moves | What pays off in every world, what keeps options open, what is a bet | [[ch28-robust-moves]] | M2.6 here; [[app-f5-targets-hubs]]; [[app-r1-open-questions]] | VIS, all |
+| Q10. Moves for any 2050 | What pays off in every world, what keeps options open, what is a bet | [[ch28-robust-moves]] | M2.6 here; [[app-f5-targets-hubs]]; [[app-r1-open-questions]] | VIS, all |
 
 ## M2.3 Research design
 
@@ -174,7 +176,7 @@ Three callouts mark whole passages: **Speculative** (our judgement on windows an
 
 ### M2.5.1 The practice we followed
 
-We reviewed 18 food-system foresight exercises and method studies (`foresight_methods.csv`). Four shaped the design.
+We reviewed 18 food-system foresight exercises and method studies (`foresight_methods.csv`). Four shaped the design, including one by the EU Joint Research Centre (JRC).
 
 | Exercise | Design | What we took | Source |
 |---|---|---|---|
@@ -194,7 +196,7 @@ Two to four scenarios is the most common range in food-system scenario studies (
 
 | Candidate uncertainty | Impact | Uncertain to 2050 | Independent | Outside Vietnamese policy | Used as |
 |---|---|---|---|---|---|
-| Feed-protein import stress | High: decides whether domestic protein is worth its premium | High: ample supply in the OECD-FAO baseline to 2035 {fx:projection}, yet an anchoveta crisis in 2026 | Yes | Yes | **Axis 1** |
+| Feed-protein import stress (now named stress on imported protein: the feed behind domestic meat and imported protein foods) | High: decides whether domestic protein is worth its premium | High: ample supply in the OECD-FAO baseline to 2035 {fx:projection}, yet an anchoveta crisis in 2026 | Yes | Yes | **Axis 1** |
 | Asia's fermentation market (open, or Chinese price dominance) | High: sets the landed price to beat | High: Chinese capacity grows; neighbours fund their own plants | Yes | Mostly | **Axis 2** |
 | Trade politics | Medium to high | High | No: same channel as import stress | Mostly | Sensitivity; shipping closure as a wildcard |
 | Growth path | Medium: acts through demand; S-HIGH adds about 1.3 Mt to 2050 soybean-meal need {fx:estimate} | Medium | Partly | No: the official path is a policy aim | Model scenario S-HIGH |
@@ -205,6 +207,8 @@ Two to four scenarios is the most common range in food-system scenario studies (
 | Vietnam's own choices (food law, feed lists, public money, a protein statistic) | High | Decided by Vietnam | Yes | No | **Moves** (chapter 28) |
 
 All cells are our judgement from chapters 20 to 22 {VN-direct|Low}. S-HIGH gives 11.72 Mt against 10.40 Mt for S-BASE in 2050 (our calculation, inputs in [[app-f4-balance-model]]) {VN-direct|Low} {fx:estimate}.
+
+Chapter 23 now calls axis 1 "stress on imported protein". The axis is the same, but the name says what it covers for people: the imported feed behind the meat, eggs, milk and farmed fish produced in Vietnam, and imported protein foods.
 
 **Why Vietnam's choices are moves, not axes.** Our rule is that axes should be things the reader cannot control. The reader's options are then tested against them, as the JRC's policy panels developed options against each of its scenarios [@VIS-35] {general|High}. If "Vietnam adopts a new-food route" were an axis, every world with the route would look better by construction, and the scenarios could not judge whether the route is worth having. Keeping policy off the axes lets chapter 28 find the moves that pay off in all four worlds, and shows that one external world can hold either a hub or a price-taker. Chapter 19's 2035 states mixed external conditions and domestic choices, which suited a ten-year outlook built on dated milestones; the 2050 set separates them.
 
@@ -235,7 +239,7 @@ A signpost is an observable event with a threshold that shows which way an axis 
 
 Reading rules:
 - **One signpost does not decide a world**; we read the pattern on each axis. In September 2026 the evidence points both ways on both axes, which is why we assign no probabilities.
-- **Bets carry triggers mapped to signposts**: RM-16 waits for SP-01; RM-18 for SP-12 or SP-13 ([[ch28-robust-moves]]).
+- **Bets carry triggers mapped to signposts**: RM-18 waits for SP-12 or SP-13 ([[ch28-robust-moves]]). RM-16, a feed bet that waited for SP-01, is no longer recommended, because the study now concentrates on protein for people.
 - **Where no series exists, building one is a move**: SP-10 (imports of yeasts and protein preparations from China) has no baseline, and RM-21 creates it.
 - **Signposts are read at each five-year review** (M2.7.4); publishing them yearly would be a cheap public service.
 
@@ -246,11 +250,11 @@ The horizon scan listed 26 wildcards (`wildcards.csv`), each with an impact chan
 - **Path-switchers**: disease, a novel-food safety scandal or a biosecurity incident change the path inside a world rather than define one.
 - **Revision triggers** for the vision (section 24.8).
 
-The 17 shocks in `shock_register.csv` give a sense of scale: African swine fever removed nearly 6 million pigs in 2019, over a fifth of the herd [@GEO-14; @GEO-15] {VN-direct|Medium}. Published probabilities are quoted where they exist: simultaneous maize production losses above 10% in the four largest exporters has a 7% chance in a given year at 2 °C of warming and 86% at 4 °C [@CLM-24] {general|High} {fx:projection}.
+The shocks in `shock_register.csv` (17 when the axes were chosen; 20 now) give a sense of scale: African swine fever removed nearly 6 million pigs in 2019, over a fifth of the herd [@GEO-14; @GEO-15] {VN-direct|Medium}. Published probabilities are quoted where they exist: simultaneous maize production losses above 10% in the four largest exporters has a 7% chance in a given year at 2 °C of warming and 86% at 4 °C [@CLM-24] {general|High} {fx:projection}.
 
 ## M2.6 Stress test of plays and moves
 
-The JRC identified 29 challenges across its four food scenarios, of which 8 were common to all [@VIS-35] {general|High}; we treat such shared challenges as the no-regret set. We applied the same logic to the ten plays, six public goods and the policy options of v0.1 ([[ch26-plays]], [[ch27-policy-options]]) in section 23.5, and to 21 candidate moves in chapter 28. Worlds are weighted equally, because we assign no probabilities.
+The JRC identified 29 challenges across its four food scenarios, of which 8 were common to all [@VIS-35] {general|High}; we treat such shared challenges as the no-regret set. In version 0.2 we applied the same logic to the ten plays, six public goods and the policy options of v0.1 ([[ch26-plays]], [[ch27-policy-options]]) in section 23.5, and to 21 candidate moves in chapter 28. Worlds are weighted equally, because we assign no probabilities. Seven plays, four public goods and 16 of the 21 moves are active now; section 23.5 and chapter 28 show only those.
 
 ### M2.6.1 Scoring rubric
 
@@ -268,19 +272,23 @@ Each score is our judgement from chapters 20 to 22 {VN-direct|Low} {fx:estimate}
 
 | Class | Rule | Plays | Count |
 |---|---|---|---|
-| No-regret | 2 in all four worlds | P3 feed-trial capacity, P4 protein-quality laboratory, P6 open cost model and price series | 3 |
-| Robust | At least 1 in every world | T1, T2, T4, T5, T6, T9, T10, P1, P2, P5 | 10 |
-| Bet | 0 in some world, 2 in another, total at least 3; scale only after signposts | T3 bulk fishmeal replacement (0, 0, 2, 1); T7 high-value precision fermentation (2, 0, 1, 0) | 2 |
+| No-regret | 2 in all four worlds | P3 feed-trial capacity (retired), P4 protein-quality laboratory, P6 open cost model and price series | 3 |
+| Robust (chapter 23: "holds everywhere") | At least 1 in every world | T1, T2 (retired), T4, T5, T6 (retired), T9, T10, P1, P2 (retired), P5 | 10 |
+| Bet | 0 in some world, 2 in another, total at least 3; scale only after signposts | T3 bulk fishmeal replacement (0, 0, 2, 1) (retired); T7 high-value precision fermentation (2, 0, 1, 0) | 2 |
 | Option | Any other play with a 0; cheap to hold as research | T8 cultivated seafood research (1, 0, 1, 0) | 1 |
+
+The three feed plays (T2, T3, T6) and two feed public goods (P2, P3) are no longer recommended, because the study now concentrates on protein for people. Their scores stay in `play_robustness.csv` as the record. Among the active set, P4 and P6 are no-regret; T1, T4, T5, T9, T10, P1 and P5 hold in every world; T7 is a bet; and T8 is an option ([[ch23-scenarios-2050]]).
 
 **Moves.** The 21 candidates came from the v0.1 policy options (P1 and P2 became RM-03; P3 sits in RM-02 and RM-04; P4 and P6 became RM-05; P5 became RM-06), the plays, the VIS benchmark list and stream findings such as climate-proof siting (CLM), omega-3 sourcing (AQF), skills and cheap capital (ECF), second-hand tanks (FTB) and residue rules (NGF). Moves add the cost of acting now (`cost_scale`).
 
 | Class | Rule | Moves | Count |
 |---|---|---|---|
-| No-regret | 2 in all four worlds | RM-01 to RM-09 | 9 |
+| No-regret | 2 in all four worlds | RM-01 to RM-09 (RM-02 and RM-07 retired) | 9 |
 | Option | Low or medium cost; 2 in at least one world, weaker elsewhere | RM-10 to RM-15 | 6 |
-| Bet | High commitment; strong in one world; wait for a named trigger | RM-16 to RM-19 | 4 |
-| Hedge | Main value is limiting losses in the worlds that hurt most: C and D for RM-20 (1, 1, 2, 2); B and D for RM-21 (1, 2, 1, 2) | RM-20, RM-21 | 2 |
+| Bet | High commitment; strong in one world; wait for a named trigger | RM-16 to RM-19 (RM-16 and RM-17 retired) | 4 |
+| Hedge | Main value is limiting losses in the worlds that hurt most: C and D for RM-20 (1, 1, 2, 2); B and D for RM-21 (1, 2, 1, 2) | RM-20 (retired), RM-21 | 2 |
+
+The counts above are the version 0.2 classification of 21 moves. Five feed moves (RM-02, RM-07, RM-16, RM-17 and RM-20) are no longer recommended, because the study now concentrates on protein for people; they stay in `robust_moves.csv` as the record. The current set is seven no-regret moves, six options, two bets and one hedge: 16 of the 21 tested ([[ch28-robust-moves]]).
 
 **Not the same as the v0.1 scores.** Chapter 26 scored plays 1 to 5 on seven criteria for attractiveness today, with audience weights. The stress test measures robustness across futures. The two can differ: T7 scores well for investors in chapter 26 but is a bet here, because it needs an open regional market. We report both and do not combine them.
 
@@ -296,9 +304,13 @@ Normative scenarios show that a target is feasible or frame the conditions for i
 5. **Backcast milestones** at the end of each five-year plan (M2.7.3).
 6. **Fit and revision**: each pillar judged against worlds A to D (section 24.7), with named revision triggers and a review cycle (M2.7.4).
 
+Version 0.8 kept these steps but reframed chapter 24 around protein for people. The framing is now the security of the protein people eat and the industry that makes it. The five pillars are now Measure, Make, Diversify, Specialise and Secure; in versions 0.2 to 0.7 they were Measure, Economise, Diversify, Specialise, and Decarbonise and adapt. The indicators now come from the demand model (M2.7.2), and the feed indicators are no longer vision goals.
+
 ### M2.7.2 Where the ranges come from
 
-These are the calculations behind the chapter 24 goals, shown here as our estimates.
+> **Method note.** The chapter 24 indicators are now outputs of the demand model ([[app-d8-demand-model]]), so they need no extra calculation. They are: protein supplied by new routes; the part made in Vietnam for the home market; the domestic share of the food plant-protein ingredient pool (demand assumptions DMA-015 to DMA-023); and meat protein displaced. The low end of each range is the benchmark path (D-BENCH) and the high end the stretch path (D-STRETCH). The demand model uses the same population and meat demand as the balance model. Food policy milestones complete the set: a yearly protein balance for people, a new-food route, open food-grade pilot capacity, a protein-quality laboratory and a public innovation line for food protein.
+
+**The earlier record.** The table below shows the calculations behind the chapter 24 goals in versions 0.2 to 0.7, as our estimates. Chapter 24 no longer uses the first four rows (soybean meal, microbial feed protein, feed-protein origin and aquafeed omega-3) as goals, because the study now concentrates on protein for people. The last row is still the basis of the vision's public innovation line, now for food protein.
 
 | Indicator (2050) | Range | How derived | Analogue check | Sources |
 |---|---|---|---|---|
@@ -308,11 +320,11 @@ These are the calculations behind the chapter 24 goals, shown here as our estima
 | Non-marine share of aquafeed omega-3 | 15 to 50% | The aquafeed stream's range on the middle aquaculture path | Algal and oilseed omega-3 oils are commercial; a modified canola oil replaced fish oil in shrimp diets | [@AQF-19; @AQF-23; @AQF-24] {VN-direct\|Low} {fx:estimate} |
 | Public protein and feed-innovation line (2027 to 2035) | USD 5 to 15 M a year | Peer budgets annualised in `vis_calc.py` | Denmark about USD 12 M, Germany about EUR 6 M, Canada about USD 22 M a year; Vietnam's feed scheme about USD 6.3 M a year | [@VIS-01; @VIS-24; @VIS-06; @NTS-23] {general\|Medium} {fx:estimate} |
 
-**Left out on purpose.** No consumption ratio such as the Dutch 50:50 ambition, because diet is out of scope and we found no tracking of such ratios abroad [@VIS-05] {general|Medium}. No overall feed self-sufficiency ratio: Japan's land-based ratio moved less than half a point a year between FY2000 and FY2024 [@VIS-12] {VN-adjacent|High}.
+**Left out on purpose.** No consumption ratio such as the Dutch 50:50 ambition, because diet is out of scope and we found no tracking of such ratios abroad [@VIS-05] {general|Medium}. No overall feed self-sufficiency ratio: Japan's land-based ratio moved less than half a point a year between FY2000 and FY2024 [@VIS-12] {VN-adjacent|High}. No diet target: the vision tracks meat protein displaced only to show the size of the second source, not as a target for what people eat.
 
 ### M2.7.3 Milestones tied to five-year plans
 
-The 22 milestones in `vision_milestones.csv` sit at the end of plan periods, so that each socio-economic plan can adopt, adjust or drop them. All are vision goals, not forecasts.
+Milestones sit at the end of plan periods, so that each socio-economic plan can adopt, adjust or drop them. All are vision goals, not forecasts. The table shows the 22 milestones of version 0.2, as the record.
 
 | Plan cycle | Milestones | What they are |
 |---|---|---|
@@ -324,9 +336,11 @@ The 22 milestones in `vision_milestones.csv` sit at the end of plan periods, so 
 
 Each milestone has an indicator, a value or range, a trend comparison and a benchmark. Seven fall in the first plan because a European plant-protein backcast found that actions were needed immediately [@VIS-40] {general|High}.
 
+Version 0.8 rebuilt `vision_milestones.csv` around protein for people with the same method. It now holds 25 milestones (VM-01 to VM-25): 9 in 2026 to 2030, 6 in 2031 to 2035, 3 in 2036 to 2040, 2 in 2041 to 2045 and 5 in 2046 to 2050. Each sits under one of the five pillars: Measure, Make, Diversify, Specialise or Secure. The soybean-meal and microbial feed-protein values are gone; the model values are demand-model ranges (M2.7.2).
+
 ### M2.7.4 Review cycle
 
-The vision is to be reviewed at each five-year plan (2030, 2035, 2040, 2045) against the 16 signposts and the triggers in section 24.8, with the first full review in 2035 (VM-12). This copies what has worked elsewhere: Japan plans to verify its basic-plan indicators every year and announce progress [@VIS-13] {general|High}; Finland's government reports on the future once per electoral term [@VIS-44] {general|Medium}; Korea runs its food-tech law through five-year plans [@VIS-14; @VIS-28] {VN-adjacent|Medium}. A Vietnamese commentary proposes three layers: fixed foundations, 20 to 30-year scenarios, and 5 to 10-year adjustment [@VIS-47] {VN-direct|Low}.
+The vision is to be reviewed at each five-year plan (2030, 2035, 2040, 2045) against the 16 signposts and the triggers in section 24.8, with the first full review in 2035 (VM-15). This copies what has worked elsewhere: Japan plans to verify its basic-plan indicators every year and announce progress [@VIS-13] {general|High}; Finland's government reports on the future once per electoral term [@VIS-44] {general|Medium}; Korea runs its food-tech law through five-year plans [@VIS-14; @VIS-28] {VN-adjacent|Medium}. A Vietnamese commentary proposes three layers: fixed foundations, 20 to 30-year scenarios, and 5 to 10-year adjustment [@VIS-47] {VN-direct|Low}.
 
 ### M2.7.5 Lessons from backcasting and from Vietnam's own foresight
 
@@ -334,7 +348,7 @@ The vision is to be reviewed at each five-year plan (2030, 2035, 2040, 2045) aga
 |---|---|---|
 | Embedding and follow-up decide impact | The backcasting framework ends in a follow-up agenda and embedding [@VIS-37]; the Dutch novel-protein backcast of the 1990s was followed by the Profetas research programme [@VIS-38; @VIS-41] {general\|Medium} | Milestones tied to plan cycles; each first move has an owner in chapter 28 |
 | Backcasting needs separate monitoring | Backcasting is qualitative and can only be a starting point for monitoring and tracking (six agri-food cases, 2021 to 2024) [@VIS-39] {general\|Medium} | The first milestone is a statistic (VM-01); a review at every plan |
-| Act immediately | A European plant-protein backcast to 2030 found actions had to start "immediately" [@VIS-40] {general\|High} | Seven milestones in 2026 to 2030 |
+| Act immediately | A European plant-protein backcast to 2030 found actions had to start "immediately" [@VIS-40] {general\|High} | Seven milestones in 2026 to 2030 (nine in the current set) |
 | A vision without a statistic fades | The Dutch strategy published no quantitative targets; we found no progress report against Canada's roadmap [@VIS-05; @VIS-10] {general\|Medium} | The Measure pillar comes first |
 | Fit the method to thin data | Vietnam's Delphi for the 2021 to 2030 science strategy had 15 experts per field and could not rank priorities; its authors advise small, high-quality scenario workshops [@VIS-45] {VN-direct\|Low} | Two axes, four worlds and 16 signposts rather than a large survey |
 | Joint authorship gives standing | *Vietnam 2035* was written by the World Bank and the then Ministry of Planning and Investment [@VIS-46] {VN-direct\|Medium} | A model for a jointly owned review |
@@ -409,7 +423,7 @@ The vision is to be reviewed at each five-year plan (2030, 2035, 2040, 2045) aga
 
 | # | Gap | Cheapest way to close it |
 |---|---|---|
-| 1 | No Vietnamese stakeholder workshop tested the axes, worlds or vision; no interviews in this round | One small scenario workshop with MAE, MOST, feed mills and investors, as Vietnam's own foresight studies advise |
+| 1 | No Vietnamese stakeholder workshop tested the axes, worlds or vision; no interviews in this round | One small scenario workshop with the agriculture and science ministries (MAE, MOST), feed mills and investors, as Vietnam's own foresight studies advise |
 | 2 | No Vietnamese series of feed conversion and soybean-meal inclusion by species | Feed-association and integrator data under confidentiality; the first protein balance (RM-01) |
 | 3 | No baseline for imports of yeasts and protein preparations from China (SP-10) | Vietnam customs data for HS 2102, 3504 and 2309 |
 | 4 | JRC bioeconomy 2050 report pages were blocked; the scenario names are verified only from the JRC repository page [@VIS-50] {general\|Low} | The JRC123532 report from a mirror |
@@ -428,9 +442,9 @@ The vision is to be reviewed at each five-year plan (2030, 2035, 2040, 2045) aga
 - `scenarios_2050.csv` (4 rows): the four 2050 worlds with axis ends, pictures, indicative ranges, hubs, 2035 origins and signposts.
 - `signposts_2050.csv` (16 rows): signposts by axis with thresholds, where to watch, September 2026 status and worlds favoured.
 - `wildcards.csv` (26 rows): wildcards with impact channel, direction, window, signposts and confidence.
-- `play_robustness.csv` (16 rows): play and policy-option scores in each world, class and reason.
-- `robust_moves.csv` (21 rows): candidate moves with class, owners, start date, cost, trigger, evidence and scores.
-- `vision_milestones.csv` (22 rows): backcast milestones by plan cycle with indicator, range, trend and benchmark.
+- `play_robustness.csv` (16 rows): play and policy-option scores in each world, class and reason; a status column marks the five retired feed rows.
+- `robust_moves.csv` (21 rows): candidate moves with class, owners, start date, cost, trigger, evidence and scores; a status column marks the five retired feed moves.
+- `vision_milestones.csv` (22 rows in version 0.2; 25 since version 0.8): backcast milestones by plan cycle with indicator, range, trend and benchmark.
 - `sources.csv` (1,275 rows): all sources; the 469 from this round carry the prefixes in M2.3.1 and a `wave` value of wave3, wave4 or wave5.
 - `biblio_trends_frontier.csv` (325 rows) and `vn_research_profile.csv` (53 rows): OpenAlex counts with rerunnable queries.
 - Balance model files: see [[app-f4-balance-model]]. Stream notes, CSVs and scripts: `working-papers/wave3/<stream>/`.

@@ -1,0 +1,77 @@
+                      Avian Influenza Weekly Update Number 1063
+                      25 September 2026
+  Note: The reporting date of human infections included in this weekly update is based on the Event Information Site
+  (EIS) posting date, rather than the date of initial notification received through the International Health Regulations
+  (2005) (IHR).
+
+
+  Human infection with avian influenza A(H5) viruses
+  Human infection with avian influenza A(H5N1) virus
+  From 18 to 24 September 2026, no new case of human infection with avian influenza A(H5N1) virus was
+  reported to WHO in the Western Pacific Region. The last case was reported from Phnom Penh, Cambodia,
+  with symptom onset on 30 June 2026.
+
+  From 1 January 2003 to 6 September 2026, a total of 486 cases of human infection with avian influenza
+  A(H5N1) virus have been reported from six countries within the Western Pacific Region (Table 1). Of these
+  cases, 320 were fatal, resulting in a case fatality rate (CFR) of 65.8%.
+
+   Table 1: Cumulative number of laboratory-confirmed human cases (C) and deaths (D) of influenza A(H5N1) virus
+              infection reported to WHO, 1 January 2003 to 6 September 2026, Western Pacific Region.
+
+                     2003-2009     2010-2014      2015-2019      2020-2024          2025           2026             Total
+        Country
+                      C     D      C       D      C      D       C      D       C          D   C          D   C             D
+
+Australia             0      0     0       0      0      0       1      0       0          0   0          0   1             0
+Cambodia              9      7     47     30      0      0      16      6      18          9   5          1   95            53
+China                38     25     9       5      6      1       3      1       1          0   0          0   57            32
+Indonesia            162    134    35     31      3      3       0      0       0          0   0          0   200           168
+Lao PDR               2      2     0       0      0      0       1      0       0          0   0          0   3             2
+Viet Nam             112    57     15      7      0      0       2      1       1          0   0          0   130           65
+         Total       323    225    106    73      9      4      23      8      20          9   5          1   486           320
+
+                  Source: Confirmed human cases of avian influenza A (H5N1) reported to WHO, 2003-2026
+
+  Globally, from 1 January 2003 to 6 September 2026, 1 003 cases of human infection with avian influenza
+  A(H5N1) virus were reported from 25 countries. Of these 1 003 cases, 479 were fatal (CFR of 47.8%).
+
+  Human infection with avian influenza A(H5N6) virus
+  From 18 to 24 September 2026, no new case of human infection with avian influenza A(H5N6) virus was
+  reported to WHO in the Western Pacific Region. The last case was reported from Chongqing Municipality,
+  China, with symptom onset on 16 April 2026. from Chongqing Municipality, China, with symptom onset
+  on 16 April 2026.
+
+  Since 2014, a total of 93 laboratory-confirmed cases of human infection with influenza A(H5N6) virus
+  including 58 deaths (CFR 62.4%) have been reported to WHO in the Western Pacific Region.
+
+
+
+
+                                                                       Avian Influenza Weekly Update Number 1063 1
+Human infection with avian influenza A(H5) virus, unsubtyped virus
+From 18 to 24 September 2026, no new case of human infection with avian influenza A(H5) virus was
+reported to WHO in the Western Pacific Region. The last case was reported from Long An Province, Viet
+Nam, with an onset date of 9 November 2024.*
+
+Public health risk assessment for human infection with avian influenza A(H5) viruses
+Whenever avian influenza viruses are circulating in poultry, there is a risk for sporadic infection and small
+clusters of human cases due to exposure to infected poultry or contaminated environments. Therefore,
+sporadic human cases are not unexpected.
+
+were reported to WHO in the Western Pacific Region, both from China. Both cases were 1-year-old
+females, one from Henan Province, with symptom onset on 30 August 2026, and one from Guangdong
+Province, with symptom onset on 7 September 2026. The Henan case reported direct exposure to poultry,
+while the Guangdong case had potential exposure related to a live poultry market visit. Neither case
+received antiviral treatment or required hospitalization, and both had fully recovered at the time of
+reporting.
+
+Since 2015, a total of 183 cases of human infection with avian influenza A(H9N2), including two deaths
+(both with underlying conditions), have been reported to WHO in the Western Pacific Region. Of these,
+180 were reported from China, two were from Cambodia, and one was from Viet Nam.
+
+Most human infections with avian influenza A(H9N2) have been associated with exposure to infected
+poultry or contaminated poultry environments, and the majority of cases have been mild. Sporadic human
+infections continue to be expected in areas where H9N2 viruses circulate in poultry populations. Current
+evidence indicates that H9N2 viruses have not acquired the ability for sustained human-to-human
+transmission, and the risk of further community-level spread remains low.
+
