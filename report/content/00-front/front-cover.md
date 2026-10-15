@@ -12,7 +12,7 @@ summary: "A draft, evidence-tagged scoping study of what alternative protein Vie
 audiences: [investors, policy, startups, manufacturers, research, international]
 reading_time_min: 3
 key_numbers: [kn-meat-intake-2020, kn-soy-protein-import, kn-animal-protein-on-imports, kn-china-plant-protein-tonnage, kn-analogue-price-gap, kn-cassava-pulp, kn-food-law-window, kn-demand-bench-2035, kn-actor-check]
-related_pages: [front-two-minute, front-prologue, front-prologue-vi, front-exec-summary, front-exec-summary-vi, front-at-a-glance, front-how-to-read, front-faq, ch29-actor-check, ch23-scenarios-2050, ch18-demand-sizing, ch25-demand-to-frontier]
+related_pages: [front-two-minute, front-prologue, front-exec-summary, front-at-a-glance, front-how-to-read, front-faq, ch29-actor-check, ch23-scenarios-2050, ch18-demand-sizing, ch25-demand-to-frontier]
 charts: []
 ---
 
@@ -33,8 +33,8 @@ Feed appears only as context: it is the hidden import behind the meat, eggs, mil
 ### Start here
 
 - **Two minutes:** [[front-two-minute]]
-- **New to alternative protein:** [[front-prologue]] (English, 22 minutes) · [[front-prologue-vi]] (Tiếng Việt, 20 phút)
-- **The findings:** [[front-exec-summary]] (English, 14 minutes) · [[front-exec-summary-vi]] (Tiếng Việt, 17 phút) · [[front-at-a-glance]]
+- **New to alternative protein:** [[front-prologue]] (22 minutes)
+- **The findings:** [[front-exec-summary]] (14 minutes) · [[front-at-a-glance]]
 - **Questions people ask:** [[front-faq]]
 - **What to do:** [[ch25-demand-to-frontier]] (product targets) · [[ch26-plays]] (seven plays) · [[ch27-policy-options]] (policy options) · [[ch28-robust-moves]] (moves that pay off in any 2050)
 - **For your role:** [[brief-investors]] · [[brief-policy]] · [[brief-startups]] · [[brief-manufacturers]] · [[brief-research]] · [[brief-international]]

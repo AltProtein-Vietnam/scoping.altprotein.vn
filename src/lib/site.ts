@@ -56,11 +56,9 @@ export const AUDIENCES = [
 const FRONT_PATHS: Record<string, string> = {
   'front-cover': '/',
   'front-exec-summary': '/summary',
-  'front-exec-summary-vi': '/tom-tat',
   'front-two-minute': '/two-minutes',
   'front-at-a-glance': '/at-a-glance',
   'front-prologue': '/prologue',
-  'front-prologue-vi': '/loi-mo-dau',
   'front-how-to-read': '/how-to-read',
   'front-faq': '/faq',
 };
@@ -73,10 +71,8 @@ export const ROLE = {
   cover: 'front-cover',
   twoMinute: 'front-two-minute',
   summary: 'front-exec-summary',
-  summaryVi: 'front-exec-summary-vi',
   atAGlance: 'front-at-a-glance',
   prologue: 'front-prologue',
-  prologueVi: 'front-prologue-vi',
   howToRead: 'front-how-to-read',
   faq: 'front-faq',
   method: 'app-m1-method',
@@ -101,7 +97,6 @@ export const DRAFT_BANNER_PAGES = new Set<string>([
   ROLE.cover,
   ROLE.twoMinute,
   ROLE.summary,
-  ROLE.summaryVi,
   ROLE.atAGlance,
 ]);
 const SECTION_PATHS: Record<Section, string> = {
@@ -236,10 +231,8 @@ export function partPath(key: string): string {
 export const SUMMARY_PAGES = new Set<string>([
   ROLE.twoMinute,
   ROLE.summary,
-  ROLE.summaryVi,
   ROLE.atAGlance,
   ROLE.prologue,
-  ROLE.prologueVi,
   ROLE.howToRead,
   ROLE.faq,
 ]);

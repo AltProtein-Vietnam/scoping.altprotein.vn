@@ -10,7 +10,7 @@ audiences: [investors, policy, startups, manufacturers, research, international]
 reading_time_min: 44
 key_numbers: []
 related_data: [glossary.csv]
-related_pages: [front-prologue, front-prologue-vi, front-how-to-read, front-exec-summary-vi, app-m2-futures-method]
+related_pages: [front-prologue, front-how-to-read, app-m2-futures-method]
 charts: []
 ---
 
@@ -286,7 +286,7 @@ charts: []
 
 ## Newcomer terms
 
-Terms used in the prologue for readers new to alternative protein ([[front-prologue]], [[front-prologue-vi]]).
+Terms used in the prologue for readers new to alternative protein ([[front-prologue]]).
 
 | English | Tiếng Việt | Abbr. | Definition | Định nghĩa |
 |---|---|---|---|---|

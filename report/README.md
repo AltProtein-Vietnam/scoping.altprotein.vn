@@ -1,6 +1,6 @@
 # Alternative protein in Vietnam: a supply-side scoping study
 
-**Publisher:** AltProtein Vietnam · **Version:** 0.10, October 2026 · **Status:** draft for review, not for citation (version 1.0 will be the public launch) · **Languages:** English, with a Vietnamese prologue, a Vietnamese executive summary and a bilingual glossary
+**Publisher:** AltProtein Vietnam · **Version:** 0.10, October 2026 · **Status:** draft for review, not for citation (version 1.0 will be the public launch) · **Languages:** English, with a bilingual glossary (the Vietnamese prologue and executive summary are held back until a translation pass for version 1.0; see `working-papers/vi-pages/`)
 
 This folder is the complete content and data package for the study. It is designed to be turned into an interactive website. It contains **no website code**. This README is the build brief for whoever (or whichever tool, for example Claude Code) builds the site.
 
@@ -30,7 +30,7 @@ altprotein-vn-supply-scoping-2026/
 └── tools/demand_model.py     the demand sizing model behind chapter 18 (standard library only; reads the balance model outputs)
 ```
 
-82 pages in total: 9 front pages, 30 chapters, 6 briefs, 37 appendices.
+80 pages in total: 7 front pages, 30 chapters, 6 briefs, 37 appendices.
 
 ## 2. Content model
 
@@ -56,10 +56,10 @@ Anchors: headings should get stable slugs. `app-r4-sources` contains an HTML anc
 ## 3. What the site should do
 
 1. **Draft notice.** Until version 1.0, show `draft_notice` from the manifest ("Draft for review, version 0.10. Not for citation.") as a footer on every page, and as a banner on the cover and the summary pages (the pages also carry a "Draft for review" callout). Use `draft_notice.vi` on Vietnamese pages. Do not show a suggested citation.
-2. **Navigation** from `site-manifest.json` (`nav`): Home; Summary (two-minute summary, executive summaries, at a glance); Start here (prologues, how to read, FAQ); Report (five parts); For you (briefs); Appendices (five themed groups); Data. Show chapter numbers and appendix codes in the navigation. Do not mark pages as "new": version history lives in Appendix M5.
+2. **Navigation** from `site-manifest.json` (`nav`): Home; Summary (two-minute summary, executive summary, at a glance); Start here (prologue, how to read, FAQ); Report (five parts); For you (briefs); Appendices (five themed groups); Data. Show chapter numbers and appendix codes in the navigation. Do not mark pages as "new": version history lives in Appendix M5.
 3. **Audience paths.** `audience_paths` in the manifest gives an ordered reading list per audience, plus `newcomers` and `vietnamese-readers`. Offer an audience switcher on the home page; highlight pages tagged for the chosen audience (`audiences` in frontmatter).
-4. **Bilingual.** English is the default. `front-exec-summary-vi` and `front-prologue-vi` are full Vietnamese pages (`lang: vi`); link them prominently from the home page and their English versions. The glossary (`app-r3-glossary`, and `data/glossary.csv`) is bilingual; a searchable glossary widget is welcome. Set `lang` attributes correctly and use a font with full Vietnamese diacritics.
-5. **Stat tiles** from `data/key-numbers.json` (157 entries). `label_vi` exists for each tile, so tiles on Vietnamese pages can show Vietnamese labels. Some entries carry `foresight_type` and `horizon`; show the foresight badge on those tiles and label `vision` tiles "Vision, not forecast". Entries with `demand_evidence_type` show the demand evidence badge. `version` records the draft that added a tile; it is not for display.
+4. **Bilingual.** English is the default. The Vietnamese executive summary and prologue are held back until a translation pass for version 1.0 (`working-papers/vi-pages/`). The glossary (`app-r3-glossary`, and `data/glossary.csv`) is bilingual; a searchable glossary widget is welcome. Set `lang` attributes correctly and use a font with full Vietnamese diacritics.
+5. **Stat tiles** from `data/key-numbers.json` (157 entries). `label_vi` exists for each tile, so a Vietnamese interface can show Vietnamese labels. Some entries carry `foresight_type` and `horizon`; show the foresight badge on those tiles and label `vision` tiles "Vision, not forecast". Entries with `demand_evidence_type` show the demand evidence badge. `version` records the draft that added a tile; it is not for display.
 6. **Charts:** render as **inline SVG** generated at build time. **Do not use Chart.js** or canvas charting libraries. Each spec has `type`, `data`, `encoding`, `annotations`, `notes`, `alt_text`, `source_ids`, evidence and confidence. Show a source line under each chart and include a visually hidden data table for accessibility.
 7. **Interactive plays ranking** (`chart-plays-scoring` on `ch26-plays`): preset selector from `data/play_weight_presets.csv` plus sliders for the seven criteria in `data/play_criteria.csv`; weighted score = sum(score x weight) / 100 over `data/plays.csv` rows where `type == play`. Provide the static balanced ranking when JavaScript is off. Clicking a play should show its card (what, why Vietnam, must be true, kill tests, first customers, partners, horizon, capital).
 8. **Data browser** for `data/*.csv` with filtering, sorting, CSV download and the column descriptions in `data/data-dictionary.md`. Serve the four registers (open questions, disagreements, glossary, sources) mainly as filterable views rather than long pages. Useful views: companies (91 active), facilities (83), sources (2,669 active), open questions (520 active), disagreements (393 active), policy options (34), retail audit SKUs (186), the balance and demand model outputs, scenarios and signposts, moves for any 2050 (`robust_moves.csv`), target product profiles, demand moves and the actor check.

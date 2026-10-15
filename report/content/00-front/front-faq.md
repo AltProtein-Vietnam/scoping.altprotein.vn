@@ -45,7 +45,7 @@ Send it to AltProtein Vietnam through the contact who shared this draft with you
 ## About alternative protein
 
 **What is alternative protein?**
-Protein made from plants, fungi, microbes, algae or cultivated animal cells instead of from livestock and fish. It includes old foods such as tofu and Vietnam's *chay* (vegetarian) cooking, and new ones such as precision-fermented dairy proteins, made by microbes engineered to produce one specific protein. This study looks at alternative protein for people to eat. The prologue explains the families and how each is made ([[front-prologue]], [[front-prologue-vi]]).
+Protein made from plants, fungi, microbes, algae or cultivated animal cells instead of from livestock and fish. It includes old foods such as tofu and Vietnam's *chay* (vegetarian) cooking, and new ones such as precision-fermented dairy proteins, made by microbes engineered to produce one specific protein. This study looks at alternative protein for people to eat. The prologue explains the families and how each is made ([[front-prologue]]).
 
 **Is it the same as "fake meat" or "lab-grown meat"?**
 No. Meat look-alikes are one small part, and cultivated ("lab-grown") meat an even smaller one. In Vietnam most of the opportunity is in ingredients sold to food makers ([[ch02-alt-protein-today]], [[ch26-plays]]).
@@ -112,7 +112,7 @@ For example: a Food Safety Law with no route for new foods, cheap delivered soy 
 ## Using the report
 
 **Where should I start?**
-Two minutes: [[front-two-minute]]. Fourteen minutes: [[front-exec-summary]] (Vietnamese: [[front-exec-summary-vi]], 17 minutes). New to the field: [[front-prologue]]. For your role: the six briefs listed on the [[front-cover]].
+Two minutes: [[front-two-minute]]. Fourteen minutes: [[front-exec-summary]]. New to the field: [[front-prologue]]. For your role: the six briefs listed on the [[front-cover]].
 
 **What do codes such as T1, PO-001, DMV-05 or S-ALT mean?**
 They are plays, policy options, demand moves and scenarios. [[front-how-to-read]] has a table that decodes every code family.

@@ -33,9 +33,11 @@ So the build command must stay `pnpm build` (or `pnpm build:production`): a plai
 
 ## 2. Automatic deploys (Workers Builds)
 
-Workers Builds is connected to this repository. A push to `main` builds with `pnpm build` and deploys with `wrangler deploy`. Other branches are not built by Workers Builds: the GitHub Actions `check` builds them instead. A preview deploy (`wrangler preview` or `wrangler versions upload`) would use the top-level environment of `wrangler.jsonc`, which has no IDs for D1 or KV, so it stops with "binding SESSION of type kv_namespace must have a namespace_id specified".
+Workers Builds is connected to this repository. A push to `main` builds with `pnpm build` and deploys with `wrangler deploy`. Other branches get previews, built with `pnpm build` and deployed with `wrangler preview`.
 
-The settings to keep, under the Worker's Settings, Builds: production branch `main`, build command `pnpm run build`, deploy command `npx wrangler deploy`, previews off. On 15 October 2026 the production branch had been switched to a pull-request branch with the deploy command `npx wrangler preview`, so a merge to `main` would not have deployed. They were set back the same day. Check them before merging a release.
+The previews fail at the deploy step, so pull requests show a red "Workers Builds: altprotein-scoping" check. A preview uses the top-level environment of `wrangler.jsonc`, which has no IDs for D1 or KV, and stops with "binding SESSION of type kv_namespace must have a namespace_id specified". That check says nothing about the code: the GitHub Actions `check` builds and tests every branch. To end the red check, either give the top-level environment its own preview D1 database, KV namespace and R2 bucket, or turn previews off under the Worker's Settings, Builds.
+
+Each preview has its own build configuration in the Cloudflare API, under its own ID, which reports its branch as the "production" branch. Do not mistake it for the Worker's: the Worker `altprotein-scoping` builds `main`.
 
 The repository moved from `parkervu/scoping.altprotein.vn` to the `AltProtein-Vietnam` organisation after the v0.7 deploy (30 September 2026). Workers Builds then received no pushes, so the merge of report v0.8 was not built, until it was reconnected to `AltProtein-Vietnam/scoping.altprotein.vn` on 1 October 2026. Reconnecting does not build commits already on `main`; the next push does. If the repository moves again, reconnect it under the Worker's Settings, Builds, and check that the next merge to `main` shows a "Workers Builds: altprotein-scoping" check.
 
@@ -50,13 +52,13 @@ Edition 1.1 replaced the first site's `report` and `chapters` collections with o
 - The content was imported with EmDash's setup endpoint (bundled content included). The first attempt stopped after 51 of 57 pages; rerunning it is safe because existing entries are skipped, and the second run created the remaining 6.
 - The administrator registers a passkey in the setup wizard at `/_emdash/admin`.
 
-To repeat this on a fresh database: export the current one, `wrangler d1 create <name> --location apac`, set its name and id under `env.production.d1_databases`, merge (or `pnpm deploy:production`), then complete the setup wizard straight away, including the bundled content. Until an administrator exists, the first visitor to the wizard can claim that role. Check: the admin lists 57 published Report pages; `/`, `/summary`, `/tom-tat`, `/report/ch11-plays`, `/report/ch18-scenarios-2050`, `/data/companies`, `/search?q=cassava`, `/glossary`, `/vi` and `/sitemap.xml` load; `/chapters/anything` redirects to `/report`; an anonymous `?_preview=x` request gets 403.
+To repeat this on a fresh database: export the current one, `wrangler d1 create <name> --location apac`, set its name and id under `env.production.d1_databases`, merge (or `pnpm deploy:production`), then complete the setup wizard straight away, including the bundled content. Until an administrator exists, the first visitor to the wizard can claim that role. Check: the admin lists 57 published Report pages; `/`, `/summary`, `/report/ch11-plays`, `/report/ch18-scenarios-2050`, `/data/companies`, `/search?q=cassava`, `/glossary`, `/vi` and `/sitemap.xml` load; `/chapters/anything` redirects to `/report`; an anonymous `?_preview=x` request gets 403.
 
 **Rollback:** point `DB` back at the old database id and deploy the previous release (the commit before edition 1.1) with `wrangler rollback` or a redeploy. Do not point the edition 1.1 code at the old database: its schema has no `pages` collection.
 
 ## 4. Content updates from a new package
 
-Deploying never changes page text in the CMS. After deploying a new package, run `scripts/sync-content.mjs` as described in the README (plan first, then `--apply`), with an EmDash API token created by an administrator. Moving from edition 1.1 (57 pages) to v0.6 (81 pages) creates 66 pages, updates 15 and moves the 42 pages whose ids changed to the trash; their old URLs redirect (`src/lib/redirects.ts`). Moving from v0.6 to v0.7 updates 79 pages and leaves 2 unchanged; it creates and trashes none. Moving from v0.7 to v0.8 updates all 81 pages; it creates and trashes none. Moving from v0.8 to v0.10 creates 1 page (Appendix S14, the solutions screen), updates 69 and leaves 12 unchanged; it trashes none. The page text changes with the deploy's key numbers and charts, so deploy first: run the sync only once the new release is live.
+Deploying never changes page text in the CMS. After deploying a new package, run `scripts/sync-content.mjs` as described in the README (plan first, then `--apply`), with an EmDash API token created by an administrator. Moving from edition 1.1 (57 pages) to v0.6 (81 pages) creates 66 pages, updates 15 and moves the 42 pages whose ids changed to the trash; their old URLs redirect (`src/lib/redirects.ts`). Moving from v0.6 to v0.7 updates 79 pages and leaves 2 unchanged; it creates and trashes none. Moving from v0.7 to v0.8 updates all 81 pages; it creates and trashes none. Moving from v0.8 to v0.10 creates 1 page (Appendix S14, the solutions screen), updates 69 and leaves 12 unchanged; it trashes none (applied on 15 October 2026). Holding back the Vietnamese summary and prologue then updates the pages that linked to them and moves the two pages to the trash, from where an administrator can restore them; their old addresses redirect to the English pages. The page text changes with the deploy's key numbers and charts, so deploy first: run the sync only once the new release is live.
 
 ## 5. Subsequent deploys
 
@@ -88,6 +90,7 @@ Without signing in:
 - `/`, `/report`, `/report/part-ii`, `/report/ch26-plays`, `/briefs/brief-policy`, `/glossary`, `/appendices/app-r4-sources`, `/vi` and `/sitemap.xml` load.
 - `/appendices/app-s4-feedstocks`, `/appendices/app-r1-open-questions`, `/data`, `/workbench`, `/files/data/companies.csv` and `/files/downloads/altprotein-vn-data.zip` return 403; `/_emdash/api/search?q=cassava` returns 403; `/sitemap-pages.xml` returns 404.
 - `/downloads/altprotein-vn-data.zip` redirects to `/files/downloads/altprotein-vn-data.zip`.
+- `/tom-tat` and `/loi-mo-dau` redirect (302) to `/summary` and `/prologue`.
 
 Signed in as an Editor or Administrator: the editor bar shows; `/workbench`, the appendices, `/data/companies` and the zips open; "See the public view" shows the sign-in notice on an appendix and "Back to the editor view" returns.
 

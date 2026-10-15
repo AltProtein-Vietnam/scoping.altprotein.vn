@@ -13,7 +13,7 @@ import {
   localize,
   READING_ORDER,
 } from '../src/lib/site';
-import { MOVED_PAGES } from '../src/lib/redirects';
+import { MOVED_PAGES, WITHDRAWN_PATHS } from '../src/lib/redirects';
 import { PLAY_ROWS, PRESETS, weightedScore } from '../src/lib/widgets';
 import { cleanSnippet, searchRecords } from '../src/lib/search';
 import { isEditorUser, isRestrictedPage } from '../src/lib/access';
@@ -27,7 +27,7 @@ const strip = (html: string) =>
 
 test('the seed holds every manifest page once, with its Markdown body', () => {
   assert.equal(entries.length, PAGES.length);
-  assert.equal(entries.length, 82);
+  assert.equal(entries.length, 80);
   assert.deepEqual(new Set(entries.map((e) => e.id)), new Set(PAGES.map((p) => p.id)));
   for (const e of entries) {
     const file = fs.readFileSync(
@@ -165,7 +165,12 @@ test('page paths round-trip, and the Vietnamese interface prefixes them', () => 
   assert.equal(pagePath('front-cover'), '/');
   assert.equal(pagePath('ch26-plays'), '/report/ch26-plays');
   assert.equal(pagePath('app-m1-method'), '/appendices/app-m1-method');
-  assert.equal(pagePath('front-prologue-vi'), '/loi-mo-dau');
+  // The Vietnamese pages are held back until the v1.0 translation pass; their addresses redirect.
+  for (const [path, id] of Object.entries(WITHDRAWN_PATHS)) {
+    assert.equal(pageIdForPath(path), undefined);
+    assert.ok(PAGE_BY_ID.has(id), `${path} leads to a missing page`);
+  }
+  assert.ok(!PAGES.some((p) => p.lang === 'vi'));
   assert.equal(localize('/', 'vi'), '/vi');
   assert.equal(localize('/report/ch26-plays', 'vi'), '/vi/report/ch26-plays');
   assert.equal(localize('/files/data/companies.csv', 'vi'), '/files/data/companies.csv');

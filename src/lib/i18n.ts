@@ -132,7 +132,6 @@ const en = {
 
   // Home -------------------------------------------------------------------------------
   homeReadSummary: 'Executive summary',
-  homeReadVi: 'Tóm tắt tiếng Việt',
   homeNewcomers: 'New to alternative protein?',
   homeArgument: 'The argument',
   homeArgumentIntro: (n: number) =>
@@ -260,12 +259,7 @@ const en = {
   backHome: 'Back to the home page',
   previewNote: 'Editor preview: unpublished changes.',
   exitPreview: 'Exit preview',
-  pageInVi: 'This page is in Vietnamese.',
   pageInEn: 'Nội dung trang này bằng tiếng Anh.',
-  readEnSummary: 'Read the English summary',
-  readEnPrologue: 'Read the English prologue',
-  readViSummary: 'Đọc bản tóm tắt tiếng Việt',
-  readViPrologue: 'Đọc lời mở đầu tiếng Việt',
 
   // Plays and scenarios (chapters 26 and 23) ---------------------------------------------
   plays: {
@@ -422,7 +416,6 @@ const vi: Dict = {
     'Trong giai đoạn dự thảo, các phụ lục bằng chứng và sổ đăng ký câu hỏi mở, điểm bất đồng chỉ được chia sẻ với người góp ý. Bảng thuật ngữ và danh sách nguồn đầy đủ được công khai.',
 
   homeReadSummary: 'Tóm tắt (tiếng Anh)',
-  homeReadVi: 'Đọc tóm tắt tiếng Việt',
   homeNewcomers: 'Lời mở đầu cho người mới',
   homeArgument: 'Lập luận',
   homeArgumentIntro: (n: number) =>

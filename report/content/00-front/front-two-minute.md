@@ -8,7 +8,7 @@ summary: "The whole report on one screen: why Vietnam, what the food-security ev
 audiences: [investors, policy, startups, manufacturers, research, international]
 reading_time_min: 2
 key_numbers: [kn-soy-protein-import, kn-animal-protein-on-imports, kn-demand-bench-2035, kn-sbm-need-2050]
-related_pages: [front-exec-summary, front-exec-summary-vi, front-prologue, front-faq, ch01-why-vietnam, ch26-plays, ch27-policy-options, ch18-demand-sizing, ch22-protein-balance-2050, ch28-robust-moves]
+related_pages: [front-exec-summary, front-prologue, front-faq, ch01-why-vietnam, ch26-plays, ch27-policy-options, ch18-demand-sizing, ch22-protein-balance-2050, ch28-robust-moves]
 charts: []
 ---
 
@@ -51,4 +51,4 @@ Fungal foods such as koji (T9) and mung bean and rice protein for plant drinks (
 
 {{kn:kn-sbm-need-2050}}
 
-**Read next:** [[front-exec-summary]] (14 minutes) · [[front-exec-summary-vi]] (Tiếng Việt) · [[front-prologue]] (new to the field) · [[front-faq]] · the brief for your role, listed on [[front-cover]].
+**Read next:** [[front-exec-summary]] (14 minutes) · [[front-prologue]] (new to the field) · [[front-faq]] · the brief for your role, listed on [[front-cover]].

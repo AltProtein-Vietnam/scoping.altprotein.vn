@@ -6,10 +6,8 @@ Version 0.6 renumbered the chapters and re-coded the appendices; the map from th
 - front-cover: Alternative protein in Vietnam: a supply-side scoping study
 - front-two-minute: The report in two minutes
 - front-exec-summary: Executive summary
-- front-exec-summary-vi: Tóm tắt báo cáo
 - front-at-a-glance: At a glance
 - front-prologue: Prologue: alternative protein for newcomers
-- front-prologue-vi: Lời mở đầu: protein thay thế cho người mới tìm hiểu
 - front-how-to-read: How to read this report
 - front-faq: Frequently asked questions
 

@@ -10,11 +10,9 @@ test.beforeAll(async ({ request }) => {
 const FRONT: Record<string, string> = {
   'front-cover': '/',
   'front-exec-summary': '/summary',
-  'front-exec-summary-vi': '/tom-tat',
   'front-two-minute': '/two-minutes',
   'front-at-a-glance': '/at-a-glance',
   'front-prologue': '/prologue',
-  'front-prologue-vi': '/loi-mo-dau',
   'front-how-to-read': '/how-to-read',
   'front-faq': '/faq',
 };
@@ -105,6 +103,12 @@ test('routes, redirects, the Vietnamese interface and the draft notice', async (
   expect(movedChapter.headers()['location']).toBe('/report/ch26-plays');
   const movedAppendix = await request.get('/vi/appendices/app-t-sources', { maxRedirects: 0 });
   expect(movedAppendix.headers()['location']).toBe('/vi/appendices/app-r4-sources');
+  // The Vietnamese summary and prologue are held back until the v1.0 translation pass.
+  const summaryVi = await request.get('/tom-tat', { maxRedirects: 0 });
+  expect(summaryVi.status()).toBe(302);
+  expect(summaryVi.headers()['location']).toBe('/summary');
+  const prologueVi = await request.get('/vi/loi-mo-dau', { maxRedirects: 0 });
+  expect(prologueVi.headers()['location']).toBe('/vi/prologue');
   expect((await request.get('/report/ch26-plays?_preview=invalid')).status()).toBe(403);
   const vi = await request.get('/vi/report/ch26-plays');
   expect(vi.status()).toBe(200);

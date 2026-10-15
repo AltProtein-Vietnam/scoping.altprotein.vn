@@ -136,7 +136,7 @@ Version 0.4 checks Part III against 80 named actors and 118 decision questions, 
 
 ## M1.13 Version 0.5: the prologue
 
-Version 0.5 adds a prologue for readers new to alternative protein ([[front-prologue]], [[front-prologue-vi]]). Three research agents, working from a common brief, gathered facts on definitions and technology families, the general arguments for and against alternative protein, and the international landscape (wave 10, 81 sources). Each reused package sources where they applied and recorded a short verbatim quote for every key number; an independent check compared the prologue with those notes before release. The briefs and notes are in `working-papers/wave10/`. The prologue is background: it adds no finding about Vietnam and changes none.
+Version 0.5 adds a prologue for readers new to alternative protein ([[front-prologue]]; the Vietnamese prologue is held back from v0.10, see [[app-m5-changelog]], section M5.16). Three research agents, working from a common brief, gathered facts on definitions and technology families, the general arguments for and against alternative protein, and the international landscape (wave 10, 81 sources). Each reused package sources where they applied and recorded a short verbatim quote for every key number; an independent check compared the prologue with those notes before release. The briefs and notes are in `working-papers/wave10/`. The prologue is background: it adds no finding about Vietnam and changes none.
 
 ## M1.14 Version 0.8: protein for people, food-security hypotheses and clear language
 
