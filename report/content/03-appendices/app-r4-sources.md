@@ -4,7 +4,7 @@ title: "R4. Sources"
 short_title: "R4. Sources"
 section: appendix
 order: 84
-summary: "All 2,436 sources behind the report (764 in v0.1, 469 added by the futures round of v0.2, 450 by the demand round of v0.3, 574 by the actor check and expansion waves of v0.4, 81 by the prologue research of v0.5 and 96 by the food-security round of v0.8, including six from its editorial checks), grouped by the research stream that found them. Each citation code in the text links here and to sources.csv."
+summary: "All 2,434 sources behind the report (763 in v0.1, 469 added by the futures round of v0.2, 450 by the demand round of v0.3, 573 by the actor check and expansion waves of v0.4, 81 by the prologue research of v0.5 and 96 by the food-security round of v0.8, including six from its editorial checks), grouped by the research stream that found them. Each citation code in the text links here and to sources.csv."
 audiences: [research, investors, policy, international, startups, manufacturers]
 reading_time_min: 320
 key_numbers: [kn-sources-count]
@@ -20,16 +20,16 @@ Every citation code in the report, such as [@MAC-04], resolves to an entry below
 | Source type | Version 0.1 (waves 1 and 2) | Futures round (waves 3 to 5) | Demand round (wave 6) | Actor check and expansion (waves 7 to 9) | Prologue (wave 10) | Food security (wave 11) | Total |
 |---|---|---|---|---|---|---|---|
 | press | 164 | 107 | 175 | 104 | 15 | 39 | 604 |
-| peer-reviewed | 162 | 134 | 89 | 47 | 23 | 22 | 477 |
+| peer-reviewed | 161 | 134 | 89 | 47 | 23 | 22 | 476 |
 | gov/statistics | 122 | 95 | 39 | 106 | 26 | 11 | 399 |
-| company | 124 | 7 | 35 | 151 | 9 | 0 | 326 |
+| company | 124 | 7 | 35 | 150 | 9 | 0 | 325 |
 | other | 49 | 54 | 41 | 80 | 3 | 4 | 231 |
 | law | 78 | 50 | 0 | 0 | 0 | 4 | 132 |
 | advocacy | 27 | 8 | 33 | 36 | 5 | 1 | 110 |
 | database | 26 | 10 | 23 | 42 | 0 | 8 | 109 |
 | market-research | 14 | 4 | 15 | 8 | 0 | 0 | 41 |
 | intergovernmental | 0 | 0 | 0 | 0 | 0 | 7 | 7 |
-| **All** | 764 | 469 | 450 | 574 | 81 | 96 | 2436 |
+| **All** | 763 | 469 | 450 | 573 | 81 | 96 | 2434 |
 
 {{chart:chart-sources-by-type}}
 
@@ -716,7 +716,7 @@ Every citation code in the report, such as [@MAC-04], resolves to an entry below
 - <a id="REG2-27"></a>**REG2-27.** Novel food. Wikipedia, accessed 2026. https://en.wikipedia.org/wiki/Novel_food . EU cut-off date 15 May 1997; China 149 new food raw materials by Dec 2023. Encyclopedia (secondary). EUR-Lex text (https://eur-lex.europa.eu/eli/reg/2015/2283/oj/eng) did not render.
 - <a id="REG2-28"></a>**REG2-28.** Nghị định 26/2023/NĐ-CP Biểu thuế xuất khẩu, Biểu thuế nhập khẩu ưu đãi. Government, 31 May 2023. https://thuvienphapluat.vn/van-ban/Xuat-nhap-khau/Nghi-dinh-26-2023-ND-CP-Bieu-thue-xuat-khau-Bieu-thue-nhap-khau-uu-dai-548616.aspx . Base schedule; Appendix II not rendered. Law, partly read.
 
-## FM: Feed market (wave 2) (36)
+## FM: Feed market (wave 2) (35)
 
 - <a id="FM-01"></a>**FM-01.** World Bank. "Commodity Price Data (The Pink Sheet)", September 2026 (released 2 Sep 2026). https://thedocs.worldbank.org/en/doc/74e8be41ceb20fa0da750cda2f6b9e4e-0050012026/related/CMO-Pink-Sheet-September-2026.pdf . Accessed 2026-09-23. Fishmeal, SBM, soybeans, maize, urea, sugar: annual 2023 to 2025, quarterly, Jun to Aug 2026. Type: statistics.
 - <a id="FM-02"></a>**FM-02.** World Bank commodity series via IndexMundi. "Fishmeal, Peru Fish meal/pellets 65% protein, CIF, USD per metric ton", monthly Jan 2020 to Mar 2026. https://www.indexmundi.com/commodities/?commodity=fish-meal&months=120 . Accessed 2026-09-23. Monthly series; annual means match FM-01. Type: statistics (compiled).
@@ -731,7 +731,6 @@ Every citation code in the report, such as [@MAC-04], resolves to an entry below
 - <a id="FM-11"></a>**FM-11.** Tap chi Thuy san Viet Nam. "Co hoi va thach thuc khi gia ca tra tang manh" (3 Dec 2024). https://thuysanvietnam.com.vn/co-hoi-va-thach-thuc-khi-gia-ca-tra-tang-manh/ . Accessed 2026-09-23. Pangasius farm-gate VND 26,500 to 30,000/kg. Type: trade press.
 - <a id="FM-12"></a>**FM-12.** CK Vietnam Group / V-Group Vietnam. "Mycoprotein" product page. https://ckvietnam.com.vn/mycoprotein-36.html . Accessed 2026-09-23. Chinese glutamic-acid fermentation biomass, at least 70% CP; uses. Type: company.
 - <a id="FM-13"></a>**FM-13.** Calysseo. Company website. https://www.calysseo.com/ . Accessed 2026-09-23. Adisseo-Calysta JV; Changshou (China) 20 kt/yr, 2 x 10 kt fermenters; Saudi 100 kt ambition. Type: company.
-- <a id="FM-14"></a>**FM-14.** "Evaluation of six novel protein sources on apparent digestibility in Pacific white shrimp, Litopenaeus vannamei." Aquaculture Nutrition (2022). https://doi.org/10.1155/2022/8225273 . Abstract. CAP, methanotroph meal, BSF, mealworm, Chlorella, cottonseed protein. Type: peer-reviewed.
 - <a id="FM-15"></a>**FM-15.** Wang, J., Chen, L., Xu, J., et al. (2022). "C1 gas protein: a potential protein substitute for advancing aquaculture sustainability." Reviews in Aquaculture 15(3): 1179-1197. https://doi.org/10.1111/raq.12707 . Abstract. Type: peer-reviewed review.
 - <a id="FM-16"></a>**FM-16.** "A natural gas fermentation bacterial meal (FeedKind) as a functional alternative ingredient for fishmeal in diet of largemouth bass." Antioxidants 11(8): 1479 (2022). https://doi.org/10.3390/antiox11081479 . Abstract. Type: peer-reviewed.
 - <a id="FM-17"></a>**FM-17.** "Evaluation of methanotroph (Methylococcus capsulatus, Bath) bacteria meal (FeedKind) as an alternative protein source for juvenile black sea bream." Frontiers in Marine Science (2021). https://doi.org/10.3389/fmars.2021.778301 . Abstract; FeedKind 75.14% CP. Type: peer-reviewed.
@@ -1888,7 +1887,7 @@ Version 0.2 adds the sources of the futures round (waves 3 to 5, September 2026)
 - <a id="AFN-49"></a>**AFN-49.** GAIN (Global Alliance for Improved Nutrition). Workforce Nutrition programme page. Accessed 25 September 2026. Type: other.
 - <a id="AFN-50"></a>**AFN-50.** GFI APAC. Food policy page. Accessed 25 September 2026. Type: advocacy.
 
-## AIS: Actor check: investors and startups (wave 7), v0.4 (45)
+## AIS: Actor check: investors and startups (wave 7), v0.4 (44)
 
 - <a id="AIS-01"></a>**AIS-01.** FoodNavigator. Alternative protein funding diverges as investors prioritize scale and bankability. 18 Feb 2026. Type: press.
 - <a id="AIS-02"></a>**AIS-02.** AgFunder. AgFunder Global AgriFoodTech Investment Report 2026 (landing page). 30 Mar 2026. Type: market-research.
@@ -1907,7 +1906,6 @@ Version 0.2 adds the sources of the futures round (waves 3 to 5, September 2026)
 - <a id="AIS-16"></a>**AIS-16.** VIR. VinaCapital Ventures invests in South Korea's INNOHAS. 2 Jul 2024. Type: press.
 - <a id="AIS-17"></a>**AIS-17.** Doanh nhan va Phap luat. VinaCapital tham gia van hanh Quy Dau tu mao hiem TP. HCM (VinaCapital to operate the Ho Chi Minh City venture fund). 20 Apr 2026. Type: press.
 - <a id="AIS-18"></a>**AIS-18.** Thanh Nien. Quy dau tu mao hiem TP.HCM tiep nhan 50 de xuat, giai ngan tu quy 4/2026 (HCMC venture fund receives 50 proposals, disburses from Q4 2026). 25 Aug 2026. Type: press.
-- <a id="AIS-19"></a>**AIS-19.** Mekong Capital. Home page and Entobel investment page. Accessed 25 Sep 2026. Type: company.
 - <a id="AIS-22"></a>**AIS-22.** ADB Ventures. Home page. Accessed 25 Sep 2026. Type: gov/statistics.
 - <a id="AIS-23"></a>**AIS-23.** SeafoodSource. Thai Union unveils plan to double earnings by 2030. 13 Nov 2024. Type: press.
 - <a id="AIS-24"></a>**AIS-24.** Charoen Pokphand Foods. CP Foods taps into future trends with food tech solutions. 21 Jul 2022. Type: company.

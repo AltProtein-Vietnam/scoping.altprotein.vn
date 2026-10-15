@@ -972,7 +972,7 @@
     "manufacturers"
    ],
    "reading_time_min": 49,
-   "summary": "Every version of this draft report and what it changed, including the refocus on protein for people and the food-security research of v0.8, the citation check of v0.7 and where each page moved in the v0.6 restructure. It lists every correction to earlier drafts, with what it was, what the report now uses, the source and where it appears.",
+   "summary": "Every version of this draft report and what it changed, including the removal of insect protein in v0.9, the refocus on protein for people and the food-security research of v0.8, the citation check of v0.7 and where each page moved in the v0.6 restructure. It lists every correction to earlier drafts, with what it was, what the report now uses, the source and where it appears.",
    "path": "content/03-appendices/app-m5-changelog.md",
    "lang": "en"
   },
@@ -1588,7 +1588,7 @@
     "manufacturers"
    ],
    "reading_time_min": 320,
-   "summary": "All 2,436 sources behind the report (764 in v0.1, 469 added by the futures round of v0.2, 450 by the demand round of v0.3, 574 by the actor check and expansion waves of v0.4, 81 by the prologue research of v0.5 and 96 by the food-security round of v0.8, including six from its editorial checks), grouped by the research stream that found them. Each citation code in the text links here and to sources.csv.",
+   "summary": "All 2,434 sources behind the report (763 in v0.1, 469 added by the futures round of v0.2, 450 by the demand round of v0.3, 573 by the actor check and expansion waves of v0.4, 81 by the prologue research of v0.5 and 96 by the food-security round of v0.8, including six from its editorial checks), grouped by the research stream that found them. Each citation code in the text links here and to sources.csv.",
    "path": "content/03-appendices/app-r4-sources.md",
    "lang": "en"
   }

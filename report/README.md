@@ -23,7 +23,7 @@ altprotein-vn-supply-scoping-2026/
 ├── charts/
 │   ├── chart-specs.json      56 chart definitions (data, encoding, notes, alt text)
 │   └── data/                 chart-ready CSVs for charts not built from data/
-├── sources/                  sources.csv (2,480 sources, 2,436 active) and bibliography.md
+├── sources/                  sources.csv (2,480 sources, 2,434 active) and bibliography.md
 ├── working-papers/           unedited research notes from waves 1 to 11 and the field logs (they use the chapter numbers and appendix letters of the time; see Appendix M5, section M5.3)
 ├── tools/validate.py         checks citations, evidence and foresight tags, links, embeds, tables and dashes
 ├── tools/balance_model.py    the protein and feed balance model behind chapter 22 (standard library only)
@@ -62,7 +62,7 @@ Anchors: headings should get stable slugs. `app-r4-sources` contains an HTML anc
 5. **Stat tiles** from `data/key-numbers.json` (156 entries). `label_vi` exists for each tile, so tiles on Vietnamese pages can show Vietnamese labels. Some entries carry `foresight_type` and `horizon`; show the foresight badge on those tiles and label `vision` tiles "Vision, not forecast". Entries with `demand_evidence_type` show the demand evidence badge. `version` records the draft that added a tile; it is not for display.
 6. **Charts:** render as **inline SVG** generated at build time. **Do not use Chart.js** or canvas charting libraries. Each spec has `type`, `data`, `encoding`, `annotations`, `notes`, `alt_text`, `source_ids`, evidence and confidence. Show a source line under each chart and include a visually hidden data table for accessibility.
 7. **Interactive plays ranking** (`chart-plays-scoring` on `ch26-plays`): preset selector from `data/play_weight_presets.csv` plus sliders for the seven criteria in `data/play_criteria.csv`; weighted score = sum(score x weight) / 100 over `data/plays.csv` rows where `type == play`. Provide the static balanced ranking when JavaScript is off. Clicking a play should show its card (what, why Vietnam, must be true, kill tests, first customers, partners, horizon, capital).
-8. **Data browser** for `data/*.csv` with filtering, sorting, CSV download and the column descriptions in `data/data-dictionary.md`. Serve the four registers (open questions, disagreements, glossary, sources) mainly as filterable views rather than long pages. Useful views: companies (90 active), facilities (82), sources (2,436 active), open questions (469 active), disagreements (368 active), policy options (33), retail audit SKUs (186), the balance and demand model outputs, scenarios and signposts, moves for any 2050 (`robust_moves.csv`), target product profiles, demand moves and the actor check.
+8. **Data browser** for `data/*.csv` with filtering, sorting, CSV download and the column descriptions in `data/data-dictionary.md`. Serve the four registers (open questions, disagreements, glossary, sources) mainly as filterable views rather than long pages. Useful views: companies (90 active), facilities (82), sources (2,434 active), open questions (469 active), disagreements (368 active), policy options (33), retail audit SKUs (186), the balance and demand model outputs, scenarios and signposts, moves for any 2050 (`robust_moves.csv`), target product profiles, demand moves and the actor check.
 9. **Long pages.** Generate a table of contents for any page over about 4,000 words, and keep heading anchors stable.
 10. **Search** across pages, glossary and the main data tables.
 11. **Corrections.** Style `> **Correction.**` callouts consistently; `app-m5-changelog` lists them all with the version history.
@@ -112,3 +112,7 @@ In v0.8 (Appendix M5, section M5.14):
 - Research wave 11 tested food-security hypotheses: imported and subsidised meat, animal disease and pandemic risk, other exposures, and where the protein people eat comes from. It added 96 sources (six of them from the editorial checks), 26 open questions, 21 disagreements, ten data files and 16 stat tiles. Three new tiles carry the rebuilt vision, and three feed vision tiles were retired.
 - Seven pages were retitled. Chapter 22 now leads with what people eat, and the chapter 24 vision was rebuilt on the demand model; `vision_milestones.csv` has 25 rows, and its IDs VM-01 to VM-22 now name different milestones.
 - Every page was rewritten to the GOV.UK clear-language standard, and chapter openings became "In brief" boxes. Numbers, citations and tags were kept unless a feed claim was removed.
+
+In v0.9 (Appendix M5, section M5.15):
+
+- Insect protein was removed from the study: it no longer appears in any page, stat tile or chart. Rows about it stay in the data files as the record, marked in a `status_v0_9` column (15 data files and `sources.csv`); views, charts, the glossary and search should show active rows only. Three tiles were removed (156 remain) and 46 sources that nothing cites any more were retired (2,434 active).

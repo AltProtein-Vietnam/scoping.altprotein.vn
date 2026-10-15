@@ -1065,7 +1065,7 @@ Rows: 43. Columns: 16.
 
 Master source list. Every citation ID used in the report resolves to a row here.
 
-Rows: 2,480 (2,436 active). Columns: 15.
+Rows: 2,480 (2,434 active). Columns: 15.
 
 | Column | Meaning | Example |
 |---|---|---|
@@ -1083,7 +1083,7 @@ Rows: 2,480 (2,436 active). Columns: 15.
 | `notes` | Type as given by the agent, other URLs, access problems, and IDs that share the same URL or DOI. | Type as given: gov/statistics (Post estimates) / Same URL as FS-23 |
 | `wave` | Research wave. | wave1 |
 | `from_note` | Notes file the source list came from. | wave1/macro/m1-protein-economy.md |
-| `status_v0_9` | `active`, or `retired in v0.9: insect protein removed from the study; no page, tile or chart cites it (kept as the v0.8 record)` (44 sources). Retired sources are not listed in Appendix R4 or the bibliography. The same column is in `sources/sources.csv`. | active |
+| `status_v0_9` | `active`, or `retired in v0.9: insect protein removed from the study; no page, tile or chart cites it (kept as the v0.8 record)` (46 sources). Retired sources are not listed in Appendix R4 or the bibliography. The same column is in `sources/sources.csv`. | active |
 
 ### talent.csv
 

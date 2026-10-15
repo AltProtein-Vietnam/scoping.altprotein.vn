@@ -1,6 +1,6 @@
 # Bibliography
 
-2,436 sources cited in the research behind "Alternative protein in Vietnam: a supply-side scoping study" (AltProtein Vietnam, version 0.9, October 2026): 764 from version 0.1 (waves 1 and 2, accessed 23 September 2026), 469 from the futures round of version 0.2 (waves 3 to 5, accessed 23 to 24 September 2026), 450 from the demand round of version 0.3 (wave 6, accessed 24 September 2026), 574 from the actor check and expansion waves of version 0.4 (waves 7 to 9, accessed 24 to 25 September 2026) 81 from the prologue research of version 0.5 (wave 10, accessed 25 September 2026) and 96 from the food-security round of version 0.8 (wave 11, including six from its editorial checks, accessed 1 October 2026); the last four rounds are listed at the end. Grouped by source type, then by the research agent's ID prefix. Citations are given as recorded in the research notes. The machine-readable list is `sources.csv` (same folder) and `data/sources.csv`; rows retired in version 0.9 are kept there and not listed here.
+2,434 sources cited in the research behind "Alternative protein in Vietnam: a supply-side scoping study" (AltProtein Vietnam, version 0.9, October 2026): 763 from version 0.1 (waves 1 and 2, accessed 23 September 2026), 469 from the futures round of version 0.2 (waves 3 to 5, accessed 23 to 24 September 2026), 450 from the demand round of version 0.3 (wave 6, accessed 24 September 2026), 573 from the actor check and expansion waves of version 0.4 (waves 7 to 9, accessed 24 to 25 September 2026) 81 from the prologue research of version 0.5 (wave 10, accessed 25 September 2026) and 96 from the food-security round of version 0.8 (wave 11, including six from its editorial checks, accessed 1 October 2026); the last four rounds are listed at the end. Grouped by source type, then by the research agent's ID prefix. Citations are given as recorded in the research notes. The machine-readable list is `sources.csv` (same folder) and `data/sources.csv`; rows retired in version 0.9 are kept there and not listed here.
 
 ID prefixes: MAC = protein economy and feed (wave 1); FS = feedstocks (wave 1); IND = industrial capacity (wave 1); ECO = ecosystem (wave 1); REG = regulation (wave 1); RD = research capacity (wave 1); CAP = capital (wave 1); RGN = regional position (wave 1); COST = costs (wave 1); FORM = formulation and retail audit (wave 1); SCI = state of the science (wave 2); REG2 = regulation, second pass (wave 2); FM = feed market (wave 2); GT = geography, ministries and outlook (wave 2); VCO = company verification (wave 2); INF = infrastructure and talent (wave 2); BIB = bibliometrics (wave 2); FTG = frontier technology: gas fermentation and power-to-protein (wave 3); FTB = frontier technology: biology and AI (wave 3); CLM = climate (wave 3); QNT = protein and feed balance model (wave 3); GEO = geopolitics, trade and macro drivers (wave 3); ECF = economics and policy futures (wave 3); HSC = horizon scan and bibliometrics (wave 3); NTS = national targets (wave 3); NGF = next-generation feedstocks (wave 4); AQF = aquaculture and aquafeed futures (wave 4); HUB = spatial hubs (wave 4); VIS = vision benchmarks and foresight practice (wave 5).
 
@@ -488,7 +488,7 @@ ID prefixes: MAC = protein economy and feed (wave 1); FS = feedstocks (wave 1); 
 - **HUB-01.** Prime Minister. Quyết định 768/QĐ-TTg phê duyệt Điều chỉnh Quy hoạch phát triển điện lực quốc gia thời kỳ 2021-2030, tầm nhìn đến năm 2050. 15 Apr 2025. https://thuvienphapluat.vn/van-ban/Tai-nguyen-Moi-truong/Quyet-dinh-768-QD-TTg-2025-Dieu-chinh-Quy-hoach-phat-trien-dien-luc-quoc-gia-thoi-ky-2021-2030-651977.aspx . Two inter-regional renewable centres by 2030 (regions only); offshore wind for new energy; HVDC after 2030. Type: law.
 - **HUB-26.** Government. Nghị định 263/2026/NĐ-CP về khu nông nghiệp ứng dụng công nghệ cao. 1 Jul 2026. https://thuvienphapluat.vn/van-ban/Linh-vuc-khac/Nghi-dinh-263-2026-ND-CP-khu-nong-nghiep-ung-dung-cong-nghe-cao-713724.aspx . Articles 4, 6, 8, 10 and 11 (read through a summarising fetch; verify articles). Type: law.
 
-## Peer-reviewed literature and preprints (296)
+## Peer-reviewed literature and preprints (295)
 
 ### MAC
 
@@ -654,7 +654,6 @@ ID prefixes: MAC = protein economy and feed (wave 1); FS = feedstocks (wave 1); 
 - **FM-07.** Salin, K. R., Arun, V. V., Mohanakumaran Nair, C., Tidwell, J. H. (2018), as cited in "Chemoattractants: their essentiality and efficacy in shrimp aquaculture", Indian Journal of Fisheries 68(1) (2021). https://doi.org/10.21077/ijf.2021.68.1.95994-20 . Not read by me; taken from wave 1 MAC-41. Shrimp fishmeal 19% to 40% (2000), 11% to 23% (2014), about 6% (2025 projected). Type: peer-reviewed (secondary citation).
 - **FM-08.** Xie, S., Niu, J., Zhou, W., et al. (2018). "Developing a low fishmeal diet for juvenile Pacific white shrimp, Litopenaeus vannamei, using the nutritional value of FM as the reference profile." Aquaculture Nutrition 24(4): 1184-1197. https://doi.org/10.1111/anu.12657 . Abstract. Fishmeal 250 to 100 g/kg without growth loss. Type: peer-reviewed.
 - **FM-09.** Han, D., Shan, X., Zhang, W., et al. (2016). "A revisit to fishmeal usage and associated consequences in Chinese aquaculture." Reviews in Aquaculture 10(2): 493-507. https://doi.org/10.1111/raq.12183 . Abstract and excerpts. China fishmeal imports steady at 1.0 to 1.5 Mt while aquafeed grew to 19 Mt (2014). Type: peer-reviewed. (Background; not used in tables.)
-- **FM-14.** "Evaluation of six novel protein sources on apparent digestibility in Pacific white shrimp, Litopenaeus vannamei." Aquaculture Nutrition (2022). https://doi.org/10.1155/2022/8225273 . Abstract. CAP, methanotroph meal, BSF, mealworm, Chlorella, cottonseed protein. Type: peer-reviewed.
 - **FM-15.** Wang, J., Chen, L., Xu, J., et al. (2022). "C1 gas protein: a potential protein substitute for advancing aquaculture sustainability." Reviews in Aquaculture 15(3): 1179-1197. https://doi.org/10.1111/raq.12707 . Abstract. Type: peer-reviewed review.
 - **FM-16.** "A natural gas fermentation bacterial meal (FeedKind) as a functional alternative ingredient for fishmeal in diet of largemouth bass." Antioxidants 11(8): 1479 (2022). https://doi.org/10.3390/antiox11081479 . Abstract. Type: peer-reviewed.
 - **FM-17.** "Evaluation of methanotroph (Methylococcus capsulatus, Bath) bacteria meal (FeedKind) as an alternative protein source for juvenile black sea bream." Frontiers in Marine Science (2021). https://doi.org/10.3389/fmars.2021.778301 . Abstract; FeedKind 75.14% CP. Type: peer-reviewed.
@@ -2239,7 +2238,7 @@ ID prefixes: DIE = protein diet and prices; CHY = chay and plant eating; CON = c
 ID prefixes: AFN, AIS, AIB, APR = actor check (funders; investors and startups; incumbents; policy, research and international); PMR = public meals; FTR = fiscal and tariff rules; FUF = funder units; CPC = commitments and competitors; TIC = textured protein economics; BRD = base rates (all wave 7); LBL = labels and standards; FBA = feed buyers; XBA = export buyers; NQR = nutrition quality; ECR = e-commerce; HXE = hybrid economics (all wave 8); TRU = fillers and trust; UPL = upland and canteen plates; MKT = marketplaces; ORG = rules of origin (all wave 9).
 
 
-### company (151)
+### company (150)
 
 - **AFN-01.** Coefficient Giving. Request for Proposals: Alternative Protein R&D. Page updated 9 September 2026.
 - **AFN-40.** Accor. Accor Group Good Food Policy. November 2024.
@@ -2263,7 +2262,6 @@ ID prefixes: AFN, AIS, AIB, APR = actor check (funders; investors and startups; 
 - **AIS-07.** Temasek. Transcript: Temasek Review 2025 Media Briefing. 9 Jul 2025.
 - **AIS-08.** Temasek. Temasek establishes the Asia Sustainable Foods Platform to accelerate the commercialisation of sustainable foods in Asia. 15 Nov 2021.
 - **AIS-11.** Big Idea Ventures. Home page. Accessed 25 Sep 2026.
-- **AIS-19.** Mekong Capital. Home page and Entobel investment page. Accessed 25 Sep 2026.
 - **AIS-24.** Charoen Pokphand Foods. CP Foods taps into future trends with food tech solutions. 21 Jul 2022.
 - **AIS-25.** Kamereo. Product listings for Meat Zero chay products (Heo Xay Chay Meat Zero 1kg; Heo Quay Chay Meat Zero 200g; plus minced 220 g and 1 kg, roast 1 kg, chay bologna 90 g and 500 g). Accessed 25 Sep 2026.
 - **AIS-26.** Kamereo. About Kamereo. Accessed 25 Sep 2026.

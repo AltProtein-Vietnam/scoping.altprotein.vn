@@ -4,7 +4,7 @@ title: "M5. Changelog and corrections"
 short_title: "M5. Changelog"
 section: appendix
 order: 5
-summary: "Every version of this draft report and what it changed, including the refocus on protein for people and the food-security research of v0.8, the citation check of v0.7 and where each page moved in the v0.6 restructure. It lists every correction to earlier drafts, with what it was, what the report now uses, the source and where it appears."
+summary: "Every version of this draft report and what it changed, including the removal of insect protein in v0.9, the refocus on protein for people and the food-security research of v0.8, the citation check of v0.7 and where each page moved in the v0.6 restructure. It lists every correction to earlier drafts, with what it was, what the report now uses, the source and where it appears."
 audiences: [investors, policy, research, international, startups, manufacturers]
 reading_time_min: 49
 key_numbers: []
@@ -28,7 +28,8 @@ This report is a draft. Version 1.0 will be the public launch; every version bef
 | 0.5 | September 2026 | A prologue for newcomers in English and Vietnamese; a complete bibliography | "Edition 1.4" |
 | 0.6 | September 2026 | A reader-first restructure, 0.x version numbers, this changelog, a two-minute summary, an FAQ, draft labels and consistency fixes (M5.2) | |
 | 0.7 | September 2026 | A citation check of every source the report cites, with corrections across the report, a repaired source register and 70 new open questions (M5.13) | |
-| 0.8 | October 2026 | Protein for people: the scope narrowed to protein for human consumption, with feed only as context; retired feed plays, moves and policy options; a research round testing food-security hypotheses (90 sources); every page rewritten in clear language (M5.14) | This draft |
+| 0.8 | October 2026 | Protein for people: the scope narrowed to protein for human consumption, with feed only as context; retired feed plays, moves and policy options; a research round testing food-security hypotheses (90 sources); every page rewritten in clear language (M5.14) | |
+| 0.9 | October 2026 | Insect protein removed from the study (M5.15) | This draft |
 
 Files, zips and project notes made before v0.6 use the earlier labels.
 
@@ -566,5 +567,15 @@ The editor logs flagged eight points while this record was first written. All ei
 - **CASE after its merger.** The Center of Analytical Services and Experimentation in Ho Chi Minh City has merged with the city's standards and metrology centre. We found no English name for the merged centre, so the study keeps the old name.
 - **Vietnam Innovation Network.** OQ-056 used to name a "Vietnam Innovation Network" next to NIC. We did not verify that it exists as a separate body, so the question now names NIC only.
 - **Heme as a colour.** The FDA letter gives flavour as the use of soy leghemoglobin. A later US colour-additive listing (2019) was not checked, so the glossary no longer says heme gives colour.
+
+## M5.15 Changes made in v0.9
+
+Version 0.9 removes insect protein from the study. Earlier versions kept it as an incumbent, a benchmark and a financing example; it no longer appears in any page, stat tile or chart. Earlier sections of this changelog are unchanged, as the record.
+
+- **Changed conclusion.** No disclosed alternative-protein deal in Vietnam has exceeded USD 5 million, and there is no proven local template for financing a plant. The structure of a private-equity lead, a development-finance ticket and a buyer's offtake is now our suggestion, not a precedent ([[ch08-capital]], [[app-s11-capital]]). We found no development finance institution with a direct ticket in Vietnamese alternative protein.
+- **Pages.** Chapter 10 lost its benchmark section (10.9; "What this means" is now 10.9), Appendix S1 its insect section (S1.9 to S1.13 renumbered), Appendix S13 one section (S13.12 to S13.15 renumbered) and Appendix S9 one route in its explainer (routes 7 to 12 renumbered). Registers: four open questions (OQ-035, OQ-066, OQ-120, OQ-437), five disagreements (DG-037, DG-038, DG-039, DG-062, DG-063) and two glossary terms (GL-053, GL-054) were removed, leaving 469 open questions, 368 disagreements and 234 terms.
+- **Stat tiles.** Three were removed, leaving 156. kn-salt-plants-2050 is now expressed as plants of 20 kt a year; kn-open-questions, kn-disagreements and kn-sources-count count active rows.
+- **Data files.** Rows about insect protein stay in the data files as the record, marked in a `status_v0_9` column in 15 files and in `sources.csv`. Views, charts, the glossary and search use active rows only. Other rows that mentioned insects in passing were reworded.
+- **Sources.** 46 sources that no page, tile or chart cites any more are retired, leaving 2,434 in Appendix R4 and the bibliography.
 
 **Related:** [[app-r2-disagreements]] (where sources disagree rather than an earlier draft being wrong).
