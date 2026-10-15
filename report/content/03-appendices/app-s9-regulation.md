@@ -730,7 +730,7 @@ Each gap is also in `open_questions.csv` and [[app-r1-open-questions]]. Gaps 5 t
 ## S9.24 Related data files
 
 - `instruments.csv`: 78 instruments (laws, decrees, circulars, decisions, resolutions, foreign reference rules), with status, key provisions, sources and a change log where wave 2 corrected wave 1.
-- `routes.csv`: the 17-row route-to-market table in section S9.19.
+- `routes.csv`: the route-to-market table (15 active rows) in section S9.19.
 - `policy_options.csv`: 33 policy options (the first 25 in section S9.22; the rest in [[ch27-policy-options]]), with cross-links between waves. The column `report_rank` holds the version 0.8 rank and `report_rank_v0_7` the version 0.7 rank.
 - `tariffs.csv`: the 11 tariff lines in section S9.18; `protein_tariffs_preferential.csv` holds the fuller preferential schedule, including plant milks.
 - `label_rules.csv`: the label, claim and product-standard rules behind section S9.7.

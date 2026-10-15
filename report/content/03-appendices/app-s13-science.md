@@ -291,7 +291,7 @@ The study no longer treats feed as something to make, so most of the points belo
 ### S13.11.1 State of the science in 2026
 
 - **Cell lines for Vietnamese species.** Striped catfish (*Pangasianodon hypophthalmus*, Vietnamese *tra*) cell lines exist in India, at the National Bureau of Fish Genetic Resources of the Indian Council of Agricultural Research (ICAR-NBFGR): a thymus line, PHT (accession NRFC-078; 52 passages; L-15 medium with 20% fetal bovine serum; 28 C; epithelial) (doi:10.56093/ijans.v93i2.128796), a gill line (2022, authors at ICAR-CIFE, doi:10.1007/s10695-022-01053-9) and a caudal fin line (2018, doi:10.1016/j.actatropica.2018.03.015). A skin epithelial line was published from Taiwan in 2025. All were built for virology and toxicology, not food [@SCI-10; @SCI-11; @SCI-46; @SCI-47] {VN-adjacent|Medium}.
-- **Shrimp.** "PmLyO-Sf9" is a hybrid of black tiger shrimp lymphoid cells and Sf9, a moth cell line, from Cochin University of Science and Technology (CUSAT), used for virus work (doi:10.1016/j.fsi.2021.03.023). It is part derived from a moth cell line. We found no true continuous shrimp cell line in the literature [@SCI-12; @SCI-13] {general|High}.
+- **Shrimp.** "PmLyO-Sf9" is a hybrid of black tiger shrimp lymphoid cells and Sf9, a moth cell line, from Cochin University of Science and Technology (CUSAT), used for virus work (doi:10.1016/j.fsi.2021.03.023). It is partly derived from a moth cell line. We found no true continuous shrimp cell line in the literature [@SCI-12; @SCI-13] {general|High}.
 - **Density limits (Humbird 2021, doi:10.1002/bit.27848).** Absolute maximum 258 g/L of wet cells; 110 g/L in fed-batch before ammonia inhibition; 140 g/L with one perfusion filter; 195 g/L oxygen-limited. With inefficient metabolism, inhibition caps density at 7 to 20 g/L. The conclusion is that economics "would likely preclude" affordability as food [@SCI-14] {general|High}.
 - **Best documented animal-free result.** Chicken cells reached up to 130 million cells/mL (reported as a 43% w/v yield) with repeated harvests over 20 days, in animal-component-free medium costing USD 0.63 per litre; the same paper models USD 6.2 per lb (about USD 13.67/kg) for a 50,000 L perfusion facility (Pasitka et al. 2024, doi:10.1038/s43016-024-01022-w) [@SCI-16] {general|Medium}. A 2025 review of this work gives 28 million cells/mL and a 38% cut in medium cost [@SCI-17] {general|Low}. The 43% w/v yield is above Humbird's modelled 140 to 195 g/L; the bases may differ and we have not reconciled them. No comparable data exist for fish or shrimp cells.
 - **Growth factor cost depends on the price assumption.** Humbird models growth factors at only USD 3 to 4 per kg of wet cells at 100,000 t/yr, assuming bulk recombinant prices [@SCI-14] {general|High}. At current prices, growth factors can be up to 95% of serum-free medium cost, and medium about 98% of raw-material cost at scale (preprint citing Semper and Savchenko 2023 for the 95% and Negulescu et al. 2023 for the 98%) [@SCI-15] {general|Medium}. Both are true; they describe different futures (DG-104).
@@ -308,7 +308,7 @@ The study no longer treats feed as something to make, so most of the points belo
 ### S13.11.3 What it means for Vietnam
 
 - We found no food-grade fish or shrimp cell line in Vietnam to start from [@RD-01; @BIB-01] {VN-direct|Medium}. The Indian catfish lines are a useful research tool for the same species as Vietnamese *tra*, but would need serum-free adaptation, suspension growth and muscle or fat character [@SCI-10] {VN-adjacent|High}.
-- Any shrimp cultivated-seafood claim built on PmLyO-Sf9 should be treated as misinformed: the line is part derived from a moth cell line [@SCI-12] {general|High}.
+- Any shrimp cultivated-seafood claim built on PmLyO-Sf9 should be treated as misinformed: the line is partly derived from a moth cell line [@SCI-12] {general|High}.
 - The science supports "watch, do not build" for food production. Useful public research steps are serum-free adaptation of catfish cells and testing Vietnamese *Pichia* growth factors on fish cells.
 
 > **Correction.** Earlier drafts grouped PHT, a gill line called "PHG" and PmLyO-Sf9 as ICAR-NBFGR food-relevant lines. PHT is real (NRFC-078) but is a serum-dependent virology line [@SCI-10] {VN-adjacent|High}. A striped catfish gill line exists, but the name "PHG" is not confirmed [@SCI-11] {VN-adjacent|Medium}. PmLyO-Sf9 is a hybrid of black tiger shrimp cells and a moth cell line, from CUSAT, not ICAR-NBFGR [@SCI-12] {general|High}. The claim that growth factors dominate media cost is true only at current prices [@SCI-14; @SCI-15] {general|Medium}.
@@ -418,9 +418,9 @@ Gaps 4, 8 and 9 concern feed. We keep them as the record, but closing them is no
 
 ## Related data files
 
-- `science_facts.csv`: the 43 checked science claims behind sections S13.3 to S13.12, with DOI, full-text flag and retraction check.
+- `science_facts.csv`: the 42 active checked science claims behind sections S13.3 to S13.12, with DOI, full-text flag and retraction check.
 - `tea_benchmarks.csv`: the 25 techno-economic benchmarks behind section S13.15 (see [[app-s12-costs]]).
-- `replacement_trials.csv`: the 20 feed replacement trials behind section S13.5 (see [[app-s6-feed-market]]).
+- `replacement_trials.csv`: the 12 active feed replacement trials behind section S13.5 (see [[app-s6-feed-market]]).
 - `publications.csv`: Vietnam-affiliated publications, including those cited here (see [[app-s7-research]]).
 - `biblio_counts.csv`: OpenAIRE counts by topic and country.
 - `cost_inputs.csv`: Vietnamese input costs used in the indicative cost estimates.

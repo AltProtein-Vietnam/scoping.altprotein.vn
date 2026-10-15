@@ -26,7 +26,7 @@ Built on 23 September 2026 by the data consolidation step from the wave 1 and wa
 | [cost_inputs.csv](#cost_inputscsv) | 61 | Vietnamese production cost inputs (electricity, water, heat, labour, land, taxes, logistics) used for the economics chapter. |
 | [countries.csv](#countriescsv) | 11 | Country comparison of novel food frameworks, approvals, public funding and open facilities (regional position). |
 | [deals.csv](#dealscsv) | 19 | Deal log: investments and acquisitions relevant to alternative protein and agrifood tech in or linked to Vietnam. |
-| [disagreements.csv](#disagreementscsv) | 373 | Register of conflicting numbers and claims found by the research agents, with the position taken (feeds Appendix R2). |
+| [disagreements.csv](#disagreementscsv) | 373 (368 active) | Register of conflicting numbers and claims found by the research agents, with the position taken (feeds Appendix R2). |
 | [engineering_suppliers.csv](#engineering_supplierscsv) | 9 | Engineering contractors and equipment vendors with a Vietnam presence relevant to fermentation and food processing. |
 | [facilities.csv](#facilitiescsv) | 82 | Industrial facilities in Vietnam that alternative-protein ventures could use or learn from (fermentation, starch, breweries, feed and aquafeed mills, soy, biologics, parks, labs). Wave 2 changes are logged in change_log. |
 | [facilities_regional.csv](#facilities_regionalcsv) | 16 | Pilot and contract manufacturing facilities in the region that are open (or not) to third parties. |
@@ -44,7 +44,7 @@ Built on 23 September 2026 by the data consolidation step from the wave 1 and wa
 | [macro_indicators.csv](#macro_indicatorscsv) | 87 | Macro indicators for the protein economy: production, consumption, feed output, trade, environment and context. |
 | [milestones.csv](#milestonescsv) | 30 | Dated milestones 2025 to 2035 (laws, strategies, targets, reforms) in Vietnam and reference jurisdictions. |
 | [ministries.csv](#ministriescsv) | 6 | Vietnamese ministries after the 2025 restructuring, their predecessors and roles relevant to alternative protein. |
-| [open_questions.csv](#open_questionscsv) | 473 | Register of open questions from all research notes, with the cheapest way to close each; near-duplicates merged and both origins cited. |
+| [open_questions.csv](#open_questionscsv) | 473 (469 active) | Register of open questions from all research notes, with the cheapest way to close each; near-duplicates merged and both origins cited. |
 | [outlook.csv](#outlookcsv) | 75 | Outlook numbers for 2030 and 2035 (population, demand, feed, prices, targets) with source and type. |
 | [pilot_labs.csv](#pilot_labscsv) | 32 | Pilot plants, testing laboratories, feed trial facilities, hi-tech parks and university facilities that founders can use. |
 | [policy_options.csv](#policy_optionscsv) | 33 | Policy options: wave 1 list plus the wave 2 ranked list, with origin and cross-links between related options. |
@@ -60,7 +60,7 @@ Built on 23 September 2026 by the data consolidation step from the wave 1 and wa
 | [retail_audit_summary_protein_by_type.csv](#retail_audit_summary_protein_by_typecsv) | 13 | Retail audit summary: protein content (g per 100 g or 100 ml) by product type and as-sold form. |
 | [routes.csv](#routescsv) | 17 | Route-to-market table by product type (food and feed), rebuilt from the wave 2 updated table, plus wave 1 rows for product types not in it. |
 | [science_facts.csv](#science_factscsv) | 43 | State-of-the-science facts by technology family (titres, costs, safety, nutrition, productivity) with DOI and full-text status. |
-| [sources.csv](#sourcescsv) | 2,480 | Master source list. Every citation ID used in the report resolves to a row here. |
+| [sources.csv](#sourcescsv) | 2,480 (2,434 active) | Master source list. Every citation ID used in the report resolves to a row here. |
 | [talent.csv](#talentcsv) | 11 | University admission quotas for food technology, biotechnology and aquaculture programmes (talent pipeline). |
 | [tariffs.csv](#tariffscsv) | 18 | Vietnam import tariffs (MFN, ATIGA, ACFTA) for feed and food protein inputs, and (from v0.8) meat, live cattle and milk powder, by HS code. |
 | [tea_benchmarks.csv](#tea_benchmarkscsv) | 25 | Techno-economic benchmarks from the literature by process (production cost, capex, scale) with cost-basis year. |
@@ -278,7 +278,7 @@ Rows: 19. Columns: 14.
 
 Register of conflicting numbers and claims found by the research agents, with the position taken (feeds Appendix R2).
 
-Rows: 373. Columns: 8.
+Rows: 373 (368 active). Columns: 8.
 
 | Column | Meaning | Example |
 |---|---|---|
@@ -678,7 +678,7 @@ Rows: 6. Columns: 12.
 
 Register of open questions from all research notes, with the cheapest way to close each; near-duplicates merged and both origins cited.
 
-Rows: 473. Columns: 12.
+Rows: 473 (469 active). Columns: 12.
 
 | Column | Meaning | Example |
 |---|---|---|

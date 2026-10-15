@@ -1367,7 +1367,7 @@
    "app-r1-open-questions",
    "ch30-unknowns"
   ],
-  "version": "0.8"
+  "version": "0.9"
  },
  {
   "id": "kn-disagreements",
@@ -1389,7 +1389,7 @@
    "app-r2-disagreements",
    "ch30-unknowns"
   ],
-  "version": "0.8"
+  "version": "0.9"
  },
  {
   "id": "kn-sources-count",
@@ -1410,7 +1410,7 @@
    "app-m1-method",
    "app-r4-sources"
   ],
-  "version": "0.8"
+  "version": "0.9"
  },
  {
   "id": "kn-provinces-count",
@@ -1814,7 +1814,7 @@
   ],
   "foresight_type": "estimate",
   "horizon": "2030, 2050",
-  "version": "0.8"
+  "version": "0.9"
  },
  {
   "id": "kn-omega3-need-2050",

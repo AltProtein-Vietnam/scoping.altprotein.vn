@@ -317,7 +317,7 @@ See also [[app-r1-open-questions]].
 ## Related data files
 
 - `publications.csv`: 103 Vietnam-affiliated or VN-tagged papers with DOI, institution, topic, key result and citation count.
-- `biblio_counts.csv`: 42 OpenAIRE counts by topic and country, with query strings and URLs.
+- `biblio_counts.csv`: 41 active OpenAIRE counts by topic and country, with query strings and URLs.
 - `biblio_trend_vn.csv`: 132 year-by-topic counts for the Vietnam sets read in full.
 - `institutions.csv`: 31 institutions with capabilities, example DOIs and contacts.
 - `research_funding.csv`: 16 national and international research funding programmes.

@@ -31,14 +31,14 @@ Currency. Amounts are given as reported. Where we convert VND to USD, we use VND
 
 ## S11.1 Main findings
 
-1. **Disclosed money into Vietnam-based alternative protein is small.** No disclosed alternative-protein deal in Vietnam that we found from 2015 to September 2026 has exceeded USD 5 million (our reading of the deal log in section S11.2). The disclosed deals are small or undisclosed (findings 2 and 3), so there is no proven local financing template.
+1. **Disclosed money into Vietnam-based alternative protein is small.** No disclosed deal in Vietnam that we found from 2015 to September 2026 in the protein families this study covers has exceeded USD 5 million (our reading of the deal log in section S11.2). The disclosed deals are small or undisclosed (findings 2 and 3), so there is no proven local financing template.
 2. **We found no disclosed venture round for any Vietnam-based plant-based meat, plant-based dairy, precision fermentation, microalgae or cultivated-meat company.** The only plant-protein fundraising found is Emmay's: about USD 250,000 from three angel rounds, plus two US grants of unstated size, by 2021 (company claim) [@CAP-15] {VN-direct|Low}.
 3. **Vietnamese strategic money has gone outward.** Vinh Hoan invested in Shiok Meats and Avant Meats (cultivated seafood, 2021); VinaCapital Ventures invested in Korea's INNOHAS (plant-based meat, 2024) [@CAP-16; @CAP-17; @CAP-18] {VN-direct|Low}.
 4. **Vietnamese venture capital was USD 509 million in 103 deals in 2025; agriculture got USD 1 million, about 0.2%** (our calculation: 1 / 509) [@CAP-21] {VN-direct|Medium}. Private equity reached a record USD 3.96 billion in 46 deals [@CAP-21; @CAP-22] {VN-direct|Medium}.
 5. **There were no VC- or PE-backed technology initial public offerings (IPOs) in 2025 or the four years before.** So a realistic exit for a food or ingredient company is a trade sale or a PE buyout [@CAP-21; @CAP-22] {VN-direct|Medium}.
 6. **A state venture framework now exists.** Decree 264/2025/ND-CP (in force 14 October 2025) allows national and provincial venture funds to accept up to 50% portfolio loss per investment cycle. Ho Chi Minh City's fund (VND 500 bn) plans its first investments in Q4 2026; Hanoi's (VND 230 bn) caps each investment at 5% of the fund, about USD 0.44 million (our calculation at VND 26,000 per USD) [@CAP-29; @CAP-33; @CAP-34] {VN-direct|Medium}.
 7. **Global alternative-protein investment is at a cyclical low and has shifted towards fermentation:** USD 881 million in 2025 and USD 359 million in H1 2026 [@CAP-51] {general|High}.
-8. **We found no development finance institution with a direct ticket in Vietnamese alternative protein.** A ticket is the amount one investor puts in. IFC's Vietnamese tickets found run from USD 20 million (GS25, retail) to USD 90.6 million (Mavin, proposed) [@CAP-41; @CAP-44] {VN-direct|Medium}.
+8. **We found no development finance institution with a direct ticket in Vietnam in the protein families this study covers.** A ticket is the amount one investor puts in. IFC's Vietnamese tickets found run from USD 20 million (GS25, retail) to USD 90.6 million (Mavin, proposed) [@CAP-41; @CAP-44] {VN-direct|Medium}.
 9. **The largest alternative-protein research and development (R&D) call we found open to Vietnamese applicants in 2026 has closed.** Coefficient Giving's request for proposals (RFP, up to USD 30 million) closed its two rounds on 10 August and 15 September 2026 [@CAP-57] {general|High}.
 
 ## S11.2 Deal log
@@ -94,7 +94,7 @@ Disagreements (logged in [[app-r2-disagreements]]):
 
 ## S11.4 A possible structure for a first plant
 
-No disclosed alternative-protein deal in Vietnam has exceeded USD 5 million. The disclosed deals are small or undisclosed: Emmay's about USD 250,000 in angel rounds and grants (2017 to 2021) [@CAP-15] {VN-direct|Low}, and undisclosed strategic minority stakes (Vinh Hoan in Shiok Meats and Avant Meats; VinaCapital Ventures in INNOHAS) [@CAP-16; @CAP-17; @CAP-18] {VN-direct|Low}. So there is no proven local financing template.
+No disclosed deal in Vietnam in the protein families this study covers has exceeded USD 5 million. The disclosed deals are small or undisclosed: Emmay's about USD 250,000 in angel rounds and grants (2017 to 2021) [@CAP-15] {VN-direct|Low}, and undisclosed strategic minority stakes (Vinh Hoan in Shiok Meats and Avant Meats; VinaCapital Ventures in INNOHAS) [@CAP-16; @CAP-17; @CAP-18] {VN-direct|Low}. So there is no proven local financing template.
 
 For a Vietnamese food-ingredient plant, we suggest a structure that pairs a private-equity lead, a development-finance ticket and a named buyer's offtake (our suggestion):
 
@@ -159,9 +159,9 @@ Not verified: Thai Union Ventures, CPF, Wilmar, ADM Ventures, Cargill, Rabo Food
 | Proparco | LP in Mekong Enterprise Fund IV (USD 15 million, 2020); LP in SEACEF II (USD 10 million of a USD 175 million fund, 2024); 10 Vietnamese projects, mostly banks, energy and garments | USD 10 million to 15 million as LP | [@CAP-47; @CAP-48; @CAP-49] {VN-direct\|High} |
 | FMO, DEG, BII, JICA private sector, KfW, Finnfund, Norfund | Not verified | n/a | gap |
 
-We found no direct DFI ticket in Vietnamese alternative protein. DFIs could reach it in three ways (our reading of the table):
+We found no direct DFI ticket in Vietnam in the protein families this study covers. DFIs could reach it in three ways (our reading of the table):
 
-- small "upstream" tickets that prove a model (our suggestion; none found in Vietnamese alternative protein);
+- small "upstream" tickets that prove a model (our suggestion; none found in Vietnam in these families);
 - stakes as a limited partner (LP), an investor in a fund, in local PE funds (Proparco in Mekong Enterprise Fund IV);
 - bank intermediaries, such as the SeABank blue bond, whose proceeds can be lent on to aquaculture [@CAP-43] {VN-direct|Medium}.
 
@@ -284,7 +284,7 @@ See also [[app-r1-open-questions]].
 ## Related data files
 
 - `deals.csv`: deals and financing events linked to Vietnam.
-- `investors.csv`: 30 investors (VC, PE, DFI, corporate, government funds, accelerators) with thesis, example deals and ticket size.
+- `investors.csv`: 24 active investors (VC, PE, DFI, corporate, government funds, accelerators) with thesis, example deals and ticket size.
 - `funding_programs.csv`: 20 grants, prizes, funds and credit programmes with 2026 status.
 - `research_funding.csv`: national and international research funding ([[app-s7-research]]).
 - `companies.csv`: the companies behind the deals ([[app-s1-directory]]).

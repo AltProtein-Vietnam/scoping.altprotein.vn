@@ -37,7 +37,7 @@ How to read the tables:
 - **We found no cultivated meat or seafood company or facility in Vietnam.** The only links we found are Vietnamese corporate stakes abroad and one memorandum with no follow-up found [@ECO-58; @VCO-22] {VN-direct|Medium}.
 - **GFI's global company database lists 2 Vietnamese companies**, both plant-based, founded in 2019 and 2023, and no Vietnamese research actors [@VCO-21] {VN-direct|Medium}.
 
-Rows by category in `companies.csv` (our count): plant-based meat 18, traditional chay industrial 18, other (buyers, investors, support) 15, plant-based dairy 10, distributor 9, feed SCP or yeast 6, microalgae 5, cultivated 4, ingredient supplier 3, fermentation biomass 2, duckweed 2, mushroom or mycelium 1, plant-based seafood 1. The one plant-based seafood row, Bien Phuong, makes meat substitutes according to its sources, as shown below. The sections below regroup these rows by supply role and add actors found in the retail audit ([[app-s2-retail-audit]]).
+Active rows by category in `companies.csv` (our count): plant-based meat 18, traditional chay industrial 18, other (buyers, investors, support) 10, plant-based dairy 10, distributor 9, feed SCP or yeast 6, microalgae 5, cultivated 4, ingredient supplier 3, fermentation biomass 2, duckweed 2, mushroom or mycelium 1, plant-based seafood 1. The one plant-based seafood row, Bien Phuong, makes meat substitutes according to its sources, as shown below. The sections below regroup these rows by supply role and add actors found in the retail audit ([[app-s2-retail-audit]]).
 
 ## S1.2 Incumbent soy and dairy
 
@@ -321,7 +321,7 @@ Two of these gaps concern feed (Chinese single-cell protein imports and the CJ F
 ## Related data files
 
 - `companies.csv`: 97 companies and organisations, 90 of them active (including Thai Duong Feed), with `change_log` for wave 2 corrections and `last_verified` dates.
-- `timeline.csv`: 48 dated events (1976 to September 2026).
+- `timeline.csv`: 38 active dated events (1976 to September 2026).
 - `brands.csv`: 53 brands from the retail audit, with owner, manufacturer and plant location.
 - `ingredient_suppliers.csv`: 22 ingredient supply rows (trade flows, distributors, processors).
 - `deals.csv` and `investors.csv`: financing events and investors ([[app-s11-capital]]).

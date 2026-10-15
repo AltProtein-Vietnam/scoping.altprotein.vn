@@ -4,7 +4,7 @@ title: "R4. Sources"
 short_title: "R4. Sources"
 section: appendix
 order: 84
-summary: "All 2,434 sources behind the report (763 in v0.1, 469 added by the futures round of v0.2, 450 by the demand round of v0.3, 573 by the actor check and expansion waves of v0.4, 81 by the prologue research of v0.5 and 96 by the food-security round of v0.8, including six from its editorial checks), grouped by the research stream that found them. Each citation code in the text links here and to sources.csv."
+summary: "All 2,434 sources behind the report (765 in v0.1, 469 added by the futures round of v0.2, 450 by the demand round of v0.3, 573 by the actor check and expansion waves of v0.4, 81 by the prologue research of v0.5 and 96 by the food-security round of v0.8, including six from its editorial checks), grouped by the research stream that found them. Each citation code in the text links here and to sources.csv."
 audiences: [research, investors, policy, international, startups, manufacturers]
 reading_time_min: 320
 key_numbers: [kn-sources-count]
@@ -29,7 +29,7 @@ Every citation code in the report, such as [@MAC-04], resolves to an entry below
 | database | 26 | 10 | 23 | 42 | 0 | 8 | 109 |
 | market-research | 14 | 4 | 15 | 8 | 0 | 0 | 41 |
 | intergovernmental | 0 | 0 | 0 | 0 | 0 | 7 | 7 |
-| **All** | 763 | 469 | 450 | 573 | 81 | 96 | 2434 |
+| **All** | 765 | 469 | 450 | 573 | 81 | 96 | 2434 |
 
 {{chart:chart-sources-by-type}}
 
@@ -408,8 +408,8 @@ Every citation code in the report, such as [@MAC-04], resolves to an entry below
 
 ## CAP: Capital (wave 1) (62)
 
-- <a id="CAP-01"></a>**CAP-01.** "Mekong Enterprise Fund IV invested US$25 million in Entobel". Mekong Capital, 9 May 2022. https://www.mekongcapital.com/communications/press-releases/mekong-enterprise-fund-iv-invested-us25-million-in-entobel/ . Accessed 2026-09-23. Supports the Entobel Series B lead amount. Type: company.
-- <a id="CAP-04"></a>**CAP-04.** "CnC-Entobel" (IFC project 46903), EWS mirror of IFC disclosure. Board 23 Feb 2023, disclosed 7 Apr 2023. https://ewsdata.rightsindevelopment.org/projects/46903-cnc-entobel/ . Accessed 2026-09-23. IFC USD 2.5M; total project cost USD 32.5M. Type: DFI disclosure (secondary mirror).
+- <a id="CAP-01"></a>**CAP-01.** "Mekong Enterprise Fund IV invested US$25 million in Entobel". Mekong Capital, 9 May 2022. https://www.mekongcapital.com/communications/press-releases/mekong-enterprise-fund-iv-invested-us25-million-in-entobel/ . Accessed 2026-09-23. Supports the Entobel Series B lead amount. Type: company. Cited only in the changelog record (Appendix M5).
+- <a id="CAP-04"></a>**CAP-04.** "CnC-Entobel" (IFC project 46903), EWS mirror of IFC disclosure. Board 23 Feb 2023, disclosed 7 Apr 2023. https://ewsdata.rightsindevelopment.org/projects/46903-cnc-entobel/ . Accessed 2026-09-23. IFC USD 2.5M; total project cost USD 32.5M. Type: DFI disclosure (secondary mirror). Cited only in the changelog record (Appendix M5).
 - <a id="CAP-15"></a>**CAP-15.** "Startup 'Ruoc Nam' keu goi von 1,5 trieu USD, ky vong mo rong 1.000 diem ban". Vietnambiz, 30 May 2021. https://vietnambiz.vn/startup-ruoc-nam-keu-goi-von-15-trieu-usd-ky-vong-mo-rong-1000-diem-ban-20210529215030992.htm . Accessed 2026-09-23. Emmay funding history (company claim). Type: press.
 - <a id="CAP-16"></a>**CAP-16.** "Dau tu vao start-up nuoc ngoai, Vinh Hoan huong den hai san, thit duoc nuoi cay tu te bao". Bao Dau Tu, 2021. https://baodautu.vn/dau-tu-vao-start-up-nuoc-ngoai-vinh-hoan-huong-den-hai-san-thit-duoc-nuoi-cay-tu-te-bao-d149699.html . Accessed 2026-09-23. Vinh Hoan stakes in Shiok and Avant. Type: press.
 - <a id="CAP-17"></a>**CAP-17.** "Viet Nam tham gia chuoi cung ung thuc pham nhan tao". Nhip Cau Dau Tu, 18 Aug 2021. https://m.nhipcaudautu.vn/kinh-doanh/viet-nam-tham-gia-chuoi-cung-ung-thuc-pham-nhan-tao-3341690/ . Accessed 2026-09-23. Shiok co-investors (CJ, Woowa); BIV Vietnam intent. Type: press.
@@ -792,15 +792,15 @@ Every citation code in the report, such as [@MAC-04], resolves to an entry below
 - <a id="VCO-15"></a>**VCO-15.** CafeF. "VSN" stock page. Accessed 23 Sep 2026. https://cafef.vn/du-lieu/upcom/vsn-cong-ty-co-phan-viet-nam-ky-nghe-suc-san.chn . Market capitalisation. Financial data.
 - <a id="VCO-16"></a>**VCO-16.** Dan Tri. "TPHCM co to hop ep dau dau nanh quy mo hang dau Dong Nam A." 10 Dec 2025. https://dantri.com.vn/kinh-doanh/tphcm-co-to-hop-ep-dau-dau-nanh-quy-mo-hang-dau-dong-nam-a-20251210205324484.htm . VAL legal name, location, capacity, USD 100 m line, 30% target. Press.
 - <a id="VCO-17"></a>**VCO-17.** Vietstock Finance. "QNS: Ho so doanh nghiep." Accessed 2026. https://finance.vietstock.vn/QNS/ho-so-doanh-nghiep.htm . Vinasoy plant history 2012 to 2013; capacity paywalled. Financial-data aggregator.
-- <a id="VCO-20"></a>**VCO-20.** Early Warning System (Rights in Development). "CnC-Entobel (IFC-46903)." Accessed 2026. https://ewsdata.rightsindevelopment.org/projects/46903-cnc-entobel/ . IFC USD 2.5 m Upstream Collaboration Agreement; USD 32.5 m project cost; Active. DFI disclosure (secondary host).
+- <a id="VCO-20"></a>**VCO-20.** Early Warning System (Rights in Development). "CnC-Entobel (IFC-46903)." Accessed 2026. https://ewsdata.rightsindevelopment.org/projects/46903-cnc-entobel/ . IFC USD 2.5 m Upstream Collaboration Agreement; USD 32.5 m project cost; Active. DFI disclosure (secondary host). Cited only in the changelog record (Appendix M5).
 - <a id="VCO-21"></a>**VCO-21.** GFI. "Country: Vietnam - The alternative protein ecosystem." Accessed 2026. https://ecosystem.gfi.org/country/vietnam/ . 2 plant-based companies (2019, 2023); no research actors. Advocacy database.
 - <a id="VCO-22"></a>**VCO-22.** The Investor. "'Shrimp king' Minh Phu, Shiok Meats to develop R&D facility in Vietnam." 28 Jul 2022. https://theinvestor.vn/shrimp-king-minh-phu-shiok-meats-to-develop-rd-facility-in-vietnam-d1264.html . MOU date and terms. Press.
 - <a id="VCO-23"></a>**VCO-23.** UMAMI Bioworks. Home page. Accessed 2026. https://www.umamibioworks.com/ . Partner list (no Vietnamese firm). Company.
 - <a id="VCO-24"></a>**VCO-24.** Vinh Hoan Corp. Investor updates page. Accessed 2026. https://www.vinhhoan.com/investor_updates/ . No 2024 to 2026 alt-protein updates visible. Company (listed).
 - <a id="VCO-25"></a>**VCO-25.** harvestgourmet.com. Redirect to a GoDaddy domain-for-sale page, observed 23 Sep 2026. https://www.harvestgourmet.com/ . Brand web presence lapsed. Observation.
 - <a id="VCO-26"></a>**VCO-26.** An Nhien Foods (Pham Gia Phat). "An Nhien Foods." Accessed 2026. https://annhienfood.com.vn/pages/an-nhien-foods . Founding, address, inputs, Halal, channels, exports. Company.
-- <a id="VCO-27"></a>**VCO-27.** Skretting Vietnam. Home page and news listing. Accessed 2026. https://www.skretting.com/vi-vn/ . Office address; 2026 product launches; Entobel item. Company.
-- <a id="VCO-28"></a>**VCO-28.** Skretting Vietnam. "Skretting Viet Nam va Entobel hop tac chien luoc nham thuc day san xuat thuc an tom ben vung." 26 Nov 2025. https://www.skretting.com/vi-vn/tin-tuc-su-kien/skretting-viet-nam-hop-tac-voi-entobel-thuong-mai-hoa-thuc-an-tom-tu-bot-con-trung/ . Partnership; commercial production from Nov 2025; CO2 claim. Company.
+- <a id="VCO-27"></a>**VCO-27.** Skretting Vietnam. Home page and news listing. Accessed 2026. https://www.skretting.com/vi-vn/ . Office address; 2026 product launches. Company.
+- <a id="VCO-28"></a>**VCO-28.** Skretting Vietnam. "Skretting Viet Nam va Entobel hop tac chien luoc nham thuc day san xuat thuc an tom ben vung." 26 Nov 2025. https://www.skretting.com/vi-vn/tin-tuc-su-kien/skretting-viet-nam-hop-tac-voi-entobel-thuong-mai-hoa-thuc-an-tom-tu-bot-con-trung/ . Partnership; commercial production from Nov 2025; CO2 claim. Company. Cited only in the changelog record (Appendix M5).
 - <a id="VCO-29"></a>**VCO-29.** Uni-President Vietnam. Home page. Accessed 2026. https://www.uni-president.com.vn/ . Founding 1999; four sites; business lines. Company.
 - <a id="VCO-30"></a>**VCO-30.** Grobest. Home page. Accessed 2026. https://www.grobest.com/ . Countries; 2024 sustainability report released 30 Mar 2026. Company.
 - <a id="VCO-31"></a>**VCO-31.** INNOHAS Co., Ltd. Home page. Accessed 2026. https://www.innohas.com/ . No Vietnam mention. Company.

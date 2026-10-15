@@ -126,7 +126,7 @@ Bracketed codes such as [@MAC-04] link to entries in the source list ([[app-r4-s
 
 ## Corrections and versions
 
-Earlier drafts of this work contained errors. Where a figure replaces one that circulated earlier, a **Correction** box says so. This is draft version 0.8; versions 0.1 to 0.7 were earlier drafts, and version 1.0 will be the public launch. Every correction, and what changed in each version, is in [[app-m5-changelog]]. Version 0.8 narrowed the study to protein for people, with feed only as context, tested food-security hypotheses in an eleventh research round and rewrote every page in clear language (section M5.14 of the changelog).
+Earlier drafts of this work contained errors. Where a figure replaces one that circulated earlier, a **Correction** box says so. This is draft version 0.9; versions 0.1 to 0.7 were earlier drafts, and version 1.0 will be the public launch. Every correction, and what changed in each version, is in [[app-m5-changelog]]. Version 0.8 narrowed the study to protein for people, with feed only as context, tested food-security hypotheses in an eleventh research round and rewrote every page in clear language (section M5.14 of the changelog).
 
 ## Conventions
 

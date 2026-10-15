@@ -25,7 +25,7 @@ A scoping study of what alternative protein Vietnam could make for people to eat
 Investors, policy makers, startups, food manufacturers, universities and research institutes, and international organisations. Each has a short brief; the list is on the [[front-cover]].
 
 **Why is it a draft, and what is version 1.0?**
-This is version 0.8, shared for review. Numbers and wording may still change, so please do not cite it. Version 1.0 will be the public launch. Every change between drafts is recorded in [[app-m5-changelog]].
+This is version 0.9, shared for review. Numbers and wording may still change, so please do not cite it. Version 1.0 will be the public launch. Every change between drafts is recorded in [[app-m5-changelog]].
 
 **Why is it called a supply-side study when it also covers demand?**
 The question it started from is what Vietnam can make. It treats demand as a design input for that question: who would buy, at what price and in what form. The report does not plan consumer marketing and gives no market-size forecast ([[front-how-to-read]]).
@@ -98,7 +98,7 @@ Three steps that need no new agency; the first two also cost little:
 The larger outlays are a shared food-grade pilot fermentation line and a protein-quality laboratory ([[ch27-policy-options]]).
 
 **Is there money for this?**
-Not much yet. No disclosed alternative-protein deal in Vietnam has exceeded USD 5 million. Agritech venture capital in Vietnam was about USD 1 million in 2025. In our assessment, only 4 of the original 19 demand moves have an outside funder whose rules fit and that works in Vietnam ([[ch08-capital]], [[ch29-actor-check]]).
+Not much yet. No disclosed deal in Vietnam in the protein families this study covers has exceeded USD 5 million. Agritech venture capital in Vietnam was about USD 1 million in 2025. In our assessment, only 4 of the original 19 demand moves have an outside funder whose rules fit and that works in Vietnam ([[ch08-capital]], [[ch29-actor-check]]).
 
 **Would domestic production make Vietnam self-sufficient?**
 Not by itself. A domestic textured-protein plant would still run on imported soy flour, and Chinese and ASEAN protein ingredients enter duty-free, so the plant has to compete on cost. Only protein made from domestic inputs, such as fermentation on cassava or sugar, or rice protein, reduces import dependence ([[ch01-why-vietnam]], [[ch09-economics]], [[ch16-business-buyers]]).

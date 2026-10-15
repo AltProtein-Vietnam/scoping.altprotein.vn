@@ -5,7 +5,7 @@ short_title: "Capital"
 section: report
 part: "II. Supply: what Vietnam can make"
 order: 8
-summary: "No disclosed alternative-protein deal in Vietnam has exceeded USD 5 million, and there is no proven local template for financing a plant. Agriculture venture capital in Vietnam was about USD 1 million in 2025, new state venture funds are small, and global alternative-protein investment has shifted towards fermentation and ingredients."
+summary: "No disclosed deal in Vietnam in the protein families this study covers has exceeded USD 5 million, and there is no proven local template for financing a plant. Agriculture venture capital in Vietnam was about USD 1 million in 2025, new state venture funds are small, and global alternative-protein investment has shifted towards fermentation and ingredients."
 audiences: [investors, startups, policy, international]
 reading_time_min: 10
 key_numbers: [kn-vn-vc-2025, kn-agritech-vc-2025, kn-global-altprotein-2025]
@@ -18,7 +18,7 @@ charts: [chart-vn-vc-agritech, chart-global-altprotein-investment]
 
 **In brief.**
 
-- **No large deal yet.** No disclosed alternative-protein deal in Vietnam has exceeded USD 5 million. The disclosed deals are angel money of about USD 250,000 and strategic minority stakes of undisclosed size. There is no proven local template for financing a plant.
+- **No large deal yet.** No disclosed deal in Vietnam in the protein families this study covers has exceeded USD 5 million. The disclosed deals are angel money of about USD 250,000 and strategic minority stakes of undisclosed size. There is no proven local template for financing a plant.
 - **No venture track record in food.** We found no disclosed institutional venture round for any Vietnam-based plant-based, fermentation, microalgae or cultivated company. Vietnamese strategic money has gone abroad instead.
 - **Little venture money reaches farming and food.** Vietnam's venture market raised about USD 509 million in 2025, and agriculture took about USD 1 million. There were no technology stock-market listings backed by venture capital or private equity in 2025 or the four years before. So investors exit by selling to larger companies.
 - **State funds are new and small.** New state venture funds (national, Ho Chi Minh City, Hanoi) can now accept losses, but their tickets fit pilot plants, not production plants.
@@ -53,7 +53,7 @@ Sources: [@CAP-20; @CAP-21; @CAP-22] {VN-direct|Medium}. VC means venture capita
 
 ## 8.3 Development finance: no direct ticket yet
 
-We found no development finance institution (DFI) with a direct ticket in Vietnamese alternative protein. The Vietnamese agribusiness deals of the International Finance Corporation (IFC) that we found run from about USD 20 million to 40 million. One example is a USD 40 million warehouse-finance facility for TTC AgriS in 2023, which it helped arrange with SMBC. It also supported Vietnam's first blue bond (SeABank, USD 25 million, 2024) [@CAP-41; @CAP-43] {VN-direct|High}.
+We found no development finance institution (DFI) with a direct ticket in Vietnam in the protein families this study covers. The Vietnamese agribusiness deals of the International Finance Corporation (IFC) that we found run from about USD 20 million to 40 million. One example is a USD 40 million warehouse-finance facility for TTC AgriS in 2023, which it helped arrange with SMBC. It also supported Vietnam's first blue bond (SeABank, USD 25 million, 2024) [@CAP-41; @CAP-43] {VN-direct|High}.
 
 ADB Ventures, the Asian Development Bank's venture arm, writes tickets of USD 0.1 million to 4 million with a climate lens. It has backed microbial oils elsewhere in Asia but has no Vietnamese agrifood deal [@CAP-45; @CAP-46] {VN-direct|High}. Proparco reaches Vietnamese food businesses as a limited partner in local funds, for example Mekong Enterprise Fund IV [@CAP-47] {VN-direct|High}. We did not verify other DFIs (FMO, DEG, BII, JICA, KfW, Finnfund, Norfund).
 
