@@ -33,9 +33,11 @@ So the build command must stay `pnpm build` (or `pnpm build:production`): a plai
 
 ## 2. Automatic deploys (Workers Builds)
 
-Workers Builds is connected to this repository. A push to `main` builds with `pnpm build` and deploys with `wrangler deploy`. Other branches are not built by Workers Builds: the GitHub Actions `check` builds them instead. A preview deploy (`wrangler preview` or `wrangler versions upload`) would use the top-level environment of `wrangler.jsonc`, which has no IDs for D1 or KV, so it stops with "binding SESSION of type kv_namespace must have a namespace_id specified".
+Workers Builds is connected to this repository. A push to `main` builds with `pnpm build` and deploys with `wrangler deploy`. Other branches get previews, built with `pnpm build` and deployed with `wrangler preview`.
 
-The settings to keep, under the Worker's Settings, Builds: production branch `main`, build command `pnpm run build`, deploy command `npx wrangler deploy`, previews off. On 15 October 2026 the production branch had been switched to a pull-request branch with the deploy command `npx wrangler preview`, so a merge to `main` would not have deployed. They were set back the same day. Check them before merging a release.
+The previews fail at the deploy step, so pull requests show a red "Workers Builds: altprotein-scoping" check. A preview uses the top-level environment of `wrangler.jsonc`, which has no IDs for D1 or KV, and stops with "binding SESSION of type kv_namespace must have a namespace_id specified". That check says nothing about the code: the GitHub Actions `check` builds and tests every branch. To end the red check, either give the top-level environment its own preview D1 database, KV namespace and R2 bucket, or turn previews off under the Worker's Settings, Builds.
+
+Each preview has its own build configuration in the Cloudflare API, under its own ID, which reports its branch as the "production" branch. Do not mistake it for the Worker's: the Worker `altprotein-scoping` builds `main`.
 
 The repository moved from `parkervu/scoping.altprotein.vn` to the `AltProtein-Vietnam` organisation after the v0.7 deploy (30 September 2026). Workers Builds then received no pushes, so the merge of report v0.8 was not built, until it was reconnected to `AltProtein-Vietnam/scoping.altprotein.vn` on 1 October 2026. Reconnecting does not build commits already on `main`; the next push does. If the repository moves again, reconnect it under the Worker's Settings, Builds, and check that the next merge to `main` shows a "Workers Builds: altprotein-scoping" check.
 
