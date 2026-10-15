@@ -31,8 +31,13 @@ const pathOf = (id: string) => {
 const restricted = (id: string) =>
   id.startsWith('app-') && id !== 'app-r3-glossary' && id !== 'app-r4-sources';
 
+// The dev sign-in answers with a page that redirects in the browser; a navigation right after it
+// can race that redirect. Signing in through the context's request API sets the session cookie
+// without navigating.
 async function signIn(page: Page) {
-  await page.goto('/_emdash/api/auth/dev-bypass?redirect=/');
+  const response = await page.request.get('/_emdash/api/auth/dev-bypass?redirect=/');
+  expect(response.ok()).toBeTruthy();
+  expect((await page.request.get('/workbench')).status()).toBe(200);
 }
 
 async function brokenAnchors(page: Page) {
