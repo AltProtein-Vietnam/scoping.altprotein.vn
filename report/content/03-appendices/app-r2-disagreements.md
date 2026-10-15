@@ -4,7 +4,7 @@ title: "R2. Disagreements log"
 short_title: "R2. Disagreements"
 section: appendix
 order: 82
-summary: "All 368 cases where sources disagree, with both claims and the position this report takes. We never average disagreeing numbers."
+summary: "All 372 cases where sources disagree, with both claims and the position this report takes. We never average disagreeing numbers."
 audiences: [research, investors, policy, international, startups, manufacturers]
 reading_time_min: 87
 key_numbers: [kn-disagreements]
@@ -623,3 +623,12 @@ When two credible sources give different values or facts, we record both and sta
 | ID | Topic | Claim A | Claim B | Position taken |
 |---|---|---|---|---|
 | DG-373 | Milk self-sufficiency, 2023 to 2025 | FAO food balance sheets, 2023: about 30% (milk equivalent of all dairy; our calculation from [@DIE-07]) | Dairy association, 2025: domestic fresh milk meets about 40% of demand (association claim, [@MIM-13]) | Give both: different measures and years; not averaged |
+
+## Regional deals (wave 12), v0.9 (4)
+
+| ID | Topic | Claim A | Claim B | Position taken |
+|---|---|---|---|---|
+| DG-374 | Green Rebel Foods round, January 2026 | USD 10.5 million (DealStreetAsia [@RDL-05]; PitchBook [@RDL-42]) | USD 12.5 million (Asia Business Outlook [@RDL-43]; Tracxn [@RDL-44]) | Report both; DealStreetAsia is the better source. Use USD 10.5 million where one figure is needed and say so. |
+| DG-375 | Joes Future Food Series A, October 2021 | RMB 70 million, about USD 10.9 million (company WeChat post, via AgFunderNews [@RDL-10] and vegconomist [@RDL-11]) | RMB 50 million, about USD 7.7 million (GFI APAC [@RDL-08]) | Report both; the company-sourced RMB 70 million is better sourced. |
+| DG-376 | Shiok Meats total raised before its 2024 merger | About USD 30 million (Green Queen [@RDL-38]; Just Food [@RDL-45]) | USD 21.35 million (CB Insights [@RDL-46]) | Use about USD 30 million (two press sources); the database figure may omit later rounds. |
+| DG-377 | Green Rebel Foods funding before 2026 | Seed of USD 10 million in December 2022 (PitchBook [@RDL-42]) | Total equity since 2020 of USD 2.48 million (DealStreetAsia [@RDL-05]) | Unresolved; neither figure is counted in the regional totals. Lifetime totals in other databases range more widely. |

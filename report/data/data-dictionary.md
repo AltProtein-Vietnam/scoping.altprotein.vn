@@ -26,7 +26,7 @@ Built on 23 September 2026 by the data consolidation step from the wave 1 and wa
 | [cost_inputs.csv](#cost_inputscsv) | 61 | Vietnamese production cost inputs (electricity, water, heat, labour, land, taxes, logistics) used for the economics chapter. |
 | [countries.csv](#countriescsv) | 11 | Country comparison of novel food frameworks, approvals, public funding and open facilities (regional position). |
 | [deals.csv](#dealscsv) | 19 | Deal log: investments and acquisitions relevant to alternative protein and agrifood tech in or linked to Vietnam. |
-| [disagreements.csv](#disagreementscsv) | 373 (368 active) | Register of conflicting numbers and claims found by the research agents, with the position taken (feeds Appendix R2). |
+| [disagreements.csv](#disagreementscsv) | 377 (372 active) | Register of conflicting numbers and claims found by the research agents, with the position taken (feeds Appendix R2). |
 | [engineering_suppliers.csv](#engineering_supplierscsv) | 9 | Engineering contractors and equipment vendors with a Vietnam presence relevant to fermentation and food processing. |
 | [facilities.csv](#facilitiescsv) | 82 | Industrial facilities in Vietnam that alternative-protein ventures could use or learn from (fermentation, starch, breweries, feed and aquafeed mills, soy, biologics, parks, labs). Wave 2 changes are logged in change_log. |
 | [facilities_regional.csv](#facilities_regionalcsv) | 16 | Pilot and contract manufacturing facilities in the region that are open (or not) to third parties. |
@@ -44,7 +44,7 @@ Built on 23 September 2026 by the data consolidation step from the wave 1 and wa
 | [macro_indicators.csv](#macro_indicatorscsv) | 87 | Macro indicators for the protein economy: production, consumption, feed output, trade, environment and context. |
 | [milestones.csv](#milestonescsv) | 30 | Dated milestones 2025 to 2035 (laws, strategies, targets, reforms) in Vietnam and reference jurisdictions. |
 | [ministries.csv](#ministriescsv) | 6 | Vietnamese ministries after the 2025 restructuring, their predecessors and roles relevant to alternative protein. |
-| [open_questions.csv](#open_questionscsv) | 473 (469 active) | Register of open questions from all research notes, with the cheapest way to close each; near-duplicates merged and both origins cited. |
+| [open_questions.csv](#open_questionscsv) | 476 (472 active) | Register of open questions from all research notes, with the cheapest way to close each; near-duplicates merged and both origins cited. |
 | [outlook.csv](#outlookcsv) | 75 | Outlook numbers for 2030 and 2035 (population, demand, feed, prices, targets) with source and type. |
 | [pilot_labs.csv](#pilot_labscsv) | 32 | Pilot plants, testing laboratories, feed trial facilities, hi-tech parks and university facilities that founders can use. |
 | [policy_options.csv](#policy_optionscsv) | 33 | Policy options: wave 1 list plus the wave 2 ranked list, with origin and cross-links between related options. |
@@ -60,7 +60,7 @@ Built on 23 September 2026 by the data consolidation step from the wave 1 and wa
 | [retail_audit_summary_protein_by_type.csv](#retail_audit_summary_protein_by_typecsv) | 13 | Retail audit summary: protein content (g per 100 g or 100 ml) by product type and as-sold form. |
 | [routes.csv](#routescsv) | 17 | Route-to-market table by product type (food and feed), rebuilt from the wave 2 updated table, plus wave 1 rows for product types not in it. |
 | [science_facts.csv](#science_factscsv) | 43 | State-of-the-science facts by technology family (titres, costs, safety, nutrition, productivity) with DOI and full-text status. |
-| [sources.csv](#sourcescsv) | 2,480 (2,434 active) | Master source list. Every citation ID used in the report resolves to a row here. |
+| [sources.csv](#sourcescsv) | 2,530 (2,484 active) | Master source list. Every citation ID used in the report resolves to a row here. |
 | [talent.csv](#talentcsv) | 11 | University admission quotas for food technology, biotechnology and aquaculture programmes (talent pipeline). |
 | [tariffs.csv](#tariffscsv) | 18 | Vietnam import tariffs (MFN, ATIGA, ACFTA) for feed and food protein inputs, and (from v0.8) meat, live cattle and milk powder, by HS code. |
 | [tea_benchmarks.csv](#tea_benchmarkscsv) | 25 | Techno-economic benchmarks from the literature by process (production cost, capex, scale) with cost-basis year. |
@@ -278,7 +278,7 @@ Rows: 19. Columns: 14.
 
 Register of conflicting numbers and claims found by the research agents, with the position taken (feeds Appendix R2).
 
-Rows: 373 (368 active). Columns: 8.
+Rows: 377 (372 active). Columns: 8.
 
 | Column | Meaning | Example |
 |---|---|---|
@@ -678,7 +678,7 @@ Rows: 6. Columns: 12.
 
 Register of open questions from all research notes, with the cheapest way to close each; near-duplicates merged and both origins cited.
 
-Rows: 473 (469 active). Columns: 12.
+Rows: 476 (472 active). Columns: 12.
 
 | Column | Meaning | Example |
 |---|---|---|
@@ -1065,7 +1065,7 @@ Rows: 43. Columns: 16.
 
 Master source list. Every citation ID used in the report resolves to a row here.
 
-Rows: 2,480 (2,434 active). Columns: 15.
+Rows: 2,530 (2,484 active). Columns: 15.
 
 | Column | Meaning | Example |
 |---|---|---|
@@ -4814,3 +4814,39 @@ Rows: 325. Columns: 11. From `working-papers/wave11/L1-meat-imports/`.
 | `evidence_label` | VN-direct, VN-adjacent or general. | general |
 | `confidence` | High, Medium or Low. | High |
 | `notes` | Notes, caveats and calculation inputs. | Nairobi Decision: developed members at once (some processed, dairy and swine pro ... |
+
+## Files added in the regional deals round (v0.9)
+
+Built on 15 October 2026 from research wave 12 (`working-papers/wave12/`). Version 0.9 also added rows to `sources.csv` (prefix RDL), `disagreements.csv` (DG-374 to DG-377) and `open_questions.csv` (OQ-474 to OQ-476).
+
+| File | Rows | Purpose |
+|---|---|---|
+| [regional_deals.csv](#regional_dealscsv) | 43 | Alternative-protein deals, public programmes and context rows in East and Southeast Asia, 2020 to October 2026, with amounts as reported, investors, any Vietnamese link, sources and confidence. Used in ch08 and S11. |
+
+### regional_deals.csv
+
+Alternative-protein deals, public programmes and context rows in East and Southeast Asia, 2020 to October 2026. Totals in Appendix S11 count only `scope` = main rows with a disclosed amount; feed-only rows are context.
+
+Rows: 43. Columns: 19. From `working-papers/wave12/`.
+
+| Column | Meaning | Example |
+|---|---|---|
+| `record_id` | Stable row ID. | RD-001 |
+| `date` | Date of the deal or announcement, as precise as the source allows. | 2022-02 |
+| `company` | Company, or the programme for public funding rows. | Next Gen Foods (TiNDLE) |
+| `home_base` | Where the company is based. | Singapore |
+| `production_location` | Where it produces, if known. | contract manufacturing |
+| `region` | East Asia, Southeast Asia, or outside region (outbound deals). | Southeast Asia |
+| `category` | Protein family or what the money is for. | plant-based chicken |
+| `round_or_type` | Round or type of deal (seed, Series A, grant, joint venture, merger, loans). | Series A |
+| `amount_original` | Amount in the original currency, as reported; disagreeing figures are both given. | USD 100 million (total over USD 130 million) |
+| `amount_usd` | Amount in USD as converted by the source (not by us), or undisclosed. | 100,000,000 |
+| `investors_or_acquirer` | Lead and other investors, acquirer or funder. | Temasek Asia Sustainable Foods Platform and GGV Capital; ... |
+| `investor_type` | VC, CVC, PE, strategic, government, DFI, family office and so on. | state-linked; VC |
+| `vietnam_link` | Whether a Vietnamese investor, buyer or company is involved. | no |
+| `scope` | main (protein for people), programme (public money), outbound (regional investor, company outside the region) or feed context. | main |
+| `source_ids` | Source IDs in sources.csv, separated by semicolons. | RDL-28; RDL-29 |
+| `evidence_label` | VN-direct, VN-adjacent or general. | VN-adjacent |
+| `confidence` | High, Medium or Low (Low: a single database entry or press claim). | High |
+| `notes` | Notes, caveats and links to the registers. | The largest round in the regional record. |
+| `version` | Draft that added the row. | 0.9 |

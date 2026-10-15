@@ -29,7 +29,7 @@ This report is a draft. Version 1.0 will be the public launch; every version bef
 | 0.6 | September 2026 | A reader-first restructure, 0.x version numbers, this changelog, a two-minute summary, an FAQ, draft labels and consistency fixes (M5.2) | |
 | 0.7 | September 2026 | A citation check of every source the report cites, with corrections across the report, a repaired source register and 70 new open questions (M5.13) | |
 | 0.8 | October 2026 | Protein for people: the scope narrowed to protein for human consumption, with feed only as context; retired feed plays, moves and policy options; a research round testing food-security hypotheses (90 sources); every page rewritten in clear language (M5.14) | |
-| 0.9 | October 2026 | Insect protein removed from the study (M5.15) | This draft |
+| 0.9 | October 2026 | Insect protein removed from the study; a record of regional alternative-protein deals in East and Southeast Asia (wave 12, 50 sources) (M5.15) | This draft |
 
 Files, zips and project notes made before v0.6 use the earlier labels.
 
@@ -570,12 +570,13 @@ The editor logs flagged eight points while this record was first written. All ei
 
 ## M5.15 Changes made in v0.9
 
-Version 0.9 removes insect protein from the study. Earlier versions kept it as an incumbent, a benchmark and a financing example; it no longer appears in any page, stat tile or chart. Earlier sections of this changelog are unchanged, as the record.
+Version 0.9 removes insect protein from the study and adds a regional deal record. Earlier versions kept it as an incumbent, a benchmark and a financing example; it no longer appears in any page, stat tile or chart. Earlier sections of this changelog are unchanged, as the record.
 
 - **Capital finding rescoped.** The evidence did not change; the scope did. No disclosed deal in Vietnam in the protein families this study covers has exceeded USD 5 million, and there is no proven local template for financing a plant. The structure of a private-equity lead, a development-finance ticket and a buyer's offtake is now our suggestion, not a precedent ([[ch08-capital]], [[app-s11-capital]]). We found no development finance institution with a direct ticket in Vietnam in the protein families this study covers.
 - **Pages.** Chapter 8 lost section 8.2 (8.3 to 8.8 are now 8.2 to 8.7), and Appendix S11 section S11.4 was retitled and rewritten. The prologue's table of families lost a row, and the FAQ lost a question. Chapter 10 lost its benchmark section (10.9; "What this means" is now 10.9), Appendix S1 its insect section (S1.9 to S1.13 renumbered), Appendix S13 one section (S13.12 to S13.15 renumbered) and Appendix S9 one route in its explainer (routes 7 to 12 renumbered). Registers: four open questions (OQ-035, OQ-066, OQ-120, OQ-437), five disagreements (DG-037, DG-038, DG-039, DG-062, DG-063) and two glossary terms (GL-053, GL-054) were removed, leaving 469 open questions, 368 disagreements and 234 terms.
 - **Stat tiles.** Three were removed, leaving 156. kn-salt-plants-2050 is now expressed as plants of 20 kt a year; kn-open-questions, kn-disagreements and kn-sources-count count active rows.
 - **Data files.** Rows about insect protein stay in the data files as the record, marked in a `status_v0_9` column in 15 files and in `sources.csv`. Views, charts, the glossary and search use active rows only. Other rows that mentioned insects in passing were reworded.
 - **Sources.** 46 sources that no page, tile or chart cites any more are retired, leaving 2,434 in Appendix R4 and the bibliography.
+- **Regional deal record (wave 12).** One research round logged alternative-protein deals in East and Southeast Asia from 2020 to October 2026 (`regional_deals.csv`, 43 rows; 50 sources, prefix RDL). It finds about USD 355 million to 365 million of disclosed private money, mostly raised in 2020 to 2022, and no direct DFI ticket in the region; plants were built by corporate joint ventures and state-scheme loans. New section S11.6 (S11.6 to S11.12 renumbered S11.7 to S11.13) and a paragraph in section 8.1. The round added OQ-474 to OQ-476 and DG-374 to DG-377, so the registers now hold 472 open questions and 372 disagreements, and sources number 2,484. It also confirms that the Shiok Meats merger closed and that Avant's Singapore unit went into liquidation (section S11.5).
 
 **Related:** [[app-r2-disagreements]] (where sources disagree rather than an earlier draft being wrong).

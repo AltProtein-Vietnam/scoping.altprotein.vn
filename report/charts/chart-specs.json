@@ -944,7 +944,7 @@
   {
    "id": "chart-sources-by-type",
    "title": "What the evidence rests on",
-   "subtitle": "2,434 sources by type and research wave (waves 1 and 2: v0.1; waves 3 to 5: v0.2; wave 6: v0.3; waves 7 to 9: v0.4; wave 10: v0.5; wave 11: v0.8)",
+   "subtitle": "2,484 sources by type and research wave (waves 1 and 2: v0.1; waves 3 to 5: v0.2; wave 6: v0.3; waves 7 to 9: v0.4; wave 10: v0.5; wave 11: v0.8; wave 12: v0.9)",
    "type": "stacked-bar",
    "data": {
     "file": "sources/sources.csv",
@@ -966,7 +966,7 @@
     "app-m1-method",
     "app-r4-sources"
    ],
-   "alt_text": "Bars: 604 press, 476 peer-reviewed, 399 gov/statistics, 325 company, 231 other sources, among others, across eleven research waves.",
+   "alt_text": "Bars: 638 press, 476 peer-reviewed, 400 gov/statistics, 331 company, 231 other sources, among others, across twelve research waves.",
    "render": "Inline SVG generated at build time (no Chart.js). Accessible: include <title> and <desc>, and a visually hidden data table. Respect light and dark themes."
   },
   {

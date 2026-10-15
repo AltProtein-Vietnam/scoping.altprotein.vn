@@ -4,7 +4,7 @@ title: "R1. Open questions register"
 short_title: "R1. Open questions"
 section: appendix
 order: 81
-summary: "All 469 open questions left by the research, grouped by topic, with why each matters, the cheapest way to close it, who to ask, and its status. The eighteen priorities are ranked in chapter 30."
+summary: "All 472 open questions left by the research, grouped by topic, with why each matters, the cheapest way to close it, who to ask, and its status. The eighteen priorities are ranked in chapter 30."
 audiences: [research, policy, investors, startups, manufacturers, international]
 reading_time_min: 106
 key_numbers: [kn-open-questions]
@@ -17,7 +17,7 @@ charts: []
 
 This register lists every question the research could not close. It is generated from `open_questions.csv`, which also holds the source notes each question came from. The eighteen questions that matter most, with the play each unblocks, are ranked in [[ch30-unknowns]]; their rank appears in the "Priority" column below. Version 0.2 adds the questions left by the futures round (OQ-128 onwards, topic "futures 2030 to 2050"); the most important are summarised in [[ch28-robust-moves]]. Version 0.3 adds the questions left by the demand round (OQ-156 onwards, topics beginning "demand"), with the priority each research stream gave them (High, Medium or Low); the ones that most change Part III are discussed in [[ch25-demand-to-frontier]]. Version 0.4 adds the questions left by the actor check and expansion waves 7 to 9 (OQ-270 to OQ-376; see [[app-m4-actor-check-waves]]) and updates the status of several demand questions. Version 0.7 adds the questions left by the citation check (OQ-377 onwards).
 
-Status: 432 open; 32 partly closed; 5 closed.
+Status: 435 open; 32 partly closed; 5 closed.
 
 Readers who can answer any of these are invited to contact AltProtein Vietnam; closed questions will be dated in the data file.
 
@@ -728,3 +728,11 @@ Readers who can answer any of these are invited to contact AltProtein Vietnam; c
 | ID | Priority | Question | Why it matters | Cheapest way to close it | Who to ask | Status |
 |---|---|---|---|---|---|---|
 | OQ-473 |  | What would food-grade fungal biomass protein (mycoprotein) made in Vietnam cost per tonne of protein, including the step that cuts its RNA content and food-grade hygiene? | The only Vietnamese fungal cost stack was built for a feed-grade ingredient; food grade decides whether fungal protein fits as a food ingredient (T9, TPP-06) | Adapt the published food mycoprotein model ([@COST-43]) to Vietnamese inputs from Appendix S12, then ask one equipment supplier for an indicative food-grade quote | AltProtein Vietnam (desk model); fermentation equipment suppliers | open |
+
+## Regional deals (wave 12), v0.9 (3)
+
+| ID | Priority | Question | Why it matters | Cheapest way to close it | Who to ask | Status |
+|---|---|---|---|---|---|---|
+| OQ-474 |  | Did ADB Ventures invest in DAIZ's 2023 Series C, as one database lists? | If confirmed, it would be the only direct DFI ticket in the region in these families and a possible route for a Vietnamese plant; today we find none. | Ask ADB Ventures or DAIZ; check ADB Ventures' portfolio page and DAIZ's investor list. | ADB Ventures; DAIZ | open |
+| OQ-475 |  | Did the August 2024 Shark Tank Vietnam offer for 15% of YERA (VND 15 billion) close, and on what terms? | It would be the first disclosed equity deal in a Vietnamese microbial-protein maker and a sign of TH's interest in the field. | Ask YERA (Yeast Era JSC) or check its business-registration changes. | YERA; Thai Huong Group | open |
+| OQ-476 |  | Which alternative-protein rounds were raised in China, Malaysia, the Philippines, Thailand and Singapore in 2024 to 2026 that wave 12 did not find? | The regional totals understate recent activity, especially in China, so the comparison with Vietnam may be too pessimistic. | A DealStreetAsia, PitchBook or 36Kr sector search, and GFI APAC's company database. | GFI APAC | open |

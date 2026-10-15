@@ -4,11 +4,11 @@ title: "S11. Capital: deals, investors and funding programmes"
 short_title: "S11. Capital"
 section: appendix
 order: 31
-summary: "Every disclosed alternative-protein and adjacent agrifood deal linked to Vietnam, the size of Vietnamese venture and private equity markets, a possible financing structure for a first plant, global and regional investment trends, development finance, the new state venture funds, grants open in 2026, accelerators and exit routes."
+summary: "Every disclosed alternative-protein and adjacent agrifood deal linked to Vietnam, the size of Vietnamese venture and private equity markets, a possible financing structure for a first plant, a regional deal record for East and Southeast Asia, global and regional investment trends, development finance, the new state venture funds, grants open in 2026, accelerators and exit routes."
 audiences: [investors, startups, policy, international, manufacturers]
 reading_time_min: 26
 key_numbers: [kn-vn-vc-2025, kn-agritech-vc-2025, kn-global-altprotein-2025]
-related_data: [deals.csv, investors.csv, funding_programs.csv, research_funding.csv, companies.csv]
+related_data: [deals.csv, regional_deals.csv, investors.csv, funding_programs.csv, research_funding.csv, companies.csv]
 related_pages: [ch08-capital, ch26-plays, ch27-policy-options, app-s1-directory, app-s7-research, app-s8-labs-talent, app-s9-regulation, app-r2-disagreements, brief-investors, app-m4-actor-check-waves]
 charts: [chart-vn-vc-agritech, chart-global-altprotein-investment]
 ---
@@ -40,6 +40,7 @@ Currency. Amounts are given as reported. Where we convert VND to USD, we use VND
 7. **Global alternative-protein investment is at a cyclical low and has shifted towards fermentation:** USD 881 million in 2025 and USD 359 million in H1 2026 [@CAP-51] {general|High}.
 8. **We found no development finance institution with a direct ticket in Vietnam in the protein families this study covers.** A ticket is the amount one investor puts in. IFC's Vietnamese tickets found run from USD 20 million (GS25, retail) to USD 90.6 million (Mavin, proposed) [@CAP-41; @CAP-44] {VN-direct|Medium}.
 9. **The largest alternative-protein research and development (R&D) call we found open to Vietnamese applicants in 2026 has closed.** Coefficient Giving's request for proposals (RFP, up to USD 30 million) closed its two rounds on 10 August and 15 September 2026 [@CAP-57] {general|High}.
+10. **The region offers no proven financing template either.** Across East and Southeast Asia we found about USD 355 million to 365 million of disclosed private alternative-protein money since 2020, three quarters of it raised in 2020 to 2022, and no direct DFI ticket. Plants were built by corporate joint ventures and state-scheme loans (section S11.6) {VN-adjacent|Medium}.
 
 ## S11.2 Deal log
 
@@ -106,14 +107,56 @@ For a Vietnamese food-ingredient plant, we suggest a structure that pairs a priv
 
 | Investor | Target | Year | What it shows | Sources |
 |---|---|---|---|---|
-| Vinh Hoan (via Vinh Technology Pte Ltd) | Avant Meats (cultivated fish, Hong Kong) | 2021 | Strategic minority stake and commercialisation partnership; no Vietnamese facility found | [@CAP-16; @ECO-58] {VN-direct\|Low} |
-| Vinh Hoan | Shiok Meats (cultivated crustaceans, Singapore) | 2021 | Co-investment with CJ CheilJedang and Woowa Brothers; Shiok agreed in March 2024 to merge its assets into UMAMI Bioworks (deal announced; closing not confirmed in our sources) | [@CAP-17; @ECO-63] {VN-direct\|Low} |
+| Vinh Hoan (via Vinh Technology Pte Ltd) | Avant Meats (cultivated fish, Hong Kong) | 2021 | Strategic minority stake and commercialisation partnership; no Vietnamese facility found. Avant's Singapore unit went into liquidation in February 2026 | [@CAP-16; @ECO-58; @RDL-07] {VN-direct\|Low} |
+| Vinh Hoan | Shiok Meats (cultivated crustaceans, Singapore) | 2021 | Co-investment with CJ CheilJedang and Woowa Brothers; Shiok's assets passed to UMAMI Bioworks in an all-stock merger in March 2024; how Vinh Hoan's stake was treated was not disclosed (section S11.6) | [@CAP-17; @ECO-63; @RDL-06; @RDL-45] {VN-direct\|Low} |
 | VinaCapital Ventures | INNOHAS (plant-based meat, South Korea) | 2024 | A market-entry partner for a foreign brand; no Vietnam launch found by September 2026 | [@CAP-18; @VCO-31] {VN-direct\|Medium} |
 | CJ CheilJedang | Shiok Meats (co-investor); Cau Tre (acquisition, not verified; no source) | 2021; unverified | Our judgement: the regional strategic most likely to look at Vietnamese seafood-adjacent alternative protein | [@CAP-17] {VN-adjacent\|Low} |
 
 The Vietnam-linked alternative-protein deals we found are mostly by strategics (Vinh Hoan), plus one VC (VinaCapital Ventures) [@CAP-16; @CAP-17; @CAP-18] {VN-direct|Low}. The first page of Vinh Hoan's investor updates archive shows no update on these stakes [@VCO-24] {VN-direct|Low}.
 
-## S11.6 Global and regional investment trends
+## S11.6 The regional deal record: East and Southeast Asia
+
+To see whether the Vietnamese gap is local or regional, research wave 12 logged alternative-protein deals in East Asia (China, Japan, South Korea, Taiwan, Hong Kong) and Southeast Asia from 2019 to October 2026 (`regional_deals.csv`, 43 rows; method in `working-papers/wave12/`). Feed-only deals are kept as context, and public programmes are kept apart from private deals.
+
+**What the record shows.**
+
+- **Disclosed private money is about USD 355 million to 365 million across the region since 2020** (our sum of the main rows with a disclosed amount; the range comes from two disagreeing figures, see below). About three quarters of it was raised in 2020 to 2022 (our calculation) {VN-adjacent|Medium}. Undisclosed rounds are not counted, and coverage of China after 2023 is thin, so this understates the total.
+- **The biggest rounds came before 2023.** Next Gen Foods (TiNDLE, Singapore) raised a USD 100 million Series A in February 2022, led by Temasek's Asia Sustainable Foods Platform and GGV Capital [@RDL-28; @RDL-29] {VN-adjacent|High}. Green Monday (Hong Kong) raised USD 70 million in 2020 from TPG's Rise Fund and Swire Pacific [@RDL-17] {VN-adjacent|Medium}.
+- **Since 2023, three deals stand out.** DAIZ (Japan) financed a plant-based ingredient factory in Kumamoto with JPY 7.1 billion (about USD 47 million): JPY 3.78 billion of equity from 11 companies and JPY 3.4 billion of low-cost long-term loans from nine financial institutions under schemes of Japan's industry and agriculture ministries (METI and MAFF) [@RDL-20; @RDL-47] {VN-adjacent|Medium}. Changing Bio (China, precision-fermented milk proteins) raised a USD 22 million Series A [@RDL-15] {VN-adjacent|Medium}. Green Rebel Foods (Indonesia) raised USD 10.5 million or 12.5 million in January 2026 from its existing impact investors [@RDL-05; @RDL-43] {VN-adjacent|Medium}.
+- **Plants were built by corporate joint ventures and state-backed loans, not by venture rounds.** In Thailand, Innobic (the life-science arm of the state energy group PTT) and NR Instant Produce formed a 50:50 venture, which in turn took 51% of Plant & Bean (Thailand), a contract plant-based factory with 3,000 t a year of first-phase capacity [@RDL-30; @RDL-31; @RDL-32; @RDL-33] {VN-adjacent|High}. In Japan, ministry-scheme loans paid for part of the DAIZ factory. In China, an equipment maker (Tofflon) co-financed CellX's cultivated-meat pilot plant [@RDL-13] {VN-adjacent|Medium}.
+- **Vietnamese money appears only at the edges.** Besides the stakes in section S11.5, we found one new Vietnamese deal: an on-air offer on Shark Tank Vietnam in August 2024 of VND 15 billion (about USD 0.6 million) for 15% of YERA, a Nghe An maker of yeast-based protein, from an executive of Thai Huong Group, the parent of TH. We found no confirmation that it closed [@RDL-01] {VN-direct|Medium}.
+- **We found no direct DFI ticket anywhere in the region in these families.** ADB Ventures' portfolio lists no plant-based, mycoprotein, precision-fermentation or cultivated-meat company [@RDL-03] {VN-adjacent|Medium}. One database lists ADB Ventures among the investors in DAIZ's 2023 round; we could not verify it (OQ-474) [@RDL-47] {VN-adjacent|Low}. The only DFI link to a Vietnamese alternative-protein firm we found is technical assistance: the Asian Development Bank's #SheExports support for Emmay in December 2025, with no investment [@RDL-02] {VN-direct|Medium}.
+- **Public money has grown while private money shrank.** Korea's government funded Simple Planet's cultivated meat and seafood work (KRW 11 billion, about USD 8.1 million, in 2024) and a shared cultivated-meat research centre in Uiseong (KRW 14.5 billion, about USD 10 million, for 2025 to 2027) [@RDL-25; @RDL-26] {VN-adjacent|Medium}. China funds a cultivated-meat laboratory in Beijing (about USD 11 million) [@RDL-16] {VN-adjacent|Medium}.
+
+**Disclosed private amounts by place** (our sums from `regional_deals.csv`; main rows with an amount; government grants excluded):
+
+| Place | Disclosed private amount, 2020 to October 2026 | Largest deals | Notes |
+|---|---|---|---|
+| Singapore | about USD 130 million | Next Gen Foods (USD 100 million Series A, 2022) | GOOD Meat's 2022 plant spend ("61 million", currency not stated) not counted; the plant never opened |
+| Japan | about USD 85 million | DAIZ (about USD 47 million, 2023, including JPY 3.4 billion of loans) | One round (DAIZ Series B, USD 17 million) rests on a single database entry |
+| Hong Kong | USD 70 million | Green Monday (2020) | No later round found |
+| China | about USD 56 million to 59 million | Changing Bio (USD 22 million) | Joes Future Food's Series A is RMB 70 million or RMB 50 million (DG-375) |
+| Indonesia | USD 10.5 million to 12.5 million | Green Rebel Foods (2026) | Its 2022 seed figure is disputed and not counted (DG-377) |
+| South Korea | about USD 6 million | Simple Planet (KRW 8 billion, 2024) | Larger public grants not counted |
+| Vietnam | under USD 1 million | YERA (offer, not confirmed) | Emmay's technical assistance carries no money |
+| Thailand | none disclosed | Plant & Bean (Thailand) joint venture | Joint ventures did not publish amounts |
+
+**Exits, write-downs and pivots** (see also `firm_outcomes.csv`):
+
+- **Umami Bioworks took over Shiok Meats' assets for stock in March 2024.** No cash changed hands, and the merged company was valued at USD 68 million [@RDL-06; @RDL-38; @RDL-45] {VN-adjacent|High}. A listed investor in Umami Bioworks cut the fair value of its holding by about half between the end of 2024 and the end of 2025 (our calculation from its filing) [@RDL-39] {VN-adjacent|High}.
+- **GOOD Meat paused cultivated-chicken production in Singapore by early 2024 and did not open its Bedok plant** [@RDL-36; @RDL-37] {VN-adjacent|Medium}.
+- **Avant's Singapore unit went into liquidation in February 2026**; the Hong Kong parent turned to skincare ingredients made from fish cells [@RDL-07] {VN-adjacent|Medium}.
+- **Monde Nissin wrote down Quorn by PHP 20.5 billion (2022), PHP 10.1 billion (2023) and PHP 6.8 billion (2024)**, and its founding family pledged financing to cover further impairments [@RDL-40; @RDL-41] {VN-adjacent|Medium}.
+- **Next Gen Foods paid for marketing with equity and bought a plant-based dairy brand** instead of raising a priced Series B; we found no later round [@RDL-27] {VN-adjacent|High}.
+
+**What this means for a first plant in Vietnam** (our reading):
+
+1. The region offers no precedent for a private-equity lead with a DFI ticket and a buyer's offtake in these families. The structures that did build capacity were a corporate joint venture with a state-linked partner (Thailand), equity plus state-scheme loans (Japan) and equipment-maker co-financing (China).
+2. A domestic strategic buyer is the likeliest lead. Regional food companies take minority stakes (Maruha Nichiro in Umami Bioworks, Nichirei Foods in DAIZ, NH Foods in IntegriCulture) but rarely lead rounds [@RDL-18; @RDL-19; @RDL-45] {VN-adjacent|Medium}.
+3. Since 2023, equity rounds in the region outside Japan and China have rarely exceeded about USD 12.5 million. A first Vietnamese plant probably has to be fundable at about USD 5 million to 15 million, mostly from a sponsor's balance sheet and debt.
+4. DFI money reaches the field through funds and technical assistance, not direct tickets. The routes already logged in section S11.8 (fund stakes, credit lines to an agribusiness sponsor) remain the practical ones.
+
+## S11.7 Global and regional investment trends
 
 **Alternative protein (data from the Good Food Institute, GFI)** [@CAP-51] {general|High}:
 
@@ -148,9 +191,9 @@ We could not extract the regional totals for 2024 and 2025 from GFI APAC, the in
 | Lever VC | VC, New York | n/a | No Asian interest visible | [@CAP-65] {general\|Low} |
 | Temasek | Sovereign investor, Singapore | n/a | March 2026 major-investments list shows no agrifood names | [@CAP-74] {VN-adjacent\|Low} |
 
-Not verified: Thai Union Ventures, CPF, Wilmar, ADM Ventures, Cargill, Rabo Food and Agri Innovation Fund, AgFunder GROW, Blue Horizon, Unovis, Siddhi.
+Seen in the regional record (section S11.6, `regional_deals.csv`): Unovis NCAP Fund II, Teja Ventures and AgFunder's Alternative Protein Fund I (Green Rebel Foods, 2026), Bits x Bites (Changing Bio, Next Gen Foods), Thai Union's corporate venture fund (Algama, France) and SeaX Ventures (Melazyme, United States). Not verified: CPF, Wilmar, ADM Ventures, Cargill, Rabo Food and Agri Innovation Fund, Blue Horizon, Siddhi.
 
-## S11.7 Development finance institutions
+## S11.8 Development finance institutions
 
 | DFI | Vietnam relevance found | Ticket evidence | Sources |
 |---|---|---|---|
@@ -159,7 +202,7 @@ Not verified: Thai Union Ventures, CPF, Wilmar, ADM Ventures, Cargill, Rabo Food
 | Proparco | LP in Mekong Enterprise Fund IV (USD 15 million, 2020); LP in SEACEF II (USD 10 million of a USD 175 million fund, 2024); 10 Vietnamese projects, mostly banks, energy and garments | USD 10 million to 15 million as LP | [@CAP-47; @CAP-48; @CAP-49] {VN-direct\|High} |
 | FMO, DEG, BII, JICA private sector, KfW, Finnfund, Norfund | Not verified | n/a | gap |
 
-We found no direct DFI ticket in Vietnam in the protein families this study covers. DFIs could reach it in three ways (our reading of the table):
+We found no direct DFI ticket in Vietnam in the protein families this study covers, nor anywhere else in East or Southeast Asia (section S11.6). The Asian Development Bank's only link to a Vietnamese alternative-protein firm we found is technical assistance to Emmay in December 2025, with no investment [@RDL-02] {VN-direct|Medium}. DFIs could reach the field in three ways (our reading of the table):
 
 - small "upstream" tickets that prove a model (our suggestion; none found in Vietnam in these families);
 - stakes as a limited partner (LP), an investor in a fund, in local PE funds (Proparco in Mekong Enterprise Fund IV);
@@ -167,7 +210,7 @@ We found no direct DFI ticket in Vietnam in the protein families this study cove
 
 Direct DFI tickets to companies (USD 20 million for GS25, a retailer, to USD 90.6 million for Mavin, proposed) are far above what a Vietnamese alternative-protein startup can absorb today.
 
-## S11.8 State venture framework and state finance
+## S11.9 State venture framework and state finance
 
 **Decree 264/2025/ND-CP on national and local venture funds** (signed and in force 14 October 2025) [@CAP-29; @CAP-30] {VN-direct|High}:
 
@@ -204,7 +247,7 @@ It suits established manufacturers adding a line, not startups that have no sale
 
 **Other state instruments** covered elsewhere: the Investment Support Fund under Decree 182/2024 (high thresholds; see [[app-s9-regulation]]) [@REG-46] {VN-direct|High}; specialised science funds with state capital under Law 93/2025/QH15 ([[app-s7-research]]) [@REG-48] {VN-direct|High}; and interest subsidies of 70% of the loan interest rate, capped at 8% a year, in hi-tech agriculture zones under Decree 263/2026 [@INF-23] {VN-direct|Medium} ([[app-s8-labs-talent]]).
 
-## S11.9 Grants and philanthropy, with 2026 status
+## S11.10 Grants and philanthropy, with 2026 status
 
 | Programme | Funder | Type | Eligibility for Vietnamese applicants | Amount | Status (23 September 2026) | Sources |
 |---|---|---|---|---|---|---|
@@ -226,7 +269,7 @@ Two practical points (our reading) [@CAP-57; @CAP-67] {general|Medium}:
 - The Coefficient Giving topics (off-flavours, fat alternatives, egg replacement, fish-flavour characterisation) fit Vietnamese seafood science. Vietnamese groups should prepare now for any 2027 round, with an international co-applicant.
 - ACIAR's commissioned model needs an Australian partner before a window opens.
 
-## S11.10 Accelerators and incubators
+## S11.11 Accelerators and incubators
 
 | Programme | Base | Relevance | Status | Sources |
 |---|---|---|---|---|
@@ -236,11 +279,11 @@ Two practical points (our reading) [@CAP-57; @CAP-67] {general|Medium}:
 | SIHUB (Saigon Innovation Hub) | Ho Chi Minh City | City innovation hub | Site unreachable; the city science department confirms it operates | [@CAP-36] {VN-direct\|Low} |
 | SHTP-IC incubator | Ho Chi Minh City (Saigon Hi-Tech Park) | Incubation | Active (see [[app-s8-labs-talent]]) | [@INF-06] {VN-direct\|Medium} |
 | ADB #SheExports | Regional | Export accelerator for women-led SMEs (Emmay, 2023) | Current status not checked | [@ECO-13] {VN-direct\|Medium} |
-| Big Idea Ventures; ProVeg Incubator; Brinc | Regional and global | Alternative-protein accelerators (Big Idea Ventures, ProVeg); Brinc is a general accelerator and VC with a cellular-agriculture portfolio company (section S11.6) | See above | [@CAP-62; @CAP-59; @CAP-66] {VN-adjacent\|Low} |
+| Big Idea Ventures; ProVeg Incubator; Brinc | Regional and global | Alternative-protein accelerators (Big Idea Ventures, ProVeg); Brinc is a general accelerator and VC with a cellular-agriculture portfolio company (section S11.7) | See above | [@CAP-62; @CAP-59; @CAP-66] {VN-adjacent\|Low} |
 
 Not verified: Vietnam Silicon Valley, BK Holdings, university incubators and corporate open-innovation programmes (Masan, Nestle, Unilever).
 
-## S11.11 Exit landscape
+## S11.12 Exit landscape
 
 Investors in Vietnam can exit mainly by selling to a larger company (a trade sale) or to a PE fund. The stock market is not yet a route for technology firms.
 
@@ -252,9 +295,9 @@ Investors in Vietnam can exit mainly by selling to a larger company (a trade sal
 
 > **For investors.** A thesis in Vietnamese alternative protein has to rest on business-to-business sales of ingredients to food makers and a strategic buyer, not on a consumer-brand exit. Agriculture VC was about USD 1 million in 2025 [@CAP-21] {VN-direct|Medium}, and there is no track record of venture exits.
 
-## S11.12 Where the capital gaps are
+## S11.13 Where the capital gaps are
 
-Our reading of sections S11.2 to S11.11:
+Our reading of sections S11.2 to S11.12:
 
 | Stage | Money that exists | Gap |
 |---|---|---|
@@ -274,6 +317,7 @@ Our reading of sections S11.2 to S11.11:
 | Vietnamese aquaculture-tech, feed-tech, microalgae and plant-based dairy deals | Tracxn or PitchBook sector list for Vietnam; GFI APAC database entries. |
 | Whether Mavin's USD 90.6 million IFC package closed | IFC disclosure portal. |
 | APAC alternative-protein totals 2023 to 2025 | Download the GFI APAC State of the Industry reports. |
+| Regional rounds not found in wave 12: Phuture Foods and Cell AgriTech (Malaysia), WTH Foods (Philippines), Float Foods, Sophie's Bionutrients, Allozymes, Prefer, Meatiply and Esco Aster (Singapore), CP Foods, Betagro and Mitr Phol (Thailand), Green Monday after 2020, and most Chinese deals after 2023 (OQ-476) | A DealStreetAsia, PitchBook or 36Kr sector search; GFI APAC's company database. |
 | Thai Union Ventures, CPF, Wilmar and ADM Ventures activity in Vietnam | Company annual reports. |
 | Programmes of NIC (the National Innovation Center), SIHUB, Vietnam Silicon Valley, BK Holdings and university incubators in 2026 | Call NIC (under the Ministry of Finance, MOF [@OIC-08] {VN-direct\|High}) and SIHUB. |
 | HCM VIF pipeline: any biotech or food among about 50 proposals? | Ask the fund manager ahead of the Q4 2026 investments. |
@@ -284,6 +328,7 @@ See also [[app-r1-open-questions]].
 ## Related data files
 
 - `deals.csv`: deals and financing events linked to Vietnam.
+- `regional_deals.csv`: 43 alternative-protein deals, programmes and context rows in East and Southeast Asia, 2020 to 2026 (section S11.6).
 - `investors.csv`: 24 active investors (VC, PE, DFI, corporate, government funds, accelerators) with thesis, example deals and ticket size.
 - `funding_programs.csv`: 20 grants, prizes, funds and credit programmes with 2026 status.
 - `research_funding.csv`: national and international research funding ([[app-s7-research]]).

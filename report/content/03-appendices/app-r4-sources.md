@@ -4,7 +4,7 @@ title: "R4. Sources"
 short_title: "R4. Sources"
 section: appendix
 order: 84
-summary: "All 2,434 sources behind the report (765 in v0.1, 469 added by the futures round of v0.2, 450 by the demand round of v0.3, 573 by the actor check and expansion waves of v0.4, 81 by the prologue research of v0.5 and 96 by the food-security round of v0.8, including six from its editorial checks), grouped by the research stream that found them. Each citation code in the text links here and to sources.csv."
+summary: "All 2,484 sources behind the report (765 in v0.1, 469 added by the futures round of v0.2, 450 by the demand round of v0.3, 573 by the actor check and expansion waves of v0.4, 81 by the prologue research of v0.5 and 96 by the food-security round of v0.8, including six from its editorial checks, and 50 by the regional deals round of v0.9), grouped by the research stream that found them. Each citation code in the text links here and to sources.csv."
 audiences: [research, investors, policy, international, startups, manufacturers]
 reading_time_min: 320
 key_numbers: [kn-sources-count]
@@ -15,21 +15,21 @@ charts: [chart-sources-by-type]
 
 # R4. Sources
 
-Every citation code in the report, such as [@MAC-04], resolves to an entry below and to an active row in `sources.csv`, which also records the source type, date, URL or DOI, access date and the research note that used it. Web sources were accessed in September 2026, and those of the food-security round (wave 11) on 1 October 2026. Citations are given as recorded by the research streams; some sources appear under more than one code because two streams used them independently.
+Every citation code in the report, such as [@MAC-04], resolves to an entry below and to an active row in `sources.csv`, which also records the source type, date, URL or DOI, access date and the research note that used it. Web sources were accessed in September 2026, those of the food-security round (wave 11) on 1 October 2026, and those of the regional deals round (wave 12) on 15 October 2026. Citations are given as recorded by the research streams; some sources appear under more than one code because two streams used them independently.
 
-| Source type | Version 0.1 (waves 1 and 2) | Futures round (waves 3 to 5) | Demand round (wave 6) | Actor check and expansion (waves 7 to 9) | Prologue (wave 10) | Food security (wave 11) | Total |
-|---|---|---|---|---|---|---|---|
-| press | 164 | 107 | 175 | 104 | 15 | 39 | 604 |
-| peer-reviewed | 161 | 134 | 89 | 47 | 23 | 22 | 476 |
-| gov/statistics | 122 | 95 | 39 | 106 | 26 | 11 | 399 |
-| company | 124 | 7 | 35 | 150 | 9 | 0 | 325 |
-| other | 49 | 54 | 41 | 80 | 3 | 4 | 231 |
-| law | 78 | 50 | 0 | 0 | 0 | 4 | 132 |
-| advocacy | 27 | 8 | 33 | 36 | 5 | 1 | 110 |
-| database | 26 | 10 | 23 | 42 | 0 | 8 | 109 |
-| market-research | 14 | 4 | 15 | 8 | 0 | 0 | 41 |
-| intergovernmental | 0 | 0 | 0 | 0 | 0 | 7 | 7 |
-| **All** | 765 | 469 | 450 | 573 | 81 | 96 | 2434 |
+| Source type | Version 0.1 (waves 1 and 2) | Futures round (waves 3 to 5) | Demand round (wave 6) | Actor check and expansion (waves 7 to 9) | Prologue (wave 10) | Food security (wave 11) | Regional deals (wave 12) | Total |
+|---|---|---|---|---|---|---|---|---|
+| press | 164 | 107 | 175 | 104 | 15 | 39 | 34 | 638 |
+| peer-reviewed | 161 | 134 | 89 | 47 | 23 | 22 | 0 | 476 |
+| gov/statistics | 122 | 95 | 39 | 106 | 26 | 11 | 1 | 400 |
+| company | 124 | 7 | 35 | 150 | 9 | 0 | 6 | 331 |
+| other | 49 | 54 | 41 | 80 | 3 | 4 | 0 | 231 |
+| law | 78 | 50 | 0 | 0 | 0 | 4 | 0 | 132 |
+| advocacy | 27 | 8 | 33 | 36 | 5 | 1 | 3 | 113 |
+| database | 26 | 10 | 23 | 42 | 0 | 8 | 6 | 115 |
+| market-research | 14 | 4 | 15 | 8 | 0 | 0 | 0 | 41 |
+| intergovernmental | 0 | 0 | 0 | 0 | 0 | 7 | 0 | 7 |
+| **All** | 765 | 469 | 450 | 573 | 81 | 96 | 50 | 2484 |
 
 {{chart:chart-sources-by-type}}
 
@@ -2667,3 +2667,56 @@ Version 0.2 adds the sources of the futures round (waves 3 to 5, September 2026)
 - <a id="OIC-13"></a>**OIC-13.** NECTAR. Our mission and vision. Undated. https://www.nectar.org/mission Accessed 2026-10-01. Type: advocacy.
 - <a id="OIC-17"></a>**OIC-17.** Embassy of Vietnam in the United States (2003). Vietnam Buddhist Sangha develops together with nation (from Nhan Dan). 22 July 2003. https://vietnamembassy-usa.org/news/2003/07/vietnam-buddhist-sangha-develops-together-nation Accessed 2026-10-01. Type: gov/statistics.
 - <a id="OIC-18"></a>**OIC-18.** Giac Ngo Online. Home page (masthead). Undated. https://giacngo.vn/ Accessed 2026-10-01. Type: other.
+
+## RDL: Regional deals, East and Southeast Asia (wave 12), v0.9 (50)
+
+- <a id="RDL-01"></a>**RDL-01.** TheLeader. "Startup protein men vi sinh tu bo 100 ty dong khoi nghiep (YERA on Shark Tank Vietnam)." 2024. https://theleader.vn/startup-protein-men-vi-sinh-tu-bo-100-ty-dong-khoi-nghiep-d36732.html . Accessed 2026-10-15. Type: press.
+- <a id="RDL-02"></a>**RDL-02.** We-Fi (Women Entrepreneurs Finance Initiative). "ADB women entrepreneurs: Emmay, Viet Nam." Dec 2025. https://we-fi.org/adb-women-entrepreneurs-emmay-vietnam/ . Accessed 2026-10-15. Type: advocacy.
+- <a id="RDL-03"></a>**RDL-03.** ADB Ventures. "Portfolio." 2026. https://ventures.adb.org/portfolio/ . Accessed 2026-10-15. Type: company.
+- <a id="RDL-04"></a>**RDL-04.** Asian Agribiz. "IFC proposes USD 150m investment in New Hope Singapore." 1 May 2026. https://www.asian-agribiz.com/2026/05/01/ifc-proposes-usd150m-investment-in-new-hope-singapore/ . Accessed 2026-10-15. Type: press.
+- <a id="RDL-05"></a>**RDL-05.** DealStreetAsia. "Green Rebel Foods funding." Jan 2026. https://www.dealstreetasia.com/stories/green-rebel-foods-funding-469744 . Accessed 2026-10-15. Type: press.
+- <a id="RDL-06"></a>**RDL-06.** AgFunderNews. "Cultivated meat consolidation begins as Umami Bioworks to merge with Shiok Meats." Mar 2024. https://agfundernews.com/cultivated-meat-consolidation-begins-as-umami-bioworks-to-merge-with-shiok-meats . Accessed 2026-10-15. Type: press.
+- <a id="RDL-07"></a>**RDL-07.** Vulcan Post. "Avant Proteins closure." 2026. https://vulcanpost.com/909178/avant-proteins-closure/ . Accessed 2026-10-15. Type: press.
+- <a id="RDL-08"></a>**RDL-08.** GFI APAC. "Progress: startup secures China's largest cultivated meat investment yet." 2021. https://gfi-apac.org/progress-startup-secures-chinas-largest-cultivated-meat-investment-yet/ . Accessed 2026-10-15. Type: advocacy.
+- <a id="RDL-09"></a>**RDL-09.** GFI APAC. "Look closer: China is quietly making moves on cultivated meat." 2021. https://gfi-apac.org/look-closer-china-is-quietly-making-moves-on-cultivated-meat/ . Accessed 2026-10-15. Type: advocacy.
+- <a id="RDL-10"></a>**RDL-10.** AgFunderNews. "Joes Future, Chinese cellular pork producer, raises USD 11m Series A funding." Oct 2021. https://agfundernews.com/joes-future-chinese-cellular-pork-producer-raises-11m-series-a-funding . Accessed 2026-10-15. Type: press.
+- <a id="RDL-11"></a>**RDL-11.** vegconomist. "China's first cultivated meat company raises USD 10.9m to build pork production line." Oct 2021. https://vegconomist.com/cultivated-cell-cultured-biotechnology/chinas-first-cultivated-meat-company-raises-10-9m-to-build-pork-production-line/ . Accessed 2026-10-15. Type: press.
+- <a id="RDL-12"></a>**RDL-12.** Green Queen. "China's first cultivated meat factory (CellX)." 2022. https://www.greenqueen.com.hk/china-first-cultivated-meat-factory-cellx/ . Accessed 2026-10-15. Type: press.
+- <a id="RDL-13"></a>**RDL-13.** Green Queen. "CellX: China cellular agriculture, first cultivated meat pilot factory." 2023. https://www.greenqueen.com.hk/cellx-china-cellular-agriculture-first-cultivated-meat-pilot-factory-us-singapore-launch/ . Accessed 2026-10-15. Type: press.
+- <a id="RDL-14"></a>**RDL-14.** Green Queen. "Joes Future Food Series A+ funding." May 2023. https://www.greenqueen.com.hk/joes-future-food-tech-series-a-plus-funding/ . Accessed 2026-10-15. Type: press.
+- <a id="RDL-15"></a>**RDL-15.** Green Queen. "Changing Biotech: fermentation dairy." 2023. https://www.greenqueen.com.hk/changing-biotech-fermentation-dairy/ . Accessed 2026-10-15. Type: press.
+- <a id="RDL-16"></a>**RDL-16.** FoodNavigator. "China's cultivated meat push faces consumer reality." 9 Sep 2026. https://www.foodnavigator.com/Article/2026/09/09/chinas-cultivated-meat-push-faces-consumer-reality/ . Accessed 2026-10-15. Type: press.
+- <a id="RDL-17"></a>**RDL-17.** The Spoon. "OmniPork parent Green Monday raises USD 70M to expand its plant-based food enterprise." Sep 2020. https://thespoon.tech/omnipork-parent-green-monday-raises-70m-to-expand-its-plant-based-food-enterprise/ . Accessed 2026-10-15. Type: press.
+- <a id="RDL-18"></a>**RDL-18.** IntegriCulture. "Corporate news: Series A financing." May 2020. https://integriculture.com/en_news/corporate/700/ . Accessed 2026-10-15. Type: company.
+- <a id="RDL-19"></a>**RDL-19.** The Bridge. "DAIZ Series A round funding." May 2020. https://thebridge.jp/en/2020/05/daiz-series-a-round-funding . Accessed 2026-10-15. Type: press.
+- <a id="RDL-20"></a>**RDL-20.** Just Food. "Japanese plant-based start-up DAIZ to build new site after funding win." 2023. https://www.just-food.com/news/japanese-plant-based-start-up-daiz-to-build-new-site-after-funding-win/ . Accessed 2026-10-15. Type: press.
+- <a id="RDL-21"></a>**RDL-21.** Nutrition Investor. "Japanese government awards USD 2.2m to IntegriCulture." 2020. https://nutritioninvestor.com/japanese-government-awards-2-2m-to-integriculture/ . Accessed 2026-10-15. Type: press.
+- <a id="RDL-22"></a>**RDL-22.** Startup Intros. "DAIZ company profile." undated. https://startupintros.com/orgs/daiz . Accessed 2026-10-15. Type: database.
+- <a id="RDL-23"></a>**RDL-23.** Global AgInvesting. "Japan's IntegriCulture raises USD 7M for cell-cultured meat infrastructure platform." Jan 2022. https://globalaginvesting.com/japans-integriculture-raises-7m-cell-cultured-meat-infrastructure-platform/ . Accessed 2026-10-15. Type: press.
+- <a id="RDL-24"></a>**RDL-24.** AgFunderNews. "IntegriCulture scores USD 7m." Jan 2022. https://agfundernews.com/integriculture-scores-7m-for-outside-factor-free-cell-ag . Accessed 2026-10-15. Type: press.
+- <a id="RDL-25"></a>**RDL-25.** Green Queen. "South Korea cultivated meat: Simple Planet funding." 2024. https://www.greenqueen.com.hk/south-korea-cultivated-meat-simple-planet-funding/ . Accessed 2026-10-15. Type: press.
+- <a id="RDL-26"></a>**RDL-26.** vegconomist. "South Korea (regional news page)." 2025. https://vegconomist.com/region/asia/south-korea/ . Accessed 2026-10-15. Type: press.
+- <a id="RDL-27"></a>**RDL-27.** TiNDLE (Next Gen Foods). "Press releases." 2026. https://tindle.com/press-releases/ . Accessed 2026-10-15. Type: company.
+- <a id="RDL-28"></a>**RDL-28.** Next Gen Foods via PR Newswire. "Next Gen Foods debuts TiNDLE in the United States and announces a USD 100 million Series A funding round." Feb 2022. https://www.prnewswire.com/news-releases/next-gen-foods-debuts-tindle-in-the-united-states-and-announces-a-record-breaking-100-million-series-a-funding-round-301482488.html . Accessed 2026-10-15. Type: company.
+- <a id="RDL-29"></a>**RDL-29.** AgFunderNews. "Next Gen Foods nets USD 100m in plant-based protein's biggest Series A to date." Feb 2022. https://agfundernews.com/next-gen-foods-nets-100m-in-plant-based-proteins-biggest-series-a-to-date . Accessed 2026-10-15. Type: press.
+- <a id="RDL-30"></a>**RDL-30.** Asian Agribiz. "Thai energy giant PTT enters plant-based business." 25 May 2021. https://www.asian-agribiz.com/2021/05/25/thai-energy-giant-ptt-enters-plant-based-business/ . Accessed 2026-10-15. Type: press.
+- <a id="RDL-31"></a>**RDL-31.** Green Queen. "Plant & Bean plant-based meat factory in Thailand with NR Instant Produce." 2021. https://www.greenqueen.com.hk/plant-and-bean-based-meat-factory-thailand-nr-instant-produce/ . Accessed 2026-10-15. Type: press.
+- <a id="RDL-32"></a>**RDL-32.** The Plant Base. "Plant & Bean opens new Thailand factory." 2023. https://www.theplantbasemag.com/news/plant-bean-opens-new-thailand-factory . Accessed 2026-10-15. Type: press.
+- <a id="RDL-33"></a>**RDL-33.** NR Instant Produce (NRF). "NRF reported 2021 financials." 2022. https://www.nrinstant.com/en/newsroom/news/44018/nrf-reported-2021-financials-hitting-new-high-revenue-growth-of-491-path-to-leader-of-global-plant-based-market-bod-approves-dividend-payment-of-0041-baht-share-xd-is-on-28-april-2022 . Accessed 2026-10-15. Type: company.
+- <a id="RDL-34"></a>**RDL-34.** Thai Union. "Thai Union corporate venture fund invests in French algae ingredients startup." undated. https://www.thaiunion.com/en/newsroom/press-release/1594/thai-union-corporate-venture-fund-invests-in-french-algae-ingredients-startup . Accessed 2026-10-15. Type: company.
+- <a id="RDL-35"></a>**RDL-35.** TNGlobal. "Wavemaker Impact leads USD 700k pre-seed investment in Singapore's Virdalis." 16 Mar 2026. https://technode.global/2026/03/16/wavemaker-impact-leads-700k-pre-seed-investment-in-singapores-virdalis/ . Accessed 2026-10-15. Type: press.
+- <a id="RDL-36"></a>**RDL-36.** AsiaOne. "Singapore's first cultivated meat producer pauses operations, cancels previously announced plans." 2024. https://www.asiaone.com/singapore/singapores-first-cultivated-meat-producer-pauses-operations-cancels-previously-announced . Accessed 2026-10-15. Type: press.
+- <a id="RDL-37"></a>**RDL-37.** FoodNavigator. "Cultivated meat in Singapore: after huge fanfare, does the future look more challenging amid funding winter?." 2 Apr 2024. https://www.foodnavigator.com/Article/2024/04/02/Cultivated-meat-in-Singapore-After-huge-fanfare-does-the-future-look-more-challenging-amid-funding-winter/ . Accessed 2026-10-15. Type: press.
+- <a id="RDL-38"></a>**RDL-38.** Green Queen. "Cultivated seafood: Umami Bioworks and Shiok Meats merger, Singapore." Mar 2024. https://www.greenqueen.com.hk/cultivated-seafood-umami-bioworks-shiok-meats-merger-singapore/ . Accessed 2026-10-15. Type: press.
+- <a id="RDL-39"></a>**RDL-39.** Cult Food Science Corp. (SEDAR+ filing). "Management discussion and analysis (filed 1 May 2026)." May 2026. https://newsfile.moomoo.com/public/NN-PersistNoticeAttachment/7781/20260501/SEDAR_PLUS/CSA_SEDAR_PLUS_NOTICE_RECORD_ID_2395374.pdf . Accessed 2026-10-15. Type: gov/statistics.
+- <a id="RDL-40"></a>**RDL-40.** AgFunderNews. "Monde Nissin may book significant write-down for struggling Quorn business." 2022. https://agfundernews.com/brief-monde-nissin-may-book-significant-write-down-for-struggling-quorn-business . Accessed 2026-10-15. Type: press.
+- <a id="RDL-41"></a>**RDL-41.** Just Food. "Monde Nissin's meat-free sales recovery takes shape but losses still evident." 2026. https://www.just-food.com/news/monde-nissins-meat-free-sales-recovery-takes-shape-but-losses-still-evident/ . Accessed 2026-10-15. Type: press.
+- <a id="RDL-42"></a>**RDL-42.** PitchBook. "Green Rebel Foods company profile." 2026. https://pitchbook.com/profiles/company/459657-01 . Accessed 2026-10-15. Type: database.
+- <a id="RDL-43"></a>**RDL-43.** Asia Business Outlook. "Green Rebel Foods raises USD 12.5M to expand plant-based meats." Jan 2026. https://www.asiabusinessoutlook.com/news/green-rebel-foods-raises-125m-to-expand-plantbased-meats-nwid-11280.html . Accessed 2026-10-15. Type: press.
+- <a id="RDL-44"></a>**RDL-44.** Tracxn. "Green Rebel company profile." 2026. https://tracxn.com/d/companies/green-rebel/__rZLveszRfp1eMiXKzjymyaPUvNnY6IVnVLO9YSQn698 . Accessed 2026-10-15. Type: database.
+- <a id="RDL-45"></a>**RDL-45.** Just Food. "Umami Bioworks and Shiok Meats merge to form cultivated seafood platform." Mar 2024. https://www.just-food.com/news/umami-bioworks-and-shiok-meats-merge-to-form-cultivated-seafood-platform/ . Accessed 2026-10-15. Type: press.
+- <a id="RDL-46"></a>**RDL-46.** CB Insights. "Shiok Meats company profile." 2026. https://www.cbinsights.com/company/shiok-meats . Accessed 2026-10-15. Type: database.
+- <a id="RDL-47"></a>**RDL-47.** Dealroom. "DAIZ company profile." 2026. https://dealroom.co/companies/daiz/ . Accessed 2026-10-15. Type: database.
+- <a id="RDL-48"></a>**RDL-48.** Dealroom. "Melazyme company profile." 2026. https://app.dealroom.co/companies/melazyme . Accessed 2026-10-15. Type: database.
+- <a id="RDL-49"></a>**RDL-49.** The Thaiger. "Plant-based meat popularity fuels new ventures in Thailand." 2021. https://thethaiger.com/news/business/plant-based-meat-popularity-fuels-new-ventures-in-thailand . Accessed 2026-10-15. Type: press.
+- <a id="RDL-50"></a>**RDL-50.** Newsbeezer. "PTT joins NRF to enter vegetable protein market, aiming to lead the ASEAN region." 2021. https://newsbeezer.com/thailandeng/ptt-joins-nrf-to-enter-vegetable-protein-market-with-aiming-to-lead-the-asean-region/ . Accessed 2026-10-15. Type: press.
