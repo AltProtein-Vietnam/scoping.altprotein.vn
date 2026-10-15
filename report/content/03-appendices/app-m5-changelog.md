@@ -252,7 +252,7 @@ Before release, an independent reviewer re-checked Part III against the working 
 | Demand evidence tags | Functional ingredient tests tagged as tested demand; firm actions and official messaging tagged as stated; one calculation under a High, revealed tag | Functional tests carry no demand tag; firm actions are revealed; calculations are inferred and Low; two tariff key numbers carry no demand tag | None needed (tagging change; affected claims in the pages listed) | [[ch11-protein-diet]], [[ch14-frontier-demand]], [[ch15-channels]], [[ch16-business-buyers]] |
 | Missing citations | Claims on the Netherlands price premium, the duty on HS 2106.10, Malaysia's US tariff and Thai private-label exporters | Sources added | [@GLB-10; @REG2-20; @EXP-22; @EXP-52] | [[ch11-protein-diet]], [[ch16-business-buyers]], [[ch17-export-demand]] |
 | Model basis for line equivalents | Ingredient product at 0.60 protein, not explained | Documented: textured-protein line output is about 60% protein, below the 0.65 assumed average of the import pool (DMA-005 in `demand_assumptions.csv`, from typical grades), which includes gluten and isolates; results unchanged | [@BUY-02; @BUY-07] | [[app-d8-demand-model]] |
-| Vietnamese summary wording | Literal renderings of "incumbent", "stretch" and "benchmark" scenario, and "price floor" | Revised to natural Vietnamese terms; numbers aligned with the English | None needed (translation edit) | [[front-exec-summary-vi]] |
+| Vietnamese summary wording | Literal renderings of "incumbent", "stretch" and "benchmark" scenario, and "price floor" | Revised to natural Vietnamese terms; numbers aligned with the English | None needed (translation edit) | Vietnamese executive summary |
 | Small slips | Store count 8,700; European growth "only in France"; premium chay price "a head"; chay protein "average"; missing years | 8,750 stores; France and Italy; per head at a buffet and per bill at a restaurant; median; years added; Hung Yen (former Thai Binh) | [@CHN-12; @CHN-15; @EXP-05; @CHY-37; @FORM-01] | Part III chapters |
 
 ## M5.11 Changes made in v0.4
@@ -282,7 +282,7 @@ Version 0.4 (September 2026) checks Part III against 80 named actors and adds th
 
 ## M5.12 Changes made in v0.5
 
-Version 0.5 (September 2026) adds a prologue for newcomers in English and Vietnamese ([[front-prologue]], [[front-prologue-vi]]). No finding changes. The other changes:
+Version 0.5 (September 2026) adds a prologue for newcomers in English and Vietnamese ([[front-prologue]]; the Vietnamese prologue is held back from v0.10, see section M5.16). No finding changes. The other changes:
 
 | Topic | Version 0.4 | Version 0.5 | Where |
 |---|---|---|---|
@@ -492,10 +492,10 @@ Open issues from the editor logs, fixed before release (the checks behind the gl
 | National Innovation Center (NIC) | "Under MOST" (S11, OQ-070); "the Vietnam Innovation Network (NIC)" (OQ-056) | The National Innovation Center, under the Ministry of Finance (Government newspaper, May 2026) | [[app-s11-capital]], [[app-r1-open-questions]] |
 | NACEFA's name | "National Center for Food Analysis and Certification" (INF-03, `pilot_labs.csv`); "... and Testing" (`institutions.csv`); not decoded on the pages | National Center for Food Analysis and Assessment, as on FIRI's page (INF-03), decoded at first use | [[ch05-industrial-base]], [[ch06-knowledge-talent]], [[ch30-unknowns]], [[app-s8-labs-talent]], [[app-s9-regulation]], [[brief-startups]], [[app-r3-glossary]], [[app-r4-sources]] |
 | Owner of the protein-quality testing option (PO-027) | MAE (FIRI's NACEFA laboratory) | MOIT, the ministry FIRI sits under; NACEFA is designated by MOIT to test imported food | [[ch27-policy-options]], `policy_options.csv` |
-| Heme gloss | "Impossible's heme, a protein it uses for flavour"; glossary: "an iron-containing protein that gives meat its colour and flavour" | Impossible Foods' soy leghemoglobin, a heme-carrying protein made by yeast and used for flavour. Heme is the iron-containing part, not the protein (US FDA letter on GRN 737) | [[front-prologue]], [[front-prologue-vi]], [[app-r3-glossary]] |
+| Heme gloss | "Impossible's heme, a protein it uses for flavour"; glossary: "an iron-containing protein that gives meat its colour and flavour" | Impossible Foods' soy leghemoglobin, a heme-carrying protein made by yeast and used for flavour. Heme is the iron-containing part, not the protein (US FDA letter on GRN 737) | [[front-prologue]], Vietnamese prologue, [[app-r3-glossary]] |
 | Heme inclusion level (OQ-441) | Open; S13 said we found no source for an inclusion level | Closed: Impossible Foods notified US use at up to 0.8% soy leghemoglobin protein in ground beef analogues (2018). The "0.5 to 2%" range has no source and is not used | [[app-s13-science]], [[app-r1-open-questions]] |
 | Glosses and expansions | Written from general knowledge | Checked against sources. Reworded: *Vu Lan* (startups brief), *giò* ("meat-paste rolls"), the Vietnam Buddhist Sangha and its Ho Chi Minh City newspaper Giac Ngo (chapter 12), VILAS (S8 and first use), VPCA (a members' network of investors, S11). Added: NECTAR (D2) and CASE (chapter 30, S8, R1). Confirmed as written: *nem*, V-Label, NAFOSTED, QUATEST 3, UPCoM, HNX, IUH, VTT and GFLI | [[brief-startups]], [[ch12-chay-baseline]], [[app-s8-labs-talent]], [[app-s11-capital]], [[app-d2-consumer-evidence]], [[ch30-unknowns]] |
-| World output of animal foods | "World output of meat, dairy and eggs rises 17%" | Confirmed as a world figure; the horizon is now in the sentence ("by 2034") | [[front-prologue]], [[front-prologue-vi]] |
+| World output of animal foods | "World output of meat, dairy and eggs rises 17%" | Confirmed as a world figure; the horizon is now in the sentence ("by 2034") | [[front-prologue]], Vietnamese prologue |
 | Status column in Appendix R1 | 12 questions shown as open that the register marks closed (OQ-115, OQ-150, OQ-181, OQ-244) or partly closed (8) | Mirrors `open_questions.csv` | [[app-r1-open-questions]] |
 
 ### M5.14.8 Stat tiles and charts
@@ -553,7 +553,7 @@ What was done:
 - **Headings** say what each section finds where possible. Section numbers and anchors did not change.
 - **Reading times** were recomputed at about 230 words a minute, and version markers were removed from reading text.
 - **Checks.** Each editor compared their pages with version 0.7 by script. Every number, citation and tag was kept unless a feed claim was removed with its citation. Removals, changed conclusions and new calculations are in the editor logs.
-- **Vietnamese pages.** [[front-exec-summary-vi]] was rewritten to match the English summary, including the food-security section, and [[front-prologue-vi]] mirrors the changes to the English prologue.
+- **Vietnamese pages.** The Vietnamese executive summary was rewritten to match the English summary, including the food-security section, and the Vietnamese prologue mirrors the changes to the English prologue.
 
 What was not done:
 
@@ -638,6 +638,7 @@ Version 0.10 adds one research round, wave 13: a screen of 170 published solutio
   - **Wild-fish squeeze.** The squeeze on wild fish now also reaches surimi, a human-food export.
   - **Soy back-cast.** The Protein Project's back-casting method, run on the study's data, confirms chapter 22. A 20% cut in imported soy protein by 2035 is out of reach (new section F4.8.1).
   - **New shock.** SHK-021 is added.
+- **Vietnamese pages held back.** The Vietnamese executive summary (*Tóm tắt báo cáo*) and the Vietnamese prologue (*Lời mở đầu*) leave the package until a full translation pass for version 1.0. Their v0.10 texts are kept in `working-papers/vi-pages/`. Links to them are removed from the cover, the two-minute summary, How to read, the FAQ, Appendix R3, Appendix M1 and this appendix, and from the manifest, the tiles and the charts. The bilingual glossary (R3) and the Vietnamese tile labels (`label_vi`) stay. No finding changes.
 - **Front pages and briefs.**
   - The executive summaries (English and Vietnamese) gain a paragraph on the screen.
   - How to read decodes the new codes.

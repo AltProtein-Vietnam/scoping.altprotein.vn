@@ -18,7 +18,7 @@ charts: []
 
 ## What it covers: protein for people
 
-New to alternative protein? Start with the prologue ([[front-prologue]], or [[front-prologue-vi]] in Vietnamese).
+New to alternative protein? Start with the prologue ([[front-prologue]]).
 
 The report is about protein for people: what Vietnam could make at home for people to eat, from what, at what cost, under which rules, and who would buy it, now and to 2050. In short: protein for people first; feed only as context.
 
@@ -35,8 +35,8 @@ The report is about protein for people: what Vietnam could make at home for peop
 | Layer | What it is | Who it is for |
 |---|---|---|
 | [[front-two-minute]] | The report on one screen | Everyone |
-| Executive summary (English and Vietnamese) and [[front-at-a-glance]] | The findings and recommended steps | Everyone |
-| Prologue (English and Vietnamese) and [[front-faq]] | Background for newcomers and answers to common questions | Readers new to the field |
+| Executive summary and [[front-at-a-glance]] | The findings and recommended steps | Everyone |
+| Prologue and [[front-faq]] | Background for newcomers and answers to common questions | Readers new to the field |
 | Six audience briefs | What matters for one type of reader, with links into the report | Investors, policy makers, startups, manufacturers, research bodies, international organisations |
 | Main report: 30 chapters in five parts | The argument, from context to what to do | Readers who want the reasoning |
 | Appendices, grouped by theme | The detailed evidence behind each part | Analysts, due diligence, researchers |

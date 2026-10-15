@@ -9,7 +9,7 @@ audiences: [investors, policy, startups, manufacturers, research, international]
 reading_time_min: 22
 key_numbers: [kn-soy-fed-to-animals, kn-livestock-emissions-share, kn-land-animals-slaughtered, kn-altprotein-investment-2025, kn-soy-protein-import]
 related_data: [prologue_protein_footprints.csv, prologue_investment_by_year.csv, approvals.csv, glossary.csv, meat_dairy_imports.csv, origin_support.csv]
-related_pages: [front-prologue-vi, front-how-to-read, front-exec-summary, app-r3-glossary, app-s13-science, ch21-frontier-technology, app-s3-regional, app-d7-global-benchmarks, app-s11-capital, ch01-why-vietnam, ch02-alt-protein-today, ch26-plays, ch22-protein-balance-2050, app-d8-demand-model, app-s6-feed-market, app-f6-aquafeed-feedstock-futures, app-m5-changelog]
+related_pages: [front-how-to-read, front-exec-summary, app-r3-glossary, app-s13-science, ch21-frontier-technology, app-s3-regional, app-d7-global-benchmarks, app-s11-capital, ch01-why-vietnam, ch02-alt-protein-today, ch26-plays, ch22-protein-balance-2050, app-d8-demand-model, app-s6-feed-market, app-f6-aquafeed-feedstock-futures, app-m5-changelog]
 charts: [chart-protein-footprints, chart-altprotein-investment-by-year, chart-us-pbm-trend]
 ---
 

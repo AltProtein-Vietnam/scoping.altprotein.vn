@@ -18,7 +18,7 @@ import {
   navKey,
   pageIdForPath,
 } from '../lib/site';
-import { MOVED_PAGES } from '../lib/redirects';
+import { MOVED_PAGES, WITHDRAWN_PATHS } from '../lib/redirects';
 
 const lang = Astro.locals.lang ?? 'en';
 const s = t(lang);
@@ -32,6 +32,8 @@ if (/^\/chapters(\/|$)/.test(path)) return Astro.redirect(localize('/report', la
 const moved = /^\/(report|appendices)\/([a-z0-9-]+)$/.exec(path);
 if (moved && MOVED_PAGES[moved[2]])
   return Astro.redirect(href(MOVED_PAGES[moved[2]], lang) + Astro.url.search, 301);
+if (WITHDRAWN_PATHS[path])
+  return Astro.redirect(href(WITHDRAWN_PATHS[path], lang) + Astro.url.search, 302);
 
 // Data files that were public before v0.10 now live under /files/ (editors only).
 const dataFile = /^\/data\/((?:charts\/)?[\w.-]+\.(?:csv|json|md))$/.exec(path);

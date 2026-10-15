@@ -44,3 +44,11 @@ export const MOVED_PAGES: Record<string, string> = {
   'ch19-vision-2050': 'ch24-vision-2050',
   'ch20-robust-moves': 'ch28-robust-moves',
 };
+
+// Addresses of pages held back from the report, and the page each one leads to meanwhile. The
+// Vietnamese summary and prologue left in v0.10 until a translation pass for version 1.0, so the
+// redirects are temporary (302).
+export const WITHDRAWN_PATHS: Record<string, string> = {
+  '/tom-tat': 'front-exec-summary',
+  '/loi-mo-dau': 'front-prologue',
+};

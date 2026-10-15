@@ -13,7 +13,7 @@ const editor = Astro.locals.editor;
 // (research rounds, sources, actors) follow the published text.
 let method = '';
 try {
-  const summary = (await loadPage(vi ? ROLE.summaryVi : ROLE.summary)).entry?.data.body ?? '';
+  const summary = (await loadPage(ROLE.summary)).entry?.data.body ?? '';
   const m = /^\*(About this report|Về báo cáo)\.\*\s*(.+)$/m.exec(summary);
   if (m) method = renderInline(m[2], { lang, editor, citeTarget: 'sources' });
 } catch (error) {

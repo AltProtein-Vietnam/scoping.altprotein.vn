@@ -1664,8 +1664,7 @@
    "placement": [
     "ch13-consumers",
     "app-d7-global-benchmarks",
-    "front-prologue",
-    "front-prologue-vi"
+    "front-prologue"
    ],
    "alt_text": "Line: US plant-based meat and seafood sales fell from USD 1.4 billion in 2021 to 1.0 billion in 2025, and their share of total meat sales from 1.4% to about 0.7%.",
    "render": "Inline SVG generated at build time (no Chart.js). Accessible: include <title> and <desc>, and a visually hidden data table. Respect light and dark themes.",
@@ -2098,8 +2097,7 @@
    "evidence": "general",
    "confidence": "High",
    "placement": [
-    "front-prologue",
-    "front-prologue-vi"
+    "front-prologue"
    ],
    "alt_text": "Horizontal bars: per 100 g of protein, beef from beef herds averages about 50 kg CO2e, lamb 20, farmed prawns 18, dairy-herd beef 17, cheese 11, pork 7.6, farmed fish 6.0, poultry 5.7, eggs 4.2, tofu 2.0, groundnuts 1.2, other pulses 0.8, peas 0.4 and nuts 0.3.",
    "render": "Inline SVG generated at build time (no Chart.js). Accessible: include <title> and <desc>, and a visually hidden data table. Respect light and dark themes.",
@@ -2139,8 +2137,7 @@
    "evidence": "general",
    "confidence": "Medium",
    "placement": [
-    "front-prologue",
-    "front-prologue-vi"
+    "front-prologue"
    ],
    "alt_text": "Stacked bars (GFI data): total alternative protein investment rose from about USD 1.4 billion in 2019 to about 7.1 billion in 2021, then fell to 3.2 billion in 2022, 1.6 billion in 2023, 1.1 billion in 2024 and 0.88 billion in 2025; fermentation took 252 of 359 million in the first half of 2026.",
    "render": "Inline SVG generated at build time (no Chart.js). Accessible: include <title> and <desc>, and a visually hidden data table. Respect light and dark themes.",

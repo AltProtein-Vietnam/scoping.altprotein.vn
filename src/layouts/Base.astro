@@ -64,7 +64,7 @@ const page = createPublicPageContext({
 });
 const draftNotice = vi ? SITE.draft_notice.vi : SITE.draft_notice.en;
 const searchAction = localize('/search', lang);
-const summaryHref = href(vi ? ROLE.summaryVi : ROLE.summary, lang);
+const summaryHref = href(ROLE.summary, lang);
 const navItems = [
   { key: 'summary', label: s.summary, href: summaryHref },
   ...PART_LIST.map((p) => ({
@@ -316,11 +316,6 @@ const back = encodeURIComponent(Astro.url.pathname + Astro.url.search);
             </li>
             <li>
               <a href={href(ROLE.summary, lang)}>{s.homeReadSummary}</a>
-            </li>
-            <li>
-              <a href={href(ROLE.summaryVi, lang)} lang="vi">
-                Tóm tắt tiếng Việt
-              </a>
             </li>
             <li>
               <a href={localize('/report', lang)}>{s.report}</a>

@@ -90,9 +90,8 @@ const paths = Object.fromEntries(
     (SITE.audience_paths[a] ?? []).filter((id) => PAGE_BY_ID.has(id) && canReadPage(id, editor)),
   ]),
 );
-const viSummary = PAGE_BY_ID.get(ROLE.summaryVi)!;
 const enSummary = PAGE_BY_ID.get(ROLE.summary)!;
-const prologue = PAGE_BY_ID.get(vi ? ROLE.prologueVi : ROLE.prologue)!;
+const prologue = PAGE_BY_ID.get(ROLE.prologue)!;
 const released = (() => {
   const [y, m] = (SITE.versions.find((v) => v.version === SITE.version)?.date ?? '')
     .split('-')
@@ -119,7 +118,7 @@ const legendScope = ['direct', 'adjacent', 'general'] as const;
 
 <Base
   title={cover?.data.title ?? SITE.title}
-  description={vi ? viSummary.summary : (cover?.data.summary ?? SITE.title)}
+  description={cover?.data.summary ?? SITE.title}
   content={cover ? { collection: 'pages', id: cover.id, slug: ROLE.cover } : undefined}
   current={ROLE.cover}
   pageClass="page-home"
@@ -140,42 +139,20 @@ const legendScope = ['direct', 'adjacent', 'general'] as const;
         </p>
         {!vi && cover?.data.subtitle && <p class="hero-q">{cover.data.subtitle}</p>}
         <div class="hero-cta">
-          {vi ? (
-            <>
-              <a class="btn btn-primary" href={href(ROLE.summaryVi, lang)}>
-                {s.homeReadVi} <small>{s.minutes(viSummary.reading_time_min ?? 0)}</small>
-              </a>
-              <a class="btn" href={href(ROLE.summary, lang)}>
-                {s.homeReadSummary}
-              </a>
-            </>
-          ) : (
-            <>
-              <a class="btn btn-primary" href={href(ROLE.summary, lang)}>
-                {s.homeReadSummary} <small>{s.minutes(enSummary.reading_time_min ?? 0)}</small>
-              </a>
-              <a class="btn" href={href(ROLE.summaryVi, lang)} lang="vi" hreflang="vi">
-                Tóm tắt tiếng Việt
-              </a>
-            </>
-          )}
           <a
-            class="btn"
-            href={href(prologue.id, lang)}
-            lang={prologue.lang !== lang ? prologue.lang : undefined}
+            class="btn btn-primary"
+            href={href(ROLE.summary, lang)}
+            hreflang={vi ? enSummary.lang : undefined}
           >
+            {s.homeReadSummary} <small>{s.minutes(enSummary.reading_time_min ?? 0)}</small>
+          </a>
+          <a class="btn" href={href(prologue.id, lang)} hreflang={vi ? prologue.lang : undefined}>
             {s.homeNewcomers}
           </a>
         </div>
       </div>
       <aside class="hero-note" aria-label={s.homeAbout}>
-        {vi ? (
-          <p class="lede" lang="vi">
-            {viSummary.summary}
-          </p>
-        ) : (
-          lede && <p class="lede" set:html={lede} />
-        )}
+        {lede && <p class="lede" lang={contentLang} set:html={lede} />}
         {coverDraft && (
           <p class="draft-note" lang={contentLang}>
             <strong>{vi ? SITE.draft_notice.vi : 'Draft for review.'}</strong>{' '}

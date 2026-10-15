@@ -109,28 +109,8 @@ const heading = (rendered.heading ?? title).replace(
   '<span class="ch-n">$1</span> ',
 );
 const hasAnswer = rendered.html.includes('class="answer"');
-const COUNTERPART: Record<string, string> = {
-  [ROLE.summaryVi]: ROLE.summary,
-  [ROLE.prologueVi]: ROLE.prologue,
-  [ROLE.summary]: ROLE.summaryVi,
-  [ROLE.prologue]: ROLE.prologueVi,
-};
-const langNote =
-  contentLang !== lang
-    ? contentLang === 'vi'
-      ? {
-          text: s.pageInVi,
-          link: href(COUNTERPART[meta.id] ?? ROLE.summary, lang),
-          linkText: COUNTERPART[meta.id] === ROLE.prologue ? s.readEnPrologue : s.readEnSummary,
-        }
-      : lang === 'vi'
-        ? {
-            text: s.pageInEn,
-            link: href(COUNTERPART[meta.id] ?? ROLE.summaryVi, lang),
-            linkText: COUNTERPART[meta.id] === ROLE.prologueVi ? s.readViPrologue : s.readViSummary,
-          }
-        : null
-    : null;
+// Report text is in English; the Vietnamese interface says so.
+const langNote = lang === 'vi' && contentLang !== lang ? s.pageInEn : null;
 // Registers are best used as filterable tables (the data browser is for editors).
 const REGISTER_VIEWS: Record<string, { key: string; href: string; editorOnly: boolean }> = {
   [ROLE.openQuestions]: { key: 'openQuestions', href: '/data/open-questions', editorOnly: true },
@@ -240,7 +220,7 @@ const toc2 = rendered.toc.filter((h) => h.depth === 2);
     )}
     {langNote && (
       <p class="page-note" lang={lang}>
-        {langNote.text} <a href={langNote.link}>{langNote.linkText}</a>
+        {langNote}
       </p>
     )}
     {showRegisterView && (

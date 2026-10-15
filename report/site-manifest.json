@@ -77,26 +77,6 @@
    "lang": "en"
   },
   {
-   "id": "front-exec-summary-vi",
-   "title": "Tóm tắt báo cáo",
-   "short_title": "Tóm tắt (Tiếng Việt)",
-   "section": "front",
-   "part": null,
-   "order": 4,
-   "audiences": [
-    "investors",
-    "policy",
-    "startups",
-    "manufacturers",
-    "research",
-    "international"
-   ],
-   "reading_time_min": 17,
-   "summary": "Lý do để Việt Nam tự làm thêm protein cho người dân ăn là lý do an ninh, có cơ sở nhưng hẹp: khoảng hai phần ba lượng đạm động vật người dân ăn dựa vào nhập khẩu, trực tiếp hoặc qua thức ăn chăn nuôi, và chỉ protein làm từ nguyên liệu trong nước mới giảm được tỷ lệ đó. Cơ hội đầu tiên là đạm thực vật tạo cấu trúc sản xuất trong nước, một cụm nhà máy chuyển tinh bột sắn thành đường lên men, và lên men thử nghiệm dùng chung. Người mua protein mới là doanh nghiệp, mua làm nguyên liệu, chứ không phải người mua lẻ. Công cụ chính của Nhà nước là một điều khoản về thực phẩm mới trong Luật An toàn thực phẩm.",
-   "path": "content/00-front/front-exec-summary-vi.md",
-   "lang": "vi"
-  },
-  {
    "id": "front-at-a-glance",
    "title": "At a glance",
    "short_title": "At a glance",
@@ -135,26 +115,6 @@
    "summary": "For readers new to the field: what alternative protein is, the main families of technology and how each is made, the general arguments for and against it, where the world stands in 2026 on markets, money and rules, where Vietnam fits and why this study is about protein for people, and the terms and conventions needed to read the report.",
    "path": "content/00-front/front-prologue.md",
    "lang": "en"
-  },
-  {
-   "id": "front-prologue-vi",
-   "title": "Lời mở đầu: protein thay thế cho người mới tìm hiểu",
-   "short_title": "Lời mở đầu (Tiếng Việt)",
-   "section": "front",
-   "part": null,
-   "order": 7,
-   "audiences": [
-    "investors",
-    "policy",
-    "startups",
-    "manufacturers",
-    "research",
-    "international"
-   ],
-   "reading_time_min": 20,
-   "summary": "Dành cho người mới: protein thay thế là gì, các nhóm công nghệ chính và cách làm ra từng loại, những lập luận ủng hộ và phản đối, bức tranh thế giới năm 2026 về thị trường, dòng vốn và quy định, vị trí của Việt Nam và vì sao nghiên cứu này bàn về protein cho con người, cùng các thuật ngữ và quy ước cần biết để đọc báo cáo.",
-   "path": "content/00-front/front-prologue-vi.md",
-   "lang": "vi"
   },
   {
    "id": "front-how-to-read",
@@ -1628,10 +1588,6 @@
      "page": "front-exec-summary"
     },
     {
-     "page": "front-exec-summary-vi",
-     "lang": "vi"
-    },
-    {
      "page": "front-at-a-glance"
     }
    ]
@@ -1641,10 +1597,6 @@
    "children": [
     {
      "page": "front-prologue"
-    },
-    {
-     "page": "front-prologue-vi",
-     "lang": "vi"
     },
     {
      "page": "front-how-to-read"
@@ -2086,8 +2038,6 @@
    "app-f5-targets-hubs"
   ],
   "vietnamese-readers": [
-   "front-prologue-vi",
-   "front-exec-summary-vi",
    "front-at-a-glance",
    "ch24-vision-2050",
    "ch26-plays",
