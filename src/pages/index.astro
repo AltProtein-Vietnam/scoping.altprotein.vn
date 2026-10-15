@@ -138,13 +138,7 @@ const legendScope = ['direct', 'adjacent', 'general'] as const;
         <p class="hero-sub" lang={vi ? 'vi' : undefined}>
           {titleLines.sub}
         </p>
-        {vi ? (
-          <p class="hero-q" lang="vi">
-            {viSummary.summary}
-          </p>
-        ) : (
-          cover?.data.subtitle && <p class="hero-q">{cover.data.subtitle}</p>
-        )}
+        {!vi && cover?.data.subtitle && <p class="hero-q">{cover.data.subtitle}</p>}
         <div class="hero-cta">
           {vi ? (
             <>
@@ -175,7 +169,13 @@ const legendScope = ['direct', 'adjacent', 'general'] as const;
         </div>
       </div>
       <aside class="hero-note" aria-label={s.homeAbout}>
-        {lede && <p class="lede" lang={contentLang} set:html={lede} />}
+        {vi ? (
+          <p class="lede" lang="vi">
+            {viSummary.summary}
+          </p>
+        ) : (
+          lede && <p class="lede" set:html={lede} />
+        )}
         {coverDraft && (
           <p class="draft-note" lang={contentLang}>
             <strong>{vi ? SITE.draft_notice.vi : 'Draft for review.'}</strong>{' '}

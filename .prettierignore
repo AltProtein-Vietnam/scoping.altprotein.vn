@@ -11,3 +11,4 @@ report/
 src/generated/
 public/data/
 public/files/
+.files-build/

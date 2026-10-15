@@ -21,7 +21,11 @@ export const GET: APIRoute = async ({ request, locals, url }) => {
   const headers = new Headers(asset.headers);
   headers.set('Cache-Control', 'private, no-store');
   headers.set('X-Robots-Tag', 'noindex');
-  if (/\.(csv|md)$/.test(url.pathname) && !/charset/i.test(headers.get('Content-Type') ?? ''))
+  if (
+    asset.ok &&
+    /\.(csv|md)$/.test(url.pathname) &&
+    !/charset/i.test(headers.get('Content-Type') ?? '')
+  )
     headers.set(
       'Content-Type',
       `${url.pathname.endsWith('.md') ? 'text/markdown' : 'text/csv'}; charset=utf-8`,

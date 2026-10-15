@@ -104,8 +104,8 @@ export function feedImportDependence(spec, D) {
     under: (ctx) => {
       const x = ctx.scale(100);
       return (
-        line(x, ctx.top - 8, x, ctx.bottom, INK, 1) +
-        text(x, ctx.top - 16, '100% imported', { size: 12, fill: INK, anchor: 'middle' })
+        line(x, ctx.top - 6, x, ctx.bottom, INK, 1) +
+        text(x, ctx.top - 13, '100% imported', { size: 12, fill: INK, anchor: 'middle' })
       );
     },
   });

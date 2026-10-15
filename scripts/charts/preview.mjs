@@ -17,12 +17,13 @@ const esc = (s) =>
     .replace(/>/g, '&gt;');
 const charts = renderAllCharts(reportDir);
 
-// Work Sans from the package the site bundles (@fontsource-variable/work-sans), so the chart
+// Be Vietnam Pro from the package the site bundles (@fontsource/be-vietnam-pro), so the chart
 // check measures text with the site's font and needs no network.
-const fontPkg = path.resolve(here, '../../node_modules/@fontsource-variable/work-sans');
+const fontPkg = path.resolve(here, '../../node_modules/@fontsource/be-vietnam-pro');
 fs.mkdirSync(path.join(outDir, 'fonts'), { recursive: true });
-const fontCss = fs
-  .readFileSync(path.join(fontPkg, 'wght.css'), 'utf8')
+const fontCss = ['400.css', '500.css', '600.css', '700.css']
+  .map((f) => fs.readFileSync(path.join(fontPkg, f), 'utf8'))
+  .join('\n')
   .replace(/url\(\.\/files\/([^)]+)\)/g, (m, f) => {
     fs.copyFileSync(path.join(fontPkg, 'files', f), path.join(outDir, 'fonts', f));
     return `url(fonts/${f})`;
@@ -36,7 +37,7 @@ ${fontCss}
 [data-theme=dark]{--series-1:#1aa89b;--series-2:#d95926;--series-3:#3987e5;--series-4:#c98500;--series-5:#9085e9;--series-6:#d55181;--series-7:#008300;--series-8:#e66767;
 --seq-1:#12302d;--seq-2:#154540;--seq-3:#1a5d56;--seq-4:#1f7a70;--seq-5:#1aa89b;--seq-6:#58c4b8;--seq-7:#a6e3da;
 --chart-ink:#e7eeec;--chart-muted:#a9b6b2;--chart-grid:#26322f;--chart-axis:#56635f;--chart-surface:#121a19;--chart-highlight:#1aa89b;--chart-dim:#34413e;--chart-band:rgba(26,168,155,.18);--chart-on-dark:#0b1413;--line:#26322f}
-body{margin:0;background:var(--chart-surface);color:var(--chart-ink);font-family:'Work Sans Variable',system-ui,sans-serif}
+body{margin:0;background:var(--chart-surface);color:var(--chart-ink);font-family:'Be Vietnam Pro',system-ui,sans-serif}
 main{max-width:720px;margin:0 auto;padding:16px 20px}
 figure.chart{margin:0 0 40px;padding:16px 0}
 figure.chart h2{font-size:18px;margin:0 0 4px}

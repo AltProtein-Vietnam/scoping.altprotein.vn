@@ -103,7 +103,11 @@ function swimlanes(o) {
   for (const t of ticks) {
     const x = scale(t.v);
     parts.push(line(x, top, x, bottom, GRID, 1));
-    parts.push(text(x, bottom + 14, t.label, { size: 12, anchor: 'middle' }));
+    // A label at the right edge ends at the edge rather than running past it.
+    const edge = x + textWidth(String(t.label), 12) / 2 > W - 2;
+    parts.push(
+      text(edge ? W - 2 : x, bottom + 14, t.label, { size: 12, anchor: edge ? 'end' : 'middle' }),
+    );
   }
   parts.push(line(left, bottom, right, bottom, AXIS, 1));
   for (const bx of breaks) parts.push(breakMark(bx, bottom, 10));

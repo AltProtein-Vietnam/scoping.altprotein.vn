@@ -328,3 +328,13 @@ test('the home page reads its argument from the two-minute summary and parts fro
   const parts = coverPartAnswers(body(ROLE.cover));
   assert.deepEqual(Object.keys(parts), ['I', 'II', 'III', 'IV', 'V']);
 });
+
+test('editor-only files are routed through the Worker and never shipped from public/', () => {
+  const config = fs.readFileSync('wrangler.jsonc', 'utf8');
+  // Top level and env.production both send /files/* to the Worker before the asset server.
+  assert.equal(config.match(/"run_worker_first": \["\/files\/\*"\]/g)?.length, 2);
+  const build = fs.readFileSync('scripts/build.mjs', 'utf8');
+  assert.match(build, /--files-out/);
+  assert.match(build, /dist\/client/);
+  assert.ok(!fs.existsSync('public/data') && !fs.existsSync('public/downloads'));
+});

@@ -824,6 +824,7 @@ main:focus {
 
 /* Prose --------------------------------------------------------------------------------- */
 .prose {
+  overflow-wrap: break-word;
   font-family: var(--serif);
   font-size: 1.0625rem;
   line-height: 1.68;
@@ -903,6 +904,11 @@ main:focus {
 }
 .prose em {
   font-style: italic;
+}
+.prose a,
+.doc-sources a,
+.pop a {
+  overflow-wrap: anywhere;
 }
 .prose a.ext::after {
   content: '↗';
@@ -1052,7 +1058,6 @@ sup.cite {
   line-height: 0;
   vertical-align: 0.6em;
   margin-left: 0.08em;
-  white-space: nowrap;
 }
 sup.cite a {
   text-decoration: none;
@@ -1093,6 +1098,8 @@ sup.cite a:hover {
   background: currentColor;
 }
 .evn {
+  /* Keeps its visually hidden sentence inside scrolling tables (it is absolutely positioned). */
+  position: relative;
   font: 500 0.7rem/1.25 var(--sans);
   color: var(--muted);
   font-style: normal;
@@ -1344,6 +1351,7 @@ sup.cite a:hover {
   font-size: 0.95em;
   vertical-align: baseline;
   line-height: 1.2;
+  white-space: normal;
 }
 .chart-src .evn {
   margin-left: 0.2rem;
@@ -1378,6 +1386,7 @@ sup.cite a:hover {
 
 /* Tables ---------------------------------------------------------------------------------- */
 .table-wrap {
+  position: relative;
   overflow-x: auto;
   margin-top: 1.9rem !important;
   margin-bottom: 1.9rem !important;

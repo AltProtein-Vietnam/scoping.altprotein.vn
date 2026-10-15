@@ -14,3 +14,4 @@ src/generated/
 public/files/
 public/data/
 public/downloads/
+.files-build/

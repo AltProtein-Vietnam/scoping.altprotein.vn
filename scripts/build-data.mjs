@@ -1,6 +1,9 @@
 // Generates the build-time data the site reads from the report package in report/.
-// Outputs: src/generated/*.json (bundled into the Worker) and public/files/ (static assets that the
-// Worker serves to editors only: data, Markdown and zips; see src/pages/files/[...path].ts).
+// Outputs: src/generated/*.json (bundled into the Worker) and the files the Worker serves to
+// editors only (data, Markdown and zips; see src/pages/files/[...path].ts). By default those go to
+// public/files/ for the dev server. A build passes `--files-out <dir>` instead: Astro's Cloudflare
+// handler serves anything under public/ straight from the asset binding, before any route or
+// middleware runs, so scripts/build.mjs adds the files to the uploaded assets after `astro build`.
 import fs from 'node:fs';
 import path from 'node:path';
 import { readCsv } from './lib/csv.mjs';
@@ -8,13 +11,15 @@ import { loadPages, readJson, REPORT, ROOT } from './lib/report.mjs';
 import { writeZip, zipDirectory } from './lib/zip.mjs';
 
 const GEN = path.join(ROOT, 'src/generated');
-const FILES = path.join(ROOT, 'public/files');
+const filesOut = process.argv.indexOf('--files-out');
+const FILES = path.resolve(ROOT, filesOut > 0 ? process.argv[filesOut + 1] : 'public/files');
 const PUBLIC_DATA = path.join(FILES, 'data');
 const DOWNLOADS = path.join(FILES, 'downloads');
 const quiet = process.argv.includes('--quiet');
 
 fs.rmSync(GEN, { recursive: true, force: true });
 fs.rmSync(FILES, { recursive: true, force: true });
+fs.rmSync(path.join(ROOT, 'public/files'), { recursive: true, force: true });
 // Outputs of earlier builds, when these files were public.
 fs.rmSync(path.join(ROOT, 'public/data'), { recursive: true, force: true });
 fs.rmSync(path.join(ROOT, 'public/downloads'), { recursive: true, force: true });
