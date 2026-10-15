@@ -22,7 +22,7 @@ The appendix combines two passes:
 - **Wave 1 (Scite):** 30 searches in the Scite literature database, more than 150 Vietnam-affiliated records from 2015 to 2026 screened, and 76 papers tabulated with a key result each [@RD-01] {VN-direct|Medium}.
 - **Wave 2 (OpenAIRE):** country-tagged counts for 20 topics in Vietnam and 3 topic groups in five comparison countries, with every query URL stored so that the counts can be re-run [@BIB-01] {VN-direct|Medium}.
 
-`publications.csv` (103 rows) merges the wave 1 list with 40 top-cited wave 2 records, with duplicates removed by DOI (digital object identifier). The science of each technology (titres, costs, safety) is in [[app-s13-science]]. Pilot plants, laboratories and graduates are in [[app-s8-labs-talent]].
+`publications.csv` (103 rows, 97 of them active) merges the wave 1 list with 40 top-cited wave 2 records, with duplicates removed by DOI (digital object identifier). The science of each technology (titres, costs, safety) is in [[app-s13-science]]. Pilot plants, laboratories and graduates are in [[app-s8-labs-talent]].
 
 Terms used in this appendix:
 

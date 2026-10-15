@@ -578,7 +578,7 @@ See DG-114 for a minor disagreement on the pre-2025 soybean meal rate.
 
 ## S9.19 Route-to-market table (as of 23 September 2026)
 
-This is the full content of `routes.csv` (15 rows). Rows RT-001 to RT-016 come from the wave 2 table, matched to wave 1. RT-017 is a wave 1 row for a product type not in the wave 2 table. "Changed" marks rows that wave 2 changed. Rows RT-010 to RT-016 cover feed and aquafeed; they are now context and the record.
+This is the full content of the active rows of `routes.csv` (15 rows). Rows RT-001 to RT-016 come from the wave 2 table, matched to wave 1. RT-017 is a wave 1 row for a product type not in the wave 2 table. "Changed" marks rows that wave 2 changed. Rows RT-010 to RT-016 cover feed and aquafeed; they are now context and the record.
 
 | ID | Product type | Route | Authority | Documented agency time | Main open risk | Legal basis | Precedent in Vietnam | Changed | Evidence |
 |---|---|---|---|---|---|---|---|---|---|

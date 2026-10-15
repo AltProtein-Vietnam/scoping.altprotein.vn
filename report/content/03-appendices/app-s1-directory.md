@@ -4,7 +4,7 @@ title: "S1. Company and actor directory"
 short_title: "S1. Directory"
 section: appendix
 order: 21
-summary: "A guided tour of the 97 companies and organisations in companies.csv, grouped by what they do, with location, scale signal, status and sources, followed by a dated timeline of Vietnamese alternative protein from 2015 to September 2026. Feed firms are kept as context."
+summary: "A guided tour of the 90 companies and organisations in companies.csv, grouped by what they do, with location, scale signal, status and sources, followed by a dated timeline of Vietnamese alternative protein from 2015 to September 2026. Feed firms are kept as context."
 audiences: [investors, startups, manufacturers, policy, research, international]
 reading_time_min: 35
 key_numbers: [kn-vinasoy-share]
@@ -15,7 +15,7 @@ charts: [chart-timeline]
 
 # S1. Company and actor directory
 
-This appendix is a guide to the companies and organisations in `companies.csv` (97 rows). It groups them by their role in supply: making non-animal protein foods, making or importing protein ingredients, financing, and supporting the field. Each group has a short table. The appendix ends with a dated timeline built from `timeline.csv` and the wave 2 checks.
+This appendix is a guide to the companies and organisations in `companies.csv` (90 active rows). It groups them by their role in supply: making non-animal protein foods, making or importing protein ingredients, financing, and supporting the field. Each group has a short table. The appendix ends with a dated timeline built from `timeline.csv` and the wave 2 checks.
 
 The study is about protein for people. Feed makers and feed-ingredient firms stay in the directory as context and as the record: feed is the hidden import behind the meat, eggs, milk and farmed fish that people eat. The study no longer treats feed ingredients as something to make.
 
@@ -243,7 +243,7 @@ Concentrated plant proteins are largely imported in bags through chemical and fo
 
 ## S1.13 Timeline of main events, 2015 to September 2026
 
-Events come from `timeline.csv` (48 rows) and the wave 2 checks. Dates are as reported, and "c." means approximate. Before 2015 the incumbents built the base: spirulina at Vinh Hao (site chosen 1976), CJ's entry into Vietnamese food (1999), Thoai An (2005), Vinasoy's Bac Ninh phase 1 (90 million L a year, May 2013) and An Nhien's brand (2014) [@ECO-52; @ECO-34; @ECO-27; @ECO-42; @ECO-28] {VN-direct|Medium}.
+Events come from the active rows of `timeline.csv` (38 rows) and the wave 2 checks. Dates are as reported, and "c." means approximate. Before 2015 the incumbents built the base: spirulina at Vinh Hao (site chosen 1976), CJ's entry into Vietnamese food (1999), Thoai An (2005), Vinasoy's Bac Ninh phase 1 (90 million L a year, May 2013) and An Nhien's brand (2014) [@ECO-52; @ECO-34; @ECO-27; @ECO-42; @ECO-28] {VN-direct|Medium}.
 
 **2015**
 - August 2015: Vinasoy completes Bac Ninh phase 2, reaching 180 million L a year there after more than VND 1,280 bn of investment [@ECO-42] {VN-direct|Medium}.
@@ -320,7 +320,7 @@ Two of these gaps concern feed (Chinese single-cell protein imports and the CJ F
 
 ## Related data files
 
-- `companies.csv`: 97 companies and organisations (including Thai Duong Feed), with `change_log` for wave 2 corrections and `last_verified` dates.
+- `companies.csv`: 97 companies and organisations, 90 of them active (including Thai Duong Feed), with `change_log` for wave 2 corrections and `last_verified` dates.
 - `timeline.csv`: 48 dated events (1976 to September 2026).
 - `brands.csv`: 53 brands from the retail audit, with owner, manufacturer and plant location.
 - `ingredient_suppliers.csv`: 22 ingredient supply rows (trade flows, distributors, processors).

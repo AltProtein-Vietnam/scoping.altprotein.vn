@@ -190,7 +190,7 @@ All values are our assumptions for the years shown {VN-direct|Low} {fx:estimate}
 | Fermented share of the food substitute | n/a | n/a | n/a | 30%, 35%, 40%, 50% | BLA-211 to BLA-214 |
 
 Shared by all: population, SSR, dressing yields, export shares, compound shares, domestic maize output (4.1 Mt), non-feed maize (1.61 Mt) and yields abroad.
-- **S-ALT shares are what-if levels, not targets.** The 40% fishmeal share by 2050 sits within trials that replaced 25 to 60% of fishmeal without growth loss ([[app-s6-feed-market]], section S6.9) [@FM-08; @FM-17; @FM-22] {general|Medium}. The 10% SBM share by 2050 implies large cost falls or policy support: at 2026 costs microbial feed protein costs 4.6 to 5.1 times SBM protein (our calculation in [[ch09-economics]] and [[app-s6-feed-market]], from the fungal feed-protein cost stack and the World Bank soybean-meal price [@FM-01]) {VN-direct|Low} {fx:estimate}.
+- **S-ALT shares are what-if levels, not targets.** The 40% fishmeal share by 2050 sits within trials that replaced 25 to 60% of fishmeal without growth loss ([[app-s6-feed-market]], section S6.9) [@FM-08; @FM-17] {general|Medium}. The 10% SBM share by 2050 implies large cost falls or policy support: at 2026 costs microbial feed protein costs 4.6 to 5.1 times SBM protein (our calculation in [[ch09-economics]] and [[app-s6-feed-market]], from the fungal feed-protein cost stack and the World Bank soybean-meal price [@FM-01]) {VN-direct|Low} {fx:estimate}.
 - **S-HIGH is a stress case,** not a central view.
 - **A combined S-EFF plus S-ALT case was not modelled,** so we give no number for it. The two act through different channels and add up.
 

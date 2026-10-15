@@ -532,7 +532,10 @@ export function costStackFungal(spec, D) {
 export function sourcesByType(spec, D) {
   const isWave = (w) => /^wave\d+$/.test(w);
   const cols = Object.keys(D.csv(spec.data.file)[0] || {});
-  const rows = D.csv(spec.data.file).map((r) => {
+  // Sources retired in v0.9 stay in the file as the record but are not counted. A row with a
+  // shifted column (see below) may carry the status in a later field, so test every field.
+  const isRetired = (r) => Object.values(r).some((v) => /^retired in v0\.9/.test(String(v ?? '')));
+  const rows = D.csv(spec.data.file).filter((r) => !isRetired(r)).map((r) => {
     if (isWave(r.wave)) return r;
     // A row with an unquoted comma shifts its later fields one column right; read them from there.
     const at = (k, n) => r[cols[cols.indexOf(k) + n]];

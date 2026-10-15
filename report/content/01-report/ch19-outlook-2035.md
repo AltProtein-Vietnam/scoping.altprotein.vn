@@ -110,7 +110,7 @@ Each state has a picture, its drivers, what it would mean for the protein people
   - Vietnam aligns with an ASEAN novel-food reliance mechanism.
   - A negative signpost: Thailand's planned public precision-fermentation pilot plant is built first and draws the same investors ([[ch03-regional]]).
 
-Source for all three scenarios: AltProtein Vietnam synthesis of [@GT-10; @GT-11; @GT-15; @REG-12; @REG-47; @REG-54; @RGN-35; @CAP-01; @CAP-05; @ECO-05] and chapters 2 to 10, 26 and 27 {VN-direct\|Low}.
+Source for all three scenarios: AltProtein Vietnam synthesis of [@GT-10; @GT-11; @GT-15; @REG-12; @REG-47; @REG-54; @RGN-35] and chapters 2 to 10, 26 and 27 {VN-direct\|Low}.
 
 {{chart:chart-scenarios}}
 

@@ -384,7 +384,7 @@
     "international"
    ],
    "reading_time_min": 11,
-   "summary": "We test nine technology families against seven Vietnamese conditions: feedstock, industrial base, science readiness, route to market, buyers, competition and capital intensity. Textured plant protein for food fits now. Local legume and rice proteins and fungal foods are worth proving. Precision fermentation fits only as high-value, low-dose ingredients made under contract. Cultivated meat and seafood are research topics for this decade. Feed uses stay in the matrix as a record but are context only.",
+   "summary": "We test ten technology families against seven Vietnamese conditions: feedstock, industrial base, science readiness, route to market, buyers, competition and capital intensity. Textured plant protein for food fits now. Local legume and rice proteins and fungal foods are worth proving. Precision fermentation fits only as high-value, low-dose ingredients made under contract. Cultivated meat and seafood are research topics for this decade. Feed uses stay in the matrix as a record but are context only.",
    "path": "content/01-report/ch10-technology-fit.md",
    "lang": "en"
   },
@@ -992,7 +992,7 @@
     "international"
    ],
    "reading_time_min": 35,
-   "summary": "A guided tour of the 97 companies and organisations in companies.csv, grouped by what they do, with location, scale signal, status and sources, followed by a dated timeline of Vietnamese alternative protein from 2015 to September 2026. Feed firms are kept as context.",
+   "summary": "A guided tour of the 90 companies and organisations in companies.csv, grouped by what they do, with location, scale signal, status and sources, followed by a dated timeline of Vietnamese alternative protein from 2015 to September 2026. Feed firms are kept as context.",
    "path": "content/03-appendices/app-s1-directory.md",
    "lang": "en"
   },
@@ -1588,7 +1588,7 @@
     "manufacturers"
    ],
    "reading_time_min": 320,
-   "summary": "All 2,480 sources behind the report (806 in v0.1, 469 added by the futures round of v0.2, 451 by the demand round of v0.3, 577 by the actor check and expansion waves of v0.4, 81 by the prologue research of v0.5 and 96 by the food-security round of v0.8, including six from its editorial checks), grouped by the research stream that found them. Each citation code in the text links here and to sources.csv.",
+   "summary": "All 2,436 sources behind the report (764 in v0.1, 469 added by the futures round of v0.2, 450 by the demand round of v0.3, 574 by the actor check and expansion waves of v0.4, 81 by the prologue research of v0.5 and 96 by the food-security round of v0.8, including six from its editorial checks), grouped by the research stream that found them. Each citation code in the text links here and to sources.csv.",
    "path": "content/03-appendices/app-r4-sources.md",
    "lang": "en"
   }

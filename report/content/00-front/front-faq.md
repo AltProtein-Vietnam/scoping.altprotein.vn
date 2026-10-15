@@ -37,7 +37,7 @@ By AltProtein Vietnam, with AI research assistants working as parallel research 
 Every claim carries a label for where the evidence comes from (Vietnam itself, a comparable country, or global) and how strong it is (High, Medium or Low). Numbers we calculated say so. Where sources disagree, we give both and never average them ([[app-r2-disagreements]]). The weakest numbers are prices nobody publishes, such as delivered soy flour, and costs of plants that do not yet exist in Vietnam ([[ch30-unknowns]]).
 
 **Can I reuse the data?**
-The data behind the chapters (194 tables, 2,480 sources and two reproducible models) are part of the package. The licence will be set before version 1.0; until then, please ask AltProtein Vietnam before reusing them.
+The data behind the chapters (194 tables, 2,436 sources and two reproducible models) are part of the package. The licence will be set before version 1.0; until then, please ask AltProtein Vietnam before reusing them.
 
 **How do I send a correction or comment?**
 Send it to AltProtein Vietnam through the contact who shared this draft with you. Please give the page, the sentence and your source.

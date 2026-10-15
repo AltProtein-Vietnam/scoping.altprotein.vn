@@ -232,7 +232,7 @@ export function technologyFit(spec, D) {
       { label: 'Strong', color: SEQ(6) },
       { label: 'Moderate', color: SEQ(4) },
       { label: 'Weak', color: SEQ(2) },
-      { label: 'Benchmark (greyed)', color: DIM },
+      ...(rows.some(isBench) ? [{ label: 'Benchmark (greyed)', color: DIM }] : []),
     ],
     cols: cols.map((c) => ({ label: c })),
     labelW: 140,

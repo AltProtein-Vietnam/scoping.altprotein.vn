@@ -56,8 +56,6 @@ export const ROUTE_STATUS = {
   'RT-005': 'amber', // imported precision-fermented protein: self-declaration, GMO-product risk
   'RT-006': 'red', //   made-in-Vietnam precision fermentation: GMO closed-production certificate, timeline unpublished
   'RT-007': 'red', //   cultivated meat or seafood: no national route
-  'RT-008': 'green', // insect meal, livestock: listed feed
-  'RT-009': 'amber', // insect meal, aquafeed: aquafeed trial ambiguity
   'RT-010': 'green', // duckweed or algae meal, livestock: listed feed
   'RT-011': 'amber', // duckweed or microalgae, aquafeed: aquafeed trial ambiguity
   'RT-012': 'green', // yeast protein, livestock: listed feed
@@ -68,7 +66,8 @@ export const ROUTE_STATUS = {
   'RT-017': 'amber', // new additive or enzyme: registration route exists; enzyme and GM-derived status unclear
 };
 export function routeToMarket(spec, D) {
-  const rows = D.csv(spec.data.file);
+  // Rows retired in v0.9 (insect protein) stay in the data file as the record but are not shown.
+  const rows = D.csv(spec.data.file).filter((r) => (r.status_v0_9 ?? 'active') === 'active');
   const ST = {
     green: ['green', 'Clear route'],
     amber: ['amber', 'Route with legal risk'],

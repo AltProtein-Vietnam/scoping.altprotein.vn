@@ -5,7 +5,7 @@ short_title: "Technology fit"
 section: report
 part: "II. Supply: what Vietnam can make"
 order: 10
-summary: "We test nine technology families against seven Vietnamese conditions: feedstock, industrial base, science readiness, route to market, buyers, competition and capital intensity. Textured plant protein for food fits now. Local legume and rice proteins and fungal foods are worth proving. Precision fermentation fits only as high-value, low-dose ingredients made under contract. Cultivated meat and seafood are research topics for this decade. Feed uses stay in the matrix as a record but are context only."
+summary: "We test ten technology families against seven Vietnamese conditions: feedstock, industrial base, science readiness, route to market, buyers, competition and capital intensity. Textured plant protein for food fits now. Local legume and rice proteins and fungal foods are worth proving. Precision fermentation fits only as high-value, low-dose ingredients made under contract. Cultivated meat and seafood are research topics for this decade. Feed uses stay in the matrix as a record but are context only."
 audiences: [investors, startups, manufacturers, research, policy, international]
 reading_time_min: 11
 key_numbers: [kn-pf-titer-gap, kn-mung-diaas, kn-cultivated-cost-multiple]
@@ -18,7 +18,7 @@ charts: [chart-technology-fit-matrix]
 
 **In brief.**
 
-- **No technology is a general answer for Vietnam.** Each fits a specific mix of feedstock, buyer and rule. We score nine families against seven conditions drawn from the previous chapters.
+- **No technology is a general answer for Vietnam.** Each fits a specific mix of feedstock, buyer and rule. We score ten families against seven conditions drawn from the previous chapters.
 - **Fits now: textured plant protein for food.** The rules are clear, the buyers exist and Vietnam imports what a domestic plant would replace.
 - **Worth proving with pilots:** local legume and rice protein ingredients, and fungal foods, starting with koji (mycoprotein is one to watch).
 - **Precision fermentation** fits only for high-value, low-dose products made under contract. The best published titers (the concentration of product in the fermenter) are about 5 to 14 times below what the literature expects for bulk proteins. The product probably counts as a product of a genetically modified organism (GMO) in Vietnam.

@@ -191,7 +191,7 @@ We found no Vietnam-specific published inclusion rate. The ranges below are glob
 | Commercial shrimp feeds (several species) | 25 to 50 | Older review statement; outdated | global, before 2013 | [@FM-40] | {general\|Low} |
 | Striped catfish (pangasius) | 1 to 2 | Global freshwater average applied | global rate, 2017 | [@FM-05; @MAC-39] | {general\|Medium} |
 | Tilapia | 1 to 2 | Global freshwater average | global, 2017 | [@FM-05; @MAC-39] | {general\|Medium} |
-| Snakehead | 20 to 40 | Hypothesis: carnivorous; experimental diets are fishmeal-based at 42% CP | Southeast Asia, 2022 to 2023 | [@FM-23; @FM-24] | {general\|Low} |
+| Snakehead | 20 to 40 | Hypothesis: carnivorous (our assumption, unsourced) | Southeast Asia | none | {general\|Low} |
 | Marine finfish (cage culture) | 15 to 30 | Hypothesis from the "one-half to two-thirds" reduction | global | [@FM-05] | {general\|Low} |
 | All aquafeeds (global average) | 5.8 | Derived by a 2022 review from 2017 data; by-product fishmeal alone would allow only 2.6% | global, 2017 | [@FM-44] | {general\|Medium} |
 
@@ -293,7 +293,6 @@ A new protein competes with substitutes already in use, not only with fishmeal. 
 | Pigs | more than 70% | 2024 review | [@MAC-43] | {VN-direct\|Medium} |
 | Pangasius | 70 to 90% of total investment costs | 2007 to 2011 studies (cited in a 2016 paper) | [@MAC-42] | {VN-direct\|Medium} |
 | Shrimp | 50 to 60% | 2026 trade press | [@FM-10] | {VN-direct\|Medium} |
-| Snakehead | 50 to 60% | 2024 study in Hue, Vietnam (figure from its introduction) | [@FM-41] | {VN-direct\|Low} |
 
 ### S6.10.2 Feed prices
 

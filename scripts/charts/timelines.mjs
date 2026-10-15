@@ -147,7 +147,8 @@ function swimlanes(o) {
 
 // ---------------------------------------------------------------------------
 export function chartTimeline(spec, D) {
-  const tl = D.csv(spec.data.file);
+  // Rows retired in v0.9 (insect protein) stay in the data file as the record but are not plotted.
+  const tl = D.csv(spec.data.file).filter((r) => (r.status_v0_9 ?? 'active') === 'active');
   const ms = D.csv('data/milestones.csv');
   const NOW = 2026.75;
   const tlDates = new Set(tl.map((r) => r.date));
@@ -167,7 +168,6 @@ export function chartTimeline(spec, D) {
     'mushroom/mycelium',
     'microalgae',
     'feed SCP/yeast',
-    'insect (benchmark)',
     'cultivated',
     'ingredient supplier',
     'other',

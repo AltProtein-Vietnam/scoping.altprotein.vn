@@ -84,8 +84,12 @@ write(
   ),
 );
 
+// Rows retired in v0.9 (insect protein) stay in the data files as the record, where the data
+// browser shows them with their status, but they are left out of the glossary and search.
+const activeV09 = (r) => !/^retired in v0\.9/.test(r.status_v0_9 ?? '');
+
 // Glossary --------------------------------------------------------------------
-const glossary = readCsv(path.join(REPORT, 'data/glossary.csv'));
+const glossary = readCsv(path.join(REPORT, 'data/glossary.csv')).filter(activeV09);
 write('glossary.json', glossary);
 
 // Plays, weights and scenarios for the interactive tools ------------------------------
@@ -185,7 +189,7 @@ for (const g of glossary)
   });
 const table = (file, kind, fn) => {
   const set = datasets.find((d) => d.file === file);
-  for (const r of readCsv(path.join(REPORT, 'data', file))) {
+  for (const r of readCsv(path.join(REPORT, 'data', file)).filter(activeV09)) {
     const rec = fn(r);
     records.push({
       kind,

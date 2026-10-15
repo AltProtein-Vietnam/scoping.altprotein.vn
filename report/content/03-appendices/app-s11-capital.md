@@ -43,7 +43,7 @@ Currency. Amounts are given as reported. Where we convert VND to USD, we use VND
 
 ## S11.2 Deal log
 
-The rows below come from `deals.csv` (12 rows). "Undisclosed" means no amount was published. Sources are given per row.
+The rows below come from the active rows of `deals.csv` (12 rows). "Undisclosed" means no amount was published. Sources are given per row.
 
 | Date | Company (country) | Category | Deal type | Amount (USD) | Investors or acquirer | Sources |
 |---|---|---|---|---|---|---|
