@@ -103,6 +103,10 @@ Pangasius and whiteleg shrimp have since moved to pellets, and up to 0.3 Mt of s
 
 **The capture plan.** Decision 389 caps trawlers at about 8,360 boats by 2030 [@AQF-15; @AQF-06] {VN-direct|Medium} {fx:projection}, and capture is to fall from 3.83 Mt (2025) [@MAC-15] to 2.8 Mt (2030) [@NTS-08] {VN-direct|High} {fx:projection}. Trawl catch is the main source of trash fish, so low-value fish for direct feeding and for whole-fish meal should fall sharply by 2030 {VN-direct|Medium} {fx:estimate}. Decision 339 orders "thức ăn công nghiệp thay thế việc sử dụng cá tạp" (industrial feed to replace trash fish) and Decision 1664 orders feed zones next to sea farms, but neither sets a volume or date [@NTS-08; @AQF-01] {VN-direct|High}.
 
+**The same cut squeezes surimi, a food export.** Trawl catch does not only feed fish. Marine fish and pangasius are the raw materials of surimi, the washed fish paste in fish cakes and fish balls [@SLS-03] {VN-direct|Medium}; we read the marine share as mostly trawl-caught, low-value fish (our inference, with [@AQF-05]). Vietnam exported more than USD 344 million of surimi and fish cakes in 2025, through more than 100 exporters [@SLS-01; @SLS-03] {VN-direct|Medium}. In 2024 exporters already reported domestic raw-material shortages and difficulty importing fish under rules against illegal, unreported and unregulated (IUU) fishing [@SLS-04] {VN-direct|Medium}. The EU's IUU "yellow card" of October 2017 was still in place in March 2026 [@SLS-22] {VN-direct|Low}. The 2030 capture cut and trawler cap will tighten that supply further (our reading) {VN-direct|Medium} {fx:estimate}.
+
+Two food routes stretch the fish: surimi from pangasius filleting side streams ([[app-s4-feedstocks]], sheet C26) and candidate play T11, hybrid fish cakes and fish balls that replace 10 to 30% of the fish protein with plant protein ([[ch26-plays]], section 26.8).
+
 **Direct trash-fish feeding in 2025** (our calculation, `aqf_calc.py`) {VN-direct|Low}
 
 | Group | Output, kt (low / central / high) | Not on pellets | Wet FCR | Trash fish, kt | Pellets to replace it, kt |

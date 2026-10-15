@@ -88,7 +88,7 @@ Notes:
 
 - Aleph Farms' beef is dated 22 July 2026 on the SFA list and was announced on 4 August 2026. We treat the SFA date as the approval date (DG-071) [@RGN-04; @RGN-29] {VN-adjacent|High}. The product is 10 to 20% cultivated cells in a plant-protein base, with a foodservice launch targeted for the first half of 2027, produced with Cell AgriTech [@RGN-30; @RGN-31] {VN-adjacent|Medium}.
 - Solein is gas-fermented bacterial biomass (DG-074) [@RGN-04] {VN-adjacent|High}.
-- No *Wolffia* (Mankai), duckweed or insect entry is on the list. Some GM-microbe ingredients may sit on SFA's separate GM food list, which we did not check [@RGN-04] {VN-adjacent|High}.
+- No *Wolffia* (Mankai) or duckweed entry is on the list. Some GM-microbe ingredients may sit on SFA's separate GM food list, which we did not check [@RGN-04] {VN-adjacent|High}.
 
 ### S3.3.2 Other jurisdictions
 
@@ -174,7 +174,6 @@ We show only items with a source read in this study. Feed groups appear as conte
 | Angel Yeast | More than 11,000 t/yr yeast protein, expanding | Not established in this study | [@RGN-24] {general\|Medium} |
 | CJ CheilJedang, Daesang, Pulmuone, Nongshim | Korean food majors partnering with alternative-protein startups; CJ and Daesang investing in or partnering on cultivated meat (2024) | CJ Cau Tre makes *đồ chay* (traditional vegetarian) products in Vietnam (lead, not checked) | [@RGN-19; @RGN-34] {VN-adjacent\|Medium} |
 | Royal De Heus | Feed group | Bought CJ Feed & Care (announced 1 Oct 2025, completed 3 Mar 2026): 17 feed mills across five countries, not 17 in Vietnam. De Heus Vietnam lists 21 plants | [@VCO-07; @VCO-08; @VCO-09] {VN-direct\|Medium} |
-| Skretting (Nutreco) | Partnership with Entobel (26 Nov 2025) for what the company calls the first commercial insect-meal shrimp feed in Vietnam | Skretting Vietnam | [@VCO-28] {VN-direct\|Low} |
 | Calysseo (Adisseo and Calysta) | 20,000 t/yr FeedKind methanotroph SCP plant in Chongqing; stated ambition for 100,000 t in Saudi Arabia | No Vietnamese distributor or trial found | [@FM-13] {general\|Medium} |
 | V-Group / CK Vietnam | Imports a Chinese single-cell biomass from glutamic-acid fermentation (at least 70% crude protein) for Vietnamese feed | Importer and distributor in Vietnam | [@FM-12] {VN-direct\|Low} |
 | BBGI (Bangchak group) | Synthetic biology plant with Fermbox Bio (link not verified); a notice dated 22 Sep 2026 titled "Notification of the Termination of the Biotechnology Plant Construction Project" (content not read) | None | [@RGN-38] {VN-adjacent\|Low} |

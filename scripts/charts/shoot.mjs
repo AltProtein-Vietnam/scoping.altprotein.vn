@@ -45,12 +45,13 @@ const page = await browser.newPage({ viewport: { width: 760, height: 900 } });
 await page.goto('file://' + path.join(here, '.preview', 'index.html'));
 await page.evaluate(() => document.fonts.ready);
 await page.waitForTimeout(300);
-// Text is measured for Work Sans; with a fallback font the overflow check reports false positives.
+// Text is measured with the site's font; with a fallback the overflow check reports false positives.
 const fontLoaded = await page.evaluate(() =>
-  [...document.fonts].some((f) => f.family.includes('Work Sans') && f.status === 'loaded'),
+  [...document.fonts].some((f) => f.family.includes('Be Vietnam Pro') && f.status === 'loaded'),
 );
-console.log('Work Sans loaded:', fontLoaded);
-if (!fontLoaded) problems.push('Work Sans did not load, so text is measured with a fallback font');
+console.log('Be Vietnam Pro loaded:', fontLoaded);
+if (!fontLoaded)
+  problems.push('Be Vietnam Pro did not load, so text is measured with a fallback font');
 // XML well-formedness of every svg string, and counts
 const xmlErrors = await page.evaluate((all) => {
   const errs = [];

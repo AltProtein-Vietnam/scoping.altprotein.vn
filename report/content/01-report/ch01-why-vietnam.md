@@ -26,7 +26,7 @@ charts: [chart-animal-protein-output, chart-feed-import-dependence]
 
 {{kn:kn-meat-intake-2020}} {{kn:kn-soy-protein-import}} {{kn:kn-feed-import-bill}}
 
-> **Method note.** This study is about protein for people: what Vietnam could make at home for people to eat, from what, at what cost, under which rules, and who would buy it, now and to 2050. Feed appears only as context. It is the hidden import behind the meat, eggs, milk and farmed fish that people eat, and so part of the food-security picture. The study does not treat feed ingredients (fishmeal replacements, or microbial, insect or duckweed feed) as something to make. The earlier assessment of them stays in [[app-s6-feed-market]], [[app-f6-aquafeed-feedstock-futures]] and [[app-m5-changelog]].
+> **Method note.** This study is about protein for people: what Vietnam could make at home for people to eat, from what, at what cost, under which rules, and who would buy it, now and to 2050. Feed appears only as context. It is the hidden import behind the meat, eggs, milk and farmed fish that people eat, and so part of the food-security picture. The study does not treat feed ingredients (fishmeal replacements, or microbial or duckweed feed) as something to make. The earlier assessment of them stays in [[app-s6-feed-market]], [[app-f6-aquafeed-feedstock-futures]] and [[app-m5-changelog]].
 
 ---
 

@@ -1,17 +1,16 @@
 import type { APIRoute } from 'astro';
-import { DATASETS } from '../lib/datasets';
-import { PAGES, localize, pagePath } from '../lib/site';
+import { isRestrictedPage } from '../lib/access';
+import { PAGES, PART_LIST, localize, pagePath, partPath } from '../lib/site';
 
+/** Public pages only: the appendices, data and files shared with reviewers are left out. */
 export const GET: APIRoute = ({ site }) => {
   const paths = [
-    ...PAGES.map((p) => pagePath(p.id)),
+    ...PAGES.filter((p) => !isRestrictedPage(p.id)).map((p) => pagePath(p.id)),
+    ...PART_LIST.map((p) => partPath(p.key)),
     '/report',
     '/briefs',
-    '/appendices',
-    '/data',
     '/glossary',
     '/about',
-    ...DATASETS.map((d) => `/data/${d.slug}`),
   ];
   const urls = paths
     .flatMap((p) => [p, localize(p, 'vi')])

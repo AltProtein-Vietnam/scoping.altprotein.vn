@@ -132,7 +132,13 @@ export function localize(path: string, lang: Lang): string {
     (path.startsWith('/data/') && /\.\w+$/.test(path))
   )
     return path;
-  if (path.startsWith('/downloads/') || path.startsWith('/_emdash')) return path;
+  if (
+    path.startsWith('/downloads/') ||
+    path.startsWith('/files/') ||
+    path.startsWith('/workbench/view') ||
+    path.startsWith('/_emdash')
+  )
+    return path;
   return path === '/' ? '/vi' : `/vi${path}`;
 }
 
@@ -190,4 +196,62 @@ export const APPENDIX_GROUPS: { id: string; label: string; pages: string[] }[] =
 /** Anchor id for a report part, such as part-iii. */
 export function partId(part: string): string {
   return `part-${part.split('.')[0].toLowerCase()}`;
+}
+
+// Parts as questions -----------------------------------------------------------------------
+
+export interface PartInfo {
+  /** "i" to "v": used in URLs (/report/part-ii) and interface strings. */
+  key: string;
+  /** Roman numeral as written in the manifest ("II"). */
+  numeral: string;
+  /** The manifest's part label ("II. Supply: what Vietnam can make"). */
+  label: string;
+  chapters: PageMeta[];
+}
+
+export const PART_LIST: PartInfo[] = PARTS.map((label) => {
+  const numeral = label.split('.')[0];
+  return {
+    key: numeral.toLowerCase(),
+    numeral,
+    label,
+    chapters: PAGES.filter((p) => p.section === 'report' && p.part === label).sort(
+      (a, b) => a.order - b.order,
+    ),
+  };
+});
+export const PART_BY_KEY = new Map(PART_LIST.map((p) => [p.key, p]));
+
+export function partOf(id: string): PartInfo | undefined {
+  const page = PAGE_BY_ID.get(id);
+  return page?.part ? PART_LIST.find((p) => p.label === page.part) : undefined;
+}
+
+export function partPath(key: string): string {
+  return `/report/part-${key}`;
+}
+
+/** Front pages that belong under "Summary" in the navigation. */
+export const SUMMARY_PAGES = new Set<string>([
+  ROLE.twoMinute,
+  ROLE.summary,
+  ROLE.summaryVi,
+  ROLE.atAGlance,
+  ROLE.prologue,
+  ROLE.prologueVi,
+  ROLE.howToRead,
+  ROLE.faq,
+]);
+
+/** Which top navigation item a page sits under. */
+export function navKey(id: string): string | undefined {
+  const page = PAGE_BY_ID.get(id);
+  if (!page) return undefined;
+  if (page.section === 'report') return `part-${partOf(id)?.key}`;
+  if (page.section === 'brief') return 'briefs';
+  if (page.section === 'appendix')
+    return id === ROLE.glossary || id === ROLE.sources ? 'reference' : 'workbench';
+  if (SUMMARY_PAGES.has(id)) return 'summary';
+  return undefined;
 }

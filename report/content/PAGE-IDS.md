@@ -78,6 +78,7 @@ Context and supply evidence:
 - app-s11-capital: S11. Capital: deals, investors and funding programmes
 - app-s12-costs: S12. Cost inputs and techno-economic benchmarks
 - app-s13-science: S13. State of the science by technology family
+- app-s14-solutions-screen: S14. Solutions screen: published solutions checked for Vietnam
 Demand evidence:
 - app-d1-diet-chay-prices: D1. Protein diet, chay and price data
 - app-d2-consumer-evidence: D2. Consumer and acceptance evidence register
@@ -107,15 +108,13 @@ Registers:
 - Livestock and poultry compound feed about 22 Mt (2025); aquafeed estimates 3.9 to 4.8 Mt (industry) vs 6.5 Mt (USDA), unresolved.
 - De Heus bought CJ Feed & Care (announced 1 Oct 2025, closed 3 Mar 2026): 17 mills across five countries, not 17 in Vietnam. De Heus Vietnam lists 21 plants. Vinh Long marine feed mill 168,000 t/yr (company) vs 84,000 (trade press).
 - Vedan glutamic acid nameplate 180,000 t/yr (2004, last published), not 36,000.
-- Skretting and Entobel partnership (26 Nov 2025): first commercial insect-meal shrimp feed in Vietnam (company claim).
-- Entobel financing: USD 32.5 M project (Mekong Capital USD 25 M, Dragon Capital USD 5 M, IFC USD 2.5 M upstream collaboration agreement). Not USD 36 M.
 - E10 gasoline mandatory nationwide from 1 June 2026 (Circular 50/2025/TT-BCT effective 1 Jan 2026).
 - Long An merged into Tay Ninh (not HCMC). Binh Duong and Ba Ria-Vung Tau into HCMC. Binh Phuoc into Dong Nai.
 - Feed trials: Law on Animal Husbandry Art 37 and Circular 94/2025 (not Art 11 of Decree 13/2020, which is factory inspection). Agency time about 40 working days plus the trial; total 6 to 18 months is our estimate.
 - Aquafeed permitted list (Circular 16/2026/TT-BNNMT Appendix II) has no raw-material section. Decree 211/2026 (from 5 Aug 2026) fines VND 10 to 20 M per unlisted feed raw material plus 1 to 3 months' suspension.
 - Precision-fermented proteins are probably a "product of a GMO" under Decree 43/2026 (definition includes "protein from the modified gene").
 - Karimi et al. 2019 "118.5 g/L A. oryzae" is not a broth concentration (likely per litre of undiluted vinasse, about 5.9 g/L in the flask). Do not use as a titer.
-- ICAR-NBFGR PHT striped catfish line is real (NRFC-078) but a serum-dependent virology line. PmLyO-Sf9 is a black tiger shrimp x insect hybrid from CUSAT, not ICAR-NBFGR.
+- ICAR-NBFGR PHT striped catfish line is real (NRFC-078) but a serum-dependent virology line. PmLyO-Sf9 is a hybrid of black tiger shrimp cells and a moth cell line, from CUSAT, not ICAR-NBFGR.
 - EFSA (2021) could not establish safety of whole Wolffia globosa powder (manganese); found a Lemna protein concentrate safe (2023). "PDCAAS 0.89" for duckweed is unsupported and must not be used.
 - ">50 g/L titer" (Nielsen et al., Annu Rev Food Sci Technol 2024) is an expert assertion; best leghemoglobin titers 3.5, 7.27 and 10.1 g/L.
 - Region I minimum wage 2026: VND 5,310,000/month (Decree 293/2025), not 4.96 M.
@@ -162,12 +161,12 @@ Registers:
 - Protein demand does not "double by 2050": OECD-FAO project 6% more animal-source calories per person from 2025 to 2034 (24% in lower-middle-income countries), and FAO about 20% more land-animal products from the 2020s to 2050.
 
 ## Decisions that apply everywhere (from v0.8)
-- Scope: the study is about protein for people. Short form: "Protein for people first; feed only as context." Feed is the hidden import behind the meat, eggs, milk and farmed fish people eat, and part of the food-security picture, but feed ingredients (fishmeal replacements, microbial, insect or duckweed feed) are not something the study recommends making. Insect protein stays an incumbent and benchmark only. No diet goal; no market-size forecast.
+- Scope: the study is about protein for people. Short form: "Protein for people first; feed only as context." Feed is the hidden import behind the meat, eggs, milk and farmed fish people eat, and part of the food-security picture, but feed ingredients (fishmeal replacements, microbial or duckweed feed) are not something the study recommends making. No diet goal; no market-size forecast.
 - Retired in v0.8 (kept in the data files as the record, marked in `status_v0_8`): plays T2, T3, T6; public goods P2, P3; product profile TPP-11; demand move DMV-12; moves RM-02, RM-07, RM-16, RM-17, RM-20; policy options PO-017, PO-018, PO-021, PO-029, PO-007 (old ranks in `report_rank_v0_7`). Do not recommend them. Where history matters, say once that they were retired because feed is now context only. Active IDs are not renumbered.
-- Counts: seven plays and four public goods. Three lead under almost every weighting (not "every"): T1 domestic textured plant protein, T4 cassava-starch-to-fermentation-sugar hub, T5 shared pilot and tolling fermentation. T1 and T4 are in the top three under every preset; T5 under five of seven.
-- Policy options: 33 in the register, 19 ranked (ranks 1 to 19 in `report_rank`). "The three highest-ranked options": the Food Safety Law new-food clause (PO-015), a joint note on precision-fermented proteins and GMO status (PO-016) and a novel-food procedure in the implementing decree (PO-019). No feed-list fixes in any summary or brief.
+- Counts: seven plays and four public goods. Three lead under almost every weighting (not "every"): T1 domestic textured plant protein, T4 cassava-starch-to-fermentation-sugar hub, T5 shared pilot and tolling fermentation. T1 and T4 are in the top three under every preset; T5 under five of seven. From v0.10, three candidates are listed but not ranked (T11, T12, P7; section 26.8).
+- Policy options: 34 in the register (PO-034 added in v0.10, not yet ranked), 19 ranked (ranks 1 to 19 in `report_rank`). "The three highest-ranked options": the Food Safety Law new-food clause (PO-015), a joint note on precision-fermented proteins and GMO status (PO-016) and a novel-food procedure in the implementing decree (PO-019). No feed-list fixes in any summary or brief.
 - Moves (chapter 28, "Moves that pay off in any 2050"; page id and `robust_moves.csv` unchanged; avoid "robust" in reading text): 16 of 21 moves active; seven no-regret moves (RM-01, RM-03, RM-04, RM-05, RM-06, RM-08, RM-09): a national protein balance; a new-food route with deadlines; shared food-grade pilot capacity; a protein-quality laboratory and price series; residue-carbon rules and a by-product atlas; climate-proof siting; process-engineering skills.
-- Other counts: ten active target product profiles (TPP-01 to TPP-10); twenty active demand moves; "4 of the original 19 demand moves" with a funder that fits stays; eighteen unknowns in chapter 30.
+- Other counts: ten active target product profiles (TPP-01 to TPP-10), plus candidate TPP-12 (v0.10); twenty active demand moves; "4 of the original 19 demand moves" with a funder that fits stays; eighteen unknowns in chapter 30.
 - Feed efficiency is one sentence of context only: better feed conversion and formulation would cut 2050 soybean-meal need by about 3.4 Mt, about twice S-ALT (our calculation); it is outside the study's scope.
 - Scenario axis 1 is "stress on imported protein": the feed behind domestic meat, eggs, milk and farmed fish, and imported protein foods. World names unchanged (A Regional workshop, B Comfortable price-taker, C Security build-out, D Squeezed importer).
 - Vision (chapter 24 only, `{fx:vision}`): pillars Measure, Make, Diversify, Specialise, Secure. Indicators come from the demand model: in 2050, about 67,000 to 172,000 t of protein a year from new routes and about 59,000 to 147,000 t made in Vietnam (D-BENCH to D-STRETCH; model reading); 40% to 60% of the food plant-protein ingredient pool from domestic makers; 0.41% to 1.52% of meat protein displaced. Plus a yearly national protein balance for people, a new-food route, open food-grade pilot capacity and a protein-quality laboratory. Soybean-meal need, the microbial feed share and aquafeed omega-3 are not vision goals. `vision_milestones.csv` has 25 rows; VM-01 to VM-22 now name different milestones from v0.7.

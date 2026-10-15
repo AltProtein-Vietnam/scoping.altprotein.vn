@@ -109,6 +109,7 @@ Each card gives the status in 2026, the largest plant, cost evidence, failures, 
 | Cost evidence | Mature-plant models USD 342 (with co-product credits) to 467 (converted from USD 0.212 per lb) per t of sugar; a lab-optimised Indian bagasse process USD 1,320 [@NGF-06; @NGF-07; @NGF-08] {general\|Medium}; Vietnamese cassava glucose about USD 511 to 560 (our derivation from native starch at USD 520 to 540 free on board, April 2026) [@FS-11] {VN-direct\|Low}. First plants: USD 2,090 (Panipat) to 2,380 (Podari) per t of annual sugar capacity, about USD 3,400 per delivered t at 62% use (our derivation) {general\|Low} |
 | Failures | As above. Not low-carbon by default: 1.57 kg CO2e per kg of bagasse sugar against 0.60 to 0.97 for Thai cassava starch [@NGF-08; @ECF-25] {general\|Low} |
 | Vietnam base | No plant or pilot found; enzyme costs still named as the barrier (June 2026); about 52 Mt of straw a year (our 2025 estimate), 30% of Mekong straw collected [@NGF-31; @NGF-01; @NGF-04] {VN-direct\|Medium} |
+| Residue to protein | A sugar route first, not yet a protein route. Laboratory work at Pennsylvania State University (2026), funded by Open Philanthropy (now Coefficient Giving), turned lime-treated residues into glucose (up to 22% of the residue) and an edible alga with only 5 to 10% protein; the authors say protein production remains limited (abstract read) [@CGG-08; @CGG-07] {general\|Medium} |
 | Window | Modest scale in the 2040s {VN-direct\|Low} {fx:estimate} |
 | Conditions | An Asian straw-sugar plant above 80% of design for two years and a traded straw price (our assumptions); full straw collection on the 1 million ha rice programme by 2030 [@NTS-32] {VN-direct\|Medium} {fx:projection} (official target) |
 
@@ -137,7 +138,7 @@ Our calculation for 2050: supplying the S-ALT sugar need through methanol takes 
 | Cost evidence | From USD 2.3 million per kg (2013) to about USD 63 per kg [@FTB-27]; media claims of USD 0.20 per litre [@FTB-24] against a peer-reviewed, industry-funded USD 0.63 [@FTB-01] {general\|Low}. 1% of world meat would need about 30 times the 2021 world culture capacity; pharmaceutical-grade media give 4 to 25 times beef's emissions [@FTB-26] {general\|High} |
 | Failures | Believer Meats shut in December 2025 after clearance by the US Food and Drug Administration (FDA); firms fell from 155 to 142; investment from about USD 1 billion (2021) to 73.9 million (2025) [@FTB-24; @FTB-45; @FTB-01] {general\|Medium} |
 | Forecasts | A 54% chance (2021 forecaster panel) that world output stays below 100,000 t a year through 2051 [@HSC-18] {general\|Medium} {fx:projection} (published probabilistic forecast); hybrids "may reach foodservice price points first within the decade" (published December 2025, so by about 2030 to 2035) [@FTB-44] {general\|Medium} {fx:projection} (published review) |
-| Vietnam base | 1 indexed paper (legal); the Vietnam Academy of Science and Technology (VAST) characterised bovine stem cells in 2025 [@HSC-01] {VN-direct\|Medium} |
+| Vietnam base | 1 indexed paper (legal); the Vietnam Academy of Science and Technology (VAST) characterised bovine stem cells in 2025 [@HSC-01] {VN-direct\|Medium}; a university laboratory in Ho Chi Minh City cultured beef cells on a 3D-printed scaffold (press report, December 2022; no peer-reviewed output found) [@SLC-01] {VN-direct\|Low}. Food-oriented muscle lines were published abroad for grouper (2024) and Asian seabass (2025), both farmed in Vietnam (metadata only) [@SLS-14; @SLS-15] {general\|Low} |
 | Window | Research only to 2035; seafood cells from Vietnamese species in the 2040s {VN-direct\|Low} {fx:estimate} |
 | Conditions | A food-grade fish or shrimp cell line; peer-reviewed media below about USD 0.5 per litre; a novel-food route with reliance {VN-direct\|Low} |
 
@@ -166,6 +167,7 @@ Our calculation for 2050: supplying the S-ALT sugar need through methanol takes 
 |---|---|
 | Status | Commercial: a USD 200 million algal-oil plant (2019); omega-3 canola oil replaced all fish oil in low-fishmeal shrimp diets [@AQF-23; @AQF-19] {general\|Medium} |
 | Vietnam base and window | Buyer only; 2026 to 2035 {VN-direct\|Low} {fx:estimate}. Detail in [[app-f6-aquafeed-feedstock-futures]] |
+| For food | VAST holds research-scale DHA-producing strains (*Schizochytrium mangrovei* PQ6: 105.25 g/L of biomass and 43.40% lipid in a 30 L fed-batch run); we found no production, so Vietnam would buy algal oil for food too [@SLS-17; @SLS-19] {VN-direct\|Medium} |
 
 ---
 
@@ -462,8 +464,9 @@ Core families behind heme meat analogues (Impossible Foods, e.g. family 57325176
 | NovoNutrients (US) | Closed 2025; assets for sale | [@FTG-10] {general\|Medium} |
 | Believer Meats (US) | USD 154 million plant shut December 2025; status since unknown | [@FTB-24; @FTB-45] {general\|Medium} |
 | Calysseo (China) | 20,000 t plant halted 2026 | [@FTG-06; @FM-13] {VN-adjacent\|Medium} |
+| Superbrewed Food (US) | Paused its ethanol-plant retrofit for protein in February 2024; first commercial output moved to a contract manufacturer in Europe; the Minnesota site was sold by April 2024 | [@SLF-12; @SLF-14] {general\|Medium} |
 
-Cheap second-hand tanks cut capital more than any learning curve before 2030, until the cycle turns {general|Medium} {fx:signal}. Clear customs and tax rules for used fermenters would let a Vietnamese fermentation venture use this in 2027 to 2030 (move RM-15 in [[ch28-robust-moves]]) {VN-direct|Low} {fx:estimate}.
+Cheap second-hand tanks cut capital more than any learning curve before 2030, until the cycle turns {general|Medium} {fx:signal}. The one ethanol-plant retrofit for protein that the Good Food Institute cites became contract manufacturing, and E10 now gives every Vietnamese ethanol plant a better-paying use ([[app-s5-facilities]], S5.1.3). So second-hand equipment and contract capacity are the realistic routes, not conversion of Vietnamese fuel plants (our inference) {VN-direct|Low}. Clear customs and tax rules for used fermenters would let a Vietnamese fermentation venture use this in 2027 to 2030 (move RM-15 in [[ch28-robust-moves]]) {VN-direct|Low} {fx:estimate}.
 
 ---
 

@@ -7,7 +7,7 @@ order: 6
 summary: "For development agencies, foundations, NGOs and foreign governments. The study is about protein for people; feed is context only. Vietnam's capacity to make more protein for people at home is held back by missing public goods: a national protein balance, a novel-food procedure, shared pilot fermentation and protein-quality testing. These fit technical assistance, research grants and first-loss development finance. The evidence does not support funding alternative protein as pandemic prevention. On the demand side, only 4 of the original 19 demand moves have a funder that fits and accepts Vietnam."
 audiences: [international]
 reading_time_min: 9
-key_numbers: [kn-meat-intake-2020, kn-feed-import-bill, kn-animal-protein-on-imports, kn-asf-culls-vs-spared, kn-china-share-plant-protein-ingredients, kn-entobel-financing, kn-agritech-vc-2025, kn-hawkwood-regulatory-score, kn-food-law-window, kn-no-regret-moves, kn-delta-subsidence, kn-chay-days-share, kn-demand-bench-2035, kn-funder-fit, kn-animals-spared-2035, kn-co2e-avoided-2035]
+key_numbers: [kn-meat-intake-2020, kn-feed-import-bill, kn-animal-protein-on-imports, kn-asf-culls-vs-spared, kn-china-share-plant-protein-ingredients, kn-agritech-vc-2025, kn-hawkwood-regulatory-score, kn-food-law-window, kn-no-regret-moves, kn-delta-subsidence, kn-chay-days-share, kn-demand-bench-2035, kn-funder-fit, kn-animals-spared-2035, kn-co2e-avoided-2035]
 related_pages: [ch01-why-vietnam, app-d8-demand-model, ch08-capital, ch03-regional, ch26-plays, ch27-policy-options, app-s11-capital, app-s3-regional, ch22-protein-balance-2050, ch24-vision-2050, ch28-robust-moves, app-f5-targets-hubs, ch11-protein-diet, ch12-chay-baseline, ch15-channels, ch18-demand-sizing, ch25-demand-to-frontier, ch29-actor-check, app-d6-export, front-exec-summary]
 charts: [chart-hawkwood-scores]
 ---
@@ -40,14 +40,13 @@ The Ministry of Health (MOH) and the Ministry of Agriculture and Environment (MA
 | Entry point | What it would do | Channels | Links |
 |---|---|---|---|
 | 1. New-food rules | Help MOH draft the new-food clause (the window runs from first comments in October 2026 to the vote considered in May 2027) and the decree (not-novel determination, reliance lane, recognised assessment units, timelines). Support the joint MAE and MOH note on precision-fermented proteins | Regulator-to-regulator agreements (the memoranda of understanding of the Singapore Food Agency), food-safety work of the Food and Agriculture Organization (FAO) | [[ch27-policy-options]] options 1 to 3 |
-| 2. Protein-quality laboratory | Amino-acid testing and DIAAS (a score of protein quality), with phytate, zinc and iron analysis, at a national reference laboratory | Technical assistance; equipment grants | PO-027 |
+| 2. Protein-quality and function laboratory | Amino-acid testing and DIAAS (a score of protein quality), with phytate, zinc and iron analysis, at a national reference laboratory; from v0.10 also a standard panel of functional properties that buyers specify | Technical assistance; equipment grants | PO-027 |
 | 3. Shared pilot fermentation | Co-fund a food-grade pilot line and a tolling programme (renting time on existing tanks); broker access to Thailand's EECi pilot plant | Grants; blended finance; bilateral science cooperation | PO-026, PO-033 |
-| 4. First-plant finance | A first-loss or co-investment tranche for a first food-ingredient or food-fermentation plant with a named food-manufacturer buyer. Use the deal structure Entobel used (private equity, development finance, offtake) | International Finance Corporation (IFC), ADB Ventures (the Asian Development Bank's venture arm), Proparco (via local funds), other development finance institutions | [[ch08-capital]] |
+| 4. First-plant finance | A first-loss or co-investment tranche for a first food-ingredient or food-fermentation plant with a named food-manufacturer buyer, structured with private equity, development finance and an offtake (our suggestion) | International Finance Corporation (IFC), ADB Ventures (the Asian Development Bank's venture arm), Proparco (via local funds), other development finance institutions | [[ch08-capital]] |
 | 5. Open data | A yearly national protein balance (what people eat by food, source and origin), a by-product atlas, an open fermentation cost model and a price series for food protein ingredients | Research grants; statistical cooperation | RM-01 in [[ch28-robust-moves]]; PO-028; public goods P5 (by-product atlas) and P6 (open cost model and price series) in [[ch26-plays]] |
 
 ## Precedents to build on
 
-- **Entobel**, an insect-feed deal outside this study's focus, but a deal structure to copy: the IFC's USD 2.5 million "upstream collaboration" alongside Mekong Capital and Dragon Capital, with Vinh Hoan's offtake ([[ch08-capital]]).
 - **Decree 43/2026:** Vietnam already fast-tracks GMOs approved by five developed countries. The same reliance logic can apply to novel foods ([[ch07-rules]]).
 - **Thailand's recognised assessment units** and **Korea's published review time of about nine to 12 months** ([[ch03-regional]]).
 

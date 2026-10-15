@@ -4,6 +4,8 @@ Data files for "Alternative protein in Vietnam: a supply-side scoping study" (Al
 
 Built on 23 September 2026 by the data consolidation step from the wave 1 and wave 2 research outputs (see `working-papers/`). Where wave 2 changed a wave 1 value, the change is recorded in `change_log` (companies, facilities, instruments) or in `origin` and `notes` (routes, policy options, publications).
 
+**Status columns.** In `status_v0_8` and `status_v0_9`, any value that starts with `active` is an active row; some carry a note in brackets, for example `active (v0.10: ...)` where a file has no notes column. `candidate in v0.10 ...` marks rows listed but not ranked (plays.csv, target_product_profiles.csv). Values starting with `retired` are kept as the record.
+
 **Common columns.** `source_ids`: semicolon-separated source IDs. `evidence_label`: VN-direct, VN-adjacent or general. `confidence`: High, Medium or Low. `province_current` and `province_former`: added by the consolidation step using `provinces.csv` (former_units); left blank when the location is vague, flagged as assumed or unverified, or ambiguous.
 
 **Province method.** A location is mapped only when it names a current or former province, or a district, town or industrial park that lies wholly inside one former unit (for example District 12 and Vinh Loc in former Ho Chi Minh City, Phu My in former Ba Ria-Vung Tau, Can Duoc in former Long An). Multi-site entries list each site when every site resolves.
@@ -13,8 +15,8 @@ Built on 23 September 2026 by the data consolidation step from the wave 1 and wa
 | File | Rows | Purpose |
 |---|---|---|
 | [glossary.csv](#glossarycsv) | 236 | Bilingual glossary (English and Vietnamese) with definitions in both languages (feeds Appendix R3). |
-| [key-numbers.json](#key-numbersjson) | 143 | Key-number stat tiles embedded in pages with `{{kn:id}}`. |
-| [plays.csv](#playscsv) | 16 | Plays and public goods (chapter 26), with scores on seven criteria: seven active plays and four active public goods from v0.8; three feed plays and two feed public goods kept as the record. |
+| [key-numbers.json](#key-numbersjson) | 156 | Key-number stat tiles embedded in pages with `{{kn:id}}`. |
+| [plays.csv](#playscsv) | 19 | Plays and public goods (chapter 26), with scores on seven criteria: seven active plays and four active public goods from v0.8; three feed plays and two feed public goods kept as the record; from v0.10 two candidate plays and one candidate public good (not ranked). |
 | [play_criteria.csv](#play_criteriacsv) | 7 | Definitions of the seven scoring criteria for plays. |
 | [play_weight_presets.csv](#play_weight_presetscsv) | 7 | Weight presets per audience for re-ranking plays. |
 | [approvals.csv](#approvalscsv) | 33 | Novel food approvals in the region and reference markets (Singapore, US, Australia and New Zealand, Thailand, Korea, China and others), one row per approval. |
@@ -22,32 +24,32 @@ Built on 23 September 2026 by the data consolidation step from the wave 1 and wa
 | [biblio_trend_vn.csv](#biblio_trend_vncsv) | 132 | Wave 2 yearly counts of Vietnam-tagged publications by topic (OpenAIRE). |
 | [brands.csv](#brandscsv) | 53 | Brands found in the retail field audit, with owner, manufacturer, plant location and main protein inputs. |
 | [commodity_prices.csv](#commodity_pricescsv) | 38 | Wave 1 commodity prices (feed commodities, protein ingredients, carbon and nitrogen inputs, retail protein prices). |
-| [companies.csv](#companiescsv) | 97 | Company and actor directory (wave 1 ecosystem map plus wave 2 verification and new rows). Wave 2 changes are logged in change_log, not silently overwritten. |
+| [companies.csv](#companiescsv) | 98 | Company and actor directory (wave 1 ecosystem map plus wave 2 verification and new rows). Wave 2 changes are logged in change_log, not silently overwritten. |
 | [cost_inputs.csv](#cost_inputscsv) | 61 | Vietnamese production cost inputs (electricity, water, heat, labour, land, taxes, logistics) used for the economics chapter. |
 | [countries.csv](#countriescsv) | 11 | Country comparison of novel food frameworks, approvals, public funding and open facilities (regional position). |
 | [deals.csv](#dealscsv) | 19 | Deal log: investments and acquisitions relevant to alternative protein and agrifood tech in or linked to Vietnam. |
-| [disagreements.csv](#disagreementscsv) | 373 | Register of conflicting numbers and claims found by the research agents, with the position taken (feeds Appendix R2). |
+| [disagreements.csv](#disagreementscsv) | 398 (393 active) | Register of conflicting numbers and claims found by the research agents, with the position taken (feeds Appendix R2). |
 | [engineering_suppliers.csv](#engineering_supplierscsv) | 9 | Engineering contractors and equipment vendors with a Vietnam presence relevant to fermentation and food processing. |
-| [facilities.csv](#facilitiescsv) | 82 | Industrial facilities in Vietnam that alternative-protein ventures could use or learn from (fermentation, starch, breweries, feed and aquafeed mills, soy, biologics, parks, labs). Wave 2 changes are logged in change_log. |
+| [facilities.csv](#facilitiescsv) | 83 | Industrial facilities in Vietnam that alternative-protein ventures could use or learn from (fermentation, starch, breweries, feed and aquafeed mills, soy, biologics, parks, labs). Wave 2 changes are logged in change_log. |
 | [facilities_regional.csv](#facilities_regionalcsv) | 16 | Pilot and contract manufacturing facilities in the region that are open (or not) to third parties. |
 | [feed_benchmarks.csv](#feed_benchmarkscsv) | 31 | Wave 2 feed protein price and capacity benchmarks, including price per tonne of protein. |
 | [feed_imports.csv](#feed_importscsv) | 24 | Vietnam feed ingredient imports by commodity and year (volume, value, origins). |
 | [feedstock_prices.csv](#feedstock_pricescsv) | 32 | Prices of feedstocks and side streams (cassava, rice by-products, molasses, brewer's spent grain and others) by market and date. |
 | [feedstocks.csv](#feedstockscsv) | 29 | Feedstock and side-stream data sheets: annual volume, regions, current use, price, protein and moisture content. |
 | [fermentation_volume_estimate.csv](#fermentation_volume_estimatecsv) | 7 | Derived estimate of installed industrial fermentation vessel volume in Vietnam by segment (our calculation from capacity and productivity assumptions). |
-| [funding_programs.csv](#funding_programscsv) | 20 | Grants, prizes and funding programmes open to Vietnamese applicants for alternative protein and related research. |
+| [funding_programs.csv](#funding_programscsv) | 24 | Grants, prizes and funding programmes open to Vietnamese applicants for alternative protein and related research. |
 | [inclusion_rates.csv](#inclusion_ratescsv) | 12 | Typical inclusion rates of fishmeal and other protein ingredients in feed by species. |
 | [ingredient_suppliers.csv](#ingredient_supplierscsv) | 22 | Suppliers and importers of protein ingredients used by Vietnamese alt-protein and do chay makers. |
 | [institutions.csv](#institutionscsv) | 31 | Research institutions and university units relevant to alternative protein in Vietnam. |
-| [instruments.csv](#instrumentscsv) | 78 | Regulatory instrument register (laws, decrees, circulars, decisions, resolutions, foreign reference rules). Wave 2 corrections supersede wave 1 and are logged in change_log. |
+| [instruments.csv](#instrumentscsv) | 86 | Regulatory instrument register (laws, decrees, circulars, decisions, resolutions, foreign reference rules). Wave 2 corrections supersede wave 1 and are logged in change_log. |
 | [investors.csv](#investorscsv) | 30 | Investors (VC, PE, DFI, corporate, philanthropy) with a thesis or track record relevant to Vietnam and alternative protein. |
 | [macro_indicators.csv](#macro_indicatorscsv) | 87 | Macro indicators for the protein economy: production, consumption, feed output, trade, environment and context. |
 | [milestones.csv](#milestonescsv) | 30 | Dated milestones 2025 to 2035 (laws, strategies, targets, reforms) in Vietnam and reference jurisdictions. |
 | [ministries.csv](#ministriescsv) | 6 | Vietnamese ministries after the 2025 restructuring, their predecessors and roles relevant to alternative protein. |
-| [open_questions.csv](#open_questionscsv) | 473 | Register of open questions from all research notes, with the cheapest way to close each; near-duplicates merged and both origins cited. |
+| [open_questions.csv](#open_questionscsv) | 524 (520 active) | Register of open questions from all research notes, with the cheapest way to close each; near-duplicates merged and both origins cited. |
 | [outlook.csv](#outlookcsv) | 75 | Outlook numbers for 2030 and 2035 (population, demand, feed, prices, targets) with source and type. |
 | [pilot_labs.csv](#pilot_labscsv) | 32 | Pilot plants, testing laboratories, feed trial facilities, hi-tech parks and university facilities that founders can use. |
-| [policy_options.csv](#policy_optionscsv) | 33 | Policy options: wave 1 list plus the wave 2 ranked list, with origin and cross-links between related options. |
+| [policy_options.csv](#policy_optionscsv) | 34 | Policy options: wave 1 list plus the wave 2 ranked list, with origin and cross-links between related options. |
 | [provinces.csv](#provincescsv) | 34 | The 34 provincial-level units after the 1 July 2025 merger (Resolution 202/2025/QH15) with their former units. Used to normalise locations. |
 | [publications.csv](#publicationscsv) | 103 | Vietnam-affiliated publications relevant to alternative protein (wave 1 screened list plus wave 2 top-cited papers), deduplicated on DOI. |
 | [replacement_trials.csv](#replacement_trialscsv) | 20 | Feed trials of novel protein ingredients: the maximum replacement of fishmeal or soybean meal without loss of performance. |
@@ -60,7 +62,7 @@ Built on 23 September 2026 by the data consolidation step from the wave 1 and wa
 | [retail_audit_summary_protein_by_type.csv](#retail_audit_summary_protein_by_typecsv) | 13 | Retail audit summary: protein content (g per 100 g or 100 ml) by product type and as-sold form. |
 | [routes.csv](#routescsv) | 17 | Route-to-market table by product type (food and feed), rebuilt from the wave 2 updated table, plus wave 1 rows for product types not in it. |
 | [science_facts.csv](#science_factscsv) | 43 | State-of-the-science facts by technology family (titres, costs, safety, nutrition, productivity) with DOI and full-text status. |
-| [sources.csv](#sourcescsv) | 2,384 | Master source list. Every citation ID used in the report resolves to a row here. |
+| [sources.csv](#sourcescsv) | 2,715 (2,669 active) | Master source list. Every citation ID used in the report resolves to a row here. |
 | [talent.csv](#talentcsv) | 11 | University admission quotas for food technology, biotechnology and aquaculture programmes (talent pipeline). |
 | [tariffs.csv](#tariffscsv) | 18 | Vietnam import tariffs (MFN, ATIGA, ACFTA) for feed and food protein inputs, and (from v0.8) meat, live cattle and milk powder, by HS code. |
 | [tea_benchmarks.csv](#tea_benchmarkscsv) | 25 | Techno-economic benchmarks from the literature by process (production cost, capex, scale) with cost-basis year. |
@@ -94,7 +96,7 @@ Rows: 33. Columns: 12.
 
 Wave 2 bibliometric counts of publications by topic and country (OpenAIRE, 2015 to September 2026), with the exact query URL.
 
-Rows: 42. Columns: 12.
+Rows: 42. Columns: 13.
 
 | Column | Meaning | Example |
 |---|---|---|
@@ -110,6 +112,7 @@ Rows: 42. Columns: 12.
 | `evidence_label` | VN-direct (evidence about Vietnam), VN-adjacent (comparable country, transfer assumed) or general. | VN-direct |
 | `confidence` | High (primary source read), Medium (reputable secondary or primary read in part) or Low (single claim, press, company marketing). | Medium |
 | `notes` | Free-text notes from the research agent and, where stated, the consolidation step. | All 9 titles read: about 6 on-topic (2 reviews, extrudate texture, soy... |
+| `status_v0_9` | `active`, or `retired in v0.9: insect protein removed from the study (kept as the v0.8 record)` (BC-018). Retired rows stay as the record; views of current evidence show active rows only. | active |
 
 ### biblio_trend_vn.csv
 
@@ -175,7 +178,7 @@ Rows: 38. Columns: 10.
 
 Company and actor directory (wave 1 ecosystem map plus wave 2 verification and new rows). Wave 2 changes are logged in change_log, not silently overwritten.
 
-Rows: 97. Columns: 24.
+Rows: 98. Columns: 25.
 
 | Column | Meaning | Example |
 |---|---|---|
@@ -203,6 +206,7 @@ Rows: 97. Columns: 24.
 | `change_log` | Changes made after wave 1 (old value, new value, source and confidence). Entries separated by "&#124;&#124;". | [wave 2 VERIFY-CO] Not re-verified in wave 2 (site unavailable, DNS fa... |
 | `province_current` | Current unit for the HQ location in hq_province_current (plant_location used only for a single-site district hint). | Ho Chi Minh City |
 | `province_former` | Former (pre-merger) unit(s) for the location, from provinces.csv former_units. Blank when it cannot be determined without guessing. | Ho Chi Minh City |
+| `status_v0_9` | `active`, or `retired in v0.9: insect protein removed from the study (kept as the v0.8 record)` (CO-080, CO-081, CO-082, CO-083, CO-086, CO-087, CO-088). Retired rows stay as the record; views of current evidence show active rows only. | active |
 
 ### cost_inputs.csv
 
@@ -253,29 +257,30 @@ Rows: 11. Columns: 16.
 
 Deal log: investments and acquisitions relevant to alternative protein and agrifood tech in or linked to Vietnam.
 
-Rows: 19. Columns: 13.
+Rows: 19. Columns: 14.
 
 | Column | Meaning | Example |
 |---|---|---|
-| `record_id` | Stable short row ID assigned by the consolidation step (prefix plus number). | DL-001 |
-| `date` | Date of the event, price or approval (ISO format where available). | 2019-10-14 |
-| `company` | Company name. | Cricket One |
-| `company_country` | Country of the company. | Vietnam |
-| `category` | Category (sector or technology family). | insect protein (food ingredient) |
-| `round_or_type` | Round or deal type. | Seed |
+| `record_id` | Stable short row ID assigned by the consolidation step (prefix plus number). | DL-010 |
+| `date` | Date of the event, price or approval (ISO format where available). | 2024-07-02 |
+| `company` | Company name. | INNOHAS |
+| `company_country` | Country of the company. | South Korea |
+| `category` | Category (sector or technology family). | plant-based meat |
+| `round_or_type` | Round or deal type. | Undisclosed minority |
 | `amount_usd` | Amount in USD (or "undisclosed"). | undisclosed |
 | `currency_original` | Original currency. | USD |
-| `investors_or_acquirer` | Investors or acquirer. | 500 Startups (co-lead); Masik Enterprises (co-lead) |
-| `source_ids` | Source IDs (see sources.csv) supporting the row, separated by semicolons. | CAP-11 |
+| `investors_or_acquirer` | Investors or acquirer. | VinaCapital Ventures |
+| `source_ids` | Source IDs (see sources.csv) supporting the row, separated by semicolons. | CAP-18 |
 | `evidence_label` | VN-direct (evidence about Vietnam), VN-adjacent (comparable country, transfer assumed) or general. | VN-direct |
 | `confidence` | High (primary source read), Medium (reputable secondary or primary read in part) or Low (single claim, press, company marketing). | High |
-| `notes` | Free-text notes from the research agent and, where stated, the consolidation step. | Amount not disclosed. Cricket powder for bakeries/snacks; claimed sale... |
+| `notes` | Free-text notes from the research agent and, where stated, the consolidation step. | Stated purpose: help INNOHAS enter Vietnam and Southeast Asia. INNOHAS cl... |
+| `status_v0_9` | `active`, or `retired in v0.9: insect protein removed from the study (kept as the v0.8 record)` (DL-001, DL-002, DL-003, DL-004, DL-005, DL-006, DL-007). Retired rows stay as the record; views of current evidence show active rows only. | active |
 
 ### disagreements.csv
 
 Register of conflicting numbers and claims found by the research agents, with the position taken (feeds Appendix R2).
 
-Rows: 373. Columns: 7.
+Rows: 398 (393 active). Columns: 8.
 
 | Column | Meaning | Example |
 |---|---|---|
@@ -286,6 +291,7 @@ Rows: 373. Columns: 7.
 | `position_taken` | Position the research team took and why. | Report both. The ACAP species split is more transparent. Neither close... |
 | `from_note` | Research note(s) the row was extracted from (path under working-papers/). | wave1/macro/m1-protein-economy.md |
 | `notes` | Cross-links to the same or a related disagreement logged by another agent. | Same or related disagreement: DG-120. |
+| `status_v0_9` | `active`, or `retired in v0.9: insect protein removed from the study (kept as the v0.8 record)` (DG-037, DG-038, DG-039, DG-062, DG-063). Retired rows stay as the record; views of current evidence show active rows only. | active |
 
 ### engineering_suppliers.csv
 
@@ -310,7 +316,7 @@ Rows: 9. Columns: 10.
 
 Industrial facilities in Vietnam that alternative-protein ventures could use or learn from (fermentation, starch, breweries, feed and aquafeed mills, soy, biologics, parks, labs). Wave 2 changes are logged in change_log.
 
-Rows: 82. Columns: 20.
+Rows: 83. Columns: 20.
 
 | Column | Meaning | Example |
 |---|---|---|
@@ -361,7 +367,7 @@ Rows: 16. Columns: 13.
 
 Wave 2 feed protein price and capacity benchmarks, including price per tonne of protein.
 
-Rows: 31. Columns: 13.
+Rows: 31. Columns: 14.
 
 | Column | Meaning | Example |
 |---|---|---|
@@ -378,6 +384,7 @@ Rows: 31. Columns: 13.
 | `evidence_label` | VN-direct (evidence about Vietnam), VN-adjacent (comparable country, transfer assumed) or general. | general |
 | `confidence` | High (primary source read), Medium (reputable secondary or primary read in part) or Low (single claim, press, company marketing). | High |
 | `notes` | Free-text notes from the research agent and, where stated, the consolidation step. | Mean of 12 monthly values (my calculation). Range 1,365 to 1,498. |
+| `status_v0_9` | `active`, or `retired in v0.9: insect protein removed from the study (kept as the v0.8 record)` (FB-027). Retired rows stay as the record; views of current evidence show active rows only. | active |
 
 ### feed_imports.csv
 
@@ -474,7 +481,7 @@ Rows: 7. Columns: 13.
 
 Grants, prizes and funding programmes open to Vietnamese applicants for alternative protein and related research.
 
-Rows: 20. Columns: 13.
+Rows: 24. Columns: 13.
 
 | Column | Meaning | Example |
 |---|---|---|
@@ -562,7 +569,7 @@ Rows: 31. Columns: 16.
 
 Regulatory instrument register (laws, decrees, circulars, decisions, resolutions, foreign reference rules). Wave 2 corrections supersede wave 1 and are logged in change_log.
 
-Rows: 78. Columns: 18.
+Rows: 86. Columns: 18.
 
 | Column | Meaning | Example |
 |---|---|---|
@@ -589,23 +596,24 @@ Rows: 78. Columns: 18.
 
 Investors (VC, PE, DFI, corporate, philanthropy) with a thesis or track record relevant to Vietnam and alternative protein.
 
-Rows: 30. Columns: 13.
+Rows: 30. Columns: 14.
 
 | Column | Meaning | Example |
 |---|---|---|
-| `record_id` | Stable short row ID assigned by the consolidation step (prefix plus number). | INV-001 |
-| `name` | Name of the entity. | Mekong Capital (Mekong Enterprise Fund IV) |
-| `type` | Type or category of the entity. | PE |
+| `record_id` | Stable short row ID assigned by the consolidation step (prefix plus number). | INV-003 |
+| `name` | Name of the entity. | VinaCapital Ventures |
+| `type` | Type or category of the entity. | VC (arm of VinaCapital) |
 | `hq` | Headquarters. | Ho Chi Minh City, Vietnam |
-| `vietnam_presence` | Presence in Vietnam. | Yes (local manager) |
-| `relevant_thesis` | Investment thesis relevant to alternative protein. | Growth equity in consumer-driven VN companies; portfolio includes Ento... |
-| `example_relevant_deals` | Example deals. | Entobel Series B USD 25M (2022) |
-| `typical_ticket` | Typical ticket size. | USD 5M to 25M (Entobel USD 25M from a USD 246M fund) |
-| `url` | Web address of the main page or document. | https://www.mekongcapital.com/our-investment/ |
-| `source_ids` | Source IDs (see sources.csv) supporting the row, separated by semicolons. | CAP-01; CAP-02; CAP-10; CAP-47 |
+| `vietnam_presence` | Presence in Vietnam. | Yes |
+| `relevant_thesis` | Investment thesis relevant to alternative protein. | Tech VC; has invested to bring foreign plant-based meat into VN/SEA |
+| `example_relevant_deals` | Example deals. | INNOHAS (Korea, plant-based meat), 2024, undisclosed |
+| `typical_ticket` | Typical ticket size. | not found |
+| `url` | Web address of the main page or document. | https://vinacapital.com |
+| `source_ids` | Source IDs (see sources.csv) supporting the row, separated by semicolons. | CAP-18; CAP-32 |
 | `evidence_label` | VN-direct (evidence about Vietnam), VN-adjacent (comparable country, transfer assumed) or general. | VN-direct |
 | `confidence` | High (primary source read), Medium (reputable secondary or primary read in part) or Low (single claim, press, company marketing). | High |
-| `notes` | Free-text notes from the research agent and, where stated, the consolidation step. | Proparco is an LP (USD 15M). The only VN investor to lead a >USD 10M a... |
+| `notes` | Free-text notes from the research agent and, where stated, the consolidation step. | VinaCapital is also a founding investor in HCMC's HCM VIF venture fund... |
+| `status_v0_9` | `active`, or `retired in v0.9: insect protein removed from the study (kept as the v0.8 record)` (INV-001, INV-002, INV-008, INV-009, INV-010, INV-011). Retired rows stay as the record; views of current evidence show active rows only. | active |
 
 ### macro_indicators.csv
 
@@ -672,7 +680,7 @@ Rows: 6. Columns: 12.
 
 Register of open questions from all research notes, with the cheapest way to close each; near-duplicates merged and both origins cited.
 
-Rows: 473. Columns: 11.
+Rows: 524 (520 active). Columns: 12.
 
 | Column | Meaning | Example |
 |---|---|---|
@@ -687,6 +695,7 @@ Rows: 473. Columns: 11.
 | `from_note` | Research note(s) the row was extracted from (path under working-papers/). | wave1/macro/m1-protein-economy.md (item 1); wave1/costs/costs.md (item... |
 | `status` | open or partly closed (partly closed where a later wave answered part of it). | partly closed |
 | `notes` | Merged near-duplicates (with their original wording) and what later waves found. | Merged near-duplicates: costs.md item 1: "Domestic fishmeal price by p... |
+| `status_v0_9` | `active`, or `retired in v0.9: insect protein removed from the study (kept as the v0.8 record)` (OQ-035, OQ-066, OQ-120, OQ-437). Retired rows stay as the record; views of current evidence show active rows only. | active |
 
 ### outlook.csv
 
@@ -739,14 +748,14 @@ Rows: 32. Columns: 18.
 
 Policy options: wave 1 list plus the wave 2 ranked list, with origin and cross-links between related options.
 
-Rows: 33. Columns: 20.
+Rows: 34. Columns: 20.
 
 | Column | Meaning | Example |
 |---|---|---|
 | `record_id` | Stable short row ID assigned by the consolidation step (prefix plus number). | PO-001 |
 | `origin` | Which research output(s) the row comes from. | wave 1 REGULATION |
 | `report_rank` | Rank in chapter 27 (1 to 19 from v0.8; blank if superseded or retired). |  |
-| `report_tier` | Tier in chapter 27: 1, 2, 3, `superseded`, or `retired v0.8 (feed)`. | superseded |
+| `report_tier` | Tier in chapter 27: 1, 2, 3, `superseded`, `retired v0.8 (feed)`, or `not ranked` (PO-034, added in v0.10). | superseded |
 | `report_rank_v0_7` | Rank in chapter 27 in v0.7 (1 to 24), kept as the record. |  |
 | `rank_wave2` | Rank in the wave 2 ranked list (blank for wave 1 rows). | 1 |
 | `option` | Policy option. | Insert a defined 'new food / new food ingredient' category with a prop... |
@@ -792,7 +801,7 @@ Rows: 34. Columns: 15.
 
 Vietnam-affiliated publications relevant to alternative protein (wave 1 screened list plus wave 2 top-cited papers), deduplicated on DOI.
 
-Rows: 103. Columns: 14.
+Rows: 103. Columns: 15.
 
 | Column | Meaning | Example |
 |---|---|---|
@@ -810,12 +819,13 @@ Rows: 103. Columns: 14.
 | `evidence_label` | VN-direct (evidence about Vietnam), VN-adjacent (comparable country, transfer assumed) or general. | VN-direct |
 | `confidence` | High (primary source read), Medium (reputable secondary or primary read in part) or Low (single claim, press, company marketing). | High |
 | `notes` | Free-text notes from the research agent and, where stated, the consolidation step. | Vietnamese-language article; full results not read; key result from Sc... |
+| `status_v0_9` | `active`, or `retired in v0.9: insect protein removed from the study (kept as the v0.8 record)` (PUB-062, PUB-063, PUB-064, PUB-095, PUB-096, PUB-101). Retired rows stay as the record; views of current evidence show active rows only. | active |
 
 ### replacement_trials.csv
 
 Feed trials of novel protein ingredients: the maximum replacement of fishmeal or soybean meal without loss of performance.
 
-Rows: 20. Columns: 11.
+Rows: 20. Columns: 12.
 
 | Column | Meaning | Example |
 |---|---|---|
@@ -830,6 +840,7 @@ Rows: 20. Columns: 11.
 | `evidence_label` | VN-direct (evidence about Vietnam), VN-adjacent (comparable country, transfer assumed) or general. | general |
 | `confidence` | High (primary source read), Medium (reputable secondary or primary read in part) or Low (single claim, press, company marketing). | Medium |
 | `notes` | Free-text notes from the research agent and, where stated, the consolidation step. | Protein replacement. Note: authors flag lower antioxidant status on lo... |
+| `status_v0_9` | `active`, or `retired in v0.9: insect protein removed from the study (kept as the v0.8 record)` (RTR-002, RTR-003, RTR-004, RTR-005, RTR-008, RTR-011, RTR-012, RTR-013). Retired rows stay as the record; views of current evidence show active rows only. | active |
 
 ### research_funding.csv
 
@@ -1004,7 +1015,7 @@ Rows: 13. Columns: 7.
 
 Route-to-market table by product type (food and feed), rebuilt from the wave 2 updated table, plus wave 1 rows for product types not in it.
 
-Rows: 17. Columns: 17.
+Rows: 17. Columns: 18.
 
 | Column | Meaning | Example |
 |---|---|---|
@@ -1025,12 +1036,13 @@ Rows: 17. Columns: 17.
 | `evidence_label` | VN-direct (evidence about Vietnam), VN-adjacent (comparable country, transfer assumed) or general. | VN-direct |
 | `confidence` | Confidence as given in the wave 2 table. | High (current); Medium (2027) |
 | `notes` | Free-text notes from the research agent and, where stated, the consolidation step. | source_ids combine the matched wave 1 route row with REG2 sources for ... |
+| `status_v0_9` | `active`, or `retired in v0.9: insect protein removed from the study (kept as the v0.8 record)` (RT-008, RT-009). Retired rows stay as the record; views of current evidence show active rows only. | active |
 
 ### science_facts.csv
 
 State-of-the-science facts by technology family (titres, costs, safety, nutrition, productivity) with DOI and full-text status.
 
-Rows: 43. Columns: 15.
+Rows: 43. Columns: 16.
 
 | Column | Meaning | Example |
 |---|---|---|
@@ -1049,12 +1061,13 @@ Rows: 43. Columns: 15.
 | `evidence_label` | VN-direct (evidence about Vietnam), VN-adjacent (comparable country, transfer assumed) or general. | general |
 | `confidence` | High (primary source read), Medium (reputable secondary or primary read in part) or Low (single claim, press, company marketing). | Medium |
 | `notes` | Free-text notes from the research agent and, where stated, the consolidation step. | Nielsen MB, Meyer AS, Arnau J. Annu Rev Food Sci Technol 15:173-187 (o... |
+| `status_v0_9` | `active`, or `retired in v0.9: insect protein removed from the study (kept as the v0.8 record)` (SF-027). Retired rows stay as the record; views of current evidence show active rows only. | active |
 
 ### sources.csv
 
 Master source list. Every citation ID used in the report resolves to a row here.
 
-Rows: 2,384. Columns: 14.
+Rows: 2,715 (2,669 active). Columns: 15.
 
 | Column | Meaning | Example |
 |---|---|---|
@@ -1072,6 +1085,7 @@ Rows: 2,384. Columns: 14.
 | `notes` | Type as given by the agent, other URLs, access problems, and IDs that share the same URL or DOI. | Type as given: gov/statistics (Post estimates) / Same URL as FS-23 |
 | `wave` | Research wave. | wave1 |
 | `from_note` | Notes file the source list came from. | wave1/macro/m1-protein-economy.md |
+| `status_v0_9` | `active`, or `retired in v0.9: insect protein removed from the study; no page, tile or chart cites it (kept as the v0.8 record)` (46 sources). Retired sources are not listed in Appendix R4 or the bibliography. The same column is in `sources/sources.csv`. | active |
 
 ### talent.csv
 
@@ -1142,7 +1156,7 @@ Rows: 25. Columns: 16.
 
 Timeline of events in Vietnamese alternative protein (companies, research, policy, investment).
 
-Rows: 48. Columns: 10.
+Rows: 48. Columns: 11.
 
 | Column | Meaning | Example |
 |---|---|---|
@@ -1156,6 +1170,7 @@ Rows: 48. Columns: 10.
 | `evidence_label` | VN-direct (evidence about Vietnam), VN-adjacent (comparable country, transfer assumed) or general. | VN-direct |
 | `confidence` | High (primary source read), Medium (reputable secondary or primary read in part) or Low (single claim, press, company marketing). | Low |
 | `notes` | Free-text notes from the research agent and, where stated, the consolidation step. | Company history page; dates are company claims. |
+| `status_v0_9` | `active`, or `retired in v0.9: insect protein removed from the study (kept as the v0.8 record)` (TL-010, TL-015, TL-020, TL-024, TL-028, TL-032, TL-034, TL-036, TL-040, TL-045). Retired rows stay as the record; views of current evidence show active rows only. | active |
 
 ### trade_flows.csv
 
@@ -1184,7 +1199,7 @@ Rows: 12. Columns: 12.
 
 ### glossary.csv
 
-Terms in Appendix R3, in English and Vietnamese. Rows: 236. Columns: 7.
+Terms in Appendix R3, in English and Vietnamese. Rows: 236. Columns: 8.
 
 | Column | Meaning |
 |---|---|
@@ -1193,6 +1208,7 @@ Terms in Appendix R3, in English and Vietnamese. Rows: 236. Columns: 7.
 | term_en, term_vi | Term in English and Vietnamese |
 | abbreviation | Abbreviation if any |
 | definition_en, definition_vi | Short definitions in both languages |
+| status_v0_9 | `active`, or `retired in v0.9: insect protein removed from the study (kept as the v0.8 record)` (GL-053, GL-054) |
 
 ### key-numbers.json
 A JSON array (86 entries in v0.2). Fields: `id`, `label`, `label_vi`, `value` (display string), `value_low`, `value_high` (numbers or null), `unit`, `as_of`, `context`, `source_ids`, `derived` (true if our own calculation or count), `evidence`, `confidence`, `primary_page`, `pages` (all pages that reference the id). Entries added in v0.2 also have `foresight_type` (trend, projection, estimate, signal, wildcard or vision), `horizon` (the year or years the value refers to) and `version` ("0.2"). Each entry has a `version` field giving the draft version that added it (blank for entries from v0.1).
@@ -1200,8 +1216,8 @@ A JSON array (86 entries in v0.2). Fields: `id`, `label`, `label_vi`, `value` (d
 ### plays.csv
 | Column | Meaning |
 |---|---|
-| play_id | T1 to T10 (plays) or P1 to P6 (public goods) |
-| type | `play` or `public good`; from v0.8 also `retired play` or `retired public good` (feed outputs, kept as the v0.7 record; the interactive ranking uses `type == play` only) |
+| play_id | T1 to T12 (plays) or P1 to P7 (public goods) |
+| type | `play` or `public good`; from v0.8 also `retired play` or `retired public good` (feed outputs, kept as the v0.7 record); from v0.10 also `candidate play` (T11, T12) or `candidate public good` (P7), listed in section 26.8 but not ranked. The interactive ranking uses `type == play` only |
 | name, family, segment | Short name, technology family, segment |
 | what, why_vietnam, must_be_true, kill_tests | Play card fields (chapter 26) |
 | first_customers, partners | Named first buyers and partners (public goods: related policy options) |
@@ -1210,7 +1226,7 @@ A JSON array (86 entries in v0.2). Fields: `id`, `label`, `label_vi`, `value` (d
 | lead_audiences, related_pages | Audiences and page ids |
 | source_ids, evidence_label, confidence | Evidence behind the play card |
 | market_pull, vietnam_advantage, technical_readiness, route_clarity, capital_efficiency, defensibility, public_value | Scores 1 to 5 (plays only); see play_criteria.csv |
-| status_v0_8 | `active`, or `retired in v0.8: feed output, outside the human-food focus (kept as the v0.7 record)` (T2, T3, T6, P2, P3) |
+| status_v0_8 | `active`, or `retired in v0.8: feed output, outside the human-food focus (kept as the v0.7 record)` (T2, T3, T6, P2, P3), or for candidates `candidate in v0.10 (wave 13, ...)` with the test that must pass before ranking (T11, T12, P7). Scores are blank for public goods |
 
 Weighted score = sum(score x weight) / 100, using a row of play_weight_presets.csv.
 
@@ -1262,7 +1278,7 @@ Built on 2026-09-24 by `research/wave3/consolidate_wave3.py` from the futures-ro
 | [balance_published_projections.csv](#balance_published_projectionscsv) | 86 | Published projections and official targets used to check the QNT balance model (OECD-FAO, USDA, national strategies). |
 | [balance_sensitivity.csv](#balance_sensitivitycsv) | 13 | Tornado table from the QNT model: change in 2050 soybean-meal and maize import need when one assumption (or a paired set) is varied, all else at S-BASE, plus an S-ALT comparison row. Regenerate with tools/balance_model.py. |
 | [macro_drivers_2050.csv](#macro_drivers_2050csv) | 92 | Macro drivers to 2050: demography, income, trade, energy and workforce indicators, with the source model or scenario. |
-| [shock_register.csv](#shock_registercsv) | 20 | Register of past shocks to protein supply (animal disease, pandemics, trade and conflict, climate) with magnitude and how they reached supply. |
+| [shock_register.csv](#shock_registercsv) | 21 | Register of past shocks to protein supply (animal disease, pandemics, trade and conflict, climate) with magnitude and how they reached supply. |
 | [bioeconomy_strategies.csv](#bioeconomy_strategiescsv) | 24 | National bioeconomy and biotechnology strategies with 2030 to 2050 horizons and their targets relevant to protein or biomanufacturing. |
 | [carbon_cost_per_protein.csv](#carbon_cost_per_proteincsv) | 14 | Carbon cost that a carbon price of USD 25, 50 or 100 per t CO2e would add per tonne of protein input (soybean meal, fishmeal, cassava products and microbial protein). |
 | [carbon_price_paths.csv](#carbon_price_pathscsv) | 19 | Carbon prices and price paths (actual, target, projection) in Vietnam, the region and reference markets. |
@@ -1587,7 +1603,7 @@ Rows: 92. Columns: 12.
 
 Register of past shocks to protein supply (animal disease, pandemics, trade and conflict, climate) with magnitude and how they reached supply. Stream: GEO (`working-papers/wave3/geo_macro/shock_register.csv`).
 
-Rows: 20. Columns: 11. SHK-018 to SHK-020 added in v0.8 (wave 11); `shock_type` now also includes "consumer price".
+Rows: 21. Columns: 11. SHK-018 to SHK-020 added in v0.8 (wave 11); `shock_type` now also includes "consumer price".
 
 | Column | Meaning | Example |
 |---|---|---|
@@ -2100,7 +2116,7 @@ Rows: 21. Columns: 19.
 | `score_B` | Score in scenario B. | 2 |
 | `score_C` | Score in scenario C. | 2 |
 | `score_D` | Score in scenario D. | 2 |
-| `status_v0_8` | `active`, `active (reworded in v0.8 for the human-food focus)`, or `retired in v0.8: feed output, outside the human-food focus (kept as the v0.7 record)` (RM-02, RM-07, RM-16, RM-17, RM-20). | active |
+| `status_v0_8` | `active`, `active (reworded in v0.8 for the human-food focus)` (with `v0.10: ...` notes on rows changed by wave 13), or `retired in v0.8: feed output, outside the human-food focus (kept as the v0.7 record)` (RM-02, RM-07, RM-16, RM-17, RM-20). Any value that starts with `active` is active. | active |
 
 ### vision_milestones.csv
 
@@ -2799,7 +2815,7 @@ Rows: 118. Columns: 18.
 
 Vietnamese export lines relevant to alternative protein, with values, volumes and markets (chapter 17).
 
-Rows: 30. Columns: 13.
+Rows: 33. Columns: 13.
 
 | Column | Meaning | Example |
 |---|---|---|
@@ -3062,7 +3078,7 @@ Rows: 10. Columns: 11.
 
 Eleven target product profiles (TPP-11 retired in v0.8): first buyers, channel, price and protein targets, format, label, what to avoid and the cheapest first test (chapter 25).
 
-Rows: 11. Columns: 17.
+Rows: 12. Columns: 17.
 
 | Column | Meaning | Example |
 |---|---|---|
@@ -3088,7 +3104,7 @@ Rows: 11. Columns: 17.
 
 The ten plays of chapter 26 checked against demand evidence: v0.2 market pull, demand view, first buyers and demand-side kill tests.
 
-Rows: 10. Columns: 12.
+Rows: 11. Columns: 12.
 
 | Column | Meaning | Example |
 |---|---|---|
@@ -3185,7 +3201,7 @@ Built on 25 and 26 September 2026 from the actor check and the expansion lines o
 
 Actor register of the v0.4 actor check: 80 named funders, investors and startups, incumbents, and policy and international bodies, with their stated interests and demand relevance.
 
-Rows: 80. Columns: 14.
+Rows: 80. Columns: 15.
 
 | Column | Meaning | Example |
 |---|---|---|
@@ -3203,6 +3219,7 @@ Rows: 80. Columns: 14.
 | `evidence_label` | VN-direct, VN-adjacent or general. | general |
 | `confidence` | High, Medium or Low. | High |
 | `notes` | Notes, caveats and our calculations. | Grants database could not be searched from here (HTTP 403), so Vietnamese grants ... |
+| `status_v0_9` | `active`, or `retired in v0.9: insect protein removed from the study (kept as the v0.8 record)` (AIS-A05). Retired rows stay as the record; views of current evidence show active rows only. | active |
 
 ### actor_questions.csv
 
@@ -3822,7 +3839,7 @@ Rows: 10. Columns: 17.
 
 Outcomes of 24 alternative-protein firms in Vietnam and Southeast Asia, 2019 to 2026: first channel, revenue model, funding and status.
 
-Rows: 31. Columns: 24.
+Rows: 31. Columns: 25.
 
 | Column | Meaning | Example |
 |---|---|---|
@@ -3850,6 +3867,7 @@ Rows: 31. Columns: 24.
 | `confidence` | High, Medium or Low. | Low |
 | `demand_evidence_type` | stated, revealed, tested or inferred (demand evidence type). | revealed |
 | `notes` | Notes, caveats and our calculations. | Funding in USD at 26,000 VND per USD (our calculation: VND 7 billion). Over 90%  ... |
+| `status_v0_9` | `active`, or `retired in v0.9: insect protein removed from the study (kept as the v0.8 record)` (FO-30, FO-31). Retired rows stay as the record; views of current evidence show active rows only. | active |
 
 ### firm_base_rates.csv
 
@@ -3996,14 +4014,14 @@ Rows: 19. Columns: 15.
 | `vietnam_presence` | Vietnam presence. | Thuan Dao branch, Tay Ninh (former Long An); shrimp, pangasius, tilapia, marine  ... |
 | `asc_status_sep_2026` | Asc status sep 2026. | Certified 2 Jul 2025 (v1.2) |
 | `stated_ingredient_strategy` | Stated ingredient strategy. | Nutreco RoadMap 2025 target of 5 to 10% novel ingredients by volume by 2025; res ... |
-| `microbial_protein_trials_or_purchases` | Microbial protein trials or purchases. | None found in Vietnam. Only novel ingredient in Vietnamese commercial feed is in ... |
+| `microbial_protein_trials_or_purchases` | Microbial protein trials or purchases. | None found in Vietnam |
 | `standards_targets_and_timeline` | Standards targets and timeline. | RoadMap 2025 targets missed; no replacement volume target published in the 2025  ... |
 | `relevance_to_t2` | Relevance to t2. | The one named buyer with a public novel-ingredient intake route (supplier form); ... |
 | `source_ids` | Semicolon-separated source IDs. | FBA-07; FBA-08; FBA-04; VCO-28 |
 | `evidence_label` | VN-direct, VN-adjacent or general. | VN-adjacent |
 | `confidence` | High, Medium or Low. | High |
 | `demand_evidence_type` | stated, revealed, tested or inferred (demand evidence type). | revealed; stated |
-| `notes` | Notes, caveats and our calculations. | Group-wide figures, not Vietnam-specific; insect meal is cited as a benchmark, n ... |
+| `notes` | Notes, caveats and our calculations. | Group-wide figures, not Vietnam-specific |
 
 ### inactive_yeast_trade.csv
 
@@ -4798,3 +4816,113 @@ Rows: 325. Columns: 11. From `working-papers/wave11/L1-meat-imports/`.
 | `evidence_label` | VN-direct, VN-adjacent or general. | general |
 | `confidence` | High, Medium or Low. | High |
 | `notes` | Notes, caveats and calculation inputs. | Nairobi Decision: developed members at once (some processed, dairy and swine pro ... |
+
+## Files added in the regional deals round (v0.9)
+
+Built on 15 October 2026 from research wave 12 (`working-papers/wave12/`). Version 0.9 also added rows to `sources.csv` (prefix RDL), `disagreements.csv` (DG-374 to DG-377) and `open_questions.csv` (OQ-474 to OQ-476).
+
+| File | Rows | Purpose |
+|---|---|---|
+| [regional_deals.csv](#regional_dealscsv) | 43 | Alternative-protein deals, public programmes and context rows in East and Southeast Asia, 2020 to October 2026, with amounts as reported, investors, any Vietnamese link, sources and confidence. Used in ch08 and S11. |
+
+### regional_deals.csv
+
+Alternative-protein deals, public programmes and context rows in East and Southeast Asia, 2020 to October 2026. Totals in Appendix S11 count only `scope` = main rows with a disclosed amount; feed-only rows are context.
+
+Rows: 43. Columns: 19. From `working-papers/wave12/`.
+
+| Column | Meaning | Example |
+|---|---|---|
+| `record_id` | Stable row ID. | RD-001 |
+| `date` | Date of the deal or announcement, as precise as the source allows. | 2022-02 |
+| `company` | Company, or the programme for public funding rows. | Next Gen Foods (TiNDLE) |
+| `home_base` | Where the company is based. | Singapore |
+| `production_location` | Where it produces, if known. | contract manufacturing |
+| `region` | East Asia, Southeast Asia, or outside region (outbound deals). | Southeast Asia |
+| `category` | Protein family or what the money is for. | plant-based chicken |
+| `round_or_type` | Round or type of deal (seed, Series A, grant, joint venture, merger, loans). | Series A |
+| `amount_original` | Amount in the original currency, as reported; disagreeing figures are both given. | USD 100 million (total over USD 130 million) |
+| `amount_usd` | Amount in USD as converted by the source (not by us), or undisclosed. | 100,000,000 |
+| `investors_or_acquirer` | Lead and other investors, acquirer or funder. | Temasek Asia Sustainable Foods Platform and GGV Capital; ... |
+| `investor_type` | VC, CVC, PE, strategic, government, DFI, family office and so on. | state-linked; VC |
+| `vietnam_link` | Whether a Vietnamese investor, buyer or company is involved. | no |
+| `scope` | main (protein for people), programme (public money), outbound (regional investor, company outside the region) or feed context. | main |
+| `source_ids` | Source IDs in sources.csv, separated by semicolons. | RDL-28; RDL-29 |
+| `evidence_label` | VN-direct, VN-adjacent or general. | VN-adjacent |
+| `confidence` | High, Medium or Low (Low: a single database entry or press claim). | High |
+| `notes` | Notes, caveats and links to the registers. | The largest round in the regional record. |
+| `version` | Draft that added the row. | 0.9 |
+
+## Files added in the solutions screen (v0.10)
+
+Built on 15 October 2026 from research wave 13 (`working-papers/wave13/`). Version 0.10 also added rows to `sources.csv` (prefixes GSD, SLP, SLF, SLC, SLS, SLK, SLW, PPE, AML, CGG), `open_questions.csv` (OQ-477 to OQ-523), `disagreements.csv` (DG-378 to DG-397) and `plays.csv` (candidates T11, T12 and P7).
+
+| File | Rows | Purpose |
+|---|---|---|
+| [solutions_screen.csv](#solutions_screencsv) | 170 | Published solutions checked for Vietnam: the 112 entries of GFI's Solutions Database and items from The Protein Project, the Berkeley Alt:Meat Lab and Coefficient Giving's grantees, each with a verdict and the study items it maps to. Feeds Appendix S14. |
+| [surimi_trade.csv](#surimi_tradecsv) | 22 | Vietnam's trade in surimi and fish cakes (HS 030499, 030493, 160420) by partner, 2023 to 2025, from UN Comtrade. Supports candidate play T11 and chapter 17. |
+| [coefficient_giving_grants.csv](#coefficient_giving_grantscsv) | 61 | Grants of Coefficient Giving (formerly Open Philanthropy) in its "Alternatives to Animal Products" focus area, September 2016 to July 2026, as listed on the funder's site (read in a browser session on 15 October 2026), with our classification by type and links to screened outputs. Feeds Appendices S14 and S11. |
+
+### solutions_screen.csv
+
+One row per solution or item screened in research wave 13. Built by `working-papers/wave13/L0-screen/build_screen.py` from the line screens.
+
+Rows: 170. Columns: 25. From `working-papers/wave13/`.
+
+| Column | Meaning | Example |
+|---|---|---|
+| `item_id` | GFI-001 to GFI-112 for GFI Solutions Database entries (in publication order); PPE-I, AML-I and CGG-I numbers for items from the other sources. | GFI-111 |
+| `source_set` | GFI Solutions Database, The Protein Project (EU), Berkeley Alt:Meat Lab or Coefficient Giving grantees. | GFI Solutions Database |
+| `title` | Title of the solution, publication, output or grant. | Cultivated, fermentation-derived, or hybrid surimi |
+| `item_type` | `solution` for GFI entries; publication, method, research output, grant or programme for other items. | solution |
+| `owner` | Organisation that published or holds the item. | Good Food Institute |
+| `date` | Publication date. | 2024-03-12 |
+| `url`, `doi` | Where the item is. | https://gfi.org/solutions/cultivated-fermentation-hybrid-surimi/ |
+| `platform`, `gfi_category`, `value_chain_segment`, `gfi_maturity` | GFI's own tags (GFI rows only). | Cultivated; Fermentation |
+| `line` | Wave 13 research line that screened it (L1 to L9). | L4 |
+| `in_scope`, `scope_note` | Whether the item fits the study's scope (protein for people; no feed, insects, marketing plans or market forecasts), and why. | yes |
+| `related_gfi_nos` | For other sources: the GFI entry that covers the same idea. | GFI-111 |
+| `maps_to` | Study items that already cover the item or that it changes (T, P, RM, PO, TPP, DMV, OQ, pages). | T11; TPP-03; ch17-export-demand |
+| `vietnam_angle`, `vietnam_evidence` | The Vietnam-specific reason to act, if any, and the retrieved evidence. | Surimi and fish-cake exports above USD 344 million in 2025 |
+| `verdict` | One of seven: new candidate play; new candidate public good; strengthens existing; already covered; global frontier, monitor; not for Vietnam now; out of scope. | new candidate play |
+| `verdict_note` | Why, and what the package did with it. | Hybrid fish cakes listed as candidate T11 |
+| `signal_to_watch` | For monitored items, the signal that would change the verdict. | A maker trial at 10 to 20% substitution |
+| `source_ids`, `evidence_label`, `confidence` | Evidence behind the verdict. GFI rows always include GSD-01. | GSD-01; SLS-01 |
+
+### surimi_trade.csv
+
+Vietnam's trade in surimi and fish cakes from UN Comtrade (preview API), by partner and HS code. Unit values are value divided by net weight. From `working-papers/wave13/L4-alt-seafood/`.
+
+Rows: 22. Columns: 14.
+
+| Column | Meaning | Example |
+|---|---|---|
+| `record_id` | Stable row ID. | SUR-001 |
+| `partner` | Trade partner, or World; says whether the row is Vietnam-reported or partner-reported. | World (Viet Nam-reported exports) |
+| `hs_code`, `hs_description` | HS code and description. | 030499 |
+| `year` | Calendar year. | 2023 |
+| `value_usd_million`, `net_weight_t`, `unit_value_usd_per_kg` | Trade value, net weight and unit value. | 404.6 |
+| `source_ids`, `evidence_label`, `confidence`, `demand_evidence_type` | Evidence; trade is revealed demand. | SLS-05 |
+| `notes` | Caveats. | No 2024 records in the preview API |
+| `version` | Draft that added the row. | 0.10 |
+
+### coefficient_giving_grants.csv
+
+The 61 grants listed by Coefficient Giving for the focus area "Alternatives to Animal Products" (Farm Animal Welfare Fund). The funder's site refused automated access from the research environment, so the list was read in a separate browser session on 15 October 2026 (source CGG-19; raw files in `working-papers/wave13/L9-coefficient-giving-grantees/cowork/`). The site shows grantee, title, amount and month only; old grant pages no longer load, so there is no purpose text.
+
+Rows: 61. Columns: 14.
+
+| Column | Meaning | Example |
+|---|---|---|
+| `record_id` | Grant ID, in date order (oldest first). | CG-G013 |
+| `grantee`, `grant_title` | As shown on the funder's site. | Foundation for Food and Agriculture Research; Chickpea and Corn Zein Research |
+| `amount_usd` | Amount in USD as shown. | 444000 |
+| `date` | Year and month as shown. | 2020-06 |
+| `grant_type` | Our classification from the title and grantee: research, R&D, field-building, policy, consumer or diet change, general support, other. A judgement, not the funder's. | research |
+| `geography` | Only where the title or grantee names a place. | Asia |
+| `has_published_research` | yes, no or unknown (unknown means not found, not confirmed absent). | yes |
+| `screen_item_ids` | Rows of `solutions_screen.csv` that screen the grant's outputs. | CGG-I10 |
+| `notes` | Caveats. | Probable output; three further papers not opened |
+| `source_ids`, `evidence_label`, `confidence` | Evidence. Amounts and dates are High (the funder's list); `grant_type` is our judgement. | CGG-19 |
+| `version` | Draft that added the row. | 0.10 |
+

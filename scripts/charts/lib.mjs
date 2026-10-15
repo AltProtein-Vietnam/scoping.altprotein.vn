@@ -96,7 +96,7 @@ export function niceTicks(min, max, count = 5) {
   return out;
 }
 
-// ---------- text measurement (approximate, for a humanist sans such as Work Sans) ----------
+// ---------- text measurement (approximate, for a humanist sans such as Be Vietnam Pro) ----------
 const NARROW = new Set("iljtf.,:;'!|()[] rI".split(''));
 const WIDE = new Set('mwMW@%'.split(''));
 export function textWidth(str, size = 12, weight = 400) {

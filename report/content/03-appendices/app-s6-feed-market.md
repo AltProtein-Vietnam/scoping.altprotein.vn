@@ -23,9 +23,9 @@ The appendix gives context for [[ch01-why-vietnam]], [[ch09-economics]] and [[ch
 
 ## How to read this appendix
 
-- **Terms.** FM is fishmeal. SBM is soybean meal. SPC is soy protein concentrate. SCP is single-cell protein (microbial biomass). CAP is *Clostridium autoethanogenum* protein, a bacterial SCP made from steel-mill off-gas. BSF is black soldier fly. CP is crude protein. FCR is feed conversion ratio (kg of feed per kg of animal gained). DDGS is distillers' dried grains with solubles, the residue of grain ethanol. GHG is greenhouse gas; GMO is genetically modified organism.
+- **Terms.** FM is fishmeal. SBM is soybean meal. SPC is soy protein concentrate. SCP is single-cell protein (microbial biomass). CAP is *Clostridium autoethanogenum* protein, a bacterial SCP made from steel-mill off-gas. CP is crude protein. FCR is feed conversion ratio (kg of feed per kg of animal gained). DDGS is distillers' dried grains with solubles, the residue of grain ethanol. GHG is greenhouse gas; GMO is genetically modified organism.
 - **Play codes.** T2, T3 and T6 are earlier play codes: T2 functional microbial feed ingredients for shrimp and pangasius; T3 bulk microbial protein for fishmeal replacement; T6 duckweed on aquaculture effluent for feed. All three were retired. See [[ch26-plays]].
-- **Organisations and agreements.** USDA is the United States Department of Agriculture. NSO is the National Statistics Office. MAE is the Ministry of Agriculture and Environment. MARA is China's Ministry of Agriculture and Rural Affairs. FAO is the Food and Agriculture Organization of the United Nations. IFC is the International Finance Corporation. ASC is the Aquaculture Stewardship Council and BAP Best Aquaculture Practices, two certification schemes. HS is the harmonised system of customs codes and MFN the most-favoured-nation import duty. ACFTA (ASEAN-China), ATIGA (within ASEAN) and RCEP (Regional Comprehensive Economic Partnership) are trade agreements that set preferential duties.
+- **Organisations and agreements.** USDA is the United States Department of Agriculture. NSO is the National Statistics Office. MAE is the Ministry of Agriculture and Environment. MARA is China's Ministry of Agriculture and Rural Affairs. FAO is the Food and Agriculture Organization of the United Nations. ASC is the Aquaculture Stewardship Council and BAP Best Aquaculture Practices, two certification schemes. HS is the harmonised system of customs codes and MFN the most-favoured-nation import duty. ACFTA (ASEAN-China), ATIGA (within ASEAN) and RCEP (Regional Comprehensive Economic Partnership) are trade agreements that set preferential duties.
 - **Protein replacement and functional effects.** "Protein replacement" means a novel ingredient supplies protein in place of fishmeal or soybean meal. A "functional effect" is a benefit such as better survival, immunity or palatability that protein supply does not explain. We keep the two apart, because they support very different prices.
 - **Prices.** World Bank prices are nominal USD per tonne. We express them per tonne of protein at 65% CP for fishmeal and 46% CP for soybean meal. VND converts at 26,000 per USD.
 - **Years.** USDA's "MY2024/25" for Vietnamese soybeans and soybean meal runs from January to December 2025, so it equals calendar 2025.
@@ -191,7 +191,7 @@ We found no Vietnam-specific published inclusion rate. The ranges below are glob
 | Commercial shrimp feeds (several species) | 25 to 50 | Older review statement; outdated | global, before 2013 | [@FM-40] | {general\|Low} |
 | Striped catfish (pangasius) | 1 to 2 | Global freshwater average applied | global rate, 2017 | [@FM-05; @MAC-39] | {general\|Medium} |
 | Tilapia | 1 to 2 | Global freshwater average | global, 2017 | [@FM-05; @MAC-39] | {general\|Medium} |
-| Snakehead | 20 to 40 | Hypothesis: carnivorous; experimental diets are fishmeal-based at 42% CP | Southeast Asia, 2022 to 2023 | [@FM-23; @FM-24] | {general\|Low} |
+| Snakehead | 20 to 40 | Hypothesis: carnivorous (our assumption, unsourced) | Southeast Asia | none | {general\|Low} |
 | Marine finfish (cage culture) | 15 to 30 | Hypothesis from the "one-half to two-thirds" reduction | global | [@FM-05] | {general\|Low} |
 | All aquafeeds (global average) | 5.8 | Derived by a 2022 review from 2017 data; by-product fishmeal alone would allow only 2.6% | global, 2017 | [@FM-44] | {general\|Medium} |
 
@@ -218,7 +218,7 @@ This section is the version 0.7 estimate, kept as a record; it no longer support
 - **Hypothetical additions** (unsourced rates): snakehead up to 300 kt of feed x 20 to 40% = 60 to 120 kt; marine fish 80 to 100 kt x 15 to 30% = 12 to 30 kt. Even at the top of both hypotheses and the top of the sourced range, the pool is about 440 kt (our calculation, 290 + 120 + 30).
 - **Sensitivity to shrimp volume.** If shrimp feed matched NSO whiteleg output (1.19 to 1.39 Mt at FCR 1.2 to 1.4; see S6.3), shrimp fishmeal alone would be 119 to 278 kt at 10 to 20% (our calculation).
 - **Comparison.** Our wave 1 macro note gave about 80 to 270 kt, using 23% as the shrimp ceiling [@MAC-06; @MAC-41]. The wave 2 range (79 to 290 kt) allows 25% from trial control diets. The central range (120 to 245 kt) is the better single range to quote.
-- **Realistic capture by a novel protein.** Trials show 25 to 60% of fishmeal can be replaced without growth loss (S6.9). Applying 25 to 50% to shrimp fishmeal at 10 to 20% inclusion gives 920 x 10% x 25% = 23 kt to 920 x 20% x 50% = 92 kt, which we round to **25 to 90 kt** a year of novel-protein demand (our calculation). That is 2 to 8 plants of Entobel's design size (11 kt/yr), and it is already contested by Entobel, Chinese SCP and poultry by-product meal.
+- **Realistic capture by a novel protein.** Trials show 25 to 60% of fishmeal can be replaced without growth loss (S6.9). Applying 25 to 50% to shrimp fishmeal at 10 to 20% inclusion gives 920 x 10% x 25% = 23 kt to 920 x 20% x 50% = 92 kt, which we round to **25 to 90 kt** a year of novel-protein demand (our calculation). It is already contested by Chinese SCP and poultry by-product meal.
 
 > **Correction.** Earlier drafts gave a displaceable fishmeal pool of 350 to 450 kt a year. Sourced inputs do not support it. It is reachable only if the unsourced snakehead and marine-fish inclusion rates sit at the top of the hypotheses above. Use a central 120 to 245 kt, sourced bounds of 79 to 290 kt, and a realistic capture by a novel protein of 25 to 90 kt (our calculation in the tables above, from inputs in [@FM-04; @FM-05; @FM-07; @FM-08; @MAC-06]).
 
@@ -231,7 +231,6 @@ A new protein competes with substitutes already in use, not only with fishmeal. 
 | Ingredient | Capacity or scale | Protein | Price signal | In Vietnam? | Sources | Label |
 |---|---|---|---|---|---|---|
 | Poultry by-product meal, fermented soy, SPC, rapeseed meal | Commodity scale | varies | No Vietnamese price found | Yes; use accelerated in 2025 | [@FM-04] | {VN-adjacent\|Medium} |
-| Entobel H-Meal (BSF insect meal) | 11,000 t/yr design: Dong Nai 1,000 t (since 2019) and Ho Chi Minh City (former Ba Ria-Vung Tau) 10,000 t (opened 23 Nov 2023). Output not disclosed | at least 53% CP; about 5,800 t of protein a year at full capacity and minimum CP (indicative; our calculation, 11,000 x 53%) | Not disclosed | Yes. Vinh Hoan offtake of at least 15,000 t over 2025 to 2027 (about 5,000 t a year, about 45% of design); Skretting shrimp feed from November 2025; more than 200 staff (2026) | [@ECO-01; @ECO-02; @ECO-03; @ECO-04; @ECO-05; @VCO-28] | {VN-direct\|High} |
 | Chinese glutamic-acid fermentation biomass, sold as "Mycoprotein" | Not disclosed; amino-acid (glutamic) fermentation biomass | at least 70% CP; digestible protein over 85%; ash at most 7% | Not disclosed | Yes. Imported by CK Vietnam / V-Group for pig, poultry, fish and shrimp feed, as a partial substitute for soybean meal, fishmeal and meat and bone meal | [@FM-12; @ECO-69] | {VN-direct\|Medium} |
 | FeedKind (Calysseo; methanotroph SCP, *Methylococcus capsulatus*) | 20,000 t/yr at Changshou, Chongqing, China (two 10,000 t/yr fermenters); stated "ambition" for a 100 kt plant in Saudi Arabia | about 75% CP (75.14% in one trial) | Not disclosed | Not found; Vietnamese media covered methanotroph SCP (Unibio) only as a global trend | [@FM-13; @FM-17; @ECO-67] | {general\|Medium} |
 | CAP (*C. autoethanogenum* protein from steel-mill gas) | Capacity not found; used in Chinese feed trials (shrimp, bass, croaker, broilers) | about 84% CP | Not found | Not found | [@FM-15; @FM-20; @RGN-57; @SCI-23; @FM-21; @FM-18] | {general\|Low} |
@@ -241,11 +240,9 @@ A new protein competes with substitutes already in use, not only with fishmeal. 
 | Imported inactive yeast and dead single-cell organisms (HS 2102.20) | 9,193 t imported in 2025 (USD 13.5 M), 2.4 times 2019; China 4,236 t, Brazil 2,712 t, Serbia 940 t | not stated | Bulk tier 8,729 t at about USD 1.10/kg FOB; specialty tier 464 t at about USD 8.55/kg | Yes. Vietnam also exported 8,166 t at USD 1.39/kg in 2025; domestic yeast plants include AB Mauri La Nga and Saf-Viet | [@FBA-17; @FBA-19; @IND-15; @IND-17] | {VN-direct\|Medium} |
 | Domestic MSG co-products (Ajinomoto liquid and solid feed ingredients; Vedan CMS and pellets) | Ajinomoto 30,000 m3/yr liquid and 5,000 t/yr solid (2023) | not found | Vedan fertiliser and feed sales USD 27.1 M (2025) | Yes | [@IND-08; @VCO-01] | {VN-direct\|Medium} |
 
-> **Correction.** Skretting Vietnam (Nutreco) and Entobel announced a strategic partnership on 26 November 2025, and commercial production of Skretting shrimp feed containing Entobel's insect meal began that month. This is the first commercial insect-meal shrimp feed in Vietnam (company claim); no inclusion rate or volume was disclosed [@VCO-28]. Entobel's financing was a USD 32.5 M project: Mekong Capital USD 25 M, Dragon Capital USD 5 M and IFC USD 2.5 M under an "Upstream Collaboration Agreement" (IFC project 46903, board date 23 February 2023). It was not USD 36 M, as earlier drafts said [@ECO-03; @VCO-20].
-
 - **Tariff note.** Inactive yeasts and other dead single-cell organisms (HS 2102.20) carry a 7% MFN duty, but SCP from China and ASEAN enters at 0% under ACFTA, ATIGA and RCEP; the 7% applies only to other origins. So local SCP has no tariff edge over Chinese product, whether or not dried bacterial or yeast SCP classifies under 2102.20 (not verified) [@FTR-32; @REG2-23] {VN-direct|Medium}. Earlier editions read the 7% as a small handicap for imported SCP; that was wrong for the main origins.
 - **Mills already buy microbial ingredients.** The HS 2102.20 imports above are the incumbent equivalent of a functional microbial feed ingredient (retired play T2), bought at about USD 1.1 per kg. HS6 data cannot split feed from food; the unit values suggest mostly feed grade (our inference) [@FBA-17] {VN-direct|Medium}.
-- **Listing status.** Insect meal and yeast protein are listed raw materials for livestock feed. The aquafeed permitted list (Circular 16/2026/TT-BNNMT, Appendix II) has no raw-material section: it lists *Candida utilis*, *Pichia farinosa* and *Saccharomyces cerevisiae* only as microorganisms, and has no methanotrophs or microalgae. Since 5 August 2026, Decree 211/2026 fines VND 10 to 20 M for each unlisted feed raw material used, plus 1 to 3 months' suspension [@REG2-01; @REG2-09; @REG2-10] {VN-direct|High}. See [[app-s9-regulation]].
+- **Listing status.** Yeast protein is a listed raw material for livestock feed. The aquafeed permitted list (Circular 16/2026/TT-BNNMT, Appendix II) has no raw-material section: it lists *Candida utilis*, *Pichia farinosa* and *Saccharomyces cerevisiae* only as microorganisms, and has no methanotrophs or microalgae. Since 5 August 2026, Decree 211/2026 fines VND 10 to 20 M for each unlisted feed raw material used, plus 1 to 3 months' suspension [@REG2-01; @REG2-09; @REG2-10] {VN-direct|High}. See [[app-s9-regulation]].
 
 ---
 
@@ -256,22 +253,16 @@ A new protein competes with substitutes already in use, not only with fishmeal. 
 | Species | Novel ingredient | Maximum replacement without loss | Type | Country | Source | Label |
 |---|---|---|---|---|---|---|
 | Whiteleg shrimp | Low-fishmeal formulation (plant proteins, amino acids, phytase) | Fishmeal cut from 25% to 10% of diet (60% of fishmeal removed); survival and feed efficiency still best at 25% | Protein | likely China | [@FM-08] | {general\|Medium} |
-| Whiteleg shrimp | Yellow mealworm meal | 50% of fishmeal, with better growth and FCR | Protein and functional | not stated (company-linked product) | [@FM-26] | {general\|Medium} |
-| Whiteleg shrimp | BSF larvae meal | 20% of fishmeal without growth loss; 30% reduced growth | Protein | likely China | [@SCI-27] | {general\|Medium} |
 | Whiteleg shrimp | CAP (84% CP) | At 30% of the diet (digestibility trial), growth equal to the control; at 50% of fishmeal (fishmeal 25% to 12.5% of diet) growth fell unless 0.06% chenodeoxycholic acid was added | Protein | China | [@SCI-23; @SCI-24; @FM-20] | {general\|Medium} |
 | Whiteleg shrimp | Mixed-culture microbial protein from food-processing wastewater | Up to 90% of fishmeal (preprint) | Protein | not stated | [@SCI-25] | {general\|Low} |
 | Whiteleg shrimp | Fermented soybean meal | 88.8% crude-protein digestibility; optimum fishmeal replacement 253.6 g/kg | Protein | Vietnam, 2018 | [@RD-46] | {VN-direct\|High} |
 | Whiteleg shrimp | Soy protein concentrate | 33, 66 and 100% tested; no difference in shrimp taste (sensory only, no growth data) | Product quality | Brazil (journal) | [@FM-29] | {general\|Low} |
 | Giant freshwater prawn | Spent brewer's yeast | Up to 60% of fishmeal protein without loss of growth or survival | Protein | Vietnam, 2019 | [@RD-48] | {VN-direct\|High} |
-| Striped catfish (pangasius) | BSF larvae meal | 60% of fishmeal (174 g/kg of diet); 100% (292 g/kg) cut growth | Protein | not stated | [@FM-22] | {general\|Medium} |
 | Striped catfish (pangasius) | Corn gluten meal | About 25% of fishmeal protein (optimum by regression) | Protein | likely Vietnam or Thailand | [@FM-39] | {general\|Medium} |
 | Hybrid "Thai Panga" catfish | Brewer's yeast | 45% of fishmeal, with better growth (review citation) | Protein | Thailand | [@SCI-26] | {VN-adjacent\|Medium} |
 | Nile tilapia | Brewer's yeast replacing soybean meal | Gradual replacement tested (level not extracted) | Protein | Vietnam, 2024 | [@RD-49] | {VN-direct\|Medium} |
 | Tilapia | SCP, yeast or CAP replacing fishmeal | No threshold retrieved | n/a | n/a | none | {general\|Low} |
 | Snakehead | Soy protein concentrate | 40% of fishmeal protein; 60 to 100% reduced growth | Protein | Vietnam, 2016 | [@RD-47] | {VN-direct\|High} |
-| Snakehead | Two-spotted cricket meal | 100% of fishmeal protein without growth loss | Protein | not stated | [@FM-23] | {general\|Medium} |
-| Snakehead | Cricket meal | A 45% cricket-meal diet equal to the fishmeal control | Protein | Indonesia or Vietnam (not verified) | [@FM-24] | {general\|Low} |
-| Fish (meta-analysis) | BSF meal | Up to 30% of fishmeal in some (mainly omnivorous) species; growth fell in carnivores and herbivores | Protein | global | [@FM-25] | {general\|Medium} |
 | Largemouth bass | CAP | 67 to 68% of fishmeal (from a 70% fishmeal diet); 100% reduced growth | Protein | China | [@FM-21] | {general\|Medium} |
 | Large yellow croaker | CAP | 15% of fishmeal; 30 to 45% reduced growth | Protein | China | [@FM-18] | {general\|Medium} |
 | Black sea bream | FeedKind | Up to 24.8% of fishmeal protein; 8.27% improved growth | Protein | China | [@FM-17] | {general\|Medium} |
@@ -279,15 +270,13 @@ A new protein competes with substitutes already in use, not only with fishmeal. 
 | Barramundi fry | Methanotroph SCP | 0%: 25% and 50% replacement both caused enteritis and lower survival | Negative | Australia (implied) | [@FM-19] | {general\|Medium} |
 | Rainbow trout (reference) | Fermented soybean meal | 40% of fishmeal (from a 250 g/kg control); 60% reduced growth | Incumbent benchmark | China | [@FM-30] | {general\|Medium} |
 
-- **Digestibility screen.** In a whiteleg shrimp study at 30% dietary inclusion, CAP protein digestibility was higher than the control and methanotroph meal lower; growth fell with methanotroph, BSF and mealworm meals but not with CAP or *Chlorella* [@SCI-23] {general|Medium}. One trial is not the last word on methanotroph meal; FeedKind-specific shrimp trials were not retrieved.
+- **Digestibility screen.** In a whiteleg shrimp study at 30% dietary inclusion, CAP protein digestibility was higher than the control and methanotroph meal lower; growth fell with methanotroph meal but not with CAP or *Chlorella* [@SCI-23] {general|Medium}. One trial is not the last word on methanotroph meal; FeedKind-specific shrimp trials were not retrieved.
 - **Vietnamese research base.** At least 10 Vietnamese fishmeal-replacement papers exist by term search, and about 20 across aquafeed queries; this is a floor, because country tagging misses Vietnamese journals [@RD-01; @BIB-01] {VN-direct|Medium}. We found no Vietnamese trial with bacterial SCP, methanotroph meal or microalgae as bulk protein in pangasius or shrimp [@RD-01] {VN-direct|Medium}.
 
 ### S6.9.2 Functional and immunity effects (separate from protein)
 
 - CAP improved growth and survival after pathogen challenge in whiteleg shrimp across 15 to 45 ppt salinity [@FM-20] {general|Medium}.
-- Mealworm meal at 50% replacement cut post-challenge mortality by 76.9% in whiteleg shrimp [@FM-26] {general|Medium}.
 - FeedKind raised survival and antioxidant markers in largemouth bass [@FM-16] {general|Medium}.
-- BSF protein hydrolysate at 1 to 2% of diet raised palatability in shrimp feed [@FM-45] {general|Medium}.
 - Beta-glucan raised striped catfish survival under winter conditions from 78.3% to 95.0% [@FM-31] {general|Medium}. Yeast is broadly reviewed as an immunostimulant [@FM-32] {general|Medium}.
 
 **Reading.** The growth data support partial replacement (about 25 to 60% of fishmeal) in the Vietnamese species that still use fishmeal: shrimp, snakehead and marine fish. Early life stages need their own trials (the barramundi fry result is a warning). In pangasius and tilapia there is little fishmeal left to replace, so a novel ingredient there must sell on function or on soybean-meal parity. A product sold on function can charge far more per tonne than one sold on protein (S6.11).
@@ -304,7 +293,6 @@ A new protein competes with substitutes already in use, not only with fishmeal. 
 | Pigs | more than 70% | 2024 review | [@MAC-43] | {VN-direct\|Medium} |
 | Pangasius | 70 to 90% of total investment costs | 2007 to 2011 studies (cited in a 2016 paper) | [@MAC-42] | {VN-direct\|Medium} |
 | Shrimp | 50 to 60% | 2026 trade press | [@FM-10] | {VN-direct\|Medium} |
-| Snakehead | 50 to 60% | 2024 study in Hue, Vietnam (figure from its introduction) | [@FM-41] | {VN-direct\|Low} |
 
 ### S6.10.2 Feed prices
 
@@ -325,7 +313,6 @@ At 15% inclusion, fishmeal adds USD 256 per tonne of feed at the 2025 average pr
 ### S6.10.4 Who buys
 
 - **Shrimp feed.** Sheng Long, C.P. Vietnam, Uni-President Vietnam, Tongwei, Grobest and Gromax made a combined 640 kt in 2025, about 70% of shrimp feed [@FM-04; @IND-41] {VN-direct|Medium}. New high-protein capacity (C.P. Ca Mau, 124,800 t/yr; De Heus Vinh Long, 168,000 t/yr design capacity, 84,000 t/yr in trade press, possibly a first phase, opened July 2026 for marine fish whose feeds need 40 to 50% protein; DG-128) adds premium buyers [@IND-42; @IND-45; @VCO-10] {VN-direct|Medium}. See [[app-s5-facilities]].
-- **Pangasius.** Vertically integrated groups; Vinh Hoan has contracted to buy at least 15,000 t of insect meal over 2025 to 2027 [@ECO-05] {VN-direct|Medium}.
 - **Livestock feed.** De Heus, GreenFeed, Cargill and Japfa top Vietnam Report's 2025 reputation ranking of feed companies [@MAC-25] {VN-direct|Low}. C.P. Vietnam, with 21 plants, is another major feed group [@IND-43] {VN-direct|Low}. De Heus's purchase of CJ Feed & Care (closed 3 March 2026) concentrates buying power further (our inference) [@VCO-08] {VN-direct|High}.
 - **Integrated pangasius groups own certified mills.** Feed One, 75% owned by Vinh Hoan, has been ASC-certified since July 2024; Nam Viet and Sao Mai feed companies were certified in 2026 (group ownership not verified) and Godaco is in audit [@FBA-15; @FBA-04] {VN-direct|High}.
 - **Certification pull, and its limits.** On 25 September 2026 the ASC register listed 15 certified Vietnamese feed mills, the most of any country (15 of 114 worldwide), and 6 more in initial audit; they include C.P. Vietnam, De Heus, Grobest, Skretting, BioMar Viet Uc, GreenFeed and Feed One [@FBA-04] {VN-direct|High}. From 1 May 2028 all ASC farm audits use the new Farm Standard, which requires compound feed from ASC-certified mills [@FBA-02; @FBA-03] {general|Medium}. The pull is for traceable soy and marine inputs, not for microbial protein. ASC Feed Standard v1.2 (in force from 2 February 2026) treats feed stuffs (if due diligence indicates low risk) and any ingredient under 1% of a mill's aquafeed intake as eligible without credit; BAP counts only ingredients from algae and other aquatic microorganisms towards its marine target; neither standard, nor GLOBALG.A.P., requires or rewards yeast, fungal or bacterial biomass [@FBA-01; @FBA-05] {general|High}. A supplier should expect a request for due-diligence data, a GHG factor and strain GMO status, not a premium (our inference). Nutreco reached 0.6% novel ingredients in 2025 against a 5 to 10% target (Skretting 1.5%) [@FBA-07] {VN-adjacent|High}, and we found no named Vietnamese mill that has published a purchase of microbial protein.
@@ -339,7 +326,7 @@ A typical sequence, drawn from the trial literature and the published local case
 3. Dose-response growth trial in tanks, usually 8 to 12 weeks.
 4. Pond or farm trial, with a lab such as ShrimpVet, which ran an additive challenge trial in Ho Chi Minh City [@ECO-70].
 5. Legal listing as a feed ingredient in Vietnam. For a new substance in livestock feed this means a feed trial under the Law on Animal Husbandry Art 37 and Circular 94/2025, with about 40 working days of agency steps (protocol approval 15 + 5 days, recognition 15 + 5 days) plus the trial itself [@REG2-08; @REG-29; @REG-32] {VN-direct|Medium}. Our estimate of the total is 6 to 18 months. For aquafeed, the documented steps are about 20 days of appraisal, the trial, then 10 working days (Decree 26/2019/ND-CP Art 32, as amended) [@REG-38; @REG2-02] {VN-direct|Medium}. Whether an aquafeed trial is required for a new raw material is ambiguous (S6.8). See [[app-s9-regulation]].
-6. Supply-security and price agreement. The Entobel and Vinh Hoan offtake (at least 15,000 t over 2025 to 2027) is the local precedent [@ECO-05] {VN-direct|Medium}.
+6. Supply-security and price agreement.
 
 ---
 
@@ -419,7 +406,6 @@ These gaps now matter as context and for the record, not as tests of a recommend
 | 7 | MARA soybean-meal reduction targets and SCP approvals | Size of the Chinese home market | Read the MARA notice on moa.gov.cn directly |
 | 8 | Tilapia and pangasius SCP or yeast replacement thresholds | No tilapia threshold retrieved | Targeted literature search; Can Tho University and Nong Lam University aquaculture faculties |
 | 9 | FAO SOFIA 2024 fishmeal figures read directly | Global supply context is secondhand | FAO Open Knowledge repository PDF |
-| 10 | Skretting's insect-meal inclusion rate and volumes; Entobel's realised output and price | The only local price signal for a novel protein | Ask Skretting Vietnam and Entobel |
 | 11 | Soybean-meal origin shares for 2025 | Argentina 69% or Brazil 69% depends on the table reading | Re-read the USDA VM2026-0006 PDF |
 | 12 | Whether the 2030 feed target includes aquafeed | Changes the implied growth rate | Read Decision 1520/QD-TTg in full |
 

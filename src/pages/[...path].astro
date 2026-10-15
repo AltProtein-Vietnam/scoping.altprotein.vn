@@ -1,12 +1,28 @@
 ---
 import Base from '../layouts/Base.astro';
 import PageView from '../components/PageView.astro';
+import PartView from '../components/PartView.astro';
+import LockedPage from '../components/LockedPage.astro';
 import NotFound from '../components/NotFound.astro';
 import { loadPage, mayPreview, renderPage } from '../lib/content';
-import { PAGE_BY_ID, href, pageIdForPath, localize } from '../lib/site';
+import { canReadPage } from '../lib/access';
+import { coverPartAnswers } from '../lib/front';
+import { t } from '../lib/i18n';
+import {
+  DRAFT_BANNER_PAGES,
+  PAGE_BY_ID,
+  PART_BY_KEY,
+  ROLE,
+  href,
+  localize,
+  navKey,
+  pageIdForPath,
+} from '../lib/site';
 import { MOVED_PAGES } from '../lib/redirects';
 
 const lang = Astro.locals.lang ?? 'en';
+const s = t(lang);
+const editor = Astro.locals.editor;
 const path = `/${Astro.params.path ?? ''}`;
 
 // Links from the first edition of the site.
@@ -17,16 +33,34 @@ const moved = /^\/(report|appendices)\/([a-z0-9-]+)$/.exec(path);
 if (moved && MOVED_PAGES[moved[2]])
   return Astro.redirect(href(MOVED_PAGES[moved[2]], lang) + Astro.url.search, 301);
 
-const id = pageIdForPath(path);
+// Data files that were public before v0.10 now live under /files/ (editors only).
+const dataFile = /^\/data\/((?:charts\/)?[\w.-]+\.(?:csv|json|md))$/.exec(path);
+if (dataFile) return Astro.redirect(`/files/data/${dataFile[1]}`, 301);
+
 if (Astro.url.searchParams.has('_preview') && !mayPreview(Astro.locals.user))
   return new Response('Editor sign-in is required for previews.', {
     status: 403,
     headers: { 'Cache-Control': 'private, no-store' },
   });
 
+// A part of the report, as the question it answers.
+const partMatch = /^\/report\/part-(i|ii|iii|iv|v)$/.exec(path);
+const part = partMatch ? PART_BY_KEY.get(partMatch[1]) : undefined;
+let partAnswers: string | undefined;
+if (part) {
+  try {
+    const cover = (await loadPage(ROLE.cover)).entry;
+    partAnswers = coverPartAnswers(cover?.data.body ?? '')[part.numeral];
+  } catch (error) {
+    console.error(error);
+  }
+}
+
+const id = part ? undefined : pageIdForPath(path);
 const meta = id ? PAGE_BY_ID.get(id) : undefined;
+const locked = Boolean(meta && !canReadPage(meta.id, editor));
 let loaded: Awaited<ReturnType<typeof loadPage>> | null = null;
-if (meta) {
+if (meta && !locked) {
   try {
     loaded = await loadPage(meta.id);
   } catch (error) {
@@ -37,8 +71,8 @@ if (meta) {
   }
 }
 const entry = loaded?.entry;
-if (!entry) Astro.response.status = 404;
 const data = entry?.data;
+if (!part && !locked && !entry) Astro.response.status = 404;
 const rendered =
   meta && data
     ? renderPage(
@@ -47,39 +81,33 @@ const rendered =
         lang,
         String(data.updatedAt ?? ''),
         Boolean(loaded?.isPreview),
+        editor,
       )
     : null;
-const section =
-  meta?.section === 'report'
-    ? 'report'
-    : meta?.section === 'brief'
-      ? 'briefs'
-      : meta?.section === 'appendix'
-        ? 'appendices'
-        : meta &&
-            [
-              'front-two-minute',
-              'front-exec-summary',
-              'front-exec-summary-vi',
-              'front-at-a-glance',
-            ].includes(meta.id)
-          ? 'summary'
-          : meta &&
-              ['front-prologue', 'front-prologue-vi', 'front-how-to-read', 'front-faq'].includes(
-                meta.id,
-              )
-            ? 'start'
-            : undefined;
 ---
 
-{meta && data && rendered ? (
+{part ? (
   <Base
-    title={data.short_title && meta.section === 'front' ? data.title : data.title}
+    title={s.parts[part.key]?.question ?? part.label}
+    description={partAnswers ?? part.label}
+    nav={`part-${part.key}`}
+    pageClass="page-part"
+  >
+    <PartView partKey={part.key} answers={partAnswers} />
+  </Base>
+) : locked && meta ? (
+  <Base title={s.lockedTitle} noindex current={meta.id} pageClass="page-locked">
+    <LockedPage id={meta.id} />
+  </Base>
+) : meta && data && rendered ? (
+  <Base
+    title={data.title}
     description={data.summary ?? meta.summary}
     content={{ collection: 'pages', id: entry!.id, slug: meta.id }}
-    noindex={loaded?.isPreview}
+    noindex={loaded?.isPreview || !canReadPage(meta.id, false)}
     current={meta.id}
-    section={section}
+    nav={navKey(meta.id)}
+    banner={DRAFT_BANNER_PAGES.has(meta.id)}
     pageClass={`page-${meta.section} page-${meta.id}`}
   >
     <PageView
@@ -91,7 +119,7 @@ const section =
     />
   </Base>
 ) : (
-  <Base title="Not found" noindex>
+  <Base title={s.notFound} noindex>
     <NotFound />
   </Base>
 )}

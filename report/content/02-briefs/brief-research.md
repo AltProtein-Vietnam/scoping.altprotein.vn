@@ -32,7 +32,7 @@ charts: [chart-research-benchmark]
 4. **Thermotolerant yeasts** (40 to 45 °C) on raw cassava starch and pulp, with measured cooling savings in a tropical plant.
 5. **Duckweed food safety:** yields, manganese and heavy metals on Mekong water, and protein concentrates.
 6. **Texturisation** of rice distillers'-grain and broken-rice protein, and extrusion of local legume blends.
-7. **Cultivated seafood:** serum-free, suspension adaptation of striped catfish cells, and *Pichia*-made growth factors tested on fish cells (play T8).
+7. **Cultivated seafood:** low-cost hydrolysate media from Vietnamese soy, rice bran or fish by-products, because amino acids are the larger medium cost [@COST-47] {general|High}; *Pichia*-made growth factors tested on fish cells; and serum-free, suspension adaptation of fish cells, with Asian seabass or grouper as candidate species (food-oriented lines exist abroad; metadata only) and striped catfish as a low-cost model [@SLS-14; @SLS-15] {general|Low} (play T8).
 8. **Bacterial protein** from pig-farm and cassava-starch biogas.
 
 Sensory and blind tests are in "The demand side" below. Source: [[ch06-knowledge-talent]] section 6.3 and [[app-s7-research]].
@@ -59,7 +59,7 @@ The food-security research of 2026 left four gaps that decide how far the securi
 
 ## Public goods research bodies could lead
 
-- **Protein-quality laboratory** (amino acids, DIAAS, and phytate, zinc and iron with phytate-to-mineral molar ratios) at a national reference laboratory (policy option PO-027) [@NQR-16; @NQR-20] {general|Medium}.
+- **Protein-quality and function laboratory** (amino acids, DIAAS, and phytate, zinc and iron with phytate-to-mineral molar ratios) at a national reference laboratory (policy option PO-027) [@NQR-16; @NQR-20] {general|Medium}. From version 0.10 it also covers protein function (solubility, water and oil holding, emulsifying, foaming, gelling), which buyers specify and which no Vietnamese laboratory sells as a service [@SLP-10; @SLP-17] {general|Medium}.
 - **Yearly by-product atlas** of volume, location, price and composition (PO-028).
 - **Open cost model** for fermentation with Vietnamese inputs, and a public price series for food protein ingredients ([[ch26-plays]], public good P6).
 - **Shared food-grade pilot fermentation**, with tolling on existing industrial tanks (play T5, PO-026). Tolling means renting time on someone else's fermenter. A university or the Food Industries Research Institute (FIRI) could be the anchor host ([[ch26-plays]]).
@@ -72,7 +72,7 @@ These sit beside the study's three top policy steps ([[ch27-policy-options]]):
 
 ## Funding and partners
 
-- **Domestic:** NAFOSTED, the National Foundation for Science and Technology Development (most acknowledged); VINIF, the Vingroup Innovation Foundation (mainly scholarships and fellowships); and state science tasks under the new science law, which allows research risk to be accepted ([[ch06-knowledge-talent]]).
+- **Domestic:** NAFOSTED, the National Foundation for Science and Technology Development (the main domestic funder of Vietnamese food-protein research; an ordinary basic-research project averaged about VND 950 million, about USD 36,500, in 2023) [@SLW-01; @SLW-02] {VN-direct|Medium}; VINIF, the Vingroup Innovation Foundation (mainly scholarships and fellowships; no 2025 or 2026 call shown on its site); and state science tasks under the new science law, which allows research risk to be accepted ([[ch06-knowledge-talent]]).
 - **International:** ACIAR, the Australian Centre for International Agricultural Research, funds 23 Vietnamese projects, none on alternative protein. Alternative-protein grant windows (for example Coefficient Giving's USD 30 million request) open only now and then. They need a ready proposal and often an international co-applicant ([[ch08-capital]]).
 - **Partners:** Thai groups (cassava-pulp thermotolerant yeasts; the EECi pilot plant), Indian fish cell repositories, and Singapore's pilot and regulatory ecosystem ([[ch03-regional]]).
 

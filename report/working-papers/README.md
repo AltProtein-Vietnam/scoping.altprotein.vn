@@ -2,7 +2,7 @@
 
 Unedited research notes behind the study, published for transparency. They use the chapter numbers, appendix letters and edition labels of the time ("edition 1.0" to "edition 1.4" are versions 0.1 to 0.5); Appendix M5, section M5.3 maps old numbers to new. Where a note and the report disagree, the report is the current position.
 
-New research: read `PROTOCOL.md`, copy `BRIEF-TEMPLATE.md`, and write wave 12 onwards as `wave<N>/<line-folder>/`.
+New research: read `PROTOCOL.md`, copy `BRIEF-TEMPLATE.md`, and write wave 14 onwards as `wave<N>/<line-folder>/`.
 
 | Wave | Version | Round | Folders and source prefixes | Brief or protocol |
 |---|---|---|---|---|
@@ -20,7 +20,10 @@ New research: read `PROTOCOL.md`, copy `BRIEF-TEMPLATE.md`, and write wave 12 on
 | (none) | 0.6 | Reader-first restructure | no new research | Appendix M5, M5.2 |
 | (none) | 0.7 | Citation check of 7,003 citations | no working papers in this package | Appendix M5, M5.13 |
 | 11 | 0.8 | Food-security hypotheses; human-food refocus and clear-language edit | `wave11/`: L1 imported meat and dairy MIM, L2 disease and pandemic risk PAN, L3 other security exposures SEC, L4 protein for people FBS; `wave11/editorial/` page-editor logs; fold-in scripts | `wave11/BRIEF.md`, `wave11/EDITORIAL-v0.8.md` |
+| (none) | 0.9 | Insect protein removed from the study | no new research | Appendix M5, M5.15 |
+| 12 | 0.9 | Regional deal record, East and Southeast Asia | `wave12/`: regional deals RDL | `wave12/regional-deals.md` (method in the note) |
+| 13 | 0.10 | Solutions screen: GFI's Solutions Database (112 entries) and three more sources, checked for Vietnam | `wave13/`: L0 screen and fold-in GSD; L1 plant-based SLP; L2 fermentation SLF; L3 cultivated SLC; L4 alternative seafood SLS; L5 capital and markets SLK; L6 research and workforce SLW; L7 The Protein Project PPE; L8 Berkeley Alt:Meat Lab AML; L9 Coefficient Giving grantees CGG | `wave13/BRIEF.md` (with addendum for L7 to L9); `wave13/L0-screen/` |
 
-Method write-ups: waves 1 and 2 in Appendix M1; waves 3 to 5 in Appendix M2; wave 6 in Appendix M3; waves 7 to 9 in Appendix M4; wave 10 in Appendix M1 (M1.13); wave 11 in Appendix M1 (M1.14).
+Method write-ups: waves 1 and 2 in Appendix M1; waves 3 to 5 in Appendix M2; wave 6 in Appendix M3; waves 7 to 9 in Appendix M4; wave 10 in Appendix M1 (M1.13); wave 11 in Appendix M1 (M1.14); wave 12 in Appendix M1 (M1.15); wave 13 in Appendix M1 (M1.16).
 
 Earlier briefs mention a desktop browser, OpenAlex and Scite tools, and paths such as `research/` or `altprotein-vn-supply-scoping-2026/`. Those belonged to the original working environment. In this repository the package is at the root, and cloud sessions have no desktop browser.

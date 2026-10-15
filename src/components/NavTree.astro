@@ -1,84 +1,155 @@
 ---
-import { label, type Lang } from '../lib/i18n';
-import { SITE, PAGE_BY_ID, href, chapterNumber, appendixCode, type NavItem } from '../lib/site';
+// The full contents: summary pages, the five parts as questions with their chapters, the briefs,
+// the reference pages and, for editors, the appendices (marked as not public).
+import { audienceLabel, label, t, type Lang } from '../lib/i18n';
+import { isRestrictedPage } from '../lib/access';
+import {
+  APPENDIX_GROUPS,
+  PAGES,
+  PAGE_BY_ID,
+  PART_LIST,
+  ROLE,
+  SITE,
+  appendixCode,
+  chapterNumber,
+  href,
+  localize,
+  partPath,
+  type PageMeta,
+} from '../lib/site';
+
 interface Props {
   lang: Lang;
   current?: string;
-  /** Top-level groups to show (defaults to all except Home and Data). */
-  only?: string[];
+  editor?: boolean;
 }
-const { lang, current, only } = Astro.props;
-const groups = SITE.nav.filter((g) => g.children && (!only || only.includes(g.label!)));
-const containsCurrent = (item: NavItem): boolean =>
-  item.page === current || Boolean(item.children?.some(containsCurrent));
-const num = (id: string) => {
-  const n = chapterNumber(id);
-  if (n !== null) return String(n);
-  return appendixCode(id) ?? '';
-};
+const { lang, current, editor = false } = Astro.props;
+const s = t(lang);
+const summaryIds = [
+  ROLE.twoMinute,
+  ROLE.summary,
+  ROLE.summaryVi,
+  ROLE.atAGlance,
+  ROLE.prologue,
+  ROLE.prologueVi,
+  ROLE.howToRead,
+  ROLE.faq,
+];
+const briefAudience = (id: string) => id.replace(/^brief-/, '');
+const briefs = PAGES.filter((p) => p.section === 'brief').sort((a, b) => a.order - b.order);
+// Chapter and appendix titles are report text, in English.
+const contentLang = lang === 'vi' ? 'en' : undefined;
+const item = (p: PageMeta, n?: string) => ({
+  n,
+  title: p.short_title.replace(/^[A-Z]\d*\. /, ''),
+  aud: p.audiences.join(' '),
+  locked: isRestrictedPage(p.id),
+});
 ---
 
-<nav class="tree" aria-label={lang === 'vi' ? 'Mục lục báo cáo' : 'Report contents'}>
+<nav class="toc-tree" aria-label={s.contents}>
+  <p class="tt-group">{s.summary}</p>
   <ul>
-    {groups.map((group) => (
-      <li class="group">
-        <details
-          open={
-            !current ||
-            containsCurrent(group) ||
-            group.label === 'Summary' ||
-            group.label === 'Start here'
-          }
-        >
-          <summary>{label(group.label!, lang)}</summary>
-          <ul>
-            {group.children!.map((item) =>
-              item.children ? (
-                <li class="subgroup">
-                  <details open={containsCurrent(item) || (!current && group.label === 'Report')}>
-                    <summary>{label(item.label!, lang)}</summary>
-                    <ul>
-                      {item.children.map((leaf) => {
-                        const page = PAGE_BY_ID.get(leaf.page!)!;
-                        return (
-                          <li>
-                            <a
-                              href={href(page.id, lang)}
-                              aria-current={page.id === current ? 'page' : undefined}
-                              data-aud={page.audiences.join(' ')}
-                              lang={page.lang !== lang ? page.lang : undefined}
-                            >
-                              <span class="num">{num(page.id)}</span>
-                              <span>{page.short_title.replace(/^[A-Z]\d*\. /, '')}</span>
-                              <span class="for-you-dot" aria-hidden="true" />
-                            </a>
-                          </li>
-                        );
-                      })}
-                    </ul>
-                  </details>
-                </li>
-              ) : (
-                <li>
-                  <a
-                    href={href(item.page!, lang)}
-                    aria-current={item.page === current ? 'page' : undefined}
-                    data-aud={PAGE_BY_ID.get(item.page!)!.audiences.join(' ')}
-                    lang={
-                      PAGE_BY_ID.get(item.page!)!.lang !== lang
-                        ? PAGE_BY_ID.get(item.page!)!.lang
-                        : undefined
-                    }
-                  >
-                    <span>{PAGE_BY_ID.get(item.page!)!.short_title}</span>
-                    <span class="for-you-dot" aria-hidden="true" />
-                  </a>
-                </li>
-              ),
-            )}
-          </ul>
-        </details>
+    {summaryIds.map((id) => {
+      const p = PAGE_BY_ID.get(id)!;
+      return (
+        <li data-aud={p.audiences.join(' ')}>
+          <a
+            href={href(id, lang)}
+            aria-current={id === current ? 'page' : undefined}
+            lang={p.lang !== lang ? p.lang : undefined}
+          >
+            {p.short_title}
+          </a>
+        </li>
+      );
+    })}
+  </ul>
+  {PART_LIST.map((part) => (
+    <>
+      <p class="tt-group">{s.part(part.numeral)}</p>
+      <ul>
+        <li>
+          <a href={localize(partPath(part.key), lang)}>
+            <span class="tt-q">{s.parts[part.key]?.question ?? part.label}</span>
+          </a>
+        </li>
+        {part.chapters.map((p) => {
+          const it = item(p, String(chapterNumber(p.id)));
+          return (
+            <li data-aud={it.aud}>
+              <a href={href(p.id, lang)} aria-current={p.id === current ? 'page' : undefined}>
+                <span class="tt-n">{it.n}</span>
+                <span lang={contentLang}>{it.title}</span>
+              </a>
+            </li>
+          );
+        })}
+      </ul>
+    </>
+  ))}
+  <p class="tt-group">{s.briefs}</p>
+  <ul>
+    {briefs.map((p) => (
+      <li data-aud={p.audiences.join(' ')}>
+        <a href={href(p.id, lang)} aria-current={p.id === current ? 'page' : undefined}>
+          {audienceLabel(briefAudience(p.id), lang, SITE.audiences[briefAudience(p.id)])}
+        </a>
       </li>
     ))}
   </ul>
+  <p class="tt-group">{s.footerReference}</p>
+  <ul>
+    <li>
+      <a href={localize('/glossary', lang)}>{s.glossaryHeading}</a>
+    </li>
+    <li>
+      <a
+        href={href(ROLE.sources, lang)}
+        aria-current={current === ROLE.sources ? 'page' : undefined}
+      >
+        {s.sourcesPage}
+      </a>
+    </li>
+    <li>
+      <a href={localize('/about', lang)}>{s.about}</a>
+    </li>
+  </ul>
+  {editor && (
+    <>
+      <p class="tt-group">{s.forReviewers}</p>
+      <ul>
+        <li>
+          <a href={localize('/workbench', lang)}>{s.workbench}</a>
+        </li>
+        <li>
+          <a href={localize('/data', lang)}>{s.dataHeading}</a>
+        </li>
+      </ul>
+      {APPENDIX_GROUPS.map((g) => (
+        <>
+          <p class="tt-group">{label(g.label, lang)}</p>
+          <ul>
+            {g.pages.map((id) => {
+              const p = PAGE_BY_ID.get(id)!;
+              const it = item(p, appendixCode(id) ?? '');
+              return (
+                <li>
+                  <a href={href(id, lang)} aria-current={id === current ? 'page' : undefined}>
+                    <span class="tt-n">{it.n}</span>
+                    <span lang={contentLang}>{it.title}</span>
+                    {it.locked && (
+                      <span class="tt-lock" title={s.lockedLink}>
+                        {s.forReviewers}
+                      </span>
+                    )}
+                  </a>
+                </li>
+              );
+            })}
+          </ul>
+        </>
+      ))}
+    </>
+  )}
 </nav>

@@ -78,6 +78,8 @@ const RENDERERS = {
   'chart-funder-units': dm.funderUnits,
   'chart-protein-footprints': dm.proteinFootprints,
   'chart-altprotein-investment-by-year': dm.altproteinInvestmentByYear,
+  // added with report v0.10
+  'chart-solutions-screen': bars.solutionsScreen,
 };
 
 function dataCtx(reportDir) {

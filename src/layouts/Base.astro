@@ -1,12 +1,17 @@
 ---
-import '@fontsource-variable/work-sans';
+import '@fontsource/be-vietnam-pro/400.css';
+import '@fontsource/be-vietnam-pro/500.css';
+import '@fontsource/be-vietnam-pro/600.css';
+import '@fontsource/be-vietnam-pro/700.css';
+import '@fontsource-variable/literata/wght.css';
+import '@fontsource-variable/literata/wght-italic.css';
 import '../styles/global.css';
 import '../generated/charts.css';
 import { EmDashHead, EmDashBodyStart, EmDashBodyEnd } from 'emdash/ui';
 import { createPublicPageContext } from 'emdash/page';
 import NavTree from '../components/NavTree.astro';
 import { t, type Lang } from '../lib/i18n';
-import { SITE, localize } from '../lib/site';
+import { PART_LIST, ROLE, SITE, href, localize, partPath } from '../lib/site';
 
 interface Props {
   title: string;
@@ -14,10 +19,13 @@ interface Props {
   /** EmDash entry shown on this page (enables the editor toolbar and SEO data). */
   content?: { collection: string; id: string; slug?: string };
   noindex?: boolean;
+  /** Page id, to mark it in the contents. */
   current?: string;
-  /** Top navigation item to mark as current. */
-  section?: 'summary' | 'start' | 'report' | 'briefs' | 'appendices' | 'data' | 'search' | 'about';
+  /** Top navigation item to mark as current: summary, part-i to part-v, briefs. */
+  nav?: string;
   pageClass?: string;
+  /** Show the draft banner (the cover and the summary pages). */
+  banner?: boolean;
 }
 const {
   title,
@@ -25,19 +33,22 @@ const {
   content,
   noindex = false,
   current,
-  section,
+  nav,
   pageClass,
+  banner = false,
 } = Astro.props;
 const lang: Lang = Astro.locals.lang ?? 'en';
 const s = t(lang);
+const vi = lang === 'vi';
+const { canEdit, editor } = Astro.locals;
 Astro.response.headers.set('Cache-Control', 'private, no-store');
 
 // The same page in the other interface language.
 const basePath = Astro.locals.basePath ?? Astro.url.pathname;
 const enPath = basePath;
 const viPath = localize(basePath, 'vi');
-const otherHref = (lang === 'vi' ? enPath : viPath) + Astro.url.search;
-const canonical = new URL(lang === 'vi' ? viPath : enPath, Astro.site).href;
+const otherHref = (vi ? enPath : viPath) + Astro.url.search;
+const canonical = new URL(vi ? viPath : enPath, Astro.site).href;
 const fullTitle =
   title === SITE.title ? `${SITE.title} · AltProtein Vietnam` : `${title} · AltProtein Vietnam`;
 
@@ -51,24 +62,20 @@ const page = createPublicPageContext({
   content,
   siteName: 'AltProtein Vietnam',
 });
-const nav = [
-  {
-    key: 'summary',
-    label: s.summary,
-    href: localize(lang === 'vi' ? '/tom-tat' : '/summary', lang),
-  },
-  {
-    key: 'start',
-    label: s.startHere,
-    href: localize(lang === 'vi' ? '/loi-mo-dau' : '/prologue', lang),
-  },
-  { key: 'report', label: s.report, href: localize('/report', lang) },
-  { key: 'briefs', label: s.forYou, href: localize('/briefs', lang) },
-  { key: 'appendices', label: s.appendices, href: localize('/appendices', lang) },
-  { key: 'data', label: s.data, href: localize('/data', lang) },
-];
+const draftNotice = vi ? SITE.draft_notice.vi : SITE.draft_notice.en;
 const searchAction = localize('/search', lang);
-const draftNotice = lang === 'vi' ? SITE.draft_notice.vi : SITE.draft_notice.en;
+const summaryHref = href(vi ? ROLE.summaryVi : ROLE.summary, lang);
+const navItems = [
+  { key: 'summary', label: s.summary, href: summaryHref },
+  ...PART_LIST.map((p) => ({
+    key: `part-${p.key}`,
+    num: p.numeral,
+    label: s.parts[p.key]?.nav ?? p.label,
+    href: localize(partPath(p.key), lang),
+  })),
+  { key: 'briefs', label: s.briefs, href: localize('/briefs', lang) },
+];
+const back = encodeURIComponent(Astro.url.pathname + Astro.url.search);
 ---
 
 <!doctype html>
@@ -85,9 +92,9 @@ const draftNotice = lang === 'vi' ? SITE.draft_notice.vi : SITE.draft_notice.en;
     <meta property="og:description" content={description} />
     <meta property="og:url" content={canonical} />
     <meta property="og:site_name" content="AltProtein Vietnam" />
-    <meta property="og:locale" content={lang === 'vi' ? 'vi_VN' : 'en_GB'} />
-    <meta name="theme-color" content="#f7f6f2" media="(prefers-color-scheme: light)" />
-    <meta name="theme-color" content="#0d1413" media="(prefers-color-scheme: dark)" />
+    <meta property="og:locale" content={vi ? 'vi_VN' : 'en_GB'} />
+    <meta name="theme-color" content="#f7f5f0" media="(prefers-color-scheme: light)" />
+    <meta name="theme-color" content="#111716" media="(prefers-color-scheme: dark)" />
     <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
     {noindex && <meta name="robots" content="noindex,nofollow" />}
     <script is:inline>
@@ -104,33 +111,49 @@ const draftNotice = lang === 'vi' ? SITE.draft_notice.vi : SITE.draft_notice.en;
     </script>
     <EmDashHead page={page} />
   </head>
-  <body class={pageClass}>
+  <body class={pageClass} data-view={editor ? 'editor' : 'public'}>
     <a class="skip-link" href="#main">
       {s.skip}
     </a>
     <EmDashBodyStart page={page} />
-    <div class="draft-banner" role="note">
-      <strong>{draftNotice}</strong>
-      {s.draftNotice}
-    </div>
-    <header class="site-header">
-      <div class="header-inner">
-        <a class="brand" href={localize('/', lang)} aria-label={`${s.siteName}: ${s.home}`}>
-          <img src="/logo.svg" width="183" height="45" alt="AltProtein Vietnam" />
-          <span class="brand-label">{s.reportShort}</span>
-        </a>
-        <nav class="main-nav" aria-label={lang === 'vi' ? 'Điều hướng chính' : 'Main'}>
-          {nav.map((item) => (
-            <a href={item.href} aria-current={section === item.key ? 'page' : undefined}>
-              {item.label}
+    {canEdit && (
+      <div class="editor-bar" role="region" aria-label={editor ? s.editorView : s.publicView}>
+        <div class="wrap">
+          <strong>{editor ? s.editorView : s.publicView}</strong>
+          <span>{editor ? s.editorViewText : s.publicViewText}</span>
+          <nav aria-label={s.workbench}>
+            <a href={localize('/workbench', lang)}>{s.workbench}</a>
+            <a href="/_emdash/admin" rel="nofollow">
+              {s.cms}
             </a>
-          ))}
-        </nav>
-        <div class="header-tools">
-          <form class="search-form" role="search" action={searchAction} method="get">
-            <label class="visually-hidden" for="q-top">
-              {s.search}
-            </label>
+            <a
+              href={`/workbench/view?mode=${editor ? 'public' : 'editor'}&back=${back}`}
+              rel="nofollow"
+            >
+              {editor ? s.toPublic : s.toEditor}
+            </a>
+          </nav>
+        </div>
+      </div>
+    )}
+    {banner && (
+      <div class="draft-banner" role="note">
+        <strong>{draftNotice}</strong> {s.draftNotice}
+      </div>
+    )}
+    <header class="masthead">
+      <div class="wrap mh-top">
+        <a class="mh-brand" href={localize('/', lang)} aria-label={`${s.studyTitle}: ${s.home}`}>
+          <img src="/logo.svg" width="183" height="45" alt="AltProtein Vietnam" />
+          <span class="mh-title">
+            <span>{s.studyTitle}</span>
+            <small>
+              {s.studySub} · {s.draft(SITE.version)}
+            </small>
+          </span>
+        </a>
+        <div class="mh-tools">
+          <a class="mh-search" href={searchAction} aria-label={s.search}>
             <svg
               width="16"
               height="16"
@@ -143,24 +166,25 @@ const draftNotice = lang === 'vi' ? SITE.draft_notice.vi : SITE.draft_notice.en;
               <circle cx="11" cy="11" r="7"></circle>
               <path d="m20 20-3.5-3.5"></path>
             </svg>
-            <input
-              id="q-top"
-              name="q"
-              type="search"
-              placeholder={s.searchPlaceholder}
-              autocomplete="off"
-            />
-          </form>
-          <a
-            class="lang-switch"
-            href={otherHref}
-            hreflang={lang === 'vi' ? 'en' : 'vi'}
-            lang={lang === 'vi' ? 'en' : 'vi'}
-            title={s.switchToLabel}
-          >
-            {lang === 'vi' ? 'EN' : 'VI'}
+            <span>{s.search}</span>
           </a>
-          <button class="icon-btn theme-btn" type="button" data-theme-toggle aria-label={s.theme}>
+          <a
+            class="icon-btn lang-switch"
+            href={otherHref}
+            hreflang={vi ? 'en' : 'vi'}
+            lang={vi ? 'en' : 'vi'}
+            title={s.switchToLabel}
+            aria-label={s.switchToLabel}
+          >
+            {vi ? 'EN' : 'VI'}
+          </a>
+          <button
+            class="icon-btn theme-btn"
+            type="button"
+            data-theme-toggle
+            aria-label={s.theme}
+            data-names={JSON.stringify(s.themeNames)}
+          >
             <svg
               class="i-sun"
               width="18"
@@ -197,7 +221,6 @@ const draftNotice = lang === 'vi' ? SITE.draft_notice.vi : SITE.draft_notice.en;
               aria-hidden="true"
             >
               <circle cx="12" cy="12" r="9"></circle>
-              <path d="M12 3v18"></path>
               <path d="M12 3a9 9 0 0 1 0 18z" fill="currentColor" stroke="none"></path>
             </svg>
           </button>
@@ -223,8 +246,20 @@ const draftNotice = lang === 'vi' ? SITE.draft_notice.vi : SITE.draft_notice.en;
           </button>
         </div>
       </div>
+      <nav class="wrap qnav" aria-label={vi ? 'Điều hướng chính' : 'Main'}>
+        {navItems.map((item) => (
+          <a href={item.href} aria-current={nav === item.key ? 'page' : undefined}>
+            {'num' in item && item.num && <span class="qn-num">{item.num}</span>}
+            {item.label}
+          </a>
+        ))}
+        <span class="qn-sep" aria-hidden="true"></span>
+        <a href="#drawer" data-drawer-open aria-controls="drawer">
+          {s.allContents}
+        </a>
+      </nav>
     </header>
-    <div class="drawer" id="drawer" role="dialog" aria-modal="true" aria-label={s.menu}>
+    <div class="drawer" id="drawer" role="dialog" aria-modal="true" aria-label={s.contents}>
       <div class="drawer-backdrop" data-drawer-close></div>
       <div class="drawer-panel">
         <div class="drawer-head">
@@ -261,110 +296,88 @@ const draftNotice = lang === 'vi' ? SITE.draft_notice.vi : SITE.draft_notice.en;
           </svg>
           <input id="q-drawer" name="q" type="search" placeholder={s.searchPlaceholder} />
         </form>
-        <div class="drawer-links">
-          <a href={localize('/', lang)}>{s.home}</a>
-          {nav.map((item) => (
-            <a href={item.href}>{item.label}</a>
-          ))}
-          <a href={localize('/glossary', lang)}>{s.glossaryHeading}</a>
-          <a href={localize('/about', lang)}>{s.about}</a>
-        </div>
-        <NavTree lang={lang} current={current} />
+        <NavTree lang={lang} current={current} editor={editor} />
       </div>
     </div>
     <main id="main" tabindex="-1">
       <slot />
     </main>
-    <footer class="site-footer">
-      <div class="footer-inner">
+    <footer class="site-foot">
+      <div class="wrap foot-grid">
         <div>
           <img src="/logo.svg" width="146" height="36" alt="AltProtein Vietnam" />
           <p>{s.footerLine}</p>
         </div>
         <div>
-          <h2>{s.report}</h2>
+          <h2>{s.footerReport}</h2>
           <ul>
             <li>
-              <a href={localize('/two-minutes', lang)}>
-                {lang === 'vi' ? 'Báo cáo trong hai phút' : 'The report in two minutes'}
-              </a>
+              <a href={href(ROLE.twoMinute, lang)}>{s.twoMinutes}</a>
             </li>
             <li>
-              <a href={localize('/summary', lang)}>
-                {lang === 'vi' ? 'Tóm tắt (tiếng Anh)' : 'Executive summary'}
-              </a>
+              <a href={href(ROLE.summary, lang)}>{s.homeReadSummary}</a>
             </li>
             <li>
-              <a href={localize('/tom-tat', lang)} lang="vi">
+              <a href={href(ROLE.summaryVi, lang)} lang="vi">
                 Tóm tắt tiếng Việt
-              </a>
-            </li>
-            <li>
-              <a href={localize('/at-a-glance', lang)}>
-                {lang === 'vi' ? 'Tổng quan nhanh' : 'At a glance'}
               </a>
             </li>
             <li>
               <a href={localize('/report', lang)}>{s.report}</a>
             </li>
             <li>
-              <a href={localize('/briefs', lang)}>{s.forYou}</a>
-            </li>
-            <li>
-              <a href={localize('/appendices', lang)}>{s.appendices}</a>
+              <a href={localize('/briefs', lang)}>{s.briefs}</a>
             </li>
           </ul>
         </div>
         <div>
-          <h2>{s.data}</h2>
+          <h2>{s.footerReference}</h2>
           <ul>
             <li>
-              <a href={localize('/data', lang)}>{s.dataHeading}</a>
+              <a href={href(ROLE.howToRead, lang)}>{s.howToRead}</a>
+            </li>
+            <li>
+              <a href={href(ROLE.faq, lang)}>{s.faq}</a>
             </li>
             <li>
               <a href={localize('/glossary', lang)}>{s.glossaryHeading}</a>
             </li>
             <li>
-              <a href={localize('/search', lang)}>{s.search}</a>
+              <a href={href(ROLE.sources, lang)}>{s.sourcesPage}</a>
             </li>
             <li>
-              <a href="/downloads/altprotein-vn-data.zip" download>
-                {s.downloadData}
-              </a>
+              <a href={searchAction}>{s.search}</a>
             </li>
           </ul>
         </div>
         <div>
-          <h2>{s.about}</h2>
+          <h2>{s.footerAbout}</h2>
           <ul>
             <li>
               <a href={localize('/about', lang)}>{s.about}</a>
             </li>
-            <li>
-              <a href={localize('/how-to-read', lang)}>
-                {lang === 'vi' ? 'Cách đọc báo cáo' : 'How to read this report'}
-              </a>
-            </li>
-            <li>
-              <a href={localize('/faq', lang)}>
-                {lang === 'vi' ? 'Câu hỏi thường gặp' : 'Questions people ask'}
-              </a>
-            </li>
-            <li>
-              <a href="/_emdash/admin" rel="nofollow">
-                {s.editorSignIn}
-              </a>
-            </li>
+            {canEdit ? (
+              <li>
+                <a href={localize('/workbench', lang)}>{s.workbench}</a>
+              </li>
+            ) : (
+              <li>
+                <a href="/_emdash/admin" rel="nofollow">
+                  {s.editorSignIn}
+                </a>
+              </li>
+            )}
           </ul>
         </div>
       </div>
-      <div class="footer-base">
-        <span class="footer-draft">
+      <div class="wrap foot-base">
+        <span class="foot-draft">
           {SITE.publisher} · <strong>{draftNotice}</strong>
         </span>
         <span>{s.notAdvice}</span>
       </div>
     </footer>
+    <div class="pop" id="pop" role="dialog" hidden></div>
     <div class="tip" role="tooltip" id="tip" hidden></div>
     <EmDashBodyEnd page={page} />
     <script>

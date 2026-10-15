@@ -233,8 +233,8 @@ The table lists the published benchmarks we checked. Most are global models for 
 | Solar Foods Factory 02 (planned) | Solein (food) | Capacity not stated | Public funding granted, conditional on the final investment decision | EUR 77.8 M (EUR 39.6 M grant + EUR 38.1 M research and development loan); investment decision planned for 2026; total capex not disclosed | 2026 | Company report | [@COST-53] | {general\|Medium} |
 | Calysta and Calysseo methanotroph SCP | FeedKind (feed) | Chongqing, China | Nameplate capacity | 20,000 t/yr; capex not found | 2022 onward | No (tertiary) | [@COST-55] | {VN-adjacent\|Low} |
 | Liberation Bioindustries (precision-fermentation contract manufacturer) | Recombinant food proteins | Richmond, Indiana | Fermentation volume | 600 m3; operations 2026; more than half of capacity contracted or in negotiation (January 2026); capex not disclosed | 2026 | Press release | [@COST-54] | {general\|Medium} |
-| Animal cell culture, fed batch (conceptual) | Cultured meat, wet cells | 24 x 20 m3; 6.8 kt/yr | Cost of production | USD 37/kg (amino acids about USD 19/kg; growth factors about USD 3/kg); capital charge factor 15% a year | about 2020, US | Partial (excerpts) | [@COST-47] | {general\|High} |
-| Animal cell culture, perfusion (conceptual) | Cultured meat, wet cells | 6.9 kt/yr | Total capital investment and cost | USD 663 M; USD 51/kg; 132 FTE | about 2020 | Partial | [@COST-47] | {general\|High} |
+| Animal cell culture, fed batch (conceptual) | Cultured meat, wet cells | 24 x 20 m3; 6.8 kt/yr | Cost of production | USD 37/kg (amino acids about USD 19/kg; growth factors about USD 3/kg); USD 22/kg if a USD 2/kg protein hydrolysate replaces the amino acids; capital charge factor 15% a year | about 2020, US | Yes (results, conclusion and acknowledgements) | [@COST-47] | {general\|High} |
+| Animal cell culture, perfusion (conceptual) | Cultured meat, wet cells | 6.9 kt/yr | Total capital investment and cost | USD 663 M; USD 51/kg; 132 FTE | about 2020 | Yes (results, conclusion and acknowledgements) | [@COST-47] | {general\|High} |
 | Animal cell culture (industry-scale) | Cultivated meat | 540 t/yr | Cost of production | USD 63/kg | about 2022 | No (secondary citation) | [@COST-49] | {general\|Low} |
 | Animal cell culture, three reactor sizes | Cultivated beef | about 42,000 L and larger | Cost by reactor scale | not extracted; do not quote | 2022 to 2023 | No (truncated abstract) | [@COST-48] | {general\|Low} |
 | Plant-based meat by freeze alignment (Thai-authored; modelled with Japanese wages) | Meat analogue | 100 t/yr | Total capital; minimum selling price | USD 1.76 to 2.48 M; USD 0.99 to 1.18 per 100 g across four schemes; raw material 32% and labour 24% of cost in the 1.18 case; not comparable with extrusion | 2023 | No (publisher page summary) | [@COST-56] | {general\|Low} |
@@ -244,6 +244,14 @@ The table lists the published benchmarks we checked. Most are global models for 
 | Plant protein isolate | Isolates | n/a | Capex and opex | No verified benchmark found | n/a | n/a | none | {general\|Low} |
 
 **Notes on the mycoprotein TEA** [@COST-43] {general|High}. The model runs 24 hours a day, 365 days a year, assumes 5% financing over 20 years and fixed costs of 3% of annualised capex, and excludes land, working capital and start-up. The authors compare USD 29.56 per kg of protein with about USD 29.95 for choice beef and about USD 9.64 for chicken, and conclude that mycoprotein can match beef on protein cost but "will not be an economic alternative for inexpensive products such as chicken". Buying food-grade biotin and zinc sulphate instead of lab grade cut cost by 22%.
+
+**Notes on the cultivated-meat TEA** (Humbird 2021) [@COST-47] {general|High}. Its acknowledgements say Open Philanthropy (now Coefficient Giving) funded it. The plant in both cases is about 6.8 to 6.9 kt a year of wet cells. The 100 kt a year the author uses to price nutrients is total world output, not plant size. Both cases assume a cell line whose metabolism is much more efficient than a wild-type line.
+
+The author's affordability target is about USD 25 per kg of bulk cells, which he expects to reach about USD 50 per kg at the shelf. Both base cases exceed it. Only the fed-batch case with a USD 2 per kg hydrolysate medium (USD 22 per kg) gets under it, and he says suitable hydrolysates do not exist today.
+
+**Cultivated meat against Vietnamese retail meat** (our calculation, at 26,000 VND per USD) {VN-direct|Low}. Inputs: lean pork at 132,000 VND per kg (USD 5.08) and chicken breast at 90,900 VND per kg (USD 3.50), September 2026 (S12.10) [@COST-39; @COST-40]; cultivated cost USD 37 to 51 per kg of wet cells [@COST-47].
+- Factory cost against shop price: 37 / 5.08 = 7.3 and 51 / 3.50 = 14.6, so 7 to 15 times. This compares a factory-gate cost with a shop price.
+- Shelf against shelf, on the author's doubling: USD 74 to 102 per kg; 74 / 5.08 = 14.6 and 102 / 3.50 = 29.1, so about 15 to 29 times.
 
 ### S12.12 Capital cost per m3 and per annual tonne
 

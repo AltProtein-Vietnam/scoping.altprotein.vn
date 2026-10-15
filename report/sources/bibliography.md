@@ -1,10 +1,10 @@
 # Bibliography
 
-2,480 sources cited in the research behind "Alternative protein in Vietnam: a supply-side scoping study" (AltProtein Vietnam, version 0.8, October 2026): 806 from version 0.1 (waves 1 and 2, accessed 23 September 2026), 469 from the futures round of version 0.2 (waves 3 to 5, accessed 23 to 24 September 2026), 451 from the demand round of version 0.3 (wave 6, accessed 24 September 2026), 577 from the actor check and expansion waves of version 0.4 (waves 7 to 9, accessed 24 to 25 September 2026) 81 from the prologue research of version 0.5 (wave 10, accessed 25 September 2026) and 96 from the food-security round of version 0.8 (wave 11, including six from its editorial checks, accessed 1 October 2026); the last four rounds are listed at the end. Grouped by source type, then by the research agent's ID prefix. Citations are given as recorded in the research notes. The machine-readable list is `sources.csv` (same folder) and `data/sources.csv`.
+2,669 sources cited in the research behind "Alternative protein in Vietnam: a supply-side scoping study" (AltProtein Vietnam, version 0.10, October 2026): 765 from version 0.1 (waves 1 and 2, accessed 23 September 2026), 469 from the futures round of version 0.2 (waves 3 to 5, accessed 23 to 24 September 2026), 450 from the demand round of version 0.3 (wave 6, accessed 24 September 2026), 573 from the actor check and expansion waves of version 0.4 (waves 7 to 9, accessed 24 to 25 September 2026) 81 from the prologue research of version 0.5 (wave 10, accessed 25 September 2026), 96 from the food-security round of version 0.8 (wave 11, including six from its editorial checks, accessed 1 October 2026) 50 from the regional deals round of version 0.9 (wave 12, accessed 15 October 2026) and 185 from the solutions screen of version 0.10 (wave 13, accessed 15 October 2026); the last six rounds are listed at the end. Grouped by source type, then by the research agent's ID prefix. Citations are given as recorded in the research notes. The machine-readable list is `sources.csv` (same folder) and `data/sources.csv`; rows retired in version 0.9 are kept there and not listed here.
 
 ID prefixes: MAC = protein economy and feed (wave 1); FS = feedstocks (wave 1); IND = industrial capacity (wave 1); ECO = ecosystem (wave 1); REG = regulation (wave 1); RD = research capacity (wave 1); CAP = capital (wave 1); RGN = regional position (wave 1); COST = costs (wave 1); FORM = formulation and retail audit (wave 1); SCI = state of the science (wave 2); REG2 = regulation, second pass (wave 2); FM = feed market (wave 2); GT = geography, ministries and outlook (wave 2); VCO = company verification (wave 2); INF = infrastructure and talent (wave 2); BIB = bibliometrics (wave 2); FTG = frontier technology: gas fermentation and power-to-protein (wave 3); FTB = frontier technology: biology and AI (wave 3); CLM = climate (wave 3); QNT = protein and feed balance model (wave 3); GEO = geopolitics, trade and macro drivers (wave 3); ECF = economics and policy futures (wave 3); HSC = horizon scan and bibliometrics (wave 3); NTS = national targets (wave 3); NGF = next-generation feedstocks (wave 4); AQF = aquaculture and aquafeed futures (wave 4); HUB = spatial hubs (wave 4); VIS = vision benchmarks and foresight practice (wave 5).
 
-## Government and statistics (219)
+## Government and statistics (217)
 
 ### MAC
 
@@ -46,7 +46,6 @@ ID prefixes: MAC = protein economy and feed (wave 1); FS = feedstocks (wave 1); 
 
 ### ECO
 
-- **ECO-03.** "CnC-Entobel (IFC-46903)." Early Warning System database (Rights in Development), IFC disclosure data, board date 23 Feb 2023. https://ewsdata.rightsindevelopment.org/projects/46903-cnc-entobel/ . IFC USD 2.5 m; project cost USD 32.5 m; Mekong USD 25 m, Dragon USD 5 m. DFI disclosure (secondary host).
 
 ### REG
 
@@ -64,7 +63,6 @@ ID prefixes: MAC = protein economy and feed (wave 1); FS = feedstocks (wave 1); 
 
 ### CAP
 
-- **CAP-03.** "Entobel Equity" (IFC project 45769), EWS mirror of IFC disclosure. Rights in Development Early Warning System, disclosed 7 Jan 2022. https://ewsdata.rightsindevelopment.org/projects/45769-entobel-equity/ (IFC original: https://disclosures.ifc.org/project-detail/ESRS/45769/entobel-equity , did not render). Accessed 2026-09-23. USD 10M proposed IFC equity in a USD 30M Series B. Type: DFI disclosure (secondary mirror).
 - **CAP-04.** "CnC-Entobel" (IFC project 46903), EWS mirror of IFC disclosure. Board 23 Feb 2023, disclosed 7 Apr 2023. https://ewsdata.rightsindevelopment.org/projects/46903-cnc-entobel/ . Accessed 2026-09-23. IFC USD 2.5M; total project cost USD 32.5M. Type: DFI disclosure (secondary mirror).
 - **CAP-30.** "Quy dinh ve Quy dau tu mao hiem quoc gia va dia phuong". Bao Chinh Phu, 15 Oct 2025. https://baochinhphu.vn/quy-dinh-ve-quy-dau-tu-mao-hiem-quoc-gia-va-dia-phuong-102251015214226713.htm . Accessed 2026-09-23. Summary of Decree 264. Type: gov.
 - **CAP-36.** "Nghi dinh so 264/2025/ND-CP mo duong cho dau tu mao hiem: TP.HCM tien phong trien khai mo hinh quy dia phuong". HCMC Department of Science and Technology, 2025. https://dost.hochiminhcity.gov.vn/hoat-dong-so-khcn/nghi-dinh-so-2642025nd-cp-mo-duong-cho-dau-tu-mao-hiem-tphcm-tien-phong-trien-khai-mo-hinh-quy-di-phuong/ . Accessed 2026-09-23. HCMC share of startups and funds; SIHUB. Type: gov.
@@ -490,7 +488,7 @@ ID prefixes: MAC = protein economy and feed (wave 1); FS = feedstocks (wave 1); 
 - **HUB-01.** Prime Minister. Quyết định 768/QĐ-TTg phê duyệt Điều chỉnh Quy hoạch phát triển điện lực quốc gia thời kỳ 2021-2030, tầm nhìn đến năm 2050. 15 Apr 2025. https://thuvienphapluat.vn/van-ban/Tai-nguyen-Moi-truong/Quyet-dinh-768-QD-TTg-2025-Dieu-chinh-Quy-hoach-phat-trien-dien-luc-quoc-gia-thoi-ky-2021-2030-651977.aspx . Two inter-regional renewable centres by 2030 (regions only); offshore wind for new energy; HVDC after 2030. Type: law.
 - **HUB-26.** Government. Nghị định 263/2026/NĐ-CP về khu nông nghiệp ứng dụng công nghệ cao. 1 Jul 2026. https://thuvienphapluat.vn/van-ban/Linh-vuc-khac/Nghi-dinh-263-2026-ND-CP-khu-nong-nghiep-ung-dung-cong-nghe-cao-713724.aspx . Articles 4, 6, 8, 10 and 11 (read through a summarising fetch; verify articles). Type: law.
 
-## Peer-reviewed literature and preprints (309)
+## Peer-reviewed literature and preprints (295)
 
 ### MAC
 
@@ -567,8 +565,6 @@ ID prefixes: MAC = protein economy and feed (wave 1); FS = feedstocks (wave 1); 
 - **RD-51.** Nguyen T.N.A. et al. (2023). Evaluating Artemia biomass and gut weed (Ulva intestinalis) meal as dietary protein for P. monodon postlarvae. Egyptian Journal of Aquatic Research. https://doi.org/10.1016/j.ejar.2022.11.003. Peer-reviewed.
 - **RD-52.** Nguyen H.T. et al. (2022). Protein recovery of Tra catfish protein-rich side streams by the pH-shift method. Foods 11:1531. https://doi.org/10.3390/foods11111531. Peer-reviewed.
 - **RD-53.** Siddik M.A.B. et al. (2021). Dietary supplementation of fish protein hydrolysate in high plant protein diets ... barramundi. Aquaculture Nutrition. https://doi.org/10.1111/anu.13404. Peer-reviewed.
-- **RD-54.** Nguyen N.T., Tran N.H. (2025). Black soldier fly larvae meal as a sustainable alternative to fishmeal in juvenile swamp eel diets. Aquaculture Journal 5:7. https://doi.org/10.3390/aquacj5010007. Peer-reviewed.
-- **RD-55.** Hoang N.M. et al. (2024). Effect of inclusion of fresh or dried black soldier fly larvae in diets on snakehead fish. Israeli Journal of Aquaculture - Bamidgeh. https://doi.org/10.46989/001c.92338. Peer-reviewed.
 - **RD-56.** Waché Y. et al. (2018). Prospects for food fermentation in South-East Asia: Tropical Fermentation and Biotechnology Network at the end of the AsiFood Erasmus+ project. Frontiers in Microbiology. https://doi.org/10.3389/fmicb.2018.02278. Peer-reviewed.
 - **RD-58.** Tran-Tu L.C. et al. (2017). Effect of ingredient particle sizes and dietary viscosity on digestion and faecal waste of striped catfish. Aquaculture Nutrition. https://doi.org/10.1111/anu.12632. Peer-reviewed.
 - **RD-59.** Stadtlander T. et al. (2023). Partial replacement of fishmeal with duckweed (Spirodela polyrhiza) in feed for Eurasian perch and rainbow trout. Aquaculture Research. https://doi.org/10.1155/2023/6680943 (plus 8 other Stadtlander duckweed records in Scite, none Vietnamese). Peer-reviewed.
@@ -582,7 +578,6 @@ ID prefixes: MAC = protein economy and feed (wave 1); FS = feedstocks (wave 1); 
 - **RD-67.** Nguyen T.H. et al. (2019). Manufacturing process, in vivo and in vitro digestibility assessment of an enteral feeding product. Processes 7:347. https://doi.org/10.3390/pr7060347. Peer-reviewed.
 - **RD-68.** Tran M.P. et al. (2015). Development of formulated diets for snakehead: can phytase and taurine supplementation increase use of soybean meal to replace fish meal? Aquaculture. https://doi.org/10.1016/j.aquaculture.2015.06.020. Peer-reviewed.
 - **RD-69.** Nguyen T.T.H. et al. (2022). Enhancement of antioxidant activity ... of fermented soybean using ergothioneine biosynthesized by Aspergillus oryzae. Legume Science. https://doi.org/10.1002/leg3.165. Peer-reviewed.
-- **RD-70.** Nguyen N.T. et al. (2024). Genetic diversity of black soldier flies in Vietnam based on DNA COI sequence. Biodiversitas 24. https://doi.org/10.13057/biodiv/d241235. Peer-reviewed.
 - **RD-71.** Hoang P.T.N. et al. (2020). Chromosome-scale genome assembly for the duckweed Spirodela intermedia. Scientific Reports. https://doi.org/10.1038/s41598-020-75728-9. Peer-reviewed.
 
 ### RGN
@@ -634,7 +629,6 @@ ID prefixes: MAC = protein economy and feed (wave 1); FS = feedstocks (wave 1); 
 - **SCI-24.** Shi M et al. Chenodeoxycholic acid in a low fishmeal diet containing Clostridium autoethanogenum protein, L. vannamei. Animals 13(13):2109 (2023). https://doi.org/10.3390/ani13132109.
 - **SCI-25.** Santillan E et al. Microbial community-based protein derived from food-processing wastewater supports substantial fishmeal replacement in L. vannamei. openRxiv preprint (2025). https://doi.org/10.64898/2025.12.11.693825. Preprint.
 - **SCI-26.** Sultana S et al. Factors Affecting Yeast Digestibility and Immunostimulation in Aquatic Animals. Animals 14(19):2851 (2024). https://doi.org/10.3390/ani14192851. Review.
-- **SCI-27.** Chen Y et al. Effect of black soldier fly larvae meal on lipid and glucose metabolism of Pacific white shrimp. Br J Nutr 128(9):1674-1688 (2021). https://doi.org/10.1017/s0007114521004670.
 - **SCI-31.** Venkatachalam K et al. Wolffia globosa as an Emerging Plant-Based Protein Source. Foods 15(3):543 (2026). https://doi.org/10.3390/foods15030543. Review; EU authorisation claim unverified.
 - **SCI-33.** Mes JJ et al. Daily Intake of Lemna minor or Spinach as Vegetable. Plant Foods Hum Nutr 77:121-127 (2022). https://doi.org/10.1007/s11130-022-00952-9.
 - **SCI-34.** Appenroth KJ et al. Nutritional Value of the Duckweed Species of the Genus Wolffia as Human Food. Front Chem 6:483 (2018). https://doi.org/10.3389/fchem.2018.00483.
@@ -660,7 +654,6 @@ ID prefixes: MAC = protein economy and feed (wave 1); FS = feedstocks (wave 1); 
 - **FM-07.** Salin, K. R., Arun, V. V., Mohanakumaran Nair, C., Tidwell, J. H. (2018), as cited in "Chemoattractants: their essentiality and efficacy in shrimp aquaculture", Indian Journal of Fisheries 68(1) (2021). https://doi.org/10.21077/ijf.2021.68.1.95994-20 . Not read by me; taken from wave 1 MAC-41. Shrimp fishmeal 19% to 40% (2000), 11% to 23% (2014), about 6% (2025 projected). Type: peer-reviewed (secondary citation).
 - **FM-08.** Xie, S., Niu, J., Zhou, W., et al. (2018). "Developing a low fishmeal diet for juvenile Pacific white shrimp, Litopenaeus vannamei, using the nutritional value of FM as the reference profile." Aquaculture Nutrition 24(4): 1184-1197. https://doi.org/10.1111/anu.12657 . Abstract. Fishmeal 250 to 100 g/kg without growth loss. Type: peer-reviewed.
 - **FM-09.** Han, D., Shan, X., Zhang, W., et al. (2016). "A revisit to fishmeal usage and associated consequences in Chinese aquaculture." Reviews in Aquaculture 10(2): 493-507. https://doi.org/10.1111/raq.12183 . Abstract and excerpts. China fishmeal imports steady at 1.0 to 1.5 Mt while aquafeed grew to 19 Mt (2014). Type: peer-reviewed. (Background; not used in tables.)
-- **FM-14.** "Evaluation of six novel protein sources on apparent digestibility in Pacific white shrimp, Litopenaeus vannamei." Aquaculture Nutrition (2022). https://doi.org/10.1155/2022/8225273 . Abstract. CAP, methanotroph meal, BSF, mealworm, Chlorella, cottonseed protein. Type: peer-reviewed.
 - **FM-15.** Wang, J., Chen, L., Xu, J., et al. (2022). "C1 gas protein: a potential protein substitute for advancing aquaculture sustainability." Reviews in Aquaculture 15(3): 1179-1197. https://doi.org/10.1111/raq.12707 . Abstract. Type: peer-reviewed review.
 - **FM-16.** "A natural gas fermentation bacterial meal (FeedKind) as a functional alternative ingredient for fishmeal in diet of largemouth bass." Antioxidants 11(8): 1479 (2022). https://doi.org/10.3390/antiox11081479 . Abstract. Type: peer-reviewed.
 - **FM-17.** "Evaluation of methanotroph (Methylococcus capsulatus, Bath) bacteria meal (FeedKind) as an alternative protein source for juvenile black sea bream." Frontiers in Marine Science (2021). https://doi.org/10.3389/fmars.2021.778301 . Abstract; FeedKind 75.14% CP. Type: peer-reviewed.
@@ -668,13 +661,6 @@ ID prefixes: MAC = protein economy and feed (wave 1); FS = feedstocks (wave 1); 
 - **FM-19.** "Replacement of fishmeal with a microbial single-cell protein induced enteropathy and poor growth outcomes in barramundi (Lates calcarifer) fry." Journal of Fish Diseases (2024). https://doi.org/10.1111/jfd.13985 . Abstract. Type: peer-reviewed.
 - **FM-20.** "Effects of dietary Clostridium autoethanogenum protein on the growth, disease resistance, intestinal digestion, immunity and microbiota structure of Litopenaeus vannamei..." Frontiers in Immunology (2022). https://doi.org/10.3389/fimmu.2022.1034994 . Abstract. Also noted: Animal Nutrition (2025) https://doi.org/10.1016/j.aninu.2025.04.010 (title only). Type: peer-reviewed.
 - **FM-21.** "Dietary effect of Clostridium autoethanogenum protein on growth, intestinal histology and flesh lipid metabolism of largemouth bass." Metabolites 12(11): 1088 (2022). https://doi.org/10.3390/metabo12111088 . Abstract. Type: peer-reviewed.
-- **FM-22.** "Effects of dietary protein substitution of fishmeal with black soldier fly larval meal on growth and physiological responses of juvenile striped catfish." Aquaculture Research (2022). https://doi.org/10.1111/are.15739 . Abstract. Type: peer-reviewed.
-- **FM-23.** "Effects of substituting the two-spotted cricket (Gryllus bimaculatus) meal for fish meal on growth performances and digestibility of striped snakehead." Life 13(2): 594 (2023). https://doi.org/10.3390/life13020594 . Abstract. Type: peer-reviewed.
-- **FM-24.** "The use of cricket (Gryllus bimaculatus) meal as protein source for snakehead fish (Channa striata)." IOP Conf. Series: Earth and Environmental Science 1118: 012020 (2022). https://doi.org/10.1088/1755-1315/1118/1/012020 . Abstract. Type: conference paper.
-- **FM-25.** "Evaluation of dietary inclusion of black soldier fly (Hermetia illucens) larvae on fish production performance: a meta-analysis." Journal of Insects as Food and Feed (2022). https://doi.org/10.3920/jiff2021.0159 . Abstract. Type: peer-reviewed meta-analysis.
-- **FM-26.** "Replacing fish meal with defatted insect meal (yellow mealworm Tenebrio molitor) improves the growth and immunity of Pacific white shrimp." Animals 9(5): 258 (2019). https://doi.org/10.3390/ani9050258 . Abstract. Type: peer-reviewed (company-linked product).
-- **FM-27.** "Effect of black soldier fly (Hermetia illucens) larvae meal on lipid and glucose metabolism of Pacific white shrimp." British Journal of Nutrition (2021). https://doi.org/10.1017/s0007114521004670 . Abstract. Type: peer-reviewed.
-- **FM-28.** "Replacement of commercial feed with fresh black soldier fly larvae in Pacific white shrimp." Aquaculture Nutrition (2022). https://doi.org/10.1155/2022/9130400 . Abstract. Type: peer-reviewed.
 - **FM-29.** "Sensory evaluation of Pacific white shrimp fed with different levels of soy protein concentrate in replacement of fish meal." Acta Veterinaria Brasilica 17(1) (2023). https://doi.org/10.21708/avb.2023.17.1.11410 . Abstract. Type: peer-reviewed.
 - **FM-30.** "Replacement of fish meal with two fermented soybean meals in diets for rainbow trout." Aquaculture Nutrition (2019). https://doi.org/10.1111/anu.12965 . Abstract. Type: peer-reviewed.
 - **FM-31.** "Mitigating the impact of winter temperatures on striped catfish (Pangasianodon hypophthalmus) using functional feed additives." Journal of the World Aquaculture Society (2023). https://doi.org/10.1111/jwas.13010 . Abstract. Type: peer-reviewed.
@@ -685,11 +671,9 @@ ID prefixes: MAC = protein economy and feed (wave 1); FS = feedstocks (wave 1); 
 - **FM-36.** China SBM policy, secondary: (a) "Dynamic changes in amino acid release patterns of different plant protein sources during in vitro digestion..." Animals 15(21): 3094 (2025), https://doi.org/10.3390/ani15213094 (SBM use in Chinese feed -8.0% in 2024 after the reduction action); (b) "Rapid detection of protein content in fuzzy cottonseeds..." Processes 13(10): 3221 (2025), https://doi.org/10.3390/pr13103221 (names MARA's "Three-Year Action Plan" for SBM reduction). Excerpts only. Type: peer-reviewed (secondary for policy).
 - **FM-39.** "Evaluation of feed utilization and growth performance of juvenile striped catfish Pangasianodon hypophthalmus fed diets with varying inclusion levels of corn gluten meal." Aquaculture Nutrition (2012). https://doi.org/10.1111/j.1365-2095.2012.00953.x . Abstract and excerpts. Type: peer-reviewed.
 - **FM-40.** "Growth performance of juvenile kuruma shrimp, Marsupenaeus japonicus, fed diets replacing fishmeal with soybean meal." Aquaculture Research (2013). https://doi.org/10.1111/are.12201 . Excerpt citing Lim and Dominy: commercial shrimp feeds 25% to 50% fishmeal. Type: peer-reviewed (dated).
-- **FM-41.** Snakehead and BSF larvae: "Effect of inclusion of fresh or dried black soldier fly larvae in diets on snakehead fish's growth performance..." Israeli Journal of Aquaculture - Bamidgeh (2024). https://doi.org/10.46989/001c.92338 . Abstract: feed is 50% to 60% of snakehead production cost. Type: peer-reviewed. (Country not verified.)
 - **FM-42.** Cottrell, R. S., Metian, M., Froehlich, H. E., et al. (2021). "Time to rethink trophic levels in aquaculture policy." Reviews in Aquaculture 13(3): 1583-1593. https://doi.org/10.1111/raq.12535 . Excerpts; confirms Tacon and Metian (2008, 2015) as the standard inclusion dataset. Type: peer-reviewed. (Background.)
 - **FM-43.** Jannathulla, R., et al. (2019). "Fishmeal availability in the scenarios of climate change..." Aquaculture Research 50(12): 3493-3506. https://doi.org/10.1111/are.14324 . Abstract: fishmeal USD 452/t (2000) to USD 1,596.54/t (2018). Type: peer-reviewed. (Long-run price context.)
 - **FM-44.** Boyd, C. E., et al. (2022). "The contribution of fisheries and aquaculture to the global protein supply." Food Security. https://doi.org/10.1007/s12571-021-01246-9 . Excerpts: average fishmeal inclusion 5.8% in fed aquaculture (2017, from Naylor data); by-product fishmeal yields. Type: peer-reviewed.
-- **FM-45.** "Palatability enhancement potential of Hermetia illucens larvae protein hydrolysate in Litopenaeus vannamei diets." Molecules 26(6): 1582 (2021). https://doi.org/10.3390/molecules26061582 . Abstract. Type: peer-reviewed.
 
 ### FTG
 
@@ -858,14 +842,13 @@ ID prefixes: MAC = protein economy and feed (wave 1); FS = feedstocks (wave 1); 
 - **VIS-40.** Manners R., Blanco-Gutiérrez I., Varela-Ortega C., Tarquis A.M. "Transitioning European Protein-Rich Food Consumption and Production towards More Sustainable Patterns: Strategies and Policy Suggestions." Sustainability 12(5) (2020) 1962. doi:10.3390/su12051962 . Participatory backcasting to 2030. Type: peer-reviewed.
 - **VIS-41.** Jongen W.M.F., Meerdink G. "Pea proteins based food products as meat replacers: The Profetas concept." Nahrung/Food 45(6) (2001) 402. doi:10.1002/1521-3803(20011001)45:6<402::AID-FOOD402>3.0.CO;2-N . Profetas programme aim. Type: peer-reviewed.
 
-## Company sources (140)
+## Company sources (131)
 
 ### FS
 
 - **FS-21.** "Bã sắn sấy khô." Vina Thanh Hoa Cassava Starch JSC (vinagri-jsc.vn), undated. https://vinagri-jsc.vn/pddetail/ba-san-say-kho-481-2998.html. Accessed 2026-09-23. Dried pulp specification. Type: company.
 - **FS-36.** "Giá bán mật rỉ đường sỉ lẻ." Gia Hoàng (ghgroup.com.vn), 5 December 2023. https://ghgroup.com.vn/gia-ban-mat-ri-duong/. Accessed 2026-09-23. Retail molasses prices. Type: company (Low).
 - **FS-42.** "Cập nhật giá bán bã bia tươi tốt nhất cho hộ chăn nuôi bò, lợn." biahoihanoi83.com, 19 March 2026. https://biahoihanoi83.com/tin-tuc/gia-ban-ba-bia-tuoi/. Accessed 2026-09-23. BSG retail price, buyers, shelf life. Type: company/retailer (Low).
-- **FS-43.** Entobel. Company website, accessed 2026-09-23. https://entobel.com/. Plant address (Dat Do IZ, Ho Chi Minh City), products, dates; no feedstock disclosure. Type: company.
 
 ### IND
 
@@ -890,8 +873,6 @@ ID prefixes: MAC = protein economy and feed (wave 1); FS = feedstocks (wave 1); 
 
 ### ECO
 
-- **ECO-01.** "Entobel Sets Industry Record with the Opening of the Largest Insect Protein Production Plant in Asia." Entobel, 23 Nov 2023. https://www.entobel.com/en/entobel-grand-opening-of-the-largest-insect-protein-production-plant-in-asia/ . Plant opening, 10,000 t, Heineken feedstock, 150 jobs. Company.
-- **ECO-02.** "Entobel." Mekong Capital investment page, undated (content to 2026). https://www.mekongcapital.com/our-investment/entobel-2/ . Dong Nai 1,000 t (2019), 10,000 t plant, >200 staff 2026, Indonesia plan. Investor (company).
 - **ECO-26.** "Giới thiệu (About us)." Au Lac Vegan Food, undated. https://aulac-vegan.com/en/about-us/ . Legal name, factory, certifications, export markets. Company.
 - **ECO-27.** Thoai An Trading Co., Ltd homepage, undated. https://thoaian.vn/en/ . Founded 2005, Tan Tao Industrial Park plant, products. Company.
 - **ECO-28.** "An Nhien Foods." Pham Gia Phat Trading Import-Export Co., Ltd, undated. https://annhienfood.com.vn/pages/an-nhien-foods . Founded 2014, TVP products, channels. Company.
@@ -912,14 +893,10 @@ ID prefixes: MAC = protein economy and feed (wave 1); FS = feedstocks (wave 1); 
 
 ### REG
 
-- **REG-44.** Entobel company website. Entobel, 2026. https://www.entobel.com/ . Vietnam plant location, products, certifications. Company.
 
 ### CAP
 
 - **CAP-01.** "Mekong Enterprise Fund IV invested US$25 million in Entobel". Mekong Capital, 9 May 2022. https://www.mekongcapital.com/communications/press-releases/mekong-enterprise-fund-iv-invested-us25-million-in-entobel/ . Accessed 2026-09-23. Supports the Entobel Series B lead amount. Type: company.
-- **CAP-05.** "Entobel and IFC partner to support sustainable aquafeed and aquaculture industry in Vietnam". Entobel, 23 Mar 2023. https://www.entobel.com/en/ifc-supports-entobel-expansion/ . Accessed 2026-09-23. IFC partnership; amount not disclosed. Type: company.
-- **CAP-08.** "Entobel Sets Industry Record with the Opening of the Largest Insect Protein Production Plant in Asia". Entobel, 23 Nov 2023. https://www.entobel.com/en/entobel-grand-opening-of-the-largest-insect-protein-production-plant-in-asia/ . Accessed 2026-09-23. USD 33M Series B; 10,000 t/yr; investors. Type: company.
-- **CAP-10.** Mekong Capital portfolio pages ("Entobel"; "Our investment"). Mekong Capital, undated (accessed 2026). https://www.mekongcapital.com/our-investment/entobel-2/ and https://www.mekongcapital.com/our-investment/ . Accessed 2026-09-23. Active investment; twelvefold capacity claim; portfolio list. Type: company.
 - **CAP-62.** Big Idea Ventures home page. Big Idea Ventures, accessed 2026. https://bigideaventures.com/ . Accessed 2026-09-23. Accelerator terms; SEA portfolio. Type: investor.
 - **CAP-63.** Better Bite Ventures home page. Better Bite Ventures, accessed 2026. https://www.betterbite.vc/ . Accessed 2026-09-23. Ticket size; APAC portfolio. Type: investor.
 - **CAP-64.** Synthesis Capital home page. Synthesis Capital, accessed 2026. https://www.synthesis.capital/ . Accessed 2026-09-23. AUM; stage; "valuations have reset". Type: investor.
@@ -1002,12 +979,10 @@ ID prefixes: MAC = protein economy and feed (wave 1); FS = feedstocks (wave 1); 
 - **VCO-11.** Royal De Heus. News listing. Accessed 2026. https://www.deheus.com/articles/news . Dates of the Vietnam shrimp feed mill opening (4 Mar 2024) and the Vinh Long R&D facility (29 Jul 2024). Company.
 - **VCO-12.** CJ Foods Vietnam. Home page. Accessed 2026. https://cjfoods.com.vn/ . Brands; HQ address; no history or plant data. Company.
 - **VCO-14.** VISSAN. Home page. Accessed 2026. https://www.vissan.com.vn/ . Legal name, HQ, registration number; no plant list. Company.
-- **VCO-18.** Entobel. News page and "Entobel is now a certified B Corp." 5 Feb 2025. https://www.entobel.com/en/entobel-is-now-a-certified-b-corp-driving-impact-one-insect-at-a-time/ . B Corp; no output data. Company.
-- **VCO-19.** Mekong Capital. "Entobel." Accessed 2026. https://www.mekongcapital.com/our-investment/entobel-2/ . Capacity, staff, Indonesia "preparing". Investor.
 - **VCO-23.** UMAMI Bioworks. Home page. Accessed 2026. https://www.umamibioworks.com/ . Partner list (no Vietnamese firm). Company.
 - **VCO-24.** Vinh Hoan Corp. Investor updates page. Accessed 2026. https://www.vinhhoan.com/investor_updates/ . No 2024 to 2026 alt-protein updates visible. Company (listed).
 - **VCO-26.** An Nhien Foods (Pham Gia Phat). "An Nhien Foods." Accessed 2026. https://annhienfood.com.vn/pages/an-nhien-foods . Founding, address, inputs, Halal, channels, exports. Company.
-- **VCO-27.** Skretting Vietnam. Home page and news listing. Accessed 2026. https://www.skretting.com/vi-vn/ . Office address; 2026 product launches; Entobel item. Company.
+- **VCO-27.** Skretting Vietnam. Home page and news listing. Accessed 2026. https://www.skretting.com/vi-vn/ . Office address; 2026 product launches. Company.
 - **VCO-28.** Skretting Vietnam. "Skretting Viet Nam va Entobel hop tac chien luoc nham thuc day san xuat thuc an tom ben vung." 26 Nov 2025. https://www.skretting.com/vi-vn/tin-tuc-su-kien/skretting-viet-nam-hop-tac-voi-entobel-thuong-mai-hoa-thuc-an-tom-tu-bot-con-trung/ . Partnership; commercial production from Nov 2025; CO2 claim. Company.
 - **VCO-29.** Uni-President Vietnam. Home page. Accessed 2026. https://www.uni-president.com.vn/ . Founding 1999; four sites; business lines. Company.
 - **VCO-30.** Grobest. Home page. Accessed 2026. https://www.grobest.com/ . Countries; 2024 sustainability report released 30 Mar 2026. Company.
@@ -1051,7 +1026,7 @@ ID prefixes: MAC = protein economy and feed (wave 1); FS = feedstocks (wave 1); 
 
 - **AQF-23.** Veramaris. "Veramaris opens US$200m facility for EPA and DHA omega-3 algal oil." 10 Jul 2019. https://www.veramaris.com/media-resources-detail/veramaris-opens-us200m-facility-for-epa-dha-omega-3-algal-oil-to-support-sustainable-growth-in-aquaculture . Capacity claims. Type: company claim.
 
-## Press (287)
+## Press (271)
 
 ### MAC
 
@@ -1136,14 +1111,6 @@ ID prefixes: MAC = protein economy and feed (wave 1); FS = feedstocks (wave 1); 
 
 ### ECO
 
-- **ECO-04.** "Insect protein company Entobel secures funding in Vietnam." PetfoodIndustry, 18 Apr 2023. https://www.petfoodindustry.com/news-newsletters/pet-food-news/article/15469728/insect-protein-company-entobel-secures-funding-in-vietnam . Funding context, H-Meal at least 53% crude protein. Press.
-- **ECO-05.** "Vinh Hoan strikes insect protein deal with Entobel." The Asset, 23 Feb 2024. https://www.theasset.com/article-esg/50986/vinh-hoan-strikes-insect-protein-deal-with-entobel . Offtake of at least 15,000 t, 2025 to 2027. Press.
-- **ECO-06.** "Entobel opens Asia's largest insect protein plant in Vietnam." Hatchery International, 2023. https://www.hatcheryinternational.com/entobel-opens-asias-largest-insect-protein-plant-in-vietnam/ . Confirms USD 33 m Series B claim and 150 jobs. Press.
-- **ECO-07.** "Vietnam's Cricket One gets pre-Series A funding to make the case for its insect protein patties." AgFunderNews, 23 Nov 2020. https://agfundernews.com/vietnams-cricket-one-gets-pre-series-a-funding-to-make-the-case-for-its-insect-protein-patties . Round, investors, volumes. Press.
-- **ECO-08.** "[Bài 5] Cricket One liên kết sản xuất, đưa côn trùng ra… thế giới." Nông nghiệp và Môi trường, 18 Mar 2023. https://nongnghiepmoitruong.vn/chan-nuoi-sang-tao-bai-5-lien-ket-la-chia-khoa-d346208.html . Loc Ninh location, exports, certifications. Press.
-- **ECO-09.** "Startup về dế Cricket One đã khép lại vòng gọi vốn Series A và mở cơ sở chế biến dế lớn nhất châu Á." Foodmap Asia, 2 Oct 2023. https://foodmap.asia/tin-tuc/startup-ve-de-cricket-one-da-khep-lai-vong-goi-von-series-a-va-mo-co-so-che-bien-de-lon-nhat-chau-a . Series A, 1,000 t/yr capacity. Press.
-- **ECO-10.** "Tham quan nông trại và nhà máy sản xuất dế lớn nhất Việt Nam của Cricket One." CafeF, Feb 2023. https://cafef.vn/tham-quan-nong-trai-va-nha-may-san-xuat-de-lon-nhat-viet-nam-cua-cricket-one-tan-dung-tu-chan-den-phan-de-nang-cap-mon-an-choi-vung-que-thanh-cong-nghiep-thuc-pham-moi-2023020811072749.chn . Farm structure; feed with Nong Lam University. Press.
-- **ECO-11.** "Doanh nghiệp đầu tiên xuất khẩu Protein từ dế mèn." VTV9, 24 Oct 2024. https://vtv9.vtv.vn/en/doanh-nghiep-dau-tien-xuat-khau-protein-tu-de-men . About 150 t live/month claim; last evidence of activity. Press (state broadcaster).
 - **ECO-12.** "Viet startup pioneers plant-based products with fewer additives." Asian Agribiz, 16 Feb 2024. https://www.asian-agribiz.com/2024/02/16/viet-startup-pioneers-plant-based-products-with-fewer-additives/ . Emmay; mycelium; additive count. Press (paywalled, intro only).
 - **ECO-16.** "BiaCraft Introduces The Beyond Burger To Vietnam." Vietcetera, 17 Aug 2019. https://vietcetera.com/en/biacraft-introduces-the-beyond-burger-to-vietnam . First Beyond Burger in Vietnam. Press.
 - **ECO-17.** "Thịt thực vật thị trường tỉ USD." Nhịp Cầu Đầu Tư, 15 Jul 2022. https://m.nhipcaudautu.vn/kinh-doanh/thit-thuc-vat-thi-truong-ti-usd-3346595/ . Bewina, Vinamit, Cay De/VMEAT, Bien Phuong; VND 1,000 bn estimate. Press.
@@ -1193,14 +1160,6 @@ ID prefixes: MAC = protein economy and feed (wave 1); FS = feedstocks (wave 1); 
 
 ### CAP
 
-- **CAP-02.** "Mekong Capital, Dragon Capital invest $30 mln in biotech firm Entobel". The Investor, 10 May 2022. https://theinvestor.vn/mekong-capital-dragon-capital-invest-30-mln-in-biotech-firm-entobel-d345.html . Accessed 2026-09-23. Dragon USD 5M; MEF IV size USD 246M; Entobel history. Type: press.
-- **CAP-06.** "IFC backs Entobel, but private sector remains cautious of investing in insect-based aquafeed". SeafoodSource, 12 May 2023. https://www.seafoodsource.com/news/premium/supply-trade/ifc-backs-entobel-but-private-sector-remains-cautious-of-investing-in-insect-based-aquafeed . Accessed 2026-09-23. IFC instrument (equity); investor caution quotes. Type: press.
-- **CAP-07.** "Insect protein company Entobel secures funding in Vietnam". Petfood Industry, 18 Apr 2023. https://www.petfoodindustry.com/news-newsletters/pet-food-news/article/15469728/insect-protein-company-entobel-secures-funding-in-vietnam . Accessed 2026-09-23. Claims ~USD 10M IFC (rejected). Type: press.
-- **CAP-09.** "Singapore animal feed maker Entobel opens Asia largest insect protein plant in Vietnam". The Investor, 25 Nov 2023. https://theinvestor.vn/singapore-animal-feed-maker-entobel-opens-asia-largest-insect-protein-plant-in-vietnam-d7546.html . Accessed 2026-09-23. Confirms USD 33M and investors. Type: press.
-- **CAP-11.** "EXCLUSIVE: 500 Startups leads seed round for Vietnam's Cricket One". AgFunderNews, 14 Oct 2019. https://agfundernews.com/500-startups-leads-seed-round-for-vietnams-cricket-one . Accessed 2026-09-23. Seed round investors. Type: press.
-- **CAP-12.** "Vietnam's Cricket One gets pre-Series A funding to make the case for its insect protein patties". AgFunderNews, 23 Nov 2020. https://agfundernews.com/vietnams-cricket-one-gets-pre-series-a-funding-to-make-the-case-for-its-insect-protein-patties . Accessed 2026-09-23. Pre-Series A investors. Type: press.
-- **CAP-13.** "Edible Insect Pioneer Cricket One Launches Asia's Largest Cricket Processing Facility, Secures Series A Funding". Vietcetera, 25 Sep 2023. https://vietcetera.com/en/cricket-one-launches-asias-largest-cricket-processing-facility-secures-series-a-funding . Accessed 2026-09-23. Series A investors; facility. Type: press.
-- **CAP-14.** "Asia Digest: Vietnam's Cricket One raises funds; Indonesia's Finantier bags pre-seed capital". DealStreetAsia, 23 Nov 2020. https://www.dealstreetasia.com/stories/cricket-one-finantier-216739 . Accessed 2026-09-23. Confirms the Corecam lead. Type: press.
 - **CAP-15.** "Startup 'Ruoc Nam' keu goi von 1,5 trieu USD, ky vong mo rong 1.000 diem ban". Vietnambiz, 30 May 2021. https://vietnambiz.vn/startup-ruoc-nam-keu-goi-von-15-trieu-usd-ky-vong-mo-rong-1000-diem-ban-20210529215030992.htm . Accessed 2026-09-23. Emmay funding history (company claim). Type: press.
 - **CAP-16.** "Dau tu vao start-up nuoc ngoai, Vinh Hoan huong den hai san, thit duoc nuoi cay tu te bao". Bao Dau Tu, 2021. https://baodautu.vn/dau-tu-vao-start-up-nuoc-ngoai-vinh-hoan-huong-den-hai-san-thit-duoc-nuoi-cay-tu-te-bao-d149699.html . Accessed 2026-09-23. Vinh Hoan stakes in Shiok and Avant. Type: press.
 - **CAP-17.** "Viet Nam tham gia chuoi cung ung thuc pham nhan tao". Nhip Cau Dau Tu, 18 Aug 2021. https://m.nhipcaudautu.vn/kinh-doanh/viet-nam-tham-gia-chuoi-cung-ung-thuc-pham-nhan-tao-3341690/ . Accessed 2026-09-23. Shiok co-investors (CJ, Woowa); BIV Vietnam intent. Type: press.
@@ -2096,7 +2055,7 @@ ID prefixes: DIE = protein diet and prices; CHY = chay and plant eating; CON = c
 - **NOV-79.** Pham V.H., Nguyen T.D.N., Nguyen T.P.G., Duong N.H., Nguyen-Viet H., Dang-Xuan S., Randolph D., Unger F. (2026). Consumers' knowledge, attitudes, practices, and trust on food safety in pork value chains in Vietnam. Vietnam Journal of Agricultural Sciences 9(1): 2856 to 2868. https://doi.org/10.31817/vjas.2026.9.1.07
 - **NOV-82.** Siegrist M., Hartmann C. (2020). Perceived naturalness, disgust, trust and food neophobia as predictors of cultured meat acceptance in ten countries. Appetite 155: 104814. https://doi.org/10.1016/j.appet.2020.104814
 
-### press (176)
+### press (175)
 
 - **BUY-10.** CafeF. Loi nhuan 2025 gap gan 25 lan: Masan MEATLife buoc vao chu ky tang truong moi. 5 Feb 2026. https://cafef.vn/loi-nhuan-2025-gap-gan-25-lan-masan-meatlife-buoc-vao-chu-ky-tang-truong-moi-188260205131444831.chn
 - **BUY-11.** CafeF. Masan bao lai sau thue ky luc nam 2025, gap 1,6 lan cung ky. 28 Jan 2026. https://cafef.vn/masan-bao-lai-sau-thue-ky-luc-nam-2025-gap-16-lan-cung-ky-loi-nhuan-wincommerce-masan-meatlife-tang-hang-chuc-lan-188260128102543522.chn
@@ -2215,7 +2174,6 @@ ID prefixes: DIE = protein diet and prices; CHY = chay and plant eating; CON = c
 - **EXP-19.** Nhan Dan Online. Vietnamese cashew nuts: From raw exports to plant-based milk opportunities in US. 14 Dec 2025. https://en.nhandan.vn/vietnamese-cashew-nuts-from-raw-exports-to-plant-based-milk-opportunities-in-us-post156744.html
 - **EXP-43.** VnEconomy. Xuất khẩu nông lâm thủy sản vượt 64 tỷ USD, nhiều mặt hàng chủ lực lập kỷ lục mới (11-month 2025 exports). 4 Dec 2025. https://vneconomy.vn/xuat-khau-nong-lam-thuy-san-vuot-64-ty-usd-nhieu-mat-hang-chu-luc-lap-ky-luc-moi.htm
 - **EXP-44.** AgFunderNews. Plant-based meat by numbers: Grim reading for the US retail market, brighter spots in foodservice and globally. 16 May 2025. https://agfundernews.com/plant-based-meat-by-numbers-grim-reading-for-the-us-retail-market-brighter-spots-in-foodservice-and-globally
-- **EXP-50.** The Asset. Vinh Hoan strikes insect protein deal with Entobel. 23 Feb 2024. https://www.theasset.com/article-esg/50986/vinh-hoan-strikes-insect-protein-deal-with-entobel
 - **GLB-07.** Green Queen (2026). Global plant-based food sales grew by 3% in 2025: GFI report. https://www.greenqueen.com.hk/gfi-state-of-the-industry-report-2025-2026-plant-based-sales/
 - **GLB-44.** CNBC (2019, 23 May). Alternative meat to become $140 billion industry in a decade, Barclays predicts. https://www.cnbc.com/2019/05/23/alternative-meat-to-become-140-billion-industry-barclays-says.html
 - **GLB-50.** Sixth Tone (2023, 6 June). China's plant-based meat industry falters after initial hype. https://www.sixthtone.com/news/1013054
@@ -2280,7 +2238,7 @@ ID prefixes: DIE = protein diet and prices; CHY = chay and plant eating; CON = c
 ID prefixes: AFN, AIS, AIB, APR = actor check (funders; investors and startups; incumbents; policy, research and international); PMR = public meals; FTR = fiscal and tariff rules; FUF = funder units; CPC = commitments and competitors; TIC = textured protein economics; BRD = base rates (all wave 7); LBL = labels and standards; FBA = feed buyers; XBA = export buyers; NQR = nutrition quality; ECR = e-commerce; HXE = hybrid economics (all wave 8); TRU = fillers and trust; UPL = upland and canteen plates; MKT = marketplaces; ORG = rules of origin (all wave 9).
 
 
-### company (152)
+### company (150)
 
 - **AFN-01.** Coefficient Giving. Request for Proposals: Alternative Protein R&D. Page updated 9 September 2026.
 - **AFN-40.** Accor. Accor Group Good Food Policy. November 2024.
@@ -2304,8 +2262,6 @@ ID prefixes: AFN, AIS, AIB, APR = actor check (funders; investors and startups; 
 - **AIS-07.** Temasek. Transcript: Temasek Review 2025 Media Briefing. 9 Jul 2025.
 - **AIS-08.** Temasek. Temasek establishes the Asia Sustainable Foods Platform to accelerate the commercialisation of sustainable foods in Asia. 15 Nov 2021.
 - **AIS-11.** Big Idea Ventures. Home page. Accessed 25 Sep 2026.
-- **AIS-14.** Openspace. Openspace continues to invest in agritech with Nutrition Technologies. 19 Sep 2022.
-- **AIS-19.** Mekong Capital. Home page and Entobel investment page. Accessed 25 Sep 2026.
 - **AIS-24.** Charoen Pokphand Foods. CP Foods taps into future trends with food tech solutions. 21 Jul 2022.
 - **AIS-25.** Kamereo. Product listings for Meat Zero chay products (Heo Xay Chay Meat Zero 1kg; Heo Quay Chay Meat Zero 200g; plus minced 220 g and 1 kg, roast 1 kg, chay bologna 90 g and 500 g). Accessed 25 Sep 2026.
 - **AIS-26.** Kamereo. About Kamereo. Accessed 25 Sep 2026.
@@ -2435,7 +2391,7 @@ ID prefixes: AFN, AIS, AIB, APR = actor check (funders; investors and startups; 
 - **XBA-33.** CJ CheilJedang. Business: Food (English page). Accessed 25 Sep 2026.
 - **XBA-34.** Tesco PLC. Sitemap (reporting hub entries: textile factories supplying Tesco; palm oil and soy transparency mapping 2021; ESG methodologies 2024 to 2026). Accessed 25 Sep 2026.
 
-### gov/statistics (107)
+### gov/statistics (106)
 
 - **AFN-33.** School Meals Coalition. Members page. Accessed 25 September 2026.
 - **AFN-47.** Scaling Up Nutrition. Viet Nam reduces child stunting to 18.2% with increased nutrition investment. Undated news page.
@@ -2444,7 +2400,6 @@ ID prefixes: AFN, AIS, AIB, APR = actor check (funders; investors and startups; 
 - **AIB-41.** Báo Chính phủ. Tăng cường bảo đảm an toàn, chất lượng bữa ăn bán trú trong các cơ sở giáo dục (Công điện 64/CĐ-TTg). 13 Sep 2026.
 - **AIB-43.** Sở Công Thương Quảng Bình. Giải pháp nâng cao chất lượng bữa ăn ca của người lao động theo Kết luận số 03/KL-TLĐ của Tổng Liên đoàn Lao động Việt Nam.
 - **AIB-44.** Bệnh viện Bệnh Nhiệt đới (Hospital for Tropical Diseases, HCMC). Mời báo giá dự toán gói thầu Cung cấp suất ăn qua miệng cho người bệnh năm 2025. 25 Mar 2025.
-- **AIS-20.** IFC. Sustainable insect-based protein: IFC invests in ProNuvo to boost the circular economy in Latin America and the Caribbean. 19 Jun 2024.
 - **AIS-22.** ADB Ventures. Home page. Accessed 25 Sep 2026.
 - **APR-01.** Prime Minister of Viet Nam. Quyet dinh 02/QD-TTg phe duyet Chien luoc quoc gia ve dinh duong giai doan 2021-2030 va tam nhin den nam 2045. 5 Jan 2022. Full text read via LuatVietnam.
 - **APR-02.** Prime Minister of Viet Nam. Quyet dinh 300/QD-TTg phe duyet Ke hoach hanh dong quoc gia chuyen doi he thong luong thuc thuc pham minh bach, trach nhiem va ben vung o Viet Nam den nam 2030. 28 Mar 2023.
@@ -2545,7 +2500,7 @@ ID prefixes: AFN, AIS, AIB, APR = actor check (funders; investors and startups; 
 - **UPL-21.** Báo Chính phủ. Hỗ trợ tiền ăn, gạo, đồ dùng cá nhân cho học sinh trường phổ thông nội trú (Nghị định 188/2026/NĐ-CP ngày 27/5/2026). 28 May 2026.
 - **XBA-30.** UK Department for Business and Trade and HMRC. UK Trade Tariff API v2, rules_of_origin_schemes for commodities 190220, 210690, 210610 and 110100, country VN (UK-Vietnam FTA and UK-CPTPP). Accessed 25 Sep 2026.
 
-### press (105)
+### press (104)
 
 - **AFN-09.** vegconomist. GFI Research Grant Program will provide up to $3.5MM for alternative protein projects in two key areas. 27 March 2025.
 - **AFN-14.** vegconomist. Malnutrition data frames India roundtable on building alt-protein into state feeding schemes. 3 August 2026.
@@ -2586,7 +2541,6 @@ ID prefixes: AFN, AIS, AIB, APR = actor check (funders; investors and startups; 
 - **AIS-16.** VIR. VinaCapital Ventures invests in South Korea's INNOHAS. 2 Jul 2024.
 - **AIS-17.** Doanh nhan va Phap luat. VinaCapital tham gia van hanh Quy Dau tu mao hiem TP. HCM (VinaCapital to operate the Ho Chi Minh City venture fund). 20 Apr 2026.
 - **AIS-18.** Thanh Nien. Quy dau tu mao hiem TP.HCM tiep nhan 50 de xuat, giai ngan tu quy 4/2026 (HCMC venture fund receives 50 proposals, disburses from Q4 2026). 25 Aug 2026.
-- **AIS-21.** The Fish Site. Insect meal: can the sector still deliver on its 2030 promise? 18 Dec 2025.
 - **AIS-23.** SeafoodSource. Thai Union unveils plan to double earnings by 2030. 13 Nov 2024.
 - **AIS-27.** Asia Business Daily. CJ CheilJedang partners with Vietnam's top retail network to target consumers with 'CJ Zone'. 27 Apr 2026.
 - **AIS-29.** AgFunderNews. From record Series A to market reset: where TiNDLE Foods, and plant-based meat, go next. 16 Jul 2025.
@@ -3108,3 +3062,294 @@ ID prefixes: MIM = imported meat, offal and dairy; PAN = animal disease, zoonose
 - **SEC-16.** Phạm Thị Hồng Điệp, Nguyễn Thị Nhung. An ninh lương thực ở Việt Nam: thực trạng và những vấn đề đặt ra (Food security in Vietnam: situation and issues). Tạp chí Quản lý nhà nước (Journal of State Management), 18 Apr 2024. https://www.quanlynhanuoc.vn/2024/04/18/an-ninh-luong-thuc-o-viet-nam-thuc-trang-va-nhung-van-de-dat-ra/ Accessed 2026-10-01. Type: other.
 - **OIC-06.** Vietnam Private Capital Agency (VPCA). Home page. Undated. https://www.vpca.vn/ Accessed 2026-10-01. Type: other.
 - **OIC-18.** Giac Ngo Online. Home page (masthead). Undated. https://giacngo.vn/ Accessed 2026-10-01. Type: other.
+
+## Regional deals round (version 0.9)
+
+ID prefix: RDL = regional alternative-protein deals in East and Southeast Asia. All wave 12, accessed 15 October 2026.
+
+### press (34)
+
+- **RDL-01.** TheLeader. "Startup protein men vi sinh tu bo 100 ty dong khoi nghiep (YERA on Shark Tank Vietnam)." 2024. https://theleader.vn/startup-protein-men-vi-sinh-tu-bo-100-ty-dong-khoi-nghiep-d36732.html . Accessed 2026-10-15. Type: press.
+- **RDL-04.** Asian Agribiz. "IFC proposes USD 150m investment in New Hope Singapore." 1 May 2026. https://www.asian-agribiz.com/2026/05/01/ifc-proposes-usd150m-investment-in-new-hope-singapore/ . Accessed 2026-10-15. Type: press.
+- **RDL-05.** DealStreetAsia. "Green Rebel Foods funding." Jan 2026. https://www.dealstreetasia.com/stories/green-rebel-foods-funding-469744 . Accessed 2026-10-15. Type: press.
+- **RDL-06.** AgFunderNews. "Cultivated meat consolidation begins as Umami Bioworks to merge with Shiok Meats." Mar 2024. https://agfundernews.com/cultivated-meat-consolidation-begins-as-umami-bioworks-to-merge-with-shiok-meats . Accessed 2026-10-15. Type: press.
+- **RDL-07.** Vulcan Post. "Avant Proteins closure." 2026. https://vulcanpost.com/909178/avant-proteins-closure/ . Accessed 2026-10-15. Type: press.
+- **RDL-10.** AgFunderNews. "Joes Future, Chinese cellular pork producer, raises USD 11m Series A funding." Oct 2021. https://agfundernews.com/joes-future-chinese-cellular-pork-producer-raises-11m-series-a-funding . Accessed 2026-10-15. Type: press.
+- **RDL-11.** vegconomist. "China's first cultivated meat company raises USD 10.9m to build pork production line." Oct 2021. https://vegconomist.com/cultivated-cell-cultured-biotechnology/chinas-first-cultivated-meat-company-raises-10-9m-to-build-pork-production-line/ . Accessed 2026-10-15. Type: press.
+- **RDL-12.** Green Queen. "China's first cultivated meat factory (CellX)." 2022. https://www.greenqueen.com.hk/china-first-cultivated-meat-factory-cellx/ . Accessed 2026-10-15. Type: press.
+- **RDL-13.** Green Queen. "CellX: China cellular agriculture, first cultivated meat pilot factory." 2023. https://www.greenqueen.com.hk/cellx-china-cellular-agriculture-first-cultivated-meat-pilot-factory-us-singapore-launch/ . Accessed 2026-10-15. Type: press.
+- **RDL-14.** Green Queen. "Joes Future Food Series A+ funding." May 2023. https://www.greenqueen.com.hk/joes-future-food-tech-series-a-plus-funding/ . Accessed 2026-10-15. Type: press.
+- **RDL-15.** Green Queen. "Changing Biotech: fermentation dairy." 2023. https://www.greenqueen.com.hk/changing-biotech-fermentation-dairy/ . Accessed 2026-10-15. Type: press.
+- **RDL-16.** FoodNavigator. "China's cultivated meat push faces consumer reality." 9 Sep 2026. https://www.foodnavigator.com/Article/2026/09/09/chinas-cultivated-meat-push-faces-consumer-reality/ . Accessed 2026-10-15. Type: press.
+- **RDL-17.** The Spoon. "OmniPork parent Green Monday raises USD 70M to expand its plant-based food enterprise." Sep 2020. https://thespoon.tech/omnipork-parent-green-monday-raises-70m-to-expand-its-plant-based-food-enterprise/ . Accessed 2026-10-15. Type: press.
+- **RDL-19.** The Bridge. "DAIZ Series A round funding." May 2020. https://thebridge.jp/en/2020/05/daiz-series-a-round-funding . Accessed 2026-10-15. Type: press.
+- **RDL-20.** Just Food. "Japanese plant-based start-up DAIZ to build new site after funding win." 2023. https://www.just-food.com/news/japanese-plant-based-start-up-daiz-to-build-new-site-after-funding-win/ . Accessed 2026-10-15. Type: press.
+- **RDL-21.** Nutrition Investor. "Japanese government awards USD 2.2m to IntegriCulture." 2020. https://nutritioninvestor.com/japanese-government-awards-2-2m-to-integriculture/ . Accessed 2026-10-15. Type: press.
+- **RDL-23.** Global AgInvesting. "Japan's IntegriCulture raises USD 7M for cell-cultured meat infrastructure platform." Jan 2022. https://globalaginvesting.com/japans-integriculture-raises-7m-cell-cultured-meat-infrastructure-platform/ . Accessed 2026-10-15. Type: press.
+- **RDL-24.** AgFunderNews. "IntegriCulture scores USD 7m." Jan 2022. https://agfundernews.com/integriculture-scores-7m-for-outside-factor-free-cell-ag . Accessed 2026-10-15. Type: press.
+- **RDL-25.** Green Queen. "South Korea cultivated meat: Simple Planet funding." 2024. https://www.greenqueen.com.hk/south-korea-cultivated-meat-simple-planet-funding/ . Accessed 2026-10-15. Type: press.
+- **RDL-26.** vegconomist. "South Korea (regional news page)." 2025. https://vegconomist.com/region/asia/south-korea/ . Accessed 2026-10-15. Type: press.
+- **RDL-29.** AgFunderNews. "Next Gen Foods nets USD 100m in plant-based protein's biggest Series A to date." Feb 2022. https://agfundernews.com/next-gen-foods-nets-100m-in-plant-based-proteins-biggest-series-a-to-date . Accessed 2026-10-15. Type: press.
+- **RDL-30.** Asian Agribiz. "Thai energy giant PTT enters plant-based business." 25 May 2021. https://www.asian-agribiz.com/2021/05/25/thai-energy-giant-ptt-enters-plant-based-business/ . Accessed 2026-10-15. Type: press.
+- **RDL-31.** Green Queen. "Plant & Bean plant-based meat factory in Thailand with NR Instant Produce." 2021. https://www.greenqueen.com.hk/plant-and-bean-based-meat-factory-thailand-nr-instant-produce/ . Accessed 2026-10-15. Type: press.
+- **RDL-32.** The Plant Base. "Plant & Bean opens new Thailand factory." 2023. https://www.theplantbasemag.com/news/plant-bean-opens-new-thailand-factory . Accessed 2026-10-15. Type: press.
+- **RDL-35.** TNGlobal. "Wavemaker Impact leads USD 700k pre-seed investment in Singapore's Virdalis." 16 Mar 2026. https://technode.global/2026/03/16/wavemaker-impact-leads-700k-pre-seed-investment-in-singapores-virdalis/ . Accessed 2026-10-15. Type: press.
+- **RDL-36.** AsiaOne. "Singapore's first cultivated meat producer pauses operations, cancels previously announced plans." 2024. https://www.asiaone.com/singapore/singapores-first-cultivated-meat-producer-pauses-operations-cancels-previously-announced . Accessed 2026-10-15. Type: press.
+- **RDL-37.** FoodNavigator. "Cultivated meat in Singapore: after huge fanfare, does the future look more challenging amid funding winter?." 2 Apr 2024. https://www.foodnavigator.com/Article/2024/04/02/Cultivated-meat-in-Singapore-After-huge-fanfare-does-the-future-look-more-challenging-amid-funding-winter/ . Accessed 2026-10-15. Type: press.
+- **RDL-38.** Green Queen. "Cultivated seafood: Umami Bioworks and Shiok Meats merger, Singapore." Mar 2024. https://www.greenqueen.com.hk/cultivated-seafood-umami-bioworks-shiok-meats-merger-singapore/ . Accessed 2026-10-15. Type: press.
+- **RDL-40.** AgFunderNews. "Monde Nissin may book significant write-down for struggling Quorn business." 2022. https://agfundernews.com/brief-monde-nissin-may-book-significant-write-down-for-struggling-quorn-business . Accessed 2026-10-15. Type: press.
+- **RDL-41.** Just Food. "Monde Nissin's meat-free sales recovery takes shape but losses still evident." 2026. https://www.just-food.com/news/monde-nissins-meat-free-sales-recovery-takes-shape-but-losses-still-evident/ . Accessed 2026-10-15. Type: press.
+- **RDL-43.** Asia Business Outlook. "Green Rebel Foods raises USD 12.5M to expand plant-based meats." Jan 2026. https://www.asiabusinessoutlook.com/news/green-rebel-foods-raises-125m-to-expand-plantbased-meats-nwid-11280.html . Accessed 2026-10-15. Type: press.
+- **RDL-45.** Just Food. "Umami Bioworks and Shiok Meats merge to form cultivated seafood platform." Mar 2024. https://www.just-food.com/news/umami-bioworks-and-shiok-meats-merge-to-form-cultivated-seafood-platform/ . Accessed 2026-10-15. Type: press.
+- **RDL-49.** The Thaiger. "Plant-based meat popularity fuels new ventures in Thailand." 2021. https://thethaiger.com/news/business/plant-based-meat-popularity-fuels-new-ventures-in-thailand . Accessed 2026-10-15. Type: press.
+- **RDL-50.** Newsbeezer. "PTT joins NRF to enter vegetable protein market, aiming to lead the ASEAN region." 2021. https://newsbeezer.com/thailandeng/ptt-joins-nrf-to-enter-vegetable-protein-market-with-aiming-to-lead-the-asean-region/ . Accessed 2026-10-15. Type: press.
+
+### company (6)
+
+- **RDL-03.** ADB Ventures. "Portfolio." 2026. https://ventures.adb.org/portfolio/ . Accessed 2026-10-15. Type: company.
+- **RDL-18.** IntegriCulture. "Corporate news: Series A financing." May 2020. https://integriculture.com/en_news/corporate/700/ . Accessed 2026-10-15. Type: company.
+- **RDL-27.** TiNDLE (Next Gen Foods). "Press releases." 2026. https://tindle.com/press-releases/ . Accessed 2026-10-15. Type: company.
+- **RDL-28.** Next Gen Foods via PR Newswire. "Next Gen Foods debuts TiNDLE in the United States and announces a USD 100 million Series A funding round." Feb 2022. https://www.prnewswire.com/news-releases/next-gen-foods-debuts-tindle-in-the-united-states-and-announces-a-record-breaking-100-million-series-a-funding-round-301482488.html . Accessed 2026-10-15. Type: company.
+- **RDL-33.** NR Instant Produce (NRF). "NRF reported 2021 financials." 2022. https://www.nrinstant.com/en/newsroom/news/44018/nrf-reported-2021-financials-hitting-new-high-revenue-growth-of-491-path-to-leader-of-global-plant-based-market-bod-approves-dividend-payment-of-0041-baht-share-xd-is-on-28-april-2022 . Accessed 2026-10-15. Type: company.
+- **RDL-34.** Thai Union. "Thai Union corporate venture fund invests in French algae ingredients startup." undated. https://www.thaiunion.com/en/newsroom/press-release/1594/thai-union-corporate-venture-fund-invests-in-french-algae-ingredients-startup . Accessed 2026-10-15. Type: company.
+
+### database (6)
+
+- **RDL-22.** Startup Intros. "DAIZ company profile." undated. https://startupintros.com/orgs/daiz . Accessed 2026-10-15. Type: database.
+- **RDL-42.** PitchBook. "Green Rebel Foods company profile." 2026. https://pitchbook.com/profiles/company/459657-01 . Accessed 2026-10-15. Type: database.
+- **RDL-44.** Tracxn. "Green Rebel company profile." 2026. https://tracxn.com/d/companies/green-rebel/__rZLveszRfp1eMiXKzjymyaPUvNnY6IVnVLO9YSQn698 . Accessed 2026-10-15. Type: database.
+- **RDL-46.** CB Insights. "Shiok Meats company profile." 2026. https://www.cbinsights.com/company/shiok-meats . Accessed 2026-10-15. Type: database.
+- **RDL-47.** Dealroom. "DAIZ company profile." 2026. https://dealroom.co/companies/daiz/ . Accessed 2026-10-15. Type: database.
+- **RDL-48.** Dealroom. "Melazyme company profile." 2026. https://app.dealroom.co/companies/melazyme . Accessed 2026-10-15. Type: database.
+
+### advocacy (3)
+
+- **RDL-02.** We-Fi (Women Entrepreneurs Finance Initiative). "ADB women entrepreneurs: Emmay, Viet Nam." Dec 2025. https://we-fi.org/adb-women-entrepreneurs-emmay-vietnam/ . Accessed 2026-10-15. Type: advocacy.
+- **RDL-08.** GFI APAC. "Progress: startup secures China's largest cultivated meat investment yet." 2021. https://gfi-apac.org/progress-startup-secures-chinas-largest-cultivated-meat-investment-yet/ . Accessed 2026-10-15. Type: advocacy.
+- **RDL-09.** GFI APAC. "Look closer: China is quietly making moves on cultivated meat." 2021. https://gfi-apac.org/look-closer-china-is-quietly-making-moves-on-cultivated-meat/ . Accessed 2026-10-15. Type: advocacy.
+
+### gov/statistics (1)
+
+- **RDL-39.** Cult Food Science Corp. (SEDAR+ filing). "Management discussion and analysis (filed 1 May 2026)." May 2026. https://newsfile.moomoo.com/public/NN-PersistNoticeAttachment/7781/20260501/SEDAR_PLUS/CSA_SEDAR_PLUS_NOTICE_RECORD_ID_2395374.pdf . Accessed 2026-10-15. Type: gov/statistics.
+
+## Solutions screen round (version 0.10)
+
+ID prefixes: GSD = gFI Solutions Database and ASAP reports; SLP = solutions screen: plant-based; SLF = solutions screen: fermentation; SLC = solutions screen: cultivated meat; SLS = solutions screen: alternative seafood; SLK = solutions screen: capital, markets and business services; SLW = solutions screen: research system and workforce; PPE = the Protein Project (EU) publications; AML = berkeley Alt:Meat Lab; CGG = coefficient Giving grantees with published research. All wave 13, accessed 15 October 2026 unless an entry says otherwise.
+
+### other (44)
+
+- **SLP-08.** Li, S.-T. (2019). Feasibility of preparing rice protein from broken rice (in Chinese with English abstract). Master's thesis, Department of Horticulture and Landscape Architecture, National Taiwan University. https://tdr.lib.ntu.edu.tw/handle/123456789/72584
+- **SLP-10.** Silva, C. M., Felberg, I., Lima, J. R., Gouvea, L. de P., Galdeano, M. C., Caldeira, R. F., and Azevedo, T. de L. (2022). Guide for technological functional characterization of protein ingredients for the plant-based market. Documentos 146, Embrapa Agroindustria de Alimentos, Rio de Janeiro. https://www.infoteca.cnptia.embrapa.br/handle/doc/1150307
+- **SLF-01.** VNU Hanoi Institute of Microbiology and Biotechnology. Trung tâm Nguồn gen Vi sinh vật Quốc gia (Vietnam Type Culture Collection, VTCC), centre page. Undated. http://imbt.vnu.edu.vn/trung-tam-nguon-gen-vi-sinh-vat/ . Accessed 2026-10-15. Type: other (public university institute).
+- **SLS-02.** VASEP. "Vietnam's exports of fish cakes and surimi surge, expanding markets in 2025." 9 Sep 2025. https://seafood.vasep.com.vn/amp/vietnam-s-exports-of-fish-cakes-and-surimi-surge-expanding-markets-in-2025-34574.html
+- **SLS-03.** VASEP. "Vietnam's surimi industry needs more efforts." 19 Jan 2024 (reports a conference of 22 Dec 2023). https://seafood.vasep.com.vn/key-seafood-sectors/surimi/vietnams-surimi-industry-needs-more-efforts-29757.html
+- **SLS-04.** VASEP. "Many factors hinder recovery of Vietnam's surimi exports." 22 May 2024. https://seafood.vasep.com.vn/amp/many-factors-hinder-recovery-of-vietnams-surimi-exports-30560.html
+- **SLK-06.** Vietnam Banks Association (VNBA). Hoan thien chinh sach ve hoat dong bao thanh toan tai Viet Nam de ho tro doanh nghiep. 12 August 2025.
+- **SLK-07.** Vietnam Banks Association (VNBA). VNBA moi hoi vien gop y du thao Thong tu sua doi, bo sung Thong tu 20/2024/TT-NHNN. 16 March 2026.
+- **SLW-09.** North Carolina State University, Biomanufacturing Training and Education Center (BTEC). Fermentation Engineering (in-person professional course). https://btec.ncsu.edu/professional/in-person/fermentation
+- **SLW-13.** Hue University. NutriSEA 2015 to 2018: University of Agriculture and Forestry, Hue University opened a new undergraduate course in food safety. News page. https://hueuni.edu.vn/portal/en/index.php/News/nutrisea-2015-2018:-university-of-agriculture-and-forestry-hue-university-opened-a-new-undergraduate-course-in-food-safety.html
+- **SLW-16.** Food Industry College domain (fic.edu.vn). Trung tâm đào tạo ngắn hạn ngành thực phẩm: short-course list and fees. https://fic.edu.vn/
+- **SLW-19.** Hanoi University of Science and Technology (HUST). 2026 undergraduate admissions pages (ts.hust.edu.vn; smse.hust.edu.vn), as shown in web search snippets on 15 October 2026. https://ts.hust.edu.vn/tin-tuc/thong-tin-tuyen-sinh-dai-hoc-chinh-quy-nam-2026
+- **SLW-20.** LawNet. What are regulations on Intermediate Program in fermentation technology in Vietnam? (summary of Circular 17/2013/TT-BGDĐT). https://lawnet.vn/thong-tin-phap-luat/en/chinh-sach-moi/what-are-regulations-on-intermediate-program-in-fermentation-technology-in-vietnam-147025.html
+- **PPE-12.** Colussi J., Coppess J., Paulson N., Schnitkey G. "Trade Conflicts and Long-Term Consequences: Are Soybeans Doomed to Repeat History?" farmdoc daily (15):90, University of Illinois, 15 May 2025. https://farmdocdaily.illinois.edu/2025/05/trade-conflicts-and-long-term-consequences-are-soybeans-doomed-to-repeat-history.html . Accessed 2026-10-15. Type: other.
+- **AML-01.** Alt: Meat Lab, UC Berkeley. Website: front page, About and FAQs, People, Partners and Classes pages. Accessed 15 Oct 2026. https://altmeatlab.berkeley.edu
+- **AML-02.** Alt: Meat Lab. "Alt: Blog" listing, pages 1 to 7 (33 posts, August 2016 to January 2024). Accessed 15 Oct 2026. https://altmeatlab.berkeley.edu/landing/alt-blog/
+- **AML-03.** Alt: Meat Lab. "UC Berkeley Sutardja Center launches new lab to take on $1 trillion meat industry." 17 Aug 2017. https://altmeatlab.berkeley.edu/uc-berkeley-launches-new-lab-take-1-trillion-meat-industry/
+- **AML-04.** Alt: Meat Lab. "Alt.Meat Lab receives funding to help startups develop alternatives to animal products." 14 Feb 2019. https://altmeatlab.berkeley.edu/alt-meat-lab-receives-funding-to-help-startups-develop-alternatives-to-animal-products/
+- **AML-05.** Alt: Meat Lab (Berkeley Engineering). "Amid COVID-19, the Alt: Meat Lab continues its research." 10 Aug 2020. https://altmeatlab.berkeley.edu/amid-covid-19-the-alt-meat-lab-continues-its-research/
+- **AML-06.** Alt: Meat Lab. "Berkeley Food Institute and Alt.Meat Lab Join Forces to Research Legumes." 18 Jun 2019. https://altmeatlab.berkeley.edu/berkeley-food-institute-and-alt-meat-lab-join-forces-to-research-legumes/
+- **AML-07.** Alt: Meat Lab. "Q&A with Alt: Meat Co-Director." 1 Aug 2022. https://altmeatlab.berkeley.edu/qa-with-alt-meat-co-director-dr-celia-homyak/
+- **AML-08.** Alt: Meat Lab. "Plant-based Seafood Collider Kickoff Event." 27 Feb 2017. https://altmeatlab.berkeley.edu/plant-based-seafood-collider-kickoff/
+- **AML-09.** Alt: Meat Lab. "Checking in on our plant-based seafood collider." 19 Apr 2017. https://altmeatlab.berkeley.edu/checking-plant-based-seafood-collider/
+- **AML-10.** Alt: Meat Lab. "Students serve up next generation plant-based seafood." 17 May 2017. https://altmeatlab.berkeley.edu/students-serve-next-generation-plant-based-seafood/
+- **AML-11.** Alt: Meat Lab. "SCET-born startup Terramino Foods receives $4.25 million in seed funding." 24 Jul 2018. https://altmeatlab.berkeley.edu/scet-born-startup-terramino-foods-receives-4-25-million-in-seed-funding/
+- **AML-12.** Alt: Meat Lab. "UC Berkeley alumni use fungi to make realistic salmon alternative." 7 May 2018. https://altmeatlab.berkeley.edu/uc-berkeley-salmon-fungi-alternative/
+- **AML-13.** Alt: Meat Lab. "Alt: Meat Alumni Startup Impact Tuna: A Plant-Based Alternative Making Waves in the Bay." 10 Mar 2023. https://altmeatlab.berkeley.edu/alt-meat-alumni-startup-impact-tuna-a-plant-based-alternative-making-waves-in-the-bay/
+- **AML-14.** SCET, UC Berkeley. "Impact Food Wins the Esteemed Hult Prize." 15 Dec 2020. https://scet.berkeley.edu/impact-food-wins-the-esteemed-hult-prize/
+- **AML-15.** SCET, UC Berkeley. "Uncracked profile: a values-led startup takes on seafood sustainability." 7 Jun 2023. https://scet.berkeley.edu/uncracked-profile-a-values-led-startup-takes-on-seafood-sustainability/
+- **AML-16.** Alt: Meat Lab. "Berkeley Alt: Meat Lab Offers Free Course to Demystify Plant-Based Foods." 17 Oct 2022. https://altmeatlab.berkeley.edu/berkeley-alt-meat-lab-offers-free-course-to-demystify-plant-based-foods/
+- **AML-17.** Alt: Meat Lab. "Berkeley Alternative Meats X-Lab Partners with Thimus to Explore How Food Neuroscience can Transform Food Systems." 8 Jun 2021. https://altmeatlab.berkeley.edu/berkeley-alternative-meats-lab-partners-with-thimus-to-explore-how-food-neuroscience-can-transform-food-systems/
+- **AML-18.** Alt: Meat Lab (Berkeley Engineering). "Favorite Class at Berkeley: Alumni Reflect On Their Pathway to Plant-Based Meat." 31 Jan 2020. https://altmeatlab.berkeley.edu/favorite-class-at-berkeley-alumni-reflect-on-their-pathway-to-plant-based-meat/
+- **AML-19.** Alt: Meat Lab. "UC Berkeley students use CRISPR to edit the flavor of this common food." 9 May 2018. https://altmeatlab.berkeley.edu/uc-berkeley-crispr-edit-flavor/
+- **AML-20.** Alt: Meat Lab. "Alt.Meat & Greet podcast Episode 1: How can scientists give plant-based products the same texture as meat?" 2 Feb 2018. https://altmeatlab.berkeley.edu/how-can-scientists-give-plant-based-products-the-same-texture-as-meat/
+- **AML-21.** SCET, UC Berkeley. "Challenge Labs" (archived classes page). Accessed 15 Oct 2026. https://scet.berkeley.edu/students/courses/challenge-labs/
+- **AML-24.** Beckman, S. L., Fletcher, A. and San Martin, R. (2021). Integrating Consumer Food Experience with Health and Sustainability Outcomes: The Critical Role of Design Imperatives. In: Design Thinking for Food Well-Being. Springer, pp. 195 to 210. https://doi.org/10.1007/978-3-030-54296-2_12
+- **AML-28.** Andrade, T. N. (2024). Desenvolvimento de produtos plant-based a partir da matriz do girassol: combatendo o desperdicio. Master's dissertation, Instituto de Tecnologia de Alimentos (ITAL), Campinas. http://repositorio.ital.sp.gov.br/jspui/handle/123456789/786
+- **AML-31.** SCET, UC Berkeley. "Global Partners." Accessed 15 Oct 2026. https://scet.berkeley.edu/global/global-partners/
+- **AML-32.** UC Berkeley College of Chemistry. "Bioprocess Engineering Program Description" (Master of Bioprocess Engineering). Accessed 15 Oct 2026. https://chemistry.berkeley.edu/grad/cbe/bioprocess-engineering/program-description
+- **AML-34.** Ho Chi Minh City University of Food Industry (HUFI, now HUIT), Faculty of Food Technology. "KH so 18/2023: To chuc cuoc thi Food Innovation and Development season 5." 2023. https://foodtech.hufi.edu.vn/Upload/file/Thong%20bao%20giao%20vu/KH%20so%2018_2023_%20To%20chuc%20cuoc%20thi%20Food%20Innovation%20and%20Development%20season%205.pdf
+- **CGG-03.** Kumar, A. (Associate Program Officer, Farm Animal Welfare, Coefficient Giving). Good-tasting alt meat is a scientific problem we can solve. Effective Altruism Forum, 8 June 2026.
+- **CGG-04.** Thatte, R. Alt.Meat Lab receives funding to help startups develop alternatives to animal products. Alt:Meat Lab, Sutardja Center for Entrepreneurship and Technology, UC Berkeley, 14 February 2019.
+- **CGG-17.** Web search result summaries of openphilanthropy.org and goodventures.org grant pages (queries on Berkeley Alt:Meat Lab, FFAR plant protein, The Good Food Institute, Stanford), run 15 October 2026. The pages themselves were not fetched.
+- **CGG-23.** Mendez, S. and McAuliffe, W. "Technical feasibility of egg ingredient reduction/replacement in US foods." Rethink Priorities, 14 December 2025. https://rethinkpriorities.org/research-area/egg-ingredient-reduction-us-foods/ . Accessed 2026-10-15. "This report was commissioned by Coefficient Giving (formerly Open Philanthropy)." Type: other.
+
+### peer-reviewed (43)
+
+- **SLP-01.** Pham, D. T. M., Vo, T. T., Huynh, X. P., Le, H. U., Pham, B. A., Van, C. K., and Bach, L. G. (2026). The optimization of Viscozyme-assisted hydrolysis to enhance protein extraction from VD20 broken rice: a response surface approach for functional health applications. Foods 15(7): 1265. https://doi.org/10.3390/foods15071265
+- **SLP-02.** Nguyen, T. T. D., Nguyen, T. S., Nguyen, T. V. L., Tran, T. T. V., Huynh, Q. T., Do, A. D., and Nguyen, Q. D. (2025). Comparative study on structural, functional, and biological properties of enzymatic protein hydrolysates from different legumes native to Vietnam. Applied Biochemistry and Biotechnology 197(10): 6659 to 6677. https://doi.org/10.1007/s12010-025-05342-w
+- **SLP-03.** Nguyen, H. N., Le, M. T., Nguyen, P. T., and Ho, T. N. H. (2026). Multi-response optimization of cellulase-assisted hydrolysis for enhanced protein solubilization and bioactive compound release in defatted black sesame meal. Journal of Food Technology Research 13(3). https://doi.org/10.18488/jftr.v13i3.5124
+- **SLP-04.** Le, T. K. L., Quoc, H. M., Nguyen, M. T., Nguyen, T. N., Tran, D. X., et al. (2023). Optimization of protein extraction from 'Cam' rice bran by response surface methodology. Journal of Experimental Biology and Agricultural Sciences 11(2): 290 to 296. https://doi.org/10.18006/2023.11(2).290.296
+- **SLP-05.** Le, T. H. (2026). From structure to function: hot-melt extruded alternative proteins for antioxidant delivery. Food and Bioprocess Technology. https://doi.org/10.1007/s11947-026-04452-5
+- **SLP-06.** Seetapan, N., et al. (2023). High moisture extrusion of meat analogues using mung bean (Vigna radiata L.) protein and flour blends: investigations on morphology, texture and rheology. International Journal of Food Science and Technology. https://doi.org/10.1111/ijfs.16334
+- **SLP-09.** Hou, L., Zhu, Y., and Li, Q. (2010). Characterization and preparation of broken rice proteins modified by proteases. Food Technology and Biotechnology. https://www.ftb.com.hr/archives/172-characterization-and-preparation-of-broken-rice-proteins-modified-by-proteases
+- **SLP-15.** Sequeros, T., Ochieng, J., Schreinemachers, P., et al. (2021). Mungbean in Southeast Asia and East Africa: varieties, practices and constraints. Agriculture and Food Security 10(1). https://doi.org/10.1186/s40066-020-00273-7
+- **SLF-04.** Hoang Q.V., Le Thi H.D., Pham T.L., Nguyen T.H., Pham T.H. et al. (2026). Potential for single cell protein production by yeast isolated from fermented foods. Vietnam Journal of Food Control 9(2): 113 to 122. https://doi.org/10.47866/2615-9252/vjfc.4672 . Accessed 2026-10-15. Type: peer-reviewed (abstract and article page read).
+- **SLF-05.** Vo P.-M., Nguyen D.-T., Nguyen H.-T., Nguyen P.-T. (2025). Isolation of high-amylase Rhizopus arrhizus from Vietnamese 'Banh men' for efficient hydrolysis of glutinous rice. Agriculture and Natural Resources 59(4). https://doi.org/10.34044/j.anres.2025.59.4.08 . Accessed 2026-10-15. Type: peer-reviewed (abstract read in part).
+- **SLF-06.** Thanh V.N., Hien D.D., Yaguchi T., Sampaio J.P., Lachance M.-A. (2018). Moniliella sojae sp. nov., a species of black yeasts isolated from Vietnamese soy paste (tuong). International Journal of Systematic and Evolutionary Microbiology. https://doi.org/10.1099/ijsem.0.002690 . Accessed 2026-10-15. Type: peer-reviewed (abstract read in part).
+- **SLF-07.** Thanh V.N., Le T.A.H., Tuan D.A. (2008). Microbial diversity of traditional Vietnamese alcohol fermentation starters (banh men) as determined by PCR-mediated DGGE. International Journal of Food Microbiology. https://doi.org/10.1016/j.ijfoodmicro.2008.08.020 . Accessed 2026-10-15. Type: peer-reviewed (metadata only).
+- **SLF-08.** Karamerou E.E., Parsons S., McManus M.C., Chuck C.J. (2021). Using techno-economic modelling to determine the minimum cost possible for a microbial palm oil substitute. Biotechnology for Biofuels. https://doi.org/10.1186/s13068-021-01911-3 . Accessed 2026-10-15. Type: peer-reviewed (abstract read via Europe PMC, PMC7934523).
+- **SLC-03.** Stout A.J. et al. "A Beefy-R culture medium: Replacing albumin with rapeseed protein isolates." Biomaterials 296:122092 (2022).
+- **SLC-04.** Schenzle L. et al. "Low-cost food-grade alternatives for serum albumins in FBS-free cell culture media." Scientific Reports 15:15296 (2025).
+- **SLC-07.** Nguyen Thi Kim Anh et al. "Assessment of bacterial cellulose membrane produced by Acetobacter xylinum used as scaffold for mouse fibroblast culture." Vietnam Journal of Biotechnology 14(3) (2016).
+- **SLC-08.** Schenzle L. et al. "Highly Sustainable Plant and Yeast Hydrolysate-Based Alternative for Basal Medium Supports Long-Term In Vitro Propagation of Bovine Satellite Cells." Foods 15(18):3207 (2026).
+- **SLS-07.** Ye T., Chen X., Lu Y., et al. (2024). Masterly substitution of plant proteins can achieve acceptable sensory and nutritional attributes in meat-reduced surimi gel. LWT 208:116668. https://doi.org/10.1016/j.lwt.2024.116668
+- **SLS-10.** Nguyen D.Q., Le T.M.T., Nguyen V.M. (2022). Ảnh hưởng chế độ gia nhiệt đến chất lượng gel surimi từ thịt vụn cá tra (Pangasianodon hypophthalmus). Can Tho University Journal of Science 58(6):171-178. https://doi.org/10.22144/ctu.jvn.2022.256
+- **SLS-12.** Zhao L., Sharratt P., Du J. (2026). Assessing the carbon footprint of brown rice protein-based seafood analogue using a life cycle assessment approach. Future Foods 13:100959. https://doi.org/10.1016/j.fufo.2026.100959
+- **SLS-14.** Krishnan S., Ulagesan S., Moon J.-S., Choi Y.-H., Nam T.-J. (2024). Establishment, characterization, and sensory characteristics (taste and flavor) of an immortalized muscle cell line from the seven-band grouper Epinephelus septemfasciatus: implications for cultured seafood applications. In Vitro Cellular and Developmental Biology - Animal. https://doi.org/10.1007/s11626-024-00971-7
+- **SLS-15.** Mithra S., Abdul Majeed S., Abdullah S.A.E., et al. (2025). Production of small-scale laboratory-grown cell-based fish meat from Asian seabass muscle and fin cell lines. In Vitro Cellular and Developmental Biology - Animal. https://doi.org/10.1007/s11626-025-01040-3
+- **SLS-16.** Mithra S., Abdul Majeed S., Rajkumar V., et al. (2025). Production of cell culture-based micro-tissue from muscle and fin cell lines of Lates calcarifer using biocompatible scaffolds. Journal of Food Science and Technology. https://doi.org/10.1007/s13197-024-06197-5
+- **SLS-17.** Hoang L.A.T., Nguyen H.C., Le T.T., et al. (2018). Different fermentation strategies by Schizochytrium mangrovei strain PQ6 to produce feedstock for exploitation of squalene and omega-3 fatty acids. Journal of Phycology 54(4):550-556. https://doi.org/10.1111/jpy.12757
+- **SLS-18.** Hoang T.M.H., Le T.T., Nguyen C.H., et al. (2022). Characterization and optimization of culture conditions for Aurantiochytrium sp. SC145 isolated from Sand Cay (Son Ca) Island, Vietnam, and antioxidative and neuroprotective activities of its polyunsaturated fatty acid mixture. Marine Drugs 20(12):780. https://doi.org/10.3390/md20120780
+- **SLS-20.** Huda N., Abdullah A., Babji A.S. (2000). Nutritional quality of surimi powder from threadfin bream. Journal of Muscle Foods 11(2):99-109. https://doi.org/10.1111/j.1745-4573.2000.tb00418.x
+- **SLS-25.** Nguyễn Minh Thủy (2010). Sản xuất và nâng cao chất lượng sản phẩm surimi từ cá tạp. Tạp chí Khoa học Đại học Cần Thơ 14:87-96. https://ctujsvn.ctu.edu.vn/index.php/ctujsvn/article/view/750
+- **SLW-18.** Industrial University of Ho Chi Minh City authors (2026). A meat analogue from young jackfruit (Artocarpus heterophyllus Lam.): processing factors affecting the quality of plant-based pate. Progress in Agricultural Engineering Sciences. https://doi.org/10.1556/446.2026.00250
+- **AML-26.** San Martin, R. et al. (2026). Structure and immunological activity of QS-21 variant from Quillaja saponaria aerial biomass. Frontiers in Immunology. https://doi.org/10.3389/fimmu.2026.1771912
+- **AML-27.** Andrade Teixeira Fernandes, N. et al. (2026). Polyphenol composition of fresh and dried Quillaja saponaria leaf extracts by UHPLC/MS. Phytochemistry Letters. https://doi.org/10.1016/j.phytol.2025.104110
+- **CGG-06.** Salgado, A.M., Ozturk, O.K., Hamaker, B.R. and Campanella, O.H. (2022). Matching textural properties of commercial meat and cheese products using zein as the viscoelastic agent and calcium hydroxide as the textural modifier in plant-based formulations. Food Hydrocolloids 137:108323.
+- **CGG-07.** Siva, N. and Anderson, C.T. (2023). Assessing lignocellulosic biomass as a source of emergency foods. Current Research in Food Science 7:100586.
+- **CGG-08.** Siva, N., Mather, T. and Anderson, C.T. (2026). An integrated biomass-to-algae pathway for producing emergency food components from lignocellulosic waste. Current Research in Food Science 13:101505.
+- **CGG-09.** Femeena, P.V. and Brennan, R.A. (2025). Lemnaceae as a resilient crop to improve food security under climate extremes: global warming and post-catastrophic cooling scenarios. Agriculture and Food Security 14.
+- **CGG-10.** Jehn, F.U., Dingal, F.J., Mill, A., Harrison, C.S., Ilin, E., Roleda, M.Y., James, S.C. and Denkenberger, D. (2024). Seaweed as a resilient food solution after a nuclear war. Earth's Future 12(1).
+- **CGG-11.** Hope, J., Green, S.A., Peacock, J. and Mathur, M.B. (2026). Effects of adding plant-based menu options on meat selection frequency: a randomized controlled experiment. Food Quality and Preference 143:105931.
+- **CGG-12.** Freitas-Groff, Z., Macdonald, B.N.J. and Vivalt, E. (2026). The impact of new products on ethical beliefs. European Economic Review 188:105388.
+- **CGG-13.** Stout, A.J., Mirliani, A.B., Rittenberg, M.L., Shub, M., White, E.C., Yuen, J.S.K. and Kaplan, D.L. (2022). Simple and effective serum-free medium for sustained expansion of bovine satellite cells for cell cultured meat. Communications Biology 5:466.
+- **CGG-14.** Pham, K.L. et al. (2025). Assessing perceptions toward aquatic animal welfare: a study on the perspectives of educators, students and aquaculture industry stakeholders in South and South-Central Vietnam. Animals 16(1):26.
+- **CGG-15.** Phan, U.T.X. and Nguyen, D.H. (2011). Flavor of cooked catfish (Pangasius hypophthalmus) fillets as prediction from raw fresh and frozen-to-thawed. Journal of Sensory Studies 26.
+- **CGG-16.** Phan, L.P. and Nguyen, V.T. (2023). Efficiency of intensive tilapia culture in earthen ponds applied biofloc technology (BFT), probiotics and off-flavor control methods. Journal of Agriculture and Development 22(3).
+- **CGG-21.** Caputo, V., Lusk, J.L. and Blaustein-Rejto, D. (2025). Plant-Based versus Conventional Meat in Food Away From Home Settings: Substitution, Complementarity, and Market Impacts. Agricultural Economics 56(4): 587 to 603. https://doi.org/10.1111/agec.70002 . Crossref metadata read 2026-10-15; full text and funding statement not read. Type: peer-reviewed.
+- **CGG-24.** Thomas, A.T., Hope, J.E. and Mathur, M.B. (2025). Documentary films can increase public interest in plant-based diets in the USA. Nature Food 6: 837 to 842. https://doi.org/10.1038/s43016-025-01227-7 . Crossref metadata read 2026-10-15 (funder listed: National Science Foundation); the browser session reports that the acknowledgements cite a gift from Open Philanthropy. Type: peer-reviewed.
+
+### press (31)
+
+- **SLP-12.** AgFunderNews (18 June 2025). Rival Foods raises $11.6m Series B to scale shear cell tech for plant-based whole cuts. https://agfundernews.com/rival-foods-raises-11-6-series-b-to-scale-shear-cell-tech-for-plant-based-whole-cuts
+- **SLP-13.** Bao Phap Luat Viet Nam (26 April 2011), from Nguoi Lao Dong. Truy tim phu gia bien doi thit (Tracing additives that alter meat). https://baophapluat.vn/truy-tim-phu-gia-bien-doi-thit-post147198.html
+- **SLF-09.** Watson E. Fats from fermentation: Nourish Ingredients and CABIO Biotech announce strategic biomanufacturing partnership. AgFunder News, 11 November 2024. https://agfundernews.com/fats-from-fermentation-nourish-ingredients-and-cabio-biotech-announce-strategic-biomanufacturing-partnership . Accessed 2026-10-15. Type: press.
+- **SLF-11.** Metrosert opens Estonia's fermentation bottleneck with EUR 2M pilot plant. vegconomist, 24 July 2026. https://vegconomist.com/manufacturing-technology/metrosert-opens-estonias-fermentation-bottleneck-2m-pilot-plant/ . Accessed 2026-10-15. Type: press.
+- **SLF-12.** Watson E. Dohler to dedicate 'substantial fermentation capacity' to make protein-packed postbiotic for Superbrewed Food. AgFunder News, 14 February 2024. https://agfundernews.com/dohler-to-dedicate-substantial-fermentation-capacity-to-make-protein-packed-postbiotic-for-superbrewed-food . Accessed 2026-10-15. Type: press.
+- **SLF-13.** Ethanol imports to reach USD 1 billion in first phase of E10 biofuel rollout. Viet Nam News, 21 May 2026. https://vietnamnews.vn/economy/1781796/ethanol-imports-to-reach-1-billion-in-first-phase-of-e10-biofuel-rollout.html . Accessed 2026-10-15. Type: press.
+- **SLF-14.** Superbrewed Food sales motivate a search for a larger production site. Protein Production Technology, 12 April 2024. https://www.proteinproductiontechnology.com/post/superbrewed-food-sales-motivate-a-search-for-a-larger-production-site . Accessed 2026-10-15. Type: press.
+- **SLC-01.** Tuoi Tre News. "Vietnam conducts research on lab-grown meat." 12 Dec 2022.
+- **SLC-06.** Whitworth J. "FAO and WHO consider the safety of cell-based food." Food Safety News, 6 Apr 2023.
+- **SLS-01.** Lam Ngoc. "Xuất khẩu surimi và chả cá tiếp tục khởi sắc." Báo Đại biểu Nhân dân, 20 Feb 2026. https://daibieunhandan.vn/xuat-khau-surimi-va-cha-ca-tiep-tuc-khoi-sac-10407242.html
+- **SLS-11.** Herald Corporation (Korea). Dongwon F&B starts second Jincheon plant with 'Protein Nexus' line for fish cakes and crab sticks. 15 Jun 2026. https://mbiz.heraldcorp.com/article/10780896
+- **SLS-22.** Media OutReach via Malay Mail. "Vietnam's unified political system drives to end IUU fishing." 6 Mar 2026. https://www.malaymail.com/news/money/mediaoutreach/2026/03/06/vietnams-unified-political-system-drives-to-end-iuu-fishing/452838
+- **SLK-02.** Thoi bao Tai chinh Viet Nam. Cho thue tai chinh mo cua voi tai san vo hinh, noi nguong khoan gia tri nho gap 4 lan. 14 January 2026.
+- **SLK-03.** VnEconomy. Du no cho thue tai chinh den cuoi quy 1/2025 dat gan 40,7 nghin ty dong. 23 May 2025.
+- **SLK-04.** VCCI. Doanh nghiep cho thue tai chinh ky vong khong bi co che bo ngo. 14 August 2025.
+- **SLK-11.** Doanh nghiep Hoi nhap. Quy Phat trien doanh nghiep nho va vua (SMEDF) trien khai goi tin dung bang 80% muc thap nhat cua lai suat cho vay thuong mai. 20 April 2021.
+- **SLK-12.** Global Venturing. Vietnamese giant Vingroup launches 150m CVC fund. 28 October 2024.
+- **SLK-13.** DealStreetAsia. Vietnam-based foodtech firm KAMEREO raises 4.6m. 19 July 2021.
+- **SLK-14.** Bizhub (Viet Nam News). Green Innovation Accelerator 2026 launched in HCM City. 17 April 2026.
+- **SLK-15.** Dien dan Doanh nghiep. TP.HCM phat dong cuoc thi khoi nghiep doi moi sang tao trong linh vuc nong nghiep ung dung cong nghe cao nam 2026. 30 May 2026.
+- **SLK-17.** Tap chi Cong Thuong. So Giao dich Hang hoa Viet Nam: Vung vang niem tin, khong ngung phat trien. 1 September 2026.
+- **SLK-23.** Bao Dau thau. Xay dung Nghi dinh khuyen khich dau tu vao nong nghiep, nong thon. 1 April 2026.
+- **SLK-24.** VnEconomy. Financial leasing encouraged for green growth. 4 August 2025.
+- **SLK-25.** Doanh nghiep Hoi nhap. Hoi Luong thuc Thuc pham TP.HCM chuyen sang mo hinh hiep hoi. 29 November 2025.
+- **SLW-07.** Tạp chí Công Thương. Phê duyệt Đề án đào tạo nguồn nhân lực phục vụ phát triển công nghệ cao. 26 May 2025. https://tapchicongthuong.vn/phe-duyet-de-an-dao-tao-nguon-nhan-luc-phuc-vu-phat-trien-cong-nghe-cao-140852.htm
+- **SLW-15.** Sài Gòn Giải Phóng (SGGP). Đào tạo nhân lực khoa học trẻ: Ajinomoto Việt Nam dành học bổng sau đại học tại Nhật Bản cho sinh viên. 12 April 2025. https://www.sggp.org.vn/dao-tao-nhan-luc-khoa-hoc-tre-ajinomoto-viet-nam-danh-hoc-bong-sau-dai-hoc-tai-nhat-ban-cho-sinh-vien-post790314.html
+- **PPE-11.** Vandamme M., Martens K. (The Protein Project). "Gezocht: nuance in de berichtgeving over vleesvervangers" (Wanted: nuance in reporting on meat alternatives). Opinion, VILT, 12 May 2025. https://vilt.be/nl/nieuws/gezocht-nuance-in-de-berichtgeving-over-vleesvervangers . Accessed 2026-10-15. Type: press.
+- **AML-29.** Just Food. "Monde Nissin joins Prime Roots $30m financing for fungi-based charcuterie." 15 May 2023. https://www.just-food.com/news/monde-nissin-joins-prime-roots-30m-financing-for-fungi-based-charcuterie
+- **AML-30.** FoodNavigator-USA. "Startup Uncracked is unlocking seaweeds' clean-label potential with proprietary SeaStack technology." 28 Jun 2024. https://www.foodnavigator.com/Article/2024/06/28/startup-uncracked-is-unlocking-seaweeds-clean-label-potential-with-proprietary-seastack-technology/
+- **AML-33.** Tap chi Cong Thuong (Ministry of Industry and Trade magazine). "FID 2025: Hanh trinh uom mam sang tao va thuc day cong nghe thuc pham ben vung." 15 Dec 2025. https://tapchicongthuong.vn/fid-2025--hanh-trinh-uom-mam-sang-tao-va-thuc-day-cong-nghe-thuc-pham-ben-vung-356235.htm
+- **CGG-05.** Nutraceuticals World. FFAR grant supports enhancement of pea proteins. 23 August 2021.
+
+### advocacy (24)
+
+- **GSD-01.** Good Food Institute. "Solutions Database." 112 entries, published January 2021 to April 2024, last modified up to 2025. https://gfi.org/solutions/ . Read through the site's public listing API (https://gfi.org/wp-json/wp/v2/solutions_database). Accessed 2026-10-15. Type: advocacy (database).
+- **GSD-02.** Good Food Institute. "Advancing Solutions for Alternative Proteins." Landing page with innovation priorities by value-chain segment. https://gfi.org/advancing-solutions-for-alternative-proteins/ . Accessed 2026-10-15. Type: advocacy.
+- **GSD-03.** Good Food Institute. "Advancing Solutions for Alternative Proteins Project Report: A Systematic Analysis of the Plant Protein, Fermentation, and Cultivated Meat Industries." 31 July 2020 (published January 2021). https://gfi.org/wp-content/uploads/2021/01/Report-Alternative-Protein-Solutions.pdf . Accessed 2026-10-15. Type: advocacy.
+- **GSD-04.** Good Food Institute. "GFI's Advancing Solutions for Alternative Proteins Initiative: Executive Summary." 2021. https://gfi.org/wp-content/uploads/2021/01/Executive-Summary-Alternative-Protein-Solutions.pdf . Accessed 2026-10-15. Type: advocacy.
+- **SLP-16.** GFI APAC (about 2023). The untapped potential of mung beans for alternative proteins (report landing page and news release). https://gfi-apac.org/new-report-reveals-the-untapped-potential-of-mung-beans-for-alternative-proteins/
+- **SLF-10.** The Good Food Institute with Hawkwood Biotech. Techno-economic insights on fermentation ingredients (resource page with downloadable TEA dataset and incumbent price compilation). Images dated June 2025. https://gfi.org/resource/techno-economic-insights-on-fermentation-ingredients/ . Accessed 2026-10-15. Type: advocacy.
+- **SLF-15.** GFI APAC. APAC Alternative Protein Ecosystem Database (page). Undated, copyright 2026. https://gfi-apac.org/industry/alternative-protein-ecosystem-database/ . Accessed 2026-10-15. Type: advocacy.
+- **SLW-03.** Good Food Institute. Meet the Alt Protein Project's latest cohort. Blog, 9 August 2024. https://gfi.org/blog/meet-the-alt-protein-projects-latest-cohort/
+- **SLW-04.** Good Food Institute. Country: Thailand. The alternative protein ecosystem (database page). https://ecosystem.gfi.org/country/thailand/
+- **SLW-05.** Good Food Institute. Country: Malaysia. The alternative protein ecosystem (database page). https://ecosystem.gfi.org/country/malaysia/
+- **SLW-06.** Good Food Institute. Research funding database (resource page). https://gfi.org/resource/research-funding-database/
+- **SLW-10.** GFI APAC. Addressing the alt protein talent gap in APAC. Undated (about 2022 to 2023). https://gfi-apac.org/addressing-the-alt-protein-talent-gap-in-apac/
+- **SLW-12.** Good Food Institute. WHO and GFI convene historic workshop to discuss global alternative protein regulations. Blog, 1 June 2021. https://gfi.org/blog/alternative-protein-regulation-workshop/
+- **PPE-01.** The Protein Project. "Publications" listing page (8 items, 12 May 2025 to 13 October 2026). https://www.theproteinproject.eu/publications . Accessed 2026-10-15. Type: advocacy.
+- **PPE-02.** The Protein Project. About, Team, Manifesto and home pages. https://www.theproteinproject.eu/about (also /team, /manifesto, /). Accessed 2026-10-15. Type: advocacy.
+- **PPE-03.** The Protein Project (Zwinkels J., Martens K., Vandamme M.). "From dependency to diversity: a strategic scenario analysis on reducing Europe's soy import dependency by 2035." Brussels, June 2026. 34 pp. https://www.theproteinproject.eu/s/202606_From-dependency-to-diversity_Report-publication-2kk7.pdf . Accessed 2026-10-15. Type: advocacy.
+- **PPE-04.** The Protein Project. "From dependency to diversity: Technical Appendix." June 2026. 26 pp. https://www.theproteinproject.eu/s/202606_From-dependency-to-diversity_Technical-Appendix.pdf . Accessed 2026-10-15. Type: advocacy.
+- **PPE-05.** The Protein Project (Martens K.). "Towards a Legume Renaissance in Europe: a practical roadmap for fava beans for food and feed." February 2026. 88 pp. https://www.theproteinproject.eu/s/Towards-A-Legume-Renaissance-in-Europe-A-practical-roadmap-for-fava-beans-for-food-and-feed.pdf . Accessed 2026-10-15. Type: advocacy.
+- **PPE-06.** The Protein Project (Martens K.). "Fermenting common ground: a multi-stakeholder brief on fermentation technologies for food and feed." October 2026. 33 pp. https://www.theproteinproject.eu/s/Fermenting-Common-Ground_Full-brief-m6ly.pdf . Accessed 2026-10-15. Type: advocacy.
+- **PPE-07.** The Protein Project and partners (EAT, Physicians Association for Nutrition, BirdLife, Convene, Fern, FEAST 2030). "Building a healthy, sustainable, and just EU food system: EU Policy Action Brief guided by EAT-Lancet science." September 2026. 30 pp. https://www.theproteinproject.eu/s/EU-Policy-Action-Brief-jmtj.pdf . Accessed 2026-10-15. Type: advocacy.
+- **PPE-08.** The Protein Project (Martens K.). "Livestock Reimagined: four pathways for future-proof animal agriculture, drawn from Europe's pioneering farms." June 2026. 100 pp. https://www.theproteinproject.eu/s/Livestock-Reimagined-Four-pathways-for-future-proof-animal-agriculture-drawn-from-Europes-pioneering-xk4z.pdf . Accessed 2026-10-15. Type: advocacy.
+- **PPE-10.** World Economic Forum, Food Innovators Network. "Ingredient Innovation: Pathways to Resilient Food Systems." Briefing paper, October 2025. 11 pp. https://reports.weforum.org/docs/WEF_Ingredient_Innovation_Pathways_to_Resilient_Food_Systems_2025.pdf . Accessed 2026-10-15. Type: advocacy.
+- **CGG-18.** NECTAR (Food System Innovations). Home page. Undated, read 15 October 2026.
+- **CGG-22.** Food Frontier, with research by Mintel and Te Puna Whakaaronui. "Alternative Proteins and Asia." 2023. https://www.foodfrontier.org/resource/alternative-proteins-and-asia/ . Accessed 2026-10-15. Report page: 11 Asian markets assessed (not named on the page), top five China, Singapore, South Korea, Thailand and Japan; 5,000 consumers; no funder named; Vietnam not mentioned. Type: advocacy.
+
+### database (17)
+
+- **SLP-07.** OpenAlex works API, queried through the OpenAlex MCP connector (no personal identifiers sent), 2026-10-15. Queries: (1) Vietnam-affiliated and (2) Thailand-affiliated works 2015 to 2026 with extrusion, high-moisture or shear-cell terms and meat-analogue or textured-protein terms (VN 3, TH 31); (3) Vietnam-affiliated works on protein extraction or functionality of mung bean, rice bran, broken rice, okara, peanut or sesame (47 hits). Canonical OQL in the working paper.
+- **SLP-14.** UN Comtrade Database, public API preview. HS 071331 (dried mung and black gram beans): partner-reported (mirror) exports to Vietnam (partner 704, flow X), 2023 to 2025, and Vietnam-reported imports (reporter 704, flow M), 2023 to 2025. Queried 2026-10-15. https://comtradeapi.un.org/public/v1/preview/C/A/HS?partnerCode=704&cmdCode=071331&flowCode=X
+- **SLF-03.** OpenAlex. Three keyword searches on microbes from Vietnamese traditional fermented foods, protein strains and food-strain safety, run through the OpenAlex connector on 15 October 2026: (1) Vietnam AND (banh men OR rice wine starter OR tuong OR fermented soybean OR nem chua and similar) AND (yeast OR mould OR lactic acid bacteria and similar): 41 results; (2) Vietnam AND (mycoprotein OR single cell protein OR fungal biomass OR microbial protein) from 2015: 11 results; (3) Vietnam AND (Aspergillus oryzae OR Rhizopus OR Amylomyces) AND (genome OR cyclopiazonic acid OR mycotoxin OR safety): 4 results, none a characterisation of food strains. Type: database.
+- **SLS-05.** UN Comtrade public preview API (comtradeapi.un.org/public/v1/preview/C/A/HS). Queries: reporter Viet Nam (704), partner World, 2023 and 2024, HS 030493, 030494, 030495, 030499, 160420, flows X and M; reporters China (156), Japan (392), Korea (410), Thailand (764), United States (842), partner Viet Nam, 2024 and 2025, HS 030499 and 160420, flow M. Raw JSON in working-papers/wave13/L4-alt-seafood/raw/.
+- **SLS-06.** OpenAlex works API via the OpenAlex MCP connector. Query: title, abstract and keywords contain 'surimi', author institution country Viet Nam, not retracted. 17 works. Run 15 Oct 2026. https://api.openalex.org/?oql=get%20works%20where%20institution%20country%20is%20%5BVietnam%5D(VN)%20and%20it's%20not%20retracted%20and%20title-abstract-keywords%20has%20(surimi)
+- **SLS-08.** OpenAlex works API via the OpenAlex MCP connector. Query: title, abstract and keywords contain surimi AND (soy protein isolate OR pea protein OR plant protein OR mung bean protein OR mycoprotein OR rice protein), published 2018 onward, not retracted. 111 works. Run 15 Oct 2026.
+- **SLS-13.** OpenAlex works API via the OpenAlex MCP connector. Title queries 'cell line' AND species, not retracted, run 15 Oct 2026: grouper or Epinephelus 185 works; tilapia or Oreochromis 35; snakehead or Channa 18; Asian seabass, Lates calcarifer or barramundi 17; cobia, Rachycentron, tuna or Thunnus 10; Pangasianodon, Pangasius or striped catfish 6. Plus one query for myoblast, satellite cell, cultivated or cultured meat terms with the same species, 2019 onward (1,993 works; top 15 read).
+- **SLS-19.** OpenAlex works API via the OpenAlex MCP connector. Query: (Schizochytrium OR thraustochytrid(s) OR Aurantiochytrium OR docosahexaenoic acid) AND (microalga(e) OR algae OR algal OR mangrove), author institution country Viet Nam, not retracted. 35 works. Run 15 Oct 2026.
+- **SLS-24.** OpenAlex works API via the OpenAlex MCP connector. Queries run 15 Oct 2026: (a) 'life cycle assessment' AND alternative-seafood terms (plant-based seafood, cultivated seafood, seafood or fish analogue, alternative seafood, cell-based seafood, plant-based fish): 6 works; (b) 'life cycle assessment' AND (pangasius OR striped catfish OR shrimp OR Pangasianodon) with a Viet Nam affiliation: 8 works.
+- **SLW-02.** OpenAlex. Queries run on 15 October 2026 through the OpenAlex connector: (1) countries of works funded by the Good Food Institute (funder F4320319426); (2) funders of Vietnam-affiliated food-protein works, 2015 to 2026; (3) and (4) Vietnam-affiliated works on alternative-protein terms since 2018, by institution. https://openalex.org
+- **PPE-13.** OpenAlex. Works search, Vietnam-affiliated authors, 2012 onwards: soybean OR mung bean profitability OR economic efficiency OR gross margin, rotation, rice, Vietnam (32 results). https://api.openalex.org/?oql=get%20works%20where%20institution%20country%20is%20%5BVietnam%5D(VN)%20and%20it's%20not%20retracted%20and%20published%20after%202011%20and%20title-abstract-keywords%20has%20(stemmed%20%22economic%20efficiency%22%20OR%20soybean%20OR%20(stemmed%20%22gross%20margin%22%20AND%20rotation%20rice%20Vietnam)%20OR%20(stemmed%20%22mung%20bean%22%20AND%20profitability)) . Accessed 2026-10-15. Type: database.
+- **AML-22.** UC Berkeley Class Search. Class pages for INDENG 185 and ENGIN 183C food challenge labs, Fall 2019 to Spring 2024 (nine sections). Accessed 15 Oct 2026. https://classes.berkeley.edu/
+- **AML-23.** UC Berkeley Class Search. "2026 Spring ENGIN 183C 001 SEM 001: Inventing healthy food in the Ozempic era." Accessed 15 Oct 2026. https://classes.berkeley.edu/content/2026-spring-engin-183c-001-sem-001
+- **AML-25.** OpenAlex (2026). Works and author profiles for the lab director, co-director (2022), postdoctoral scholar and instructor, and institution-filtered and exact-phrase full-text searches for the lab name. Queried 15 Oct 2026 through the OpenAlex MCP tools. https://openalex.org/A5104166397
+- **CGG-01.** Crossref. Works funded by Open Philanthropy Project (Crossref funder ID 100014895). REST API query https://api.crossref.org/funders/100014895/works, retrieved 15 October 2026 (484 works).
+- **CGG-02.** OpenAlex (MCP tools). Works with funder F4320315389 (Open Philanthropy Project), queried 15 October 2026: 2,411 works in total; 35 with alternative-protein terms in title, abstract or keywords; 64 with 'Open Philanthropy' and alternative-protein terms in full text; 37 with an author in Vietnam, Thailand, Indonesia, the Philippines, Malaysia or Singapore.
+- **CGG-19.** Coefficient Giving. Grants list for the focus area "Alternatives to Animal Products", Farm Animal Welfare Fund: 61 grants, September 2016 to July 2026. https://coefficientgiving.org/funds/farm-animal-welfare/#grants-alternatives-to-animal-products . Read in a separate browser session (Claude Cowork) on 15 October 2026, because the site refused automated access from the research environment (HTTP 403); grantee, title, amount and month as shown on the site; files in working-papers/wave13/L9-coefficient-giving-grantees/cowork/. Type: database.
+
+### law (10)
+
+- **SLF-02.** Government of Viet Nam. Nghị định 43/2026/NĐ-CP sửa đổi, bổ sung một số điều của các nghị định trong lĩnh vực bảo tồn thiên nhiên và đa dạng sinh học, 26 January 2026. Official PDF on the Biodiversity Conservation Agency site (nbca.gov.vn). Accessed 2026-10-15. Type: law.
+- **SLS-21.** Thư Viện Pháp Luật. TCVN 8682:2025 (ISO 23855:2021) Surimi đông lạnh: Các yêu cầu. Page title and search snippet only. https://thuvienphapluat.vn/TCVN/Cong-nghe-Thuc-pham/TCVN-8682-2025-ISO-23855-2021-Surimi-dong-lanh-Cac-yeu-cau-921928.aspx
+- **SLK-01.** State Bank of Vietnam. Circular 26/2024/TT-NHNN on financial leasing activities of general finance companies and financial leasing companies. 28 June 2024 (English translation, LuatVietnam).
+- **SLK-05.** State Bank of Vietnam. Circular 20/2024/TT-NHNN on factoring and other services related to factoring of credit institutions and foreign bank branches. 28 June 2024 (English translation, LuatVietnam).
+- **SLK-08.** National Assembly of Vietnam. Law on Competition No. 23/2018/QH14. 12 June 2018 (English translation, LuatVietnam).
+- **SLK-09.** National Assembly of Vietnam. Law on Cooperatives No. 17/2023/QH15. 20 June 2023 (English translation, LuatVietnam).
+- **SLK-10.** Government of Vietnam. Decree 45/2024/ND-CP amending Decree 39/2019/ND-CP on the organisation and operation of the Small and Medium-sized Enterprise Development Fund. 26 April 2024 (English translation, LuatVietnam).
+- **SLK-20.** Ho Chi Minh City People's Committee. Decision 3204/QD-UBND promulgating the charter of the Ho Chi Minh City Credit Guarantee Fund for small and medium-sized enterprises. 29 May 2026 (LuatVietnam).
+- **SLK-21.** Government of Vietnam. Decree 57/2018/ND-CP on incentive policies for enterprises investing in agriculture and rural development. 17 April 2018 (English translation, LuatVietnam).
+- **SLW-08.** Ministry of Education and Training. Công văn 5695/BGDĐT-GDĐH triển khai Đề án đào tạo nhân lực công nghệ cao giai đoạn 2025 đến 2035. 17 September 2025. Via LuatVietnam. https://luatvietnam.vn/giao-duc/cong-van-5695-bgddt-gddh-2025-trien-khai-de-an-dao-tao-nhan-luc-cong-nghe-cao-2025-2035-411787-d6.html
+
+### gov/statistics (7)
+
+- **SLP-11.** US Food and Drug Administration (2017). Response letter to GRAS Notice No. GRN 000684, mung bean protein isolate, notifier Hampton Creek, Inc. https://www.fda.gov/media/107787/download
+- **SLP-18.** Ministry of Industry and Trade (MOIT), Tu hao hang Viet Nam section. Mien dong Bac Kan ngay cang duoc ba noi tro Viet tin tuong (Bac Kan canna-starch glass noodles). https://moit.gov.vn/tu-hao-hang-viet-nam/mien-dong-bac-kan-ngay-cang-duoc-ba-noi-tro-viet-tin-tuong.html
+- **SLK-16.** Ministry of Industry and Trade. Doanh nghiep duoc ho tro tham gia Hoi cho Private Label Show 2026 tai Hoa Ky. 8 July 2026.
+- **SLK-22.** Ministry of Agriculture and Environment. Official Letter 7108/BNNMT-KTHT replying to voters of Hung Yen province. 1 July 2026.
+- **SLW-01.** National Foundation for Science and Technology Development (NAFOSTED). Thông tin hoạt động tài trợ, hỗ trợ 2023 (Information on funding and support activities 2023). Hanoi, November 2024. https://nafosted.gov.vn/wp-content/uploads/2025/01/Thong_tin_HD_taitro_hotro_2023_final.pdf
+- **SLW-14.** Food Industries Research Institute (FIRI). Đào tạo (training) page. https://firi.vn/dao-tao
+- **SLW-17.** Ministry of Industry and Trade. Trường Cao đẳng Công nghiệp Thực phẩm (Food Industry College), unit listing on the MOIT portal. https://moit.gov.vn/don-vi-su-nghiep/khoi-truong/truong-cao-dang-cong-nghiep-thuc-pham
+
+### company (4)
+
+- **SLP-17.** TTech Vietnam. Thiet bi kiem tra texture TA1 Ametek (product listing). https://store.ttech.vn/thiet-bi-kiem-tra-texture-ta1-ametek-p10686
+- **SLS-23.** CASES (Vietnamese surimi exporter) product listing on the Freshdi marketplace. Search snippet only. https://freshdi.com/product/Vannamie-PTO-cook-raw
+- **SLK-19.** Vietnam Banks Association (VNBA). BIDV SCFast 2026: Giai phap toan dien ho tro doanh nghiep trong chuoi cung ung. 16 January 2026.
+- **SLW-11.** Informa Markets. Fi Vietnam (Food ingredients Vietnam) event home page. https://www.figlobal.com/vietnam/en/home.html
+
+### intergovernmental (2)
+
+- **SLC-05.** FAO and WHO. "Food safety aspects of cell-based food." Rome (2023).
+- **SLK-18.** IFC. IFC, SECO strengthen partnership to bolster supply chain finance market in Viet Nam. 17 March 2025.
+
+### market-research (1)
+
+- **PPE-09.** Systemiq. "Fermentation and the Future of Europe's Protein System." A report by Systemiq for The Protein Project, December 2025. 36 pp. https://www.systemiq.earth/wp-content/uploads/2025/12/Fermentation_Report_FINAL.pdf . Accessed 2026-10-15. Type: market-research.
+
+### preprint (2)
+
+- **SLC-02.** Amirvaresi A., Ovissipour R. "Evaluation of Plant- and Microbial-Derived Protein Hydrolysates as Substitutes for Fetal Bovine Serum in Cultivated Seafood Cell Culture Media." bioRxiv preprint (2024).
+- **CGG-20.** Caputo, V., Lusk, J.L. and Blaustein-Rejto, D. "Plant-Based versus Conventional Meat: Substitution, Complementarity, and Market Impacts." Working paper, Breakthrough Institute, 2023 (survey August 2023). https://static1.squarespace.com/static/502c267524aca01df475f9ec/t/6526c7450f0d7e4a89d8c158/1697040198414/Manuscript+-+PBMAs+-FINAL.pdf . Accessed 2026-10-15. "This work was partly funded by Open Philanthropy and Breakthrough Institute." Type: preprint.

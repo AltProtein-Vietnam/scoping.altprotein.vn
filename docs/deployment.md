@@ -2,14 +2,14 @@
 
 The site runs as the Cloudflare Worker `altprotein-scoping` in the Parker Vu Cloudflare account, on the custom domain `scoping.altprotein.vn`. Bindings are set in `wrangler.jsonc` under `env.production`:
 
-| Binding   | Resource                      | Purpose                                              |
-| --------- | ----------------------------- | ---------------------------------------------------- |
-| `DB`      | D1 database                   | Page content, revisions, schema, CMS settings, users |
-| `MEDIA`   | R2 `altprotein-scoping-media` | CMS media and backups                                |
-| `SESSION` | KV namespace                  | Editor sessions                                      |
-| `ASSETS`  | Worker static assets          | CSS, JS, fonts, logo, CSV data and zip downloads     |
+| Binding   | Resource                      | Purpose                                                         |
+| --------- | ----------------------------- | --------------------------------------------------------------- |
+| `DB`      | D1 database                   | Page content, revisions, schema, CMS settings, users            |
+| `MEDIA`   | R2 `altprotein-scoping-media` | CMS media and backups                                           |
+| `SESSION` | KV namespace                  | Editor sessions                                                 |
+| `ASSETS`  | Worker static assets          | CSS, JS, fonts, logo; editor-only data and zips under `/files/` |
 
-The Worker upload is about 4.2 MB gzipped (EmDash, the bundled seed, and the build-time charts and data), within the 10 MB limit of the Workers Paid plan. Static assets (about 20 MB, including `public/data` and `public/downloads`) are served by Workers static assets.
+The Worker upload is about 6.2 MB gzipped for report v0.10 (EmDash, the bundled seed of about 4 MB, and the build-time charts and data), within the 10 MB limit of the Workers Paid plan. Static assets (about 31 MB, including the editor-only files in `dist/client/files/`) are served by Workers static assets.
 
 ## 1. Validate and build
 
@@ -20,11 +20,22 @@ pnpm exec wrangler login
 pnpm build:production
 ```
 
-`build:production` regenerates `src/generated/`, `public/data/` and `public/downloads/` from `report/`, then builds with the production bindings. Inspect `dist/server/wrangler.json` before deploying: it must name `altprotein-scoping` and the production D1 and R2 resources.
+`build:production` regenerates `src/generated/` and the editor-only files from `report/`, builds with the production bindings, and then copies the files into `dist/client/files/`. Inspect `dist/server/wrangler.json` before deploying: it must name `altprotein-scoping` and the production D1 and R2 resources, and its `assets` must keep `"run_worker_first": ["/files/*"]`.
+
+## 1a. Files for editors only
+
+The data tables, Markdown files and zips are shared with reviewers only (see "Who sees what" in the README). Two things keep them closed:
+
+- They are **not in `public/`** in a build. Astro's Cloudflare handler serves any file it found in `public/` straight from the asset binding, before routes or middleware run. `scripts/build.mjs` writes the files to `.files-build/` and copies them into `dist/client/files/` after `astro build`, and fails if `dist/client/files/` already came from `public/`.
+- **`run_worker_first: ["/files/*"]`** in `wrangler.jsonc` (top level and `env.production`) sends those requests to the Worker before the asset server. `src/pages/files/[...path].ts` answers 403 without an Editor or Administrator session and otherwise fetches the asset with `private, no-store`.
+
+So the build command must stay `pnpm build` (or `pnpm build:production`): a plain `astro build` would leave the files out. Tested on 15 October 2026 with `wrangler dev --local` on the production build: anonymous requests for files and zips got 403, and the route served the CSV and zip through the asset binding once past the session check.
 
 ## 2. Automatic deploys (Workers Builds)
 
-Workers Builds is connected to this repository. A push to `main` builds with `pnpm build` and deploys with `wrangler deploy`; other branches get preview versions.
+Workers Builds is connected to this repository. A push to `main` builds with `pnpm build` and deploys with `wrangler deploy`. Other branches are not built by Workers Builds: the GitHub Actions `check` builds them instead. A preview deploy (`wrangler preview` or `wrangler versions upload`) would use the top-level environment of `wrangler.jsonc`, which has no IDs for D1 or KV, so it stops with "binding SESSION of type kv_namespace must have a namespace_id specified".
+
+The settings to keep, under the Worker's Settings, Builds: production branch `main`, build command `pnpm run build`, deploy command `npx wrangler deploy`, previews off. On 15 October 2026 the production branch had been switched to a pull-request branch with the deploy command `npx wrangler preview`, so a merge to `main` would not have deployed. They were set back the same day. Check them before merging a release.
 
 The repository moved from `parkervu/scoping.altprotein.vn` to the `AltProtein-Vietnam` organisation after the v0.7 deploy (30 September 2026). Workers Builds then received no pushes, so the merge of report v0.8 was not built, until it was reconnected to `AltProtein-Vietnam/scoping.altprotein.vn` on 1 October 2026. Reconnecting does not build commits already on `main`; the next push does. If the repository moves again, reconnect it under the Worker's Settings, Builds, and check that the next merge to `main` shows a "Workers Builds: altprotein-scoping" check.
 
@@ -45,7 +56,7 @@ To repeat this on a fresh database: export the current one, `wrangler d1 create 
 
 ## 4. Content updates from a new package
 
-Deploying never changes page text in the CMS. After deploying a new package, run `scripts/sync-content.mjs` as described in the README (plan first, then `--apply`), with an EmDash API token created by an administrator. Moving from edition 1.1 (57 pages) to v0.6 (81 pages) creates 66 pages, updates 15 and moves the 42 pages whose ids changed to the trash; their old URLs redirect (`src/lib/redirects.ts`). Moving from v0.6 to v0.7 updates 79 pages and leaves 2 unchanged; it creates and trashes none. Moving from v0.7 to v0.8 updates all 81 pages; it creates and trashes none. The page text changes with the deploy's key numbers and charts, so deploy first: run the sync only once the new release is live.
+Deploying never changes page text in the CMS. After deploying a new package, run `scripts/sync-content.mjs` as described in the README (plan first, then `--apply`), with an EmDash API token created by an administrator. Moving from edition 1.1 (57 pages) to v0.6 (81 pages) creates 66 pages, updates 15 and moves the 42 pages whose ids changed to the trash; their old URLs redirect (`src/lib/redirects.ts`). Moving from v0.6 to v0.7 updates 79 pages and leaves 2 unchanged; it creates and trashes none. Moving from v0.7 to v0.8 updates all 81 pages; it creates and trashes none. Moving from v0.8 to v0.10 creates 1 page (Appendix S14, the solutions screen), updates 69 and leaves 12 unchanged; it trashes none. The page text changes with the deploy's key numbers and charts, so deploy first: run the sync only once the new release is live.
 
 ## 5. Subsequent deploys
 
@@ -69,6 +80,16 @@ pnpm exec wrangler d1 export altprotein-scoping-v2 --remote --env production --o
 ```
 
 A code rollback to 0.38 does not reverse the migrations. To go back, restore the database to its state before the deploy (from the export or D1 Time Travel) and redeploy the previous version at the same time. Tested locally: a 0.38 database holding the v0.7 pages migrated on first start, the browser tests passed, and `scripts/sync-content.mjs` moved the pages from v0.6 to v0.7 and back.
+
+## 7. Checks after deploying v0.10
+
+Without signing in:
+
+- `/`, `/report`, `/report/part-ii`, `/report/ch26-plays`, `/briefs/brief-policy`, `/glossary`, `/appendices/app-r4-sources`, `/vi` and `/sitemap.xml` load.
+- `/appendices/app-s4-feedstocks`, `/appendices/app-r1-open-questions`, `/data`, `/workbench`, `/files/data/companies.csv` and `/files/downloads/altprotein-vn-data.zip` return 403; `/_emdash/api/search?q=cassava` returns 403; `/sitemap-pages.xml` returns 404.
+- `/downloads/altprotein-vn-data.zip` redirects to `/files/downloads/altprotein-vn-data.zip`.
+
+Signed in as an Editor or Administrator: the editor bar shows; `/workbench`, the appendices, `/data/companies` and the zips open; "See the public view" shows the sign-in notice on an appendix and "Back to the editor view" returns.
 
 ## Notes
 

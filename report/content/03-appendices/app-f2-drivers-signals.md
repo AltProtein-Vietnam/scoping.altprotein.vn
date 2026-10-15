@@ -108,6 +108,7 @@ Argentina is Vietnam's main soybean-meal origin [@MAC-04] and supplied 46.5% of 
 | South China Sea | About USD 3.4 trillion of trade (21% of world trade) in 2016 | [@HSC-33] {general\|Medium} |
 | Vietnam's routes | South American grain via the Cape of Good Hope; exposure at Malacca, Sunda or Lombok, South American ports and, for US Gulf cargoes, Panama (our reading; see SHK-016) | [@GEO-41] {general\|Low} |
 | Export restrictions | Domestic inflation predicts them better than world prices; we found no published probability for soy or maize to 2050 | [@GEO-42] {general\|Medium} |
+| The one soybean precedent | The United States embargoed soybean and cottonseed exports in June 1973, after an El Nino year cut the Peruvian anchovy catch and soybean prices spiked; contracts were reinstated by 1 October 1973. Japan, then 97% import-dependent with 90% from the US, answered by financing a new origin in Brazil's Cerrado (through the Japan International Cooperation Agency, JICA, from 1974), not by growing more at home; the European Community began oilseed subsidies (SHK-021). Vietnam's soybeans came 45.8% from Brazil and 43.6% from the US in 2025. Lesson: the main supplier has restricted soybean exports once, and the importer's lasting answer was a second origin | [@PPE-12; @PPE-03] {general\|Medium}; [@MAC-09] {VN-direct\|High} |
 | 2026 Middle East conflict | Urea USD 472 to 726 per t (54%) in one month; Vietnamese feed prices up 10 to 14% (Jan to Apr 2026, poultry association estimate); international logistics up 20 to 30%; the shock came through energy, fertiliser and freight | [@MAC-24; @COST-30; @COST-33] {VN-direct\|Medium} |
 | 2024 Red Sea crisis | Container rates from Vietnam to the US East Coast rose from USD 2,600 (Dec 2023) to USD 4,100 to 4,500 (Jan 2024); we found no evidence that it affected soy, maize or food-protein imports, which do not normally pass Suez (our reading) | [@SEC-10; @GEO-41] {VN-direct\|Medium} |
 | China as a source of food protein ingredients | China supplied about 84% of the 2025 tonnage of imported soy isolate, textured protein and gluten (our calculation); its 2026 policy document lists "diversify agricultural imports" as a task; we found no Chinese export control on these ingredients (OQ-459) | [@BUY-02; @SEC-03; @SEC-05] {VN-direct\|Medium} |
@@ -427,7 +428,8 @@ RCP2.6 and RCP8.5 are a low and a high emissions pathway used by climate models;
 - Fish and seafood supplied 11.1 g of the 102.2 g of protein per person per day in 2023. That is 25.7% of animal protein supply (our calculation; food balance sheets measure supply, not intake) [@DIE-07] {VN-direct|High}.
 - Catches rose while the stock fell (rows above). The fisheries strategy cuts capture to 2.8 Mt by 2030, about 27% below 2025 in five years (our calculation) [@NTS-08; @MAC-15] {VN-direct|Medium} {fx:projection} (official target).
 - Climate takes less to 2050: 2.8% to 11.7% of catch potential across the two FAO models and two pathways. After 2050 under RCP8.5 the models diverge, minus 40.8% against minus 6.5% by 2100, so we give no central figure [@SEC-07] {general|High} {fx:projection} (published model results). Each figure is the average across the climate models that drove the run; the published ranges around them are wide.
-- The gap the capture cut leaves will be filled by aquaculture, which runs on imported feed, or by imports (our reading) {VN-direct|Low}. Alternative protein for food does not touch this exposure at the study's scale: the demand routes replace meat and *chay* (traditional vegetarian food) protein, not fish.
+- The gap the capture cut leaves will be filled by aquaculture, which runs on imported feed, or by imports (our reading) {VN-direct|Low}. Alternative protein for food barely touches this exposure at the study's scale: the demand routes replace meat and *chay* (traditional vegetarian food) protein, not fish. The one route we found that touches fish is candidate play T11, hybrid fish cakes and fish balls in which plant protein replaces 10 to 30% of the fish protein; it stretches fish rather than replacing it and is not ranked ([[ch26-plays]], section 26.8).
+- The cut also squeezes surimi, a food export of more than USD 344 million in 2025. In 2024 exporters already reported domestic raw-material shortages and difficulty importing fish under rules against illegal, unreported and unregulated (IUU) fishing [@SLS-01; @SLS-04] {VN-direct|Medium}. See [[app-f6-aquafeed-feedstock-futures]], F6.3.
 - We found no source on how much of the fish people eat comes from capture (OQ-454). Climate rows: CI-35 to CI-38 in `climate_impacts_2050.csv`.
 
 ### F2.5.7 Macro costs and the national climate scenario
@@ -663,7 +665,7 @@ All 22 rows of `external_forecasts.csv`, as published by the named forecaster {f
 
 ## F2.11 Shock register
 
-All 20 rows of `shock_register.csv`, with the lesson we draw (our judgement). Disease events in more detail are in `disease_shocks.csv` (F2.2).
+All 21 rows of `shock_register.csv`, with the lesson we draw (our judgement). Disease events in more detail are in `disease_shocks.csv` (F2.2).
 
 | ID | Shock (date) | Magnitude | Lesson | Sources |
 |---|---|---|---|---|
@@ -687,6 +689,7 @@ All 20 rows of `shock_register.csv`, with the lesson we draw (our judgement). Di
 | SHK-018 | Consumer pork prices after ASF (2020) | Pork up 57.23% on 2019, 1.94 points of a 3.23% rise in the consumer price index; processed meat up 21.59% | Disease reaches consumers | [@SEC-08] {VN-direct\|High} |
 | SHK-019 | World food price spike (2008) | Consumer prices up 22.97%; staple foods over 49%; other foods, including meat and fish, over 32% | General inflation reaches every food | [@SEC-13] {VN-direct\|Medium} |
 | SHK-020 | Avian influenza in poultry (Jan to Jul 2026) | 80 outbreaks in 17 provinces; over 349,400 birds, about 0.06% of the flock (our calculation) | Poultry shocks are now small against the flock | [@PAN-09; @MAC-12] {VN-direct\|Medium} |
+| SHK-021 | US soybean export embargo (June to September 1973) | Soybean and cottonseed exports stopped until contracts were reinstated by 1 October 1973; Japan was 97% import-dependent, 90% from the US | The main supplier has restricted soybean exports once; the importer's lasting answer was a second origin, not home production | [@PPE-12; @PPE-03] {general\|Medium} |
 
 **Lessons.**
 - **Plan for recurring shocks, not a smooth trend.** Vietnam's protein supply met a large shock every one to two years in 2019 to 2026. We expect this to continue to 2035 {VN-direct|Medium} {fx:trend}.
@@ -736,6 +739,6 @@ Abbreviations in the table: NSO, National Statistics Office; EVN, Vietnam Electr
 - `signals_register.csv` (43 rows): signals, 2024 to 2026.
 - `wildcards.csv` (26 rows): wildcards with direction, horizon and signposts.
 - `external_forecasts.csv` (22 rows): published forecasts on alternative protein and inputs.
-- `shock_register.csv` (20 rows): past shocks to protein supply, 2003 to 2026.
+- `shock_register.csv` (21 rows): past shocks to protein supply, 2003 to 2026, plus one earlier precedent (the 1973 US soybean embargo).
 
 **Related:** [[ch20-drivers-2050]], [[ch23-scenarios-2050]], [[ch28-robust-moves]], [[app-m2-futures-method]], [[app-f1-outlook]], [[app-f5-targets-hubs]], [[app-f6-aquafeed-feedstock-futures]], [[app-r1-open-questions]], [[app-r2-disagreements]].

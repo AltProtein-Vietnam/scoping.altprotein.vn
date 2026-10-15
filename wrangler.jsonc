@@ -4,6 +4,9 @@
   "main": "./src/worker.ts",
   "compatibility_date": "2026-09-18",
   "compatibility_flags": ["nodejs_compat"],
+  // Files under /files/ (data, Markdown, zips) are for editors only: the Worker checks the session
+  // first (src/pages/files/[...path].ts), then fetches the asset.
+  "assets": { "binding": "ASSETS", "run_worker_first": ["/files/*"] },
   "d1_databases": [{ "binding": "DB", "database_name": "altprotein-scoping-local" }],
   "r2_buckets": [{ "binding": "MEDIA", "bucket_name": "altprotein-scoping-media-local" }],
   "triggers": { "crons": ["* * * * *"] },
@@ -13,6 +16,7 @@
       "name": "altprotein-scoping",
       "account_id": "ec5e9c2a4c8ff209dd8f16b129809657",
       "workers_dev": false,
+      "assets": { "binding": "ASSETS", "run_worker_first": ["/files/*"] },
       "kv_namespaces": [{ "binding": "SESSION", "id": "edaede5269d745128ab384f35df189c8" }],
       "preview_urls": false,
       "d1_databases": [

@@ -1,0 +1,119 @@
+---
+// Everything shared with reviewers but not the public, in one place. Editors only.
+import Base from '../../layouts/Base.astro';
+import LockedPage from '../../components/LockedPage.astro';
+import { label, t } from '../../lib/i18n';
+import { DATASETS } from '../../lib/datasets';
+import { isRestrictedPage } from '../../lib/access';
+import { APPENDIX_GROUPS, PAGE_BY_ID, ROLE, appendixCode, href, localize } from '../../lib/site';
+const lang = Astro.locals.lang ?? 'en';
+const s = t(lang);
+const { canEdit, editor } = Astro.locals;
+const nf = new Intl.NumberFormat(lang === 'vi' ? 'vi-VN' : 'en-GB');
+const featured = DATASETS.filter((d) => d.featured);
+const tables = DATASETS.filter((d) => d.group === 'data').length;
+const registers = [
+  { label: s.registerViews.openQuestions, href: '/data/open-questions' },
+  { label: s.registerViews.disagreements, href: '/data/disagreements' },
+  { label: s.registerViews.sources, href: '/data/sources' },
+  { label: s.registerViews.glossary, href: '/glossary' },
+];
+---
+
+{canEdit && editor ? (
+  <Base title={s.wbTitle} noindex nav="workbench" pageClass="page-workbench">
+    <div class="wrap">
+      <header class="index-head">
+        <p class="kicker">{s.forReviewers}</p>
+        <h1>{s.wbTitle}</h1>
+        <p class="lede">{s.wbIntro}</p>
+      </header>
+      <div class="wb-grid">
+        {APPENDIX_GROUPS.map((g) => (
+          <section class="wb-card">
+            <h2>{label(g.label, lang)}</h2>
+            <ul>
+              {g.pages.map((id) => (
+                <li>
+                  <a href={href(id, lang)}>
+                    <span class="n">{appendixCode(id)}</span>
+                    <span lang="en">
+                      {PAGE_BY_ID.get(id)!.short_title.replace(/^[A-Z]\d*\.\s+/, '')}
+                    </span>
+                    {!isRestrictedPage(id) && <span class="hint">({s.publicView})</span>}
+                  </a>
+                </li>
+              ))}
+            </ul>
+          </section>
+        ))}
+        <section class="wb-card">
+          <h2>{s.wbRegisters}</h2>
+          <ul>
+            {registers.map((r) => (
+              <li>
+                <a href={localize(r.href, lang)}>{r.label}</a>
+              </li>
+            ))}
+          </ul>
+        </section>
+        <section class="wb-card">
+          <h2>{s.wbData}</h2>
+          <p>
+            <a href={localize('/data', lang)}>{s.dataHeading}</a>: {nf.format(tables)}{' '}
+            {lang === 'vi' ? 'bảng' : 'tables'}
+          </p>
+          <ul style="margin-top:.6rem">
+            {featured.map((d) => (
+              <li>
+                <a href={localize(`/data/${d.slug}`, lang)}>
+                  <code>{d.file}</code>{' '}
+                  <span class="hint">
+                    {nf.format(d.rows)} {s.rows}
+                  </span>
+                </a>
+              </li>
+            ))}
+          </ul>
+        </section>
+        <section class="wb-card">
+          <h2>{s.wbDownloads}</h2>
+          <ul>
+            <li>
+              <a href="/files/downloads/altprotein-vn-data.zip" download>
+                {s.downloadData}
+              </a>
+            </li>
+            <li>
+              <a href="/files/downloads/altprotein-vn-working-papers.zip" download>
+                {s.downloadWorking}
+              </a>
+            </li>
+            <li>
+              <a href="/files/downloads/altprotein-vn-report-markdown.zip" download>
+                {s.downloadMarkdown}
+              </a>
+            </li>
+            <li>
+              <a href="/files/data/data-dictionary.md">{s.dataDictionary}</a>
+            </li>
+          </ul>
+        </section>
+        <section class="wb-card">
+          <h2>{s.wbCms}</h2>
+          <p>{s.wbCmsText}</p>
+          <p style="margin-top:.6rem">
+            <a href="/_emdash/admin" rel="nofollow">
+              {s.cms}
+            </a>{' '}
+            · <a href={href(ROLE.changelog, lang)}>{PAGE_BY_ID.get(ROLE.changelog)!.short_title}</a>
+          </p>
+        </section>
+      </div>
+    </div>
+  </Base>
+) : (
+  <Base title={s.lockedTitle} noindex pageClass="page-locked">
+    <LockedPage />
+  </Base>
+)}

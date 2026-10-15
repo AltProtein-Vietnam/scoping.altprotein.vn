@@ -104,8 +104,8 @@ export function feedImportDependence(spec, D) {
     under: (ctx) => {
       const x = ctx.scale(100);
       return (
-        line(x, ctx.top - 8, x, ctx.bottom, INK, 1) +
-        text(x, ctx.top - 16, '100% imported', { size: 12, fill: INK, anchor: 'middle' })
+        line(x, ctx.top - 6, x, ctx.bottom, INK, 1) +
+        text(x, ctx.top - 13, '100% imported', { size: 12, fill: INK, anchor: 'middle' })
       );
     },
   });
@@ -885,6 +885,87 @@ export function retailPricePerProtein(spec, D) {
       { key: 'max_pp', label: 'Highest (VND)', num: true },
     ],
     rows,
+  );
+  return { body: L.body, height: L.height, table: tbl };
+}
+
+// ---------------------------------------------------------------------------
+// chart-solutions-screen (v0.10): published solutions by source set, stacked by verdict.
+export function solutionsScreen(spec, D) {
+  const rows = D.csv(spec.data.file);
+  // The two candidate verdicts (play, public good) share one colour; the tooltip keeps them apart.
+  const ORDER = [
+    ['global frontier, monitor', 'Frontier work to monitor'],
+    ['strengthens existing', 'Strengthens an existing item'],
+    ['already covered', 'Already covered'],
+    ['not for Vietnam now', 'Not for Vietnam now'],
+    ['out of scope', 'Out of scope'],
+    ['new candidate', 'New candidate'],
+  ];
+  const groupOf = (v) => (v.startsWith('new candidate') ? 'new candidate' : v);
+  const known = new Set(ORDER.map(([k]) => k));
+  for (const r of rows)
+    if (!known.has(groupOf(r.verdict))) throw new Error(`Unknown verdict "${r.verdict}"`);
+  const sets = uniq(rows.map((r) => r.source_set))
+    .map((s) => ({ set: s, list: rows.filter((r) => r.source_set === s) }))
+    .sort((a, b) => b.list.length - a.list.length || a.set.localeCompare(b.set));
+  const agg = sets.map(({ set, list }) => ({
+    set,
+    total: list.length,
+    counts: Object.fromEntries(
+      ORDER.map(([k]) => [k, list.filter((r) => groupOf(r.verdict) === k).length]),
+    ),
+    candidates: {
+      play: list.filter((r) => r.verdict === 'new candidate play').length,
+      good: list.filter((r) => r.verdict === 'new candidate public good').length,
+    },
+  }));
+  const max = Math.max(...agg.map((a) => a.total));
+  const top = Math.ceil(max / 20) * 20;
+  const L = hLayout({
+    legend: ORDER.map(([, label], i) => ({ label, color: S(i + 1) })),
+    rows: agg.map((a) => ({ label: a.set })),
+    labelW: 170,
+    plotRight: W - 60,
+    minRowH: 34,
+    makeScale: (l, r) => linear(0, top, l, r),
+    ticks: niceTicks(0, top, 6),
+    fmtTick: fmtNum,
+    axisTitle: `Number of items screened (total ${fmtNum(rows.length)})`,
+    drawRow: (row, i, ctx, y, h) => {
+      const a = agg[i];
+      const segs = ORDER.map(([k, label], wi) => ({
+        v: a.counts[k],
+        fill: S(wi + 1),
+        label: a.counts[k] >= 3 && wi + 1 !== 4 ? String(a.counts[k]) : '',
+        tip: [
+          `${a.set}, ${label.toLowerCase()}: ${a.counts[k]} items`,
+          k === 'new candidate'
+            ? `Candidate plays: ${a.candidates.play}; candidate public goods: ${a.candidates.good}`
+            : '',
+          `All verdicts: ${a.total} items`,
+        ],
+      }));
+      const bh = 22;
+      return (
+        stackH(ctx.scale, ctx.plotLeft, y + (h - bh) / 2, bh, segs) +
+        endLabel(ctx.scale(a.total), y + h / 2, fmtNum(a.total), W, { size: 13 })
+      );
+    },
+  });
+  const tbl = table(
+    spec.title,
+    [
+      { key: 'set', label: 'Source' },
+      ...ORDER.map(([k, label]) => ({
+        key: k,
+        label,
+        num: true,
+        get: (r) => String(r.counts[k]),
+      })),
+      { key: 'total', label: 'Total', num: true, get: (r) => String(r.total) },
+    ],
+    agg,
   );
   return { body: L.body, height: L.height, table: tbl };
 }

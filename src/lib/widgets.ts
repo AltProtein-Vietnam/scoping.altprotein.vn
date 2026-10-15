@@ -2,6 +2,7 @@ import playsJson from '../generated/plays.json';
 import scenariosJson from '../generated/scenarios.json';
 import { t, type Lang } from './i18n';
 import { escapeHtml, foresightBadge } from './html';
+import { canReadPage } from './access';
 import { href, PAGE_BY_ID } from './site';
 
 type Row = Record<string, string>;
@@ -30,14 +31,14 @@ const list = (s: string) =>
     .map((x) => x.trim())
     .filter(Boolean);
 
-function relatedLinks(ids: string, lang: Lang) {
+function relatedLinks(ids: string, lang: Lang, editor: boolean) {
   return list(ids)
-    .filter((id) => PAGE_BY_ID.has(id))
+    .filter((id) => PAGE_BY_ID.has(id) && canReadPage(id, editor))
     .map((id) => `<a href="${href(id, lang)}">${e(PAGE_BY_ID.get(id)!.short_title)}</a>`)
     .join(' · ');
 }
 
-function playCard(p: Row, lang: Lang, balanced: number): string {
+function playCard(p: Row, lang: Lang, balanced: number, editor: boolean): string {
   const s = t(lang).plays;
   const field = (label: string, value: string) =>
     value ? `<dt>${e(label)}</dt><dd lang="en">${e(value)}</dd>` : '';
@@ -51,13 +52,13 @@ function playCard(p: Row, lang: Lang, balanced: number): string {
 <p class="play-meta" lang="en">${e(p.family)} · ${e(p.segment)} · ${e(p.horizon)}</p>
 <ul class="play-scores" aria-label="${e(t(lang).plays.score)}">${scores}</ul>
 <dl>${field(s.what, p.what)}${field(s.whyVietnam, p.why_vietnam)}${field(s.mustBeTrue, p.must_be_true)}${field(s.killTests, p.kill_tests)}${field(s.firstCustomers, p.first_customers)}${field(s.partners, p.partners)}${field(s.horizon, p.horizon)}${field(s.capital, p.capital_note)}</dl>
-${p.related_pages ? `<p class="play-related">${relatedLinks(p.related_pages, lang)}</p>` : ''}
+${p.related_pages && relatedLinks(p.related_pages, lang, editor) ? `<p class="play-related">${relatedLinks(p.related_pages, lang, editor)}</p>` : ''}
 </div>
 </details>`;
 }
 
 /** The plays ranking: static balanced chart and cards, enhanced by /scripts/plays.js. */
-export function renderPlaysTool(lang: Lang, staticSvg: string): string {
+export function renderPlaysTool(lang: Lang, staticSvg: string, editor = false): string {
   const s = t(lang).plays;
   const balanced = PRESETS.find((p) => p.preset_id === 'balanced')!;
   const ranked = PLAY_ROWS.map((p) => ({ p, score: weightedScore(p, balanced) })).sort(
@@ -94,7 +95,7 @@ export function renderPlaysTool(lang: Lang, staticSvg: string): string {
 <ol class="plays-bars" hidden aria-live="polite"></ol>
 <div class="play-cards">
 <p class="play-cards-hint">${e(s.select)}</p>
-${ranked.map(({ p, score }) => playCard(p, lang, score)).join('\n')}
+${ranked.map(({ p, score }) => playCard(p, lang, score, editor)).join('\n')}
 </div>
 </div>`;
 }
@@ -151,7 +152,7 @@ export function renderScenarioExplorer(lang: Lang): string {
   return `<div class="scen-explorer" data-scen-explorer>
 <p class="scen-heading">${e(s.heading)}</p>
 <p class="scen-intro">${e(s.intro)}</p>
-<div class="scen-grid" role="tablist" aria-label="${e(s.heading)}" hidden><span class="scen-axis scen-axis-x" lang="en">Import stress: benign to chronic →</span><span class="scen-axis scen-axis-y" lang="en">Fermentation market: Chinese price dominance to open →</span>${tabs}</div>
+<div class="scen-grid" role="tablist" aria-label="${e(s.heading)}" hidden><span class="scen-axis scen-axis-x" lang="en">Left to right: import stress, from benign to chronic.</span><span class="scen-axis scen-axis-y" lang="en">Bottom to top: fermentation market, from Chinese price dominance to open.</span>${tabs}</div>
 ${panels}
 </div>`;
 }

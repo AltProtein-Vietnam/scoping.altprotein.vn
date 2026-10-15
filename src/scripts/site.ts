@@ -23,11 +23,12 @@ const store = {
 
 // Theme: auto -> light -> dark -> auto --------------------------------------------------
 document.querySelectorAll<HTMLButtonElement>('[data-theme-toggle]').forEach((btn) => {
+  const names: Record<string, string> = JSON.parse(btn.dataset.names ?? '{}');
+  const base = btn.getAttribute('aria-label') ?? 'Theme';
   const label = () => {
     const current = root.getAttribute('data-theme') ?? 'auto';
-    btn.setAttribute('aria-label', `${btn.dataset.label ?? 'Theme'}: ${current}`);
+    btn.setAttribute('aria-label', `${base}: ${names[current] ?? current}`);
   };
-  btn.dataset.label = btn.getAttribute('aria-label') ?? 'Theme';
   label();
   btn.addEventListener('click', () => {
     const current = root.getAttribute('data-theme');
@@ -39,32 +40,37 @@ document.querySelectorAll<HTMLButtonElement>('[data-theme-toggle]').forEach((btn
   });
 });
 
-// Drawer ---------------------------------------------------------------------------
+// Drawer (menu and contents) ----------------------------------------------------------------
 const drawer = document.getElementById('drawer');
-const opener = document.querySelector<HTMLButtonElement>('[data-drawer-open]');
-function setDrawer(open: boolean) {
+let opener: HTMLElement | null = null;
+function setDrawer(open: boolean, from?: HTMLElement) {
   if (!drawer) return;
   if (open) {
+    opener = from ?? null;
     drawer.setAttribute('data-open', '');
     document.body.style.overflow = 'hidden';
+    drawer.querySelector('[aria-current="page"]')?.scrollIntoView({ block: 'center' });
     drawer.querySelector<HTMLElement>('input, a, button')?.focus();
   } else {
     drawer.removeAttribute('data-open');
     document.body.style.overflow = '';
     opener?.focus();
   }
-  opener?.setAttribute('aria-expanded', String(open));
+  document
+    .querySelectorAll('[data-drawer-open]')
+    .forEach((b) => b.setAttribute('aria-expanded', String(open)));
 }
-opener?.addEventListener('click', () => setDrawer(true));
+document.querySelectorAll<HTMLElement>('[data-drawer-open]').forEach((el) =>
+  el.addEventListener('click', (e) => {
+    e.preventDefault();
+    setDrawer(true, el);
+  }),
+);
 drawer
   ?.querySelectorAll('[data-drawer-close]')
   .forEach((el) => el.addEventListener('click', () => setDrawer(false)));
-document.addEventListener('keydown', (e) => {
-  if (e.key === 'Escape' && drawer?.hasAttribute('data-open')) setDrawer(false);
-});
-drawer?.querySelector('[aria-current="page"]')?.scrollIntoView({ block: 'center' });
 
-// Audience: highlight pages written for the chosen audience -------------------------------
+// Audience: highlight pages written for the chosen audience and show its reading path --------
 export function applyAudience(audience: string | null) {
   if (audience) root.setAttribute('data-audience', audience);
   else root.removeAttribute('data-audience');
@@ -78,13 +84,13 @@ export function applyAudience(audience: string | null) {
   document.querySelectorAll<HTMLElement>('[data-audience-path]').forEach((el) => {
     el.hidden = el.dataset.audiencePath !== audience;
   });
-  document.querySelectorAll<HTMLElement>('[data-audience-none]').forEach((el) => {
-    el.hidden = Boolean(audience);
-  });
   document.querySelectorAll<HTMLButtonElement>('[data-set-audience]').forEach((b) => {
     b.setAttribute('aria-pressed', String((b.dataset.setAudience || null) === audience));
   });
 }
+document
+  .querySelectorAll<HTMLElement>('[data-audience-picker]')
+  .forEach((el) => (el.hidden = false));
 const params = new URLSearchParams(location.search);
 const fromUrl = params.get('for');
 if (fromUrl !== null) store.set('audience', fromUrl || null);
@@ -97,7 +103,81 @@ document.querySelectorAll<HTMLButtonElement>('[data-set-audience]').forEach((btn
   });
 });
 
-// Tooltips for citations and chart marks --------------------------------------------------
+// Sources popover: select a citation number to see its sources and the claim's evidence --------
+const pop = document.getElementById('pop');
+let popOwner: HTMLElement | null = null;
+function hidePop(restore = false) {
+  if (!pop || pop.hidden) return;
+  pop.hidden = true;
+  if (restore) popOwner?.focus();
+  popOwner = null;
+}
+function showPop(link: HTMLAnchorElement) {
+  if (!pop) return false;
+  const sup = link.closest('sup.cite');
+  if (!sup) return false;
+  const links = [...sup.querySelectorAll<HTMLAnchorElement>('a[data-src]')];
+  const items = links
+    .map((a) => ({ n: a.textContent ?? '', li: document.getElementById(`src-${a.dataset.src}`) }))
+    .filter((x) => x.li);
+  if (!items.length) return false;
+  pop.replaceChildren();
+  const ol = document.createElement('ol');
+  for (const { n, li } of items) {
+    const item = document.createElement('li');
+    item.value = Number(n) || 0;
+    item.innerHTML = li!.innerHTML;
+    ol.append(item);
+  }
+  pop.append(ol);
+  const note = sup.nextElementSibling;
+  if (note?.classList.contains('evn')) {
+    const p = document.createElement('p');
+    p.className = 'pop-ev';
+    p.textContent = note.getAttribute('title') ?? '';
+    pop.append(p);
+  }
+  const all = document.createElement('p');
+  all.className = 'pop-all';
+  const a = document.createElement('a');
+  a.href = '#sources-cited';
+  a.textContent = document.getElementById('sources-cited')?.textContent ?? '';
+  all.append(a);
+  pop.append(all);
+  pop.setAttribute('aria-label', a.textContent ?? '');
+  pop.hidden = false;
+  const r = link.getBoundingClientRect();
+  const w = pop.offsetWidth;
+  const left = Math.max(12, Math.min(window.innerWidth - w - 12, r.left - 24));
+  pop.style.left = `${left + window.scrollX}px`;
+  pop.style.top = `${r.bottom + window.scrollY + 8}px`;
+  popOwner = link;
+  return true;
+}
+document.addEventListener('click', (e) => {
+  const target = e.target as Element;
+  const link = target.closest?.<HTMLAnchorElement>('sup.cite a[data-src]');
+  if (link) {
+    if (popOwner === link) {
+      e.preventDefault();
+      hidePop();
+    } else if (showPop(link)) {
+      e.preventDefault();
+      if ((e as PointerEvent).pointerType === '') pop?.querySelector('a')?.focus();
+    }
+    return;
+  }
+  if (pop && !pop.contains(target)) hidePop();
+  if (target.closest?.('#pop a[href="#sources-cited"]')) hidePop();
+});
+document.addEventListener('keydown', (e) => {
+  if (e.key !== 'Escape') return;
+  if (pop && !pop.hidden) hidePop(true);
+  else if (drawer?.hasAttribute('data-open')) setDrawer(false);
+});
+window.addEventListener('resize', () => hidePop());
+
+// Tooltips for chart marks -------------------------------------------------------------------
 const tip = document.getElementById('tip');
 let tipOwner: Element | null = null;
 function showTip(target: Element, text: string, x?: number, y?: number) {
@@ -111,24 +191,12 @@ function showTip(target: Element, text: string, x?: number, y?: number) {
   const w = tip.offsetWidth;
   const h = tip.offsetHeight;
   tip.style.left = `${Math.max(8, Math.min(window.innerWidth - w - 8, px - w / 2))}px`;
-  tip.style.top = `${py - h - 10 < 8 ? (y !== undefined ? py + 18 : r.bottom + 8) : py - h - 10}px`;
+  tip.style.top = `${py - h - 12 < 8 ? py + 18 : py - h - 12}px`;
 }
 function hideTip() {
   if (tip) tip.hidden = true;
   tipOwner = null;
 }
-function tipText(el: Element): string {
-  if (el instanceof HTMLElement && el.dataset.tip) return el.dataset.tip;
-  if (el.getAttribute('data-tip')) return el.getAttribute('data-tip')!;
-  return '';
-}
-// Move native titles into data attributes so the browser tooltip does not double up.
-document
-  .querySelectorAll<HTMLElement>('sup.cite a[title], .ev[title], .fx[title]')
-  .forEach((el) => {
-    el.dataset.tip = el.title;
-    el.removeAttribute('title');
-  });
 document.querySelectorAll<SVGElement>('.chart-body .mark').forEach((mark) => {
   const title = mark.querySelector(':scope > title');
   const text = mark.getAttribute('data-tip') || title?.textContent || '';
@@ -140,28 +208,26 @@ document.querySelectorAll<SVGElement>('.chart-body .mark').forEach((mark) => {
   title?.remove();
 });
 document.addEventListener('pointerover', (e) => {
-  const el = (e.target as Element).closest?.('[data-tip], .chart-body .mark');
+  const el = (e.target as Element).closest?.('.chart-body .mark');
   if (!el || el === tipOwner) return;
-  const text = tipText(el) || el.querySelector('title')?.textContent || '';
-  if (el.closest('.chart-body')) showTip(el, text, e.clientX, e.clientY);
-  else showTip(el, text);
+  showTip(el, el.getAttribute('data-tip') ?? '', e.clientX, e.clientY);
 });
 document.addEventListener('pointermove', (e) => {
-  if (tipOwner?.closest('.chart-body') && tip && !tip.hidden)
+  if (tipOwner && tip && !tip.hidden)
     showTip(tipOwner, tip.textContent ?? '', e.clientX, e.clientY);
 });
 document.addEventListener('pointerout', (e) => {
   if (tipOwner && !(tipOwner as Element).contains(e.relatedTarget as Node)) hideTip();
 });
 document.addEventListener('focusin', (e) => {
-  const el = (e.target as Element).closest?.('[data-tip], .chart-body .mark');
-  if (el) showTip(el, tipText(el) || el.querySelector('title')?.textContent || '');
+  const el = (e.target as Element).closest?.('.chart-body .mark');
+  if (el) showTip(el, el.getAttribute('data-tip') ?? '');
 });
 document.addEventListener('focusout', hideTip);
 window.addEventListener('scroll', hideTip, { passive: true });
 
-// Table of contents: mark the section in view ---------------------------------------------
-const tocLinks = [...document.querySelectorAll<HTMLAnchorElement>('.doc-toc a[href^="#"]')];
+// On this page: mark the section in view ----------------------------------------------------
+const tocLinks = [...document.querySelectorAll<HTMLAnchorElement>('.rail-toc a[href^="#"]')];
 if (tocLinks.length && 'IntersectionObserver' in window) {
   const byId = new Map(tocLinks.map((a) => [decodeURIComponent(a.hash.slice(1)), a]));
   const headings = [...byId.keys()]
@@ -182,17 +248,17 @@ if (tocLinks.length && 'IntersectionObserver' in window) {
         active = link;
       }
     },
-    { rootMargin: '-80px 0px -60% 0px' },
+    { rootMargin: '-100px 0px -60% 0px' },
   );
   headings.forEach((h) => io.observe(h));
 }
 
-// Print button ------------------------------------------------------------------------
+// Print button ------------------------------------------------------------------------------
 document
   .querySelectorAll('[data-print]')
   .forEach((b) => b.addEventListener('click', () => window.print()));
 
-// Open details that contain a targeted anchor (e.g. a play card or a key-number context).
+// Open details that contain a targeted anchor (a play card or a key-number context).
 function openTarget() {
   const id = decodeURIComponent(location.hash.slice(1));
   if (!id) return;

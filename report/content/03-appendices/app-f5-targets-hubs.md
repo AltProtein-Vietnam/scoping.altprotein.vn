@@ -212,6 +212,7 @@ All 23 rows of `protein_strategies_benchmark.csv`. Future targets are official t
 - **No country we checked sets a volume target for fermentation-derived or cultivated protein.** Quantified targets are feed-protein self-sufficiency (EU, Japan, China), diet ratios (Netherlands, Flanders) or sector value (Canada, Thailand) [@VIS-15; @VIS-12; @GEO-11; @VIS-05; @VIS-08; @VIS-06] {general|Medium}.
 - **Feed self-sufficiency targets are usually missed, then cut,** and of the countries we checked, the EU, Japan, Singapore and China publish a statistic that shows progress [@VIS-12; @GEO-11; @VIS-25; @VIS-15; @VIS-13] {VN-adjacent|High}.
 - **Horizons stop at 2030 to 2035.** MIDORI (2050) and Denmark's land deal (2045) carry no protein indicator; Japan's food-tech roadmap to 2040 has a novel-food line, but we read it only in the press [@VIS-49; @VIS-03; @VIS-14] {general|Medium}.
+- **The leading EU NGO analysis uses the study's method.** A 2026 soy-dependency analysis by The Protein Project, a Brussels advocacy group, builds its protein matrix from FAO food balance sheets, the same source and approach as this study's protein balance ([[ch01-why-vietnam]]) [@PPE-03; @PPE-04] {general|Medium}. So the national protein balance (move RM-01) and joining the EU-style balance-sheet method (RM-13) need no change of method. Its target-first lever check, run on Vietnam's numbers, is in [[app-f4-balance-model]], F4.8.1.
 
 ### F5.3.2 Pace of change in the analogues
 
@@ -225,7 +226,7 @@ Simple averages between two published points (`working-papers/wave3/vision_bench
 | Norway | Marine share of salmon feed | Minus 2.6 (1990 to 2013), then minus 1.1 points a year (to 2020) | None | Price can cause fast substitution in aquafeed | [@VIS-18; @VIS-19] {general\|High} |
 | Norway | Novel ingredients in salmon feed | 0.4% in 2020; overall feed composition similar to 2016 | None | Ceiling for novel feed protein at national scale today | [@VIS-18; @VIS-20] {general\|High} |
 
-**Applied to Vietnam, as feed context (our calculation, `vis_calc.py` parts B and C).** A soybean-meal inclusion trend of minus 1% a year lowers inclusion by 22% by 2050; minus 2% a year by 40% {VN-direct|Low} {fx:estimate}. The balance model's S-ALT scenario puts microbial protein at 1.0% (2030), 2.7% (2035), 4.4% (2040) and 8.4% (2050) of high-protein feed protein: plausible in 2030 against Norway's 0.4% (novel ingredients including insect meal, as a share of all salmon-feed ingredients, a different denominator), above any analogue in 2050 [@VIS-18] {VN-direct|Low} {fx:estimate}.
+**Applied to Vietnam, as feed context (our calculation, `vis_calc.py` parts B and C).** A soybean-meal inclusion trend of minus 1% a year lowers inclusion by 22% by 2050; minus 2% a year by 40% {VN-direct|Low} {fx:estimate}. The balance model's S-ALT scenario puts microbial protein at 1.0% (2030), 2.7% (2035), 4.4% (2040) and 8.4% (2050) of high-protein feed protein: plausible in 2030 against Norway's 0.4% (novel ingredients as a share of all salmon-feed ingredients, a different denominator), above any analogue in 2050 [@VIS-18] {VN-direct|Low} {fx:estimate}.
 
 ### F5.3.3 Peer budgets
 
@@ -237,7 +238,7 @@ Simple averages between two published points (`working-papers/wave3/vision_bench
 | Korea: food-tech policy funds | KRW 100 bn cumulative by 2027 | About USD 68 M in total | [@VIS-14; @VIS-06] {VN-adjacent\|Medium} |
 | Vietnam: feed scheme (Decision 1625) | VND 1,310 bn, 2023 to 2030 | USD 6.3 M | [@NTS-23] {VN-direct\|Medium} |
 
-A dedicated Vietnamese food-protein innovation line of USD 5 to 15 M a year from 2027 (VM-04, RM-11) would sit inside this peer range (our estimate; currency conversions approximate) {VN-direct|Low} {fx:estimate}.
+A dedicated Vietnamese food-protein innovation line of USD 5 to 15 M a year from 2027 (VM-04, RM-11) would sit inside this peer range (our estimate; currency conversions approximate) {VN-direct|Low} {fx:estimate}. In Vietnamese terms it is large: it equals about 47% to 140% of everything NAFOSTED approved for new research projects in 2023 (our calculation) [@SLW-01] {VN-direct|Medium}.
 
 ### F5.3.4 Framing and review cycles
 
@@ -344,7 +345,7 @@ The Mekong total is about 123 kt a year (our sum), against a national target of 
 
 ### F5.5.5 Zones
 
-- **Cai Mep Ha free trade zone (Decision 4560/QD-UBND, 23 July 2026):** 4,174.35 ha in Ho Chi Minh City, with 906.07 ha for logistics and 850.67 ha for industry, urban use and services beside a deep-sea port. "Green" and "circular" production are named; biotech and food are not [@HUB-06] {VN-direct|High}. Its neighbours are the VAL crusher (nearly 2 Mt of soybean meal a year) and Entobel's insect plant, the feed incumbents, which are context for this study [@VCO-16; @FS-43] {VN-direct|Medium}.
+- **Cai Mep Ha free trade zone (Decision 4560/QD-UBND, 23 July 2026):** 4,174.35 ha in Ho Chi Minh City, with 906.07 ha for logistics and 850.67 ha for industry, urban use and services beside a deep-sea port. "Green" and "circular" production are named; biotech and food are not [@HUB-06] {VN-direct|High}. Its neighbour is the VAL crusher (nearly 2 Mt of soybean meal a year), a feed incumbent that is context for this study [@VCO-16] {VN-direct|Medium}.
 - **Decree 263/2026 on *khu nông nghiệp ứng dụng công nghệ cao* (hi-tech agriculture zones), in force from 1 July 2026:** provinces decide; functions are research, trials, pilot production and incubation; incentives are 70% interest support capped at 8% a year and land-fee exemption for infrastructure. It fits a pilot food-fermentation campus; we could not tell whether full-scale plants qualify [@HUB-26; @INF-23] {VN-direct|Medium} {fx:signal}.
 - **The bioeconomy's own map is blank:** on 24 September 2026 MAE had published no location for its biotechnology clusters (due December 2026) or its "at least 5" innovation centres to 2030 [@HUB-09; @HUB-10; @NTS-37] {VN-direct|Medium} {fx:signal}.
 - **Lessons from stalled zones.** The 418 ha Bac Lieu shrimp hi-tech zone (2017), whose scope includes feed processing, lost investors while land procedures stayed unresolved. The 5,200 ha Hau Giang zone (2012) had cleared only 10 ha for investors by 2020. Fix land procedures before announcing [@HUB-11; @HUB-12] {VN-direct|Medium}.
@@ -383,7 +384,7 @@ Our calculation in `hub_calc.py` for sites built 2035 to 2045 {VN-direct|Low} {f
 | One ethanol plant's CO2 supports | About 17 to 28 kt of protein a year |
 | A 20 kt a year protein plant on cassava glucose needs | 252 to 303 kt of roots: 3.9 to 4.7% of former Tay Ninh capacity |
 | The S-ALT 2050 cassava need | 84% of former Tay Ninh capacity |
-| The S-ALT 2050 feed product (about 860 kt dry) | About 78 times Entobel's Vietnamese capacity (11 kt a year across two plants) or 43 plants of Calysseo's 20 kt size |
+| The S-ALT 2050 feed product (about 860 kt dry) | About 43 plants of Calysseo's 20 kt size |
 | Buyers | Ca Mau farmed 594,851 t of shrimp in 2025; Dong Thap's pangasius needs 0.91 to 1.04 Mt of feed a year at a feed conversion ratio of 1.5 to 1.7 (assumed) |
 
 **Reading.** Several sugar-route plants fit in Tay Ninh, enough for food fermentation at the scale demand supports; the whole S-ALT build-out for 2050 does not. For a pilot on hydrogen, co-location with an electrolyser matters more than the hydrogen itself: by-product oxygen and ammonia and a buyer next door are the advantage. That route served feed in our assessment and is now context [@HUB-05; @FS-03] {VN-direct|Low} {fx:estimate}.
@@ -451,25 +452,25 @@ Class and scores are our judgement of payoffs to 2050 across the four worlds of 
 |---|---|---|---|---|---|---|---|
 | RM-01 | Publish a national protein balance (what people eat, with a memo line for the feed behind domestic animal protein) | No-regret | MAE; NSO; MOH (National Institute of Nutrition) | 2028 | All (2, 2, 2, 2) | None needed | [@VIS-15; @VIS-13] {general\|Medium} {fx:estimate} |
 | RM-02 | Feed-efficiency and formulation programme (retired: feed) | No-regret (retired) | MAE; integrators; feed mills; universities | 2027 | All (2, 2, 2, 2) | None needed | [@GEO-10; @GEO-11] {VN-adjacent\|Medium} {fx:estimate} |
-| RM-03 | New-food route with deadlines | No-regret | MOH; MAE | 2027 to 2028 | All (2, 2, 2, 2) | Food Safety Law and decree; feed-list updates | [@REG-12; @REG2-01] {VN-direct\|Medium} {fx:estimate} |
+| RM-03 | New-food route with deadlines (v0.10: with a cultivated-food safety lane that relies on the 2023 FAO and WHO framework) | No-regret | MOH; MAE | 2027 to 2028 | All (2, 2, 2, 2) | Food Safety Law and decree; feed-list updates | [@REG-12; @REG2-01; @SLC-05] {VN-direct\|Medium} {fx:estimate} |
 | RM-04 | Shared food-grade pilot capacity | No-regret | MOST; Ho Chi Minh City; universities; DFIs | 2030 | All (2, 2, 2, 2) | None needed | [@RGN-36; @FTB-42] {VN-adjacent\|Medium} {fx:estimate} |
-| RM-05 | Protein-quality laboratory and open price series | No-regret | MOST; MAE; a university | 2028 | All (2, 2, 2, 2) | None needed | Adulteration is a listed wildcard ([[app-f2-drivers-signals]]) {VN-direct\|Low} {fx:estimate} |
+| RM-05 | Protein-quality laboratory and open price series (v0.10: including domestic soybean and mung bean farm-gate prices and imported food-bean unit values) | No-regret | MOST; MAE; a university | 2028 | All (2, 2, 2, 2) | None needed | Adulteration is a listed wildcard ([[app-f2-drivers-signals]]) {VN-direct\|Low} {fx:estimate} |
 | RM-06 | Residue-carbon rules and a by-product atlas | No-regret | MAE; provinces; industry | 2028 | All (2, 2, 2, 2) | None needed | [@NTS-32; @NGF-14] {VN-direct\|Medium} {fx:estimate} |
 | RM-07 | Omega-3 sourcing plan for aquafeed (retired: feed) | No-regret (retired) | Feed mills; MAE; research institutes | 2028 | All (2, 2, 2, 2) | None needed | [@AQF-16; @AQF-19] {general\|Medium} {fx:estimate} |
 | RM-08 | Climate-proof siting for new plants | No-regret | Provinces; MAE; investors | 2027 | All (2, 2, 2, 2) | None needed | [@CLM-13; @CLM-14; @CLM-16] {VN-direct\|Medium} {fx:estimate} |
-| RM-09 | Process-engineering skills | No-regret | MOET; MOST; universities; industry | 2027 | All (2, 2, 2, 2) | None needed | [@ECF-41; @ECF-39] {VN-direct\|Medium} {fx:estimate} |
+| RM-09 | Process-engineering skills (v0.10: a senior-engineer track and an operator track, with a buyer-set product lab; hands-on training waits for pilot equipment) | No-regret | MOET; MOIT; MOST; universities; industry | 2027 | All (2, 2, 2, 2) | None needed | [@ECF-41; @ECF-39; @SLW-07] {VN-direct\|Medium} {fx:estimate} |
 | RM-10 | Reserve hub sites | Option | MAE; provinces | 2026 to 2027 | A, C; D partly (2, 0, 2, 1) | Cluster plan drafting now | [@HUB-09; @HUB-26; @NTS-37] {VN-direct\|Medium} {fx:estimate} |
 | RM-11 | Small permanent protein-innovation fund | Option | MOST; MAE; MOF | 2027 | A, C (2, 1, 2, 1) | None needed | [@VIS-01; @VIS-24; @VIS-06] {general\|Medium} {fx:estimate} |
-| RM-12 | Concessional finance window for first plants | Option | MOF; State Bank; DFIs | 2028 (ready) | C, D (0, 0, 2, 2) | SP-01 or SP-02 | Capital charge from 12% to 9% does as much as the cost learning expected by 2030 (our calculation) {VN-direct\|Low} {fx:estimate} |
+| RM-12 | Concessional finance window for first plants (v0.10: at T4 and T5 scale; a T1-scale line can use existing leasing, factoring and guarantees) | Option | MOF; State Bank; DFIs | 2028 (ready) | C, D (0, 0, 2, 2) | SP-01 or SP-02 | Capital charge from 12% to 9% does as much as the cost learning expected by 2030 (our calculation) {VN-direct\|Low} {fx:estimate} |
 | RM-13 | Join regional approval and statistics networks | Option | MOH; MAE; MOIT | 2027 | A, C (2, 1, 2, 1) | SP-12 | [@REG-63; @VIS-15] {general\|Medium} {fx:estimate} |
-| RM-14 | Seed research on cultivated seafood cells and gas fermentation | Option | MOST; VAST; universities | 2028 | A, C (2, 0, 2, 0) | None needed | [@FTG-14] {VN-direct\|Medium} {fx:estimate} |
-| RM-15 | Clear rules for second-hand fermentation equipment | Option | MOF; MOIT | 2027 | C; A, D partly (1, 0, 2, 1) | Distressed-asset sales abroad | [@FTB-38] {general\|Low} {fx:estimate} |
+| RM-14 | Seed research on cultivated seafood cells and gas fermentation (v0.10: candidate species Asian seabass and grouper, metadata only; open flavour profiles of farmed fish) | Option | MOST; VAST; universities | 2028 | A, C (2, 0, 2, 0) | None needed | [@FTG-14; @SLS-14; @SLS-15] {VN-direct\|Low} {fx:estimate} |
+| RM-15 | Clear rules for second-hand fermentation equipment | Option | MOF; MOIT | 2027 | C; A, D partly (1, 0, 2, 1) | Distressed-asset sales abroad | [@FTB-38; @SLF-12; @SLF-14] {general\|Low} {fx:estimate} |
 | RM-16 | Bulk microbial feed protein beyond about 1% of feed protein (retired: feed) | Bet (retired) | Investors; feed mills; DFIs | On signpost | C; D partly (0, 0, 2, 1) | SP-01 sustained, and pilot cost within 1.2 times fishmeal-protein parity | [@VIS-18; @VIS-20] {general\|Low} {fx:estimate} |
 | RM-17 | Protein-from-power demonstration on the Mekong shrimp coast (retired: feed) | Bet (retired) | Investors; hydrogen developers; MOIT | 2032 to 2035 at the earliest | C; A partly (1, 0, 2, 0) | Green hydrogen below USD 2 per kg; firm renewable power below USD 45 per MWh | [@FTG-01; @HUB-05; @FTG-18; @FTG-19] {VN-direct\|Low} {fx:estimate} |
 | RM-18 | Contract precision-fermentation plant for export | Bet | Investors; foreign partners | 2030 to 2035 | A; C partly (2, 0, 1, 0) | A new-food route, SP-12 or SP-13, and an anchor customer | [@FTB-18; @FTB-41] {general\|Low} {fx:estimate} |
 | RM-19 | Cellulosic sugar from rice straw | Bet | Investors; MOIT; provinces | On signpost | C; A partly (1, 0, 2, 0) | An Asian straw plant above 80% of design capacity for two years | [@NGF-11; @NGF-33] {general\|Low} {fx:estimate} |
 | RM-20 | Diversified feed-protein sourcing and working stocks (retired: feed) | Hedge (retired) | Feed mills; integrators; MOIT | 2027 | C, D (1, 1, 2, 2) | SP-05 | [@MAC-24; @COST-33] {VN-direct\|Low} {fx:estimate} |
-| RM-21 | Import monitoring and equal standards for protein imports | Hedge | MOF (customs); MAE | 2027 | B, D (1, 2, 1, 2) | SP-10; SP-16 | We found no baseline import series {VN-direct\|Low} {fx:estimate} |
+| RM-21 | Import monitoring and equal standards for protein imports (v0.10: including soybean imports and their origin concentration) | Hedge | MOF (customs); MAE | 2027 | B, D (1, 2, 1, 2) | SP-10; SP-16 | We found no baseline import series {VN-direct\|Low} {fx:estimate} |
 
 **Links.** RM-10 is the spatial move (F5.5.5): it would name food-fermentation sites. RM-08 applies the climate limits of F5.5.7. RM-01, RM-03 and RM-06 would fill absences in F5.2.1. The retired RM-17 depended on the hydrogen pipeline of F5.5.4.
 

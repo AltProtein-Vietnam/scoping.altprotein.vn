@@ -7,14 +7,14 @@ order: 5
 summary: "The numbers that frame protein for people in Vietnam, where it comes from, supply and demand, today and to 2050, on one page, with links to the chapters behind them. Feed numbers appear only as context."
 audiences: [investors, policy, startups, manufacturers, research, international]
 reading_time_min: 4
-key_numbers: [kn-actor-check, kn-school-plant-days, kn-fta-duty-china, kn-stuffed-pasta-exports, kn-animals-spared-2035, kn-meat-intake-2020, kn-animal-protein-share, kn-protein-supply-imported, kn-animal-protein-on-imports, kn-soybean-import-dependence, kn-milk-self-sufficiency, kn-meat-imports-2025, kn-dairy-imports-2025, kn-origin-price-support, kn-pork-price-2020, kn-asf-recombinant-share, kn-asf-culls-vs-spared, kn-china-share-plant-protein-ingredients, kn-imported-meat-displaceable-2035, kn-marine-stock-fall, kn-meat-protein-on-imports-2050, kn-vision-protein-new-routes-2050, kn-vision-made-in-vietnam-2050, kn-vision-domestic-ingredient-share-2050, kn-soy-protein-import, kn-corn-import-share, kn-feed-import-bill, kn-seafood-exports-2025, kn-cassava-roots-2025, kn-cassava-pulp, kn-cassava-price-rise, kn-aerobic-volume, kn-retail-median-protein, kn-imported-protein-ingredient-share, kn-food-law-window, kn-novel-food-research-intensity, kn-entobel-financing, kn-agritech-vc-2025, kn-hawkwood-regulatory-score, kn-cassava-starch-exports, kn-tvp-cost, kn-t1-flour-breakeven, kn-pf-titer-gap, kn-sbm-need-2050, kn-land-abroad-feed, kn-p2p-cost-vn-2050, kn-maize-joint-loss-4c, kn-no-regret-moves, kn-top-play-balanced, kn-funder-fit, kn-protein-price-floor, kn-analogue-price-gap, kn-chay-days-share, kn-intend-cut-meat, kn-pbm-weekly, kn-soy-milk-market, kn-food-retail-traditional, kn-canteen-meals, kn-china-plant-protein-tonnage, kn-eu-tariff-edge, kn-demand-bench-2035]
+key_numbers: [kn-actor-check, kn-school-plant-days, kn-fta-duty-china, kn-stuffed-pasta-exports, kn-animals-spared-2035, kn-meat-intake-2020, kn-animal-protein-share, kn-protein-supply-imported, kn-animal-protein-on-imports, kn-soybean-import-dependence, kn-milk-self-sufficiency, kn-meat-imports-2025, kn-dairy-imports-2025, kn-origin-price-support, kn-pork-price-2020, kn-asf-recombinant-share, kn-asf-culls-vs-spared, kn-china-share-plant-protein-ingredients, kn-imported-meat-displaceable-2035, kn-marine-stock-fall, kn-meat-protein-on-imports-2050, kn-vision-protein-new-routes-2050, kn-vision-made-in-vietnam-2050, kn-vision-domestic-ingredient-share-2050, kn-soy-protein-import, kn-corn-import-share, kn-feed-import-bill, kn-seafood-exports-2025, kn-cassava-roots-2025, kn-cassava-pulp, kn-cassava-price-rise, kn-aerobic-volume, kn-retail-median-protein, kn-imported-protein-ingredient-share, kn-food-law-window, kn-novel-food-research-intensity, kn-agritech-vc-2025, kn-hawkwood-regulatory-score, kn-cassava-starch-exports, kn-tvp-cost, kn-t1-flour-breakeven, kn-pf-titer-gap, kn-sbm-need-2050, kn-land-abroad-feed, kn-p2p-cost-vn-2050, kn-maize-joint-loss-4c, kn-no-regret-moves, kn-top-play-balanced, kn-funder-fit, kn-protein-price-floor, kn-analogue-price-gap, kn-chay-days-share, kn-intend-cut-meat, kn-pbm-weekly, kn-soy-milk-market, kn-food-retail-traditional, kn-canteen-meals, kn-china-plant-protein-tonnage, kn-eu-tariff-edge, kn-demand-bench-2035]
 related_pages: [front-two-minute, ch29-actor-check, front-exec-summary, ch01-why-vietnam, ch11-protein-diet, ch20-drivers-2050, ch26-plays, ch27-policy-options, ch22-protein-balance-2050, ch23-scenarios-2050, ch24-vision-2050, ch28-robust-moves, ch18-demand-sizing, ch25-demand-to-frontier]
 charts: [chart-feed-import-dependence, chart-ingredient-price-ladder, chart-scenarios-2050, chart-protein-price-ladder, chart-displacement-vs-salt]
 ---
 
 # At a glance
 
-> **Draft for review.** Version 0.8. Not for citation.
+> **Draft for review.** Version 0.10. Not for citation.
 
 The numbers that frame the report, in the order of its five parts. Each heading links to the chapters behind the numbers. The study is about protein for people; feed numbers appear only as context.
 
@@ -48,9 +48,7 @@ Disease, not feed, is the protein shock consumers feel. Wild fish is the protein
 
 ## Skills, rules and money ([[ch06-knowledge-talent]], [[ch07-rules]], [[ch08-capital]])
 
-The one large deal so far, Entobel's, is for insect feed, which is outside this study's scope; it is shown for its size and structure.
-
-{{kn:kn-food-law-window}} {{kn:kn-novel-food-research-intensity}} {{kn:kn-entobel-financing}} {{kn:kn-agritech-vc-2025}}
+{{kn:kn-food-law-window}} {{kn:kn-novel-food-research-intensity}} {{kn:kn-agritech-vc-2025}}
 
 ## Costs and prices to beat ([[ch09-economics]], [[ch10-technology-fit]], [[ch16-business-buyers]])
 

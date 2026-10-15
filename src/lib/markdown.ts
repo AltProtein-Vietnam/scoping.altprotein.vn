@@ -1,13 +1,23 @@
 import { Marked, type Tokens, type TokenizerAndRendererExtension } from 'marked';
 import keyNumbersJson from '../generated/key-numbers.json';
 import sourcesJson from '../generated/sources.json';
+import { canReadPage } from './access';
 import { t, type Lang } from './i18n';
-import { demandBadge, escapeHtml, evidenceBadge, foresightBadge } from './html';
-
-export { demandBadge, escapeHtml, evidenceBadge, foresightBadge };
+import {
+  demandBadge,
+  escapeHtml,
+  evidenceBadge,
+  evidenceNote,
+  foresightBadge,
+  meter,
+  scopeOf,
+  type Evidence,
+} from './html';
 import { href, PAGE_BY_ID, ROLE, localize } from './site';
 import { renderChartFigure } from './charts';
 import { renderScenarioExplorer } from './widgets';
+
+export { demandBadge, escapeHtml, evidenceBadge, foresightBadge };
 
 export interface KeyNumber {
   id: string;
@@ -52,6 +62,10 @@ export interface RenderOptions {
   /** Language of the page content (the Vietnamese summary is `vi`). */
   contentLang?: string;
   pageId?: string;
+  /** Editor view: links to restricted pages stay links. */
+  editor?: boolean;
+  /** Where citation numbers link: the page's own source list (default) or the full list. */
+  citeTarget?: 'page' | 'sources';
 }
 
 export function slugify(text: string): string {
@@ -68,7 +82,7 @@ export function slugify(text: string): string {
     .replace(/-+/g, '-');
 }
 
-const stripTags = (html: string) =>
+export const stripTags = (html: string) =>
   html
     .replace(/<[^>]+>/g, '')
     .replace(/&amp;/g, '&')
@@ -91,6 +105,9 @@ const CALLOUT_KINDS: [RegExp, string][] = [
   [/^(how to|neutrality)/i, 'note'],
 ];
 
+/** Labels of the answer-first paragraph that opens chapters ("In brief") and briefs. */
+const ANSWER_LABELS = /^(In brief|The short version|Tóm lược|Tóm tắt)$/;
+
 /** Per-render state shared by the extensions (reset for every page). */
 interface State {
   opts: RenderOptions;
@@ -100,68 +117,110 @@ interface State {
   heading: string | null;
 }
 
+function sourceTip(id: string): string {
+  const s = SOURCES[id];
+  return s ? `${s.a ? `${s.a}. ` : ''}${s.t}${s.d ? ` (${s.d})` : ''}` : id;
+}
+
 function citeLinks(state: State, ids: string[]): string {
+  const { lang, citeTarget = 'page' } = state.opts;
   const links = ids.map((id) => {
     let n = state.citations.indexOf(id) + 1;
     if (!n) n = state.citations.push(id);
-    const s = SOURCES[id];
-    const tip = s ? `${s.a ? `${s.a}. ` : ''}${s.t}${s.d ? ` (${s.d})` : ''}` : id;
-    return `<a href="#src-${escapeHtml(id)}" data-src="${escapeHtml(id)}" title="${escapeHtml(`[${id}] ${tip}`)}">${n}</a>`;
+    const target = citeTarget === 'page' ? `#src-${escapeHtml(id)}` : href(ROLE.sources, lang, id);
+    return `<a href="${target}" data-src="${escapeHtml(id)}" title="${escapeHtml(`${id}: ${sourceTip(id)}`)}">${n}</a>`;
   });
   return `<sup class="cite">${links.join('<span class="cite-sep">,</span>')}</sup>`;
 }
 
-function keyNumberTile(state: State, id: string): string {
+/** The stat tile for a key number: value first, then what it measures, then how sure we are. */
+function keyNumberTile(state: State, id: string, size: 'normal' | 'hero' = 'normal'): string {
   const k = KEY_NUMBERS[id];
-  const { lang, contentLang } = state.opts;
+  const { lang, contentLang, editor } = state.opts;
   const s = t(lang);
   if (!k) return `<div class="kn kn-missing">${escapeHtml(id)}</div>`;
   const useVi = (contentLang === 'vi' || lang === 'vi') && k.label_vi;
   const labelText = useVi ? k.label_vi! : k.label;
   const vision = k.foresight_type === 'vision';
   const primary =
-    k.primary_page && k.primary_page !== state.opts.pageId && PAGE_BY_ID.has(k.primary_page);
-  return `<figure class="kn${vision ? ' kn-vision' : ''}" id="${escapeHtml(id)}" data-ev="${k.evidence === 'VN-direct' ? 'direct' : k.evidence === 'VN-adjacent' ? 'adjacent' : 'general'}">
-<div class="kn-value">${escapeHtml(k.value)}</div>
+    k.primary_page &&
+    k.primary_page !== state.opts.pageId &&
+    PAGE_BY_ID.has(k.primary_page) &&
+    canReadPage(k.primary_page, Boolean(editor));
+  const ev: Evidence = {
+    label: k.evidence,
+    confidence: k.confidence,
+    fx: k.foresight_type,
+    dx: k.demand_evidence_type,
+  };
+  const hasEv = Boolean((k.evidence && k.confidence) || k.foresight_type || k.demand_evidence_type);
+  const scope = k.evidence ? scopeOf(k.evidence) : 'general';
+  const long = k.value.length > 16 ? ' kn-long' : '';
+  return `<figure class="kn${size === 'hero' ? ' kn-hero' : ''}${long}${vision ? ' kn-vision' : ''}" id="${escapeHtml(id)}" data-ev="${scope}">
+<p class="kn-value">${escapeHtml(k.value)}</p>
 <figcaption class="kn-label"${useVi ? ' lang="vi"' : ''}>${escapeHtml(labelText)}</figcaption>
-<div class="kn-meta">${k.as_of ? `<span class="kn-asof">${escapeHtml(k.as_of)}</span>` : ''}${k.derived ? `<span class="kn-derived">${escapeHtml(s.derived)}</span>` : ''}${k.evidence && k.confidence ? evidenceBadge(k.evidence, k.confidence, lang) : ''}${k.foresight_type ? foresightBadge(k.foresight_type, lang) : ''}${k.demand_evidence_type ? demandBadge(k.demand_evidence_type, lang) : ''}${vision ? `<span class="kn-vision-label">${escapeHtml(s.visionNotForecast)}</span>` : ''}</div>
-${k.context ? `<details class="kn-more"><summary>${lang === 'vi' ? 'Bối cảnh và nguồn' : 'Context and sources'}</summary><p lang="en">${escapeHtml(k.context)}${k.source_ids?.length ? ` ${citeLinks(state, k.source_ids)}` : ''}</p>${primary ? `<p><a href="${href(k.primary_page!, lang)}">${escapeHtml(PAGE_BY_ID.get(k.primary_page!)!.short_title)} →</a></p>` : ''}</details>` : ''}
+<p class="kn-meta">${k.as_of ? `<span class="kn-asof">${escapeHtml(k.as_of)}</span>` : ''}${k.derived ? `<span class="kn-derived">${escapeHtml(s.derived)}</span>` : ''}${vision ? `<span class="kn-vision-label">${escapeHtml(s.visionNotForecast)}</span>` : ''}${hasEv ? evidenceNote(ev, lang, { inline: true }) : ''}</p>
+${k.context ? `<details class="kn-more"><summary>${escapeHtml(s.contextAndSources)}</summary><p lang="en">${escapeHtml(k.context)}${k.source_ids?.length ? ` ${citeLinks(state, k.source_ids)}` : ''}</p>${primary ? `<p class="kn-page"><a href="${href(k.primary_page!, lang)}">${escapeHtml(PAGE_BY_ID.get(k.primary_page!)!.short_title)}</a></p>` : ''}</details>` : ''}
 </figure>`;
 }
 
+const CITE_RE = /^\[@([A-Z0-9]+-\d+[a-z]?(?:;\s*@[A-Z0-9]+-\d+[a-z]?)*)\]/;
+const TAG_RE =
+  /^[ \t]*\{(?:(VN-direct|VN-adjacent|general)\\?\|(High|Medium|Low)|fx:(trend|projection|estimate|signal|wildcard|vision)|dx:(stated|revealed|tested|inferred))\}/;
+
 function buildMarked(state: State): Marked {
-  const { lang } = state.opts;
-  const cite: TokenizerAndRendererExtension = {
-    name: 'cite',
-    level: 'inline',
-    start: (src) => src.indexOf('[@'),
-    tokenizer(src) {
-      const m = /^\[@([A-Z0-9]+-\d+[a-z]?(?:;\s*@[A-Z0-9]+-\d+[a-z]?)*)\]/.exec(src);
-      if (m) return { type: 'cite', raw: m[0], ids: m[1].split(/;\s*@/) };
-    },
-    renderer: (token) => citeLinks(state, token.ids as string[]),
-  };
-  const evidence: TokenizerAndRendererExtension = {
-    name: 'evidence',
+  const { lang, editor = false } = state.opts;
+  const s = t(lang);
+
+  // A claim: a citation and the evidence tags that follow it, or tags on their own. They render
+  // as one mark: superscript source numbers in the text and one evidence note.
+  const claim: TokenizerAndRendererExtension = {
+    name: 'claim',
     level: 'inline',
     start: (src) => {
-      const i = src.search(/\{(VN-direct|VN-adjacent|general|fx:|dx:)/);
+      const i = src.search(/\[@|\{(VN-direct|VN-adjacent|general)\\?\||\{fx:|\{dx:/);
       return i < 0 ? undefined : i;
     },
     tokenizer(src) {
-      let m = /^\{(VN-direct|VN-adjacent|general)\\?\|(High|Medium|Low)\}/.exec(src);
-      if (m) return { type: 'evidence', raw: m[0], label: m[1], confidence: m[2] };
-      m = /^\{fx:(trend|projection|estimate|signal|wildcard|vision)\}/.exec(src);
-      if (m) return { type: 'evidence', raw: m[0], fx: m[1] };
-      m = /^\{dx:(stated|revealed|tested|inferred)\}/.exec(src);
-      if (m) return { type: 'evidence', raw: m[0], dx: m[1] };
+      let rest = src;
+      let raw = '';
+      let ids: string[] = [];
+      const ev: Evidence = {};
+      const c = CITE_RE.exec(rest);
+      if (c) {
+        raw = c[0];
+        rest = rest.slice(raw.length);
+        ids = c[1].split(/;\s*@/);
+      }
+      let tagged = false;
+      for (;;) {
+        const m = TAG_RE.exec(rest);
+        if (!m) break;
+        // Without a citation, the first tag must start right here (the start hook points at it).
+        if (!c && !tagged && /^[ \t]/.test(rest)) break;
+        // A second tag of a kind already seen belongs to the next claim.
+        if ((m[1] && ev.label) || (m[3] && ev.fx) || (m[4] && ev.dx)) break;
+        if (m[1]) {
+          ev.label = m[1];
+          ev.confidence = m[2];
+        }
+        if (m[3]) ev.fx = m[3];
+        if (m[4]) ev.dx = m[4];
+        raw += m[0];
+        rest = rest.slice(m[0].length);
+        tagged = true;
+      }
+      if (!c && !tagged) return;
+      return { type: 'claim', raw, ids, ev };
     },
-    renderer: (token) =>
-      token.fx
-        ? foresightBadge(token.fx as string, lang)
-        : token.dx
-          ? demandBadge(token.dx as string, lang)
-          : evidenceBadge(token.label as string, token.confidence as string, lang),
+    renderer(token) {
+      const ids = token.ids as string[];
+      const ev = token.ev as Evidence;
+      const cites = ids.length ? citeLinks(state, ids) : '';
+      if (!ev.label && !ev.fx && !ev.dx) return cites;
+      const nums = ids.map((id) => state.citations.indexOf(id) + 1);
+      return cites + evidenceNote(ev, lang, { nums });
+    },
   };
   const xref: TokenizerAndRendererExtension = {
     name: 'xref',
@@ -174,6 +233,8 @@ function buildMarked(state: State): Marked {
     renderer(token) {
       const page = PAGE_BY_ID.get(token.id as string);
       if (!page) return `<span class="xref-missing">${escapeHtml(token.raw)}</span>`;
+      if (!canReadPage(page.id, editor))
+        return `<span class="xref is-locked" title="${escapeHtml(s.lockedLink)}">${escapeHtml(page.short_title)}</span>`;
       const attrs = page.lang === 'vi' && lang !== 'vi' ? ' hreflang="vi" lang="vi"' : '';
       return `<a class="xref" href="${href(page.id, lang, token.anchor as string | undefined)}"${attrs}>${escapeHtml(page.short_title)}</a>`;
     },
@@ -215,14 +276,16 @@ function buildMarked(state: State): Marked {
       let tiles: string[] = [];
       const flush = () => {
         if (tiles.length)
-          out.push(`<div class="kn-grid" data-count="${tiles.length}">${tiles.join('')}</div>`);
+          out.push(
+            `<div class="kn-grid wide" data-count="${tiles.length}">${tiles.join('')}</div>`,
+          );
         tiles = [];
       };
       for (const item of token.items as { kind: string; id: string }[]) {
         if (item.kind === 'kn') tiles.push(keyNumberTile(state, item.id));
         else {
           flush();
-          out.push(renderChartFigure(item.id, lang, (ids) => citeLinks(state, ids)));
+          out.push(renderChartFigure(item.id, lang, (ids) => citeLinks(state, ids), { editor }));
           if (item.id === 'chart-scenarios-2050' && state.opts.pageId === ROLE.scenarios)
             out.push(renderScenarioExplorer(lang));
         }
@@ -233,7 +296,7 @@ function buildMarked(state: State): Marked {
   };
 
   const marked = new Marked({ gfm: true });
-  marked.use({ extensions: [embeds, cite, evidence, xref, inlineEmbed] });
+  marked.use({ extensions: [embeds, claim, xref, inlineEmbed] });
   marked.use({
     renderer: {
       heading(this: any, token: Tokens.Heading) {
@@ -249,15 +312,22 @@ function buildMarked(state: State): Marked {
         if (seen) id = `${id}-${seen}`;
         if (token.depth <= 3) state.toc.push({ id, text, depth: token.depth });
         const level = Math.min(Math.max(token.depth, 2), 6);
-        return `<h${level} id="${id}"><a class="anchor" href="#${id}" aria-hidden="true" tabindex="-1">#</a>${html}</h${level}>\n`;
+        // Section numbers ("1.1", "S4.2", "M5.16.1") are set apart so the titles scan.
+        const numbered = html.replace(
+          /^((?:[A-Z]\d+|\d+)(?:\.\d+)+)\s+/,
+          '<span class="h-num">$1</span> ',
+        );
+        return `<h${level} id="${id}"><a class="anchor" href="#${id}" aria-hidden="true" tabindex="-1">#</a>${numbered}</h${level}>\n`;
       },
       blockquote(this: any, token: Tokens.Blockquote) {
         const inner: string = this.parser.parse(token.tokens);
-        const m = /^<p><strong>([^<]+?)\.?<\/strong>/.exec(inner.trim());
+        const m = /^<p><strong>([^<]+?)\.?<\/strong>\s*/.exec(inner.trim());
         if (!m) return `<blockquote>${inner}</blockquote>\n`;
         const labelText = m[1].replace(/\.$/, '');
         const kind = CALLOUT_KINDS.find(([re]) => re.test(labelText))?.[1] ?? 'note';
-        return `<aside class="callout callout-${kind}" aria-label="${escapeHtml(labelText)}">${inner}</aside>\n`;
+        const body = inner.trim().slice(m[0].length);
+        const rest = body.startsWith('</p>') ? body.slice(4) : `<p>${body}`;
+        return `<aside class="callout callout-${kind}" aria-label="${escapeHtml(labelText)}"><p class="callout-label">${escapeHtml(labelText)}</p>${rest}</aside>\n`;
       },
       table(this: any, token: Tokens.Table) {
         const cell = (c: Tokens.TableCell, tag: 'th' | 'td', i: number) => {
@@ -269,7 +339,7 @@ function buildMarked(state: State): Marked {
           .map((row) => `<tr>${row.map((c, i) => cell(c, 'td', i)).join('')}</tr>`)
           .join('\n');
         const cols = token.header.length;
-        return `<div class="table-wrap" data-cols="${cols}" tabindex="0" role="region" aria-label="${lang === 'vi' ? 'Bảng' : 'Table'}: ${escapeHtml(stripTags(this.parser.parseInline(token.header[0].tokens)))}"><table><thead>${head}</thead><tbody>${body}</tbody></table></div>\n`;
+        return `<div class="table-wrap wide" data-cols="${cols}" tabindex="0" role="region" aria-label="${lang === 'vi' ? 'Bảng' : 'Table'}: ${escapeHtml(stripTags(this.parser.parseInline(token.header[0].tokens)))}"><table><thead>${head}</thead><tbody>${body}</tbody></table></div>\n`;
       },
       html(token: Tokens.HTML | Tokens.Tag) {
         const raw = token.raw;
@@ -294,10 +364,24 @@ function buildMarked(state: State): Marked {
   return marked;
 }
 
+/** Wrap the opening answer ("In brief" in chapters, "The short version" in briefs) in its box. */
+function answerBox(html: string, lang: Lang): string {
+  const m = /<p><strong>([^<]+?)\.<\/strong>\s*([\s\S]*?)<\/p>\n(<ul>[\s\S]*?<\/ul>\n)?/.exec(html);
+  if (!m || !ANSWER_LABELS.test(m[1]) || m.index > 2000) return html;
+  const [all, labelText, rest, list = ''] = m;
+  const body = `${rest.trim() ? `<p>${rest}</p>` : ''}${list}`;
+  const box = `<section class="answer" aria-label="${escapeHtml(labelText)}"><p class="answer-label">${escapeHtml(labelText || t(lang).answer)}</p>${body}</section>\n`;
+  return html.slice(0, m.index) + box + html.slice(m.index + all.length);
+}
+
 /** Render a page body (Markdown with report tokens) to HTML. */
 export function renderMarkdown(markdown: string, opts: RenderOptions): RenderResult {
   const state: State = { opts, citations: [], toc: [], slugs: new Map(), heading: null };
-  const html = buildMarked(state).parse(markdown, { async: false }) as string;
+  let html = buildMarked(state).parse(markdown, { async: false }) as string;
+  html = answerBox(html, opts.lang)
+    // Superscripts and notes attach to the word before them.
+    .replace(/[ \t]+(<sup class="cite">)/g, '$1')
+    .replace(/[ \t]+(<span class="evn")/g, '$1');
   return { html, heading: state.heading, toc: state.toc, citations: state.citations };
 }
 
@@ -306,6 +390,18 @@ export function renderInline(markdown: string, opts: RenderOptions): string {
   const state: State = { opts, citations: [], toc: [], slugs: new Map(), heading: '' };
   return buildMarked(state).parseInline(markdown, { async: false }) as string;
 }
+
+/** A stat tile on its own (the home page), numbered against a page's citations. */
+export function renderKeyNumber(
+  id: string,
+  opts: RenderOptions,
+  size: 'normal' | 'hero' = 'normal',
+): string {
+  const state: State = { opts, citations: [], toc: [], slugs: new Map(), heading: '' };
+  return keyNumberTile(state, id, size);
+}
+
+export { meter };
 
 /** Plain text for search snippets and meta descriptions. */
 export function plainText(markdown: string): string {

@@ -1,45 +1,57 @@
-/* Design tokens. Light is the default; dark applies from the OS setting unless the
-   reader chose light, or when the reader chose dark. */
+/* Design tokens. Light is the default; dark applies from the OS setting unless the reader chose
+   light, or when the reader chose dark. Colour carries meaning only: ink for text, one accent
+   (the brand teal) for links and actions, and named colours for evidence, forecasts, demand
+   evidence and the vision. Chart colours were checked with a palette validator in both themes
+   (categorical: adjacent-pair colour-blind separation and contrast on the paper colour). */
 :root {
   color-scheme: light;
-  --font: 'Work Sans Variable', 'Work Sans', system-ui, -apple-system, 'Segoe UI', sans-serif;
+  --sans: 'Be Vietnam Pro', system-ui, -apple-system, 'Segoe UI', sans-serif;
+  --serif: 'Literata Variable', 'Literata', Georgia, 'Times New Roman', serif;
 
-  --bg: #f7f6f2;
-  --surface: #ffffff;
-  --surface-2: #f0efe9;
-  --surface-3: #e8e7e0;
-  --ink: #16211f;
-  --ink-2: #34423f;
-  --muted: #5b6763;
-  --line: #e0ded5;
-  --line-strong: #c9c7bd;
+  --paper: #f7f5f0;
+  --surface: #fffefb;
+  --wash: #efebe2;
+  --wash-2: #e6e1d5;
+  --ink: #121a19;
+  --ink-2: #34403d;
+  --muted: #5a6662;
+  --rule: #dcd7cb;
+  --rule-strong: #b9b3a5;
 
-  --brand: #009a8f;
-  --brand-ink: #00665e;
-  --brand-soft: #e1f3f0;
-  --brand-strong: #004d47;
+  --accent: #00756c;
+  --accent-ink: #005951;
+  --accent-wash: #dff0ec;
+  --accent-bright: #009a8f;
 
-  --blue: #245f9e;
-  --blue-soft: #e5eef8;
-  --grey-soft: #eceae4;
-  --grey-ink: #4c5552;
+  --ev-direct: #00756c;
+  --ev-adjacent: #4a5f9c;
+  --ev-general: #616461;
+  --meter-off: #d5d0c4;
 
-  --fx: #4a3aa7;
-  --fx-soft: #eeebfb;
-  --dx: #9c4a12;
-  --dx-soft: #fbece2;
-  --vision: #a4285f;
-  --vision-soft: #fbe8f0;
-  --warn: #8a5100;
-  --warn-soft: #fcf1dc;
-  --warn-line: #e8b460;
+  --fx: #5a46b5;
+  --fx-wash: #ebe8f8;
+  --dx: #964714;
+  --dx-wash: #f6e8dc;
+  --vision: #a5295f;
+  --vision-wash: #f8e5ed;
+  --draft: #7a5000;
+  --draft-wash: #f5e9cd;
+  --correction: #9a3412;
+  --correction-wash: #f8e7df;
 
-  --focus: #00665e;
-  --shadow: 0 1px 2px rgb(22 33 31 / 6%), 0 8px 24px -12px rgb(22 33 31 / 18%);
-  --radius: 10px;
-  --radius-sm: 6px;
+  --focus: #00756c;
+  --shadow: 0 1px 2px rgb(18 26 25 / 6%), 0 12px 32px -16px rgb(18 26 25 / 28%);
+  --radius: 6px;
 
-  /* Charts (see scripts/charts) */
+  /* Layout */
+  --measure: 40rem;
+  --note-w: 13.5rem;
+  --note-gap: 2.25rem;
+  --rail-w: 15rem;
+  --page-max: 80rem;
+  --gutter: clamp(16px, 4vw, 40px);
+
+  /* Charts (scripts/charts): series 7 is green, 4 amber and 8 red where charts mean status. */
   --series-1: #009a8f;
   --series-2: #eb6834;
   --series-3: #2a78d6;
@@ -55,48 +67,50 @@
   --seq-5: #009a8f;
   --seq-6: #007b72;
   --seq-7: #005d56;
-  --chart-ink: #16211f;
-  --chart-muted: #56635f;
-  --chart-grid: #e6e9e4;
-  --chart-axis: #9aa39f;
-  --chart-surface: #ffffff;
+  --chart-ink: #121a19;
+  --chart-muted: #56615e;
+  --chart-grid: #e3dfd5;
+  --chart-axis: #a29d90;
+  --chart-surface: #f7f5f0;
   --chart-highlight: #009a8f;
-  --chart-dim: #c9d1cd;
-  --chart-band: rgb(0 154 143 / 14%);
+  --chart-dim: #cfd2cb;
+  --chart-band: rgb(0 154 143 / 13%);
   --chart-on-dark: #ffffff;
+  --line: var(--rule);
 }
 
 @media (prefers-color-scheme: dark) {
   :root:not([data-theme='light']) {
     color-scheme: dark;
-    --bg: #0d1413;
-    --surface: #131c1b;
-    --surface-2: #1a2423;
-    --surface-3: #22302e;
-    --ink: #e7eeec;
-    --ink-2: #c6d2ce;
-    --muted: #9aa8a4;
-    --line: #243230;
-    --line-strong: #34443f;
-    --brand: #1aa89b;
-    --brand-ink: #62d2c5;
-    --brand-soft: #102e2b;
-    --brand-strong: #a6e3da;
-    --blue: #8dbbf0;
-    --blue-soft: #16263a;
-    --grey-soft: #1f2927;
-    --grey-ink: #b8c3c0;
-    --fx: #b3a8f5;
-    --fx-soft: #221d3d;
+    --paper: #111716;
+    --surface: #172020;
+    --wash: #1c2625;
+    --wash-2: #24302f;
+    --ink: #e8eeec;
+    --ink-2: #c0cbc8;
+    --muted: #93a19d;
+    --rule: #28322f;
+    --rule-strong: #3d4a47;
+    --accent: #5cc8bb;
+    --accent-ink: #8fdcd1;
+    --accent-wash: #14302d;
+    --accent-bright: #1aa89b;
+    --ev-direct: #5cc8bb;
+    --ev-adjacent: #9fb2e8;
+    --ev-general: #a7aca9;
+    --meter-off: #36423f;
+    --fx: #b7aaf6;
+    --fx-wash: #221d3c;
     --dx: #f0a878;
-    --dx-soft: #33200f;
+    --dx-wash: #33210f;
     --vision: #f39cc3;
-    --vision-soft: #3a1a2a;
-    --warn: #f2b865;
-    --warn-soft: #2e230f;
-    --warn-line: #8c6224;
-    --focus: #62d2c5;
-    --shadow: 0 1px 2px rgb(0 0 0 / 30%), 0 8px 24px -12px rgb(0 0 0 / 60%);
+    --vision-wash: #3a1a2a;
+    --draft: #f0c06a;
+    --draft-wash: #2c230f;
+    --correction: #f4a385;
+    --correction-wash: #34190f;
+    --focus: #5cc8bb;
+    --shadow: 0 1px 2px rgb(0 0 0 / 30%), 0 12px 32px -16px rgb(0 0 0 / 70%);
     --series-1: #1aa89b;
     --series-2: #d95926;
     --series-3: #3987e5;
@@ -112,11 +126,11 @@
     --seq-5: #1aa89b;
     --seq-6: #58c4b8;
     --seq-7: #a6e3da;
-    --chart-ink: #e7eeec;
-    --chart-muted: #a9b6b2;
-    --chart-grid: #26322f;
-    --chart-axis: #56635f;
-    --chart-surface: #131c1b;
+    --chart-ink: #e8eeec;
+    --chart-muted: #a5b2ae;
+    --chart-grid: #263130;
+    --chart-axis: #55625f;
+    --chart-surface: #111716;
     --chart-highlight: #1aa89b;
     --chart-dim: #34413e;
     --chart-band: rgb(26 168 155 / 18%);
@@ -126,34 +140,35 @@
 
 :root[data-theme='dark'] {
   color-scheme: dark;
-  --bg: #0d1413;
-  --surface: #131c1b;
-  --surface-2: #1a2423;
-  --surface-3: #22302e;
-  --ink: #e7eeec;
-  --ink-2: #c6d2ce;
-  --muted: #9aa8a4;
-  --line: #243230;
-  --line-strong: #34443f;
-  --brand: #1aa89b;
-  --brand-ink: #62d2c5;
-  --brand-soft: #102e2b;
-  --brand-strong: #a6e3da;
-  --blue: #8dbbf0;
-  --blue-soft: #16263a;
-  --grey-soft: #1f2927;
-  --grey-ink: #b8c3c0;
-  --fx: #b3a8f5;
-  --fx-soft: #221d3d;
+  --paper: #111716;
+  --surface: #172020;
+  --wash: #1c2625;
+  --wash-2: #24302f;
+  --ink: #e8eeec;
+  --ink-2: #c0cbc8;
+  --muted: #93a19d;
+  --rule: #28322f;
+  --rule-strong: #3d4a47;
+  --accent: #5cc8bb;
+  --accent-ink: #8fdcd1;
+  --accent-wash: #14302d;
+  --accent-bright: #1aa89b;
+  --ev-direct: #5cc8bb;
+  --ev-adjacent: #9fb2e8;
+  --ev-general: #a7aca9;
+  --meter-off: #36423f;
+  --fx: #b7aaf6;
+  --fx-wash: #221d3c;
   --dx: #f0a878;
-  --dx-soft: #33200f;
+  --dx-wash: #33210f;
   --vision: #f39cc3;
-  --vision-soft: #3a1a2a;
-  --warn: #f2b865;
-  --warn-soft: #2e230f;
-  --warn-line: #8c6224;
-  --focus: #62d2c5;
-  --shadow: 0 1px 2px rgb(0 0 0 / 30%), 0 8px 24px -12px rgb(0 0 0 / 60%);
+  --vision-wash: #3a1a2a;
+  --draft: #f0c06a;
+  --draft-wash: #2c230f;
+  --correction: #f4a385;
+  --correction-wash: #34190f;
+  --focus: #5cc8bb;
+  --shadow: 0 1px 2px rgb(0 0 0 / 30%), 0 12px 32px -16px rgb(0 0 0 / 70%);
   --series-1: #1aa89b;
   --series-2: #d95926;
   --series-3: #3987e5;
@@ -169,11 +184,11 @@
   --seq-5: #1aa89b;
   --seq-6: #58c4b8;
   --seq-7: #a6e3da;
-  --chart-ink: #e7eeec;
-  --chart-muted: #a9b6b2;
-  --chart-grid: #26322f;
-  --chart-axis: #56635f;
-  --chart-surface: #131c1b;
+  --chart-ink: #e8eeec;
+  --chart-muted: #a5b2ae;
+  --chart-grid: #263130;
+  --chart-axis: #55625f;
+  --chart-surface: #111716;
   --chart-highlight: #1aa89b;
   --chart-dim: #34413e;
   --chart-band: rgb(26 168 155 / 18%);

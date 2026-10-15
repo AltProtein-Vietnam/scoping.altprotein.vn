@@ -249,7 +249,7 @@ Why soybeans count as imported:
 
 > **Correction.** The wave 1 formulation note used USDA Post estimates for marketing year 2024/25: about 42,000 t of domestic soybeans against about 2.5 Mt of imports, a domestic share of about 1.6% [@FORM-09] {VN-direct|High}. The report now uses calendar-year 2025 customs data: Vietnam imported 2.61 Mt of soybeans in 2025 (USD 1.21 billion), which is about 98.4% of imports plus domestic output (domestic output 42 to 43 kt) [@MAC-09; @MAC-04] {VN-direct|Medium}. Origins in 2025: Brazil 1.20 Mt (45.8%), United States 1.14 Mt (43.6%), Canada 0.19 Mt (7.3%) [@MAC-09] {VN-direct|High}. The conclusion does not change: soy protein in Vietnamese food is almost entirely imported.
 
-Why "domestic" mung bean is only partly domestic: Vietnam imported USD 138.3 million of mung and black gram beans (HS 0713.31) in 2023, mainly from Myanmar (65% of value), Cambodia (13%) and Argentina (8%) [@FORM-08] {VN-direct|Medium}. The reported tonnage (103,835 t) is imputed at a uniform unit value, so it is not a measurement [@FORM-08] {VN-direct|Medium}. Domestic mung bean production was not established. The import flag treats mung bean as domestic, so the shares above understate import dependence.
+Why "domestic" mung bean is only partly domestic: Vietnam imported USD 138.3 million of mung and black gram beans (HS 0713.31) in 2023, mainly from Myanmar (65% of value), Cambodia (13%) and Argentina (8%) [@FORM-08] {VN-direct|Medium}. The reported tonnage (103,835 t) is imputed at a uniform unit value, so it is not a measurement [@FORM-08] {VN-direct|Medium}. Exporting countries report larger, cheaper flows: 129,380 t at USD 0.67 per kg free on board (FOB) in 2023, 185,470 t at USD 0.70 in 2024 and 167,108 t at USD 0.81 in 2025, with Myanmar alone at 109,577 t in 2025 [@SLP-14] {VN-direct|Medium}. For 2023 the two reports disagree on tonnage and unit value. We use the partner tonnage and unit values for volumes and prices, and Vietnam's value as the import bill; we do not average them ([[app-r2-disagreements]], DG-378). Domestic output may be about 92,000 t on about 83,000 ha, but that comes from a search snippet of a regional study, with the year not seen [@SLP-15] {VN-direct|Low}. The import flag treats mung bean as domestic, so the shares above understate import dependence.
 
 ## S2.10 Supply chain of the main protein ingredients
 
@@ -264,7 +264,8 @@ China reports its exports to Vietnam by tonnage. Vietnam's own reported tonnages
 | Other protein substances, incl. SPI, peptones, collagen peptides (3504) | 2023 | 10,028 t, USD 16.31 million | USD 1.63/kg | USD 22.18 million | China 45%, United States 15%, Spain 12%, Japan 8% | [@FORM-06; @FORM-04] {VN-direct\|High} |
 | Same (3504) | 2024 | 25,267 t, USD 25.91 million | USD 1.03/kg | not yet reported | n/a | [@RGN-47] {VN-direct\|Medium} |
 | Wheat gluten (1109) | 2023 | 10,338 t, USD 17.85 million | USD 1.73/kg | USD 31.06 million (12,337 t, imputed) | China 59%, Australia 13%, France 11%, Belgium 9%, Germany 5%, Austria 2% | [@FORM-07; @FORM-03] {VN-direct\|High} |
-| Mung and black gram beans (0713.31) | 2023 | n/a | n/a | USD 138.3 million (103,835 t, imputed) | Myanmar 65%, Cambodia 13%, Argentina 8%, Australia 5%, Brazil 3% | [@FORM-08] {VN-direct\|Medium} |
+| Mung and black gram beans (0713.31) | 2023 | n/a from China; all exporting partners together report 129,380 t, USD 86.1 million FOB | USD 0.67/kg (all partners) | USD 138.3 million (103,835 t, imputed) | Myanmar 65%, Cambodia 13%, Argentina 8%, Australia 5%, Brazil 3% | [@FORM-08; @SLP-14] {VN-direct\|Medium} |
+| Same (0713.31) | 2024; 2025 | n/a from China; all exporting partners report 185,470 t (2024) and 167,108 t (2025; Myanmar 109,577 t) | USD 0.70/kg; USD 0.81/kg (all partners) | not used | n/a | [@SLP-14] {VN-direct\|Medium} |
 
 Cautions:
 
@@ -388,7 +389,7 @@ What a domestic supplier could replace, most realistic first (our reading of the
 - **Label values, not laboratory values.** Eight protein values were borrowed from the same product's label elsewhere in the audit. One brand-wide average (Fami 1.9 g) conflicts with carton labels (2.5 g).
 - **Translation.** Some ingredient lists were translated by the collector.
 - **Prices.** 34 rows have low-confidence price reads; 27 rows use online reference prices, not shelf prices; one outlier is excluded.
-- **Import flag.** Inferred from ingredient type, not traced suppliers; mung bean is treated as domestic although Vietnam imported about USD 138 million of it in 2023 (roughly 100,000 t, imputed; includes black gram) [@FORM-08] {VN-direct|Medium}.
+- **Import flag.** Inferred from ingredient type, not traced suppliers; mung bean is treated as domestic although Vietnam imported about USD 138 million of it in 2023 (includes black gram). Vietnam reports about 104,000 t (imputed); partners report about 129,000 t [@FORM-08; @SLP-14] {VN-direct|Medium}.
 - **Trade data.** 2023 is the latest year reported by Vietnam to WITS at access; Vietnam-reported tonnages are imputed; the codes include non-alt-protein uses.
 - **Company research was cut short.** The formulation agent's web search budget ran out after about 15 searches (wave 1 formulation working note). Xuan Hong, Kashew and GN Foods sites were unreachable, the Deep Blue Island domain redirected to an unrelated site, and Vinamilk product pages returned errors {VN-direct|Medium}.
 

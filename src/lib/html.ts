@@ -1,81 +1,84 @@
-import type { Lang } from './i18n';
+import { t, type Lang } from './i18n';
 
 export const escapeHtml = (s: string) =>
   s.replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;').replace(/"/g, '&quot;');
+const e = escapeHtml;
 
-const EVIDENCE_LABELS: Record<string, { en: string; vi: string }> = {
-  'VN-direct': { en: 'evidence about Vietnam', vi: 'bằng chứng về Việt Nam' },
-  'VN-adjacent': {
-    en: 'evidence from a comparable country, transfer assumed',
-    vi: 'bằng chứng từ nước tương đồng',
-  },
-  general: {
-    en: 'global evidence, not specific to Vietnam',
-    vi: 'bằng chứng chung, không riêng Việt Nam',
-  },
-};
-const CONFIDENCE_VI: Record<string, string> = { High: 'Cao', Medium: 'Trung bình', Low: 'Thấp' };
-const FX_LABELS: Record<string, { en: string; vi: string; tip: string }> = {
-  trend: { en: 'trend', vi: 'xu hướng', tip: 'Observed change expected to continue' },
-  projection: {
-    en: 'projection',
-    vi: 'dự phóng',
-    tip: 'A published model result or an official target',
-  },
-  estimate: { en: 'estimate', vi: 'ước tính', tip: 'Our own calculation from stated assumptions' },
-  signal: {
-    en: 'signal',
-    vi: 'tín hiệu',
-    tip: 'An emerging development that may or may not scale',
-  },
-  wildcard: { en: 'wildcard', vi: 'biến cố hiếm', tip: 'Low-probability, high-impact event' },
-  vision: {
-    en: 'vision',
-    vi: 'tầm nhìn',
-    tip: 'Normative: what we think should happen, not a forecast',
-  },
-};
+export type Scope = 'direct' | 'adjacent' | 'general';
+export const scopeOf = (label: string): Scope =>
+  label === 'VN-direct' ? 'direct' : label === 'VN-adjacent' ? 'adjacent' : 'general';
 
+/** One evidence statement: the report's {VN-direct|High} {fx:...} {dx:...} tokens for a claim. */
+export interface Evidence {
+  label?: string;
+  confidence?: string;
+  fx?: string;
+  dx?: string;
+}
+
+/** Three-step confidence meter (decorative; the sentence carries the meaning). */
+export function meter(confidence: string): string {
+  const c = confidence.toLowerCase();
+  return `<span class="meter" data-conf="${e(c)}" aria-hidden="true"><i></i><i></i><i></i></span>`;
+}
+
+/** The full sentence a screen reader hears, and the tooltip text. */
+export function evidenceSentence(ev: Evidence, lang: Lang): string {
+  const s = t(lang);
+  const parts: string[] = [];
+  if (ev.label && ev.confidence) {
+    const scope = scopeOf(ev.label);
+    parts.push(
+      `${s.evidenceLabel}: ${s.scopeLong[scope]}; ${s.confLong[ev.confidence.toLowerCase()] ?? ev.confidence}.`,
+    );
+  }
+  if (ev.fx) parts.push(`${s.foresightLabel}: ${s.fx[ev.fx] ?? ev.fx}, ${s.fxLong[ev.fx] ?? ''}.`);
+  if (ev.dx) parts.push(`${s.demandLabel}: ${s.dx[ev.dx] ?? ev.dx}, ${s.dxLong[ev.dx] ?? ''}.`);
+  return parts.join(' ');
+}
+
+/**
+ * The evidence note for a claim. On wide screens it floats into the margin beside the line that
+ * holds the claim; on narrow screens, and inside tables and callouts, it is a small inline mark.
+ * `nums` are the per-page source numbers of the claim's citations, shown so the eye can match
+ * the note to the superscript in the text.
+ */
+export function evidenceNote(
+  ev: Evidence,
+  lang: Lang,
+  opts: { nums?: number[]; inline?: boolean } = {},
+): string {
+  const s = t(lang);
+  const bits: string[] = [];
+  if (opts.nums?.length && !opts.inline)
+    bits.push(`<span class="evn-nums">${opts.nums.join(', ')}</span>`);
+  if (ev.label && ev.confidence) {
+    const scope = scopeOf(ev.label);
+    const conf = ev.confidence.toLowerCase();
+    bits.push(
+      `${meter(conf)}<span class="evn-scope" data-ev="${scope}">${e(s.scope[scope])}</span><span class="evn-conf"> · ${e(s.conf[conf] ?? ev.confidence)}</span>`,
+    );
+  }
+  if (ev.fx)
+    bits.push(`<span class="evn-tag" data-fx="${e(ev.fx)}">${e(s.fx[ev.fx] ?? ev.fx)}</span>`);
+  if (ev.dx)
+    bits.push(`<span class="evn-tag" data-dx="${e(ev.dx)}">${e(s.dx[ev.dx] ?? ev.dx)}</span>`);
+  const sentence = evidenceSentence(ev, lang);
+  const kinds = [ev.label ? 'ev' : '', ev.fx ? `fx-${ev.fx}` : '', ev.dx ? `dx-${ev.dx}` : '']
+    .filter(Boolean)
+    .join(' ');
+  return `<span class="evn${opts.inline ? ' is-inline' : ''}" data-kinds="${kinds}" title="${e(sentence)}"><span class="evn-body" aria-hidden="true">${bits.join(' ')}</span><span class="visually-hidden">${e(sentence)}</span></span>`;
+}
+
+/** A compact inline mark for tiles, charts and widgets (never floated). */
 export function evidenceBadge(label: string, confidence: string, lang: Lang): string {
-  const kind = label === 'VN-direct' ? 'direct' : label === 'VN-adjacent' ? 'adjacent' : 'general';
-  const conf = confidence.toLowerCase();
-  const tip =
-    lang === 'vi'
-      ? `Bằng chứng: ${label} (${EVIDENCE_LABELS[label]?.vi}). Độ tin cậy: ${CONFIDENCE_VI[confidence] ?? confidence}.`
-      : `Evidence: ${label} (${EVIDENCE_LABELS[label]?.en}). Confidence: ${confidence}.`;
-  return `<span class="ev" data-ev="${kind}" data-conf="${conf}" role="note" aria-label="${escapeHtml(tip)}" title="${escapeHtml(tip)}"><span class="ev-l" aria-hidden="true">${escapeHtml(label)}</span><span class="ev-c" aria-hidden="true"><i></i><i></i><i></i>${escapeHtml(lang === 'vi' ? (CONFIDENCE_VI[confidence] ?? confidence) : confidence)}</span></span>`;
+  return evidenceNote({ label, confidence }, lang, { inline: true });
 }
 
 export function foresightBadge(type: string, lang: Lang): string {
-  const info = FX_LABELS[type];
-  if (!info) return '';
-  const tip = `${lang === 'vi' ? 'Loại dự báo' : 'Foresight'}: ${info.en}. ${info.tip}.`;
-  return `<span class="fx" data-fx="${type}" role="note" aria-label="${escapeHtml(tip)}" title="${escapeHtml(tip)}"><span aria-hidden="true">${escapeHtml(lang === 'vi' ? info.vi : info.en)}</span></span>`;
+  return evidenceNote({ fx: type }, lang, { inline: true });
 }
 
-const DX_LABELS: Record<string, { en: string; vi: string; tip: string }> = {
-  stated: {
-    en: 'stated',
-    vi: 'được nêu',
-    tip: 'What people say: surveys, focus groups, stated intentions or willingness to pay',
-  },
-  revealed: {
-    en: 'revealed',
-    vi: 'bộc lộ',
-    tip: 'What people or firms do: sales, purchases, prices, trade, menus, shelves',
-  },
-  tested: {
-    en: 'tested',
-    vi: 'được thử',
-    tip: 'Tastings, real-money auctions, choice experiments or field trials',
-  },
-  inferred: { en: 'inferred', vi: 'suy luận', tip: 'Our inference or calculation' },
-};
-
-/** Badge for the kind of demand evidence (Part III). */
 export function demandBadge(type: string, lang: Lang): string {
-  const info = DX_LABELS[type];
-  if (!info) return '';
-  const tip = `${lang === 'vi' ? 'Bằng chứng về nhu cầu' : 'Demand evidence'}: ${info.en}. ${info.tip}.`;
-  return `<span class="dx" data-dx="${type}" role="note" aria-label="${escapeHtml(tip)}" title="${escapeHtml(tip)}"><span aria-hidden="true">${escapeHtml(lang === 'vi' ? info.vi : info.en)}</span></span>`;
+  return evidenceNote({ dx: type }, lang, { inline: true });
 }

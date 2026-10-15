@@ -345,7 +345,7 @@
     "international"
    ],
    "reading_time_min": 10,
-   "summary": "Only one alternative-protein deal in Vietnam has exceeded USD 5 million: Entobel's insect-meal plant. It is an insect-feed deal outside this study's focus, but its structure (local private equity, a small development-finance ticket and a seafood exporter's offtake) is the one proven template. Agriculture venture capital in Vietnam was about USD 1 million in 2025, new state venture funds are small, and global alternative-protein investment has shifted towards fermentation and ingredients.",
+   "summary": "No disclosed deal in Vietnam in the protein families this study covers has exceeded USD 5 million, and there is no proven local template for financing a plant. Agriculture venture capital in Vietnam was about USD 1 million in 2025, new state venture funds are small, and global alternative-protein investment has shifted towards fermentation and ingredients.",
    "path": "content/01-report/ch08-capital.md",
    "lang": "en"
   },
@@ -384,7 +384,7 @@
     "international"
    ],
    "reading_time_min": 11,
-   "summary": "We test ten technology families against seven Vietnamese conditions: feedstock, industrial base, science readiness, route to market, buyers, competition and capital intensity. Textured plant protein for food fits now. Local legume and rice proteins and fungal foods are worth proving. Precision fermentation fits only as high-value, low-dose ingredients made under contract. Cultivated meat and seafood are research topics for this decade. Feed uses stay in the matrix as a record but are context only, and insects are a benchmark, not a recommendation.",
+   "summary": "We test ten technology families against seven Vietnamese conditions: feedstock, industrial base, science readiness, route to market, buyers, competition and capital intensity. Textured plant protein for food fits now. Local legume and rice proteins and fungal foods are worth proving. Precision fermentation fits only as high-value, low-dose ingredients made under contract. Cultivated meat and seafood are research topics for this decade. Feed uses stay in the matrix as a record but are context only.",
    "path": "content/01-report/ch10-technology-fit.md",
    "lang": "en"
   },
@@ -704,7 +704,7 @@
     "international"
    ],
    "reading_time_min": 15,
-   "summary": "We describe seven concrete plays for making protein for people in Vietnam, each with the tests that would kill it, and score them on seven criteria with weights readers can change. Domestic textured plant protein, a cassava-starch-to-fermentation-sugar hub and shared pilot and tolling fermentation lead, and four public goods would lower the cost of every play.",
+   "summary": "We describe seven concrete plays for making protein for people in Vietnam, each with the tests that would kill it, and score them on seven criteria with weights readers can change. Domestic textured plant protein, a cassava-starch-to-fermentation-sugar hub and shared pilot and tolling fermentation lead, and four public goods would lower the cost of every play. A screen of 170 published solutions adds three candidates that are not yet ranked.",
    "path": "content/01-report/ch26-plays.md",
    "lang": "en"
   },
@@ -782,7 +782,7 @@
     "manufacturers"
    ],
    "reading_time_min": 10,
-   "summary": "Desk research has reached diminishing returns. The eighteen unknowns that matter most for protein for people can mostly be closed by a letter to a ministry, a phone call to a starch factory or food maker, or a query to customs. Four of them decide how far the food-security case reaches. We list them in priority order, with the play or move each one unblocks and who to ask. The full register holds 473 open questions and 372 recorded disagreements between sources.",
+   "summary": "Desk research has reached diminishing returns. The eighteen unknowns that matter most for protein for people can mostly be closed by a letter to a ministry, a phone call to a starch factory or food maker, or a query to customs. Four of them decide how far the food-security case reaches. We list them in priority order, with the play or move each one unblocks and who to ask. The full register holds 472 open questions and 372 recorded disagreements between sources.",
    "path": "content/01-report/ch30-unknowns.md",
    "lang": "en"
   },
@@ -972,7 +972,7 @@
     "manufacturers"
    ],
    "reading_time_min": 49,
-   "summary": "Every version of this draft report and what it changed, including the refocus on protein for people and the food-security research of v0.8, the citation check of v0.7 and where each page moved in the v0.6 restructure. It lists every correction to earlier drafts, with what it was, what the report now uses, the source and where it appears.",
+   "summary": "Every version of this draft report and what it changed, including the removal of insect protein in v0.9, the refocus on protein for people and the food-security research of v0.8, the citation check of v0.7 and where each page moved in the v0.6 restructure. It lists every correction to earlier drafts, with what it was, what the report now uses, the source and where it appears.",
    "path": "content/03-appendices/app-m5-changelog.md",
    "lang": "en"
   },
@@ -992,7 +992,7 @@
     "international"
    ],
    "reading_time_min": 35,
-   "summary": "A guided tour of the 97 companies and organisations in companies.csv, grouped by what they do, with location, scale signal, status and sources, followed by a dated timeline of Vietnamese alternative protein from 2015 to September 2026. Feed firms are kept as context.",
+   "summary": "A guided tour of the 91 companies and organisations in companies.csv, grouped by what they do, with location, scale signal, status and sources, followed by a dated timeline of Vietnamese alternative protein from 2015 to September 2026. Feed firms are kept as context.",
    "path": "content/03-appendices/app-s1-directory.md",
    "lang": "en"
   },
@@ -1188,7 +1188,7 @@
     "manufacturers"
    ],
    "reading_time_min": 26,
-   "summary": "Every disclosed alternative-protein and adjacent agrifood deal linked to Vietnam, the size of Vietnamese venture and private equity markets, the Entobel insect-feed financing as a deal template, global and regional investment trends, development finance, the new state venture funds, grants open in 2026, accelerators and exit routes.",
+   "summary": "Every disclosed alternative-protein and adjacent agrifood deal linked to Vietnam, the size of Vietnamese venture and private equity markets, a possible financing structure for a first plant, a regional deal record for East and Southeast Asia, global and regional investment trends, development finance, the new state venture funds and state credit, grants open in 2026, accelerators, exit routes, and the leasing, factoring and supply-chain finance that can pay for a small processing line.",
    "path": "content/03-appendices/app-s11-capital.md",
    "lang": "en"
   },
@@ -1230,6 +1230,26 @@
    "reading_time_min": 43,
    "summary": "What the peer-reviewed evidence says in 2026 about each alternative-protein technology family, from plant proteins and fermentation to duckweed and cultivated seafood, with the main numbers and DOIs, what each means for Vietnam, and a table of corrections to earlier claims. Feed trials are kept as context.",
    "path": "content/03-appendices/app-s13-science.md",
+   "lang": "en"
+  },
+  {
+   "id": "app-s14-solutions-screen",
+   "title": "S14. Solutions screen: published solutions checked for Vietnam",
+   "short_title": "S14. Solutions screen",
+   "section": "appendix",
+   "part": null,
+   "order": 34,
+   "audiences": [
+    "investors",
+    "startups",
+    "manufacturers",
+    "research",
+    "policy",
+    "international"
+   ],
+   "reading_time_min": 25,
+   "summary": "We checked 170 published solutions for Vietnam: the 112 entries of the Good Food Institute's Solutions Database and 58 publications, research outputs and grants from The Protein Project, the Berkeley Alt:Meat Lab and Coefficient Giving's grantees. For each we ask whether Vietnam should make it, buy it or leave it. Most are covered already or are frontier work Vietnam would buy. None displaces the leading plays; three candidates and more than thirty changes to existing plays, moves and rules came out of it.",
+   "path": "content/03-appendices/app-s14-solutions-screen.md",
    "lang": "en"
   },
   {
@@ -1528,7 +1548,7 @@
     "international"
    ],
    "reading_time_min": 106,
-   "summary": "All 473 open questions left by the research, grouped by topic, with why each matters, the cheapest way to close it, who to ask, and its status. The eighteen priorities are ranked in chapter 30.",
+   "summary": "All 520 open questions left by the research, grouped by topic, with why each matters, the cheapest way to close it, who to ask, and its status. The eighteen priorities are ranked in chapter 30.",
    "path": "content/03-appendices/app-r1-open-questions.md",
    "lang": "en"
   },
@@ -1548,7 +1568,7 @@
     "manufacturers"
    ],
    "reading_time_min": 87,
-   "summary": "All 373 cases where sources disagree, with both claims and the position this report takes. We never average disagreeing numbers.",
+   "summary": "All 393 cases where sources disagree, with both claims and the position this report takes. We never average disagreeing numbers.",
    "path": "content/03-appendices/app-r2-disagreements.md",
    "lang": "en"
   },
@@ -1568,7 +1588,7 @@
     "international"
    ],
    "reading_time_min": 44,
-   "summary": "236 terms used in the report, in English and Vietnamese, with short definitions in both languages, grouped by theme, with sections for futures and foresight, the demand side, the actor check and newcomers. Thuật ngữ song ngữ Anh - Việt dùng trong báo cáo.",
+   "summary": "234 terms used in the report, in English and Vietnamese, with short definitions in both languages, grouped by theme, with sections for futures and foresight, the demand side, the actor check and newcomers. Thuật ngữ song ngữ Anh - Việt dùng trong báo cáo.",
    "path": "content/03-appendices/app-r3-glossary.md",
    "lang": "en"
   },
@@ -1588,7 +1608,7 @@
     "manufacturers"
    ],
    "reading_time_min": 320,
-   "summary": "All 2,480 sources behind the report (806 in v0.1, 469 added by the futures round of v0.2, 451 by the demand round of v0.3, 577 by the actor check and expansion waves of v0.4, 81 by the prologue research of v0.5 and 96 by the food-security round of v0.8, including six from its editorial checks), grouped by the research stream that found them. Each citation code in the text links here and to sources.csv.",
+   "summary": "All 2,669 sources behind the report (765 in v0.1, 469 added by the futures round of v0.2, 450 by the demand round of v0.3, 573 by the actor check and expansion waves of v0.4, 81 by the prologue research of v0.5 and 96 by the food-security round of v0.8, including six from its editorial checks, 50 by the regional deals round of v0.9 and 185 by the solutions screen of v0.10), grouped by the research stream that found them. Each citation code in the text links here and to sources.csv.",
    "path": "content/03-appendices/app-r4-sources.md",
    "lang": "en"
   }
@@ -1801,7 +1821,7 @@
      ]
     },
     {
-     "label": "Context and supply evidence (S1 to S13)",
+     "label": "Context and supply evidence (S1 to S14)",
      "children": [
       {
        "page": "app-s1-directory"
@@ -1841,6 +1861,9 @@
       },
       {
        "page": "app-s13-science"
+      },
+      {
+       "page": "app-s14-solutions-screen"
       }
      ]
     },
@@ -1984,6 +2007,7 @@
    "ch23-scenarios-2050",
    "ch25-demand-to-frontier",
    "ch26-plays",
+   "app-s14-solutions-screen",
    "ch29-actor-check",
    "app-s4-feedstocks",
    "app-s5-facilities",
@@ -2033,6 +2057,7 @@
    "app-s7-research",
    "app-s8-labs-talent",
    "app-s13-science",
+   "app-s14-solutions-screen",
    "app-d2-consumer-evidence",
    "app-d8-demand-model",
    "app-f4-balance-model",
@@ -2145,7 +2170,10 @@
   "route_input_origin": "data/route_input_origin.csv",
   "protein_import_concentration": "data/protein_import_concentration.csv",
   "meat_dairy_imports": "data/meat_dairy_imports.csv",
-  "origin_support": "data/origin_support.csv"
+  "origin_support": "data/origin_support.csv",
+  "solutions_screen": "data/solutions_screen.csv",
+  "surimi_trade": "data/surimi_trade.csv",
+  "coefficient_giving_grants": "data/coefficient_giving_grants.csv"
  },
  "working_papers": "working-papers/",
  "bibliography": "sources/bibliography.md",
@@ -2163,11 +2191,11 @@
    "required_on": "Part III pages (warning if absent)"
   }
  },
- "version": "0.8",
+ "version": "0.10",
  "status": "draft",
  "draft_notice": {
-  "en": "Draft for review, version 0.8. Not for citation.",
-  "vi": "Bản thảo để góp ý, phiên bản 0.8. Không dùng để trích dẫn.",
+  "en": "Draft for review, version 0.10. Not for citation.",
+  "vi": "Bản thảo để góp ý, phiên bản 0.10. Không dùng để trích dẫn.",
   "placement": "Show on every page as a footer, and as a banner on the cover and the summary pages, until version 1.0."
  },
  "versions": [
@@ -2218,6 +2246,18 @@
    "date": "2026-10",
    "earlier_label": null,
    "note": "Protein for people: scope narrowed to protein for human consumption, feed only as context; feed plays, moves and policy options retired; research round testing food-security hypotheses (wave 11: imported meat and subsidies, disease and pandemic risk, other exposures, a protein balance for people); every page edited to the GOV.UK clear-language standard. See Appendix M5, M5.14."
+  },
+  {
+   "version": "0.9",
+   "date": "2026-10",
+   "earlier_label": null,
+   "note": "Insect protein removed from the study; regional deal record for East and Southeast Asia (wave 12). See Appendix M5, M5.15."
+  },
+  {
+   "version": "0.10",
+   "date": "2026-10",
+   "earlier_label": null,
+   "note": "A screen of 170 published solutions for Vietnam, including GFI's Solutions Database (wave 13, 185 sources): new Appendix S14, three candidates listed but not ranked (T11, T12, P7), policy option PO-034, and corrections to rules, costs and moves. See Appendix M5, M5.16."
   }
  ]
 }

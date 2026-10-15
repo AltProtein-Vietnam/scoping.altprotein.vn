@@ -1,6 +1,6 @@
 # Alternative protein in Vietnam: a supply-side scoping study
 
-**Publisher:** AltProtein Vietnam · **Version:** 0.8, October 2026 · **Status:** draft for review, not for citation (version 1.0 will be the public launch) · **Languages:** English, with a Vietnamese prologue, a Vietnamese executive summary and a bilingual glossary
+**Publisher:** AltProtein Vietnam · **Version:** 0.10, October 2026 · **Status:** draft for review, not for citation (version 1.0 will be the public launch) · **Languages:** English, with a Vietnamese prologue, a Vietnamese executive summary and a bilingual glossary
 
 This folder is the complete content and data package for the study. It is designed to be turned into an interactive website. It contains **no website code**. This README is the build brief for whoever (or whichever tool, for example Claude Code) builds the site.
 
@@ -18,19 +18,19 @@ altprotein-vn-supply-scoping-2026/
 │   ├── 00-front/             cover, two-minute summary, executive summary (EN and VI), at a glance, prologue (EN and VI), how to read, FAQ
 │   ├── 01-report/            30 chapters in five parts: I Context (1 to 3), II Supply (4 to 10), III Demand (11 to 18), IV Futures (19 to 24), V What to do (25 to 30)
 │   ├── 02-briefs/            six audience briefs
-│   └── 03-appendices/        36 appendices by theme: M1 to M5 method and record, S1 to S13 context and supply evidence, D1 to D8 demand evidence, F1 to F6 futures evidence, R1 to R4 registers
-├── data/                     194 CSV files, key-numbers.json, data-dictionary.md
+│   └── 03-appendices/        37 appendices by theme: M1 to M5 method and record, S1 to S14 context and supply evidence, D1 to D8 demand evidence, F1 to F6 futures evidence, R1 to R4 registers
+├── data/                     198 CSV files, key-numbers.json, data-dictionary.md
 ├── charts/
-│   ├── chart-specs.json      56 chart definitions (data, encoding, notes, alt text)
+│   ├── chart-specs.json      57 chart definitions (data, encoding, notes, alt text)
 │   └── data/                 chart-ready CSVs for charts not built from data/
-├── sources/                  sources.csv (2,480 sources) and bibliography.md
-├── working-papers/           unedited research notes from waves 1 to 11 and the field logs (they use the chapter numbers and appendix letters of the time; see Appendix M5, section M5.3)
+├── sources/                  sources.csv (2,715 sources, 2,669 active) and bibliography.md
+├── working-papers/           unedited research notes from waves 1 to 13 and the field logs (they use the chapter numbers and appendix letters of the time; see Appendix M5, section M5.3)
 ├── tools/validate.py         checks citations, evidence and foresight tags, links, embeds, tables and dashes
 ├── tools/balance_model.py    the protein and feed balance model behind chapter 22 (standard library only)
 └── tools/demand_model.py     the demand sizing model behind chapter 18 (standard library only; reads the balance model outputs)
 ```
 
-81 pages in total: 9 front pages, 30 chapters, 6 briefs, 36 appendices.
+82 pages in total: 9 front pages, 30 chapters, 6 briefs, 37 appendices.
 
 ## 2. Content model
 
@@ -55,14 +55,14 @@ Anchors: headings should get stable slugs. `app-r4-sources` contains an HTML anc
 
 ## 3. What the site should do
 
-1. **Draft notice.** Until version 1.0, show `draft_notice` from the manifest ("Draft for review, version 0.8. Not for citation.") as a footer on every page, and as a banner on the cover and the summary pages (the pages also carry a "Draft for review" callout). Use `draft_notice.vi` on Vietnamese pages. Do not show a suggested citation.
+1. **Draft notice.** Until version 1.0, show `draft_notice` from the manifest ("Draft for review, version 0.10. Not for citation.") as a footer on every page, and as a banner on the cover and the summary pages (the pages also carry a "Draft for review" callout). Use `draft_notice.vi` on Vietnamese pages. Do not show a suggested citation.
 2. **Navigation** from `site-manifest.json` (`nav`): Home; Summary (two-minute summary, executive summaries, at a glance); Start here (prologues, how to read, FAQ); Report (five parts); For you (briefs); Appendices (five themed groups); Data. Show chapter numbers and appendix codes in the navigation. Do not mark pages as "new": version history lives in Appendix M5.
 3. **Audience paths.** `audience_paths` in the manifest gives an ordered reading list per audience, plus `newcomers` and `vietnamese-readers`. Offer an audience switcher on the home page; highlight pages tagged for the chosen audience (`audiences` in frontmatter).
 4. **Bilingual.** English is the default. `front-exec-summary-vi` and `front-prologue-vi` are full Vietnamese pages (`lang: vi`); link them prominently from the home page and their English versions. The glossary (`app-r3-glossary`, and `data/glossary.csv`) is bilingual; a searchable glossary widget is welcome. Set `lang` attributes correctly and use a font with full Vietnamese diacritics.
-5. **Stat tiles** from `data/key-numbers.json` (159 entries). `label_vi` exists for each tile, so tiles on Vietnamese pages can show Vietnamese labels. Some entries carry `foresight_type` and `horizon`; show the foresight badge on those tiles and label `vision` tiles "Vision, not forecast". Entries with `demand_evidence_type` show the demand evidence badge. `version` records the draft that added a tile; it is not for display.
+5. **Stat tiles** from `data/key-numbers.json` (157 entries). `label_vi` exists for each tile, so tiles on Vietnamese pages can show Vietnamese labels. Some entries carry `foresight_type` and `horizon`; show the foresight badge on those tiles and label `vision` tiles "Vision, not forecast". Entries with `demand_evidence_type` show the demand evidence badge. `version` records the draft that added a tile; it is not for display.
 6. **Charts:** render as **inline SVG** generated at build time. **Do not use Chart.js** or canvas charting libraries. Each spec has `type`, `data`, `encoding`, `annotations`, `notes`, `alt_text`, `source_ids`, evidence and confidence. Show a source line under each chart and include a visually hidden data table for accessibility.
 7. **Interactive plays ranking** (`chart-plays-scoring` on `ch26-plays`): preset selector from `data/play_weight_presets.csv` plus sliders for the seven criteria in `data/play_criteria.csv`; weighted score = sum(score x weight) / 100 over `data/plays.csv` rows where `type == play`. Provide the static balanced ranking when JavaScript is off. Clicking a play should show its card (what, why Vietnam, must be true, kill tests, first customers, partners, horizon, capital).
-8. **Data browser** for `data/*.csv` with filtering, sorting, CSV download and the column descriptions in `data/data-dictionary.md`. Serve the four registers (open questions, disagreements, glossary, sources) mainly as filterable views rather than long pages. Useful views: companies (97), facilities (82), sources (2,480), open questions (473), disagreements (373), policy options (33), retail audit SKUs (186), the balance and demand model outputs, scenarios and signposts, moves for any 2050 (`robust_moves.csv`), target product profiles, demand moves and the actor check.
+8. **Data browser** for `data/*.csv` with filtering, sorting, CSV download and the column descriptions in `data/data-dictionary.md`. Serve the four registers (open questions, disagreements, glossary, sources) mainly as filterable views rather than long pages. Useful views: companies (91 active), facilities (83), sources (2,669 active), open questions (520 active), disagreements (393 active), policy options (34), retail audit SKUs (186), the balance and demand model outputs, scenarios and signposts, moves for any 2050 (`robust_moves.csv`), target product profiles, demand moves and the actor check.
 9. **Long pages.** Generate a table of contents for any page over about 4,000 words, and keep heading anchors stable.
 10. **Search** across pages, glossary and the main data tables.
 11. **Corrections.** Style `> **Correction.**` callouts consistently; `app-m5-changelog` lists them all with the version history.
@@ -89,7 +89,7 @@ Anchors: headings should get stable slugs. `app-r4-sources` contains an HTML anc
 
 ## 6. Scope and framing (for the About page)
 
-The study covers the supply side (raw materials, processes, manufacturing, rules, capital, science), today and to 2050. It is about protein for people: what Vietnam could make at home for people to eat, from what, at what cost, under which rules, and who would buy it. In short: protein for people first; feed only as context. Feed is the hidden import behind the meat, eggs, milk and farmed fish that people eat, so it is part of the food-security picture. But the study does not treat feed ingredients (fishmeal replacements, or microbial, insect or duckweed feed) as something to make; the earlier feed assessment is kept as the record in Appendices S6, F6 and M5. Cultivated meat is fully scoped. Insect protein appears only as an incumbent and benchmark, not as a recommended play. The framing is neutral and led by the security of the protein people eat, industrial value and trade; animal welfare and environment are stated as motivations for some actors. The futures part uses foresight: scenarios with signposts and one clearly labelled normative vision; none of it is a forecast. The demand part treats demand as a design input: what households, kitchens, food makers and foreign buyers eat, pay and buy, and what that asks of anyone making new protein. It sizes demand routes as labelled scenarios, gives no market-size forecast, sets no diet goal and is not a marketing plan. The conclusions were checked against what 80 named funders, investors, startups, incumbents, regulators and researchers decide, pay for and ask. The study is not investment, legal or engineering advice.
+The study covers the supply side (raw materials, processes, manufacturing, rules, capital, science), today and to 2050. It is about protein for people: what Vietnam could make at home for people to eat, from what, at what cost, under which rules, and who would buy it. In short: protein for people first; feed only as context. Feed is the hidden import behind the meat, eggs, milk and farmed fish that people eat, so it is part of the food-security picture. But the study does not treat feed ingredients (fishmeal replacements, or microbial or duckweed feed) as something to make; the earlier feed assessment is kept as the record in Appendices S6, F6 and M5. Cultivated meat is fully scoped. The framing is neutral and led by the security of the protein people eat, industrial value and trade; animal welfare and environment are stated as motivations for some actors. The futures part uses foresight: scenarios with signposts and one clearly labelled normative vision; none of it is a forecast. The demand part treats demand as a design input: what households, kitchens, food makers and foreign buyers eat, pay and buy, and what that asks of anyone making new protein. It sizes demand routes as labelled scenarios, gives no market-size forecast, sets no diet goal and is not a marketing plan. The conclusions were checked against what 80 named funders, investors, startups, incumbents, regulators and researchers decide, pay for and ask. The study is not investment, legal or engineering advice.
 
 This is a draft for review, not for citation. Version 1.0 will be the public launch; the citation format will be set then.
 
@@ -112,3 +112,15 @@ In v0.8 (Appendix M5, section M5.14):
 - Research wave 11 tested food-security hypotheses: imported and subsidised meat, animal disease and pandemic risk, other exposures, and where the protein people eat comes from. It added 96 sources (six of them from the editorial checks), 26 open questions, 21 disagreements, ten data files and 16 stat tiles. Three new tiles carry the rebuilt vision, and three feed vision tiles were retired.
 - Seven pages were retitled. Chapter 22 now leads with what people eat, and the chapter 24 vision was rebuilt on the demand model; `vision_milestones.csv` has 25 rows, and its IDs VM-01 to VM-22 now name different milestones.
 - Every page was rewritten to the GOV.UK clear-language standard, and chapter openings became "In brief" boxes. Numbers, citations and tags were kept unless a feed claim was removed.
+
+In v0.9 (Appendix M5, section M5.15):
+
+- Insect protein was removed from the study: it no longer appears in any page, stat tile or chart. Rows about it stay in the data files as the record, marked in a `status_v0_9` column (15 data files and `sources.csv`); views, charts, the glossary and search should show active rows only. Three tiles were removed (156 remain) and 46 sources that nothing cites any more were retired.
+- Research wave 12 logged alternative-protein deals in East and Southeast Asia (`data/regional_deals.csv`, 43 rows; 50 sources, prefix RDL; Appendix S11, section S11.6). It added OQ-474 to OQ-476 and DG-374 to DG-377. Active totals: 2,484 sources, 472 open questions, 372 disagreements, 195 data files.
+
+In v0.10 (Appendix M5, section M5.16):
+
+- Research wave 13 screened 170 published solutions for Vietnam: the 112 entries of the Good Food Institute's Solutions Database and 58 items from The Protein Project, the Berkeley Alt:Meat Lab and Coefficient Giving's grantees. Results are in the new Appendix S14 (`app-s14-solutions-screen`), the data file `solutions_screen.csv`, tile `kn-solutions-screened` and chart `chart-solutions-screen`.
+- Chapter 26 gains section 26.8 with three candidates that are listed but not ranked: T11, T12 and P7. `plays.csv` marks them with `type` `candidate play` or `candidate public good`, so the interactive ranking (`type == play`) leaves them out. `target_product_profiles.csv` adds candidate TPP-12. The leading plays and their ranking are unchanged.
+- The round added 185 sources (2,669 active), OQ-477 to OQ-524 (520 open questions) and DG-378 to DG-398 (393 disagreements). It also added `surimi_trade.csv`, `coefficient_giving_grants.csv` (the funder's 61 grants, read in a separate browser session) and policy option PO-034, which is not yet ranked. Status values that start with `active`, including `active (v0.10: ...)`, are active rows.
+

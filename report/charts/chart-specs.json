@@ -320,7 +320,7 @@
      "significance"
     ]
    },
-   "notes": "timeline.csv lacks some wave 2 events; also plot milestones.csv rows with jurisdiction Vietnam and status in force, de-duplicated by event.",
+   "notes": "timeline.csv lacks some wave 2 events; also plot milestones.csv rows with jurisdiction Vietnam and status in force, de-duplicated by event. Plot rows with status_v0_9 active only.",
    "source_ids": [],
    "evidence": "VN-direct",
    "confidence": "Medium",
@@ -328,7 +328,7 @@
     "ch02-alt-protein-today",
     "app-s1-directory"
    ],
-   "alt_text": "Timeline of events from 2019 to 2026, including Entobel's plants and financing, the 2025 administrative reforms, the GMO decree and the Food Safety Law revision.",
+   "alt_text": "Timeline of events from 2019 to 2026, including plant-based, cultivated and microalgae company events, the 2025 administrative reforms, the GMO decree and the Food Safety Law revision.",
    "render": "Inline SVG generated at build time (no Chart.js). Accessible: include <title> and <desc>, and a visually hidden data table. Respect light and dark themes."
   },
   {
@@ -348,7 +348,7 @@
     ],
     "status_colour": "clear route = green; route with legal risk = amber; no route or unpublished timeline = red (assign from route text; see notes)"
    },
-   "notes": "Colour rule (our classification): self-declaration or listed feed = green; self-declaration with legal risk, or aquafeed trial ambiguity = amber; GMO closed-production, cultivated or new microbial biomass = red.",
+   "notes": "Colour rule (our classification): self-declaration or listed feed = green; self-declaration with legal risk, or aquafeed trial ambiguity = amber; GMO closed-production, cultivated or new microbial biomass = red. Rows with status_v0_9 active only.",
    "source_ids": [
     "REG2-05",
     "REG2-06",
@@ -372,11 +372,9 @@
     "REG2-17",
     "REG-48",
     "REG-29",
-    "REG-30",
     "REG-32",
     "REG-36",
     "REG-41",
-    "REG-44",
     "REG2-01",
     "REG2-02",
     "REG-37",
@@ -736,7 +734,7 @@
     "value": "Strong = 3, Moderate = 2, Weak = 1 (mixed cells: use the first word); n/a blank",
     "last_column_text": "verdict"
    },
-   "notes": "Ratings are AltProtein Vietnam judgements based on chapters 2 to 9. Insects shown greyed as benchmark.",
+   "notes": "Ratings are AltProtein Vietnam judgements based on chapters 2 to 9.",
    "source_ids": [],
    "evidence": "VN-direct",
    "confidence": "Medium",
@@ -946,7 +944,7 @@
   {
    "id": "chart-sources-by-type",
    "title": "What the evidence rests on",
-   "subtitle": "2,480 sources by type and research wave (waves 1 and 2: v0.1; waves 3 to 5: v0.2; wave 6: v0.3; waves 7 to 9: v0.4; wave 10: v0.5; wave 11: v0.8)",
+   "subtitle": "2,669 sources by type and research wave (waves 1 and 2: v0.1; waves 3 to 5: v0.2; wave 6: v0.3; waves 7 to 9: v0.4; wave 10: v0.5; wave 11: v0.8; wave 12: v0.9; wave 13: v0.10)",
    "type": "stacked-bar",
    "data": {
     "file": "sources/sources.csv",
@@ -968,7 +966,7 @@
     "app-m1-method",
     "app-r4-sources"
    ],
-   "alt_text": "Bars: 622 press, 490 peer-reviewed, 402 gov/statistics, 336 company, 231 other sources, among others, across eleven research waves.",
+   "alt_text": "Bars: 669 press, 517 peer-reviewed, 407 gov/statistics, 335 company, 274 other sources, among others, across thirteen research waves.",
    "render": "Inline SVG generated at build time (no Chart.js). Accessible: include <title> and <desc>, and a visually hidden data table. Respect light and dark themes."
   },
   {
@@ -2147,6 +2145,35 @@
    "alt_text": "Stacked bars (GFI data): total alternative protein investment rose from about USD 1.4 billion in 2019 to about 7.1 billion in 2021, then fell to 3.2 billion in 2022, 1.6 billion in 2023, 1.1 billion in 2024 and 0.88 billion in 2025; fermentation took 252 of 359 million in the first half of 2026.",
    "render": "Inline SVG generated at build time (no Chart.js). Accessible: include <title> and <desc>, and a visually hidden data table. Respect light and dark themes.",
    "version": "0.5"
+  },
+  {
+   "id": "chart-solutions-screen",
+   "title": "Most published solutions are covered already or are frontier work Vietnam would buy",
+   "subtitle": "170 solutions screened for Vietnam, by source and verdict (research wave 13, October 2026)",
+   "type": "stacked-bar",
+   "data": {
+    "file": "data/solutions_screen.csv",
+    "group_by": [
+     "source_set",
+     "verdict"
+    ]
+   },
+   "encoding": {
+    "y": "source_set",
+    "x": "count",
+    "stack": "verdict",
+    "label": "count"
+   },
+   "source_ids": [
+    "GSD-01"
+   ],
+   "evidence": "VN-direct",
+   "confidence": "Medium",
+   "placement": [
+    "app-s14-solutions-screen"
+   ],
+   "alt_text": "Stacked bars by source. GFI Solutions Database, 112 entries: 46 frontier work to monitor, 24 strengthen existing items, 22 not for Vietnam now, 16 already covered, 2 out of scope and 2 new candidates. The Protein Project, the Berkeley Alt:Meat Lab and Coefficient Giving grantees add 58 items. Across all 170: 55 frontier, 35 strengthen, 31 covered, 30 not now, 14 out of scope, 5 candidates.",
+   "render": "Inline SVG generated at build time (no Chart.js). Accessible: include <title> and <desc>, and a visually hidden data table. Respect light and dark themes."
   }
  ]
 }

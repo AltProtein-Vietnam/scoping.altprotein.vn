@@ -52,7 +52,7 @@ This study no longer treats feed ingredients as something to make. Feed matters 
 
 ## What you could do in the next 12 months
 
-- Pool offtake from two or three chay makers or co-packers, with a distributor, behind one textured-protein line. Or give a startup a specification, a trial order and an agreed volume. Start with five delivered quotes for food-grade soy flour (T1).
+- Pool offtake from two or three chay makers or co-packers, with a distributor, behind one textured-protein line. Do it through parallel supply contracts between each buyer and the line owner, or a cooperative of at least five members. Competing makers should not agree among themselves on the price they pay, because the Law on Competition 2018 bans price-fixing between competitors (our reading, not legal advice) [@SLK-08; @SLK-09] {VN-direct|Medium}. Or give a startup a specification, a trial order and an agreed volume. Start with five delivered quotes for food-grade soy flour (T1).
 - Write a pea-protein replacement specification for plant drinks at or below 5 g of sugar per 100 ml (T10). Ask the Ministry of Finance for a written ruling on whether your sweetened plant milks are *nước giải khát* (soft drinks), and plan recipes below 5 g.
 - Blind-test any fungal extender at equal saving against your own soy recipe, in industrial *xúc xích* (sausage) or a coarse filling (T9).
 - Pitch a 10 g of protein per 100 g version of a private-label chay dish through your co-packer.

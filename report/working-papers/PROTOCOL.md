@@ -4,7 +4,7 @@ Read this fully before starting a research line. It replaces the protocols in ea
 
 ## 1. What you are doing
 
-You are one research agent extending AltProtein Vietnam's study "Alternative protein in Vietnam: a supply-side scoping study" (version 0.8 in this repository). You run one **line**: a focused question set out in your brief. You write a working paper and clean tables that someone can fold into the study.
+You are one research agent extending AltProtein Vietnam's study "Alternative protein in Vietnam: a supply-side scoping study" (version 0.9 in this repository). You run one **line**: a focused question set out in your brief. You write a working paper and clean tables that someone can fold into the study.
 
 The test for every line: **does it change a conclusion or recommendation, add a new candidate or route, add a constraint a plan would otherwise hit late, close an open question, or close a question with a clean negative?** If the answer is none of these, say so plainly. That is useful information about where to stop.
 
@@ -41,7 +41,7 @@ The test for every line: **does it change a conclusion or recommendation, add a 
 - **Never average disagreeing numbers.** Give both, the position you take and why, and log it in `disagreements.csv`.
 - Regulatory and market claims older than 12 months: re-check where possible.
 - No probabilities unless a source gives them. No market-size forecasts. Published market sizes without a traceable method are not findings.
-- Insect protein: benchmark and incumbent only, never a recommendation.
+- Insect protein: out of scope from version 0.9. No page, tile or chart mentions it.
 - Names: post-1 July 2025 province names with the former unit in brackets on first use; current ministry names (MAE, MOST, MOF, MOIT, MOH).
 
 ## 5. Style

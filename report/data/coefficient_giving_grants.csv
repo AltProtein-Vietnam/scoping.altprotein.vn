@@ -1,0 +1,62 @@
+record_id,grantee,grant_title,amount_usd,date,grant_type,geography,has_published_research,screen_item_ids,notes,source_ids,evidence_label,confidence,version
+CG-G001,The Good Food Institute,General Support,1000000,2016-09,general support,,unknown,,,CGG-19,general,High,0.10
+CG-G002,The Good Food Institute,General Support,1500000,2017-11,general support,,unknown,,,CGG-19,general,High,0.10
+CG-G003,Plant Based Foods Association,State-Level Policy,250000,2018-08,policy,,unknown,,,CGG-19,general,High,0.10
+CG-G004,Food Frontier,General Support,100000,2018-10,general support,,unknown,,,CGG-19,general,High,0.10
+CG-G005,"University of California, Berkeley",Alternative Meats Lab,131579,2019-01,field-building,,unknown,,"Grantee link on the site points to the Berkeley SCET Alternative Meats Lab page; typed field-building from that. No papers, reports or datasets naming the funder were found for any of the five Berkeley grants.",CGG-19,general,High,0.10
+CG-G006,Plant Based Foods Association,State-Level Policy,625000,2019-09,policy,,unknown,,,CGG-19,general,High,0.10
+CG-G007,"University of California, Berkeley",Alternative Meats Lab,700000,2019-10,field-building,,unknown,,,CGG-19,general,High,0.10
+CG-G008,Plant Based Foods Association,Grocery Store Study,230000,2019-11,research,,unknown,,"Searched for a published study; found only press coverage of a retail pilot with no funder named, so nothing recorded.",CGG-19,general,High,0.10
+CG-G009,The Good Food Institute,International Expansion of Programs,4000000,2019-12,other,,unknown,,Title refers to international expansion; countries not stated on the site.,CGG-19,general,High,0.10
+CG-G010,Vegan Women Summit,General Support,5000,2020-01,general support,,unknown,,,CGG-19,general,High,0.10
+CG-G011,Foundation for Food and Agriculture Research,Farm Animal Welfare Research,500000,2020-04,research,,unknown,,"Searched for outputs naming the funder; none verified. A background check reported that this grant co-funded the FFAR Plant Protein Enhancement Project, but the grant page it cited does not load on the live site, so this is not confirmed.",CGG-19,general,High,0.10
+CG-G012,Food Frontier,Plant-Based Meat Alternatives,200000,2020-06,other,,unknown,,,CGG-19,general,High,0.10
+CG-G013,Foundation for Food and Agriculture Research,Chickpea and Corn Zein Research,444000,2020-06,research,,yes,CGG-I10,"Plant protein functionality grant. FFAR pages (grantee site) list a Purdue corn zein project (USD 387,556, 2021) and a NuCicer high-protein chickpea project with Open Philanthropy as matching funder. The output (screen item CGG-I10) is a probable output; three further Purdue zein papers carry the same FFAR award number in their metadata but were not opened (see notes file).",CGG-19; CGG-06,general,High,0.10
+CG-G014,VegeProject,Corporate Outreach,102400,2020-07,consumer or diet change,,unknown,,,CGG-19,general,High,0.10
+CG-G015,Vegan Women Summit,Plant- and Cell-Based Startup Pitch Competition,20000,2020-10,field-building,,unknown,,,CGG-19,general,High,0.10
+CG-G016,Material Innovation Initiative,Plant-Based Fashion Alternatives,200000,2020-11,other,,unknown,,"Fashion and materials, not food.",CGG-19,general,High,0.10
+CG-G017,Plant Based Foods Association,General Support,3500000,2021-09,general support,,unknown,,,CGG-19,general,High,0.10
+CG-G018,"University of California, Berkeley",Alternative Meats Lab,1146201,2021-10,field-building,,unknown,,,CGG-19,general,High,0.10
+CG-G019,Breakthrough Institute,Research on Plant-Based Meat Consumption,50000,2022-06,research,,yes,CGG-I25,Working paper states it was partly funded by Open Philanthropy.,CGG-19; CGG-20; CGG-21,general,High,0.10
+CG-G020,Food Frontier,Promoting Plant-Based Meat Alternatives in Asia,500000,2022-08,consumer or diet change,Asia,yes,CGG-I26,ASIA: title names Asia. Grantee report on Asian markets (screen item CGG-I26) published in the grant period; it does not name the funder. Check whether Vietnam was among the markets studied (see notes file).,CGG-19; CGG-22,general,High,0.10
+CG-G021,Material Innovation Initiative,Plant-Based Fashion Alternatives,600000,2022-11,other,,unknown,,"Fashion and materials, not food.",CGG-19,general,High,0.10
+CG-G022,Plant Based Foods Institute,International Regranting Against Labeling Laws,595000,2022-12,policy,International,unknown,,Geography from the title (International).,CGG-19,general,High,0.10
+CG-G023,IMPROVE,Egg Alternatives Research (Contract),65756,2023-01,R&D,,unknown,,"Contract research on egg alternatives. No IMPROVE publication found. A 2025 Rethink Priorities report commissioned by Coefficient Giving (screen item CGG-I27) cites an IMPROVE (2023) study of egg replacement, which may be this contract's output; not confirmed.",CGG-19,general,High,0.10
+CG-G024,ProVeg International,Innovation Competitions for Alternative Proteins,384000,2023-03,field-building,,unknown,,,CGG-19,general,High,0.10
+CG-G025,Carnegie Endowment for International Peace,Alternative Proteins for Security,322000,2023-04,research,,unknown,,Searched for a published report; none found that names the funder.,CGG-19,general,High,0.10
+CG-G026,Vegan Women Summit,Alternative Proteins Talent Pipeline,200000,2023-04,field-building,,unknown,,,CGG-19,general,High,0.10
+CG-G027,SJS Inc.,Market Shaping for Alternative Proteins,300000,2023-06,other,,unknown,,Market shaping; details not stated on the site.,CGG-19,general,High,0.10
+CG-G028,Madre Brava,Corporate Commitments for Alternative Proteins,300000,2023-06,consumer or diet change,,unknown,,Corporate commitments.,CGG-19,general,High,0.10
+CG-G029,The Good Food Institute,General Support,5300000,2023-09,general support,,unknown,,,CGG-19,general,High,0.10
+CG-G030,Plant Based Foods Association,Advocacy and Corporate Engagement,2500000,2024-01,policy,,unknown,,Advocacy and corporate engagement.,CGG-19,general,High,0.10
+CG-G031,Plant Based Foods Institute,International Regranting Against Labeling Laws,257000,2024-01,policy,International,unknown,,Geography from the title (International).,CGG-19,general,High,0.10
+CG-G032,Dansk Vegetarisk Forening,Plant Protein Advocacy,325800,2024-01,policy,Denmark,unknown,,A Coefficient Giving staff post (April 2024) describes a recent grant to Dansk Vegetarisk Forening to advocate for more public alt protein R&D funding in Denmark; probably this grant.,CGG-19,general,High,0.10
+CG-G033,Cellular Agriculture Australia,Advocacy for Cellular Agriculture,239659,2024-03,policy,Australia,unknown,,Geography from the grantee name.,CGG-19,general,High,0.10
+CG-G034,Solutions for Our Climate Korea,Alternative Protein R&D,200000,2024-03,policy,South Korea,unknown,,"Title says R&D but the grantee is a policy organisation; typed policy, unsure. No R&D output found. Geography from the grantee name.",CGG-19,general,High,0.10
+CG-G035,"University of California, Berkeley",Alternative Meats Lab,800000,2024-03,field-building,,unknown,,,CGG-19,general,High,0.10
+CG-G036,Madre Brava,Corporate Commitments for Alternative Proteins,300000,2024-07,consumer or diet change,,unknown,,Corporate commitments.,CGG-19,general,High,0.10
+CG-G037,The Good Food Institute Asia Pacific,Alternative Protein Nutrition Gaps Research,22500,2024-07,research,Asia Pacific,unknown,,ASIA PACIFIC: from the grantee name. No nutrition gaps output found.,CGG-19,general,High,0.10
+CG-G038,The Good Food Institute,General Support,5300000,2024-09,general support,,unknown,,,CGG-19,general,High,0.10
+CG-G039,SJS Inc.,Market Shaping for Alternative Proteins,300000,2024-11,other,,unknown,,Market shaping; details not stated on the site.,CGG-19,general,High,0.10
+CG-G040,Food Frontier,Promoting Plant-Based Meat Alternatives,505000,2024-12,consumer or diet change,,unknown,,,CGG-19,general,High,0.10
+CG-G041,"Council on Energy, Environment, and Water",Study on Alternative Proteins in India,148000,2025-03,research,India,unknown,,Geography from the title. No alternative protein output found yet.,CGG-19,general,High,0.10
+CG-G042,Future Matters,EU Alternative Protein Policy Work,358000,2025-05,policy,EU,unknown,,Geography from the title.,CGG-19,general,High,0.10
+CG-G043,Vegan Women Summit,Alternative Proteins Talent Pipeline,100000,2025-06,field-building,,unknown,,,CGG-19,general,High,0.10
+CG-G044,Stanford University,Humane & Sustainable Food Lab,300000,2025-06,research,,yes,CGG-I28,"The output (screen item CGG-I28) thanks Open Philanthropy (a gift); linked to this grant by grantee and period, not confirmed as this specific grant.",CGG-19; CGG-24,general,High,0.10
+CG-G045,Ministry of Future Affairs,EU Regulatory Sandbox for Novel Foods,86000,2025-07,policy,EU,unknown,,Marked on the site as an experimental grant. Geography from the title.,CGG-19,general,High,0.10
+CG-G046,Madre Brava,Corporate Commitments for Alternative Proteins,950000,2025-07,consumer or diet change,,unknown,,Corporate commitments.,CGG-19,general,High,0.10
+CG-G047,The Good Food Institute,General Support,5400000,2025-09,general support,,unknown,,,CGG-19,general,High,0.10
+CG-G048,The Protein Project,EU Fermentation Technology Advocacy,353764,2025-09,policy,EU,unknown,,Fermentation advocacy. Geography from the title.,CGG-19,general,High,0.10
+CG-G049,Cellular Agriculture Australia,Advocacy for Cellular Agriculture,518000,2025-12,policy,Australia,unknown,,Geography from the grantee name.,CGG-19,general,High,0.10
+CG-G050,Dansk Vegetarisk Forening,Plant Protein Advocacy,702462,2025-12,policy,Denmark,unknown,,Geography inferred from the grantee name (Danish Vegetarian Society).,CGG-19,general,High,0.10
+CG-G051,SJS Inc.,Market Shaping for Alternative Proteins,500000,2025-12,other,,unknown,,Market shaping; details not stated on the site.,CGG-19,general,High,0.10
+CG-G052,Plant Based Foods Association,General Support,1750000,2026-01,general support,,unknown,,,CGG-19,general,High,0.10
+CG-G053,Conservation X Labs (CXL),"Planning for ""The Perfect Protein Prize""",74000,2026-01,field-building,,unknown,,Prize planning.,CGG-19,general,High,0.10
+CG-G054,Solutions for Our Climate Korea,Alternative Protein Policy Work,400000,2026-02,policy,South Korea,unknown,,Geography from the grantee name.,CGG-19,general,High,0.10
+CG-G055,Novel Foods Expert Network (NFX),Accelerating Regulatory Approval Pathways for Alt Proteins,650000,2026-04,policy,,unknown,,Regulatory approval pathways for alt proteins.,CGG-19,general,High,0.10
+CG-G056,"University of California, Berkeley",Alternative Meats Lab,600000,2026-05,field-building,,unknown,,Grantee link now points to altmeatlab.berkeley.edu.,CGG-19,general,High,0.10
+CG-G057,Dansk Vegetarisk Forening,Stakeholder Engagement on Plant-Based Food Policies,857517,2026-05,policy,Denmark,unknown,,Geography inferred from the grantee name.,CGG-19,general,High,0.10
+CG-G058,European Vegetarian Union,Plant-based Meat Alternatives Policy Work,371328,2026-05,policy,,unknown,,,CGG-19,general,High,0.10
+CG-G059,Cellular Agriculture Australia,Alt Protein Policy Advocacy and Corporate Engagement,250000,2026-06,policy,Australia,unknown,,Geography from the grantee name.,CGG-19,general,High,0.10
+CG-G060,Ministry of Future Affairs,Alt Protein Advocacy in the EU,520155,2026-06,policy,EU,unknown,,Geography from the title.,CGG-19,general,High,0.10
+CG-G061,UN Foundation,Coalition-building for Alt Protein Funding,400000,2026-07,policy,,unknown,,Coalition-building for public alt protein funding.,CGG-19,general,High,0.10

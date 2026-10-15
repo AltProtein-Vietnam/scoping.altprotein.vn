@@ -1,10 +1,59 @@
 ---
 import Base from '../../layouts/Base.astro';
-import SectionIndex from '../../components/SectionIndex.astro';
+import { loadPage } from '../../lib/content';
+import { coverPartAnswers } from '../../lib/front';
 import { t } from '../../lib/i18n';
-const s = t(Astro.locals.lang ?? 'en');
+import { PART_LIST, ROLE, chapterNumber, href, localize, partPath } from '../../lib/site';
+const lang = Astro.locals.lang ?? 'en';
+const s = t(lang);
+const contentLang = lang === 'vi' ? 'en' : undefined;
+let answers: Record<string, string> = {};
+try {
+  answers = coverPartAnswers((await loadPage(ROLE.cover)).entry?.data.body ?? '');
+} catch (error) {
+  console.error(error);
+}
 ---
 
-<Base title={s.report} section="report">
-  <SectionIndex kind="report" />
+<Base title={s.report} description={s.reportIntro} pageClass="page-index">
+  <div class="wrap">
+    <header class="index-head">
+      <p class="kicker">{s.contents}</p>
+      <h1>{s.report}</h1>
+      <p class="lede">{s.reportIntro}</p>
+    </header>
+    {
+      PART_LIST.map((part) => (
+        <section class="part-block" id={`part-${part.key}`} aria-labelledby={`part-${part.key}-h`}>
+          <header>
+            <h2 id={`part-${part.key}-h`}>
+              <span class="kicker" style="display:block;margin-bottom:.3rem">
+                {s.part(part.numeral)}
+              </span>
+              <a href={localize(partPath(part.key), lang)}>
+                {s.parts[part.key]?.question ?? part.label}
+              </a>
+            </h2>
+            {answers[part.numeral] && <p lang={contentLang}>{answers[part.numeral]}.</p>}
+          </header>
+          <ol class="chapter-list">
+            {part.chapters.map((p) => (
+              <li data-aud={p.audiences.join(' ')}>
+                <a href={href(p.id, lang)}>
+                  <span class="cl-num">{chapterNumber(p.id)}</span>
+                  <span class="cl-title" lang={contentLang}>
+                    {p.heading.replace(/^\d+\.\s+/, '')}
+                  </span>
+                  {p.reading_time_min && <span class="cl-meta">{s.minutes(p.reading_time_min)}</span>}
+                  <span class="cl-sum" lang={contentLang}>
+                    {p.summary}
+                  </span>
+                </a>
+              </li>
+            ))}
+          </ol>
+        </section>
+      ))
+    }
+  </div>
 </Base>

@@ -11,5 +11,7 @@ test-results/
 *.sqlite*
 .DS_Store
 src/generated/
+public/files/
 public/data/
 public/downloads/
+.files-build/

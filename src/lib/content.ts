@@ -25,7 +25,7 @@ export async function loadPage(id: string) {
   return { entry: result.entry, isPreview: Boolean(result.isPreview) };
 }
 
-// Rendering is pure, so cache it per isolate by page, revision and language.
+// Rendering is pure, so cache it per isolate by page, revision, language and view.
 const cache = new Map<string, RenderResult>();
 export function renderPage(
   id: string,
@@ -33,14 +33,15 @@ export function renderPage(
   lang: Lang,
   version: string,
   preview: boolean,
+  editor = false,
 ): RenderResult {
   const page = PAGE_BY_ID.get(id);
-  const key = `${id}|${lang}|${version}|${body.length}`;
+  const key = `${id}|${lang}|${version}|${editor ? 'e' : 'p'}|${body.length}`;
   const hit = !preview && cache.get(key);
   if (hit) return hit;
-  const result = renderMarkdown(body, { lang, contentLang: page?.lang, pageId: id });
+  const result = renderMarkdown(body, { lang, contentLang: page?.lang, pageId: id, editor });
   if (!preview) {
-    if (cache.size > 240) cache.delete(cache.keys().next().value!);
+    if (cache.size > 320) cache.delete(cache.keys().next().value!);
     cache.set(key, result);
   }
   return result;
