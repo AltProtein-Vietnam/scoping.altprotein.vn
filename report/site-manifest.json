@@ -2163,11 +2163,11 @@
    "required_on": "Part III pages (warning if absent)"
   }
  },
- "version": "0.8",
+ "version": "0.9",
  "status": "draft",
  "draft_notice": {
-  "en": "Draft for review, version 0.8. Not for citation.",
-  "vi": "Bản thảo để góp ý, phiên bản 0.8. Không dùng để trích dẫn.",
+  "en": "Draft for review, version 0.9. Not for citation.",
+  "vi": "Bản thảo để góp ý, phiên bản 0.9. Không dùng để trích dẫn.",
   "placement": "Show on every page as a footer, and as a banner on the cover and the summary pages, until version 1.0."
  },
  "versions": [
@@ -2218,6 +2218,12 @@
    "date": "2026-10",
    "earlier_label": null,
    "note": "Protein for people: scope narrowed to protein for human consumption, feed only as context; feed plays, moves and policy options retired; research round testing food-security hypotheses (wave 11: imported meat and subsidies, disease and pandemic risk, other exposures, a protein balance for people); every page edited to the GOV.UK clear-language standard. See Appendix M5, M5.14."
+  },
+  {
+   "version": "0.9",
+   "date": "2026-10",
+   "earlier_label": null,
+   "note": "Insect protein removed from the study. See Appendix M5, M5.15."
   }
  ]
 }

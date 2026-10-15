@@ -7,7 +7,7 @@ order: 1
 summary: "For venture capital, impact investors, private equity and development finance. The study is about protein for people; feed is context only. The near-term theses are business-to-business food ingredients and fermentation services, and most are not venture-shaped. Domestic textured plant protein is an import-substitution plant financed with debt; a cassava-sugar hub and shared pilot fermentation need strategic partners. Underwrite capital cost, input prices and rule risk, price against Chinese imports, and plan for trade-sale exits. The food-security case is real but narrow and favours plays on domestic inputs."
 audiences: [investors]
 reading_time_min: 9
-key_numbers: [kn-entobel-financing, kn-agritech-vc-2025, kn-food-law-window, kn-animal-protein-on-imports, kn-china-share-plant-protein-ingredients, kn-capital-charge-lever, kn-china-plant-protein-tonnage, kn-demand-bench-2035, kn-fta-duty-china, kn-tvp-line-capex, kn-t1-flour-breakeven]
+key_numbers: [kn-agritech-vc-2025, kn-food-law-window, kn-animal-protein-on-imports, kn-china-share-plant-protein-ingredients, kn-capital-charge-lever, kn-china-plant-protein-tonnage, kn-demand-bench-2035, kn-fta-duty-china, kn-tvp-line-capex, kn-t1-flour-breakeven]
 related_pages: [ch01-why-vietnam, ch08-capital, ch09-economics, ch26-plays, ch27-policy-options, app-s11-capital, app-s1-directory, ch21-frontier-technology, ch22-protein-balance-2050, ch23-scenarios-2050, ch24-vision-2050, ch28-robust-moves, ch14-frontier-demand, ch16-business-buyers, ch17-export-demand, ch18-demand-sizing, ch25-demand-to-frontier, ch29-actor-check, app-d5-buyers, front-exec-summary]
 charts: [chart-plays-scoring]
 ---
@@ -22,7 +22,7 @@ charts: [chart-plays-scoring]
 
 ## What you need to know
 
-1. **One precedent, and it is outside the focus.** Entobel's USD 32.5 million insect-meal plant is the only alternative-protein deal in Vietnam above USD 5 million. It is an insect-feed deal, outside this study's focus, but its structure is a template. Mekong Capital, Dragon Capital and a USD 2.5 million ticket from the International Finance Corporation (IFC) financed it, with Vinh Hoan (a seafood exporter) as anchor buyer. Local private equity in the lead, development finance alongside and a named buyer: that is the structure to copy ([[ch08-capital]]).
+1. **No precedent yet.** No disclosed alternative-protein deal in Vietnam has exceeded USD 5 million, so there is no local template for financing a plant. The disclosed deals are angel money of about USD 250,000 and strategic minority stakes of undisclosed size. A structure that pairs local private equity in the lead, development finance alongside and a named buyer's offtake (an agreement to buy the output) is our suggestion, not a proven route ([[ch08-capital]]).
 2. **Thin venture market for this sector.** Vietnam's venture capital was about USD 509 million in 2025, and agriculture took about USD 1 million of it. There have been no technology stock-market listings in five years. Realistic exits are trade sales to strategic buyers or private-equity buyouts ([[ch08-capital]]).
 3. **Capital decides fermentation economics.** On our indicative cost stack, capital charges and maintenance are 54 to 67% of the cost of fungal biomass protein made in Vietnam. That protein costs USD 4,050 to 14,700 per tonne of protein ([[ch09-economics]]). Cheap labour and power are a small part of the cost.
 4. **The competitor is Chinese.** Chinese microbial protein enters duty-free [@FTR-32] {VN-direct|Medium}. A Chinese yeast-protein plant runs at 11,000 t a year, and a 20,000 t a year mycoprotein plant began commercial runs in June 2026 ([[ch03-regional]]). Chinese textured protein, isolates and gluten also enter duty-free (see "The demand side" below).
@@ -50,7 +50,7 @@ Full cards, scores and weights: [[ch26-plays]]. Use the "Investors" preset.
 ## Who else is here
 
 - **Local private equity and venture capital:** Mekong Capital, Dragon Capital and VinaCapital Ventures.
-- **Development finance:** the IFC, and ADB Ventures, the Asian Development Bank's venture arm (no Vietnamese agrifood deal yet).
+- **Development finance:** the International Finance Corporation (IFC), and ADB Ventures, the Asian Development Bank's venture arm (no Vietnamese agrifood deal yet).
 - **Regional seed specialists:** Better Bite Ventures, Big Idea Ventures and ProVeg Incubator.
 - **New state venture funds:** Ho Chi Minh City (VND 500 billion) and Hanoi (VND 230 billion).
 - **Strategic buyers, by fit:** dairy, seafood and amino-acid groups.

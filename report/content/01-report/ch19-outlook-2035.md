@@ -77,7 +77,7 @@ Each state has a picture, its drivers, what it would mean for the protein people
 
 ### Scenario 1: Import price-taker
 
-- **Picture.** Vietnam's alternative protein is mostly imported: Chinese single-cell protein (protein from microbes), yeast protein and textured soy, and food ingredients approved in Singapore or Thailand. Domestic activity is *chay* (vegetarian food) processing, tofu and a few insect-meal plants. Feed protein imports grow with the feed industry.
+- **Picture.** Vietnam's alternative protein is mostly imported: Chinese single-cell protein (protein from microbes), yeast protein and textured soy, and food ingredients approved in Singapore or Thailand. Domestic activity is *chay* (vegetarian food) processing and tofu. Feed protein imports grow with the feed industry.
 - **For people.** New protein foods reach people mostly as imported ingredients, which Vietnamese *chay* and tofu makers turn into food. The meat, eggs and farmed fish people eat rest on more imported feed. Vietnam adds no new domestic source of protein for people.
 - **Drivers.** The Food Safety Law passes without a workable new-food route. Chinese scale keeps landed prices below Vietnamese cost. Fishmeal falls back from its 2026 peak. Agritech venture capital stays near zero.
 - **Signposts.**
@@ -88,11 +88,11 @@ Each state has a picture, its drivers, what it would mean for the protein people
 
 ### Scenario 2: Feed-first domestic build-out
 
-- **Picture.** Several Vietnamese plants turn side streams into feed protein: cassava pulp in Tay Ninh (former Tay Ninh), brewer's spent grain near Ho Chi Minh City and Hai Phong (former Hai Phong, Hai Duong), seafood by-products in the Mekong Delta. Products are yeast or bacterial protein, duckweed and insect meal. Food applications stay small.
+- **Picture.** Several Vietnamese plants turn side streams into feed protein: cassava pulp in Tay Ninh (former Tay Ninh), brewer's spent grain near Ho Chi Minh City and Hai Phong (former Hai Phong, Hai Duong), seafood by-products in the Mekong Delta. Products are yeast or bacterial protein and duckweed. Food applications stay small.
 - **For people.** Little changes in what people eat by 2035. Domestic feed protein adds an input behind farmed fish and meat, which this study treats as context. The plants, skills and investors could later turn to food, but a food product would still need a new-food route and food-grade production.
-- **Drivers.** Fishmeal stays above about USD 2,000 per tonne. MAE keeps adding new ingredients to the feed lists. High-tech incentives reach fermentation plants. Development finance repeats the structure of the Entobel insect-feed deal: private equity, a development finance institution and an offtake, that is, a buyer's agreement to take the output ([[ch08-capital]]). Demand for E10 petrol makes cassava roots costly, pushing processors towards residues.
+- **Drivers.** Fishmeal stays above about USD 2,000 per tonne. MAE keeps adding new ingredients to the feed lists. High-tech incentives reach fermentation plants. Development finance backs first plants with private equity, a development finance institution and an offtake, that is, a buyer's agreement to take the output ([[ch08-capital]]). Demand for E10 petrol makes cassava roots costly, pushing processors towards residues.
 - **Signposts.**
-  - A second insect or microbial-protein plant above 5,000 t a year reaches financial close by 2028.
+  - A microbial-protein plant above 5,000 t a year reaches financial close by 2028.
   - A feed-list update names microbial protein for aquafeed.
   - A top-five aquafeed producer signs a multi-year offtake.
   - Fishmeal averages above USD 2,000 per tonne in 2027.

@@ -27,8 +27,7 @@ The report is about protein for people: what Vietnam could make at home for peop
 - **Futures.** The outlook to 2035, and scenarios, a protein balance model and a labelled vision for 2050.
 - **What to do.** Product targets, plays, policy options and moves that pay off in any 2050, checked against the questions of 80 named funders, investors, food makers and public bodies.
 - **Technologies.** Plant-based protein; fermentation (biomass, and precision fermentation, where microbes are engineered to make one specific protein); microalgae and duckweed; and cultivated meat and seafood.
-- **Feed is context only.** Feed is the hidden import behind the meat, eggs, milk and farmed fish that people eat, so it is part of the food-security picture. The report no longer treats feed ingredients (fishmeal replacements, or microbial, insect or duckweed feed) as something to make. Earlier drafts assessed them; that record stays in [[app-s6-feed-market]], [[app-f6-aquafeed-feedstock-futures]] and [[app-m5-changelog]].
-- **Insects** appear only as an incumbent (insect meal is already made in Vietnam for feed) and as a benchmark. The report does not recommend insect plays.
+- **Feed is context only.** Feed is the hidden import behind the meat, eggs, milk and farmed fish that people eat, so it is part of the food-security picture. The report no longer treats feed ingredients (fishmeal replacements, or microbial or duckweed feed) as something to make. Earlier drafts assessed them; that record stays in [[app-s6-feed-market]], [[app-f6-aquafeed-feedstock-futures]] and [[app-m5-changelog]].
 - **Motivation.** The report leads with the security of the protein people eat, industrial value and trade. It states environmental and animal-welfare benefits as motivations for some actors, not as the main case.
 
 ## How it is organised

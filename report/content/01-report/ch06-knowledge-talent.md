@@ -59,7 +59,7 @@ Two further assets are specific and under-used:
 
 Each of these combines a Vietnamese raw material, species or skill with an absence of published work (detail in [[app-s7-research]]):
 
-1. Food-grade adaptation of striped catfish (*tra*) and shrimp cells. Continuous striped-catfish lines exist in India, but they are serum-dependent virology lines [@SCI-10] {general|High}. We know of no true continuous shrimp line (the "PmLyO-Sf9" line is part insect) [@SCI-12] {general|Medium}.
+1. Food-grade adaptation of striped catfish (*tra*) and shrimp cells. Continuous striped-catfish lines exist in India, but they are serum-dependent virology lines [@SCI-10] {general|High}. We know of no true continuous shrimp line (the "PmLyO-Sf9" line is partly derived from a moth cell line) [@SCI-12] {general|Medium}.
 2. Low-cost *Pichia*-made growth factors tested on fish cells.
 3. Fungal biomass from cassava pulp and peel with a food-grade safety package (cyanide, mycotoxins, RNA, digestibility).
 4. Characterised Vietnamese *A. oryzae* (*tương*, fermented soybean paste) strains as biomass-protein hosts, with the strain safety data regulators will ask for (cyclopiazonic acid and 3-nitropropionic acid) [@SCI-19] {general|High}.

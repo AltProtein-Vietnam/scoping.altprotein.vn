@@ -14,11 +14,11 @@ charts: []
 
 # Executive summary
 
-> **Draft for review.** Version 0.8. Not for citation.
+> **Draft for review.** Version 0.9. Not for citation.
 
 *New to alternative protein? Read the prologue first: [[front-prologue]]. Short on time? Read [[front-two-minute]].*
 
-**Protein for people first; feed only as context.** This study asks what Vietnam could make at home for people to eat, at what cost and under which rules, and who would buy it, now and to 2050. It treats demand as a design input, not a marketing plan. Feed appears only as context: it is the hidden import behind the meat, eggs, milk and farmed fish that people eat. Earlier drafts also assessed feed ingredients as products to make; that record stays in Appendices S6 and F6 and in the changelog ([[app-s6-feed-market]], [[app-f6-aquafeed-feedstock-futures]], [[app-m5-changelog]]). Insect protein is a benchmark, not a recommendation.
+**Protein for people first; feed only as context.** This study asks what Vietnam could make at home for people to eat, at what cost and under which rules, and who would buy it, now and to 2050. It treats demand as a design input, not a marketing plan. Feed appears only as context: it is the hidden import behind the meat, eggs, milk and farmed fish that people eat. Earlier drafts also assessed feed ingredients as products to make; that record stays in Appendices S6 and F6 and in the changelog ([[app-s6-feed-market]], [[app-f6-aquafeed-feedstock-futures]], [[app-m5-changelog]]).
 
 **Why Vietnam.** Vietnamese people eat more meat each year. Meat intake was 136.4 g per person per day in 2020, against a recommendation of 50 to 80 g, and animal foods supply 42% of protein. Most of that meat (about 90% in 2023), and the eggs and farmed fish, is produced in Vietnam on imported feed. About 99% of the soy protein in feed and about 74% of the maize supply were imported in 2025, for a feed-ingredient import bill of about USD 10 billion.
 
@@ -52,7 +52,7 @@ We tested the main food-security claims made for alternative protein in Vietnam 
 
 6. **Food rules have an open door but no gate.** New protein foods are sold through self-declaration. But the law also treats unpermitted "new-technology food" as recallable, and there is no procedure to get permission. Precision-fermented proteins probably count as products of a genetically modified organism (GMO) under a January 2026 decree. The new Food Safety Law, with first comments in October 2026 and a vote considered in May 2027, is a one-off window ([[ch07-rules]]).
 
-7. **Capital is thin.** Only one alternative-protein deal has exceeded USD 5 million: Entobel's USD 32.5 million insect-meal plant. It is an insect-feed deal, outside this study's scope, but it shows a deal structure: a buyer's offtake (an agreement to buy the output), local private equity and a development-finance ticket. Agritech venture capital in Vietnam was about USD 1 million in 2025 ([[ch08-capital]]).
+7. **Capital is thin.** No disclosed alternative-protein deal in Vietnam has exceeded USD 5 million, and there is no proven local template for financing a plant. Agritech venture capital in Vietnam was about USD 1 million in 2025 ([[ch08-capital]]).
 
 8. **Capital, not operating cost, decides fermentation economics.** On indicative numbers, fungal biomass protein made in Vietnam costs USD 4,050 to 14,700 per tonne of protein, 54 to 67% of it capital charges and maintenance. It costs more than the commodity plant proteins food makers import, so it fits as a functional food ingredient, not a bulk one. Textured plant protein is cheap to make and to equip. But Chinese product enters duty-free at about USD 1.29 to 1.38 per kg, so the delivered price of food-grade soy flour decides whether a Vietnamese line pays ([[ch09-economics]]).
 

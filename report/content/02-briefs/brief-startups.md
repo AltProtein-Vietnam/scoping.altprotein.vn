@@ -87,7 +87,7 @@ The study keeps seven plays. Three lead under almost every weighting: domestic t
 - The Ho Chi Minh City and Hanoi venture funds from late 2026.
 - Occasional international grants.
 
-A Singapore holding company can ease foreign investment; Entobel, an insect-feed maker, used one ([[ch08-capital]], [[app-s11-capital]]).
+A Singapore holding company can ease foreign investment ([[ch08-capital]], [[app-s11-capital]]).
 
 ## The demand side
 

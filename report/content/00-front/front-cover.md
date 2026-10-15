@@ -5,7 +5,7 @@ short_title: "Home"
 subtitle: "What Vietnam could make, from what, under which rules, at what cost, who could do it, and who would buy it"
 section: front
 order: 1
-version: "0.8"
+version: "0.9"
 status: "Draft for review, not for citation"
 publisher: "AltProtein Vietnam"
 summary: "A draft, evidence-tagged scoping study of what alternative protein Vietnam could make for people to eat, and of the demand that would pull it, with feed only as context. Written for investors, policy makers, startups, manufacturers, research bodies and international organisations."
@@ -20,9 +20,9 @@ charts: []
 
 ## A supply-side scoping study
 
-**AltProtein Vietnam · Draft v0.8 · October 2026**
+**AltProtein Vietnam · Draft v0.9 · October 2026**
 
-> **Draft for review.** This is version 0.8, a working draft shared for review. It is not for citation and may change before the public launch, which will be version 1.0.
+> **Draft for review.** This is version 0.9, a working draft shared for review. It is not for citation and may change before the public launch, which will be version 1.0.
 
 **Protein for people first; feed only as context.** Vietnamese people eat more meat each year, and most of it is raised in Vietnam on imported feed. Counting that feed, about two thirds of the animal protein people eat rests on imports, so the case for making protein at home is first a security case: real, but narrow. This study asks what Vietnam could make at home for people to eat: from which raw materials, with which equipment, under which rules, at what cost, and with whose money and skills. It covers textured plant protein, fermentation, and cultivated meat and seafood. It also asks who would buy new protein and at what price, looks ahead to 2035 and 2050, and ends with what each type of actor could do.
 
@@ -57,4 +57,4 @@ Feed appears only as context: it is the hidden import behind the meat, eggs, mil
 
 Every claim carries a tag for the kind of evidence behind it and a confidence level, and every number links to its source. Forward-looking claims also carry a foresight tag (trend, projection, estimate, signal, wildcard or vision). Demand claims carry a demand evidence tag (stated, revealed, tested or inferred). The data are published with the report. They include 194 tables (among them 2,480 sources, 97 companies, 82 facilities and 186 audited retail products), a reproducible protein and feed balance model and a reproducible demand model.
 
-*Draft for review, not for citation. This is scoping research. It is not investment, legal or engineering advice. Scope: supply side, protein for people first and feed only as context, with demand as a design input. Insect protein appears as an incumbent benchmark, not a recommendation.*
+*Draft for review, not for citation. This is scoping research. It is not investment, legal or engineering advice. Scope: supply side, protein for people first and feed only as context, with demand as a design input.*

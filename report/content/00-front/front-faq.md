@@ -14,7 +14,7 @@ charts: []
 
 # Frequently asked questions
 
-> **Draft for review.** Version 0.8. Not for citation.
+> **Draft for review.** Version 0.9. Not for citation.
 
 ## About this report
 
@@ -45,7 +45,7 @@ Send it to AltProtein Vietnam through the contact who shared this draft with you
 ## About alternative protein
 
 **What is alternative protein?**
-Protein made from plants, fungi, microbes, algae, insects or cultivated animal cells instead of from livestock and fish. It includes old foods such as tofu and Vietnam's *chay* (vegetarian) cooking, and new ones such as precision-fermented dairy proteins, made by microbes engineered to produce one specific protein. This study looks at alternative protein for people to eat. The prologue explains the families and how each is made ([[front-prologue]], [[front-prologue-vi]]).
+Protein made from plants, fungi, microbes, algae or cultivated animal cells instead of from livestock and fish. It includes old foods such as tofu and Vietnam's *chay* (vegetarian) cooking, and new ones such as precision-fermented dairy proteins, made by microbes engineered to produce one specific protein. This study looks at alternative protein for people to eat. The prologue explains the families and how each is made ([[front-prologue]], [[front-prologue-vi]]).
 
 **Is it the same as "fake meat" or "lab-grown meat"?**
 No. Meat look-alikes are one small part, and cultivated ("lab-grown") meat an even smaller one. In Vietnam most of the opportunity is in ingredients sold to food makers ([[ch02-alt-protein-today]], [[ch26-plays]]).
@@ -59,11 +59,8 @@ Most is not. Proteins made by engineered microbes (precision fermentation) proba
 **Is it healthier than meat?**
 It depends on the product and what it replaces. Some plant-based meats have less protein, zinc and vitamin B12 than the meat they copy, and many are high in salt; blends keep protein quality high. The prologue sets out both sides ([[front-prologue]]).
 
-**Why does the report not recommend insect protein?**
-Insect meal is already made in Vietnam, for animal feed. The report uses it as an incumbent and a benchmark. Recommending insect plays is outside the report's scope, and feed is now context only ([[ch10-technology-fit]]).
-
 **Why does the study no longer recommend feed ingredients?**
-Because the study is now about protein for people: what Vietnam could make at home for people to eat, and who would buy it. Feed still matters as context. It is the hidden import behind the meat, eggs, milk and farmed fish that people eat, and so part of the food-security picture. But the study no longer treats feed ingredients (fishmeal replacements, or microbial, insect or duckweed feed) as something to make. Earlier drafts assessed them; that record stays in Appendices S6 and F6 and in the changelog ([[app-s6-feed-market]], [[app-f6-aquafeed-feedstock-futures]], [[app-m5-changelog]]).
+Because the study is now about protein for people: what Vietnam could make at home for people to eat, and who would buy it. Feed still matters as context. It is the hidden import behind the meat, eggs, milk and farmed fish that people eat, and so part of the food-security picture. But the study no longer treats feed ingredients (fishmeal replacements, or microbial or duckweed feed) as something to make. Earlier drafts assessed them; that record stays in Appendices S6 and F6 and in the changelog ([[app-s6-feed-market]], [[app-f6-aquafeed-feedstock-futures]], [[app-m5-changelog]]).
 
 ## About Vietnam
 
@@ -101,7 +98,7 @@ Three steps that need no new agency; the first two also cost little:
 The larger outlays are a shared food-grade pilot fermentation line and a protein-quality laboratory ([[ch27-policy-options]]).
 
 **Is there money for this?**
-Not much yet. One alternative-protein deal in Vietnam has exceeded USD 5 million: Entobel's USD 32.5 million insect-meal plant, which makes feed and so sits outside this study's scope. Agritech venture capital in Vietnam was about USD 1 million in 2025. In our assessment, only 4 of the original 19 demand moves have an outside funder whose rules fit and that works in Vietnam ([[ch08-capital]], [[ch29-actor-check]]).
+Not much yet. No disclosed alternative-protein deal in Vietnam has exceeded USD 5 million. Agritech venture capital in Vietnam was about USD 1 million in 2025. In our assessment, only 4 of the original 19 demand moves have an outside funder whose rules fit and that works in Vietnam ([[ch08-capital]], [[ch29-actor-check]]).
 
 **Would domestic production make Vietnam self-sufficient?**
 Not by itself. A domestic textured-protein plant would still run on imported soy flour, and Chinese and ASEAN protein ingredients enter duty-free, so the plant has to compete on cost. Only protein made from domestic inputs, such as fermentation on cassava or sugar, or rice protein, reduces import dependence ([[ch01-why-vietnam]], [[ch09-economics]], [[ch16-business-buyers]]).

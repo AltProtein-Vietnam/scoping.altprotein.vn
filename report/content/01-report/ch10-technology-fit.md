@@ -5,7 +5,7 @@ short_title: "Technology fit"
 section: report
 part: "II. Supply: what Vietnam can make"
 order: 10
-summary: "We test ten technology families against seven Vietnamese conditions: feedstock, industrial base, science readiness, route to market, buyers, competition and capital intensity. Textured plant protein for food fits now. Local legume and rice proteins and fungal foods are worth proving. Precision fermentation fits only as high-value, low-dose ingredients made under contract. Cultivated meat and seafood are research topics for this decade. Feed uses stay in the matrix as a record but are context only, and insects are a benchmark, not a recommendation."
+summary: "We test nine technology families against seven Vietnamese conditions: feedstock, industrial base, science readiness, route to market, buyers, competition and capital intensity. Textured plant protein for food fits now. Local legume and rice proteins and fungal foods are worth proving. Precision fermentation fits only as high-value, low-dose ingredients made under contract. Cultivated meat and seafood are research topics for this decade. Feed uses stay in the matrix as a record but are context only."
 audiences: [investors, startups, manufacturers, research, policy, international]
 reading_time_min: 11
 key_numbers: [kn-pf-titer-gap, kn-mung-diaas, kn-cultivated-cost-multiple]
@@ -18,12 +18,12 @@ charts: [chart-technology-fit-matrix]
 
 **In brief.**
 
-- **No technology is a general answer for Vietnam.** Each fits a specific mix of feedstock, buyer and rule. We score ten families against seven conditions drawn from the previous chapters.
+- **No technology is a general answer for Vietnam.** Each fits a specific mix of feedstock, buyer and rule. We score nine families against seven conditions drawn from the previous chapters.
 - **Fits now: textured plant protein for food.** The rules are clear, the buyers exist and Vietnam imports what a domestic plant would replace.
 - **Worth proving with pilots:** local legume and rice protein ingredients, and fungal foods, starting with koji (mycoprotein is one to watch).
 - **Precision fermentation** fits only for high-value, low-dose products made under contract. The best published titers (the concentration of product in the fermenter) are about 5 to 14 times below what the literature expects for bulk proteins. The product probably counts as a product of a genetically modified organism (GMO) in Vietnam.
 - **Cultivated meat and seafood** remain research topics. Vietnam has no food cell line, and costs are 7 to 15 times the retail price of meat.
-- **Feed is context, not a target.** The matrix keeps its ratings for microbial feed ingredients and duckweed feed as a record, but the study no longer treats feed as something to make. Insects are an established feed incumbent and appear here only as a benchmark.
+- **Feed is context, not a target.** The matrix keeps its ratings for microbial feed ingredients and duckweed feed as a record, but the study no longer treats feed as something to make.
 
 ---
 
@@ -59,7 +59,6 @@ The matrix keeps every family we assessed, including the feed uses, as a record.
 | Precision fermentation | Strong | Weak | Weak | Weak | Weak | Weak | Weak | **Contract-made, high-value, low-dose only** |
 | Gas fermentation (CO2, methane, off-gas) | Weak | Weak | Moderate | Moderate | Moderate | Weak | Weak | **Watch** |
 | Cultivated meat and seafood | Weak | Weak | Weak | Weak | Weak | Weak | Weak | **Research and watch** |
-| Insects (benchmark) | Strong | Strong | Strong | Strong | Strong | n/a | Moderate | **Incumbent; not a recommendation of this report** |
 
 {{chart:chart-technology-fit-matrix}}
 
@@ -108,7 +107,7 @@ The study no longer treats microbial feed ingredients as something to make. Earl
 
 ## 10.8 Cultivated meat and seafood: research for this decade
 
-- **No food cell line.** The striped catfish cell lines that exist (India, Taiwan) were built for virology and toxicology. The best documented, PHT, needs 20% fetal bovine serum (an animal-derived growth supplement) and grows attached to surfaces [@SCI-10] {VN-adjacent|High}. The others are known only from their published descriptions [@SCI-11; @SCI-46; @SCI-47] {VN-adjacent|Medium}. The "shrimp" line PmLyO-Sf9 is a black tiger shrimp and insect hybrid [@SCI-12; @SCI-13] {general|High}. We found no true continuous shrimp cell line.
+- **No food cell line.** The striped catfish cell lines that exist (India, Taiwan) were built for virology and toxicology. The best documented, PHT, needs 20% fetal bovine serum (an animal-derived growth supplement) and grows attached to surfaces [@SCI-10] {VN-adjacent|High}. The others are known only from their published descriptions [@SCI-11; @SCI-46; @SCI-47] {VN-adjacent|Medium}. The "shrimp" line PmLyO-Sf9 is a hybrid of black tiger shrimp cells and a moth cell line (Sf9) [@SCI-12; @SCI-13] {general|High}. We found no true continuous shrimp cell line.
 - **Cost.** Modelled cost is USD 37 to 51 per kg of wet cells [@COST-47] {general|High}, 7 to 15 times the retail price of lean pork or chicken breast in Vietnam ([[ch09-economics]]). The best documented animal-free culture, of chicken cells under continuous perfusion (a constant flow of fresh growth medium), reached up to 130 million cells per mL [@SCI-16] {general|Medium}.
 - **Rules.** No route in Vietnam; the nearest approvals are in Singapore ([[ch03-regional]]).
 
@@ -116,11 +115,7 @@ The study no longer treats microbial feed ingredients as something to make. Earl
 
 **Fit.** Research, not production: serum-free adaptation of striped catfish cells, growth-factor expression (which Vietnamese groups already do), and regulatory preparation. Watch Singapore and Korea for signals.
 
-## 10.9 Insects: the benchmark
-
-Black soldier fly meal is the one alternative protein made at industrial scale in Vietnam. It has an 11,000 t a year design capacity and a seafood exporter's offtake ([[ch02-alt-protein-today]], [[ch08-capital]]). It is on the livestock feed list. As agreed in scope, this report treats insects as the feed incumbent and a benchmark, not as a play we recommend. For protein for people, its main lesson is about finance: it shows how a new protein plant was funded in Vietnam ([[ch08-capital]]).
-
-## 10.10 What this means
+## 10.9 What this means
 
 - **Investors:** textured plant protein, the one "build now" family, has modest capital needs and business buyers. Everything else needs a pilot, a partner or a rule change first.
 - **Startups:** pick a family where the route to market is already clear (textured protein, koji) and sell function or import substitution, not novelty.

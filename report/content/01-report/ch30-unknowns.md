@@ -82,7 +82,7 @@ Source: `open_questions.csv` (fields `unblocks`, `cheapest_way_to_close`, `owner
 
 **Context: feed.** Six questions mattered only for the feed plays and feed public goods. These were retired in version 0.8 because feed is now context only. They stay in the register ([[app-r1-open-questions]]) and still bear on the feed behind the meat, eggs, milk and farmed fish people eat ([[ch22-protein-balance-2050]]):
 
-- whether a raw material on the livestock feed list (yeast, duckweed or insect meal) is legal in aquafeed without a trial; the aquafeed list has no raw-material section (OQ-043);
+- whether a raw material on the livestock feed list (yeast or duckweed) is legal in aquafeed without a trial; the aquafeed list has no raw-material section (OQ-043);
 - the fishmeal share in Vietnamese shrimp and pangasius feeds (OQ-002);
 - how much Chinese microbial protein enters Vietnamese feed, and at what price (OQ-034);
 - official aquafeed output by species, with industry figures of 3.9 to 4.8 Mt against 6.5 Mt from the US Department of Agriculture (USDA) (OQ-003);
@@ -107,7 +107,6 @@ We recorded 372 disagreements between sources and stated the position we took fo
 | Precision-fermentation titer benchmark (titer is the concentration of product in the fermenter) | "Above 50 g/L" presented as a calculated threshold | An expert assertion, not a modelled figure ([[ch10-technology-fit]]) |
 | Fermentation cost structure in the regional study by the Good Food Institute Asia Pacific and Hawkwood Biotech | Earlier drafts read model feedstock as 10 to 18% of cost against 30 to 65% in cited studies | No conflict: model feedstock is 37 to 56%, within the cited ranges, and 10 to 18% is depreciation; labour and power are a minor share ([[ch03-regional]]) |
 | Start date for E10 petrol (10% ethanol), a new buyer of cassava | 1 January 2026 against 1 June 2026 | 1 June 2026; January was the circular's effective date ([[ch19-outlook-2035]]) |
-| Entobel financing (an insect-feed deal, cited in chapter 8 for its deal structure) | "About USD 36 million" against USD 32.5 million documented | USD 32.5 million ([[ch08-capital]]) |
 | Whether alternative protein reduces disease risk | Advocacy and company authors say replacing meat lowers pandemic and resistance risk; peer-reviewed work ties risk to farming, trade and antibiotic use, and no study measures an effect | The study makes no such claim; at the benchmark scale it would not move herd-level risk (DG-356; [[ch01-why-vietnam]]) |
 | Maize eaten as food, which sets the imported share of protein supply | FAO: 1,617 kt in 2023; OECD-FAO: 639 kt | FAO, because its items sum to the protein total: 19% to 23% of protein imported, or 18% to 22% on OECD-FAO (DG-363; [[ch01-why-vietnam]]) |
 | Stunting among children under five, latest year | 18% in 2023 against 14.8% for 2025 in one press report | 18% until the National Institute of Nutrition publishes (DG-365; [[ch11-protein-diet]]) |

@@ -198,7 +198,6 @@ We also do not recommend replacing soybean meal in pig and poultry feed with fer
 - **Premium imported-style consumer analogues as a first business.** They sell at an order of magnitude above chicken and egg protein and appear only in a few premium stores ([[ch02-alt-protein-today]], [[ch09-economics]]).
 - **Commodity precision-fermented dairy or egg proteins made in Vietnam.** Titers, rules and missing infrastructure all point the other way ([[ch10-technology-fit]]).
 - **Cultivated-meat production.** No cell line, no route, and costs 7 to 15 times retail meat ([[ch10-technology-fit]]).
-- **Insect protein.** Out of this report's scope as a play; an established incumbent and benchmark ([[ch02-alt-protein-today]]).
 
 ## 26.7 What this means
 
