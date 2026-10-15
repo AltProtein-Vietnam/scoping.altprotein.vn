@@ -45,7 +45,7 @@ Items 1 to 4 concern food rules, and items 8 and 9 incentives and sandboxes. Ite
 2. Vietnam has no novel-food category. No law or decree defines novel food, history of safe use or a pre-market safety assessment for a new food source [@REG-01; @REG-02] {VN-direct|High}. The public summaries of the July 2026 draft Food Safety Law do not add one [@REG2-05; @REG2-06] {VN-direct|Medium}.
 3. The current law has a hidden risk for new-technology food: Art 55(1)(c) lists "food that is a new-technology product not yet permitted for circulation" among foods to be recalled, but no procedure exists to obtain that permission [@REG-01] {VN-direct|High}.
 4. A precision-fermented protein is probably a "product of a GMO" under Decree 43/2026, because the definition covers products that contain "protein from the modified gene" [@REG-18; @REG2-11] {VN-direct|Medium}.
-5. Insects, duckweed, algae and inactive yeasts are already on the livestock feed permitted list, so they need no feed trial for livestock [@REG-32; @REG-33] {VN-direct|High}.
+5. Duckweed, algae and inactive yeasts are already on the livestock feed permitted list, so they need no feed trial for livestock [@REG-32; @REG-33] {VN-direct|High}.
 6. The aquafeed permitted list has no raw-material section at all, so the legal status of new protein raw materials in shrimp and fish feed is ambiguous [@REG2-01; @REG2-02] {VN-direct|High}.
 7. Using an unlisted livestock feed raw material has cost VND 10 to 20 million per material, plus 1 to 3 months' suspension of feed production, since 5 August 2026 [@REG2-10] {VN-direct|High}.
 8. Decision 23/2026 items 60 (priority high technology) and 92 (encouraged high-tech product) fit precision fermentation (our mapping), but "alternative protein" as such is not listed [@REG-47] {VN-direct|High}.
@@ -251,7 +251,7 @@ DG-111 recorded an issuing-level conflict; there is none, as both texts place th
 
 The instruments are in `instruments.csv` (INS-067 to INS-078) and `label_rules.csv`.
 
-> **Correction.** Wave 1 believed that the warning requirement covered allergens through guidance under Circular 05/2019/TT-BKHCN, but could not verify it. Wave 2 read Decree 111/2021 and Circular 05/2019 and found no allergen list in either [@REG2-24; @REG2-25] {VN-direct|Medium}. Voluntary allergen labelling is prudent for soy, wheat-gluten and insect-based foods because the law is silent.
+> **Correction.** Wave 1 believed that the warning requirement covered allergens through guidance under Circular 05/2019/TT-BKHCN, but could not verify it. Wave 2 read Decree 111/2021 and Circular 05/2019 and found no allergen list in either [@REG2-24; @REG2-25] {VN-direct|Medium}. Voluntary allergen labelling is prudent for soy and wheat-gluten foods because the law is silent.
 
 > **Correction.** Earlier drafts cited Decree 43/2017 as amended by Decree 111/2021 as the label decree in force and Circular 29/2023 as the nutrition-label circular. Decree 37/2026 replaced the first on 23 January 2026 and Circular 30/2026 the second on 10 July 2026 [@LBL-08; @LBL-02] {VN-direct|Medium}. The rules that matter for new proteins carry over.
 
@@ -305,14 +305,14 @@ The instruments are in `instruments.csv` (INS-067 to INS-078) and `label_rules.c
 **Circular 21/2019/TT-BNNPTNT** (28 November 2019), amended by **Circular 31/2022/TT-BNNPTNT** (30 December 2022, effective 20 February 2023) [@REG-32; @REG-33] {VN-direct|High}:
 
 - Art 6: the permitted list is Appendix VI. DLPAH "*tổng hợp, trình Bộ trưởng … cập nhật Danh mục … định kỳ hằng năm*" (compiles and submits to the Minister to update the list periodically every year).
-- Appendix VI section I.1.2 (terrestrial animal origin) names "*bột xương, bột thịt, … côn trùng, động vật không xương sống …*" (bone meal, meat meal, … insects, invertebrates …).
+- Appendix VI section I.1.2 (terrestrial animal origin) names "*bột xương, bột thịt, … động vật không xương sống …*" (bone meal, meat meal, … invertebrates …).
 - Section I.2 (plant origin) lists among coarse feeds the aquatic plants "*rong, rêu, tảo, bèo*" (seaweed, moss, algae, duckweed).
 - Section II lists vitamins, minerals, amino acids, enzymes, probiotics (Bacillus, Lactobacillus, *Saccharomyces cerevisiae*) and technical additives.
 - Circular 31/2022 added inactive yeasts to section I.6: irradiated, hydrolysed or dried Torula or Candida yeast, yeast cultured on molasses, dried yeast, and by-products of amino-acid production.
 
 **Status in September 2026.** The list is still Circular 21/2019 Appendix VI as amended by Circular 31/2022. Circular 94/2025 Art 18 repeals Art 4, 5 and 6 of Circular 22/2019 (breeds), Art 1(2) of Circular 21/2024 and items of Circular 09/2025, none of which touches the list, and has no list of its own [@REG-33; @REG2-08; @REG2-09] {VN-direct|High}. We found no 2024 to 2026 amendment adding *protein đơn bào* (single-cell protein) or *sinh khối vi sinh vật* (microbial biomass) [@REG-33; @REG2-09] {VN-direct|Medium}. Search listings can miss documents, so DLPAH should confirm this.
 
-**What this means.** Insects, duckweed, algae and inactive yeasts need no trial for livestock feed. They still need a certified factory, a conformity declaration against QCVN 01-190:2020 and a label [@REG-32; @REG-33; @REG-36] {VN-direct|High}. We found no explicit entry for bacterial single-cell protein (SCP), fungal mycoprotein or precision-fermented proteins [@REG-32; @REG2-09] {VN-direct|Medium}.
+**What this means.** Duckweed, algae and inactive yeasts need no trial for livestock feed. They still need a certified factory, a conformity declaration against QCVN 01-190:2020 and a label [@REG-32; @REG-33; @REG-36] {VN-direct|High}. We found no explicit entry for bacterial single-cell protein (SCP), fungal mycoprotein or precision-fermented proteins [@REG-32; @REG2-09] {VN-direct|Medium}.
 
 ### S9.10.3 Feed trials (Circular 94/2025/TT-BNNMT)
 
@@ -354,7 +354,7 @@ At 26,000 VND per USD, VND 10 to 20 million is about USD 385 to 770 per material
 
 ### S9.10.7 Steps for a new single raw material (for example bacterial SCP or cassava-pulp fungal protein)
 
-1. Check the permitted list (Circular 21/2019 Appendix VI as amended). If the material fits an existing entry (for example *nấm men*, yeast; *côn trùng*, insects; *bèo*, duckweed), no trial is needed [@REG-32; @REG-33] {VN-direct|High}.
+1. Check the permitted list (Circular 21/2019 Appendix VI as amended). If the material fits an existing entry (for example *nấm men*, yeast; *bèo*, duckweed), no trial is needed [@REG-32; @REG-33] {VN-direct|High}.
 2. If not, treat it as a "new substance". Run a trial under an approved protocol (Circular 94/2025 Chapter III) at a qualified facility. Importing trial samples may need a provincial import licence [@REG-34; @REG-35] {VN-direct|High}.
 3. Get the result recognised by DLPAH, then wait for the annual list update or rely on the recognition decision [@REG-32; @REG-34] {VN-direct|High}. Whether recognition alone allows circulation before the list update is not stated in the texts read.
 4. Get a certified factory (province), a declared standard, conformity with QCVN 01-190:2020, and a label [@REG-29; @REG-36; @REG-41] {VN-direct|High}.
@@ -400,14 +400,13 @@ Circular 16/2026/TT-BNNMT (9 March 2026, effective the same day) replaces Circul
 
 | Candidate | On the aquafeed list? | Entry (verbatim where available) |
 |---|---|---|
-| Insect meal (black soldier fly larvae) | No | none |
 | Yeast protein, inactive yeast | Only as microorganisms | II.2 no. 8 "*Candida utilis*"; no. 22 "*Pichia farinosa*"; no. 27 "*Saccharomyces (Saccharomyces boulardii, Saccharomyces cerevisiae)*" |
 | Yeast derivatives | Yes, as bioactives | II.1 no. 11 "β-Glucan" |
 | Bacterial SCP (for example *Methylococcus*) | No | none |
 | Microalgae (*Spirulina*, *Chlorella*, *Schizochytrium*) | No | none |
 | Duckweed (*bèo*) | No | none |
 | Fermented soybean meal | No (the fermenting microbes are listed) | II.2 no. 3 "*Aspergillus (Aspergillus niger, Aspergillus oryzae)*"; no. 4 *Bacillus* spp. including *B. subtilis*, *B. natto*, *B. licheniformis*, *B. amyloliquefaciens* |
-| Chitin derivatives (insect or shrimp shell) | Yes, as bioactives | II.1 no. 4 "Chitosan-oligosaccharide"; no. 8 "Low-molecular-weight Chitosan" |
+| Chitin derivatives (for example from shrimp shell) | Yes, as bioactives | II.1 no. 4 "Chitosan-oligosaccharide"; no. 8 "Low-molecular-weight Chitosan" |
 
 About 20 *Bacillus* species are listed. No methanotrophic bacteria and no microalgae are listed [@REG2-01] {VN-direct|High}.
 
@@ -419,7 +418,7 @@ Read literally, Art 35(1) with a list that holds no raw materials catches every 
 
 Our reading has two branches {VN-direct|Medium}:
 
-- (a) the regulator treats conventional raw materials as outside the list requirement by practice, in which case insect meal and yeast protein probably are too; or
+- (a) the regulator treats conventional raw materials as outside the list requirement by practice, in which case yeast protein probably is too; or
 - (b) any unlisted raw material formally needs a trial.
 
 The texts do not settle this. A written DFFI opinion is the cheapest fix. See DG-112. We found no penalty decree for aquafeed matching Decree 211/2026; this was not checked.
@@ -579,7 +578,7 @@ See DG-114 for a minor disagreement on the pre-2025 soybean meal rate.
 
 ## S9.19 Route-to-market table (as of 23 September 2026)
 
-This is the full content of `routes.csv` (17 rows). Rows RT-001 to RT-016 come from the wave 2 table, matched to wave 1. RT-017 is a wave 1 row for a product type not in the wave 2 table. "Changed" marks rows that wave 2 changed. Rows RT-008 to RT-016 cover feed and aquafeed; they are now context and the record.
+This is the full content of `routes.csv` (15 rows). Rows RT-001 to RT-016 come from the wave 2 table, matched to wave 1. RT-017 is a wave 1 row for a product type not in the wave 2 table. "Changed" marks rows that wave 2 changed. Rows RT-010 to RT-016 cover feed and aquafeed; they are now context and the record.
 
 | ID | Product type | Route | Authority | Documented agency time | Main open risk | Legal basis | Precedent in Vietnam | Changed | Evidence |
 |---|---|---|---|---|---|---|---|---|---|
@@ -590,20 +589,18 @@ This is the full content of `routes.csv` (17 rows). Rows RT-001 to RT-016 come f
 | RT-005 | Precision-fermented protein, imported | Self-declaration or export-processing or internal-production exemption; GM label above 5% of ingredients unless undetectable; VFA registration if used as an unlisted additive | Provincial authority; VFA; MAE | Immediate; 7 WD (additive) | No rule on GMO-derived products; the definition still covers the protein | Decree 15/2018 Art 4(2), 6, 10; Decree 69/2010 as amended by 43/2026; Circular 24/2019 | None found | Yes | [@REG-02; @REG-18; @REG-19; @REG-25; @REG2-11] {VN-direct\|Medium} |
 | RT-006 | Precision-fermented protein, made in Vietnam | Closed-production certificate (Forms 32 and 33; OECD/G20 contained-use standards; environmental licence for waste); then the food route | MAE Minister (central) | 5 + 50 + 5 WD (about 60 WD), excluding time to supplement the dossier | Fee; food-use certificate question | Decree 69/2010 Art 37a (added by Decree 43/2026); Decree 15/2018; Law on Environmental Protection and Decree 08/2022 | None found | Yes | [@REG-18; @REG-24; @REG-58; @REG2-11; @REG2-12] {VN-direct\|Medium} |
 | RT-007 | Cultivated meat or seafood | No national route. Most concrete option: Hanoi sandbox (biotech priority field; Resolution 29/2025/NQ-HĐND; Decision 6150/QĐ-UBND) | Hanoi People's Committee, with MOH consulted | Not read | Whether a city sandbox can set aside national food law | Law 55/2010 Art 5(1), 55(1)(c); Decree 69/2010 as amended; possible sandbox under Law 93/2025 Art 21 | None | Yes | [@REG-01; @REG-18; @REG-48; @REG2-13; @REG2-15; @REG2-16; @REG2-17] {VN-direct\|Medium} |
-| RT-008 | Insect meal, livestock feed | Listed (*côn trùng*): no trial; factory certificate; conformity with QCVN 01-190:2020 | Province; DLPAH | Factory: 10 + 15 + 3 WD (Decree 13/2020 Art 10(3)(b) as amended by Decree 32/2026) | None major | Law on Animal Husbandry Art 32, 36, 38 to 39; Circular 21/2019 App VI I.1.2; QCVN 01-190:2020; Decree 136/2025; Decree 32/2026 | Entobel (commercial plant 2019, Dat Do industrial zone, Ho Chi Minh City (former Ba Ria-Vung Tau)) | No | [@REG-29; @REG-30; @REG-32; @REG-35; @REG-36; @REG-41; @REG-44] {VN-direct\|High} |
-| RT-009 | Insect meal, aquafeed | Not on the aquafeed list; the list has no raw-material section. Formally a trial may be needed (Fisheries Law Art 35(1)) | DFFI (list); province (trial recognition) | 20 days appraisal + trial + 10 WD | Ask DFFI in writing whether a trial is required | Law on Fisheries Art 31, 35, 36; Decree 26/2019 Art 31 to 32; Decree 136/2025 Art 18 to 19; Circular 16/2026 | Not verified | Yes | [@REG-37; @REG-38; @REG-40; @REG-41; @REG2-01; @REG2-02] {VN-direct\|High} text; {VN-direct\|Medium} practice |
-| RT-010 | Duckweed or algae meal, livestock | Listed (*bèo*, *tảo*) | Province; DLPAH | As insect meal | Heavy metals if grown on effluent | Circular 21/2019 App VI I.2; QCVN 01-190:2020 | Research only; no commercial registration found | No | [@REG-32; @REG-36; @REG2-09] {VN-direct\|High} |
-| RT-011 | Duckweed or microalgae, aquafeed | Not listed | DFFI; province | As insect meal, aquafeed | As insect meal, aquafeed | Law on Fisheries Art 35; Circular 16/2026 App II | Research only; no commercial registration found | Yes | [@REG-32; @REG-36; @REG2-01] {VN-direct\|High} |
-| RT-012 | Yeast protein, livestock (inactive yeast, Torula or Candida, molasses-grown yeast, amino-acid fermentation by-products) | Listed since February 2023 (Circular 31/2022) | Province; DLPAH | As insect meal | None major | Circular 31/2022 amending Circular 21/2019 App VI; QCVN 01-190:2020 | The listing shows MAE practice of adding fermentation-derived materials | No | [@REG-33; @REG-36; @REG2-09] {VN-direct\|High} |
+| RT-010 | Duckweed or algae meal, livestock | Listed (*bèo*, *tảo*) | Province; DLPAH | Factory: 10 + 15 + 3 WD (Decree 13/2020 Art 10(3)(b) as amended by Decree 32/2026) | Heavy metals if grown on effluent | Circular 21/2019 App VI I.2; QCVN 01-190:2020 | Research only; no commercial registration found | No | [@REG-30; @REG-32; @REG-35; @REG-36; @REG2-09] {VN-direct\|High} |
+| RT-011 | Duckweed or microalgae, aquafeed | Not listed | DFFI; province | As RT-015 | Ask DFFI in writing whether a trial is required | Law on Fisheries Art 35; Circular 16/2026 App II | Research only; no commercial registration found | Yes | [@REG-32; @REG-36; @REG2-01] {VN-direct\|High} |
+| RT-012 | Yeast protein, livestock (inactive yeast, Torula or Candida, molasses-grown yeast, amino-acid fermentation by-products) | Listed since February 2023 (Circular 31/2022) | Province; DLPAH | As RT-010 | None major | Circular 31/2022 amending Circular 21/2019 App VI; QCVN 01-190:2020 | The listing shows MAE practice of adding fermentation-derived materials | No | [@REG-33; @REG-36; @REG2-09] {VN-direct\|High} |
 | RT-013 | Yeast protein, aquafeed | *Candida utilis*, *Pichia farinosa* and *S. cerevisiae* are listed as microorganisms; yeast protein as a raw material is not listed | DFFI; province | Unclear | Whether a microorganism listing covers inactivated yeast biomass used for protein | Circular 16/2026 App II; Law on Fisheries Art 35 | As RT-012 | Yes | [@REG-40; @REG2-01] {VN-direct\|Medium} |
 | RT-014 | Bacterial SCP or new microbial biomass, livestock | New substance: DLPAH trial and recognition, then list update. Using it unlisted risks VND 10 to 20 million per material and 1 to 3 months' suspension (Decree 211/2026) | DLPAH; province | Protocol 15 + 5; recognition 15 + 5 WD; trial length by protocol | Annual list update timing | Law on Animal Husbandry Art 37; Circular 94/2025 Ch III Art 13 to 14; Circular 21/2019 Art 6; Decree 32/2026 | None found | Yes | [@REG-29; @REG-32; @REG-34; @REG-35; @REG2-08; @REG2-10] {VN-direct\|High} |
 | RT-015 | SCP, aquafeed | Aquafeed trial and recognition | Province (recognition, import licence); DFFI (list) | 20 days + trial + 10 WD | Protocol approval authority | Law on Fisheries Art 31, 35, 36; Decree 26/2019 Art 31 to 32; Decree 136/2025 Art 18(2), 19(2); Circular 16/2026 | None found | No | [@REG-37; @REG-38; @REG-40; @REG-41; @REG2-01; @REG2-02] {VN-direct\|Medium} |
-| RT-016 | Fermented soybean meal, feed | Livestock: soybean meal listed; fermentation with listed microbes. Aquafeed: the fermenting microbes (*Aspergillus*, *Bacillus*) are listed; the meal as a raw material is not | Province; DLPAH; DFFI | As above | As insect meal, aquafeed | Circular 21/2019 App VI; Circular 16/2026 App II | Not recorded | Yes (new row) | [@REG2-01; @REG2-09] {VN-direct\|Medium} |
+| RT-016 | Fermented soybean meal, feed | Livestock: soybean meal listed; fermentation with listed microbes. Aquafeed: the fermenting microbes (*Aspergillus*, *Bacillus*) are listed; the meal as a raw material is not | Province; DLPAH; DFFI | As above | Ask DFFI in writing whether a trial is required | Circular 21/2019 App VI; Circular 16/2026 App II | Not recorded | Yes (new row) | [@REG2-01; @REG2-09] {VN-direct\|Medium} |
 | RT-017 | New food additive, enzyme or processing aid (for example fermentation-derived) | Registration of the product declaration at VFA for additives not on the list or new uses; or an MOH list amendment on request with safety evidence | MOH/VFA | 7 WD (registration) | Enzyme and processing-aid pathway not visible in the extract; status of GM-derived additives | Decree 15/2018 Art 6 to 8; Circular 24/2019 Art 11(2), 17(3)(d) | Not searched | Not in wave 2 table | [@REG-02; @REG-25] {VN-direct\|Medium} |
 
 ## S9.20 How a new protein gets to market: a plain-language explainer
 
-These are the routes as the law stood on 23 September 2026. They may change when the new Food Safety Law and its decree take effect. The National Assembly considers passage at its May 2027 session, so not before mid-2027 [@APR-07] {VN-direct|Medium}. Sections S9.3 to S9.13 describe each step in detail, with sources. Routes 1 to 6 and 13 are for food. Routes 7 to 12 are for feed; they are now context and the record.
+These are the routes as the law stood on 23 September 2026. They may change when the new Food Safety Law and its decree take effect. The National Assembly considers passage at its May 2027 session, so not before mid-2027 [@APR-07] {VN-direct|Medium}. Sections S9.3 to S9.13 describe each step in detail, with sources. Routes 1 to 6 and 12 are for food. Routes 7 to 11 are for feed; they are now context and the record.
 
 **1. Plant-based food from known ingredients** (tofu, textured soy, wheat gluten, jackfruit, *đồ chay*, plant milks).
 Make it in a food-safe factory. Test the product at an accredited lab. File a self-declaration with the authority named by the province. You can sell right away [@REG-02] {VN-direct|High}. We found no rule that stops you calling it *chay* or using words such as *sữa hạt* or *heo* with a qualifier, but do not mislead, and quantify any ingredient named in the product name [@REG2-24; @LBL-06] {VN-direct|Medium}. Print protein in the nutrition panel; a "high protein" claim needs 10 g per 100 g under the voluntary TCVN 14429:2025 [@LBL-02; @LBL-03] {VN-direct|High}. Because Vietnam has no mandatory allergen list, add soy and wheat warnings voluntarily. Many brands already use this route.
@@ -623,25 +620,22 @@ An imported ingredient can be self-declared, or is exempt from declaration if us
 **6. Cultivated meat or seafood.**
 There is no national route. The law implies that new-technology food needs "permission to circulate", but there is no procedure to obtain it [@REG-01] {VN-direct|High}. Any genetically modified cell line adds GMO questions. The most concrete option is a supervised pilot in Hanoi's sandbox under the biotechnology field, with MOH consulted [@REG2-16; @REG2-17] {VN-direct|Medium}. Whether a city sandbox can set aside national food law is untested.
 
-**7. Insect meal for livestock and poultry feed.**
-Insects are on the permitted raw-material list, so no feeding trial is needed [@REG-32] {VN-direct|High}. You need a certified feed factory (province), a declared standard, conformity with the QCVN 01-190:2020 limits, and a label [@REG-29; @REG-36; @REG-41] {VN-direct|High}. Entobel has used this route since 2019 [@REG-44] {VN-direct|Medium}.
-
-**8. Insect meal, yeast protein, duckweed or microalgae for shrimp and fish feed.**
+**7. Yeast protein, duckweed or microalgae for shrimp and fish feed.**
 None of these is on the aquafeed list as a raw material, because the list has no raw-material section. The Fisheries Law, read literally, requires a trial for any unlisted raw material [@REG2-01; @REG2-02] {VN-direct|High}. Practice evidently differs, because conventional feeds are sold without trials. Ask DFFI in writing whether your ingredient needs an aquafeed trial before you build a product on it.
 
-**9. Duckweed or algae meal for livestock feed.**
-*Bèo* (duckweed) and *tảo* (algae) are on the livestock list, so the route is the same as for insect meal [@REG-32] {VN-direct|High}. If grown on wastewater, test heavy metals and pathogens against QCVN 01-190:2020 [@REG-36] {VN-direct|High}.
+**8. Duckweed or algae meal for livestock feed.**
+*Bèo* (duckweed) and *tảo* (algae) are on the livestock list, so no feeding trial is needed [@REG-32] {VN-direct|High}. You need a certified feed factory (province), a declared standard, conformity with the QCVN 01-190:2020 limits, and a label [@REG-29; @REG-36; @REG-41] {VN-direct|High}. If grown on wastewater, test heavy metals and pathogens against QCVN 01-190:2020 [@REG-36] {VN-direct|High}.
 
-**10. Yeast protein for livestock feed.**
-Inactive yeasts, including Torula or Candida yeast and yeast grown on molasses, and by-products of amino-acid fermentation, have been on the livestock list since February 2023. The route is the same as for insect meal [@REG-33] {VN-direct|High}.
+**9. Yeast protein for livestock feed.**
+Inactive yeasts, including Torula or Candida yeast and yeast grown on molasses, and by-products of amino-acid fermentation, have been on the livestock list since February 2023. The route is the same as for duckweed (route 8) [@REG-33] {VN-direct|High}.
 
-**11. Bacterial SCP or another new microbial protein for livestock feed.**
+**10. Bacterial SCP or another new microbial protein for livestock feed.**
 This is probably a "new substance". Run a feed trial under a DLPAH-approved protocol (15 + 5 WD to approve), then get the result recognised (15 + 5 WD). The material then enters the permitted list at the next annual update [@REG-29; @REG-32; @REG-34] {VN-direct|High}. Our estimate of the total is 6 to 18 months; that is an estimate, not a legal deadline. Do not sell it before it is listed: since 5 August 2026 the fine is VND 10 to 20 million per unlisted material, plus 1 to 3 months' suspension of feed production [@REG2-10] {VN-direct|High}.
 
-**12. SCP for aquafeed.**
+**11. SCP for aquafeed.**
 Register an aquafeed trial (20-day dossier appraisal), run it, and get the results recognised by the provincial People's Committee chair (10 WD). Importing trial material needs a provincial licence. Then declare the aquafeed products that contain it [@REG-37; @REG-38; @REG-41] {VN-direct|High}.
 
-**13. A new food additive, enzyme or processing aid.**
+**12. A new food additive, enzyme or processing aid.**
 Register the product declaration at VFA (7 WD), or ask MOH to amend the additive list with safety evidence [@REG-02; @REG-25] {VN-direct|Medium}.
 
 ## S9.21 Foreign precedents and what Vietnam could copy
@@ -676,7 +670,7 @@ The report ranking now leaves out five feed options, because the study now treat
 |---|---|---|---|---|---|---|---|---|---|
 | PO-015 | 1 (1) | Put a short delegation clause in the new Food Safety Law: "The Government shall regulate the management of new foods and new food ingredients" (*thực phẩm mới, nguyên liệu thực phẩm mới*), with a definition based on history of use | MOH/VFA (drafter); National Assembly Committee on Science, Technology and Environment (review) | Draft Law on Food Safety (amended), product-declaration chapter | Singapore FSSA 2025; Thai Notification 376; EU 2015/2283 | Low | First comments at the October 2026 session; passage considered at the May 2027 session; a clause needs to be in the revised draft by early 2027 | PO-001 | [@REG2-04; @REG2-05; @REG2-06; @REG-63; @REG2-26; @APR-07] {VN-direct\|Medium} |
 | PO-016 | 2 (2) | Joint MAE and MOH guidance on precision-fermented proteins: no GMO food-use certificate is needed for a purified protein made in contained use with no viable GMO or recombinant DNA in the product; and whether a recombinant protein identical to the native protein is a detectable product of the modified gene (Joint Circular 45/2015 Art 1(2)(a)), which decides whether the GM label applies above 5% of ingredients, and whether a product with such a protein below 5% may still claim non-GMO | MAE Department of Nature Conservation and Biodiversity and Department of Science and Technology; MOH/VFA | Official letter now; later an amendment to Decree 69/2010 Art 5 (definitions) | Decree 43/2026 already separates organisms from products; EU practice on food made "with" GM microorganisms (not verified) | Low | 3 to 6 months | PO-004 | [@REG-18; @REG-21; @REG-23; @REG2-11; @LBL-10] {VN-direct\|Medium} |
-| PO-017 | 3 (retired: feed) | Add a raw-material section to the aquafeed list, or state that raw materials on the livestock list are permitted in aquafeed. Add insect meal, inactivated yeast biomass, microalgae biomass, duckweed and fermented soybean meal | MAE DFFI | Circular amending Circular 16/2026 Appendix II (DFFI review power, Art 19(1)(d)) | Circular 31/2022 added yeasts to the livestock list | Low | Next list update (2027) | PO-005 | [@REG2-01; @REG-32; @REG-33; @REG-40] {VN-direct\|Medium} |
+| PO-017 | 3 (retired: feed) | Add a raw-material section to the aquafeed list, or state that raw materials on the livestock list are permitted in aquafeed. Add inactivated yeast biomass, microalgae biomass, duckweed and fermented soybean meal | MAE DFFI | Circular amending Circular 16/2026 Appendix II (DFFI review power, Art 19(1)(d)) | Circular 31/2022 added yeasts to the livestock list | Low | Next list update (2027) | PO-005 | [@REG2-01; @REG-32; @REG-33; @REG-40] {VN-direct\|Medium} |
 | PO-018 | 4 (retired: feed) | Add generic entries to the livestock list for inactivated microbial biomass from safe strains (bacterial SCP, fungal biomass, microalgae), relying on foreign feed authorisations; more urgent since Decree 211/2026 fines unlisted use | MAE DLPAH | Circular amending Circular 21/2019 Appendix VI | Circular 31/2022; EU Feed Materials Catalogue entries for bacterial and yeast proteins (not verified) | Low | Next annual update (2027) | PO-005 | [@REG2-10; @REG-32; @REG-33] {VN-direct\|Medium} |
 | PO-019 | 5 (3) | Novel-food procedure in the implementing decree of the new law: (a) a "not novel" determination on request; (b) a traditional-food notification lane with a fixed objection window; (c) a reliance lane for foods approved by 2 or more reference regulators (Singapore, US, EU, Australia and New Zealand, Thailand); (d) full assessment by recognised assessment units, with a public positive list | MOH/VFA; Government | Government decree replacing Decree 15/2018 (to take effect with the new law) | Thai recognised assessment units; EU traditional-food notification; Decree 43/2026 5-country GMO fast track | Medium | Drafting Q4 2026; in force 2027 | PO-002; PO-003 | [@REG-02; @REG-06; @REG-18; @REG-23; @REG2-11; @REG2-26; @REG2-27] {VN-direct\|Medium} |
 | PO-020 | 6 (4) | Use the Hanoi sandbox for one supervised novel-food pilot (for example precision-fermented dairy protein or a cultivated seafood tasting), with MOH in the appraisal. In parallel, a Government decree under Law 93/2025 Art 21(6) naming MOH as the approving agency for food tests | Hanoi People's Committee and Hanoi Department of Science and Technology; MOST; MOH | Hanoi decision under Resolution 29/2025/NQ-HĐND; new Government decree under Law 93/2025 Art 21(6) | Decision 6150/QĐ-UBND lists biotech; banking sandbox Decree 94/2025 | Medium | 6 to 12 months (Hanoi); 12 to 24 months (national) | PO-008 | [@REG2-13; @REG-48; @REG2-16; @REG2-17] {VN-direct\|Medium} |
@@ -719,7 +713,7 @@ Each gap is also in `open_questions.csv` and [[app-r1-open-questions]]. Gaps 5 t
 | 4 | Closed-production certificate (Art 37a): fee and validity (the decree sets about 60 WD at central level, S9.4.4) | Full Decision 375/QĐ-BNNMT (vanban.chinhphu.vn or dichvucong.gov.vn), or a call to MAE |
 | 5 | Whether new protein raw materials need an aquafeed trial when the list has no raw-material section | A written question to DFFI (aquafeed division) |
 | 6 | Whether any 2024 to 2026 circular amended Circular 21/2019 Appendix VI, and when the last annual update happened | DLPAH feed division; the MAE feed information portal |
-| 7 | Registrations of Entobel, yeast-protein and any SCP products on the DLPAH and DFFI portals | Query the MAE feed portal by company name; ask Entobel |
+| 7 | Registrations of yeast-protein and any SCP products on the DLPAH and DFFI portals | Query the MAE feed portal by company name |
 | 8 | Whether recognition of a feed trial allows sale before the annual list update | DLPAH |
 | 9 | Hanoi sandbox procedure (timelines, dossier) and whether national food law can be set aside | Read Resolution 29/2025/NQ-HĐND in full; call the Hanoi Department of Science and Technology. Check the priority fields of Hai Phong Decision 248/2025/QĐ-UBND and Da Nang Resolution 20/2026/NQ-HĐND |
 | 10 | Decree 320/2025 incentive chapter: criteria for "new projects applying high technology" | The official PDF, or one call to a tax adviser |

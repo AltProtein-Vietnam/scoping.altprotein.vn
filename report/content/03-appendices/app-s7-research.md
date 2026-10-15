@@ -70,7 +70,6 @@ Depth scale: *none*; *thin* (a few isolated papers, no sustained group); *modera
 | Duckweed, *Wolffia*, azolla | About 8 | 23 (0.96) | Genomics and taxonomy | Thin; none for protein | Can Tho University journal survey; Vietnamese authors with IPK Gatersleben; AGI VAAS |
 | Mushrooms and mycelium | About 40 on cultivation and bioactives; 2 to 3 on protein | not run | n/a | Moderate for cultivation; thin for mycelium as food | VNUA mushroom group |
 | Cell culture for cultivated meat | 0 technical papers; more than 50 on human stem cells and scaffolds; 1 on livestock stem cells | Cultivated meat 1 (0.04); fish or shrimp cell line 1 (0.04) | Cultivated meat: 1 legal paper; cell line: 0 (a toxicology paper) | None for cultivated meat; strong for adjacent human cell therapy | Vinmec; VNU-HCM Stem Cell Institute; IU VNU-HCM |
-| Insect protein (benchmark) | About 10 | Black soldier fly 34 (1.41) | Biodiesel plus feed | Thin to moderate | VNUA |
 | Alternative protein in aquafeed | About 20 | Fishmeal replacement 10 (0.42); "alternative protein" 20 (0.83) | Fishmeal replacement: about 7 Vietnamese trials, 2 doubtful tags; "alternative protein": mostly feed | Moderate | Can Tho University; Nha Trang University (RIA1 to RIA3 not visible) |
 
 Two query notes matter for re-runs [@BIB-01] {general|High}. "Koji" was dropped from the *A. oryzae* query because it matched the Japanese given name Koji in author fields (169 hits). A first textured-protein query that included "textured protein" OR "texturized protein" broke the search and returned the whole Vietnam total; it was discarded.
@@ -104,7 +103,7 @@ We could build year counts only for the topic sets small enough to read in full 
 |---|---|---|---|---|---|---|---|---|---|---|---|---|
 | Records | 0 | 3 | 0 | 2 | 2 | 4 | 5 | 5 | 6 | 5 | 6 | 4 |
 
-By period: 7 records in 2015 to 2019, 14 in 2020 to 2022 and 21 in 2023 to September 2026 [@BIB-01] {VN-direct|Low}. The counts include false positives, so read them as direction only. Year splits for the larger sets (spirulina, black soldier fly, *Pichia*, *A. oryzae*, duckweed, "alternative protein") need OpenAlex.
+By period: 7 records in 2015 to 2019, 14 in 2020 to 2022 and 21 in 2023 to September 2026 [@BIB-01] {VN-direct|Low}. The counts include false positives, so read them as direction only. Year splits for the larger sets (spirulina, *Pichia*, *A. oryzae*, duckweed, "alternative protein") need OpenAlex.
 
 ## S7.6 Vietnam's adjacent strengths
 
@@ -126,7 +125,7 @@ By period: 7 records in 2015 to 2019, 14 in 2020 to 2022 and 21 in 2023 to Septe
 
 **Microalgae cultivation** [@RD-21; @RD-20] {VN-direct|Medium}. A salt-tolerant Spirulina strain reached 48.73% protein (dry weight) in a 42 ppt medium (2023). VNUA published a review of Arthrospira production in Vietnam (2021).
 
-**Mid-sized clusters that sit next to alternative protein** (OpenAIRE, VN-tagged): black soldier fly 34 records (the three most cited are about biodiesel from larval fat), *Pichia* 25 (mostly vaccine antigens and enzymes), *A. oryzae* 23 (mostly fungal genetic tools), duckweed 23 (mostly genomics and taxonomy) and "alternative protein" 20 (mostly feed) [@BIB-01] {VN-direct|Medium}. None of the ten most-cited papers in the *Pichia*, *A. oryzae* or duckweed clusters produces a food protein.
+**Mid-sized clusters that sit next to alternative protein** (OpenAIRE, VN-tagged): *Pichia* 25 (mostly vaccine antigens and enzymes), *A. oryzae* 23 (mostly fungal genetic tools), duckweed 23 (mostly genomics and taxonomy) and "alternative protein" 20 (mostly feed) [@BIB-01] {VN-direct|Medium}. None of the ten most-cited papers in the *Pichia*, *A. oryzae* or duckweed clusters produces a food protein.
 
 ## S7.7 Representative papers
 
@@ -165,7 +164,6 @@ A selection from `publications.csv`. Citation counts are OpenAIRE counts from wa
 | 10.1111/anu.12648 | 2018 | Fermented soybean meal in shrimp feed | RIA2 and Nong Lam University HCMC | 88.8% crude protein digestibility; optimum fishmeal replacement 253.6 g/kg | n/a | [@RD-46] {VN-direct\|Medium} |
 | 10.1111/anu.12915 | 2019 | Brewer's yeast in prawn feed | An Giang University with the Swedish University of Agricultural Sciences | Up to 60% of fishmeal protein replaced | n/a | [@RD-48] {VN-direct\|High} |
 | 10.1007/s10811-018-1457-7 | 2018 | Seaweed protein in shrimp feed | Can Tho University | *Cladophora* protein partly replaced fishmeal in black tiger shrimp postlarvae | 25 | [@RD-50; @BIB-01] {VN-direct\|Medium} |
-| 10.3390/aquacj5010007 | 2025 | Black soldier fly larvae in eel feed | VNUA | 30% larvae meal best in swamp eel; feed conversion ratio 2.33 | n/a | [@RD-54] {VN-direct\|High} |
 | 10.3390/foods11111531 | 2022 | Catfish side-stream protein | Nha Trang University | pH-shift recovery of protein from tra catfish side streams | n/a | [@RD-52] {VN-direct\|High} |
 | 10.47866/2615-9252/vjfc.4588 | 2025 | Traditional soy sauce safety | NIFC journal | Aflatoxin tested in 38 *tương* (fermented soybean paste) samples | n/a | [@RD-61] {VN-direct\|Medium} |
 
@@ -186,7 +184,7 @@ Summary from `institutions.csv` (31 rows). Location is the current province {VN-
 | VNU-HCM International University (IU), School of Biotechnology | Ho Chi Minh City | Germination, starch and protein chemistry; porcine germline stem cells | Low; attribution from author groups | [@RD-42] {VN-direct\|Low} |
 | Ho Chi Minh City University of Technology (HCMUT) | Ho Chi Minh City | Ultrafiltration of rice protein; fermentation of defatted rice bran; sensory and binder studies of Vietnamese sausage | Medium | [@RD-24; @HXE-01; @HXE-02] {VN-direct\|Medium} |
 | Institute of Biotechnology (IBT), VAST | Hanoi | Microalgae strain collection and cultivation; *Pichia* and *A. niger* expression; rice bran protein isolate | Medium | [@RD-21; @RD-25] {VN-direct\|Medium} |
-| Vietnam National University of Agriculture (VNUA) | Hanoi | Mushroom strains and cultivation; spirulina; fish feeding trials | High (880 Scite affiliation records) | [@RD-20; @RD-54; @RD-01] {VN-direct\|High} |
+| Vietnam National University of Agriculture (VNUA) | Hanoi | Mushroom strains and cultivation; spirulina | High (880 Scite affiliation records) | [@RD-20; @RD-01] {VN-direct\|High} |
 | Can Tho University (CTU), College of Aquaculture and Fisheries | Can Tho | Fish and shrimp nutrition and digestibility trials; seaweed and Artemia protein; duckweed germplasm survey | High; strongest publisher on alternative aquafeed protein | [@RD-10; @RD-47; @RD-50; @RD-51] {VN-direct\|High} |
 | Nha Trang University (NTU) | Khanh Hoa | Fish side-stream protein (pH-shift); hydrolysates; marine fish nutrition trials | Medium (183 Scite affiliation records) | [@RD-52; @RD-53; @RD-01] {VN-direct\|Medium} |
 | Food Industries Research Institute (FIRI), under MOIT | Hanoi | Online microbial culture collection; pilot production and technology transfer centre; enzyme and protein technology department; accredited testing | High for structure; equipment sizes not published | [@RD-07] {VN-direct\|High} |
@@ -197,7 +195,7 @@ Summary from `institutions.csv` (31 rows). Location is the current province {VN-
 
 Named institutions with **no relevant output found** in the Scite search: University of Danang, Van Lang, VinUni, RMIT Vietnam, Fulbright, Phenikaa, Hue University (one unconfirmed attribution), the Field Crops Research Institute (breeding only), and Nong Lam University (not searched by affiliation) [@RD-01] {VN-direct|Low}. This is evidence of low visibility in indexed journals, not proof that they do no relevant work. The Industrial University of Ho Chi Minh City (IUH), listed here in earlier drafts, published a high-moisture meat analogue paper in 2026 [@TIC-21] {VN-direct|Medium}.
 
-A count-based institution ranking was not possible without OpenAlex. The wave 2 qualitative order, built from wave 1 attributions and the DOIs surfaced, is: VNU Hanoi HUS (*A. oryzae* tools), VNU-HCM HCMUS (*Pichia*), IBT VAST (microalgae), HUST (side-stream protein), Can Tho University (aquafeed), Nha Trang University (aquafeed), VNUA (spirulina, black soldier fly), HCMUT (rice protein), VNU Hanoi IMBT (methanotroph), HCMUTE (spirulina protein) [@BIB-01] {VN-direct|Low}. HUST is under-represented in OpenAIRE's Vietnam tag.
+A count-based institution ranking was not possible without OpenAlex. The wave 2 qualitative order, built from wave 1 attributions and the DOIs surfaced, is: VNU Hanoi HUS (*A. oryzae* tools), VNU-HCM HCMUS (*Pichia*), IBT VAST (microalgae), HUST (side-stream protein), Can Tho University (aquafeed), Nha Trang University (aquafeed), VNUA (spirulina), HCMUT (rice protein), VNU Hanoi IMBT (methanotroph), HCMUTE (spirulina protein) [@BIB-01] {VN-direct|Low}. HUST is under-represented in OpenAIRE's Vietnam tag.
 
 After the 2025 reforms, RIA1 to RIA3 and VAAS sit under the Ministry of Agriculture and Environment (MAE), FIRI under MOIT, NIFC under MOH and NAFOSTED under MOST [@REG-42; @RD-07; @RD-06] {VN-direct|Medium}. We did not re-verify these mappings.
 
@@ -220,7 +218,7 @@ After the 2025 reforms, RIA1 to RIA3 and VAAS sit under the Ministry of Agricult
 
 > **Correction.** In v0.6 this table named Can Tho University as SLU's Vietnamese partner on brewer's yeast; both papers are with An Giang University (VNU-HCM) [@RD-48; @RD-49] {VN-direct|High}.
 
-We could not measure the share of Vietnamese papers with international co-authors: OpenAIRE returned no affiliations [@BIB-01] {VN-direct|High}. Qualitatively, the most-cited VN-tagged records in microalgae, spirulina and black soldier fly come from international networks (Malaysia-led microalgae groups, a Taiwan-based black soldier fly biodiesel group, the IPK duckweed network) [@BIB-01] {VN-direct|Low}. Work led from inside Vietnam on protein ingredients typically has 0 to 25 citations [@BIB-01] {VN-direct|Low}.
+We could not measure the share of Vietnamese papers with international co-authors: OpenAIRE returned no affiliations [@BIB-01] {VN-direct|High}. Qualitatively, the most-cited VN-tagged records in microalgae and spirulina come from international networks (Malaysia-led microalgae groups, the IPK duckweed network) [@BIB-01] {VN-direct|Low}. Work led from inside Vietnam on protein ingredients typically has 0 to 25 citations [@BIB-01] {VN-direct|Low}.
 
 ## S7.10 Research funding programmes
 
@@ -257,9 +255,9 @@ Each gap meets three tests: Vietnam holds a scarce raw material, species or skil
 8. **Seaweed protein** (*Ulva*, *Caulerpa*, *Kappaphycus*) for food and feed; only small shrimp postlarvae trials exist [@RD-50; @RD-51] {VN-direct|Medium}.
 9. **Methanotroph or biogas-derived bacterial protein** from pig-farm and cassava-starch biogas; one isolation paper (2016), no follow-up [@RD-28] {VN-direct|Medium}.
 10. **A DIAAS or PDCAAS reference dataset for Vietnamese protein ingredients** (rice distillers' grain, mung bean, gac seed, spent yeast, catfish side-stream isolates, spirulina). Nothing found [@RD-01] {VN-direct|Medium}. This is a cheap public good that every plant-based food play needs, and feed makers would use it too. No commercial Vietnamese laboratory offering digestibility assays was found either ([[app-s8-labs-talent]]).
-11. **Bacterial single-cell protein and fungal meal in pangasius and whiteleg shrimp diets.** Soy, yeast, black soldier fly and seaweed have been tested; novel microbial meals have not [@RD-01] {VN-direct|Medium}. Feed: context only.
+11. **Bacterial single-cell protein and fungal meal in pangasius and whiteleg shrimp diets.** Soy, yeast and seaweed have been tested; novel microbial meals have not [@RD-01] {VN-direct|Medium}. Feed: context only.
 
-> **Correction.** A prior lead pointed to Indian ICAR-NBFGR pangasius cell lines as a transfer route for gap 1. The striped catfish thymus line PHT (NRFC-078) is real, but it is a serum-dependent (20% foetal bovine serum), adherent, epithelial line made for virology and toxicology, not a food cell line [@SCI-10] {VN-adjacent|High}. The shrimp line PmLyO-Sf9 is a black tiger shrimp and insect (Sf9) hybrid from Cochin University of Science and Technology, not ICAR-NBFGR, and contains an insect genome [@SCI-12] {general|High}. Neither removes the gap.
+> **Correction.** A prior lead pointed to Indian ICAR-NBFGR pangasius cell lines as a transfer route for gap 1. The striped catfish thymus line PHT (NRFC-078) is real, but it is a serum-dependent (20% foetal bovine serum), adherent, epithelial line made for virology and toxicology, not a food cell line [@SCI-10] {VN-adjacent|High}. The shrimp line PmLyO-Sf9 is a hybrid of black tiger shrimp cells and the moth cell line Sf9, from Cochin University of Science and Technology, not ICAR-NBFGR [@SCI-12] {general|High}. Neither removes the gap.
 
 > **Correction.** For gap 6, note the regulatory evidence abroad: EFSA could not establish the safety of whole *Wolffia globosa* powder (manganese intake) in 2021, but found a *Lemna* protein concentrate safe in 2023 [@SCI-28; @SCI-30] {general|High}. The "PDCAAS 0.89" figure for duckweed in earlier drafts traces to an applicant rat study of *Wolffia globosa* powder summarised by EFSA in 2021 (PDCAAS 89%); use it only with that caveat [@SCI-28] {general|Medium}. Protein extraction, not whole-plant powder, is the safer research target. See [[app-s13-science]].
 
