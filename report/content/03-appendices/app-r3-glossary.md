@@ -5,7 +5,7 @@ short_title: "R3. Glossary"
 lang: [en, vi]
 section: appendix
 order: 83
-summary: "236 terms used in the report, in English and Vietnamese, with short definitions in both languages, grouped by theme, with sections for futures and foresight, the demand side, the actor check and newcomers. Thuật ngữ song ngữ Anh - Việt dùng trong báo cáo."
+summary: "234 terms used in the report, in English and Vietnamese, with short definitions in both languages, grouped by theme, with sections for futures and foresight, the demand side, the actor check and newcomers. Thuật ngữ song ngữ Anh - Việt dùng trong báo cáo."
 audiences: [investors, policy, startups, manufacturers, research, international]
 reading_time_min: 44
 key_numbers: []
@@ -23,7 +23,7 @@ charts: []
 
 | English | Tiếng Việt | Abbr. | Definition | Định nghĩa |
 |---|---|---|---|---|
-| alternative protein | protein thay thế |  | Protein for food or feed made from plants, microorganisms, fungi, algae, insects or cultivated cells rather than conventional livestock and fish. | Protein cho thực phẩm hoặc thức ăn chăn nuôi làm từ thực vật, vi sinh vật, nấm, tảo, côn trùng hoặc tế bào nuôi cấy thay vì từ chăn nuôi và đánh bắt truyền thống. |
+| alternative protein | protein thay thế |  | Protein for food or feed made from plants, microorganisms, fungi, algae or cultivated cells rather than conventional livestock and fish. | Protein cho thực phẩm hoặc thức ăn chăn nuôi làm từ thực vật, vi sinh vật, nấm, tảo hoặc tế bào nuôi cấy thay vì từ chăn nuôi và đánh bắt truyền thống. |
 | crude protein | protein thô (đạm thô) | CP | Nitrogen content multiplied by 6.25; includes non-protein nitrogen such as nucleic acids. | Hàm lượng nitơ nhân 6,25; bao gồm cả nitơ phi protein như axit nucleic. |
 | essential amino acid | axit amin thiết yếu |  | An amino acid the body cannot make and must get from food. | Axit amin cơ thể không tự tổng hợp được, phải lấy từ thức ăn. |
 | digestibility | độ tiêu hóa |  | The share of a nutrient that is absorbed. | Tỷ lệ chất dinh dưỡng được hấp thu. |
@@ -80,8 +80,6 @@ charts: []
 | tolling | gia công lên men |  | Using another company's plant to make your product for a fee. | Thuê nhà máy của doanh nghiệp khác sản xuất sản phẩm của mình. |
 | contract development and manufacturing organisation | đơn vị phát triển và sản xuất theo hợp đồng | CDMO | A company that develops and makes products for clients. | Doanh nghiệp phát triển quy trình và sản xuất sản phẩm cho khách hàng. |
 | techno-economic analysis | phân tích kinh tế kỹ thuật | TEA | A cost model of a process at a given scale. | Mô hình chi phí của một quy trình ở quy mô nhất định. |
-| insect meal | bột côn trùng |  | Protein meal from insect larvae, such as black soldier fly. | Bột protein từ ấu trùng côn trùng như ruồi lính đen. |
-| black soldier fly | ruồi lính đen | BSF | The insect most used for feed protein. | Loài côn trùng dùng nhiều nhất để làm đạm thức ăn chăn nuôi. |
 
 ## Feed and aquaculture
 

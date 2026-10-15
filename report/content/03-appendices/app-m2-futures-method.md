@@ -25,7 +25,7 @@ charts: []
 
 ## M2.1 Purpose and scope of the futures round
 
-Version 0.1 (September 2026) describes Vietnam's alternative-protein supply today and its outlook to 2035 ([[ch19-outlook-2035]]). The futures round asked what could change between 2030 and 2050, and what actors should do now while the answer is uncertain. The research ran on 24 September 2026. The project owner took five decisions before it started.
+Version 0.1 (September 2026) describes Vietnam's alternative-protein supply today and its outlook to 2035 ([[ch19-outlook-2035]]). The futures round asked what could change between 2030 and 2050, and what actors should do now while the answer is uncertain. The research ran on 24 September 2026. The project owner took four decisions before it started.
 
 | Decision | What was decided | Consequence in Part IV |
 |---|---|---|
@@ -33,7 +33,6 @@ Version 0.1 (September 2026) describes Vietnam's alternative-protein supply toda
 | Stance | Evidence-anchored foresight plus one bold normative vision, clearly labelled | Horizon scan, exploratory scenarios and signposts; one "Vietnam 2050" vision with backcast milestones ([[ch24-vision-2050]]) |
 | Topics | All four: frontier technology; drivers and shocks; economy and policy futures; quantitative projections | Chapters 20 to 22, and a transparent protein and feed balance model for 2030 to 2050 ([[app-f4-balance-model]]) |
 | Demand | Demand enters only as a macro input (population, income, diet, published outlooks) | No consumer research; no market-size forecast for Vietnamese alternative-protein products |
-| Insects | Incumbent and benchmark only | No insect play recommended; insect papers in the bibliometric screen set aside as benchmark material |
 
 Unchanged from v0.1: the supply-side scope; food and feed together; neutral framing led by food and feed security, industry and trade; English text with a Vietnamese summary. Version 0.8 later narrowed the scope to protein for people, with feed as context only.
 

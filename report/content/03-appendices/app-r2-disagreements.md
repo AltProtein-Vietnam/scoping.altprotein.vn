@@ -4,7 +4,7 @@ title: "R2. Disagreements log"
 short_title: "R2. Disagreements"
 section: appendix
 order: 82
-summary: "All 373 cases where sources disagree, with both claims and the position this report takes. We never average disagreeing numbers."
+summary: "All 368 cases where sources disagree, with both claims and the position this report takes. We never average disagreeing numbers."
 audiences: [research, investors, policy, international, startups, manufacturers]
 reading_time_min: 87
 key_numbers: [kn-disagreements]
@@ -81,13 +81,10 @@ When two credible sources give different values or facts, we record both and sta
 | DG-035 | Carlsberg Phu Bai investment | VND 3,406 bn, about USD 169 million ([@IND-27]) | About USD 90 million ([@IND-28]) | Different scopes or phases. Capacity also differs: [@IND-27] gives 360 to 600 million L/yr (+67%); [@IND-28] reports +50% at opening (about 540 million L, our calculation), with no litre figure. |
 | DG-036 | De Heus and CJ feed | De Heus completed buying all 17 CJ Feed & Care plants in Asia in early 2026 ([@IND-43]); not a Vietnam plant count | No second source | Unverified. Low confidence. Ask De Heus or CJ. <br>*Same or related disagreement: DG-129.* |
 
-## Companies and ecosystem (9)
+## Companies and ecosystem (6)
 
 | ID | Topic | Claim A | Claim B | Position taken |
 |---|---|---|---|---|
-| DG-037 | Entobel funding | USD 33 m Series B (company PR, 2023; [@ECO-01], [@ECO-06]) | Series B USD 30 m (Mekong USD 25 m + Dragon USD 5 m) plus IFC USD 2.5 m = USD 32.5 m project cost (IFC disclosure; [@ECO-03]) | Use IFC's breakdown (primary DFI document). "USD 33 m" is rounded and includes IFC. Prior lead "about USD 36 m" not supported. One trade article speculated, citing DealStreetAsia, that IFC put in about USD 10 m ([@ECO-04]); IFC's disclosed figure is USD 2.5 m. <br>*Same or related disagreement: DG-062, DG-063.* |
-| DG-038 | Entobel capacity | "12x since 2022" ([@ECO-02]) | 1,000 + 10,000 = 11,000 t/yr design ([@ECO-03]) | Consistent within rounding. All are design capacity, not output. |
-| DG-039 | Cricket One volume | More than 100 million crickets/month (2020) | About 100 t fresh/month at full capacity (Feb 2023); about 150 t live/month (Oct 2024); 1,000 t/yr processing (Oct 2023) | Units differ and all are company claims. Use "1,000 t/yr processing capacity (2023, claimed)" as the scale anchor. |
 | DG-040 | Vinh Hao spirulina area | 5,000 m2 (prior lead) | More than 12,000 m2 (company page, undated) | Prefer the company figure as more recent, but it is unaudited. Output figure (17 t/yr) is from 2013. |
 | DG-041 | Vinasoy share | 82.7% (Dec 2014, [@ECO-42]) | About 80% (2024, [@ECO-41]) | Not a conflict: stable share over time. The 2014 figure is Nielsen data reported by the press; the 2024 figure is company-sourced. <br>*Same or related disagreement: DG-031.* |
 | DG-042 | Bewina | Imports plant-based meat, founder Ho Thanh Nhien ([@ECO-17]); the Taiwan and US brands in the same article are market examples, not tied to Bewina | Sells "Romania" products ([@ECO-19]) | Possibly both (the Romanian brand Verdino plus others). Low confidence. |
@@ -181,12 +178,10 @@ When two credible sources give different values or facts, we record both and sta
 | DG-109 | Duckweed productivity | ~30 t/ha/yr average, dry matter basis not stated ([@SCI-36]) | up to 100 t DM/ha/yr ([@SCI-37]) | Use 10 to 30 for planning; 100 is an extrapolated ceiling. |
 | DG-110 | Mung bean protein quality | Pig DIAAS 86 (older pattern) ([@SCI-41]) | Human ileal digestibility about 20% lower than pigs ([@SCI-42]) | Prefer human data for food claims. |
 
-## Capital (9)
+## Capital (7)
 
 | ID | Topic | Claim A | Claim B | Position taken |
 |---|---|---|---|---|
-| DG-062 | Entobel total raised | ~USD 36M (prior lead, no source) | USD 33M Series B (Entobel, [@CAP-08]); USD 32.5M project cost (IFC via EWS, [@CAP-04]); USD 30M (Mekong/The Investor, [@CAP-01], [@CAP-02]) | USD 32.5M to 33M = USD 30M (Mekong + Dragon) + USD 2.5M (IFC). Earlier rounds undisclosed. Reject USD 36M. <br>*Same or related disagreement: DG-037, DG-063.* |
-| DG-063 | IFC ticket in Entobel | ~USD 10M (Petfood Industry, [@CAP-07]); USD 10M equity proposed (IFC 45769, [@CAP-03]) | USD 2.5M (IFC 46903, [@CAP-04]) | USD 2.5M. The USD 10M proposal (early 2022, board date 9 Feb 2022) predates the final round, and the company's USD 33M total leaves room for only about USD 3M from IFC. <br>*Same or related disagreement: DG-062, DG-037.* |
 | DG-064 | Vietnam VC deal count 2024 | 118 (2025 report, [@CAP-20]) | 122 (2026 report, per TNGlobal, [@CAP-22]) | Use 118 for 2024. Both Do Ventures editions give 118; the 2026 report's chart shows 122 (2023), 118 (2024) and 103 (2025) ([@CAP-21]). TNGlobal's 122 is the 2023 count. Total USD 398M. |
 | DG-065 | Climate tech VC 2024 | USD 23M in 10 deals (Do Ventures, [@CAP-20]) | ~USD 98M to 100M in 55 deals (CT-FE 2025, [@CAP-25], [@CAP-26]) | Definitional. CT-FE counts Techcoop (USD 70M including debt) as climate; Do Ventures counts it as agriculture. Always name the source. |
 | DG-066 | Techcoop year | Announced 28 February 2025 ([@CAP-19]) | Counted in 2024 data ([@CAP-20]) | Probably closed in late 2024 and announced in 2025. Year-on-year agritech swings (USD 74M to USD 1M) reflect this one deal. |

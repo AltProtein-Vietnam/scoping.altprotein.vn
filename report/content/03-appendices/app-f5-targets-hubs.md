@@ -225,7 +225,7 @@ Simple averages between two published points (`working-papers/wave3/vision_bench
 | Norway | Marine share of salmon feed | Minus 2.6 (1990 to 2013), then minus 1.1 points a year (to 2020) | None | Price can cause fast substitution in aquafeed | [@VIS-18; @VIS-19] {general\|High} |
 | Norway | Novel ingredients in salmon feed | 0.4% in 2020; overall feed composition similar to 2016 | None | Ceiling for novel feed protein at national scale today | [@VIS-18; @VIS-20] {general\|High} |
 
-**Applied to Vietnam, as feed context (our calculation, `vis_calc.py` parts B and C).** A soybean-meal inclusion trend of minus 1% a year lowers inclusion by 22% by 2050; minus 2% a year by 40% {VN-direct|Low} {fx:estimate}. The balance model's S-ALT scenario puts microbial protein at 1.0% (2030), 2.7% (2035), 4.4% (2040) and 8.4% (2050) of high-protein feed protein: plausible in 2030 against Norway's 0.4% (novel ingredients including insect meal, as a share of all salmon-feed ingredients, a different denominator), above any analogue in 2050 [@VIS-18] {VN-direct|Low} {fx:estimate}.
+**Applied to Vietnam, as feed context (our calculation, `vis_calc.py` parts B and C).** A soybean-meal inclusion trend of minus 1% a year lowers inclusion by 22% by 2050; minus 2% a year by 40% {VN-direct|Low} {fx:estimate}. The balance model's S-ALT scenario puts microbial protein at 1.0% (2030), 2.7% (2035), 4.4% (2040) and 8.4% (2050) of high-protein feed protein: plausible in 2030 against Norway's 0.4% (novel ingredients as a share of all salmon-feed ingredients, a different denominator), above any analogue in 2050 [@VIS-18] {VN-direct|Low} {fx:estimate}.
 
 ### F5.3.3 Peer budgets
 
@@ -344,7 +344,7 @@ The Mekong total is about 123 kt a year (our sum), against a national target of 
 
 ### F5.5.5 Zones
 
-- **Cai Mep Ha free trade zone (Decision 4560/QD-UBND, 23 July 2026):** 4,174.35 ha in Ho Chi Minh City, with 906.07 ha for logistics and 850.67 ha for industry, urban use and services beside a deep-sea port. "Green" and "circular" production are named; biotech and food are not [@HUB-06] {VN-direct|High}. Its neighbours are the VAL crusher (nearly 2 Mt of soybean meal a year) and Entobel's insect plant, the feed incumbents, which are context for this study [@VCO-16; @FS-43] {VN-direct|Medium}.
+- **Cai Mep Ha free trade zone (Decision 4560/QD-UBND, 23 July 2026):** 4,174.35 ha in Ho Chi Minh City, with 906.07 ha for logistics and 850.67 ha for industry, urban use and services beside a deep-sea port. "Green" and "circular" production are named; biotech and food are not [@HUB-06] {VN-direct|High}. Its neighbour is the VAL crusher (nearly 2 Mt of soybean meal a year), a feed incumbent that is context for this study [@VCO-16] {VN-direct|Medium}.
 - **Decree 263/2026 on *khu nông nghiệp ứng dụng công nghệ cao* (hi-tech agriculture zones), in force from 1 July 2026:** provinces decide; functions are research, trials, pilot production and incubation; incentives are 70% interest support capped at 8% a year and land-fee exemption for infrastructure. It fits a pilot food-fermentation campus; we could not tell whether full-scale plants qualify [@HUB-26; @INF-23] {VN-direct|Medium} {fx:signal}.
 - **The bioeconomy's own map is blank:** on 24 September 2026 MAE had published no location for its biotechnology clusters (due December 2026) or its "at least 5" innovation centres to 2030 [@HUB-09; @HUB-10; @NTS-37] {VN-direct|Medium} {fx:signal}.
 - **Lessons from stalled zones.** The 418 ha Bac Lieu shrimp hi-tech zone (2017), whose scope includes feed processing, lost investors while land procedures stayed unresolved. The 5,200 ha Hau Giang zone (2012) had cleared only 10 ha for investors by 2020. Fix land procedures before announcing [@HUB-11; @HUB-12] {VN-direct|Medium}.
@@ -383,7 +383,7 @@ Our calculation in `hub_calc.py` for sites built 2035 to 2045 {VN-direct|Low} {f
 | One ethanol plant's CO2 supports | About 17 to 28 kt of protein a year |
 | A 20 kt a year protein plant on cassava glucose needs | 252 to 303 kt of roots: 3.9 to 4.7% of former Tay Ninh capacity |
 | The S-ALT 2050 cassava need | 84% of former Tay Ninh capacity |
-| The S-ALT 2050 feed product (about 860 kt dry) | About 78 times Entobel's Vietnamese capacity (11 kt a year across two plants) or 43 plants of Calysseo's 20 kt size |
+| The S-ALT 2050 feed product (about 860 kt dry) | About 43 plants of Calysseo's 20 kt size |
 | Buyers | Ca Mau farmed 594,851 t of shrimp in 2025; Dong Thap's pangasius needs 0.91 to 1.04 Mt of feed a year at a feed conversion ratio of 1.5 to 1.7 (assumed) |
 
 **Reading.** Several sugar-route plants fit in Tay Ninh, enough for food fermentation at the scale demand supports; the whole S-ALT build-out for 2050 does not. For a pilot on hydrogen, co-location with an electrolyser matters more than the hydrogen itself: by-product oxygen and ammonia and a buyer next door are the advantage. That route served feed in our assessment and is now context [@HUB-05; @FS-03] {VN-direct|Low} {fx:estimate}.

@@ -4,7 +4,7 @@ title: "R1. Open questions register"
 short_title: "R1. Open questions"
 section: appendix
 order: 81
-summary: "All 473 open questions left by the research, grouped by topic, with why each matters, the cheapest way to close it, who to ask, and its status. The eighteen priorities are ranked in chapter 30."
+summary: "All 469 open questions left by the research, grouped by topic, with why each matters, the cheapest way to close it, who to ask, and its status. The eighteen priorities are ranked in chapter 30."
 audiences: [research, policy, investors, startups, manufacturers, international]
 reading_time_min: 106
 key_numbers: [kn-open-questions]
@@ -17,7 +17,7 @@ charts: []
 
 This register lists every question the research could not close. It is generated from `open_questions.csv`, which also holds the source notes each question came from. The eighteen questions that matter most, with the play each unblocks, are ranked in [[ch30-unknowns]]; their rank appears in the "Priority" column below. Version 0.2 adds the questions left by the futures round (OQ-128 onwards, topic "futures 2030 to 2050"); the most important are summarised in [[ch28-robust-moves]]. Version 0.3 adds the questions left by the demand round (OQ-156 onwards, topics beginning "demand"), with the priority each research stream gave them (High, Medium or Low); the ones that most change Part III are discussed in [[ch25-demand-to-frontier]]. Version 0.4 adds the questions left by the actor check and expansion waves 7 to 9 (OQ-270 to OQ-376; see [[app-m4-actor-check-waves]]) and updates the status of several demand questions. Version 0.7 adds the questions left by the citation check (OQ-377 onwards).
 
-Status: 435 open; 33 partly closed; 5 closed.
+Status: 432 open; 32 partly closed; 5 closed.
 
 Readers who can answer any of these are invited to contact AltProtein Vietnam; closed questions will be dated in the data file.
 
@@ -48,7 +48,7 @@ Readers who can answer any of these are invited to contact AltProtein Vietnam; c
 |---|---|---|---|---|---|
 | OQ-015 | 6 | Cassava pulp gate price, and the split between wet sale, drying, biogas and dumping. | Call 3 to 5 Tay Ninh factories (for example Dinh Khue; Hung Duy Group) and the Son La Starch Factory. The Vietnam Cassava Association (hiephoisanvietnam.org.vn) publishes weekly market bulletins; its site failed on a TLS certificate error in this session, so read it in a browser. | Vietnam Cassava Association | open |
 | OQ-016 |  | National starch output, including domestic use, not just exports. | Sources: MOIT industrial statistics, NSO "sản phẩm công nghiệp chủ yếu" tables, or the Vietnam Cassava Association. | MOIT; NSO; Vietnam Cassava Association | open |
-| OQ-017 |  | Beer volume for 2024/2025 and brewery-gate BSG prices. | Sources: NSO industrial output ("bia các loại"), the Vietnam Beer-Alcohol-Beverage Association (VBA), and the Heineken Vietnam and Sabeco sustainability or annual reports. Ask Entobel directly about its feedstock. | NSO; VBA; Heineken Vietnam; Sabeco; Entobel | open |
+| OQ-017 |  | Beer volume for 2024/2025 and brewery-gate BSG prices. | Sources: NSO industrial output ("bia các loại"), the Vietnam Beer-Alcohol-Beverage Association (VBA), and the Heineken Vietnam and Sabeco sustainability or annual reports. | NSO; VBA; Heineken Vietnam; Sabeco | open |
 | OQ-018 |  | Molasses volume, flows and bulk price. | Sources: VSSA, and the TTC AgriS (SBT) and QNS annual reports (by-product revenue lines), plus MSG and yeast buyers (Vedan, Ajinomoto). | VSSA; TTC AgriS; QNS; Vedan; Ajinomoto | open |
 | OQ-019 |  | Broken rice volume and uses. | Vietnam Food Association (VFA). | Vietnam Food Association; VFA | open |
 | OQ-020 |  | Seafood by-product volume and use. | VASEP; annual reports of Vinh Hoan and other pangasius exporters (collagen, gelatin and fishmeal lines). | VASEP; Vinh Hoan | open |
@@ -75,14 +75,13 @@ Readers who can answer any of these are invited to contact AltProtein Vietnam; c
 | OQ-030 |  | Current status of the AB Mauri La Nga plant after the 2019 suspension. | Ask the Dong Nai Department of Agriculture and Environment, or AB Mauri directly. | Dong Nai Department of Agriculture and Environment; AB Mauri | open |
 | OQ-031 |  | Local stainless fermenter and food-machinery fabricators. | Talk to the Vietnam Mechanical Enterprises Association and to engineering firms that built the Vedan and Ajinomoto expansions. \| Check the national business registry (dangkykinhdoanh.gov.vn) for Buhler, GEA, Alfa Laval and Famsun entities, or ask vendors' Singapore offices. | Vietnam Mechanical Enterprises Association; Vedan; Ajinomoto; dangkykinhdoanh.gov.vn; Buhler; Famsun | open |
 
-## Companies and ecosystem (13)
+## Companies and ecosystem (11)
 
 | ID | Priority | Question | Cheapest way to close it | Who to ask | Status |
 |---|---|---|---|---|---|
 | OQ-032 |  | Chay tonnage and protein inputs by manufacturer. | Call VISSAN, CJ Foods Vietnam, SG Food, Au Lac and Thoai An. Also check the General Statistics Office (now NSO) enterprise census for the relevant product codes. \| Look up each brand's manufacturer on its product labels (the field photos exist), then check the Ministry of Health / VFA self-declaration database and company registration. \| Not established; would need retailer data (Saigon Co.op, WinCommerce) or a market-research purchase. | VISSAN; CJ Foods Vietnam; SG Food; Au Lac; Thoai An; NSO; VFA; Saigon Co.op; WinCommerce | open |
 | OQ-033 | 5 | TVP, soy protein isolate and wheat gluten import volumes (HS 2106.10, 3504, 1109). | Check Vietnam Customs statistics or trade-data services (ImportGenius, Panjiva). \| Vietnam Customs (GDVC) statistics, or one call to a major importer or distributor. | Vietnam Customs | partly closed |
 | OQ-034 |  | Chinese SCP import volumes and manufacturers. | Check customs HS 2309 and 2102 lines; call CK Vietnam / V-Group. \| Ask V-Group / CK Vietnam for a quote; check customs lines HS 2309.90 and 2102.20. | customs; CK Vietnam; V-Group | partly closed |
-| OQ-035 |  | Cricket One status in 2025 and 2026. | Check LinkedIn or call the company, and check the Dong Nai business registry. \| Not reached this wave. A phone check or site visit is cheapest. | LinkedIn; Dong Nai business registry | open |
 | OQ-036 |  | Brief leads not found: Song Huong Foods, LC Foods, Hue One Food, Tan Nhat Huong chay, Deep Blue Island, Hat Viet, Zhenmeat, "Unconventional". | A new search round with a fresh search budget should close these. |  | open |
 | OQ-037 |  | The 2 Vietnamese companies in GFI's database. | Email GFI APAC or download the public spreadsheet. \| Email GFI APAC or download the database spreadsheet. | GFI APAC | partly closed |
 | OQ-038 |  | NGO and event ecosystem (HSI Forward Food trainings, ProVeg, vegetarian associations, plant-based expos, university startup contests): not covered. | Needs a new search round. |  | open |
@@ -91,7 +90,6 @@ Readers who can answer any of these are invited to contact AltProtein Vietnam; c
 | OQ-117 |  | Which Vietnamese mills came with CJ Feed & Care, and whether the 21 De Heus plants include them. | Ask De Heus Vietnam communications. | De Heus | open |
 | OQ-118 |  | Plant lists for VISSAN, CJ Foods Vietnam and Ajinomoto. | Read their 2025 annual or sustainability reports (VISSAN publishes to UPCoM). | VISSAN | open |
 | OQ-119 |  | Vinasoy 2025 capacity and soybean origin. | Read the QNS 2025 annual report (UPCoM filing). | QNS | open |
-| OQ-120 |  | Skretting's H-Meal inclusion rate and volumes. | Ask Skretting Vietnam or Entobel. | Skretting; Entobel | open |
 
 ## Regulation (14)
 
@@ -99,9 +97,9 @@ Readers who can answer any of these are invited to contact AltProtein Vietnam; c
 |---|---|---|---|---|---|
 | OQ-041 | 1 | Full text of the draft Food Safety Law (Aug 2026 version). Does any article define new food, new technology food or new ingredients? | download from the National Assembly draft portal (duthaoonline.quochoi.vn) or the WTO SPS notification G/SPS/N/VNM/187 attachment; or ask the VFA Legal Division. \| the WTO SPS notification attachment downloaded by hand from docs.wto.org, or a request to the VFA Legal Division or the National Assembly Committee on Science, Technology and Environment. | WTO; VFA Legal Division; National Assembly Committee on Science, Technology and Environment | partly closed |
 | OQ-042 | 2 | Do purified PF proteins need a GMO food-use certificate, beyond labelling? What is the timeline for the Art 37a closed-production certificate? | written question to the MAE Department of Nature Conservation and Biodiversity and to VFA. Read the Decree 43/2026 appendix forms (e.g. form 25 on thuvienphapluat). \| a joint written question to MAE and VFA. | MAE Department of Nature Conservation and Biodiversity; VFA | open |
-| OQ-043 |  | Aquafeed permitted list, raw-material section (Circular 16/2026/TT-BNNMT Appendix II). Are insect meal, yeast, SCP, algae or duckweed listed? | download the Circular PDF from vanban.chinhphu.vn, or call DFFI. \| a written question to DFFI (Cục Thủy sản và Kiểm ngư, aquafeed division). | DFFI | partly closed |
+| OQ-043 |  | Aquafeed permitted list, raw-material section (Circular 16/2026/TT-BNNMT Appendix II). Are yeast, SCP, algae or duckweed listed? | download the Circular PDF from vanban.chinhphu.vn, or call DFFI. \| a written question to DFFI (Cục Thủy sản và Kiểm ngư, aquafeed division). | DFFI | partly closed |
 | OQ-044 |  | Is Circular 21/2019 Appendix VI still the livestock list after Circular 94/2025 and Law 146/2025? When was the last annual update? | DLPAH (Cục Chăn nuôi và Thú y) feed division; check the MAE feed information portal. \| DLPAH feed division. | DLPAH; MAE | partly closed |
-| OQ-045 |  | Registrations of Entobel, yeast-protein and any SCP products on the DLPAH and DFFI portals. | query the MAE feed portal by company name; ask Entobel. | MAE; Entobel | open |
+| OQ-045 |  | Registrations of yeast-protein and any SCP products on the DLPAH and DFFI portals. | query the MAE feed portal by company name. | MAE | open |
 | OQ-046 |  | Which body approves a controlled-testing sandbox (Law 93/2025 Art 21) for a food product? Is there an implementing decree? | MOST Legal Department; check decrees guiding Law 93/2025 issued in late 2025 and 2026. \| reading Resolution 29/2025/NQ-HĐND in full; a call to the Hanoi Department of Science and Technology. | MOST Legal Department; Hanoi Department of Science and Technology | partly closed |
 | OQ-047 |  | EIA thresholds for fermentation, food and feed plants (Decree 08/2022 Appendix II to V as amended by 05/2025 and 48/2026). | download the appendices PDF; ask an environmental consultant. \| the Decree 08/2022 and 05/2025 appendix PDFs from vanban.chinhphu.vn, or an environmental consultant. | environmental consultant | open |
 | OQ-048 |  | Decree 320/2025/ND-CP (CIT guidance): exact criteria for "projects applying high technology" and agricultural processing incentives. | read the decree; one call to a tax adviser. \| the official PDF, or one call to a tax adviser. | tax adviser | partly closed |
@@ -128,7 +126,7 @@ Readers who can answer any of these are invited to contact AltProtein Vietnam; c
 | OQ-125 |  | Vietnamese-language journals (VJST, Can Tho University Journal, VNUA journals) are only partly indexed. | ask NAFOSTED or the Vietnam Citation Index (VCI) team for topic counts. | NAFOSTED; Vietnam Citation Index | open |
 | OQ-126 |  | GFI grants | re-check https://gfi.org/researchgrants/ for Vietnamese grantees in the 2025 to 2026 cycles. |  | open |
 
-## Capital (11)
+## Capital (10)
 
 | ID | Priority | Question | Cheapest way to close it | Who to ask | Status |
 |---|---|---|---|---|---|
@@ -137,7 +135,6 @@ Readers who can answer any of these are invited to contact AltProtein Vietnam; c
 | OQ-063 |  | CJ and Cau Tre (2016) and Masan and De Heus (feed divestment): date, stake, price, multiple. | Check HNX/UPCoM filings (Cau Tre; Masan MEATLife, ticker MML) and the CJ and De Heus annual reports. \| check HOSE/UPCoM filings. \| Check CJ CheilJedang press releases and the Vietnamese business registry (masothue / National Business Registration Portal); read the can label. \| Check CJ CheilJedang's 2016 disclosures on Korea's DART system, or the Cau Tre shareholder filings. | Masan; De Heus; CJ CheilJedang; DART | partly closed |
 | OQ-064 |  | Food M&A multiples in Vietnam. | Ask VPCA or Mekong Capital; PitchBook or Mergermarket comps. | VPCA; Mekong Capital; PitchBook; Mergermarket | open |
 | OQ-065 |  | Vietnamese aquaculture-tech, feed-tech, microalgae and plant-based dairy startup deals. | Pull a Tracxn or PitchBook sector list for Vietnam; ask GFI APAC for its company database entries for Vietnam. | Tracxn; PitchBook; GFI APAC | open |
-| OQ-066 |  | Entobel's financing after 2023 (debt, any Series C, new plants) and whether the IFC USD 10M proposal was cancelled. | Check the IFC disclosure portal (projects 45769 and 46903) and ask Entobel directly. \| Look it up in the IFC project search directly (the site is JavaScript-only and not readable here). | IFC; Entobel | partly closed |
 | OQ-067 |  | Did Mavin's USD 90.6M IFC package close? | Check the IFC disclosure portal. | IFC | open |
 | OQ-068 |  | APAC alt-protein investment totals, 2023 to 2025. | Download the GFI APAC State of the Industry reports (behind a form). | GFI APAC | open |
 | OQ-069 |  | Thai Union Ventures, CPF, Wilmar and ADM Ventures activity in Vietnam. | Check company annual reports. |  | open |
@@ -515,7 +512,7 @@ Readers who can answer any of these are invited to contact AltProtein Vietnam; c
 | OQ-326 | Medium | Would BAP count yeast or bacterial biomass grown on sugar as an ingredient from "other aquatic microorganisms" under Feed Mill Standard clause 4.6 (Amendment 1)? | Decides whether T2 or T3 products earn credit towards BAP's 75% marine-ingredient target, or only microalgae do | One email to the Global Seafood Alliance standards team | Global Seafood Alliance | open |
 | OQ-327 | Medium | How much spent brewer's yeast and amino-acid fermentation biomass is produced in Vietnam, and where does it go now? | The revealed price (about USD 1.1 per kg) is set by by-product yeasts; a domestic by-product stream is the only T2 route that can meet it | Company sustainability reports and direct questions (links to OQ-017 and OQ-018) | Heineken Vietnam; Sabeco; Vedan; Ajinomoto Vietnam | open |
 | OQ-328 | Low | Who exports the 8,166 t of HS 2102.20 that left Vietnam in 2025, and is any of it feed grade? | Domestic yeast plants are T2's nearest competitors and possible tolling partners | Ask AB Mauri Vietnam and Lesaffre (Saf-Viet); exporter-level customs data | AB Mauri Vietnam; Saf-Viet (Lesaffre); General Department of Customs | open |
-| OQ-329 | Medium | Will Vinh Hoan's Feed One or another integrated pangasius group sign a trial or offtake for a non-insect microbial ingredient? | An anchor buyer is what investors and DFIs ask for (wave 7 AIS-Q14); none found | Direct approach to Vinh Hoan investor relations and Feed One management | Vinh Hoan Corporation; Nam Viet; Sao Mai Group | open |
+| OQ-329 | Medium | Will Vinh Hoan's Feed One or another integrated pangasius group sign a trial or offtake for a microbial ingredient? | An anchor buyer is what investors and DFIs ask for (wave 7 AIS-Q14); none found | Direct approach to Vinh Hoan investor relations and Feed One management | Vinh Hoan Corporation; Nam Viet; Sao Mai Group | open |
 
 ### Expansion: export buyers (7)
 
@@ -604,7 +601,7 @@ Readers who can answer any of these are invited to contact AltProtein Vietnam; c
 | OQ-375 | Low | What rates do Korea and Australia apply to Vietnamese stuffed pasta and food preparations under VKFTA, AKFTA, AANZFTA and RCEP, and to Chinese goods? | Completes the tariff-edge map; the recipe does not bind there under RCEP | Korea Customs Service FTA portal; Australian Border Force working tariff | KOTRA Hanoi; Austrade | open |
 | OQ-376 | Medium | How many Vietnamese food sites hold BRCGS or IFS Food certificates? | Sizes the pool of plants able to supply European importers directly | Free BRCGS Directory account, or a request to BRCGS and IFS for a country count | BRCGS; IFS Management | open |
 
-## Citation check, v0.7 (70)
+## Citation check, v0.7 (69)
 
 | ID | Priority | Question | Cheapest way to close it | Who to ask | Status |
 |---|---|---|---|---|---|
@@ -668,7 +665,6 @@ Readers who can answer any of these are invited to contact AltProtein Vietnam; c
 | OQ-434 |  | As amended by Decree 43/2026, do the steps, time limits and contract certification for a genetic-resource access licence under Decree 59/2017 still match Appendix S9 (S9.16)? | Read the consolidated Decree 59/2017 with the Decree 43/2026 amendments on thuvienphapluat.vn | MAE Department of Nature Conservation and Biodiversity | open |
 | OQ-435 |  | Which food groups must still register product declarations under the revised Food Safety Law (medical foods, special-diet foods, foods for children under 36 months, health supplements)? | Read the draft law text on the National Assembly portal, or the final law once passed | Ministry of Health (Vietnam Food Administration) | open |
 | OQ-436 |  | Has MAE already set the timeline and issuing level for the closed-production GMO certificate for fermentation strains, leaving only the fee and validity to publish? | Read the Decree 43/2026 provisions and Decision 375/QĐ-BNNMT, or ask MAE | MAE Department of Nature Conservation and Biodiversity | open |
-| OQ-437 |  | Do insect-meal factories fall under point b or point c of Article 10(3) of Decree 13/2020, as amended? | Read Decree 13/2020 as amended by Decree 32/2026, or ask the Department of Livestock Production and Animal Health | MAE Department of Livestock Production and Animal Health | open |
 | OQ-438 |  | What does the labelling chapter of Decree 37/2026 say about reserved product names and allergen declarations? | Read the labelling chapter of Decree 37/2026 on thuvienphapluat.vn | Ministry of Industry and Trade; Ministry of Health | open |
 | OQ-439 |  | What is the number and date of Hanoi's decision on its strategic technology list for 2026 to 2035, and does the list include alternative protein or bio-manufacturing? | Read the Hanoi People's Committee decision on thuvienphapluat.vn and the government news report of 13 August 2026 | Hanoi Department of Science and Technology | open |
 | OQ-440 |  | How much does it cost to dry fungal biomass, and how much RNA can feed made from it contain? | Cite a mycoprotein process-cost study and a feed-safety review on single-cell protein RNA |  | open |

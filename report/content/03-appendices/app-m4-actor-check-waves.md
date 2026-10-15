@@ -88,7 +88,7 @@ Yield classes follow the earlier expansion rounds: *changed a conclusion*, *adde
 
 **Why we stopped.** Every remaining candidate was either a deeper version of a question now answered (more school menus, more retailer targets, more DIAAS protein-quality scores, more equipment listings, more company reports, more press) or needed a different method: a written quote, a conditional order, an agency ruling, a trial, a customs extract or a paid report. Each line's own paper said the same about its next step. Further desk work would add citations and change no recommendation. The signal in this round, as in earlier ones, came from asking a different kind of question, and we ran out of different kinds of question that desk research can answer within the project's scope.
 
-**One scope note.** Insect protein stayed a benchmark only. Consumer attitude research was not extended; the round asked what institutions, firms and funders do, not what consumers say.
+**One scope note.** Consumer attitude research was not extended; the round asked what institutions, firms and funders do, not what consumers say.
 
 ## M4.5 Decisions taken when folding the results in
 

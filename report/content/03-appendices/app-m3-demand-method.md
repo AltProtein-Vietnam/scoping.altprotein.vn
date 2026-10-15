@@ -25,7 +25,7 @@ Versions 0.1 and 0.2 scoped the supply side. They treated demand only as a macro
 
 - **Demand as a design input.** Part III asks what demand exists or could exist that would pull new protein products and ingredients, what those products must be to win it, who buys first and how large it could be. It is not a consumer marketing plan.
 - **Four demand layers:** end consumers (households), foodservice and institutions, business buyers of protein ingredients, and export demand.
-- **Four product frames:** traditional *chay* as the incumbent baseline (studied, not promoted), plant-based and fungal products, fermentation-derived proteins, and cultivated meat and seafood. Insect protein remains an incumbent benchmark only.
+- **Four product frames:** traditional *chay* as the incumbent baseline (studied, not promoted), plant-based and fungal products, fermentation-derived proteins, and cultivated meat and seafood.
 - **Three methods:** desk research and evidence synthesis, a re-read of the project's existing field data, and a reproducible demand sizing model. We ran no new primary consumer research (surveys, tastings); [[ch25-demand-to-frontier]] specifies instead the tests that would close the largest gaps.
 
 The study now concentrates on protein for people, with feed only as context ([[app-m1-method]]). So the Part III evidence on feed buyers and seafood buyers' feed standards is context, not a basis for a feed play.

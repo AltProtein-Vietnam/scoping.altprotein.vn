@@ -275,7 +275,6 @@ Other S-BASE outputs: eggs 235 per person (2030) and 275 (2050); milk 2.75 Mt (2
 | of which replacing SBM / fishmeal | 39 / 17 | 222 / 44 | 449 / 65 | kt protein |
 | Share of high-protein feed protein | 1.0 | 4.4 | 8.4 | % |
 | Microbial feed product (dry) | 102 | 460 | 863 | kt |
-| Multiples of Entobel's Vietnamese design capacity (11 kt a year across its 1 kt and 10 kt plants) | 9 | 42 | 78 | multiples |
 | Plants of 20 kt a year (Calysseo, China) | 5 | 23 | 43 | plants |
 | Food substitute protein | 12 | 69 | 145 | kt protein |
 | Food protein ingredient (dry); finished product (15% protein) | 23; 79 | 136; 457 | 292; 964 | kt |
@@ -295,7 +294,7 @@ Other S-BASE outputs: eggs 235 per person (2030) and 275 (2050); milk 2.75 Mt (2
 | SBM and fishmeal emissions avoided | 0.10 | 0.43 | 0.81 | Mt CO2e |
 | Net electricity balance | minus 0.02 | plus 0.37 | minus 0.57 | Mt CO2 |
 
-The 2035 column is in `balance_outputs.csv` (our calculation; for example 160 kt of microbial feed protein, 2.7% of high-protein feed protein). The share is microbial protein divided by microbial protein plus protein-meal demand x 0.46. Plant equivalents are our arithmetic from the design sizes of Entobel's insect-meal plant in Vietnam (a size benchmark only) and Calysseo's FeedKind plant in China, which halted in 2026 [@ECO-01; @ECO-03; @FM-13; @COST-55; @FTG-06] {VN-direct|Low}.
+The 2035 column is in `balance_outputs.csv` (our calculation; for example 160 kt of microbial feed protein, 2.7% of high-protein feed protein). The share is microbial protein divided by microbial protein plus protein-meal demand x 0.46. Plant equivalents are our arithmetic from the design size of Calysseo's FeedKind plant in China, which halted in 2026 [@FM-13; @COST-55; @FTG-06] {VN-direct|Low}.
 
 {{kn:kn-salt-plants-2050}}
 
