@@ -102,7 +102,7 @@ The study concentrates on protein for people. Rows on feed and aquafeed mills ar
 | Other cassava areas | Gia Lai (with former Binh Dinh and the Quy Nhon export port); Dak Lak; Quang Ngai (with former Kon Tum); Dong Nai (former Binh Phuoc) | Root production and starch factories; no ranked provincial table found | [@FS-11; @FS-07; @IND-02; @GT-01] {VN-direct\|Medium} |
 | Industrial fermentation | Dong Nai (former Dong Nai, Bien Hoa area) | Vedan's Phuoc Thai MSG (monosodium glutamate) and lysine complex; Ajinomoto's Bien Hoa and Long Thanh plants; AB Mauri's La Nga yeast plant; a transaction office of QUATEST 3, a state testing centre, in Tran Bien ward | [@IND-01; @IND-04; @IND-08; @IND-15; @INF-13] {VN-direct\|Medium} |
 | Starch and ethanol | Dong Nai (former Binh Phuoc) | Vedan's Phuoc Long tapioca starch plant; the Binh Phuoc bio-ethanol plant | [@IND-02; @IND-04; @IND-20; @IND-66] {VN-direct\|Medium} |
-| Insect protein, soybean crushing, breweries, industrial parks | Ho Chi Minh City (former Ba Ria-Vung Tau and former Binh Duong) | Entobel's insect plant in the Dat Do industrial zone; the VAL soybean crushing plant at Phu My; Heineken's Vung Tau brewery (former Ba Ria-Vung Tau); a Vinasoy soy milk plant (former Binh Duong) | [@REG-44; @VCO-16; @IND-25; @IND-49] {VN-direct\|Medium} |
+| Soybean crushing, breweries, industrial parks | Ho Chi Minh City (former Ba Ria-Vung Tau and former Binh Duong) | The VAL soybean crushing plant at Phu My; Heineken's Vung Tau brewery (former Ba Ria-Vung Tau); a Vinasoy soy milk plant (former Binh Duong) | [@VCO-16; @IND-25; @IND-49] {VN-direct\|Medium} |
 | Hi-tech park and food processors | Ho Chi Minh City (former Ho Chi Minh City) | Saigon Hi-Tech Park; meat and *đồ chay* (traditional vegetarian) processors (Ho Chi Minh City base not confirmed: our product log records no maker addresses) | [@IND-57] {VN-direct\|Medium} (park); [@IND-53] {VN-direct\|Low} (processors) |
 | Shrimp belt and aquafeed | Ca Mau (with former Bac Lieu) | C.P. Vietnam's Ca Mau aquafeed plant (124,800 t/yr, opened 7 Aug 2026) | [@IND-42] {VN-direct\|Medium} |
 | Shrimp, aquafeed and research | Can Tho (with former Soc Trang and former Hau Giang) | De Heus Can Tho aquafeed plant; Sunjin Vina feed plant and Masan brewery (former Hau Giang); Can Tho University; the Region I aquafeed trial sub-centre | [@IND-47; @IND-46; @IND-30; @RD-10; @INF-28] {VN-direct\|Medium} |
@@ -120,7 +120,7 @@ Size of the units that matter most, from Resolution 202 [@GT-01] {VN-direct|High
 ## S10.5 The end of the district tier
 
 - From 1 July 2025, local government has two tiers: province and commune (including wards). District-level units no longer exist [@GT-02] {VN-direct|High}.
-- Addresses now read "ward or commune, province". For example, Entobel's plant is at Lot 05, Street N3, Dat Do I Industrial Zone, Dat Do commune, Ho Chi Minh City [@REG-44] {VN-direct|Medium}.
+- Addresses now read "ward or commune, province".
 - Licensing moved to provincial chairs. Many feed and aquafeed procedures, which this study treats as context, now sit with the chairs of provincial People's Committees: feed factory certificates, supplement-feed appraisal, import licences for unpublished feed, aquafeed trial recognition and import licences for unlisted aquafeed [@REG-41; @REG-35] {VN-direct|High}. Expect provincial officials, not district officials, to handle them. See [[app-s9-regulation]].
 - The number and date of the Law on Organisation of Local Government that sets the two-tier model were not verified [@GT-02] {VN-direct|Medium}.
 

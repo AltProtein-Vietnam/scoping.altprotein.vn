@@ -113,7 +113,7 @@ That is about 40 working days of agency time (our calculation: 15 + 5 + 15 + 5),
 
 > **Correction.** Earlier drafts cited Article 11 of Decree 13/2020 as the basis for feed trials. That article covers factory inspection [@REG-30] {VN-direct|High}. The trial route is Article 37 of the Law on Animal Husbandry and Circular 94/2025 [@REG-29; @REG-34] {VN-direct|High}.
 
-For aquafeed, the permitted list in Appendix II of Circular 16/2026/TT-BNNMT (9 March 2026) has chemical, biological, microorganism, vitamin, amino-acid and enzyme sections but **no raw-material section**, so the status of insect meal, single-cell protein, microalgae biomass or duckweed in aquafeed is legally ambiguous [@REG2-01] {VN-direct|High}. Enforcement has become sharper: Decree 211/2026/NĐ-CP (in force 5 August 2026) fines VND 10 to 15 million for each type of unlisted raw material used at lower values and VND 15 to 20 million at higher values, with an additional 1 to 3 months' suspension of feed production [@REG2-10] {VN-direct|High}.
+For aquafeed, the permitted list in Appendix II of Circular 16/2026/TT-BNNMT (9 March 2026) has chemical, biological, microorganism, vitamin, amino-acid and enzyme sections but **no raw-material section**, so the status of single-cell protein, microalgae biomass or duckweed in aquafeed is legally ambiguous [@REG2-01] {VN-direct|High}. Enforcement has become sharper: Decree 211/2026/NĐ-CP (in force 5 August 2026) fines VND 10 to 15 million for each type of unlisted raw material used at lower values and VND 15 to 20 million at higher values, with an additional 1 to 3 months' suspension of feed production [@REG2-10] {VN-direct|High}.
 
 ### Where trials are run
 
@@ -198,7 +198,7 @@ Readings:
 | TECOVA | GMP and ISO design, validation and compliance consultancy | Vietnam | GMP facility design and qualification for food, pharma and biotech | [@IND-65] {VN-direct\|Low} |
 | Tan Sao Bac A Machinery Co., Ltd | Machinery dealer | Ho Chi Minh City (Vinh Loc A, former Binh Chanh district) | Chinese soy extrusion lines, 100 to 2,000 kg/h, 22 to 120 kW, for dried chay snacks | [@FORM-34] {VN-direct\|Medium} |
 | Buhler Group | Extrusion, feed and aquafeed mills, high-moisture extrusion | Not verified (locations page dynamic) | Main global supplier of feed and texturisation extrusion (general knowledge, not on the cited page) | [@INF-30] {general\|Low} |
-| FAMSUN (Muyang) | Feed and aquafeed mill and extrusion equipment (China) | Vietnam office not shown | Feed-mill turnkey, extruders; pelleting of single-cell or insect meal | [@INF-27] {general\|Low} |
+| FAMSUN (Muyang) | Feed and aquafeed mill and extrusion equipment (China) | Vietnam office not shown | Feed-mill turnkey, extruders; pelleting of single-cell protein meal | [@INF-27] {general\|Low} |
 | Clextral | Twin-screw extruders (TVP, high-moisture, aquafeed) | Not verified (site failed TLS) | Extrusion for plant-based meat and aquafeed | [@INF-31] {general\|Low} |
 | GEA | Separators, spray dryers, evaporators, fermentation and plant-protein lines | Vietnam page returned 404 | Downstream processing for single-cell protein, isolates and precision fermentation (portfolio from general knowledge; cited page is a 404) | [@INF-32] {general\|Low} |
 | Alfa Laval | Separators, decanters, heat exchangers, hygienic pumps and valves | Vietnam site timed out | Biomass harvest and protein fractionation (portfolio from general knowledge; cited site unreachable) | [@INF-33] {general\|Low} |

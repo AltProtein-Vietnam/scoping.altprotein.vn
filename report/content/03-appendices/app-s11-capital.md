@@ -4,10 +4,10 @@ title: "S11. Capital: deals, investors and funding programmes"
 short_title: "S11. Capital"
 section: appendix
 order: 31
-summary: "Every disclosed alternative-protein and adjacent agrifood deal linked to Vietnam, the size of Vietnamese venture and private equity markets, the Entobel insect-feed financing as a deal template, global and regional investment trends, development finance, the new state venture funds, grants open in 2026, accelerators and exit routes."
+summary: "Every disclosed alternative-protein and adjacent agrifood deal linked to Vietnam, the size of Vietnamese venture and private equity markets, a possible financing structure for a first plant, global and regional investment trends, development finance, the new state venture funds, grants open in 2026, accelerators and exit routes."
 audiences: [investors, startups, policy, international, manufacturers]
 reading_time_min: 26
-key_numbers: [kn-entobel-financing, kn-vn-vc-2025, kn-agritech-vc-2025, kn-global-altprotein-2025]
+key_numbers: [kn-vn-vc-2025, kn-agritech-vc-2025, kn-global-altprotein-2025]
 related_data: [deals.csv, investors.csv, funding_programs.csv, research_funding.csv, companies.csv]
 related_pages: [ch08-capital, ch26-plays, ch27-policy-options, app-s1-directory, app-s7-research, app-s8-labs-talent, app-s9-regulation, app-r2-disagreements, brief-investors, app-m4-actor-check-waves]
 charts: [chart-vn-vc-agritech, chart-global-altprotein-investment]
@@ -23,7 +23,7 @@ This appendix sets out who has paid for alternative protein in Vietnam, and what
 - the state venture framework created in 2025 and 2026, grants and philanthropy, and accelerators;
 - exit routes, meaning the ways investors sell their stake.
 
-It is about money for supply: food-ingredient and processing plants, pilot facilities and research. The study concentrates on protein for people. Feed deals, including the largest deal we found (Entobel, insect meal for feed), are kept as context and as the record.
+It is about money for supply: food-ingredient and processing plants, pilot facilities and research. The study concentrates on protein for people. Feed and agribusiness deals are kept as context.
 
 > **Method note.** Our capital research reached its web-search limit early. After that we could read only pages we already knew. So the coverage is incomplete for DFIs other than IFC (the International Finance Corporation), Proparco and ADB Ventures (of the Asian Development Bank); regional corporate venture arms; Vietnamese food mergers and acquisitions (M&A); aquaculture-tech and feed-tech deals; and Vietnam venture totals for the first half (H1) of 2026. If a deal is missing here, we did not find it; that does not mean it did not happen.
 
@@ -31,29 +31,22 @@ Currency. Amounts are given as reported. Where we convert VND to USD, we use VND
 
 ## S11.1 Main findings
 
-1. **Disclosed venture money into Vietnam-based alternative protein is small and concentrated in one insect-feed company.** Entobel's USD 32.5 million project financing (2022 to 2023) is the only disclosed round above USD 5 million we found from 2015 to September 2026 [@CAP-01; @CAP-02; @CAP-04] {VN-direct|Medium}. Entobel makes insect meal for feed. The study concentrates on protein for people, so this deal is context.
+1. **Disclosed money into Vietnam-based alternative protein is small.** No disclosed alternative-protein deal in Vietnam that we found from 2015 to September 2026 has exceeded USD 5 million (our reading of the deal log in section S11.2). The disclosed deals are small or undisclosed (findings 2 and 3), so there is no proven local financing template.
 2. **We found no disclosed venture round for any Vietnam-based plant-based meat, plant-based dairy, precision fermentation, microalgae or cultivated-meat company.** The only plant-protein fundraising found is Emmay's: about USD 250,000 from three angel rounds, plus two US grants of unstated size, by 2021 (company claim) [@CAP-15] {VN-direct|Low}.
 3. **Vietnamese strategic money has gone outward.** Vinh Hoan invested in Shiok Meats and Avant Meats (cultivated seafood, 2021); VinaCapital Ventures invested in Korea's INNOHAS (plant-based meat, 2024) [@CAP-16; @CAP-17; @CAP-18] {VN-direct|Low}.
 4. **Vietnamese venture capital was USD 509 million in 103 deals in 2025; agriculture got USD 1 million, about 0.2%** (our calculation: 1 / 509) [@CAP-21] {VN-direct|Medium}. Private equity reached a record USD 3.96 billion in 46 deals [@CAP-21; @CAP-22] {VN-direct|Medium}.
 5. **There were no VC- or PE-backed technology initial public offerings (IPOs) in 2025 or the four years before.** So a realistic exit for a food or ingredient company is a trade sale or a PE buyout [@CAP-21; @CAP-22] {VN-direct|Medium}.
 6. **A state venture framework now exists.** Decree 264/2025/ND-CP (in force 14 October 2025) allows national and provincial venture funds to accept up to 50% portfolio loss per investment cycle. Ho Chi Minh City's fund (VND 500 bn) plans its first investments in Q4 2026; Hanoi's (VND 230 bn) caps each investment at 5% of the fund, about USD 0.44 million (our calculation at VND 26,000 per USD) [@CAP-29; @CAP-33; @CAP-34] {VN-direct|Medium}.
 7. **Global alternative-protein investment is at a cyclical low and has shifted towards fermentation:** USD 881 million in 2025 and USD 359 million in H1 2026 [@CAP-51] {general|High}.
-8. **IFC is the only DFI we found with a direct Vietnamese alternative-protein ticket** (Entobel, USD 2.5 million). A ticket is the amount one investor puts in. IFC's other Vietnamese tickets found run from USD 20 million (GS25, retail) to USD 90.6 million (Mavin, proposed) [@VCO-20; @CAP-41; @CAP-44] {VN-direct|Medium}.
+8. **We found no development finance institution with a direct ticket in Vietnamese alternative protein.** A ticket is the amount one investor puts in. IFC's Vietnamese tickets found run from USD 20 million (GS25, retail) to USD 90.6 million (Mavin, proposed) [@CAP-41; @CAP-44] {VN-direct|Medium}.
 9. **The largest alternative-protein research and development (R&D) call we found open to Vietnamese applicants in 2026 has closed.** Coefficient Giving's request for proposals (RFP, up to USD 30 million) closed its two rounds on 10 August and 15 September 2026 [@CAP-57] {general|High}.
 
 ## S11.2 Deal log
 
-All rows from `deals.csv` (19 rows). "Undisclosed" means no amount was published. Sources are given per row.
+The rows below come from `deals.csv` (12 rows). "Undisclosed" means no amount was published. Sources are given per row.
 
 | Date | Company (country) | Category | Deal type | Amount (USD) | Investors or acquirer | Sources |
 |---|---|---|---|---|---|---|
-| 14 Oct 2019 | Cricket One (Vietnam) | insect protein (food ingredient) | Seed | undisclosed | 500 Startups and Masik Enterprises (co-leads) | [@CAP-11] {VN-direct\|High} |
-| 23 Nov 2020 | Cricket One | insect protein (food ingredient) | Pre-Series A | undisclosed (Corecam's own commitment "seven-figure") | Corecam Capital Partners (lead), Masik Enterprises, two angels | [@CAP-12; @CAP-14] {VN-direct\|Medium} |
-| 25 Sep 2023 | Cricket One | insect protein (food ingredient) | Series A | undisclosed ("seven-figure") | Robert Alexander Stone (lead), Cub Capital, a Singapore family office | [@CAP-13] {VN-direct\|Medium} |
-| 7 Jan 2022 | Entobel (Singapore holding; production in Vietnam) | insect protein (feed) | Proposed IFC equity in a USD 30 million Series B (IFC project 45769) | 10,000,000 (proposed; not completed at this size) | IFC | [@CAP-03] {VN-direct\|Medium} |
-| 9 May 2022 | Entobel | insect protein (feed) | Series B | 25,000,000 | Mekong Enterprise Fund IV (Mekong Capital), lead | [@CAP-01; @CAP-02; @CAP-03; @CAP-10] {VN-direct\|High} |
-| 9 May 2022 | Entobel | insect protein (feed) | Series B | 5,000,000 | Dragon Capital | [@CAP-01; @CAP-02; @CAP-03] {VN-direct\|Medium} |
-| 23 Feb 2023 | Entobel | insect protein (feed) | IFC Upstream Collaboration Agreement (IFC project 46903), part of the Series B | 2,500,000 | IFC | [@CAP-04; @VCO-20] {VN-direct\|Medium} |
 | end Jul 2021 | Shiok Meats (Singapore) | cultivated seafood | Strategic minority in a round of about USD 18 million | undisclosed | Vinh Hoan, with Woowa Brothers Asia Holdings and CJ CheilJedang | [@CAP-16; @CAP-17] {VN-direct\|Low} |
 | 2021 | Avant Meats (Hong Kong) | cultivated fish | Strategic minority | undisclosed | Vinh Hoan | [@CAP-16; @CAP-17] {VN-direct\|Low} |
 | 2 Jul 2024 | INNOHAS (South Korea) | plant-based meat | undisclosed | undisclosed | VinaCapital Ventures | [@CAP-18] {VN-direct\|Medium} |
@@ -69,11 +62,10 @@ All rows from `deals.csv` (19 rows). "Undisclosed" means no amount was published
 
 Readings:
 
-- **Only insects have attracted disclosed venture money in Vietnam.** Cricket One's three rounds were undisclosed or described only as "seven-figure" (for the pre-Series A, Corecam's own commitment) [@CAP-11; @CAP-12; @CAP-13] {VN-direct|Medium}.
 - **The adjacent rows show DFI ticket sizes and appetite in feed and agribusiness**, not alternative-protein deals. Techcoop alone explains most of the 2024 "agritech" and "climate tech" figures in two different reports (section S11.3).
 - **Vietnamese food and feed M&A is poorly documented.** CJ's acquisition of Cau Tre (year unverified; field notes say 2006, an analyst recollection 2016) and the Masan feed divestment are leads only [@VCO-12] {VN-direct|Low}. For context, the one verified feed M&A in the period is Royal De Heus buying CJ Feed & Care (announced 1 October 2025, completed 3 March 2026, 17 mills across five countries, price not disclosed) [@VCO-07; @VCO-08] {VN-direct|High}.
 
-We found no disclosed deals for Vietnamese aquaculture-tech, feed-tech (other than insects), microalgae, plant-based dairy or agrifood biotech startups. This is a coverage gap, not evidence of absence.
+We found no disclosed deals for Vietnamese aquaculture-tech, feed-tech, microalgae, plant-based dairy or agrifood biotech startups. This is a coverage gap, not evidence of absence.
 
 ## S11.3 Vietnam venture capital and private equity, 2023 to 2025
 
@@ -100,34 +92,15 @@ Disagreements (logged in [[app-r2-disagreements]]):
 - **Techcoop year:** announced 28 February 2025 but counted in 2024 data; it probably closed late in 2024 [@CAP-19; @CAP-20] {VN-direct|Medium}. The swing in agriculture VC from USD 74 million to USD 1 million reflects this one deal.
 - **2026 year to date:** Tracxn shows USD 295 million in 16 equity rounds to August 2026; a blog citing StartupBlink gives "above USD 273.78 million". Both are low-reliability aggregators and we take no position [@CAP-27; @CAP-28] {VN-direct|Low}.
 
-## S11.4 The Entobel financing template
+## S11.4 A possible structure for a first plant
 
-Entobel is the largest disclosed alternative-protein financing we found in Vietnam. It was an insect-feed deal, built with local private equity plus DFI support, not venture capital [@CAP-06; @CAP-08] {VN-direct|Medium}.
+No disclosed alternative-protein deal in Vietnam has exceeded USD 5 million. The disclosed deals are small or undisclosed: Emmay's about USD 250,000 in angel rounds and grants (2017 to 2021) [@CAP-15] {VN-direct|Low}, and undisclosed strategic minority stakes (Vinh Hoan in Shiok Meats and Avant Meats; VinaCapital Ventures in INNOHAS) [@CAP-16; @CAP-17; @CAP-18] {VN-direct|Low}. So there is no proven local financing template.
 
-> **Read with care.** Entobel makes insect meal for animal feed. The study now concentrates on protein for people, and insect protein is a benchmark only. We keep this section as the record, and because the deal structure could apply to a food-ingredient plant: a buyer's commitment to take the output, a local private equity lead and a small development-finance ticket.
+For a Vietnamese food-ingredient plant, we suggest a structure that pairs a private-equity lead, a development-finance ticket and a named buyer's offtake (our suggestion):
 
-| Element | Detail | Sources |
-|---|---|---|
-| Holding and history | Entobel Holding Pte Ltd, Singapore; started in Vietnam in 2013; 1,000 t a year plant in Dong Nai (former Dong Nai) from early 2019 | [@CAP-02; @CAP-03; @CAP-08] {VN-direct\|Medium} |
-| Lead investor | Mekong Enterprise Fund IV (Mekong Capital), USD 25 million, announced 9 May 2022; fund size USD 246 million | [@CAP-01; @CAP-02] {VN-direct\|Medium} |
-| Co-investor | Dragon Capital, USD 5 million (press figure; Mekong's release names Dragon without an amount) | [@CAP-02] {VN-direct\|Medium} |
-| DFI ticket | IFC project 46903 ("CnC-Entobel"): USD 2.5 million under an Upstream Collaboration Agreement, not a plain equity cheque; board date 23 February 2023; total project cost USD 32.5 million; status Active | [@CAP-04; @VCO-20] {VN-direct\|Medium} |
-| Proposal not completed | IFC project 45769: USD 10 million equity proposed in a USD 30 million Series B (board date 9 February 2022); the final round closed without it at that size (our reading); we did not find the project on the IFC portal or its mirror in wave 2 | [@CAP-03; @VCO-20] {VN-direct\|Medium} |
-| Indirect DFI exposure | Proparco is a USD 15 million LP in Mekong Enterprise Fund IV | [@CAP-47] {VN-direct\|High} |
-| Use of proceeds | 10,000 t a year black soldier fly plant at Dat Do I Industrial Park, Ho Chi Minh City (former Ba Ria-Vung Tau), opened 23 November 2023 | [@CAP-03; @CAP-08; @ECO-01] {VN-direct\|High} |
-| Growth claim | Capacity twelvefold since the 2022 investment (Mekong, company claim) | [@CAP-10] {VN-direct\|Low} |
-| Offtake | Vinh Hoan: at least 15,000 t over 2025 to 2027 (February 2024); Skretting Vietnam: strategic partnership and first commercial insect-meal shrimp feed (26 November 2025, company claim) | [@ECO-05; @VCO-28] {VN-direct\|Medium} |
-| Investor sentiment | IFC said in 2023 that private investors were cautious because insect meal had not proven it could compete on scale and price with fishmeal and soy | [@CAP-06] {VN-direct\|Medium} |
-
-> **Correction.** Earlier drafts gave Entobel's financing as "about USD 36 million" and one trade article reported "about USD 10 million" from IFC. Neither is supported. The documented structure is a USD 32.5 million project: Mekong Capital USD 25 million, Dragon Capital USD 5 million and IFC USD 2.5 million under an Upstream Collaboration Agreement [@CAP-01; @CAP-02; @CAP-04; @VCO-20] {VN-direct|Medium}. The company's "USD 33 million Series B" is the same total, rounded, including IFC [@CAP-08] {VN-direct|Low}. Earlier rounds are undisclosed. See [[app-r2-disagreements]]. In v0.6 the template list below also gave Mekong's typical ticket range as USD 5 million to 25 million; the cited sources show only the USD 25 million Entobel ticket.
-
-What the template implies for a Vietnamese food-ingredient plant (our reading):
-
-- a local PE lead able to write a ticket of about USD 25 million, as Mekong did for Entobel, with a local co-investor [@CAP-01; @CAP-02] {VN-direct|Medium};
+- a local PE lead, with a local co-investor;
 - a small DFI "upstream" ticket, meaning early project-development money, that lowers the risk of the first plant;
-- an offtake agreement (a commitment to buy the output) signed before or alongside the plant: for Entobel, a seafood exporter and a feed major; for a food ingredient, a named food manufacturer;
-- a Singapore holding company, as Entobel used;
-- a path to USD 20 million or more of capital expenditure (capex), the capital research's judgement from Entobel's USD 32.5 million project cost [@CAP-04] {VN-direct|Low}. Few Vietnamese alternative-protein companies can show that today.
+- an offtake agreement (a commitment to buy the output) from a named food manufacturer, signed before or alongside the plant.
 
 ## S11.5 Outward and strategic investments
 
@@ -135,7 +108,6 @@ What the template implies for a Vietnamese food-ingredient plant (our reading):
 |---|---|---|---|---|
 | Vinh Hoan (via Vinh Technology Pte Ltd) | Avant Meats (cultivated fish, Hong Kong) | 2021 | Strategic minority stake and commercialisation partnership; no Vietnamese facility found | [@CAP-16; @ECO-58] {VN-direct\|Low} |
 | Vinh Hoan | Shiok Meats (cultivated crustaceans, Singapore) | 2021 | Co-investment with CJ CheilJedang and Woowa Brothers; Shiok agreed in March 2024 to merge its assets into UMAMI Bioworks (deal announced; closing not confirmed in our sources) | [@CAP-17; @ECO-63] {VN-direct\|Low} |
-| Vinh Hoan | Entobel supply agreement | 2024 | A commercial deal, no equity component reported: the buyer side of the feed template | [@ECO-05] {VN-direct\|Medium} |
 | VinaCapital Ventures | INNOHAS (plant-based meat, South Korea) | 2024 | A market-entry partner for a foreign brand; no Vietnam launch found by September 2026 | [@CAP-18; @VCO-31] {VN-direct\|Medium} |
 | CJ CheilJedang | Shiok Meats (co-investor); Cau Tre (acquisition, not verified; no source) | 2021; unverified | Our judgement: the regional strategic most likely to look at Vietnamese seafood-adjacent alternative protein | [@CAP-17] {VN-adjacent\|Low} |
 
@@ -161,7 +133,7 @@ The GFI page calls USD 197 million both "H1 2026" and, implicitly, Q2; the Q2 pi
 - Asia-Pacific raised USD 4.2 billion from January to October 2024, up 38% and 31% of the global total [@CAP-54] {VN-adjacent|Medium};
 - funding in developing markets rose 63% from 2023 to 2024, with Vietnam named among markets where the leading ecosystem grew (no Vietnamese figure) [@CAP-55] {VN-adjacent|Low}.
 
-We could not extract the regional totals for 2024 and 2025 from GFI APAC, the institute's Asia-Pacific (APAC) office (the report is behind a download form) [@CAP-52] {VN-adjacent|Low}. The direction is clear. Fermentation (biomass and precision) and upstream ingredients still get funded; consumer plant-based brands and cultivated meat get much less. In Vietnam, the only funded example of this ingredients-first logic so far is insect meal for feed.
+We could not extract the regional totals for 2024 and 2025 from GFI APAC, the institute's Asia-Pacific (APAC) office (the report is behind a download form) [@CAP-52] {VN-adjacent|Low}. The direction is clear. Fermentation (biomass and precision) and upstream ingredients still get funded; consumer plant-based brands and cultivated meat get much less. We found no funded example of this ingredients-first logic in Vietnam so far.
 
 **Regional and global investors with an alternative-protein thesis**
 
@@ -182,14 +154,14 @@ Not verified: Thai Union Ventures, CPF, Wilmar, ADM Ventures, Cargill, Rabo Food
 
 | DFI | Vietnam relevance found | Ticket evidence | Sources |
 |---|---|---|---|
-| IFC | Entobel USD 2.5 million (2023); TTC AgriS USD 40 million IFC-arranged warehouse finance with Sumitomo Mitsui Banking Corporation (SMBC) (2023); GS25 USD 20 million quasi-equity (2023, retail); SeABank blue bond USD 25 million (2024; the package also had a USD 50 million green bond and a USD 75 million loan for small and medium-sized enterprises, SMEs); Mavin USD 90.6 million (proposed, 2021). FY2024: over USD 1.6 billion committed in Vietnam, including a record USD 310 million of long-term climate finance | USD 2.5 million (upstream) to USD 90.6 million (corporate, proposed) | [@CAP-04; @CAP-41; @CAP-42; @CAP-43; @CAP-44] {VN-direct\|Medium} |
-| ADB Ventures | Fund 1: USD 60 million raised in September 2020, 80% climate lens; Vietnamese portfolio (PATH+, Selex Motors, Poko) is non-food; agrifood portfolio elsewhere includes INSEACT (insect protein) and Terra Oleo (microbial oils); SEED Capital+ for very early stage | USD 0.1 million to 4 million, equity and quasi-equity | [@CAP-45; @CAP-46] {VN-adjacent\|High} |
+| IFC | TTC AgriS USD 40 million IFC-arranged warehouse finance with Sumitomo Mitsui Banking Corporation (SMBC) (2023); GS25 USD 20 million quasi-equity (2023, retail); SeABank blue bond USD 25 million (2024; the package also had a USD 50 million green bond and a USD 75 million loan for small and medium-sized enterprises, SMEs); Mavin USD 90.6 million (proposed, 2021). FY2024: over USD 1.6 billion committed in Vietnam, including a record USD 310 million of long-term climate finance | USD 20 million (retail) to USD 90.6 million (corporate, proposed) | [@CAP-41; @CAP-42; @CAP-43; @CAP-44] {VN-direct\|Medium} |
+| ADB Ventures | Fund 1: USD 60 million raised in September 2020, 80% climate lens; Vietnamese portfolio (PATH+, Selex Motors, Poko) is non-food; agrifood portfolio elsewhere includes Terra Oleo (microbial oils); SEED Capital+ for very early stage | USD 0.1 million to 4 million, equity and quasi-equity | [@CAP-45; @CAP-46] {VN-adjacent\|High} |
 | Proparco | LP in Mekong Enterprise Fund IV (USD 15 million, 2020); LP in SEACEF II (USD 10 million of a USD 175 million fund, 2024); 10 Vietnamese projects, mostly banks, energy and garments | USD 10 million to 15 million as LP | [@CAP-47; @CAP-48; @CAP-49] {VN-direct\|High} |
 | FMO, DEG, BII, JICA private sector, KfW, Finnfund, Norfund | Not verified | n/a | gap |
 
-DFIs reach Vietnamese alternative protein in three ways (our reading of the table):
+We found no direct DFI ticket in Vietnamese alternative protein. DFIs could reach it in three ways (our reading of the table):
 
-- small "upstream" tickets that prove a model (IFC and Entobel);
+- small "upstream" tickets that prove a model (our suggestion; none found in Vietnamese alternative protein);
 - stakes as a limited partner (LP), an investor in a fund, in local PE funds (Proparco in Mekong Enterprise Fund IV);
 - bank intermediaries, such as the SeABank blue bond, whose proceeds can be lent on to aquaculture [@CAP-43] {VN-direct|Medium}.
 
@@ -242,7 +214,6 @@ It suits established manufacturers adding a line, not startups that have no sale
 | ProVeg Incubator | ProVeg International | Equity plus in-kind | Not explicitly restricted | Up to USD 300,000 including USD 75,000 in kind | Accepting applications for the next cohort; dates not stated | [@CAP-59] {general\|Medium} |
 | Big Idea Ventures accelerator | Big Idea Ventures | Equity plus in-kind | Yes (Singapore base) | USD 200,000; follow-on up to USD 2.5 million | Cohorts historically January and July; 2026 status unclear | [@CAP-62] {VN-adjacent\|Low} |
 | ADB Ventures (VC and SEED Capital+) | Asian Development Bank | Equity and quasi-equity | Yes (ADB developing member) | USD 0.1 million to 4 million | Active; no fixed deadline | [@CAP-45; @CAP-46] {VN-adjacent\|High} |
-| IFC upstream project support | IFC | Upstream collaboration (project development support) | Yes | Entobel precedent USD 2.5 million | Case by case | [@CAP-04; @CAP-05] {VN-direct\|Medium} |
 | Bezos Earth Fund, Future of Food | Bezos Earth Fund | Grant | not stated | USD 1 billion commitment; 23 grants worth USD 194.8 million listed | No open call identified | [@CAP-61] {general\|Medium} |
 | ACIAR Vietnam programme | Australian Centre for International Agricultural Research | Commissioned research through Australian partners; fellowships | Via Australian partners | AUD 5.4 million across 23 projects in FY2025-26 | Active; no open call | [@CAP-67] {VN-direct\|High} |
 | Tiny Beam Fund | Tiny Beam Fund | Research funder (grant type not stated) | not stated | not stated | No 2026 call identified | [@CAP-60] {general\|Low} |
@@ -274,7 +245,7 @@ Not verified: Vietnam Silicon Valley, BK Holdings, university incubators and cor
 Investors in Vietnam can exit mainly by selling to a larger company (a trade sale) or to a PE fund. The stock market is not yet a route for technology firms.
 
 - **IPO route: closed for technology.** Vietnam had three IPOs in 2025, all in financial services (USD 1.35 billion), and no VC- or PE-backed technology IPOs in 2025 or the four years before; the IPO pipeline is expected to reach USD 3 billion to 5 billion in 2026 to 2027 [@CAP-21; @CAP-22] {VN-direct|Medium}.
-- **Revealed strategic interest (verified):** Vinh Hoan (cultivated seafood stakes; insect meal buyer), CJ CheilJedang (co-investor in Shiok; large Vietnamese food footprint), VinaCapital (market-entry partner for INNOHAS) [@CAP-16; @CAP-17; @CAP-18; @ECO-05] {VN-direct|Low}.
+- **Revealed strategic interest (verified):** Vinh Hoan (cultivated seafood stakes), CJ CheilJedang (co-investor in Shiok; large Vietnamese food footprint), VinaCapital (market-entry partner for INNOHAS) [@CAP-16; @CAP-17; @CAP-18] {VN-direct|Low}.
 - **Plausible acquirers by fit (not verified as interested):** Masan (consumer foods, meat), Vinamilk, TH, Nutifood and Vinasoy/QNS (plant milks), KIDO (edible oils and fats), Thai Union, Minh Phu and Vinh Hoan (seafood; also aquafeed), Ajinomoto and Vedan (fermentation). For feed ingredients, which the study now treats as context, the buyers would be C.P. Vietnam, De Heus and other feed majors. This list comes from sector logic, not deal evidence.
 - **Multiples:** M&A multiples for Vietnamese food deals were not established. No Vietnamese alternative-protein company has had a disclosed exit.
 - **Consolidation among feed buyers (context):** De Heus Vietnam lists 21 plants (September 2026) and completed buying CJ Feed & Care in March 2026. In our reading, this concentrates feed buying power in one strategic buyer. We do not know whether the 21 plants include the former CJ mills [@VCO-09; @VCO-08] {VN-direct|Medium}.
@@ -289,7 +260,7 @@ Our reading of sections S11.2 to S11.11:
 |---|---|---|
 | Research and proof of concept | NAFOSTED and VINIF (national); episodic global grants (Coefficient Giving, GFI); ACIAR via Australian partners [@RD-06; @CAP-57; @CAP-50; @CAP-67] {VN-direct\|Medium} | No standing alternative-protein call in Vietnam; the main 2026 global windows are closed |
 | Pilot | Regional seed investors (USD 100,000 to 200,000+); Hanoi fund (about USD 0.44 million a deal); HCM VIF from Q4 2026; ADB Ventures (up to USD 4 million) [@CAP-63; @CAP-34; @CAP-33; @CAP-45] {VN-adjacent\|Medium} | No grant or first-loss money (money that takes losses before other investors) for pilot-scale fermentation before sales; NATIF subsidies need a bank loan, with profitable borrowers prioritised [@CAP-38] {VN-direct\|Medium} |
-| First plant | Local PE (Mekong, Dragon) with a DFI upstream ticket, as for Entobel; DFI corporate tickets of USD 20 million (GS25, retail) to USD 90.6 million (Mavin, proposed), including a USD 40 million facility IFC arranged with SMBC for TTC AgriS [@CAP-01; @CAP-04; @CAP-41; @CAP-44] {VN-direct\|Medium} | Only one precedent, in insect feed; no DFI-backed "first plant" or pooled first-loss facility for fermentation or plant-protein ingredients |
+| First plant | Local PE funds; DFI corporate tickets of USD 20 million (GS25, retail) to USD 90.6 million (Mavin, proposed), including a USD 40 million facility IFC arranged with SMBC for TTC AgriS [@CAP-41; @CAP-44] {VN-direct\|Medium} | No disclosed alternative-protein precedent above USD 5 million; no DFI-backed "first plant" or pooled first-loss facility for fermentation or plant-protein ingredients |
 | Expansion and exit | Strategic buyers and PE (record USD 3.96 billion in 2025) [@CAP-21; @CAP-22] {VN-direct\|Medium} | No technology IPO route; food M&A multiples unknown |
 
 ## Gaps and how to close them
@@ -301,7 +272,6 @@ Our reading of sections S11.2 to S11.11:
 | CJ and Cau Tre; Masan and De Heus feed divestment: date, stake, price | Filings on the Hanoi Stock Exchange (HNX) and its UPCoM market for unlisted public companies (Cau Tre; Masan MEATLife, ticker MML); CJ and De Heus annual reports. |
 | Food M&A multiples in Vietnam | Ask VPCA or Mekong Capital; PitchBook or Mergermarket comparables. |
 | Vietnamese aquaculture-tech, feed-tech, microalgae and plant-based dairy deals | Tracxn or PitchBook sector list for Vietnam; GFI APAC database entries. |
-| Entobel's financing after 2023 and the fate of the IFC USD 10 million proposal | IFC disclosure portal (projects 45769 and 46903); ask Entobel. |
 | Whether Mavin's USD 90.6 million IFC package closed | IFC disclosure portal. |
 | APAC alternative-protein totals 2023 to 2025 | Download the GFI APAC State of the Industry reports. |
 | Thai Union Ventures, CPF, Wilmar and ADM Ventures activity in Vietnam | Company annual reports. |
@@ -313,9 +283,9 @@ See also [[app-r1-open-questions]].
 
 ## Related data files
 
-- `deals.csv`: 19 deals and financing events linked to Vietnam.
+- `deals.csv`: deals and financing events linked to Vietnam.
 - `investors.csv`: 30 investors (VC, PE, DFI, corporate, government funds, accelerators) with thesis, example deals and ticket size.
 - `funding_programs.csv`: 20 grants, prizes, funds and credit programmes with 2026 status.
 - `research_funding.csv`: national and international research funding ([[app-s7-research]]).
 - `companies.csv`: the companies behind the deals ([[app-s1-directory]]).
-- Working papers: `working-papers/wave1/capital/` and `working-papers/wave2/verify_co/` (Entobel and IFC details).
+- Working papers: `working-papers/wave1/capital/` and `working-papers/wave2/verify_co/` (IFC details).

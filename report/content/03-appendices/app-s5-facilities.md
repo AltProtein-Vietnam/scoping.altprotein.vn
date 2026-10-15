@@ -233,7 +233,7 @@ We found no Vietnamese company that offers food-grade contract fermentation (tol
 | Uni-President Vietnam | Taiwan | Sites in Ho Chi Minh City (former Binh Duong; headquarters), Dong Thap (former Tien Giang), Khanh Hoa (former Ninh Thuan) and Da Nang (former Quang Nam); founded 1999 | Revenue over VND 14,200 bn (2025 estimate); which site makes aquafeed is not stated | Top-six shrimp-feed maker | [@VCO-29; @IND-43; @IND-41] | {VN-direct\|Medium} |
 | Grobest | Taiwan | 2 plants in Dong Nai (trade press) | not published | 2024 sustainability report released 30 Mar 2026 | [@IND-43; @VCO-30; @FBA-13] | {VN-direct\|Low} |
 | Tongwei | China | not located | not published | Top-six shrimp-feed maker | [@IND-41] | {VN-direct\|Low} |
-| Skretting (Nutreco) | Netherlands | Office in Ho Chi Minh City; plants not stated | About 100,000 t/yr supplied (trade press) | Entobel partnership (26 Nov 2025); launched Jade+ shrimp feed and the LifeStart catfish fingerling platform (April 2026) | [@IND-43; @VCO-27; @VCO-28] | {VN-direct\|Low} |
+| Skretting (Nutreco) | Netherlands | Office in Ho Chi Minh City; plants not stated | About 100,000 t/yr supplied (trade press) | Launched Jade+ shrimp feed and the LifeStart catfish fingerling platform (April 2026) | [@IND-43; @VCO-27] | {VN-direct\|Low} |
 | Sunjin Vina | South Korea | Can Tho (former Hau Giang; Tan Phu Thanh Industrial Park) | 126,000 t/yr, USD 23.6 M, registered 2023; operating status not verified | none recorded | [@IND-46] | {VN-direct\|Low} |
 
 - **Domestic players** named in the press include Dabaco, GreenFeed, BaF, Hoa Phat, Thaco Agri and Masan MEATLife [@IND-40; @IND-43; @IND-46] {VN-direct|Low}. The 2025 Vietnam Report top 10 feed companies were De Heus, GreenFeed Vietnam, Cargill Vietnam, Japfa Comfeed, Sunjin Vina, VNF, Hong Ha Nutrition, Lai Thieu Feed, Mekong Aquafeed and Vina-Ha Nam Feed [@MAC-25] {VN-direct|Low}. We found no current volume-based market shares.
@@ -250,7 +250,6 @@ We found no Vietnamese company that offers food-grade contract fermentation (tol
 
 > **Correction.** Wave 1 recorded the De Heus Vinh Long mill at 84,000 t/yr (trade press) [@IND-45]. The De Heus global release of 22 July 2026 gives 168,000 t/yr design capacity [@VCO-10]. We use the company figure; 84,000 t/yr may be phase 1. The conflict is logged in [[app-r2-disagreements]].
 
-- **First commercial novel protein in shrimp feed.** Skretting Vietnam and Entobel announced a strategic partnership on 26 November 2025, and commercial production of Skretting shrimp feed containing Entobel's insect meal began that month. This is the first commercial insect-meal shrimp feed in Vietnam (company claim). No inclusion rate or volume was disclosed [@VCO-28] {VN-direct|Medium}.
 - **Prices and tax.** Feed prices rose 10 to 14% between January and April 2026 (a poultry association estimate) [@MAC-24] {VN-direct|Low}, and shrimp-feed makers raised prices by VND 1,200 to 1,500 per kg in early June 2026 [@FM-10] {VN-direct|Medium}. Feed became non-taxable for VAT from 1 July 2025, so mills can no longer deduct the input VAT they pay [@MAC-25] {VN-direct|Medium}; see [[app-s12-costs]].
 
 ### S5.2.5 Premix and fishmeal plants
