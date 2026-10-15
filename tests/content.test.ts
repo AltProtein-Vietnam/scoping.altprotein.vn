@@ -16,6 +16,8 @@ import {
 import { MOVED_PAGES } from '../src/lib/redirects';
 import { PLAY_ROWS, PRESETS, weightedScore } from '../src/lib/widgets';
 import { cleanSnippet, searchRecords } from '../src/lib/search';
+import { isEditorUser, isRestrictedPage } from '../src/lib/access';
+import { coverPartAnswers, parseArgument } from '../src/lib/front';
 import { STRINGS } from '../src/lib/i18n';
 
 const seed = JSON.parse(fs.readFileSync('seed/seed.json', 'utf8'));
@@ -59,33 +61,46 @@ test('every page renders with no unrendered report tokens', () => {
   }
 });
 
-test('evidence and foresight tags become badges, one per token', () => {
+// Tiles and charts carry their own (inline) evidence marks; leave them out when counting claims.
+const withoutFigures = (html: string) =>
+  html
+    .replace(/<figure class="kn[\s\S]*?<\/figure>/g, '')
+    .replace(/<figure class="chart[\s\S]*?<\/figure>/g, '');
+
+test('every evidence tag becomes one evidence note, with foresight and demand tags kept', () => {
   for (const e of entries) {
     const body = e.data.body.replace(/`[^`]*`/g, '');
     const tags =
       body.match(/\{(VN-direct|VN-adjacent|general)\\?\|(High|Medium|Low)\}/g)?.length ?? 0;
     const fx =
       body.match(/\{fx:(trend|projection|estimate|signal|wildcard|vision)\}/g)?.length ?? 0;
-    const r = renderMarkdown(e.data.body, { lang: 'en', pageId: e.id });
-    const html = r.html.replace(/<details class="kn-more">[\s\S]*?<\/details>/g, '');
-    const kn = e.data.body.match(/\{\{kn:/g)?.length ?? 0;
-    const charts = [...e.data.body.matchAll(/\{\{chart:([a-z0-9-]+)\}\}/g)].length;
-    const evBadges = html.match(/class="ev"/g)?.length ?? 0;
-    // Tiles and charts add their own evidence badge; the plays and scenario widgets add foresight badges.
-    assert.ok(
-      evBadges >= tags && evBadges <= tags + kn + charts,
-      `${e.id}: ${evBadges} badges for ${tags} tags`,
-    );
-    assert.ok((html.match(/class="fx"/g)?.length ?? 0) >= fx, `${e.id}: foresight badges`);
+    const dx = body.match(/\{dx:(stated|revealed|tested|inferred)\}/g)?.length ?? 0;
+    const html = withoutFigures(renderMarkdown(e.data.body, { lang: 'en', pageId: e.id }).html);
+    assert.equal(html.match(/data-kinds="ev[ "]/g)?.length ?? 0, tags, `${e.id}: evidence notes`);
+    assert.ok((html.match(/class="evn-tag" data-fx=/g)?.length ?? 0) >= fx, `${e.id}: foresight`);
+    assert.equal(html.match(/class="evn-tag" data-dx=/g)?.length ?? 0, dx, `${e.id}: demand`);
   }
 });
 
-test('vision badges appear only on the vision chapter', () => {
+test('vision tags appear only on the vision chapter', () => {
   for (const e of entries) {
-    const r = renderMarkdown(e.data.body, { lang: 'en', pageId: e.id });
-    const inline = r.html.replace(/<figure class="kn[\s\S]*?<\/figure>/g, '');
-    if (e.id !== ROLE.vision) assert.ok(!inline.includes('data-fx="vision"'), e.id);
+    const html = withoutFigures(renderMarkdown(e.data.body, { lang: 'en', pageId: e.id }).html);
+    if (e.id !== ROLE.vision) assert.ok(!html.includes('data-fx="vision"'), e.id);
   }
+});
+
+test('a citation and the tags after it form one claim: numbers in the text, one note', () => {
+  const html = renderMarkdown(
+    'Meat intake rose [@DIE-01; @DIE-02] {VN-direct|Medium} {dx:revealed}.',
+    {
+      lang: 'en',
+    },
+  ).html;
+  assert.match(html, /rose<sup class="cite"><a href="#src-DIE-01"[^>]*>1<\/a>/);
+  assert.equal(html.match(/class="evn"/g)?.length, 1);
+  assert.match(html, /data-kinds="ev dx-revealed"/);
+  assert.match(html, /<span class="evn-nums">1, 2<\/span>/);
+  assert.match(html, /evidence about Vietnam \(VN-direct\)/);
 });
 
 test('citations are numbered in order and resolve to sources', () => {
@@ -153,7 +168,7 @@ test('page paths round-trip, and the Vietnamese interface prefixes them', () => 
   assert.equal(pagePath('front-prologue-vi'), '/loi-mo-dau');
   assert.equal(localize('/', 'vi'), '/vi');
   assert.equal(localize('/report/ch26-plays', 'vi'), '/vi/report/ch26-plays');
-  assert.equal(localize('/data/companies.csv', 'vi'), '/data/companies.csv');
+  assert.equal(localize('/files/data/companies.csv', 'vi'), '/files/data/companies.csv');
   assert.equal(localize('/downloads/x.zip', 'vi'), '/downloads/x.zip');
   assert.equal(READING_ORDER.length, PAGES.length);
 });
@@ -205,9 +220,11 @@ test('plays and public goods retired in v0.8 are not ranked or scored', async ()
   }
 });
 
-test('search finds glossary terms in either language and cleans snippets', () => {
+test('search finds glossary terms in either language; data rows only for editors', () => {
   assert.ok(searchRecords('protein thay the').some((r) => r.id === 'GL-001'));
-  assert.ok(searchRecords('Emmay').some((r) => r.kind === 'company'));
+  assert.ok(searchRecords('Emmay', 60, true).some((r) => r.kind === 'company'));
+  assert.ok(!searchRecords('Emmay').some((r) => r.kind === 'company'));
+  assert.ok(searchRecords('cassava').every((r) => r.access === 'public'));
   assert.equal(
     cleanSnippet('a [@MAC-04] b {VN-direct|High} c [[ch26-plays]] d {dx:revealed}'),
     'a b c Plays d',
@@ -261,10 +278,53 @@ test('appendix codes and groups follow the manifest', () => {
   );
 });
 
-test('demand evidence tags become their own badge', () => {
+test('demand evidence tags without a citation still make a note', () => {
   const html = renderMarkdown('Buyers pay more {VN-direct|High} {dx:revealed}.', {
     lang: 'en',
   }).html;
-  assert.match(html, /class="dx" data-dx="revealed"/);
-  assert.match(html, /class="ev"/);
+  assert.match(html, /class="evn-tag" data-dx="revealed"/);
+  assert.match(html, /data-kinds="ev dx-revealed"/);
+  assert.ok(!html.includes('<sup class="cite">'));
+});
+
+test('appendices M, S, D, F and registers R1, R2 are for editors; glossary and sources are public', () => {
+  for (const p of PAGES) {
+    const code = appendixCode(p.id) ?? '';
+    const expected = p.section === 'appendix' && !['R3', 'R4'].includes(code);
+    assert.equal(isRestrictedPage(p.id), expected, p.id);
+  }
+  assert.ok(!isRestrictedPage(ROLE.sources) && !isRestrictedPage(ROLE.glossary));
+  assert.ok(isRestrictedPage(ROLE.openQuestions) && isRestrictedPage(ROLE.disagreements));
+  assert.ok(isEditorUser({ role: 40 }) && isEditorUser({ role: 50 }));
+  assert.ok(!isEditorUser({ role: 30 }) && !isEditorUser(undefined));
+});
+
+test('links to restricted pages are plain text for the public and links for editors', () => {
+  const md = 'See [[app-s4-feedstocks]] and [[ch07-rules]] and [[app-r4-sources]].';
+  const pub = renderMarkdown(md, { lang: 'en' }).html;
+  assert.match(pub, /<span class="xref is-locked"[^>]*>Feedstock data sheets<\/span>/);
+  assert.ok(!pub.includes('href="/appendices/app-s4-feedstocks"'));
+  assert.ok(pub.includes('href="/report/ch07-rules"'));
+  assert.ok(pub.includes('href="/appendices/app-r4-sources"'));
+  const ed = renderMarkdown(md, { lang: 'en', editor: true }).html;
+  assert.ok(ed.includes('href="/appendices/app-s4-feedstocks"'));
+  // No public page links a restricted page.
+  for (const e of entries.filter((x) => !isRestrictedPage(x.id))) {
+    const html = renderMarkdown(e.data.body, { lang: 'en', pageId: e.id }).html;
+    for (const m of html.matchAll(/href="\/appendices\/([a-z0-9-]+)/g))
+      assert.ok(!isRestrictedPage(m[1]), `${e.id} links ${m[1]}`);
+  }
+});
+
+test('the home page reads its argument from the two-minute summary and parts from the cover', () => {
+  const body = (id: string) => entries.find((x) => x.id === id)!.data.body;
+  const arg = parseArgument(body(ROLE.twoMinute));
+  assert.ok(arg.lede?.lead.startsWith('Protein for people first'));
+  assert.ok(arg.steps.length >= 5);
+  assert.equal(arg.steps[0].lead, 'Why Vietnam');
+  assert.ok(arg.steps.every((st) => st.pages.length > 0));
+  assert.ok(arg.steps.some((st) => st.kn.length > 0));
+  assert.ok(!arg.steps.some((st) => /Read next/.test(st.lead)));
+  const parts = coverPartAnswers(body(ROLE.cover));
+  assert.deepEqual(Object.keys(parts), ['I', 'II', 'III', 'IV', 'V']);
 });

@@ -1,10 +1,55 @@
 ---
 import Base from '../../layouts/Base.astro';
-import SectionIndex from '../../components/SectionIndex.astro';
-import { t } from '../../lib/i18n';
-const s = t(Astro.locals.lang ?? 'en');
+import { label, t } from '../../lib/i18n';
+import { canReadPage, isRestrictedPage } from '../../lib/access';
+import { APPENDIX_GROUPS, PAGE_BY_ID, ROLE, appendixCode, href } from '../../lib/site';
+const lang = Astro.locals.lang ?? 'en';
+const s = t(lang);
+const editor = Astro.locals.editor;
+const contentLang = lang === 'vi' ? 'en' : undefined;
+const groups = APPENDIX_GROUPS.map((g) => ({
+  ...g,
+  pages: g.pages.map((id) => PAGE_BY_ID.get(id)!).filter((p) => canReadPage(p.id, editor)),
+})).filter((g) => g.pages.length);
 ---
 
-<Base title={s.appendicesHeading} section="appendices">
-  <SectionIndex kind="appendix" />
+<Base
+  title={s.appendicesHeading}
+  description={s.appendicesIntro}
+  nav={editor ? 'workbench' : undefined}
+  pageClass="page-index"
+>
+  <div class="wrap">
+    <header class="index-head">
+      <p class="kicker">{s.report}</p>
+      <h1>{s.appendicesHeading}</h1>
+      <p class="lede">{editor ? s.appendicesIntro : s.appendicesPublic}</p>
+    </header>
+    {groups.map((g) => (
+      <section class="part-block" id={`group-${g.id}`}>
+        <header>
+          <h2>{label(g.label, lang)}</h2>
+        </header>
+        <ol class="chapter-list">
+          {g.pages.map((p) => (
+            <li>
+              <a href={p.id === ROLE.glossary ? href(p.id, lang) : href(p.id, lang)}>
+                <span class="cl-num" style="font-size:1.1rem">
+                  {appendixCode(p.id)}
+                </span>
+                <span class="cl-title" lang={contentLang}>
+                  {p.short_title.replace(/^[A-Z]\d*\.\s+/, '')}
+                  {isRestrictedPage(p.id) && <span class="cl-lock">{s.forReviewers}</span>}
+                </span>
+                {p.reading_time_min && <span class="cl-meta">{s.minutes(p.reading_time_min)}</span>}
+                <span class="cl-sum" lang={contentLang}>
+                  {p.summary}
+                </span>
+              </a>
+            </li>
+          ))}
+        </ol>
+      </section>
+    ))}
+  </div>
 </Base>

@@ -1,9 +1,12 @@
 import { search } from 'emdash';
 import recordsJson from '../generated/search-records.json';
+import { canReadPage } from './access';
 import { PAGE_BY_ID } from './site';
 
 export interface SearchRecord {
   kind: string;
+  /** public: the glossary; editor: rows of the data tables (they open in the data browser). */
+  access: 'public' | 'editor';
   id: string;
   title: string;
   title_vi?: string;
@@ -28,19 +31,20 @@ export function terms(query: string): string[] {
     .slice(0, 8);
 }
 
-/** Search glossary terms and the main data tables (bundled at build time). */
-export function searchRecords(query: string, limit = 60) {
+/** Search glossary terms and, for editors, the main data tables (bundled at build time). */
+export function searchRecords(query: string, limit = 60, editor = false) {
   const words = terms(query);
   if (!words.length) return [];
-  return INDEX.map(({ r, title, body }) => {
-    let score = 0;
-    for (const w of words) {
-      if (title.includes(w)) score += title.startsWith(w) || title.includes(` ${w}`) ? 6 : 4;
-      else if (body.includes(w)) score += 1;
-      else return null;
-    }
-    return { ...r, score };
-  })
+  return INDEX.filter(({ r }) => editor || r.access === 'public')
+    .map(({ r, title, body }) => {
+      let score = 0;
+      for (const w of words) {
+        if (title.includes(w)) score += title.startsWith(w) || title.includes(` ${w}`) ? 6 : 4;
+        else if (body.includes(w)) score += 1;
+        else return null;
+      }
+      return { ...r, score };
+    })
     .filter((x): x is SearchRecord & { score: number } => x !== null)
     .sort((a, b) => b.score - a.score)
     .slice(0, limit);
@@ -63,15 +67,17 @@ export function cleanSnippet(snippet: string): string {
     .trim();
 }
 
-/** Full-text search over the report pages held in EmDash. */
-export async function searchPages(query: string, limit = 30) {
+/** Full-text search over the report pages held in EmDash, limited to pages the reader can open. */
+export async function searchPages(query: string, limit = 30, editor = false) {
   const words = terms(query);
   if (!words.length) return [];
   const fts = words.map((w) => `"${w.replace(/"/g, '')}"*`).join(' ');
   try {
-    const res = await search(fts, { collections: ['pages'], limit });
+    const res = await search(fts, { collections: ['pages'], limit: editor ? limit : limit * 2 });
     return res.items
       .filter((item) => PAGE_BY_ID.has(item.slug ?? item.id))
+      .filter((item) => canReadPage(item.slug ?? item.id, editor))
+      .slice(0, limit)
       .map((item) => ({
         id: item.slug ?? item.id,
         snippet: item.snippet ? cleanSnippet(item.snippet) : '',

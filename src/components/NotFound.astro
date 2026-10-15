@@ -6,16 +6,16 @@ const s = t(lang);
 Astro.response.status = 404;
 ---
 
-<div class="frame">
-  <div class="index-head" style="padding-bottom:80px">
-    <p class="eyebrow">404</p>
+<div class="wrap">
+  <div class="locked">
+    <p class="kicker">404</p>
     <h1>{s.notFound}</h1>
-    <p>{s.notFoundText}</p>
-    <p style="margin-top:24px;display:flex;gap:10px;flex-wrap:wrap">
+    <p class="lede">{s.notFoundText}</p>
+    <p class="actions">
       <a class="btn btn-primary" href={localize('/', lang)}>
         {s.backHome}
       </a>
-      <a class="btn btn-secondary" href={localize('/search', lang)}>
+      <a class="btn" href={localize('/search', lang)}>
         {s.search}
       </a>
     </p>

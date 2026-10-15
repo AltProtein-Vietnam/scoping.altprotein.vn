@@ -1,0 +1,40 @@
+---
+// Shown to the public at the address of a page only editors can read.
+import { t } from '../lib/i18n';
+import { restrictedKind } from '../lib/access';
+import { PAGE_BY_ID, ROLE, href, localize } from '../lib/site';
+interface Props {
+  /** The restricted page asked for; leave out for the workbench and the data browser. */
+  id?: string;
+}
+const { id } = Astro.props;
+const lang = Astro.locals.lang ?? 'en';
+const s = t(lang);
+const page = id ? PAGE_BY_ID.get(id) : undefined;
+const kind = id ? (restrictedKind(id) ?? 'evidence') : null;
+Astro.response.status = 403;
+---
+
+<div class="wrap">
+  <div class="locked">
+    <p class="kicker">{kind ? s.lockedKind[kind] : s.forReviewers}</p>
+    <h1>{s.lockedTitle}</h1>
+    {page && (
+      <p class="locked-page" lang="en">
+        {page.short_title}
+      </p>
+    )}
+    <p class="lede">{s.lockedText}</p>
+    <p class="actions">
+      <a class="btn btn-primary" href="/_emdash/admin" rel="nofollow">
+        {s.lockedSignIn}
+      </a>
+      <a class="btn" href={localize('/report', lang)}>
+        {s.lockedBack}
+      </a>
+      <a class="btn" href={href(ROLE.sources, lang)}>
+        {s.allSources}
+      </a>
+    </p>
+  </div>
+</div>

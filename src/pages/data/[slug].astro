@@ -1,44 +1,48 @@
 ---
 import Base from '../../layouts/Base.astro';
 import NotFound from '../../components/NotFound.astro';
+import LockedPage from '../../components/LockedPage.astro';
 import { t } from '../../lib/i18n';
 import { DATASET_BY_SLUG } from '../../lib/datasets';
 import { PAGE_BY_ID, ROLE, href, localize } from '../../lib/site';
 const lang = Astro.locals.lang ?? 'en';
 const s = t(lang);
 const vi = lang === 'vi';
-const d = DATASET_BY_SLUG.get(Astro.params.slug ?? '');
+const editor = Astro.locals.editor;
+const slug = Astro.params.slug ?? '';
+// Data files that were public before v0.10 now live under /files/ (editors only).
+if (/\.(csv|json|md)$/.test(slug)) return Astro.redirect(`/files/data/${slug}`, 301);
+const d = DATASET_BY_SLUG.get(slug);
 if (!d) Astro.response.status = 404;
 const nf = new Intl.NumberFormat(vi ? 'vi-VN' : 'en-GB');
 const sourcesHref = href(ROLE.sources, lang);
 ---
 
-{d ? (
-  <Base title={d.file} section="data" description={d.purpose}>
-    <div class="frame">
-      <ol class="crumbs" style="margin-top:28px">
-        <li>
-          <a href={localize('/', lang)}>{s.home}</a>
-        </li>
-        <li>
-          <a href={localize('/data', lang)}>{s.data}</a>
-        </li>
-      </ol>
-      <header class="page-head" style="max-width:60rem">
-        <p class="eyebrow">{d.group === 'chart' ? s.dataChart : s.data}</p>
+{!editor ? (
+  <Base title={s.lockedTitle} noindex pageClass="page-locked">
+    <LockedPage />
+  </Base>
+) : d ? (
+  <Base title={d.file} description={d.purpose} noindex nav="workbench" pageClass="page-data">
+    <div class="wrap">
+      <header class="index-head">
+        <p class="kicker">
+          <a href={localize('/workbench', lang)}>{s.workbench}</a> ·{' '}
+          <a href={localize('/data', lang)}>{d.group === 'chart' ? s.dataChart : s.dataHeading}</a>
+        </p>
         <h1>
           <code class="file-title">{d.file}</code>
         </h1>
         {d.purpose && (
-          <p class="page-lead" lang={vi ? 'en' : undefined}>
+          <p class="lede" lang={vi ? 'en' : undefined}>
             {d.purpose}
           </p>
         )}
-        <div class="page-meta">
+        <div class="doc-meta">
           <span>
-            {nf.format(d.rows)} {s.rows} · {d.columns.length} {vi ? 'cột' : 'columns'}
+            {nf.format(d.rows)} {s.rows} · {s.columnsCount(d.columns.length)}
           </span>
-          <a class="btn btn-secondary" href={d.href} download>
+          <a class="btn" href={d.href} download>
             {s.download}
           </a>
           {d.pages.length > 0 && (
@@ -86,7 +90,6 @@ const sourcesHref = href(ROLE.sources, lang);
         data-sources-href={sourcesHref}
         data-docs={JSON.stringify(Object.fromEntries(d.columns.map((c) => [c.name, c.doc])))}
         data-i18n={JSON.stringify({
-          showing: s.showing(0, 0),
           more: s.loadMore,
           filter: s.filterPlaceholder,
           lang,
@@ -100,7 +103,7 @@ const sourcesHref = href(ROLE.sources, lang);
           <p class="dt-count" aria-live="polite" />
         </div>
         <noscript>
-          <p class="lang-note">
+          <p class="page-note">
             {s.noJs} <a href={d.href}>{s.download}</a>
           </p>
         </noscript>
@@ -124,7 +127,6 @@ const sourcesHref = href(ROLE.sources, lang);
           </button>
         </p>
       </div>
-      <div style="height:48px" />
     </div>
   </Base>
 ) : (
@@ -135,51 +137,13 @@ const sourcesHref = href(ROLE.sources, lang);
 
 <style>
   .file-title {
-    font-size: 0.72em;
+    font-size: 0.62em;
     background: none;
-    border: 0;
     padding: 0;
     overflow-wrap: anywhere;
   }
   .col-docs {
-    margin: 0 0 8px;
-  }
-  .col-docs summary {
-    cursor: pointer;
-    font-weight: 600;
-    color: var(--brand-ink);
-  }
-  .dt-count {
-    margin: 0;
-    font-size: 0.86rem;
-    color: var(--muted);
-  }
-  .dt-wrap {
-    max-height: 75vh;
-  }
-  .dt-wrap :global(th) {
-    cursor: pointer;
-    user-select: none;
-    white-space: nowrap;
-  }
-  .dt-wrap :global(th[aria-sort='ascending'])::after {
-    content: ' ▲';
-    font-size: 0.7em;
-  }
-  .dt-wrap :global(th[aria-sort='descending'])::after {
-    content: ' ▼';
-    font-size: 0.7em;
-  }
-  .dt-wrap :global(td) {
-    max-width: 32em;
-  }
-  .dt-wrap :global(td.long) {
-    min-width: 18em;
-  }
-  .dt-wrap :global(mark) {
-    background: color-mix(in srgb, var(--series-4) 35%, transparent);
-    color: inherit;
-    border-radius: 2px;
+    margin: 0 0 0.5rem;
   }
 </style>
 

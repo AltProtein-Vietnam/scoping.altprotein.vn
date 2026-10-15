@@ -1,27 +1,45 @@
 ---
 import Base from '../layouts/Base.astro';
+import { loadPage } from '../lib/content';
 import { t } from '../lib/i18n';
-import { ROLE, SITE, appendixCode, href, localize } from '../lib/site';
+import { KEY_NUMBERS, renderInline, renderKeyNumber } from '../lib/markdown';
+import { ROLE, SITE, href, localize } from '../lib/site';
 const lang = Astro.locals.lang ?? 'en';
 const s = t(lang);
 const vi = lang === 'vi';
-const code = (id: string) => `${vi ? 'Phụ lục' : 'Appendix'} ${appendixCode(id)}`;
+const editor = Astro.locals.editor;
+
+// The method note is the executive summary's own "About this report" paragraph, so the counts
+// (research rounds, sources, actors) follow the published text.
+let method = '';
+try {
+  const summary = (await loadPage(vi ? ROLE.summaryVi : ROLE.summary)).entry?.data.body ?? '';
+  const m = /^\*(About this report|Về báo cáo)\.\*\s*(.+)$/m.exec(summary);
+  if (m) method = renderInline(m[2], { lang, editor, citeTarget: 'sources' });
+} catch (error) {
+  console.error(error);
+}
+const tiles = ['kn-sources-count', 'kn-solutions-screened']
+  .filter((k) => KEY_NUMBERS[k])
+  .map((k) => renderKeyNumber(k, { lang, editor, citeTarget: 'sources' }));
+const versions = [...SITE.versions].reverse();
 ---
 
-<Base title={s.about} section="about">
-  <div class="frame">
-    <div class="about">
-      <header class="index-head">
-        <p class="eyebrow">{SITE.publisher}</p>
-        <h1>{s.about}</h1>
-        <p>
-          {vi
-            ? 'Một nghiên cứu có gắn nhãn bằng chứng về những loại protein Việt Nam có thể tự sản xuất cho người dân ăn, và về những ai sẽ mua.'
-            : 'An evidence-tagged scoping study of the protein Vietnam could make at home for people to eat, and of who would buy it.'}
-        </p>
-      </header>
+<Base title={s.about} pageClass="page-about">
+  <div class="wrap">
+    <header class="index-head">
+      <p class="kicker">{SITE.publisher}</p>
+      <h1>{s.about}</h1>
+      <p class="lede">
+        {vi
+          ? 'Một nghiên cứu có gắn nhãn bằng chứng về những loại protein Việt Nam có thể tự sản xuất cho người dân ăn, và về những ai sẽ mua.'
+          : 'An evidence-tagged scoping study of the protein Vietnam could make at home for people to eat, and of who would buy it.'}
+      </p>
+    </header>
+    <div class="about-grid">
       <div class="prose">
         <aside class="callout callout-draft">
+          <p class="callout-label">{vi ? 'Bản thảo' : 'Draft for review'}</p>
           <p>
             <strong>{vi ? SITE.draft_notice.vi : SITE.draft_notice.en}</strong>{' '}
             {vi
@@ -33,182 +51,90 @@ const code = (id: string) => `${vi ? 'Phụ lục' : 'Appendix'} ${appendixCode(
           <>
             <h2 id="scope">Phạm vi</h2>
             <p>
-              Phía cung (nguyên liệu, quy trình, sản xuất, quy định, vốn, khoa học) của protein cho
-              người dân ăn, hiện nay và đến năm 2050. Thức ăn chăn nuôi chỉ là bối cảnh: đó là đầu
-              vào nhập khẩu đằng sau thịt, trứng, sữa và cá nuôi mà người dân ăn, không phải thứ
-              nghiên cứu đề xuất sản xuất. Phần về tương lai dùng phương pháp dự báo chiến lược: các
-              kịch bản có dấu hiệu báo trước và một tầm nhìn chuẩn tắc được ghi rõ; không phần nào
-              là dự báo. Thịt nuôi cấy được xem xét đầy đủ. Côn trùng chỉ là mốc so sánh, không phải
-              hướng đi được khuyến nghị.
+              Nghiên cứu xem xét phía cung (nguyên liệu, quy trình, sản xuất, quy định, vốn, khoa
+              học), hiện nay và đến năm 2050. Trọng tâm là protein cho con người: Việt Nam có thể tự
+              làm ra loại protein nào để người dân ăn, từ nguyên liệu gì, với chi phí bao nhiêu,
+              theo quy định nào, và ai sẽ mua. Thức ăn chăn nuôi chỉ là bối cảnh: đó là phần nhập
+              khẩu khó thấy đằng sau thịt, trứng, sữa và cá nuôi mà người dân ăn, không phải thứ
+              nghiên cứu đề xuất sản xuất. Thịt nuôi cấy được xem xét đầy đủ.
             </p>
             <p>
-              Phần về phía cầu coi nhu cầu là đầu vào cho thiết kế: hộ gia đình, bếp ăn, doanh
-              nghiệp thực phẩm và người mua nước ngoài ăn gì, trả bao nhiêu và mua gì. Quy mô nhu
-              cầu chỉ được ước lượng dưới dạng kịch bản có ghi nhãn; nghiên cứu không đưa ra dự báo
-              quy mô thị trường và không phải kế hoạch tiếp thị. Các kết luận đã được đối chiếu với
-              những gì 80 nhà tài trợ, nhà đầu tư, startup, doanh nghiệp, cơ quan quản lý và nhà
-              nghiên cứu thực sự quyết định, chi trả và hỏi.
-            </p>
-            <p>
-              Cách tiếp cận trung lập, lấy an ninh nguồn protein người dân ăn, giá trị công nghiệp
-              và thương mại làm trọng tâm. Nghiên cứu này không phải là tư vấn đầu tư, pháp lý hay
-              kỹ thuật.
+              Phần về tương lai dùng phương pháp dự báo chiến lược: các kịch bản có dấu hiệu báo
+              trước và một tầm nhìn chuẩn tắc được ghi rõ; không phần nào là dự báo. Phần về phía
+              cầu coi nhu cầu là đầu vào cho thiết kế, chỉ ước lượng quy mô dưới dạng kịch bản có
+              ghi nhãn, không đưa ra dự báo quy mô thị trường và không phải kế hoạch tiếp thị. Cách
+              tiếp cận trung lập, lấy an ninh nguồn protein người dân ăn, giá trị công nghiệp và
+              thương mại làm trọng tâm. Nghiên cứu này không phải là tư vấn đầu tư, pháp lý hay kỹ
+              thuật.
             </p>
           </>
         ) : (
           <>
             <h2 id="scope">Scope and framing</h2>
             <p>
-              The supply side (raw materials, processes, manufacturing, rules, capital and science)
-              of protein for people to eat, today and to 2050. Feed is context only: it is the
-              imported input behind the meat, eggs, milk and farmed fish people eat, not something
-              the study proposes to make. The futures part uses foresight: scenarios with signposts
-              and one clearly labelled normative vision; none of it is a forecast. Cultivated meat
-              is fully scoped. Insect protein appears as an incumbent and benchmark, not as a
-              recommended play.
+              The study covers the supply side (raw materials, processes, manufacturing, rules,
+              capital, science), today and to 2050. It is about protein for people: what Vietnam
+              could make at home for people to eat, from what, at what cost, under which rules, and
+              who would buy it. Feed appears only as context: it is the hidden import behind the
+              meat, eggs, milk and farmed fish that people eat, not something the study proposes to
+              make. Cultivated meat is fully scoped.
             </p>
             <p>
-              The demand part treats demand as a design input: what households, kitchens, food
-              makers and foreign buyers eat, pay and buy, and what that asks of anyone making new
-              protein. It sizes demand routes as labelled scenarios, gives no market-size forecast
-              and is not a marketing plan. The conclusions were checked against what 80 named
-              funders, investors, startups, incumbents, regulators and researchers decide, pay for
-              and ask.
-            </p>
-            <p>
-              The framing is neutral and led by the security of the protein people eat, industrial
-              value and trade; animal welfare and environment are stated as motivations for some
-              actors. The study is not investment, legal or engineering advice.
+              The futures part uses foresight: scenarios with signposts and one clearly labelled
+              normative vision; none of it is a forecast. The demand part treats demand as a design
+              input. It sizes demand routes as labelled scenarios, gives no market-size forecast,
+              sets no diet goal and is not a marketing plan. The framing is neutral and led by the
+              security of the protein people eat, industrial value and trade; animal welfare and
+              environment are stated as motivations for some actors. The study is not investment,
+              legal or engineering advice.
             </p>
           </>
         )}
-        <h2 id="reading">{vi ? 'Cách đọc' : 'How to read it'}</h2>
+        {method && (
+          <>
+            <h2 id="method">{vi ? 'Cách nghiên cứu được thực hiện' : 'How the study was done'}</h2>
+            <p lang={vi ? 'vi' : 'en'} set:html={method} />
+          </>
+        )}
+        <h2 id="evidence">{s.howToRead}</h2>
         <p>
           {vi
-            ? 'Mỗi nhận định được gắn nhãn loại bằng chứng và độ tin cậy:'
-            : 'Every claim carries a badge for the kind of evidence behind it and a confidence level:'}
+            ? 'Mỗi nhận định có một dấu cho loại bằng chứng (về Việt Nam, từ một nước tương đồng, hay toàn cầu) và mức độ tin cậy. Nhận định về tương lai và về nhu cầu có thêm một nhãn.'
+            : 'Every claim carries a mark for where its evidence comes from (Vietnam, a comparable country, or global) and for our confidence. Claims about the future and about demand carry a further tag.'}{' '}
+          <a href={`${localize('/', lang)}#evidence`}>{s.legendTitle}</a> ·{' '}
+          <a href={href(ROLE.howToRead, lang)}>{s.legendMore}</a>
         </p>
-        <p class="legend-row">
-          <span class="ev" data-ev="direct" data-conf="high">
-            <span class="ev-l">VN-direct</span>
-            <span class="ev-c">
-              <i></i>
-              <i></i>
-              <i></i>High
-            </span>
-          </span>
-          <span class="ev" data-ev="adjacent" data-conf="medium">
-            <span class="ev-l">VN-adjacent</span>
-            <span class="ev-c">
-              <i></i>
-              <i></i>
-              <i></i>Medium
-            </span>
-          </span>
-          <span class="ev" data-ev="general" data-conf="low">
-            <span class="ev-l">general</span>
-            <span class="ev-c">
-              <i></i>
-              <i></i>
-              <i></i>Low
-            </span>
-          </span>
-        </p>
+        <h2 id="reviewers">{s.forReviewers}</h2>
+        <p>{s.appendicesPublic}</p>
         <p>
           {vi
-            ? 'Các nhận định hướng tới tương lai có thêm nhãn dự báo:'
-            : 'Forward-looking claims also carry a foresight badge:'}
-        </p>
-        <p class="legend-row">
-          {['trend', 'projection', 'estimate', 'signal', 'wildcard'].map((f) => (
-            <span class="fx" data-fx={f}>
-              <span>{f}</span>
-            </span>
-          ))}
-          <span class="fx" data-fx="vision">
-            <span>vision</span>
-          </span>
-        </p>
-        <p>
-          {vi
-            ? 'Các nhận định về nhu cầu có thêm nhãn cho loại bằng chứng về nhu cầu:'
-            : 'Demand claims also carry a badge for the kind of demand evidence:'}
-        </p>
-        <p class="legend-row">
-          {['stated', 'revealed', 'tested', 'inferred'].map((d) => (
-            <span class="dx" data-dx={d}>
-              <span>{d}</span>
-            </span>
-          ))}
-        </p>
-        <p>
-          <a href={href(ROLE.howToRead, lang)}>
-            {vi
-              ? 'Giải thích đầy đủ, kèm bảng mã và tên kịch bản'
-              : 'The full explanation, with the table of codes and scenario names'}
-          </a>
-          {' · '}
-          <a href={href(ROLE.method, lang)}>
-            {vi ? 'Phương pháp' : 'Method'} ({code(ROLE.method)})
-          </a>
-          {' · '}
-          <a href={href(ROLE.futuresMethod, lang)}>
-            {vi ? 'Phương pháp dự báo' : 'Futures method'} ({code(ROLE.futuresMethod)})
-          </a>
-          {' · '}
-          <a href={href(ROLE.demandMethod, lang)}>
-            {vi ? 'Phương pháp về phía cầu' : 'Demand method'} ({code(ROLE.demandMethod)})
-          </a>
+            ? 'Các bảng dữ liệu, mô hình và tài liệu làm việc cũng chỉ dành cho người góp ý trong giai đoạn này.'
+            : 'The data tables, the models and the working papers are also shared with reviewers only at this stage.'}
         </p>
         <h2 id="versions">{vi ? 'Các phiên bản' : 'Versions'}</h2>
         <ul>
-          {SITE.versions.map((v) => (
+          {versions.map((v) => (
             <li>
-              <strong>v{v.version}</strong> ({v.date}): <span lang="en">{v.note}</span>
+              <strong>{v.version}</strong> ({v.date}): <span lang="en">{v.note}</span>
             </li>
           ))}
-        </ul>
-        <p>
-          <a href={href(ROLE.changelog, lang)}>
-            {vi ? 'Nhật ký thay đổi và đính chính' : 'Changelog and corrections'} (
-            {code(ROLE.changelog)})
-          </a>
-        </p>
-        <h2 id="data">{s.downloads}</h2>
-        <ul>
-          <li>
-            <a href="/downloads/altprotein-vn-data.zip" download>
-              {s.downloadData}
-            </a>
-          </li>
-          <li>
-            <a href="/downloads/altprotein-vn-working-papers.zip" download>
-              {s.downloadWorking}
-            </a>
-          </li>
-          <li>
-            <a href="/downloads/altprotein-vn-report-markdown.zip" download>
-              {s.downloadMarkdown}
-            </a>
-          </li>
-          <li>
-            <a href={localize('/data', lang)}>{s.dataHeading}</a>
-          </li>
         </ul>
         <h2 id="site">{vi ? 'Về trang web' : 'About this website'}</h2>
         <p>
           {vi
             ? 'Nội dung báo cáo bằng tiếng Anh, có lời mở đầu, bản tóm tắt tiếng Việt và bảng thuật ngữ song ngữ. Giao diện có thể xem bằng tiếng Anh hoặc tiếng Việt. Trang web không dùng công cụ theo dõi. Biểu đồ được dựng sẵn dưới dạng SVG và mỗi biểu đồ có bảng số liệu đi kèm.'
-            : 'The report is in English, with a Vietnamese prologue, a Vietnamese executive summary and a bilingual glossary; the interface can be switched between English and Vietnamese. The site uses no trackers. Charts are drawn as inline SVG at build time, and each has its data table.'}
+            : 'The report is in English, with a Vietnamese prologue, a Vietnamese executive summary and a bilingual glossary; the interface can be switched between English and Vietnamese. The site uses no trackers. Charts are drawn as inline SVG when the site is built, and each has its data table.'}
         </p>
       </div>
+      <aside class="about-side">
+        {tiles.length > 0 && (
+          <div class="kn-grid">
+            {tiles.map((tile) => (
+              <Fragment set:html={tile} />
+            ))}
+          </div>
+        )}
+      </aside>
     </div>
-    <div style="height:64px"></div>
   </div>
 </Base>
-
-<style>
-  .about {
-    max-width: 46rem;
-  }
-</style>

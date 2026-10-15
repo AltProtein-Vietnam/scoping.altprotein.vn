@@ -11,10 +11,10 @@ const s = t(lang);
 ---
 
 {ids.length > 0 && (
-  <section class="sources-cited" aria-labelledby="sources-cited" lang={lang}>
+  <section class="doc-sources" aria-labelledby="sources-cited" lang={lang}>
     <h2 id="sources-cited">{s.sourcesCited}</h2>
     <p class="hint">
-      <a href={href(ROLE.sources, lang)}>{s.allSources}</a>
+      {s.sourcesCitedHint} <a href={href(ROLE.sources, lang)}>{s.allSources}</a>
     </p>
     <ol lang="en">
       {ids.map((id) => {
@@ -23,7 +23,7 @@ const s = t(lang);
           <li id={`src-${id}`}>
             <a class="sid" href={href(ROLE.sources, lang, id)}>
               {id}
-            </a>{' '}
+            </a>
             {src && (
               <>
                 {src.a && <span>{src.a}. </span>}

@@ -1,741 +1,422 @@
 ---
+// The home page is the study's argument: the two-minute summary laid out one step per row, each
+// with its main number, one chart from the chapter that holds the evidence, and the links to it.
+// The words come from the CMS (the cover and the two-minute summary), so editors change them there.
 import Base from '../layouts/Base.astro';
-import SourcesList from '../components/SourcesList.astro';
-import { loadPage, renderPage } from '../lib/content';
-import { audienceLabel, label, t } from '../lib/i18n';
-import { KEY_NUMBERS } from '../lib/markdown';
-import datasets from '../generated/datasets.json';
+import { loadPage } from '../lib/content';
+import { parseArgument, coverPartAnswers, type Step } from '../lib/front';
+import { audienceLabel, t } from '../lib/i18n';
+import { canReadPage } from '../lib/access';
+import { KEY_NUMBERS, renderInline, renderKeyNumber, renderMarkdown } from '../lib/markdown';
+import { renderChartFigure } from '../lib/charts';
+import { evidenceNote } from '../lib/html';
 import {
   AUDIENCES,
   PAGES,
   PAGE_BY_ID,
-  PARTS,
+  PART_LIST,
+  ROLE,
   SITE,
-  appendixCode,
   chapterNumber,
   href,
   localize,
-  ROLE,
+  partPath,
 } from '../lib/site';
 
 const lang = Astro.locals.lang ?? 'en';
 const s = t(lang);
 const vi = lang === 'vi';
+const editor = Astro.locals.editor;
 
-let cover: Awaited<ReturnType<typeof loadPage>>['entry'] = null;
+type Entry = Awaited<ReturnType<typeof loadPage>>['entry'];
+let cover: Entry = null;
+let twoMinute: Entry = null;
 try {
-  cover = (await loadPage(ROLE.cover)).entry;
+  [cover, twoMinute] = await Promise.all([
+    loadPage(ROLE.cover).then((r) => r.entry),
+    loadPage(ROLE.twoMinute).then((r) => r.entry),
+  ]);
 } catch (error) {
   console.error(error);
 }
-const body = cover?.data.body ?? '';
+const coverBody = cover?.data.body ?? '';
+const argument = parseArgument(twoMinute?.data.body ?? '');
+const partAnswers = coverPartAnswers(coverBody);
 
-// The cover page is split into its introduction (hero), and the closing notes. Its "Start here"
-// and "What is inside" sections are replaced on this page by the audience paths and the part grid.
-const sections = body.split(/^### /m);
-const intro = sections[0] ?? '';
-const h1 = /^# (.+)$/m.exec(intro)?.[1] ?? SITE.title;
-const h2 = /^## (.+)$/m.exec(intro)?.[1] ?? '';
-const introBody = intro
-  .split('\n')
-  .filter((l) => !/^#{1,2} /.test(l) && !/^\*\*[^*]+·[^*]+\*\*$/.test(l.trim()))
-  .join('\n');
-const closing = sections
-  .slice(1)
-  .map((sec) => {
-    const [heading, ...rest] = sec.split('\n');
-    if (/^(Start here|What is inside)/i.test(heading))
-      return rest.filter((l) => !l.trim().startsWith('|') && !l.trim().startsWith('- ')).join('\n');
-    return `### ${sec}`;
-  })
-  .join('\n');
-const version = String(cover?.data.updatedAt ?? '');
-// In the Vietnamese interface the hero carries the Vietnamese summary, so only the tiles are kept.
-const heroSource = vi
-  ? introBody
-      .split('\n')
-      .filter((l) => l.includes('{{kn:'))
-      .join('\n')
-  : introBody;
-const hero = renderPage(ROLE.cover, heroSource, lang, `hero-${version}`, false);
-const heroHtml = hero.html;
-const closingHtml = renderPage(ROLE.cover, closing, lang, `closing-${version}`, false).html;
+// One chart per step, from the first chapter the step cites that has a lead chart, never twice.
+const LEAD_CHART: Record<string, string> = {
+  'ch01-why-vietnam': 'chart-feed-import-dependence',
+  'ch26-plays': 'chart-plays-scoring',
+  'ch18-demand-sizing': 'chart-demand-routes',
+  'ch16-business-buyers': 'chart-plant-protein-imports',
+  'ch27-policy-options': 'chart-policy-effort-impact',
+};
+const usedCharts = new Set<string>();
+const opts = { lang, pageId: ROLE.twoMinute, editor, citeTarget: 'sources' as const };
+const cite = (ids: string[]) =>
+  `<sup class="cite">${ids
+    .map(
+      (id, i) =>
+        `<a href="${href(ROLE.sources, lang, id)}" data-src="${id}" title="${id}">${i + 1}</a>`,
+    )
+    .join('<span class="cite-sep">,</span>')}</sup>`;
+const steps = argument.steps.map((step: Step, i) => {
+  const chartPage = step.pages.find((p) => LEAD_CHART[p] && !usedCharts.has(LEAD_CHART[p]));
+  const chart = chartPage ? LEAD_CHART[chartPage] : undefined;
+  if (chart) usedCharts.add(chart);
+  // A step may open with only its chapter links, "([[ch27-policy-options]], ...):"; the links are
+  // listed under the step, so the bare parenthesis is dropped.
+  const text = step.body.replace(/^\((?:\[\[[a-z0-9-]+(?:#[a-z0-9-]+)?\]\](?:,\s*)?)+\):?\s*/, '');
+  const body = renderMarkdown(text, opts);
+  return {
+    n: String(i + 1).padStart(2, '0'),
+    lead: step.lead,
+    html: body.html,
+    tiles: step.kn.filter((k) => KEY_NUMBERS[k]).map((k) => renderKeyNumber(k, opts, 'hero')),
+    chart: chart
+      ? renderChartFigure(chart, lang, cite, { editor, staticOnly: true, compact: true })
+      : '',
+    pages: step.pages.filter((p) => PAGE_BY_ID.has(p) && canReadPage(p, editor)),
+  };
+});
+const lede = argument.lede ? renderInline(argument.lede.body, opts) : '';
+const coverDraft = /^> \*\*Draft for review\.\*\*\s*(.+)$/m.exec(coverBody)?.[1] ?? '';
 
+// Briefs, one per audience; reading paths for every audience the manifest lists.
+const briefs = PAGES.filter((p) => p.section === 'brief').sort((a, b) => a.order - b.order);
+const paths = Object.fromEntries(
+  AUDIENCES.map((a) => [
+    a,
+    (SITE.audience_paths[a] ?? []).filter((id) => PAGE_BY_ID.has(id) && canReadPage(id, editor)),
+  ]),
+);
 const viSummary = PAGE_BY_ID.get(ROLE.summaryVi)!;
 const enSummary = PAGE_BY_ID.get(ROLE.summary)!;
-const chapters = PAGES.filter((p) => p.section === 'report');
-const briefs = PAGES.filter((p) => p.section === 'brief');
-const appendices = PAGES.filter((p) => p.section === 'appendix');
-const partNote: Record<string, string> = {
-  'I. Context': vi
-    ? 'Vì sao là Việt Nam, protein thay thế hôm nay và vị thế trong khu vực'
-    : 'Why Vietnam, alternative protein today, and the region',
-  'II. Supply: what Vietnam can make': vi
-    ? 'Nguyên liệu, công nghiệp, quy định, nhân lực, vốn, chi phí và công nghệ'
-    : 'Raw materials, industry, rules, talent, capital, costs and technologies',
-  'III. Demand: who would buy it': vi
-    ? 'Bữa ăn, đồ chay, người tiêu dùng, kênh bán, người mua doanh nghiệp và xuất khẩu'
-    : 'Diets, chay, consumers, channels, business buyers and export',
-  'IV. Futures: 2035 and 2050': vi
-    ? 'Triển vọng 2035, động lực, cân bằng protein, kịch bản và tầm nhìn'
-    : 'Outlook to 2035, drivers, the protein balance, scenarios and a vision',
-  'V. What to do': vi
-    ? 'Mục tiêu sản phẩm, bảy hướng đi, chính sách và bước đi hiệu quả trong mọi kịch bản'
-    : 'Product targets, seven plays, policy options and moves that pay off in any 2050',
-};
-const count = (file: string) =>
-  (datasets as { file: string; rows: number }[]).find((d) => d.file === file)?.rows ?? 0;
-const dataStats = [
-  {
-    n: (datasets as { group: string }[]).filter((d) => (d as { group: string }).group === 'data')
-      .length,
-    label: vi ? 'bảng dữ liệu' : 'data tables',
-  },
-  { n: count('sources.csv'), label: vi ? 'nguồn' : 'sources' },
-  { n: count('companies.csv'), label: vi ? 'doanh nghiệp và tổ chức' : 'companies and actors' },
-  { n: count('facilities.csv'), label: vi ? 'cơ sở sản xuất' : 'facilities' },
-  {
-    n: count('retail_audit_skus.csv'),
-    label: vi ? 'sản phẩm bán lẻ được khảo sát' : 'audited retail products',
-  },
-];
-const nf = new Intl.NumberFormat(vi ? 'vi-VN' : 'en-GB');
-// The release month of the current version, from the manifest's version list ("2026-10").
-const [releaseYear, releaseMonth] = (
-  SITE.versions.find((v) => v.version === SITE.version)?.date ?? ''
-)
-  .split('-')
-  .map(Number);
-const released = releaseMonth
-  ? vi
-    ? `tháng ${releaseMonth}/${releaseYear}`
+const prologue = PAGE_BY_ID.get(vi ? ROLE.prologueVi : ROLE.prologue)!;
+const released = (() => {
+  const [y, m] = (SITE.versions.find((v) => v.version === SITE.version)?.date ?? '')
+    .split('-')
+    .map(Number);
+  if (!m) return '';
+  return vi
+    ? `tháng ${m}/${y}`
     : new Intl.DateTimeFormat('en-GB', { month: 'long', year: 'numeric', timeZone: 'UTC' }).format(
-        Date.UTC(releaseYear, releaseMonth - 1),
-      )
-  : '';
+        Date.UTC(y, m - 1),
+      );
+})();
+const proofTiles = ['kn-sources-count', 'kn-solutions-screened']
+  .filter((k) => KEY_NUMBERS[k])
+  .map((k) => renderKeyNumber(k, opts));
+const titleLines = vi
+  ? { h1: 'Protein thay thế tại Việt Nam', sub: 'Nghiên cứu xác định phạm vi phía cung' }
+  : {
+      h1: /^# (.+)$/m.exec(coverBody)?.[1] ?? s.studyTitle,
+      sub: /^## (.+)$/m.exec(coverBody)?.[1] ?? s.studySub,
+    };
+const contentLang = vi ? 'en' : undefined;
+const legendScope = ['direct', 'adjacent', 'general'] as const;
 ---
 
 <Base
   title={cover?.data.title ?? SITE.title}
   description={vi ? viSummary.summary : (cover?.data.summary ?? SITE.title)}
   content={cover ? { collection: 'pages', id: cover.id, slug: ROLE.cover } : undefined}
-  current="front-cover"
+  current={ROLE.cover}
   pageClass="page-home"
+  banner
 >
   <section class="hero">
-    <div class="frame hero-inner">
-      <div class="hero-text">
-        <p class="eyebrow">
-          <span>{SITE.publisher}</span>
-          <span>·</span>
-          <span>
-            {`${vi ? 'Bản thảo' : 'Draft'} ${SITE.version}${released ? `, ${released}` : ''}`}
-          </span>
+    <div class="wrap hero-grid">
+      <div>
+        <p class="kicker">
+          {SITE.publisher} · {s.draft(SITE.version)}
+          {released && `, ${released}`}
+        </p>
+        <h1 class="hero-title" lang={vi ? 'vi' : undefined}>
+          {titleLines.h1}
+        </h1>
+        <p class="hero-sub" lang={vi ? 'vi' : undefined}>
+          {titleLines.sub}
         </p>
         {vi ? (
-          <h1 lang="vi">
-            Protein thay thế tại Việt Nam
-            <span class="hero-sub">Khảo sát phía cung 2026</span>
-          </h1>
-        ) : (
-          <h1>
-            {h1}
-            {h2 && <span class="hero-sub">{h2}</span>}
-          </h1>
-        )}
-        {cover?.data.subtitle && !vi && <p class="hero-question">{cover.data.subtitle}</p>}
-        {vi && (
-          <p class="hero-lead" lang="vi">
+          <p class="hero-q" lang="vi">
             {viSummary.summary}
           </p>
+        ) : (
+          cover?.data.subtitle && <p class="hero-q">{cover.data.subtitle}</p>
         )}
         <div class="hero-cta">
           {vi ? (
             <>
-              <a class="btn btn-primary" href={href(ROLE.summaryVi, lang)} lang="vi">
-                {s.readSummaryVi} <span aria-hidden="true">→</span>
+              <a class="btn btn-primary" href={href(ROLE.summaryVi, lang)}>
+                {s.homeReadVi} <small>{s.minutes(viSummary.reading_time_min ?? 0)}</small>
               </a>
-              <a class="btn btn-secondary" href={href(ROLE.summary, lang)}>
-                {s.readSummary}
+              <a class="btn" href={href(ROLE.summary, lang)}>
+                {s.homeReadSummary}
               </a>
             </>
           ) : (
             <>
               <a class="btn btn-primary" href={href(ROLE.summary, lang)}>
-                {s.readSummary} <span class="btn-meta">{enSummary.reading_time_min} min</span>
+                {s.homeReadSummary} <small>{s.minutes(enSummary.reading_time_min ?? 0)}</small>
               </a>
-              <a
-                class="btn btn-secondary"
-                href={href(ROLE.summaryVi, lang)}
-                lang="vi"
-                hreflang="vi"
-              >
+              <a class="btn" href={href(ROLE.summaryVi, lang)} lang="vi" hreflang="vi">
                 Tóm tắt tiếng Việt
               </a>
             </>
           )}
-          <a class="btn btn-secondary" href={href(ROLE.twoMinute, lang)}>
-            {vi ? 'Đọc trong hai phút' : 'In two minutes'}
-          </a>
           <a
-            class="btn btn-secondary"
-            href={href(vi ? ROLE.prologueVi : ROLE.prologue, lang)}
-            lang={vi ? 'vi' : undefined}
+            class="btn"
+            href={href(prologue.id, lang)}
+            lang={prologue.lang !== lang ? prologue.lang : undefined}
           >
-            {vi ? 'Lời mở đầu cho người mới' : 'New to alternative protein?'}
+            {s.homeNewcomers}
           </a>
         </div>
       </div>
-      <div class="hero-body prose" lang={vi ? 'en' : undefined} set:html={heroHtml} />
+      <aside class="hero-note" aria-label={s.homeAbout}>
+        {lede && <p class="lede" lang={contentLang} set:html={lede} />}
+        {coverDraft && (
+          <p class="draft-note" lang={contentLang}>
+            <strong>{vi ? SITE.draft_notice.vi : 'Draft for review.'}</strong>{' '}
+            {vi ? s.draftNotice : coverDraft}
+          </p>
+        )}
+      </aside>
     </div>
   </section>
 
-  <section class="section audience" aria-labelledby="aud-h">
-    <div class="frame">
-      <div class="section-head">
-        <div>
-          <h2 id="aud-h">{s.audienceHeading}</h2>
-          <p>{s.audienceIntro}</p>
-        </div>
-      </div>
-      <div class="aud-picker" role="group" aria-label={s.audienceHeading}>
-        {AUDIENCES.map((a) => (
-          <a
-            class="aud-btn"
-            href={`?for=${a}`}
-            data-set-audience={a}
-            role="button"
-            aria-pressed="false"
-          >
-            {audienceLabel(a, lang, SITE.audiences[a])}
-          </a>
+  <section class="sec" id="argument" aria-labelledby="arg-h">
+    <div class="wrap">
+      <header class="sec-head">
+        <h2 id="arg-h">{s.homeArgument}</h2>
+        <p>{s.homeArgumentIntro(steps.length)}</p>
+      </header>
+      <ol class="steps">
+        {steps.map((st, i) => (
+          <li class="step" id={`step-${i + 1}`}>
+            <p class="step-num" aria-hidden="true">
+              {st.n}
+            </p>
+            <div class="step-text" lang={contentLang}>
+              <h3>{st.lead}</h3>
+              <div class="step-body" set:html={st.html} />
+              {st.pages.length > 0 && (
+                <p class="step-links" lang={lang}>
+                  <span>{s.homeEvidenceIn}</span>
+                  {st.pages.map((id) => {
+                    const p = PAGE_BY_ID.get(id)!;
+                    const n = chapterNumber(id);
+                    return (
+                      <a href={href(id, lang)} lang={p.lang !== lang ? p.lang : undefined}>
+                        {n ? `${n}. ` : ''}
+                        {p.short_title}
+                      </a>
+                    );
+                  })}
+                </p>
+              )}
+            </div>
+            {(st.tiles.length > 0 || st.chart) && (
+              <div class="step-figure">
+                {st.tiles.map((tile) => (
+                  <Fragment set:html={tile} />
+                ))}
+                {st.chart && <Fragment set:html={st.chart} />}
+              </div>
+            )}
+          </li>
         ))}
-        <a
-          class="aud-btn aud-clear"
-          href="?for="
-          data-set-audience=""
-          role="button"
-          aria-pressed="false"
-        >
-          {s.audienceAll}
-        </a>
+      </ol>
+    </div>
+  </section>
+
+  <section class="sec" id="for-you" aria-labelledby="aud-h">
+    <div class="wrap">
+      <header class="sec-head">
+        <h2 id="aud-h">{s.homeForYou}</h2>
+        <p>{s.homeForYouIntro}</p>
+      </header>
+      <div class="aud-picker" role="group" aria-label={s.homeForYou} data-audience-picker hidden>
+        <button type="button" data-set-audience="" aria-pressed="true">
+          {s.homeAudienceAll}
+        </button>
+        {AUDIENCES.map((a) => (
+          <button type="button" data-set-audience={a} aria-pressed="false">
+            {audienceLabel(a, lang, SITE.audiences[a])}
+          </button>
+        ))}
       </div>
-      <div class="aud-paths">
-        <div class="aud-path" data-audience-none>
-          <ol class="path-list path-default">
-            {[
-              ROLE.twoMinute,
-              ROLE.summary,
-              ROLE.atAGlance,
-              ROLE.productTargets,
-              ROLE.plays,
-              ROLE.robustMoves,
-            ].map((id, i) => {
+      <ul class="brief-grid" role="list" style="list-style:none;padding:0;margin:1.4rem 0 0">
+        {briefs.map((p) => {
+          const aud = p.id.replace(/^brief-/, '');
+          return (
+            <li>
+              <a class="brief-card" href={href(p.id, lang)} data-aud={p.audiences.join(' ')}>
+                <span class="kicker">{audienceLabel(aud, lang, SITE.audiences[aud])}</span>
+                <h3 lang={contentLang}>{p.title}</h3>
+                <p lang={contentLang}>{p.summary}</p>
+                {p.reading_time_min && <span class="meta">{s.minRead(p.reading_time_min)}</span>}
+              </a>
+            </li>
+          );
+        })}
+      </ul>
+      {AUDIENCES.map((a) => (
+        <div class="aud-path" data-audience-path={a} hidden>
+          <h3>
+            {s.homePath}: {audienceLabel(a, lang, SITE.audiences[a])}
+          </h3>
+          <ol>
+            {paths[a].map((id) => {
               const p = PAGE_BY_ID.get(id)!;
+              const n = chapterNumber(id);
               return (
                 <li>
-                  <a href={href(id, lang)}>
-                    <span class="path-n">{i + 1}</span>
-                    <span class="path-t" lang={vi ? 'en' : undefined}>
-                      {p.short_title}
-                    </span>
-                    <span class="path-s" lang={vi ? 'en' : undefined}>
-                      {p.summary}
-                    </span>
+                  <a href={href(id, lang)} lang={p.lang !== lang ? p.lang : undefined}>
+                    {n ? `${n}. ` : ''}
+                    {p.short_title}
                   </a>
                 </li>
               );
             })}
           </ol>
         </div>
-        {Object.entries(SITE.audience_paths).map(([aud, ids]) => (
-          <div class="aud-path" data-audience-path={aud} hidden>
-            <p class="path-title">
-              {s.audiencePath}: <strong>{audienceLabel(aud, lang, SITE.audiences[aud])}</strong>
-            </p>
-            <ol class="path-list">
-              {ids.map((id, i) => {
-                const p = PAGE_BY_ID.get(id);
-                if (!p) return null;
-                return (
-                  <li>
-                    <a href={href(id, lang)} lang={p.lang !== lang ? p.lang : undefined}>
-                      <span class="path-n">{i + 1}</span>
-                      <span class="path-t">{p.short_title}</span>
-                      <span class="path-s">{p.summary}</span>
-                    </a>
-                  </li>
-                );
-              })}
-            </ol>
-          </div>
-        ))}
-      </div>
+      ))}
     </div>
   </section>
 
-  <section class="section" aria-labelledby="parts-h">
-    <div class="frame">
-      <div class="section-head">
-        <div>
-          <h2 id="parts-h">{s.partsHeading}</h2>
-          <p>
-            {vi
-              ? 'Ba mươi chương: bối cảnh, phía cung, phía cầu, tương lai đến 2050 và những việc nên làm. Nội dung báo cáo bằng tiếng Anh.'
-              : 'Thirty chapters: the context, what Vietnam can make, who would buy it, the futures to 2050, and what to do.'}
-          </p>
-        </div>
-        <a class="btn btn-secondary" href={localize('/report', lang)}>
-          {vi ? 'Toàn bộ mục lục' : 'Full contents'} →
-        </a>
-      </div>
-      <div class="parts-grid">
-        {PARTS.map((part) => {
-          const list = chapters.filter((c) => c.part === part);
-          return (
-            <div class="part-card">
-              <p class="part-num">
-                {vi ? 'Phần' : 'Part'} {part.split('.')[0]}
-              </p>
-              <h3>{label(part, lang).replace(/^[IV]+\. /, '')}</h3>
-              <p class="part-note">{partNote[part]}</p>
-              <ol>
-                {list.map((c) => (
-                  <li>
-                    <a
-                      href={href(c.id, lang)}
-                      data-aud={c.audiences.join(' ')}
-                      lang={vi ? 'en' : undefined}
-                    >
-                      <span class="num">{chapterNumber(c.id)}</span>
-                      <span>{c.short_title}</span>
-                    </a>
-                  </li>
-                ))}
-              </ol>
-            </div>
-          );
-        })}
-      </div>
-    </div>
-  </section>
-
-  <section class="section" aria-labelledby="briefs-h">
-    <div class="frame">
-      <div class="section-head">
-        <div>
-          <h2 id="briefs-h">{s.briefsHeading}</h2>
-          <p>
-            {vi
-              ? 'Mỗi bản khoảng năm trang, dành cho một nhóm độc giả.'
-              : 'About five pages each, written for one audience.'}
-          </p>
-        </div>
-      </div>
-      <div class="card-grid">
-        {briefs.map((b) => (
-          <a class="card" href={href(b.id, lang)} data-aud={b.audiences.join(' ')}>
-            <span class="card-kicker">
-              {vi ? 'Bản tóm lược' : 'Brief'}
-              <span class="for-you">{s.forAudience}</span>
-            </span>
-            <span class="card-title" lang={vi ? 'en' : undefined}>
-              {b.short_title}
-            </span>
-            <span class="card-text" lang={vi ? 'en' : undefined}>
-              {b.summary}
-            </span>
-            <span class="card-meta">{b.reading_time_min && s.minRead(b.reading_time_min)}</span>
-          </a>
-        ))}
-      </div>
-    </div>
-  </section>
-
-  <section class="section" aria-labelledby="app-h">
-    <div class="frame">
-      <div class="section-head">
-        <div>
-          <h2 id="app-h">{s.appendicesHeading}</h2>
-          <p>
-            {vi
-              ? 'Bằng chứng chi tiết: số liệu, danh bạ, quy định, chi phí, khoa học và nguồn.'
-              : 'The micro findings: data sheets, directories, regulation, costs, science and sources.'}
-          </p>
-        </div>
-        <a class="btn btn-secondary" href={localize('/appendices', lang)}>
-          {vi ? 'Tất cả phụ lục' : 'All appendices'} →
-        </a>
-      </div>
-      <ul class="app-list">
-        {appendices.map((a) => (
-          <li>
-            <a
-              href={href(a.id, lang)}
-              data-aud={a.audiences.join(' ')}
-              lang={vi ? 'en' : undefined}
-            >
-              <span class="app-letter">{appendixCode(a.id)}</span>
-              <span>{a.short_title.replace(/^[A-Z]\d*\. /, '')}</span>
+  <section class="sec" id="report" aria-labelledby="rep-h">
+    <div class="wrap">
+      <header class="sec-head">
+        <h2 id="rep-h">{s.homeReport}</h2>
+        <p>{s.homeReportIntro}</p>
+      </header>
+      <div class="part-grid">
+        {PART_LIST.map((part) => (
+          <section class="part-card">
+            <a href={localize(partPath(part.key), lang)}>
+              <span class="kicker">{s.part(part.numeral)}</span>
+              <h3>{s.parts[part.key]?.question ?? part.label}</h3>
+              {partAnswers[part.numeral] && (
+                <p class="part-answers" lang={contentLang}>
+                  {partAnswers[part.numeral]}.
+                </p>
+              )}
             </a>
-          </li>
+            <ol>
+              {part.chapters.map((p) => (
+                <li data-aud={p.audiences.join(' ')}>
+                  <a href={href(p.id, lang)}>
+                    <span class="n">{chapterNumber(p.id)}</span>
+                    <span lang={contentLang}>{p.short_title}</span>
+                  </a>
+                </li>
+              ))}
+            </ol>
+          </section>
         ))}
-      </ul>
-    </div>
-  </section>
-
-  <section class="section data-band" aria-labelledby="data-h">
-    <div class="frame">
-      <div class="section-head">
-        <div>
-          <h2 id="data-h">{s.dataHeading}</h2>
-          <p>{s.dataIntro}</p>
-        </div>
-        <a class="btn btn-primary" href={localize('/data', lang)}>
-          {vi ? 'Mở trình duyệt dữ liệu' : 'Open the data browser'} →
-        </a>
       </div>
-      <dl class="stat-row">
-        {dataStats.map((d) => (
-          <div>
-            <dt>{d.label}</dt>
-            <dd>{nf.format(d.n)}</dd>
-          </div>
-        ))}
-      </dl>
-      <ul class="download-list">
-        <li>
-          <a href="/downloads/altprotein-vn-data.zip" download>
-            {s.downloadData}
-          </a>
-        </li>
-        <li>
-          <a href="/downloads/altprotein-vn-working-papers.zip" download>
-            {s.downloadWorking}
-          </a>
-        </li>
-        <li>
-          <a href="/downloads/altprotein-vn-report-markdown.zip" download>
-            {s.downloadMarkdown}
-          </a>
-        </li>
-      </ul>
     </div>
   </section>
 
-  <section class="section closing" aria-label={s.about}>
-    <div class="frame">
-      <div class="prose closing-notes" lang={vi ? 'en' : undefined} set:html={closingHtml} />
-      <SourcesList ids={hero.citations} lang={lang} />
+  <section class="sec" id="evidence" aria-labelledby="ev-h">
+    <div class="wrap">
+      <header class="sec-head">
+        <h2 id="ev-h">{s.legendTitle}</h2>
+        <p>{s.legendIntro}</p>
+      </header>
+      <div class="how-we-know">
+        <div>
+          <div class="legend">
+            <div>
+              <h3>{s.legendScope}</h3>
+              <dl>
+                {legendScope.map((sc) => (
+                  <div>
+                    <dt>
+                      <Fragment
+                        set:html={evidenceNote(
+                          {
+                            label:
+                              sc === 'direct'
+                                ? 'VN-direct'
+                                : sc === 'adjacent'
+                                  ? 'VN-adjacent'
+                                  : 'general',
+                            confidence: 'High',
+                          },
+                          lang,
+                          { inline: true },
+                        )}
+                      />
+                    </dt>
+                    <dd>{s.scopeLong[sc]}</dd>
+                  </div>
+                ))}
+              </dl>
+            </div>
+            <div>
+              <h3>{s.legendConf}</h3>
+              <dl>
+                {(['high', 'medium', 'low'] as const).map((c) => (
+                  <div>
+                    <dt>
+                      <Fragment
+                        set:html={evidenceNote({ label: 'VN-direct', confidence: c }, lang, {
+                          inline: true,
+                        })}
+                      />
+                    </dt>
+                    <dd>{s.confLong[c]}</dd>
+                  </div>
+                ))}
+              </dl>
+            </div>
+            <div>
+              <h3>{s.legendFx}</h3>
+              <dl>
+                {['trend', 'projection', 'estimate', 'signal', 'wildcard', 'vision'].map((f) => (
+                  <div>
+                    <dt>
+                      <Fragment set:html={evidenceNote({ fx: f }, lang, { inline: true })} />
+                    </dt>
+                    <dd>{s.fxLong[f]}</dd>
+                  </div>
+                ))}
+              </dl>
+            </div>
+            <div>
+              <h3>{s.legendDx}</h3>
+              <dl>
+                {['stated', 'revealed', 'tested', 'inferred'].map((d) => (
+                  <div>
+                    <dt>
+                      <Fragment set:html={evidenceNote({ dx: d }, lang, { inline: true })} />
+                    </dt>
+                    <dd>{s.dxLong[d]}</dd>
+                  </div>
+                ))}
+              </dl>
+            </div>
+          </div>
+          <p style="margin-top:1.5rem">
+            <a href={href(ROLE.howToRead, lang, 'evidence-tags')}>{s.legendMore}</a>
+          </p>
+        </div>
+        <div>
+          {proofTiles.length > 0 && (
+            <div class="kn-grid" style="margin-top:0!important">
+              {proofTiles.map((tile) => (
+                <Fragment set:html={tile} />
+              ))}
+            </div>
+          )}
+          <p style="margin-top:1.25rem">
+            <a href={localize('/about', lang)}>{s.about}</a>
+          </p>
+        </div>
+      </div>
     </div>
   </section>
 </Base>
-
-<style>
-  .hero {
-    background:
-      radial-gradient(
-        120% 90% at 100% 0%,
-        color-mix(in srgb, var(--brand) 12%, transparent),
-        transparent 60%
-      ),
-      linear-gradient(180deg, var(--surface) 0%, var(--bg) 100%);
-    border-bottom: 1px solid var(--line);
-  }
-  .hero-inner {
-    display: grid;
-    grid-template-columns: minmax(0, 1.05fr) minmax(0, 1fr);
-    gap: clamp(28px, 5vw, 72px);
-    padding-top: clamp(36px, 6vw, 80px);
-    padding-bottom: clamp(36px, 5vw, 64px);
-    align-items: start;
-  }
-  .hero h1 {
-    font-size: clamp(2.3rem, 1.4rem + 3.6vw, 4.1rem);
-    line-height: 1.02;
-    letter-spacing: -0.035em;
-    font-weight: 660;
-    margin: 0 0 18px;
-  }
-  .hero-sub {
-    display: block;
-    font-weight: 400;
-    color: var(--brand-ink);
-    font-size: 0.56em;
-    letter-spacing: -0.015em;
-    margin-top: 0.3em;
-  }
-  .hero-question {
-    font-size: 1.22rem;
-    line-height: 1.45;
-    color: var(--ink-2);
-    margin: 0 0 26px;
-    max-width: 32em;
-  }
-  .hero-lead {
-    font-size: 1.05rem;
-    color: var(--ink-2);
-    max-width: 38em;
-    margin: 0 0 26px;
-  }
-  .hero-cta {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 10px;
-  }
-  .btn-meta {
-    font-weight: 400;
-    opacity: 0.8;
-    font-size: 0.85em;
-  }
-  .hero-body {
-    display: contents;
-  }
-  .hero-body :global(> p) {
-    grid-column: 1 / -1;
-    max-width: 60rem;
-    font-size: 1.02rem;
-    color: var(--ink-2);
-    margin: 0;
-    align-self: center;
-  }
-  .hero-body :global(> .callout) {
-    margin: 0;
-    align-self: start;
-  }
-  .hero-body :global(.kn-grid) {
-    grid-column: 1 / -1;
-    grid-template-columns: repeat(auto-fit, minmax(min(100%, 200px), 1fr));
-    margin: 8px 0 0;
-    width: auto;
-    min-width: 0;
-  }
-  @media (max-width: 980px) {
-    .hero-inner {
-      grid-template-columns: 1fr;
-    }
-  }
-  .aud-picker {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 8px;
-    margin-bottom: 24px;
-  }
-  .aud-btn {
-    border: 1px solid var(--line-strong);
-    background: var(--surface);
-    color: var(--ink);
-    border-radius: 999px;
-    padding: 9px 16px;
-    font-size: 0.93rem;
-    font-weight: 540;
-    text-decoration: none;
-  }
-  .aud-btn:hover {
-    border-color: var(--ink-2);
-  }
-  .aud-btn[aria-pressed='true'] {
-    background: var(--ink);
-    color: var(--bg);
-    border-color: var(--ink);
-  }
-  .aud-clear {
-    color: var(--muted);
-  }
-  .path-title {
-    margin: 0 0 12px;
-    color: var(--ink-2);
-  }
-  .path-list {
-    list-style: none;
-    padding: 0;
-    margin: 0;
-    display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(min(100%, 300px), 1fr));
-    gap: 10px;
-    counter-reset: p;
-  }
-  .path-list a {
-    display: grid;
-    grid-template-columns: 2em 1fr;
-    gap: 2px 10px;
-    padding: 14px 16px;
-    border: 1px solid var(--line);
-    border-radius: var(--radius);
-    background: var(--surface);
-    text-decoration: none;
-    color: var(--ink);
-    height: 100%;
-  }
-  .path-list a:hover {
-    border-color: var(--brand);
-    box-shadow: var(--shadow);
-  }
-  .path-n {
-    grid-row: span 2;
-    display: grid;
-    place-items: center;
-    width: 1.9em;
-    height: 1.9em;
-    border-radius: 50%;
-    background: var(--brand-soft);
-    color: var(--brand-strong);
-    font-weight: 650;
-    font-size: 0.85rem;
-  }
-  .path-t {
-    font-weight: 620;
-    display: flex;
-    gap: 8px;
-    align-items: center;
-  }
-  .path-s {
-    font-size: 0.84rem;
-    color: var(--muted);
-    line-height: 1.45;
-    display: -webkit-box;
-    -webkit-line-clamp: 2;
-    -webkit-box-orient: vertical;
-    overflow: hidden;
-  }
-  .parts-grid {
-    display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(min(100%, 250px), 1fr));
-    gap: 14px;
-  }
-  .part-card {
-    background: var(--surface);
-    border: 1px solid var(--line);
-    border-radius: var(--radius);
-    padding: 20px 18px 16px;
-  }
-
-  .part-num {
-    font-size: 0.74rem;
-    font-weight: 650;
-    letter-spacing: 0.08em;
-    text-transform: uppercase;
-    color: var(--brand-ink);
-    margin: 0 0 4px;
-  }
-
-  .part-card h3 {
-    font-size: 1.18rem;
-    margin: 0 0 4px;
-    display: flex;
-    flex-wrap: wrap;
-    gap: 6px 8px;
-    align-items: center;
-  }
-  .part-note {
-    font-size: 0.86rem;
-    color: var(--muted);
-    margin: 0 0 12px;
-  }
-  .part-card ol {
-    list-style: none;
-    padding: 0;
-    margin: 0;
-    display: grid;
-    gap: 2px;
-  }
-  .part-card a {
-    display: flex;
-    gap: 10px;
-    padding: 5px 6px;
-    margin: 0 -6px;
-    border-radius: var(--radius-sm);
-    text-decoration: none;
-    color: var(--ink);
-    font-size: 0.93rem;
-  }
-  .part-card a:hover {
-    background: var(--surface-2);
-  }
-  .part-card .num {
-    color: var(--muted);
-    font-variant-numeric: tabular-nums;
-    min-width: 1.4em;
-    text-align: right;
-  }
-  :global(html[data-audience]) .part-card a:not(.is-for-you),
-  :global(html[data-audience]) .app-list a:not(.is-for-you) {
-    opacity: 0.55;
-  }
-  :global(html[data-audience]) .part-card a.is-for-you,
-  :global(html[data-audience]) .app-list a.is-for-you {
-    font-weight: 600;
-  }
-  .app-list {
-    list-style: none;
-    padding: 0;
-    margin: 0;
-    columns: 3 260px;
-    column-gap: 28px;
-  }
-  .app-list li {
-    break-inside: avoid;
-  }
-  .app-list a {
-    display: flex;
-    gap: 10px;
-    align-items: baseline;
-    padding: 6px 0;
-    border-bottom: 1px solid var(--line);
-    text-decoration: none;
-    color: var(--ink);
-    font-size: 0.93rem;
-  }
-  .app-list a:hover {
-    color: var(--brand-ink);
-  }
-  .app-letter {
-    font-weight: 700;
-    color: var(--brand-ink);
-    width: 1.2em;
-  }
-  .data-band {
-    background: var(--surface);
-  }
-  .stat-row {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
-    gap: 1px;
-    background: var(--line);
-    border: 1px solid var(--line);
-    border-radius: var(--radius);
-    overflow: hidden;
-    margin: 0 0 20px;
-  }
-  .stat-row div {
-    background: var(--bg);
-    padding: 18px;
-    display: flex;
-    flex-direction: column-reverse;
-    gap: 2px;
-  }
-  .stat-row dd {
-    margin: 0;
-    font-size: 2rem;
-    font-weight: 650;
-    letter-spacing: -0.02em;
-    font-variant-numeric: tabular-nums;
-  }
-  .stat-row dt {
-    font-size: 0.86rem;
-    color: var(--muted);
-  }
-  .download-list {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 8px 24px;
-    list-style: none;
-    padding: 0;
-    margin: 0;
-    font-size: 0.93rem;
-  }
-  .closing-notes {
-    font-size: 0.93rem;
-    color: var(--ink-2);
-  }
-</style>

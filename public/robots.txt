@@ -1,4 +1,7 @@
 User-agent: *
 Allow: /
 Disallow: /_emdash/
+Disallow: /files/
+Disallow: /data/
+Disallow: /workbench
 Sitemap: https://scoping.altprotein.vn/sitemap.xml

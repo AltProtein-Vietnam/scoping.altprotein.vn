@@ -8,29 +8,33 @@ type Term = Record<string, string>;
 const lang = Astro.locals.lang ?? 'en';
 const s = t(lang);
 const vi = lang === 'vi';
+const editor = Astro.locals.editor;
 const terms = glossaryJson as Term[];
 const categories = [...new Set(terms.map((g) => g.category))];
 const fold = (x: string) => x.toLowerCase().normalize('NFD').replace(/[̀-ͯ]/g, '').replace(/đ/g, 'd');
 ---
 
-<Base title={s.glossaryHeading} description={s.glossaryIntro}>
-  <div class="frame">
+<Base title={s.glossaryHeading} description={s.glossaryIntro} pageClass="page-glossary">
+  <div class="wrap">
     <header class="index-head">
+      <p class="kicker">{s.footerReference}</p>
       <h1>
         {s.glossaryHeading}{' '}
         <span class="gl-sub" lang={vi ? 'en' : 'vi'}>
           {vi ? 'Glossary' : 'Thuật ngữ'}
         </span>
       </h1>
-      <p>
+      <p class="lede">
         {s.glossaryIntro}{' '}
-        <a href={href(ROLE.glossary, lang)}>
-          {vi ? 'Phụ lục' : 'Appendix'} {appendixCode(ROLE.glossary)}
-        </a>{' '}
-        ·{' '}
-        <a href="/data/glossary.csv" download>
-          glossary.csv
-        </a>
+        <a href={href(ROLE.glossary, lang)}>{s.appendix(appendixCode(ROLE.glossary) ?? '')}</a>
+        {editor && (
+          <>
+            {' · '}
+            <a href="/files/data/glossary.csv" download>
+              glossary.csv
+            </a>
+          </>
+        )}
       </p>
     </header>
     <div class="filters gl-filters" data-gl-filters hidden>
@@ -39,7 +43,7 @@ const fold = (x: string) => x.toLowerCase().normalize('NFD').replace(/[̀-ͯ]/g,
         <input type="search" name="gl-q" autocomplete="off" />
       </label>
       <label class="field">
-        {vi ? 'Nhóm' : 'Category'}
+        {s.category}
         <select name="gl-cat">
           <option value="">{s.allCategories}</option>
           {categories.map((c) => (
@@ -47,7 +51,7 @@ const fold = (x: string) => x.toLowerCase().normalize('NFD').replace(/[̀-ͯ]/g,
           ))}
         </select>
       </label>
-      <p class="gl-count" aria-live="polite"></p>
+      <p class="gl-count" aria-live="polite" data-template={s.glossaryCount(0, 0)}></p>
     </div>
     {categories.map((cat) => (
       <section class="gl-section" data-cat={cat}>
@@ -77,7 +81,6 @@ const fold = (x: string) => x.toLowerCase().normalize('NFD').replace(/[̀-ͯ]/g,
         </dl>
       </section>
     ))}
-    <div style="height:64px"></div>
   </div>
 </Base>
 
@@ -85,70 +88,12 @@ const fold = (x: string) => x.toLowerCase().normalize('NFD').replace(/[̀-ͯ]/g,
   .gl-sub {
     font-weight: 400;
     color: var(--muted);
-    font-size: 0.55em;
-  }
-  .gl-section {
-    margin-top: 36px;
-  }
-  .gl-section h2 {
-    font-size: 1.2rem;
-    margin: 0 0 12px;
-  }
-  .gl-list {
-    display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(min(100%, 420px), 1fr));
-    gap: 10px;
-    margin: 0;
-  }
-  .gl-term {
-    background: var(--surface);
-    border: 1px solid var(--line);
-    border-radius: var(--radius);
-    padding: 14px 16px;
-  }
-  .gl-term:target {
-    border-color: var(--brand);
-    box-shadow: 0 0 0 3px var(--brand-soft);
-  }
-  .gl-term dt {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 2px 12px;
-    align-items: baseline;
-    margin-bottom: 6px;
-  }
-  .gl-en {
-    font-weight: 640;
-  }
-  .gl-en abbr {
-    font-weight: 400;
-    color: var(--muted);
-    text-decoration: none;
-  }
-  .gl-vi {
-    color: var(--brand-ink);
-    font-weight: 560;
-  }
-  .gl-term dd {
-    margin: 0;
-    font-size: 0.92rem;
-    color: var(--ink-2);
-  }
-  .gl-term dd p {
-    margin: 0;
-  }
-  .gl-def-vi {
-    margin-top: 6px !important;
-    color: var(--muted);
+    font-size: 0.5em;
+    letter-spacing: 0;
   }
   :global(html[lang='vi']) .gl-term dt {
     flex-direction: row-reverse;
     justify-content: flex-end;
-  }
-  .gl-count {
-    margin: 0;
-    font-size: 0.86rem;
-    color: var(--muted);
   }
 </style>
 

@@ -1,5 +1,6 @@
 // Generates the build-time data the site reads from the report package in report/.
-// Outputs: src/generated/*.json (bundled into the Worker) and public/data, public/downloads (static assets).
+// Outputs: src/generated/*.json (bundled into the Worker) and public/files/ (static assets that the
+// Worker serves to editors only: data, Markdown and zips; see src/pages/files/[...path].ts).
 import fs from 'node:fs';
 import path from 'node:path';
 import { readCsv } from './lib/csv.mjs';
@@ -7,16 +8,23 @@ import { loadPages, readJson, REPORT, ROOT } from './lib/report.mjs';
 import { writeZip, zipDirectory } from './lib/zip.mjs';
 
 const GEN = path.join(ROOT, 'src/generated');
-const PUBLIC_DATA = path.join(ROOT, 'public/data');
-const DOWNLOADS = path.join(ROOT, 'public/downloads');
+const FILES = path.join(ROOT, 'public/files');
+const PUBLIC_DATA = path.join(FILES, 'data');
+const DOWNLOADS = path.join(FILES, 'downloads');
 const quiet = process.argv.includes('--quiet');
 
 fs.rmSync(GEN, { recursive: true, force: true });
-fs.rmSync(PUBLIC_DATA, { recursive: true, force: true });
-fs.rmSync(DOWNLOADS, { recursive: true, force: true });
+fs.rmSync(FILES, { recursive: true, force: true });
+// Outputs of earlier builds, when these files were public.
+fs.rmSync(path.join(ROOT, 'public/data'), { recursive: true, force: true });
+fs.rmSync(path.join(ROOT, 'public/downloads'), { recursive: true, force: true });
 fs.mkdirSync(GEN, { recursive: true });
 
 const write = (name, value) => fs.writeFileSync(path.join(GEN, name), JSON.stringify(value));
+// Rows retired in v0.8 (feed) and v0.9 (insect protein) stay in the CSVs as the record; views,
+// the glossary and search use active rows only (report/README.md, section 7).
+const isActive = (row) =>
+  !Object.entries(row).some(([k, v]) => /^status_v0_\d+$/.test(k) && /^retired/i.test(String(v)));
 const split = (value) =>
   String(value || '')
     .split(/;\s*/)
@@ -85,7 +93,7 @@ write(
 );
 
 // Glossary --------------------------------------------------------------------
-const glossary = readCsv(path.join(REPORT, 'data/glossary.csv'));
+const glossary = readCsv(path.join(REPORT, 'data/glossary.csv')).filter(isActive);
 write('glossary.json', glossary);
 
 // Plays, weights and scenarios for the interactive tools ------------------------------
@@ -145,7 +153,7 @@ const addDataset = (dir, file, group) => {
     file,
     slug: file.replace(/\.csv$/, '').replace(/_/g, '-'),
     group,
-    href: `/data/${group === 'chart' ? 'charts/' : ''}${file}`,
+    href: `/files/data/${group === 'chart' ? 'charts/' : ''}${file}`,
     rows: rows.length,
     purpose: purposes[file]?.purpose || '',
     featured: DATA_VIEWS.has(file),
@@ -176,6 +184,7 @@ const clip = (s, n = 220) => (s && s.length > n ? `${s.slice(0, n - 1).trimEnd()
 for (const g of glossary)
   records.push({
     kind: 'glossary',
+    access: 'public',
     id: g.term_id,
     title: g.term_en + (g.abbreviation ? ` (${g.abbreviation})` : ''),
     title_vi: g.term_vi,
@@ -185,10 +194,12 @@ for (const g of glossary)
   });
 const table = (file, kind, fn) => {
   const set = datasets.find((d) => d.file === file);
-  for (const r of readCsv(path.join(REPORT, 'data', file))) {
+  for (const r of readCsv(path.join(REPORT, 'data', file)).filter(isActive)) {
     const rec = fn(r);
+    // Rows from the data tables open in the data browser, which only editors can use.
     records.push({
       kind,
+      access: 'editor',
       href: `/data/${set.slug}?q=${encodeURIComponent(rec.id)}`,
       ...rec,
       text: clip(rec.text),

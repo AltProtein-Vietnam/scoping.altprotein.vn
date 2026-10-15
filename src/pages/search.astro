@@ -6,21 +6,21 @@ import { PAGE_BY_ID, appendixCode, chapterNumber, href, localize } from '../lib/
 
 const lang = Astro.locals.lang ?? 'en';
 const s = t(lang);
-const vi = lang === 'vi';
 const q = (Astro.url.searchParams.get('q') ?? '').slice(0, 120).trim();
 const kind = Astro.url.searchParams.get('kind') ?? '';
-const pages = q ? await searchPages(q) : [];
-const records = q ? searchRecords(q) : [];
+const editor = Astro.locals.editor;
+const pages = q ? await searchPages(q, 30, editor) : [];
+const records = q ? searchRecords(q, 60, editor) : [];
 const kinds = [...new Set(records.map((r) => r.kind))];
 const shownRecords = kind && kind !== 'page' ? records.filter((r) => r.kind === kind) : records;
 const showPages = !kind || kind === 'page';
 const total = pages.length + records.length;
 const kicker = (id: string) => {
   const p = PAGE_BY_ID.get(id)!;
-  if (p.section === 'report') return `${vi ? 'Chương' : 'Chapter'} ${chapterNumber(id)}`;
-  if (p.section === 'appendix') return `${vi ? 'Phụ lục' : 'Appendix'} ${appendixCode(id)}`;
-  if (p.section === 'brief') return vi ? 'Bản tóm lược' : 'Brief';
-  return vi ? 'Trang đầu' : 'Front matter';
+  if (p.section === 'report') return s.chapter(chapterNumber(id) ?? '');
+  if (p.section === 'appendix') return s.appendix(appendixCode(id) ?? '');
+  if (p.section === 'brief') return s.brief;
+  return s.frontMatter;
 };
 const link = (k: string) => {
   const u = new URLSearchParams({ q });
@@ -29,27 +29,43 @@ const link = (k: string) => {
 };
 ---
 
-<Base title={q ? `${s.search}: ${q}` : s.search} section="search" noindex={Boolean(q)}>
-  <div class="frame search-page">
+<Base title={q ? `${s.search}: ${q}` : s.search} noindex={Boolean(q)} pageClass="page-search">
+  <div class="wrap search-page">
     <header class="index-head">
       <h1>{s.searchHeading}</h1>
       <form role="search" method="get" action={localize('/search', lang)} class="big-search">
-        <label class="visually-hidden" for="q-main">
-          {s.search}
-        </label>
-        <input
-          id="q-main"
-          name="q"
-          type="search"
-          value={q}
-          placeholder={s.searchPlaceholder}
-          autofocus={!q}
-        />
+        <div class="search-form">
+          <label class="visually-hidden" for="q-main">
+            {s.search}
+          </label>
+          <svg
+            width="18"
+            height="18"
+            viewBox="0 0 24 24"
+            fill="none"
+            stroke="currentColor"
+            stroke-width="2"
+            aria-hidden="true"
+          >
+            <circle cx="11" cy="11" r="7"></circle>
+            <path d="m20 20-3.5-3.5"></path>
+          </svg>
+          <input
+            id="q-main"
+            name="q"
+            type="search"
+            value={q}
+            placeholder={s.searchPlaceholder}
+            autofocus={!q}
+          />
+        </div>
         <button class="btn btn-primary" type="submit">
           {s.search}
         </button>
       </form>
-      <p class="hint">{s.searchHint}</p>
+      <p class="hint" style="margin-top:.8rem">
+        {editor ? s.searchHintEditor : s.searchHint}
+      </p>
     </header>
     {q && (
       <p class="result-count" role="status">
@@ -57,9 +73,9 @@ const link = (k: string) => {
       </p>
     )}
     {q && total > 0 && (
-      <nav class="kind-filter" aria-label={vi ? 'Lọc theo loại' : 'Filter by type'}>
+      <nav class="kind-filter" aria-label={s.filterByType}>
         <a href={link('')} aria-current={!kind ? 'true' : undefined}>
-          {vi ? 'Tất cả' : 'All'} <span>{total}</span>
+          {s.allKinds} <span>{total}</span>
         </a>
         {pages.length > 0 && (
           <a href={link('page')} aria-current={kind === 'page' ? 'true' : undefined}>
@@ -115,105 +131,5 @@ const link = (k: string) => {
         </li>
       ))}
     </ol>
-    <div style="height:64px"></div>
   </div>
 </Base>
-
-<style>
-  .big-search {
-    display: flex;
-    gap: 10px;
-    margin: 20px 0 10px;
-  }
-  .big-search input {
-    flex: 1;
-    min-width: 0;
-    font-size: 1.1rem;
-    padding: 12px 18px;
-    border-radius: 999px;
-    border: 1px solid var(--line-strong);
-    background: var(--surface);
-  }
-  .hint {
-    font-size: 0.9rem !important;
-    color: var(--muted) !important;
-  }
-  .result-count {
-    font-weight: 600;
-    margin: 12px 0;
-  }
-  .kind-filter {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 6px;
-    margin-bottom: 18px;
-  }
-  .kind-filter a {
-    border: 1px solid var(--line-strong);
-    border-radius: 999px;
-    padding: 5px 12px;
-    font-size: 0.86rem;
-    text-decoration: none;
-    color: var(--ink);
-    background: var(--surface);
-  }
-  .kind-filter a span {
-    color: var(--muted);
-    margin-left: 4px;
-  }
-  .kind-filter a[aria-current] {
-    background: var(--ink);
-    color: var(--bg);
-  }
-  .kind-filter a[aria-current] span {
-    color: inherit;
-    opacity: 0.7;
-  }
-  .results {
-    list-style: none;
-    padding: 0;
-    margin: 0;
-    max-width: 52rem;
-    display: grid;
-    gap: 8px;
-  }
-  .results a {
-    display: grid;
-    gap: 3px;
-    padding: 14px 18px;
-    border: 1px solid var(--line);
-    border-radius: var(--radius);
-    background: var(--surface);
-    text-decoration: none;
-    color: var(--ink);
-  }
-  .results a:hover {
-    border-color: var(--brand);
-  }
-  .r-kind {
-    font-size: 0.74rem;
-    text-transform: uppercase;
-    letter-spacing: 0.06em;
-    font-weight: 650;
-    color: var(--brand-ink);
-  }
-  .r-title {
-    font-weight: 620;
-    font-size: 1.05rem;
-  }
-  .r-vi {
-    font-weight: 400;
-    color: var(--muted);
-  }
-  .r-text {
-    font-size: 0.9rem;
-    color: var(--ink-2);
-    line-height: 1.5;
-  }
-  .r-text :global(mark) {
-    background: color-mix(in srgb, var(--series-4) 35%, transparent);
-    color: inherit;
-    border-radius: 2px;
-    padding: 0 1px;
-  }
-</style>

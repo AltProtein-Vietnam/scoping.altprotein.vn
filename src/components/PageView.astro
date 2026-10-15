@@ -1,18 +1,23 @@
 ---
-import NavTree from './NavTree.astro';
 import SourcesList from './SourcesList.astro';
 import { audienceLabel, t, type Lang } from '../lib/i18n';
+import { canReadPage } from '../lib/access';
 import type { RenderResult } from '../lib/markdown';
 import datasets from '../generated/datasets.json';
 import {
+  APPENDIX_GROUPS,
+  PAGES,
   PAGE_BY_ID,
+  READING_ORDER,
+  ROLE,
   SITE,
+  SUMMARY_PAGES,
+  appendixCode,
+  chapterNumber,
   href,
   localize,
-  neighbours,
-  chapterNumber,
-  appendixCode,
-  ROLE,
+  partOf,
+  partPath,
   type PageMeta,
 } from '../lib/site';
 
@@ -25,37 +30,85 @@ interface Props {
 }
 const { meta, title, summary, rendered, isPreview } = Astro.props;
 const lang: Lang = Astro.locals.lang ?? 'en';
+const editor = Astro.locals.editor;
 const s = t(lang);
-const vi = lang === 'vi';
 const contentLang = meta.lang;
-const { prev, next } = neighbours(meta.id);
+const otherLang = contentLang !== lang ? contentLang : undefined;
+const uiLang = contentLang !== lang ? lang : undefined;
 const chapter = chapterNumber(meta.id);
-const letter = appendixCode(meta.id);
-const sectionCrumb = {
-  front: null,
-  report: { label: s.report, href: localize('/report', lang) },
-  brief: { label: s.forYou, href: localize('/briefs', lang) },
-  appendix: { label: s.appendices, href: localize('/appendices', lang) },
-}[meta.section];
-const eyebrow =
-  meta.section === 'report'
-    ? `${vi ? 'Chương' : 'Chapter'} ${chapter} · ${vi ? 'Phần' : 'Part'} ${meta.part?.split('.')[0]}`
+const code = appendixCode(meta.id);
+const part = partOf(meta.id);
+
+// Previous and next in reading order, skipping pages this reader cannot open.
+const readable = READING_ORDER.filter((id) => canReadPage(id, editor));
+const at = readable.indexOf(meta.id);
+const prev = at > 0 ? PAGE_BY_ID.get(readable[at - 1]) : undefined;
+const next = at >= 0 && at < readable.length - 1 ? PAGE_BY_ID.get(readable[at + 1]) : undefined;
+
+const related = meta.related_pages
+  .map((id) => PAGE_BY_ID.get(id))
+  .filter((p): p is PageMeta => Boolean(p) && canReadPage(p!.id, editor));
+const dataFiles = editor
+  ? (meta.related_data
+      .map((f) =>
+        (datasets as { file: string; slug: string; group: string }[]).find(
+          (d) => d.file === f && d.group === 'data',
+        ),
+      )
+      .filter(Boolean) as { file: string; slug: string }[])
+  : [];
+
+// Rail: the part's chapters, the briefs, the summary pages or the appendix group.
+const railList: { title: string; href?: string; items: PageMeta[]; num: (p: PageMeta) => string } =
+  meta.section === 'report' && part
+    ? {
+        title: s.parts[part.key]?.question ?? part.label,
+        href: localize(partPath(part.key), lang),
+        items: part.chapters,
+        num: (p) => String(chapterNumber(p.id)),
+      }
     : meta.section === 'brief'
-      ? vi
-        ? 'Bản tóm lược'
-        : 'Audience brief'
+      ? {
+          title: s.briefs,
+          href: localize('/briefs', lang),
+          items: PAGES.filter((p) => p.section === 'brief').sort((a, b) => a.order - b.order),
+          num: () => '',
+        }
       : meta.section === 'appendix'
-        ? `${vi ? 'Phụ lục' : 'Appendix'} ${letter}`
-        : null;
-const related = meta.related_pages.map((id) => PAGE_BY_ID.get(id)).filter(Boolean) as PageMeta[];
-const dataFiles = meta.related_data
-  .map((f) =>
-    (datasets as { file: string; slug: string; group: string }[]).find(
-      (d) => d.file === f && d.group === 'data',
-    ),
-  )
-  .filter(Boolean) as { file: string; slug: string }[];
-// Point readers to the counterpart in their language, where the page's language differs.
+        ? {
+            title:
+              APPENDIX_GROUPS.find((g) => g.pages.includes(meta.id))?.label ?? s.footerReference,
+            items: (APPENDIX_GROUPS.find((g) => g.pages.includes(meta.id))?.pages ?? [])
+              .map((id) => PAGE_BY_ID.get(id)!)
+              .filter((p) => canReadPage(p.id, editor)),
+            num: (p) => appendixCode(p.id) ?? '',
+          }
+        : {
+            title: s.summary,
+            items: [...SUMMARY_PAGES].map((id) => PAGE_BY_ID.get(id)!),
+            num: () => '',
+          };
+const railTitle = (p: PageMeta) =>
+  p.section === 'brief'
+    ? audienceLabel(p.id.replace(/^brief-/, ''), lang, SITE.audiences[p.id.replace(/^brief-/, '')])
+    : p.short_title.replace(/^[A-Z]\d*\. /, '');
+
+const kicker =
+  meta.section === 'report'
+    ? [
+        s.chapter(chapter ?? ''),
+        part ? `${s.part(part.numeral)}: ${s.parts[part.key]?.question ?? part.label}` : '',
+      ]
+    : meta.section === 'brief'
+      ? [s.brief]
+      : meta.section === 'appendix'
+        ? [s.appendix(code ?? '')]
+        : [s.frontMatter];
+const heading = (rendered.heading ?? title).replace(
+  /^((?:\d+|[A-Z]\d*)\.)\s+/,
+  '<span class="ch-n">$1</span> ',
+);
+const hasAnswer = rendered.html.includes('class="answer"');
 const COUNTERPART: Record<string, string> = {
   [ROLE.summaryVi]: ROLE.summary,
   [ROLE.prologueVi]: ROLE.prologue,
@@ -66,220 +119,218 @@ const langNote =
   contentLang !== lang
     ? contentLang === 'vi'
       ? {
-          text: 'This page is in Vietnamese.',
+          text: s.pageInVi,
           link: href(COUNTERPART[meta.id] ?? ROLE.summary, lang),
-          linkText:
-            COUNTERPART[meta.id] === ROLE.prologue
-              ? 'Read the English prologue'
-              : 'Read the English summary',
+          linkText: COUNTERPART[meta.id] === ROLE.prologue ? s.readEnPrologue : s.readEnSummary,
         }
-      : vi
+      : lang === 'vi'
         ? {
-            text: 'Nội dung trang này bằng tiếng Anh.',
+            text: s.pageInEn,
             link: href(COUNTERPART[meta.id] ?? ROLE.summaryVi, lang),
-            linkText:
-              COUNTERPART[meta.id] === ROLE.prologueVi
-                ? 'Đọc lời mở đầu tiếng Việt'
-                : 'Đọc bản tóm tắt tiếng Việt',
+            linkText: COUNTERPART[meta.id] === ROLE.prologueVi ? s.readViPrologue : s.readViSummary,
           }
         : null
     : null;
-const isVision = meta.id === ROLE.vision;
-// The four registers are best used as filterable tables.
-const REGISTER_VIEWS: Record<string, { en: string; vi: string; href: string }> = {
-  [ROLE.openQuestions]: {
-    en: 'Filter the open questions',
-    vi: 'Lọc các câu hỏi mở',
-    href: '/data/open-questions',
-  },
-  [ROLE.disagreements]: {
-    en: 'Filter the disagreements',
-    vi: 'Lọc các điểm bất đồng',
-    href: '/data/disagreements',
-  },
-  [ROLE.glossary]: { en: 'Search the glossary', vi: 'Tìm trong bảng thuật ngữ', href: '/glossary' },
-  [ROLE.sources]: { en: 'Filter the sources', vi: 'Lọc các nguồn', href: '/data/sources' },
+// Registers are best used as filterable tables (the data browser is for editors).
+const REGISTER_VIEWS: Record<string, { key: string; href: string; editorOnly: boolean }> = {
+  [ROLE.openQuestions]: { key: 'openQuestions', href: '/data/open-questions', editorOnly: true },
+  [ROLE.disagreements]: { key: 'disagreements', href: '/data/disagreements', editorOnly: true },
+  [ROLE.glossary]: { key: 'glossary', href: '/glossary', editorOnly: false },
+  [ROLE.sources]: { key: 'sources', href: '/data/sources', editorOnly: true },
 };
 const registerView = REGISTER_VIEWS[meta.id];
+const showRegisterView = registerView && (editor || !registerView.editorOnly);
+const toc2 = rendered.toc.filter((h) => h.depth === 2);
 ---
 
-<div class="frame">
-  <div class="doc-layout">
-    <aside class="doc-side" aria-label={vi ? 'Mục lục' : 'Contents'}>
-      <p class="side-title">{vi ? 'Báo cáo' : 'The report'}</p>
-      <NavTree lang={lang} current={meta.id} />
-    </aside>
-    <article class="doc-main" lang={contentLang !== lang ? contentLang : undefined}>
-      <ol class="crumbs" lang={lang !== contentLang ? lang : undefined}>
-        <li>
-          <a href={localize('/', lang)}>{s.home}</a>
-        </li>
-        {sectionCrumb && (
-          <li>
-            <a href={sectionCrumb.href}>{sectionCrumb.label}</a>
-          </li>
-        )}
-        {meta.section === 'report' && meta.part && (
-          <li>
-            <span>{meta.part}</span>
-          </li>
-        )}
-      </ol>
-      <header class="page-head">
-        {(eyebrow || isVision) && (
-          <p class="eyebrow" lang={lang !== contentLang ? lang : undefined}>
-            {eyebrow && <span>{eyebrow}</span>}
-            {isVision && (
-              <span class="fx" data-fx="vision">
-                <span>{s.visionNotForecast}</span>
+<div class="doc-page" data-section={meta.section}>
+  <aside class="rail" aria-label={s.contents} lang={lang}>
+    <div class="rail-part toc-tree">
+      {railList.href ? (
+        <a href={railList.href}>
+          {part && <span class="kicker">{s.part(part.numeral)}</span>}
+          <span class="rail-q">{railList.title}</span>
+        </a>
+      ) : (
+        <p class="tt-group">{railList.title}</p>
+      )}
+      <ol>
+        {railList.items.map((p) => (
+          <li data-aud={p.audiences.join(' ')}>
+            <a href={href(p.id, lang)} aria-current={p.id === meta.id ? 'page' : undefined}>
+              {railList.num(p) && <span class="tt-n">{railList.num(p)}</span>}
+              <span
+                lang={
+                  p.lang !== lang
+                    ? p.lang
+                    : lang === 'vi' && p.section !== 'brief'
+                      ? 'en'
+                      : undefined
+                }
+              >
+                {railTitle(p)}
               </span>
-            )}
-          </p>
-        )}
-        <h1 set:html={rendered.heading ?? title} />
-        {summary && <p class="page-lead">{summary}</p>}
-        <div class="page-meta" lang={lang !== contentLang ? lang : undefined}>
-          {meta.reading_time_min && <span>{s.minRead(meta.reading_time_min)}</span>}
-          {meta.audiences.length > 0 && meta.audiences.length < 6 && (
-            <span class="aud-chips" aria-label={vi ? 'Dành cho' : 'Written for'}>
-              {meta.audiences.map((a) => (
-                <span class="aud-chip" data-key={a}>
-                  {audienceLabel(a, lang, SITE.audiences[a])}
-                </span>
-              ))}
-            </span>
-          )}
-          <a href={href(ROLE.howToRead, lang, 'evidence-tags')}>{s.evidenceLegend}</a>
-          <button class="btn-ghost no-print" type="button" data-print>
-            {s.print}
-          </button>
-        </div>
-      </header>
-      {isPreview && (
-        <p class="preview-note" role="status" lang={lang}>
-          {vi
-            ? 'Bản xem trước của biên tập viên: nội dung chưa xuất bản.'
-            : 'Editor preview: unpublished changes.'}{' '}
-          <a href={Astro.url.pathname}>{vi ? 'Thoát' : 'Exit preview'}</a>
-        </p>
-      )}
-      {langNote && (
-        <p class="lang-note" lang={lang}>
-          {langNote.text} <a href={langNote.link}>{langNote.linkText}</a>
-        </p>
-      )}
-      {rendered.toc.filter((h) => h.depth === 2).length > 2 && (
-        <details class="mobile-toc">
-          <summary lang={lang}>{s.onThisPage}</summary>
-          <ol>
-            {rendered.toc
-              .filter((h) => h.depth === 2)
-              .map((h) => (
-                <li>
-                  <a href={`#${h.id}`}>{h.text}</a>
-                </li>
-              ))}
-          </ol>
-        </details>
-      )}
-      {meta.id === ROLE.method && (
-        <aside class="callout callout-note no-print" lang={lang}>
-          <p>
-            <strong>{s.downloads}.</strong>{' '}
-            <a href="/downloads/altprotein-vn-working-papers.zip" download>
-              {s.downloadWorking}
-            </a>{' '}
-            ·{' '}
-            <a href="/downloads/altprotein-vn-data.zip" download>
-              {s.downloadData}
             </a>
-          </p>
-        </aside>
-      )}
-      {registerView && (
-        <aside class="callout callout-note no-print" lang={lang}>
-          <p>
-            <strong>{vi ? 'Dạng bảng.' : 'As a table.'}</strong>{' '}
-            <a href={localize(registerView.href, lang)}>{vi ? registerView.vi : registerView.en}</a>
-          </p>
-        </aside>
-      )}
-      <div class={`prose${isVision ? ' prose-vision' : ''}`} set:html={rendered.html} />
-      <SourcesList ids={rendered.citations} lang={lang} />
-      <footer class="page-foot" lang={lang}>
-        {related.length > 0 && (
-          <section>
-            <h2>{s.related}</h2>
-            <ul class="related-list">
-              {related.map((p) => (
-                <li>
-                  <a href={href(p.id, lang)} lang={p.lang !== lang ? p.lang : undefined}>
-                    <small>
-                      {p.section === 'report'
-                        ? `${vi ? 'Chương' : 'Chapter'} ${chapterNumber(p.id)}`
-                        : p.section === 'appendix'
-                          ? `${vi ? 'Phụ lục' : 'Appendix'} ${appendixCode(p.id)}`
-                          : p.section === 'brief'
-                            ? vi
-                              ? 'Bản tóm lược'
-                              : 'Brief'
-                            : ''}
-                    </small>
-                    {p.short_title.replace(/^[A-Z]\d*\. /, '')}
-                  </a>
-                </li>
-              ))}
-            </ul>
-          </section>
-        )}
-        {dataFiles.length > 0 && (
-          <section>
-            <h2>{s.relatedData}</h2>
-            <ul class="data-links">
-              {dataFiles.map((d) => (
-                <li>
-                  <a href={localize(`/data/${d.slug}`, lang)}>{d.file}</a>
-                </li>
-              ))}
-            </ul>
-          </section>
-        )}
-        <nav class="pager" aria-label={vi ? 'Trang trước và sau' : 'Previous and next'}>
-          {prev && (
-            <a class="prev" href={href(prev.id, lang)} rel="prev">
-              <small>← {s.previous}</small>
-              <span lang={prev.lang !== lang ? prev.lang : undefined}>{prev.short_title}</span>
-            </a>
-          )}
-          {next && (
-            <a class="next" href={href(next.id, lang)} rel="next">
-              <small>{s.next} →</small>
-              <span lang={next.lang !== lang ? next.lang : undefined}>{next.short_title}</span>
-            </a>
-          )}
-        </nav>
-      </footer>
-    </article>
+          </li>
+        ))}
+      </ol>
+    </div>
     {rendered.toc.length > 1 && (
-      <aside class="doc-toc" aria-labelledby="toc-title" lang={lang}>
-        <p class="toc-title" id="toc-title">
+      <nav class="rail-toc" aria-labelledby="toc-title">
+        <p class="kicker" id="toc-title">
           {s.onThisPage}
         </p>
         <ol lang={contentLang}>
-          {rendered.toc.map((h) => (
-            <li class={`d${h.depth}`}>
+          {rendered.toc
+            .filter((h) => h.depth <= 3)
+            .map((h) => (
+              <li class={`d${h.depth}`}>
+                <a href={`#${h.id}`}>{h.text}</a>
+              </li>
+            ))}
+        </ol>
+      </nav>
+    )}
+  </aside>
+  <article class="doc" lang={otherLang}>
+    <header class="doc-head">
+      <p class="doc-kicker" lang={uiLang}>
+        {kicker.filter(Boolean).map((k, i) =>
+          i === 1 && part ? (
+            <a class="kicker" href={localize(partPath(part.key), lang)}>
+              {k}
+            </a>
+          ) : (
+            <span class="kicker">{k}</span>
+          ),
+        )}
+        {meta.id === ROLE.vision && (
+          <span class="evn is-inline">
+            <span class="evn-body">
+              <span class="evn-tag" data-fx="vision">
+                {s.visionNotForecast}
+              </span>
+            </span>
+          </span>
+        )}
+      </p>
+      <h1 set:html={heading} />
+      {(summary || meta.summary) && !hasAnswer && <p class="lede">{summary ?? meta.summary}</p>}
+      <div class="doc-meta" lang={uiLang}>
+        {meta.reading_time_min && <span>{s.minRead(meta.reading_time_min)}</span>}
+        {meta.audiences.length > 0 && meta.audiences.length < 6 && (
+          <span class="aud-chips" aria-label={s.writtenFor}>
+            {meta.audiences.map((a) => (
+              <span class="aud-chip" data-key={a}>
+                {audienceLabel(a, lang, SITE.audiences[a])}
+              </span>
+            ))}
+          </span>
+        )}
+        <a href={href(ROLE.howToRead, lang, 'evidence-tags')}>{s.howToRead}</a>
+        <button class="btn-ghost no-print" type="button" data-print>
+          {s.print}
+        </button>
+      </div>
+    </header>
+    {isPreview && (
+      <p class="page-note is-preview" role="status" lang={lang}>
+        {s.previewNote} <a href={Astro.url.pathname}>{s.exitPreview}</a>
+      </p>
+    )}
+    {langNote && (
+      <p class="page-note" lang={lang}>
+        {langNote.text} <a href={langNote.link}>{langNote.linkText}</a>
+      </p>
+    )}
+    {showRegisterView && (
+      <p class="page-note no-print" lang={lang}>
+        <strong>{s.asTable}.</strong>{' '}
+        <a href={localize(registerView.href, lang)}>{s.registerViews[registerView.key]}</a>
+      </p>
+    )}
+    {meta.id === ROLE.method && editor && (
+      <p class="page-note no-print" lang={lang}>
+        <strong>{s.downloads}.</strong>{' '}
+        <a href="/files/downloads/altprotein-vn-working-papers.zip" download>
+          {s.downloadWorking}
+        </a>{' '}
+        ·{' '}
+        <a href="/files/downloads/altprotein-vn-data.zip" download>
+          {s.downloadData}
+        </a>
+      </p>
+    )}
+    {toc2.length > 2 && (
+      <details class="mobile-toc">
+        <summary lang={lang}>{s.onThisPage}</summary>
+        <ol>
+          {toc2.map((h) => (
+            <li>
               <a href={`#${h.id}`}>{h.text}</a>
             </li>
           ))}
         </ol>
-        <div class="toc-tools">
-          <a href={href(ROLE.howToRead, lang, 'evidence-tags')}>{s.evidenceLegend}</a>
-          {rendered.citations.length > 0 && <a href="#sources-cited">{s.sourcesCited}</a>}
-          <button type="button" data-print>
-            {s.print}
-          </button>
-        </div>
-      </aside>
+      </details>
     )}
-  </div>
+    <div
+      class={`prose${meta.id === ROLE.vision ? ' prose-vision' : ''}`}
+      set:html={rendered.html}
+    />
+    <SourcesList ids={rendered.citations} lang={lang} />
+    <footer class="doc-foot" lang={lang}>
+      {related.length > 0 && (
+        <section>
+          <h2>{s.related}</h2>
+          <ul class="related-list">
+            {related.map((p) => (
+              <li>
+                <a href={href(p.id, lang)} lang={p.lang !== lang ? p.lang : undefined}>
+                  <small>
+                    {p.section === 'report'
+                      ? s.chapter(chapterNumber(p.id) ?? '')
+                      : p.section === 'appendix'
+                        ? s.appendix(appendixCode(p.id) ?? '')
+                        : p.section === 'brief'
+                          ? s.brief
+                          : s.frontMatter}
+                  </small>
+                  {p.short_title.replace(/^[A-Z]\d*\. /, '')}
+                </a>
+              </li>
+            ))}
+          </ul>
+        </section>
+      )}
+      {dataFiles.length > 0 && (
+        <section style="margin-top:2rem">
+          <h2>{s.dataHeading}</h2>
+          <ul class="related-list">
+            {dataFiles.map((d) => (
+              <li>
+                <a href={localize(`/data/${d.slug}`, lang)}>
+                  <small>{s.forReviewers}</small>
+                  <code>{d.file}</code>
+                </a>
+              </li>
+            ))}
+          </ul>
+        </section>
+      )}
+      <nav class="pager" aria-label={`${s.previous} / ${s.next}`}>
+        {prev && (
+          <a class="prev" href={href(prev.id, lang)} rel="prev">
+            <small>← {s.previous}</small>
+            <span lang={prev.lang !== lang ? prev.lang : undefined}>{prev.short_title}</span>
+          </a>
+        )}
+        {next && (
+          <a class="next" href={href(next.id, lang)} rel="next">
+            <small>{s.next} →</small>
+            <span lang={next.lang !== lang ? next.lang : undefined}>{next.short_title}</span>
+          </a>
+        )}
+      </nav>
+    </footer>
+  </article>
 </div>
