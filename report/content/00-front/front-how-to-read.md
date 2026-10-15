@@ -27,8 +27,7 @@ The report is about protein for people: what Vietnam could make at home for peop
 - **Futures.** The outlook to 2035, and scenarios, a protein balance model and a labelled vision for 2050.
 - **What to do.** Product targets, plays, policy options and moves that pay off in any 2050, checked against the questions of 80 named funders, investors, food makers and public bodies.
 - **Technologies.** Plant-based protein; fermentation (biomass, and precision fermentation, where microbes are engineered to make one specific protein); microalgae and duckweed; and cultivated meat and seafood.
-- **Feed is context only.** Feed is the hidden import behind the meat, eggs, milk and farmed fish that people eat, so it is part of the food-security picture. The report no longer treats feed ingredients (fishmeal replacements, or microbial, insect or duckweed feed) as something to make. Earlier drafts assessed them; that record stays in [[app-s6-feed-market]], [[app-f6-aquafeed-feedstock-futures]] and [[app-m5-changelog]].
-- **Insects** appear only as an incumbent (insect meal is already made in Vietnam for feed) and as a benchmark. The report does not recommend insect plays.
+- **Feed is context only.** Feed is the hidden import behind the meat, eggs, milk and farmed fish that people eat, so it is part of the food-security picture. The report no longer treats feed ingredients (fishmeal replacements, or microbial or duckweed feed) as something to make. Earlier drafts assessed them; that record stays in [[app-s6-feed-market]], [[app-f6-aquafeed-feedstock-futures]] and [[app-m5-changelog]].
 - **Motivation.** The report leads with the security of the protein people eat, industrial value and trade. It states environmental and animal-welfare benefits as motivations for some actors, not as the main case.
 
 ## How it is organised
@@ -62,9 +61,11 @@ Several chapters use short codes. This table decodes them; the glossary has more
 | Code | Meaning | Where |
 |---|---|---|
 | T1, T4, T5, T7 to T10 | The seven plays: T1 domestic textured plant protein; T4 cassava starch to fermentation sugar hub (a cluster of plants on one site); T5 shared pilot and tolling fermentation (tolling means renting time on someone else's fermenter); T7 high-value, low-dose precision-fermentation ingredients; T8 cultivated seafood research; T9 koji and fungal foods on food-grade side streams; T10 mung bean and rice protein for plant drinks. T2, T3 and T6 were feed plays, retired because feed is now context only; the other plays keep their numbers | [[ch26-plays]] |
-| P1, P4 to P6 | The four public goods: P1 proportionate new-food procedure; P4 protein-quality laboratory; P5 by-product atlas; P6 open cost model and price series for food protein ingredients. P2 and P3 were feed public goods, retired | [[ch26-plays]] |
-| PO-001 to PO-033 | Policy options (19 are ranked; five feed options are no longer ranked; the rest were superseded or merged) | [[ch27-policy-options]] |
-| TPP-01 to TPP-11 | Target product profiles: what a product has to be for the demand that exists (TPP-11, a feed profile, is retired) | [[ch25-demand-to-frontier]] |
+| T11, T12, P7 | Candidates from the version 0.10 solutions screen, listed but not ranked: T11 hybrid fish cakes and fish balls; T12 domestic food-grade soybean and mung bean; P7 a characterised set of Vietnamese food strains | [[ch26-plays]], [[app-s14-solutions-screen]] |
+| GFI-001 to GFI-112 | Entries of the Good Food Institute's solutions database, as screened for Vietnam | [[app-s14-solutions-screen]] |
+| P1, P4 to P6 | The four public goods: P1 proportionate new-food procedure; P4 protein-quality and function laboratory; P5 by-product atlas; P6 open cost model and price series for food protein ingredients. P2 and P3 were feed public goods, retired | [[ch26-plays]] |
+| PO-001 to PO-034 | Policy options (19 are ranked; five feed options are no longer ranked; PO-034, added in v0.10, is not yet ranked; the rest were superseded or merged) | [[ch27-policy-options]] |
+| TPP-01 to TPP-12 | Target product profiles: what a product has to be for the demand that exists (TPP-11, a feed profile, is retired; TPP-12 is a candidate profile for T11) | [[ch25-demand-to-frontier]] |
 | DMV-01 to DMV-21 | Demand moves: cheap demand-side tests and rules, each with who would pay (DMV-12, a feed carbon-footprint benchmark, is retired) | [[ch25-demand-to-frontier]] |
 | RM-01 to RM-21 | Moves that pay off in any 2050: steps to take now, tested against the four 2050 worlds (16 are active; five feed moves were retired) | [[ch28-robust-moves]] |
 | R1 to R7 (routes) | Demand routes (not Appendices R1 to R4): R1 ingredient import substitution, R2 chay occasions, R3 hybrid processed meat, R4 canteens and school meals, R5 household analogues, R6 high-protein plant milks, R7 exports | [[ch18-demand-sizing]] |
@@ -127,7 +128,7 @@ Bracketed codes such as [@MAC-04] link to entries in the source list ([[app-r4-s
 
 ## Corrections and versions
 
-Earlier drafts of this work contained errors. Where a figure replaces one that circulated earlier, a **Correction** box says so. This is draft version 0.8; versions 0.1 to 0.7 were earlier drafts, and version 1.0 will be the public launch. Every correction, and what changed in each version, is in [[app-m5-changelog]]. Version 0.8 narrowed the study to protein for people, with feed only as context, tested food-security hypotheses in an eleventh research round and rewrote every page in clear language (section M5.14 of the changelog).
+Earlier drafts of this work contained errors. Where a figure replaces one that circulated earlier, a **Correction** box says so. This is draft version 0.10; versions 0.1 to 0.9 were earlier drafts, and version 1.0 will be the public launch. Every correction, and what changed in each version, is in [[app-m5-changelog]]. Version 0.8 narrowed the study to protein for people, with feed only as context, tested food-security hypotheses in an eleventh research round and rewrote every page in clear language (section M5.14 of the changelog).
 
 ## Conventions
 
@@ -140,4 +141,4 @@ Earlier drafts of this work contained errors. Where a figure replaces one that c
 
 ## Limits
 
-Desk research in eleven rounds, with limited general web search in several of them; a retail audit in two cities; a check against 80 named actors from their own documents; no interviews or stakeholder workshops. See [[app-m1-method]] and [[ch30-unknowns]]. This is not investment, legal or engineering advice.
+Desk research in thirteen rounds, with limited general web search in several of them; a retail audit in two cities; a check against 80 named actors from their own documents; no interviews or stakeholder workshops. See [[app-m1-method]] and [[ch30-unknowns]]. This is not investment, legal or engineering advice.

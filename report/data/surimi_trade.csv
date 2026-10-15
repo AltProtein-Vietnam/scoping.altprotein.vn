@@ -1,0 +1,23 @@
+record_id,partner,hs_code,hs_description,year,value_usd_million,net_weight_t,unit_value_usd_per_kg,source_ids,evidence_label,confidence,demand_evidence_type,notes,version
+SUR-001,World (Viet Nam-reported exports),030499,Other frozen fish meat (includes surimi),2023,404.6,138182.7,2.93,SLS-05,VN-direct,High,revealed,Viet Nam-reported; no 2024 records in the preview API,0.10
+SUR-002,World (Viet Nam-reported exports),160420,Other prepared or preserved fish (includes fish cakes),2023,97.71,18662.4,5.24,SLS-05,VN-direct,High,revealed,Viet Nam-reported; no 2024 records in the preview API,0.10
+SUR-003,China,030499,Other frozen fish meat (includes surimi),2024,40.03,19095.2,2.1,SLS-05,VN-direct,High,revealed,"Partner-reported imports from Viet Nam, UN Comtrade preview API",0.10
+SUR-004,Japan,030499,Other frozen fish meat (includes surimi),2024,47.97,15283.9,3.14,SLS-05,VN-direct,High,revealed,"Partner-reported imports from Viet Nam, UN Comtrade preview API",0.10
+SUR-005,Korea,030499,Other frozen fish meat (includes surimi),2024,77.23,47653.6,1.62,SLS-05,VN-direct,High,revealed,"Partner-reported imports from Viet Nam, UN Comtrade preview API",0.10
+SUR-006,Thailand,030499,Other frozen fish meat (includes surimi),2024,74.22,33672.6,2.2,SLS-05,VN-direct,High,revealed,"Partner-reported imports from Viet Nam, UN Comtrade preview API",0.10
+SUR-007,United States,030499,Other frozen fish meat (includes surimi),2024,9.39,1337.7,7.02,SLS-05,VN-direct,High,revealed,"Partner-reported imports from Viet Nam, UN Comtrade preview API",0.10
+SUR-008,China,160420,Other prepared or preserved fish (includes fish cakes),2024,0.37,65.2,5.72,SLS-05,VN-direct,High,revealed,"Partner-reported imports from Viet Nam, UN Comtrade preview API",0.10
+SUR-009,Japan,160420,Other prepared or preserved fish (includes fish cakes),2024,28.12,3316.5,8.48,SLS-05,VN-direct,High,revealed,"Partner-reported imports from Viet Nam, UN Comtrade preview API",0.10
+SUR-010,Korea,160420,Other prepared or preserved fish (includes fish cakes),2024,4.73,980.0,4.83,SLS-05,VN-direct,High,revealed,"Partner-reported imports from Viet Nam, UN Comtrade preview API",0.10
+SUR-011,Thailand,160420,Other prepared or preserved fish (includes fish cakes),2024,0.32,67.0,4.82,SLS-05,VN-direct,High,revealed,"Partner-reported imports from Viet Nam, UN Comtrade preview API",0.10
+SUR-012,United States,160420,Other prepared or preserved fish (includes fish cakes),2024,16.43,3661.1,4.49,SLS-05,VN-direct,High,revealed,"Partner-reported imports from Viet Nam, UN Comtrade preview API",0.10
+SUR-013,China,030499,Other frozen fish meat (includes surimi),2025,57.9,26277.0,2.2,SLS-05,VN-direct,High,revealed,"Partner-reported imports from Viet Nam, UN Comtrade preview API",0.10
+SUR-014,Japan,030499,Other frozen fish meat (includes surimi),2025,57.33,17529.7,3.27,SLS-05,VN-direct,High,revealed,"Partner-reported imports from Viet Nam, UN Comtrade preview API",0.10
+SUR-015,Korea,030499,Other frozen fish meat (includes surimi),2025,82.22,49311.8,1.67,SLS-05,VN-direct,High,revealed,"Partner-reported imports from Viet Nam, UN Comtrade preview API",0.10
+SUR-016,Thailand,030499,Other frozen fish meat (includes surimi),2025,79.5,35422.5,2.24,SLS-05,VN-direct,High,revealed,"Partner-reported imports from Viet Nam, UN Comtrade preview API",0.10
+SUR-017,United States,030499,Other frozen fish meat (includes surimi),2025,7.23,1148.4,6.3,SLS-05,VN-direct,High,revealed,"Partner-reported imports from Viet Nam, UN Comtrade preview API",0.10
+SUR-018,China,160420,Other prepared or preserved fish (includes fish cakes),2025,0.53,91.2,5.78,SLS-05,VN-direct,High,revealed,"Partner-reported imports from Viet Nam, UN Comtrade preview API",0.10
+SUR-019,Japan,160420,Other prepared or preserved fish (includes fish cakes),2025,24.45,2928.0,8.35,SLS-05,VN-direct,High,revealed,"Partner-reported imports from Viet Nam, UN Comtrade preview API",0.10
+SUR-020,Korea,160420,Other prepared or preserved fish (includes fish cakes),2025,6.03,1255.7,4.8,SLS-05,VN-direct,High,revealed,"Partner-reported imports from Viet Nam, UN Comtrade preview API",0.10
+SUR-021,Thailand,160420,Other prepared or preserved fish (includes fish cakes),2025,0.37,91.8,4.02,SLS-05,VN-direct,High,revealed,"Partner-reported imports from Viet Nam, UN Comtrade preview API",0.10
+SUR-022,United States,160420,Other prepared or preserved fish (includes fish cakes),2025,16.11,4069.9,3.96,SLS-05,VN-direct,High,revealed,"Partner-reported imports from Viet Nam, UN Comtrade preview API",0.10

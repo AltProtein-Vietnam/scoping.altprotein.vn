@@ -38,6 +38,7 @@ Terms used in this appendix:
 6. **Decree 263/2026/NĐ-CP (effective 1 July 2026) lets provinces create hi-tech agriculture zones**, with incentives including priority for state R&D funds and up to 70% interest subsidy on loans to commercialise technology [@INF-23] {VN-direct|Medium}.
 7. **Can Tho University alone has a 2026 quota of 860 places across food technology, biotechnology and aquaculture**; a national intake figure could not be built [@INF-15] {VN-direct|High}.
 8. **We found no local maker of sanitary stainless fermenters, extruders or spray dryers.** Rieckermann offers turnkey process lines and lists a croissant line project in Vietnam; HTG Engineering built mechanical and electrical works, cold storage and class 10,000 cleanrooms for three Ajinomoto plants [@INF-24; @IND-64] {VN-direct|Medium}.
+9. **We found no alternative-protein course and no fermentation short course for industry.** The nearest platform for student product teams is a national food-innovation contest at the Ho Chi Minh City University of Industry and Trade (HUIT), with 144 projects in 2025 [@VCO-21; @SLW-14; @AML-33] {VN-direct|Medium}.
 
 ## S8.2 Where to go for what
 
@@ -113,7 +114,7 @@ That is about 40 working days of agency time (our calculation: 15 + 5 + 15 + 5),
 
 > **Correction.** Earlier drafts cited Article 11 of Decree 13/2020 as the basis for feed trials. That article covers factory inspection [@REG-30] {VN-direct|High}. The trial route is Article 37 of the Law on Animal Husbandry and Circular 94/2025 [@REG-29; @REG-34] {VN-direct|High}.
 
-For aquafeed, the permitted list in Appendix II of Circular 16/2026/TT-BNNMT (9 March 2026) has chemical, biological, microorganism, vitamin, amino-acid and enzyme sections but **no raw-material section**, so the status of insect meal, single-cell protein, microalgae biomass or duckweed in aquafeed is legally ambiguous [@REG2-01] {VN-direct|High}. Enforcement has become sharper: Decree 211/2026/NĐ-CP (in force 5 August 2026) fines VND 10 to 15 million for each type of unlisted raw material used at lower values and VND 15 to 20 million at higher values, with an additional 1 to 3 months' suspension of feed production [@REG2-10] {VN-direct|High}.
+For aquafeed, the permitted list in Appendix II of Circular 16/2026/TT-BNNMT (9 March 2026) has chemical, biological, microorganism, vitamin, amino-acid and enzyme sections but **no raw-material section**, so the status of single-cell protein, microalgae biomass or duckweed in aquafeed is legally ambiguous [@REG2-01] {VN-direct|High}. Enforcement has become sharper: Decree 211/2026/NĐ-CP (in force 5 August 2026) fines VND 10 to 15 million for each type of unlisted raw material used at lower values and VND 15 to 20 million at higher values, with an additional 1 to 3 months' suspension of feed production [@REG2-10] {VN-direct|High}.
 
 ### Where trials are run
 
@@ -177,6 +178,22 @@ Readings:
 
 **Skills picture.** The gap is specialist rather than general. Vietnam produces fermentation, enzyme, nutrition and cell-culture researchers. The literature shows almost no one working on extrusion or texturisation, food-grade downstream processing of microbial biomass, sensory and structure work on meat analogues, protein-quality scoring (DIAAS), or cell culture of fish and livestock for food [@RD-01; @BIB-01] {VN-direct|Low}. Startups in those areas should expect to import know-how and people, which adds cost and key-person risk.
 
+**Alternative-protein teaching.** We found no alternative-protein course, major, research centre or student group in Vietnam. On 15 October 2026 the Good Food Institute's (GFI) ecosystem database listed 2 Vietnamese companies and none of these [@VCO-21] {VN-direct|Medium}. GFI's student network, the Alt Protein Project, had 70 chapters in 21 countries in August 2024, none in Vietnam [@SLW-03] {general|Medium}. The database lists no courses or research centres in Thailand either, so it understates Southeast Asia as a whole [@SLW-04; @SLW-05] {VN-adjacent|Medium}. A market-report claim that Vietnamese universities are setting up cellular-agriculture programmes has no traceable source and is not used ([[app-r2-disagreements]], DG-389).
+
+**Student product contests.** The nearest Vietnamese platform for student product-development teams is the Food Innovation and Development (FID) contest at HUIT (Ho Chi Minh City University of Industry and Trade, formerly HUFI). The Vietnam Association of Food Science and Technology (VAFoST) and the National Startup Support Center co-organise it. In 2025 it drew nearly 500 contestants and 144 projects from 58 universities and high schools, and one of its three tables was judged by firms [@AML-33] {VN-direct|Medium}. No plant-protein product was among the 2025 winners [@AML-33] {VN-direct|Medium}. A product-design course on buyer-set problems, shown at FID, is now part of the skills move RM-09 ([[ch28-robust-moves]]).
+
+**Who trains fermentation operators.** We found no published fermentation short course for industry.
+
+| Level | Who | What we found | Evidence |
+|---|---|---|---|
+| Engineers and scientists | Universities (Can Tho, HUST, IUH and others) | Food technology and biotechnology degrees; module content not established | [@INF-15] {VN-direct\|High} |
+| Doctoral researchers | FIRI | Departments of fermentation technology and of enzyme and protein technology; the training page lists doctoral training (latest admissions notice June 2022) and one 2018 analysis course | [@SLW-14; @INF-01] {VN-direct\|Medium} |
+| Technicians | Colleges | A 2013 national framework for intermediate-level fermentation technicians (beer, alcohol, ethanol and traditional ferments); whether any college teaches it now is not known (OQ-506) | [@SLW-20] {VN-direct\|Low} |
+| Technicians | MOIT Food Industry College (Viet Tri, Phu Tho) | Public college under MOIT training technical staff; programmes not listed on the ministry page | [@SLW-17] {VN-direct\|Medium} |
+| Operators | The fermenters themselves | We found no published source on in-house training at amino-acid, yeast or brewing plants (OQ-504) | Our searches {VN-direct\|Low} |
+
+Fees are small. Domestic food-industry short courses cost VND 3.2 to 4.2 million for 18 to 24 hours (about USD 120 to 160 at 26,000 VND per USD), but none covers fermentation. They are listed on the domain that the MOIT portal gives for its Food Industry College; we could not confirm who runs the site [@SLW-16] {VN-direct|Low}. A 21-hour hands-on fermentation course in the United States costs USD 3,100, half of it at a pilot-scale bioreactor [@SLW-09] {general|High}. The binding cost is access to pilot-scale equipment, which no open Vietnamese facility offers (section S8.3).
+
 **Adjacent industrial talent.** Biologics makers bring GMP bioreactor, QA and aseptic skills:
 
 - Vietnam has 12 GMP-WHO veterinary vaccine plants making 218 vaccine types, each costing USD 30 to 40 million (December 2024) [@IND-34] {VN-direct|Medium}.
@@ -198,7 +215,7 @@ Readings:
 | TECOVA | GMP and ISO design, validation and compliance consultancy | Vietnam | GMP facility design and qualification for food, pharma and biotech | [@IND-65] {VN-direct\|Low} |
 | Tan Sao Bac A Machinery Co., Ltd | Machinery dealer | Ho Chi Minh City (Vinh Loc A, former Binh Chanh district) | Chinese soy extrusion lines, 100 to 2,000 kg/h, 22 to 120 kW, for dried chay snacks | [@FORM-34] {VN-direct\|Medium} |
 | Buhler Group | Extrusion, feed and aquafeed mills, high-moisture extrusion | Not verified (locations page dynamic) | Main global supplier of feed and texturisation extrusion (general knowledge, not on the cited page) | [@INF-30] {general\|Low} |
-| FAMSUN (Muyang) | Feed and aquafeed mill and extrusion equipment (China) | Vietnam office not shown | Feed-mill turnkey, extruders; pelleting of single-cell or insect meal | [@INF-27] {general\|Low} |
+| FAMSUN (Muyang) | Feed and aquafeed mill and extrusion equipment (China) | Vietnam office not shown | Feed-mill turnkey, extruders; pelleting of single-cell protein meal | [@INF-27] {general\|Low} |
 | Clextral | Twin-screw extruders (TVP, high-moisture, aquafeed) | Not verified (site failed TLS) | Extrusion for plant-based meat and aquafeed | [@INF-31] {general\|Low} |
 | GEA | Separators, spray dryers, evaporators, fermentation and plant-protein lines | Vietnam page returned 404 | Downstream processing for single-cell protein, isolates and precision fermentation (portfolio from general knowledge; cited page is a 404) | [@INF-32] {general\|Low} |
 | Alfa Laval | Separators, decanters, heat exchangers, hygienic pumps and valves | Vietnam site timed out | Biomass harvest and protein fractionation (portfolio from general knowledge; cited site unreachable) | [@INF-33] {general\|Low} |
@@ -222,6 +239,8 @@ Readings:
 | Vietnam entities of Buhler, GEA, Alfa Laval and Famsun | National business registry, or the vendors' Singapore offices. |
 | Da Nang Hi-Tech Park and the Ho Chi Minh City hi-tech agriculture park | Other official domains, or the Da Nang People's Committee portal. |
 | National key laboratories for food and biotechnology | Ask MOST for its list. |
+| Who trains fermentation operators in industry, and whether plants would take outside trainees | Phone Vedan, Ajinomoto, a yeast maker and a brewery (OQ-504). |
+| Whether the 2013 fermentation-technician programme is still taught, and where | Ask MOET and the MOIT colleges (OQ-506). |
 | Whether alternative-protein processing qualifies under Decree 263/2026 | Read the decree text and the Law on High Technology 2025; ask a provincial Department of Agriculture and Environment. |
 | Whether NACEFA's feed-import designation covers new microbial feed materials (feed: context only) | Ask NACEFA. |
 

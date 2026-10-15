@@ -4,7 +4,7 @@ title: "R2. Disagreements log"
 short_title: "R2. Disagreements"
 section: appendix
 order: 82
-summary: "All 373 cases where sources disagree, with both claims and the position this report takes. We never average disagreeing numbers."
+summary: "All 393 cases where sources disagree, with both claims and the position this report takes. We never average disagreeing numbers."
 audiences: [research, investors, policy, international, startups, manufacturers]
 reading_time_min: 87
 key_numbers: [kn-disagreements]
@@ -81,13 +81,10 @@ When two credible sources give different values or facts, we record both and sta
 | DG-035 | Carlsberg Phu Bai investment | VND 3,406 bn, about USD 169 million ([@IND-27]) | About USD 90 million ([@IND-28]) | Different scopes or phases. Capacity also differs: [@IND-27] gives 360 to 600 million L/yr (+67%); [@IND-28] reports +50% at opening (about 540 million L, our calculation), with no litre figure. |
 | DG-036 | De Heus and CJ feed | De Heus completed buying all 17 CJ Feed & Care plants in Asia in early 2026 ([@IND-43]); not a Vietnam plant count | No second source | Unverified. Low confidence. Ask De Heus or CJ. <br>*Same or related disagreement: DG-129.* |
 
-## Companies and ecosystem (9)
+## Companies and ecosystem (6)
 
 | ID | Topic | Claim A | Claim B | Position taken |
 |---|---|---|---|---|
-| DG-037 | Entobel funding | USD 33 m Series B (company PR, 2023; [@ECO-01], [@ECO-06]) | Series B USD 30 m (Mekong USD 25 m + Dragon USD 5 m) plus IFC USD 2.5 m = USD 32.5 m project cost (IFC disclosure; [@ECO-03]) | Use IFC's breakdown (primary DFI document). "USD 33 m" is rounded and includes IFC. Prior lead "about USD 36 m" not supported. One trade article speculated, citing DealStreetAsia, that IFC put in about USD 10 m ([@ECO-04]); IFC's disclosed figure is USD 2.5 m. <br>*Same or related disagreement: DG-062, DG-063.* |
-| DG-038 | Entobel capacity | "12x since 2022" ([@ECO-02]) | 1,000 + 10,000 = 11,000 t/yr design ([@ECO-03]) | Consistent within rounding. All are design capacity, not output. |
-| DG-039 | Cricket One volume | More than 100 million crickets/month (2020) | About 100 t fresh/month at full capacity (Feb 2023); about 150 t live/month (Oct 2024); 1,000 t/yr processing (Oct 2023) | Units differ and all are company claims. Use "1,000 t/yr processing capacity (2023, claimed)" as the scale anchor. |
 | DG-040 | Vinh Hao spirulina area | 5,000 m2 (prior lead) | More than 12,000 m2 (company page, undated) | Prefer the company figure as more recent, but it is unaudited. Output figure (17 t/yr) is from 2013. |
 | DG-041 | Vinasoy share | 82.7% (Dec 2014, [@ECO-42]) | About 80% (2024, [@ECO-41]) | Not a conflict: stable share over time. The 2014 figure is Nielsen data reported by the press; the 2024 figure is company-sourced. <br>*Same or related disagreement: DG-031.* |
 | DG-042 | Bewina | Imports plant-based meat, founder Ho Thanh Nhien ([@ECO-17]); the Taiwan and US brands in the same article are market examples, not tied to Bewina | Sells "Romania" products ([@ECO-19]) | Possibly both (the Romanian brand Verdino plus others). Low confidence. |
@@ -173,7 +170,7 @@ When two credible sources give different values or facts, we record both and sta
 
 | ID | Topic | Claim A | Claim B | Position taken |
 |---|---|---|---|---|
-| DG-104 | Growth-factor share of media cost | Up to 95% of serum-free medium cost ([@SCI-15], current prices) | USD 3 to 4/kg wet cells at 100 kt/yr ([@SCI-14], scaled prices) | Both valid; report both with their price assumptions. |
+| DG-104 | Growth-factor share of media cost | Up to 95% of serum-free medium cost ([@SCI-15], current prices) | USD 3 to 4/kg wet cells at 100 kt/yr of world output ([@SCI-14], scaled prices; the modelled plant is about 6.8 to 6.9 kt/yr) | Both valid; report both with their price assumptions. |
 | DG-105 | Karimi A. oryzae biomass | 118.5 g DM/L as printed ([@SCI-18]) | Mass balance on 21 g/L COD | Treat as per litre of undiluted vinasse (about 5.9 g/L broth). |
 | DG-106 | Karimi medium COD | 21 g/L stated for 5% vinasse | 835 g/L x 5% = 42 g/L | Internal inconsistency in the paper; unresolved. |
 | DG-107 | Mycoprotein RNA target | About 2% of DW ([@SCI-20]) | "less than 1% to be considered safe" ([@SCI-21]) | Use [@SCI-20] (a background statement in a primary paper); [@SCI-21] is a secondary review. |
@@ -181,12 +178,10 @@ When two credible sources give different values or facts, we record both and sta
 | DG-109 | Duckweed productivity | ~30 t/ha/yr average, dry matter basis not stated ([@SCI-36]) | up to 100 t DM/ha/yr ([@SCI-37]) | Use 10 to 30 for planning; 100 is an extrapolated ceiling. |
 | DG-110 | Mung bean protein quality | Pig DIAAS 86 (older pattern) ([@SCI-41]) | Human ileal digestibility about 20% lower than pigs ([@SCI-42]) | Prefer human data for food claims. |
 
-## Capital (9)
+## Capital (7)
 
 | ID | Topic | Claim A | Claim B | Position taken |
 |---|---|---|---|---|
-| DG-062 | Entobel total raised | ~USD 36M (prior lead, no source) | USD 33M Series B (Entobel, [@CAP-08]); USD 32.5M project cost (IFC via EWS, [@CAP-04]); USD 30M (Mekong/The Investor, [@CAP-01], [@CAP-02]) | USD 32.5M to 33M = USD 30M (Mekong + Dragon) + USD 2.5M (IFC). Earlier rounds undisclosed. Reject USD 36M. <br>*Same or related disagreement: DG-037, DG-063.* |
-| DG-063 | IFC ticket in Entobel | ~USD 10M (Petfood Industry, [@CAP-07]); USD 10M equity proposed (IFC 45769, [@CAP-03]) | USD 2.5M (IFC 46903, [@CAP-04]) | USD 2.5M. The USD 10M proposal (early 2022, board date 9 Feb 2022) predates the final round, and the company's USD 33M total leaves room for only about USD 3M from IFC. <br>*Same or related disagreement: DG-062, DG-037.* |
 | DG-064 | Vietnam VC deal count 2024 | 118 (2025 report, [@CAP-20]) | 122 (2026 report, per TNGlobal, [@CAP-22]) | Use 118 for 2024. Both Do Ventures editions give 118; the 2026 report's chart shows 122 (2023), 118 (2024) and 103 (2025) ([@CAP-21]). TNGlobal's 122 is the 2023 count. Total USD 398M. |
 | DG-065 | Climate tech VC 2024 | USD 23M in 10 deals (Do Ventures, [@CAP-20]) | ~USD 98M to 100M in 55 deals (CT-FE 2025, [@CAP-25], [@CAP-26]) | Definitional. CT-FE counts Techcoop (USD 70M including debt) as climate; Do Ventures counts it as agriculture. Always name the source. |
 | DG-066 | Techcoop year | Announced 28 February 2025 ([@CAP-19]) | Counted in 2024 data ([@CAP-20]) | Probably closed in late 2024 and announced in 2025. Year-on-year agritech swings (USD 74M to USD 1M) reflect this one deal. |
@@ -628,3 +623,78 @@ When two credible sources give different values or facts, we record both and sta
 | ID | Topic | Claim A | Claim B | Position taken |
 |---|---|---|---|---|
 | DG-373 | Milk self-sufficiency, 2023 to 2025 | FAO food balance sheets, 2023: about 30% (milk equivalent of all dairy; our calculation from [@DIE-07]) | Dairy association, 2025: domestic fresh milk meets about 40% of demand (association claim, [@MIM-13]) | Give both: different measures and years; not averaged |
+
+## Regional deals (wave 12), v0.9 (4)
+
+| ID | Topic | Claim A | Claim B | Position taken |
+|---|---|---|---|---|
+| DG-374 | Green Rebel Foods round, January 2026 | USD 10.5 million (DealStreetAsia [@RDL-05]; PitchBook [@RDL-42]) | USD 12.5 million (Asia Business Outlook [@RDL-43]; Tracxn [@RDL-44]) | Report both; DealStreetAsia is the better source. Use USD 10.5 million where one figure is needed and say so. |
+| DG-375 | Joes Future Food Series A, October 2021 | RMB 70 million, about USD 10.9 million (company WeChat post, via AgFunderNews [@RDL-10] and vegconomist [@RDL-11]) | RMB 50 million, about USD 7.7 million (GFI APAC [@RDL-08]) | Report both; the company-sourced RMB 70 million is better sourced. |
+| DG-376 | Shiok Meats total raised before its 2024 merger | About USD 30 million (Green Queen [@RDL-38]; Just Food [@RDL-45]) | USD 21.35 million (CB Insights [@RDL-46]) | Use about USD 30 million (two press sources); the database figure may omit later rounds. |
+| DG-377 | Green Rebel Foods funding before 2026 | Seed of USD 10 million in December 2022 (PitchBook [@RDL-42]) | Total equity since 2020 of USD 2.48 million (DealStreetAsia [@RDL-05]) | Unresolved; neither figure is counted in the regional totals. Lifetime totals in other databases range more widely. |
+
+## Solutions screen: plant-based (wave 13), v0.10 (1)
+
+| ID | Topic | Claim A | Claim B | Position taken |
+|---|---|---|---|---|
+| DG-378 | Vietnam's imports of mung and black gram beans (HS 0713.31) in 2023: tonnage and unit value | Vietnam-reported: USD 138.3 million CIF and 103,835 t, USD 1.33 per kg; UN Comtrade flags the weight as estimated (FORM-08; SLP-14) | Partner-reported exports to Vietnam: USD 86.1 million FOB and 129,380 t, USD 0.67 per kg (SLP-14); 2024: 185,470 t at USD 0.70; 2025: 167,108 t at USD 0.81 | Use partner-reported tonnage and unit values for prices and volumes, because Vietnam's weight is an estimate; keep Vietnam's value as the import bill. The value gap (USD 52 million) is larger than freight and insurance can explain and is not resolved |
+
+## Solutions screen: fermentation (wave 13), v0.10 (2)
+
+| ID | Topic | Claim A | Claim B | Position taken |
+|---|---|---|---|---|
+| DG-379 | Licence route for commercial access to Vietnamese genetic resources, including microbes | Decree 59/2017 as written, summarised in ch07 section 7.10 and app-s9-regulation S9.16 (REG-60): registration in 10 days, commune certification of the contract, council review up to 90 days, decision within 15 days, ministry licence | Decree 43/2026, Chapter III (SLF-02): provincial People's Committee chairman issues the licence; council formed in 3 working days, reports in 10, decision about 19 working days from a complete file; registration step and commune certification gone; standard contract Form 12; licence up to 5 years | Decree 43/2026 governs from 26 January 2026; benefit-sharing rates in Art 22 of Decree 59/2017 are unchanged |
+| DG-380 | Ethanol-plant retrofit precedent for microbial protein | GFI-089 (GSD-01, modified 2022): Superbrewed Food retrofits bioethanol facilities for protein production | AgFunder News (SLF-12, February 2024): the Minnesota ethanol-plant retrofit was paused and first volumes moved to Dohler in Europe; Protein Production Technology (SLF-14, April 2024): the Little Falls, Minnesota site was sold | The later, specific press reports: the retrofit did not proceed as GFI describes |
+
+## Solutions screen: alternative seafood (wave 13), v0.10 (4)
+
+| ID | Topic | Claim A | Claim B | Position taken |
+|---|---|---|---|---|
+| DG-381 | Surimi and fish-cake exports: peak year | 2025 exports were below the 2022 peak; 2023 was USD 303 million, 27% below 2022, implying about USD 415 million in 2022 (SLS-01; SLS-03, VASEP) | A record of USD 420 million in 2021 and USD 310 million in 2023 (Nong nghiep Moi truong citing VASEP; search snippet only, page blocked) | Use the read VASEP figures: peak in 2022, USD 303 million in 2023 |
+| DG-382 | Scope of surimi exports in 2023 | Surimi and fish-cake exports USD 303 million (SLS-03, VASEP) | Viet Nam-reported exports of HS 030499 (other frozen fish meat) USD 404.6 million plus HS 160420 USD 97.7 million (SLS-05, UN Comtrade) | Use VASEP for the size of the surimi trade; use partner-reported HS 030499 only for volumes and unit values in markets where it matches VASEP (Korea) |
+| DG-383 | Price of surimi | Surimi is cited at around USD 3 to 6 per kg (GSD-01, GFI-111, mainly pollock and whiting markets) | Vietnamese tropical surimi sold at USD 1.67 (Korea) to 2.24 (Thailand) per kg in 2025, partner-reported (SLS-05) | Use the Vietnamese unit values for any Vietnam calculation; the gap to cultivated cost is wider than GFI states |
+| DG-384 | Species for cultivated seafood research in Vietnam | Study position (T8, v0.9): striped catfish and shrimp cells (plays.csv T8; ch10 section 10.8) | Food-oriented muscle lines exist for grouper (2024) and Asian seabass (2025); catfish lines are virology lines; shrimp has none; pangasius farm-gate price is about USD 1.02 to 1.15 per kg (SLS-13 to SLS-16; SCI-10; SCI-12; FM-11) | Propose seabass or grouper as targets, catfish only as a model species; lead to decide |
+
+## Solutions screen: capital, markets and business services (wave 13), v0.10 (3)
+
+| ID | Topic | Claim A | Claim B | Position taken |
+|---|---|---|---|---|
+| DG-385 | Number of finance-leasing companies in Vietnam (2025) | VCCI report of the Vietnam Leasing Association roundtable (14 August 2025): 9 companies, of which 8 operating, 1 suspended for restructuring and 2 bankrupt, which sums to 11 (SLK-04) | Interview with the CEO of BIDV-SuMi Trust Leasing (4 August 2025): eight financial leasing companies operating (SLK-24) | Eight operating companies; the total number licensed is unresolved. |
+| DG-386 | Finance-leasing balance, mid 2025 | VND 41,700 billion at 30 June 2025, reported by 6 of 9 companies (SLK-04) | About VND 47,000 billion for the whole sector, the association's estimate in the same report (SLK-04) | Give both: VND 41,700 billion reported; VND 47,000 billion estimated. |
+| DG-387 | Factoring balance in Vietnam | About VND 16,000 billion, stated at the VNBA and IFC roundtable of 12 August 2025 (SLK-06) | About VND 22,000 billion, attributed to VNBA in 2026 in a search snippet of a page we could not read (thitruongtaichinhtiente.vn, HTTP 403; not registered) | Use VND 16,000 billion (August 2025), the figure read; the snippet may refer to a later date. |
+
+## Solutions screen: research system and workforce (wave 13), v0.10 (3)
+
+| ID | Topic | Claim A | Claim B | Position taken |
+|---|---|---|---|---|
+| DG-388 | HUST 2026 quota for Bioengineering (BF1) | 160 places (HUST programme and quota list as shown in a search snippet; same figure on the School of Materials admissions page snippet) (SLW-19) | 140 places (HUST admissions programme page for Kỹ thuật Sinh học, as shown in a search snippet) (SLW-19) | Neither used as a finding; both are snippet-only because the HUST pages returned HTTP 503. Read the official 2026 admissions plan before adding HUST rows to talent.csv |
+| DG-389 | Whether Vietnamese universities run cellular-agriculture or alternative-protein programmes | A commercial market report snippet (IMARC, Vietnam cultured meat market page, not read) says Vietnamese universities are establishing specialised programmes in food biotechnology and cellular agriculture | GFI's ecosystem database (re-checked 15 October 2026) lists 0 Vietnamese courses, research centres or student groups; our searches in English and Vietnamese found no such programme (VCO-21; SLW-03) | Our finding: we found no alternative-protein or cellular-agriculture programme. The market-report claim has no traceable source and is not used |
+| DG-390 | Countries reached by GFI research funding | GFI: research funded in 26 countries (141 grants since 2019) (RD-02) | OpenAlex: GFI-funded works have author affiliations in 39 countries (SLW-02) | Not comparable: GFI counts grantee countries; OpenAlex counts co-author affiliations. Both show no Vietnamese grantee or co-author |
+
+## The Protein Project (EU) publications (wave 13), v0.10 (4)
+
+| ID | Topic | Claim A | Claim B | Position taken |
+|---|---|---|---|---|
+| DG-391 | EU share of soy imported | The EU produces only 9% of the soy protein it consumes, so about 91% is imported (PPE-03, citing JRC and Profundo) | 94% of soya used in the EU is imported (European Commission Action Plan COM(2026)355, as recorded in PSB-009 from VIS-15) | Keep VIS-15 for the benchmark row PSB-009; the bases differ (soy protein including food against soya volume). Do not average. Not used in any Vietnamese figure |
+| DG-392 | Concentration of EU soy import origins | 86% of EU soy imports come from Brazil, Argentina and the United States (PPE-03, citing Kuepper and Stravens 2022) | 85% of EU soya imports come from Brazil and the United States alone (PPE-05, citing the same 2022 source) | Unresolved: two publications by the same organisation cite one source for different country sets. Not used in the study |
+| DG-393 | Business-as-usual change in EU soy protein imports to 2035 | Figure 6 of PPE-03 labels the business-as-usual result as minus 1% | The same figure shows 15.1 Mt in 2025 and 14.62 Mt in 2035, minus 3.2% (our calculation) | Use the tonnages (15.1 to 14.62 Mt) and report minus 3.2%, marked as our calculation |
+| DG-394 | Scale of the EU fava bean roadmap consultation | Developed with 20 value-chain actors and 60+ experts (PPE-05, executive summary) | 19 taskforce stakeholders plus over 90 expert consultations (PPE-05, section 1.2) | Report 19 taskforce organisations and over 90 consultations, the more detailed statement, and note the other |
+
+## Berkeley Alt:Meat Lab (wave 13), v0.10 (1)
+
+| ID | Topic | Claim A | Claim B | Position taken |
+|---|---|---|---|---|
+| DG-395 | Open research output of the Berkeley Alt: Meat Lab | The lab said in 2017 that it would develop research and open up the industry by freely distributing findings, and in 2019 that a new grant would let students and researchers share their discoveries (AML-03; AML-04). | We found one closed-access 2021 book chapter by lab-affiliated authors on alternative protein, and no open data, methods or reports, 2017 to 2026; the director's recent papers are on Quillaja saponins (AML-24; AML-25). | Follow the retrieved record: the lab's value is teaching and venture building, not citable research. Do not cite it as a source of technical results. |
+
+## Coefficient Giving grantees with published research (wave 13), v0.10 (2)
+
+| ID | Topic | Claim A | Claim B | Position taken |
+|---|---|---|---|---|
+| DG-396 | Size of Coefficient Giving's 2026 Alternative Protein R&D call | Up to USD 10 million (press reports; the wave 13 brief; the fund page summary in AFN-02) | Up to USD 30 million (RFP page, CAP-57 and AFN-01; Coefficient Giving staff post CGG-03, which says the call was increased to USD 30 million) | USD 30 million. The figures are sequential, not conflicting: the call started at USD 10 million and was raised |
+| DG-397 | Funding of FFAR's 2020 plant protein optimization grant (chickpea and corn zein) | USD 444,000 over three years for both projects, from the Farm Animal Welfare programme, with the chickpea part matching a scientific research grant (search summary of one funder page) | USD 250,000 over three years for the chickpea work alone, from the scientific research programme (search summary of another funder page) | Use USD 444,000 for this focus area: the funder's grant list shows one grant, "Chickpea and Corn Zein Research", USD 444,000 (June 2020) [@CGG-19] (v0.10). The USD 250,000 chickpea-only record may be a separate grant from another programme; it is not quoted. |
+
+## Coefficient Giving browser check (wave 13), v0.10 (1)
+
+| ID | Topic | Claim A | Claim B | Position taken |
+|---|---|---|---|---|
+| DG-398 | Size of the first Open Philanthropy grant to the Berkeley Alt:Meat Lab (2019) | USD 125,000 (the lab's announcement of 14 February 2019 [@AML-04; @CGG-04]) | USD 131,579 (the funder's grant list, January 2019 [@CGG-19]) | Use the funder's list for totals (five grants, USD 3,377,780 from 2019 to 2026) and note the lab's figure; the gap is unexplained. Not averaged. |

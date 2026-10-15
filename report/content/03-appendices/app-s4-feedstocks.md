@@ -227,9 +227,11 @@ The study is about protein for people. Many of these streams are sold as animal 
 - **Composition.** Mostly starch. Rice protein alone is poor quality: brown-rice protein concentrate scored a DIAAS of 42 in pigs (older child and adult pattern) because it is lysine-limited [@SCI-40] {general|High}.
 - **Seasonality and storage.** Year-round; dry and storable.
 - **Competing uses.** Food manufacture, export, feed and brewing.
-- **What it could become.** A clean, food-grade carbon source for fermentation after hydrolysis to glucose. Rice-protein extraction has been studied in Vietnam, for example by ultrafiltration [@RD-24] {VN-direct|Medium}, but texturisation has not been published.
-- **Evidence gaps.** Total broken-rice volume and uses (Vietnam Food Association).
-- **Sources.** [@FS-23; @FS-26; @RD-24; @SCI-40]
+- **What it could become.** A clean, food-grade carbon source for fermentation after hydrolysis to glucose. Rice-protein extraction has been studied in Vietnam, for example by ultrafiltration [@RD-24] {VN-direct|Medium}. Enzyme-assisted extraction from VD20 broken rice reached about 77% protein and about 55% recovery after 36 hours at laboratory scale (Can Tho University and Nguyen Tat Thanh University, 2026) [@SLP-01] {VN-direct|Medium}. Texturisation has not been published.
+- **Rice protein pays only as a co-product.** Elsewhere, rice protein is a by-product of making rice syrup [@SLP-08] {general|Medium}. Made on its own, it costs USD 5.1 to 6.6 per kg of product in raw material alone, against USD 2 to 3 per kg for Chinese pea protein. About 940 kg of carbohydrate-rich residue is left per tonne of broken rice, and it has to be sold as syrup or starch (our calculation). Inputs: broken rice at USD 327 to 372 per t (the domestic price converted at 26,000 VND per USD, and the export quote), 7.9 g of protein per 100 g and 55% recovery, giving about 57 kg of product per tonne [@FS-26; @DIE-12; @SLP-01; @BUY-09] {VN-direct|Low}. Three searches found no Vietnamese maker of rice syrup, rice starch or rice protein {VN-direct|Low}. This is a constraint on the rice arm of play T10 ([[ch26-plays]]; OQ-478).
+- **Cheaper than cassava starch, for now.** In September 2026, fragrant 100% broken rice (USD 368 to 372 per t) cost less per tonne than cassava native starch did in April 2026 (USD 520 to 540 per t FOB) [@FS-26; @FS-11] {VN-direct|Medium}. While cassava stays dear, a broken-rice saccharification line could give sugar for play T4 and a protein co-product for T10. We have not costed it.
+- **Evidence gaps.** Total broken-rice volume and uses (Vietnam Food Association); whether any processor hydrolyses broken rice into syrup or glucose (OQ-478).
+- **Sources.** [@FS-11; @FS-23; @FS-26; @RD-24; @SCI-40; @SLP-01; @SLP-08; @DIE-12; @BUY-09]
 
 ### C8. Rice bran (*cám gạo*)
 
@@ -333,14 +335,14 @@ The study is about protein for people. Many of these streams are sold as animal 
 - **Volume.** At most 0.80 to 0.88 Mt wet a year, derived {VN-adjacent|Low}. Arithmetic: 4.0 to 4.4 billion litres of beer x 20 kg of wet spent grain per 100 litres [@FS-38; @FS-39] = 0.80 to 0.88 Mt wet; at about 80% moisture (our assumption), 160 to 176 kt DM; at about 20% protein in DM, 32 to 35 kt of protein (our calculation). Beer volume: more than 4 billion litres a year (VIRAC, 2022, cited in [@FS-40]) and 4.4 billion litres in 2019 [@FS-41] {VN-direct|Low}; consumption of about 3.8 billion litres in 2022 [@IND-24] {VN-direct|Medium}, which would give about 0.76 Mt wet (our calculation). No 2024 or 2025 beer volume was found. Treat the range as an upper bound: Vietnamese mass-market lagers use rice adjunct, which lowers the malt grist and so the spent grain per litre. The adjunct share was not found.
 - **Locations.** Brewery sites in Ho Chi Minh City (including former Ba Ria-Vung Tau), Hanoi, Hue, Da Nang, Dong Thap (former Tien Giang), Can Tho (former Hau Giang) and the north ([[app-s5-facilities]]).
 - **Sites and companies.** Market shares in 2023: Heineken 43%, Sabeco 33.9%, Carlsberg 9.2%, Habeco 7.5%, others 6.4% [@FS-41; @IND-23] {VN-direct|Medium}. There were 98 active breweries, most of them microbreweries (about 2020, secondary source) [@FS-41] {VN-direct|Low}. Sabeco has 26 breweries with 2.4 billion litres a year of design capacity at about 60% use (2024) [@IND-23] {VN-direct|Medium}. Heineken's HCMC (former Ba Ria-Vung Tau) brewery has 1.1 billion litres a year, with expansion to 1.6 billion approved in 2024 [@IND-26] {VN-direct|Medium}. A buyer deals with a handful of counterparties.
-- **Current use and buyers.** Cattle and pig farms and feed traders [@FS-42] {VN-direct|Low}. Insect farming: Entobel's plant-opening release (November 2023) said it uses Heineken Vietnam by-products as feedstock [@ECO-01] {VN-direct|Low}; its current website does not mention feedstock [@FS-43]. Treat this as a company claim.
+- **Current use and buyers.** Cattle and pig farms and feed traders [@FS-42] {VN-direct|Low}.
 - **Prices.** One Hanoi retailer quotes 6,000 to 6,500 VND/kg fresh and about 5,500 VND/kg dried (March 2026) [@FS-42] {VN-direct|Low}. On a DM basis the fresh price is about 30,000 VND per kg of DM (our calculation, 6,000 / 0.2), four times dry rice bran at 7,300 to 7,650 VND/kg [@FS-26]. Treat it as a small-lot retail price, not a brewery gate price.
 - **Composition.** About 20% protein and about 70% fibre, basis not stated [@FS-38] {general|Medium}. We found no source for the moisture; the 80% used above is our assumption. Lao brewers' grains: 24.3% DM and 24.8% CP in DM [@FS-19] {VN-adjacent|Medium}.
 - **Seasonality and storage.** Year-round (not sourced). Fresh spent grain must be used within 2 to 3 days or ensiled with salt [@FS-42] {VN-direct|Low}.
-- **Competing uses.** Livestock farms and insect producers.
-- **What it could become.** Protein and fibre fractions; a solid-state fermentation substrate. Insect feed is a current competing use; insect protein is a benchmark in this study, not a play. The volume and the short shelf life suit one plant next to one brewery, not a national play.
-- **Evidence gaps.** Beer volume for 2024 and 2025 (NSO industrial output); brewery gate prices and tender terms; rice-adjunct share; Entobel's actual feedstock.
-- **Sources.** [@ECO-01; @FS-19; @FS-26; @FS-38; @FS-39; @FS-40; @FS-41; @FS-42; @FS-43; @IND-23; @IND-24; @IND-26]
+- **Competing uses.** Livestock farms.
+- **What it could become.** Protein and fibre fractions; a solid-state fermentation substrate. The volume and the short shelf life suit one plant next to one brewery, not a national play.
+- **Evidence gaps.** Beer volume for 2024 and 2025 (NSO industrial output); brewery gate prices and tender terms; rice-adjunct share.
+- **Sources.** [@FS-19; @FS-26; @FS-38; @FS-39; @FS-40; @FS-41; @FS-42; @IND-23; @IND-24; @IND-26]
 
 ### C17. Brewer's spent yeast (*bã men bia*)
 
@@ -381,11 +383,12 @@ The study is about protein for people. Many of these streams are sold as animal 
 
 ### C20. Mung bean (*đậu xanh*)
 
-- **Volume.** Not established; not researched on the open web.
+- **Volume.** Domestic output is not established. A search snippet of a regional study puts it at about 92,000 t on about 83,000 ha, year not seen [@SLP-15] {VN-direct|Low}. Imports are larger: exporting countries reported 129,380 t (2023), 185,470 t (2024) and 167,108 t (2025) shipped to Vietnam, at USD 0.67 to 0.81 per kg free on board; Vietnam's own 2023 report differs (DG-378; [[app-s2-retail-audit]]) [@SLP-14; @FORM-08] {VN-direct|Medium}.
 - **Protein quality.** Cooked mung bean scored a pig DIAAS of 86 (older child and adult pattern) and 68 (young-child pattern) [@SCI-41] {general|High}. In Indian children, true ileal digestibility of mung bean was 65.2%, about 20% lower than pig estimates [@SCI-42] {general|High}. Prefer human data for food claims.
 - **Research in Vietnam.** Replacing 10 to 15% of meat with germinated mung bean flour was accepted in sausage [@RD-26] {VN-direct|Medium}.
-- **What it could become.** A local legume for hybrid and plant-based products; protein isolate (not studied in Vietnam).
-- **Sources.** [@RD-26; @SCI-41; @SCI-42]
+- **What it could become.** A local legume for hybrid and plant-based products; protein isolate (not studied in Vietnam). An isolate made from imported beans costs USD 3.0 to 4.9 per kg in beans alone, above Chinese pea protein at USD 2 to 3 per kg, so the starch co-product must find a paying buyer (our calculation, at 23.4 g of protein per 100 g of bean and an assumed 60 to 80% recovery) [@SLP-14; @DIE-12; @BUY-09] {VN-direct|Low}. Glass noodles in Vietnam are made mainly from canna starch, so we found no large mung bean starch stream to recover protein from [@SLP-18] {VN-direct|Low}. An egg-white replacer for meat processors and bakeries is a better-priced job than plant milk ([[ch10-technology-fit]], section 10.3).
+- **Evidence gaps.** Domestic area, output and farm-gate price (OQ-094, OQ-481); protein recovery of industrial wet-process isolate lines and the price of mung bean starch (OQ-479).
+- **Sources.** [@RD-26; @SCI-41; @SCI-42; @SLP-14; @SLP-15; @SLP-18; @FORM-08; @DIE-12; @BUY-09]
 
 ### C21. Peanut (*lạc*, *đậu phộng*)
 
@@ -441,8 +444,9 @@ The study is about protein for people. Many of these streams are sold as animal 
 - **Current use and buyers.** Fishmeal, fish oil, pangasius collagen and gelatin, shrimp-head meal and chitin. These uses come from earlier leads and were not re-verified. Vietnam exported USD 430.5 M of fishmeal in 2023, 93.5% of it to China, and imported USD 260 M [@FM-37; @FM-38] {VN-direct|Medium}, so much of the by-product meal leaves the country ([[app-s6-feed-market]]).
 - **Prices.** Not found.
 - **What it could become.** Protein hydrolysates (Tra catfish by-product hydrolysate has been tested as a fishmeal replacer in pig diets) [@MAC-45] {VN-direct|Medium}. These streams are animal-origin protein: benchmarks and competitors for alternative protein, not alternative-protein feedstocks.
-- **Evidence gaps.** Measured by-product volumes; fishmeal plant list and capacity; prices by grade.
-- **Sources.** [@FM-37; @FM-38; @FM-44; @FS-48; @FS-49; @FS-50; @MAC-15; @MAC-45]
+- **Food uses already in practice or tested.** Pangasius processors already make commercial surimi (washed, gelled fish meat) from filleting side streams. A Nha Trang University study compared fish protein isolates with surimi made at the company from the same batch of side streams. It recovered 83.0 to 88.9% of the protein in dark muscle, head-backbone and belly cut-offs by pH shift, a method that dissolves and then precipitates the protein [@RD-52] {VN-direct|Medium}. Can Tho University made surimi gels of 338 to 377 g.cm (a measure of gel strength) from pangasius trimmings [@SLS-10] {VN-direct|Medium}. These streams can stretch the fish in fish cakes and fish balls without trawling. They are the fish side of candidate play T11, hybrid fish cakes and fish balls ([[ch26-plays]], section 26.8), and belong in the by-product atlas (public good P5).
+- **Evidence gaps.** Measured by-product volumes; how much side-stream surimi pangasius processors make (OQ-494); fishmeal plant list and capacity; prices by grade.
+- **Sources.** [@FM-37; @FM-38; @FM-44; @FS-48; @FS-49; @FS-50; @MAC-15; @MAC-45; @RD-52; @SLS-10]
 
 ### C27. Aquaculture effluent
 
@@ -535,7 +539,7 @@ These streams are context. They are the feed behind the meat, eggs and farmed fi
 | 1 | Cassava pulp gate price, and the split between wet sale, drying, biogas and dumping | Sets the carbon cost of the largest residue | Call 3 to 5 Tay Ninh factories (for example Dinh Khue, Hung Duy Group) and the Son La Starch Factory; read the Vietnam Cassava Association weekly bulletins in a browser |
 | 2 | A Vietnamese pulp material balance (wet and DM per t of roots) | Our 6 Mt rests on a Thai ratio | Sample 10 or more factories across a season; a small university project |
 | 3 | National starch output including domestic use | Pulp scales with starch, not exports | MOIT industrial statistics; NSO main industrial products tables; Vietnam Cassava Association |
-| 4 | Beer volume for 2024 and 2025, rice-adjunct share, brewery gate prices for spent grain | Spent-grain volume is an upper bound | NSO output of "bia các loại"; Vietnam Beer-Alcohol-Beverage Association; Heineken and Sabeco sustainability reports; ask Entobel about its feedstock |
+| 4 | Beer volume for 2024 and 2025, rice-adjunct share, brewery gate prices for spent grain | Spent-grain volume is an upper bound | NSO output of "bia các loại"; Vietnam Beer-Alcohol-Beverage Association; Heineken and Sabeco sustainability reports |
 | 5 | Molasses volume, flows and bulk price | Molasses is a contested fermentation carbon | Vietnam Sugarcane and Sugar Association; TTC AgriS and QNS annual reports; buyers (Vedan, Ajinomoto) |
 | 6 | Broken-rice volume and uses | A clean food-grade carbon at near-rice price | Vietnam Food Association |
 | 7 | Seafood by-product volumes and fishmeal plants | Sets the domestic animal-protein competitor | VASEP; Vinh Hoan and other pangasius exporters' annual reports; MAE fisheries department |

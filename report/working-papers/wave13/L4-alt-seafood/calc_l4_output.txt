@@ -1,0 +1,44 @@
+1. Mirror imports from Viet Nam (partner-reported), HS 030499 and 160420
+  2024 China          030499 USD  40.03 m    19095.2 t  USD  2.10/kg
+  2024 China          160420 USD   0.37 m       65.2 t  USD  5.72/kg
+  2024 Japan          030499 USD  47.97 m    15283.9 t  USD  3.14/kg
+  2024 Japan          160420 USD  28.12 m     3316.5 t  USD  8.48/kg
+  2024 Korea          030499 USD  77.23 m    47653.6 t  USD  1.62/kg
+  2024 Korea          160420 USD   4.73 m      980.0 t  USD  4.83/kg
+  2024 Thailand       030499 USD  74.22 m    33672.6 t  USD  2.20/kg
+  2024 Thailand       160420 USD   0.32 m       67.0 t  USD  4.82/kg
+  2024 United States  030499 USD   9.39 m     1337.7 t  USD  7.02/kg
+  2024 United States  160420 USD  16.43 m     3661.1 t  USD  4.49/kg
+  2025 China          030499 USD  57.90 m    26277.0 t  USD  2.20/kg
+  2025 China          160420 USD   0.53 m       91.2 t  USD  5.78/kg
+  2025 Japan          030499 USD  57.33 m    17529.7 t  USD  3.27/kg
+  2025 Japan          160420 USD  24.45 m     2928.0 t  USD  8.35/kg
+  2025 Korea          030499 USD  82.22 m    49311.8 t  USD  1.67/kg
+  2025 Korea          160420 USD   6.03 m     1255.7 t  USD  4.80/kg
+  2025 Thailand       030499 USD  79.50 m    35422.5 t  USD  2.24/kg
+  2025 Thailand       160420 USD   0.37 m       91.8 t  USD  4.02/kg
+  2025 United States  030499 USD   7.23 m     1148.4 t  USD  6.30/kg
+  2025 United States  160420 USD  16.11 m     4069.9 t  USD  3.96/kg
+  2024 Korea+Thailand+China HS 030499: USD 191.5 m, 100421.4 t, USD 1.91/kg
+  2025 Korea+Thailand+China HS 030499: USD 219.6 m, 111011.3 t, USD 1.98/kg
+
+2. Viet Nam reported 2023 exports
+  030493 USD 12.8 m 2872.1 t USD 4.44/kg
+  030494 USD 0.1 m 44.2 t USD 3.13/kg
+  030499 USD 404.6 m 138182.7 t USD 2.93/kg
+  160420 USD 97.7 m 18662.4 t USD 5.24/kg
+
+3. Cost per kg of protein: tropical surimi against soy protein isolate (our calculation)
+  protein share of surimi dry matter (Huda 2000): 0.758
+  frozen surimi protein at 20 to 25% dry matter (assumption): 0.152 to 0.189
+  surimi USD per kg protein: 8.8 to 14.8
+  soy isolate USD per kg protein: 1.96 to 2.44
+  ratio surimi/isolate: 3.6 to 7.5
+  substitution 10%: protein-cost saving 7.2% to 8.7%
+  substitution 20%: protein-cost saving 14.5% to 17.3%
+  substitution 30%: protein-cost saving 21.7% to 26.0%
+
+4. Pangasius price gap to cultivated cost (our calculation)
+  pangasius farm gate USD 1.02 to 1.15/kg (FM-11, Dec 2024)
+  pangasius retail fillet USD 3.85 to 4.49/kg (DPP-008, DPP-009)
+  Humbird USD 37 to 51/kg wet cells = 32 to 50 x farm gate; 8 to 13 x retail fillet

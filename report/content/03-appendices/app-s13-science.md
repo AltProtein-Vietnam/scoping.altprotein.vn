@@ -27,7 +27,7 @@ Most of the evidence here is global. Vietnamese data exist only for a few famili
 
 The study concentrates on protein for people. Many published trials of new proteins are in shrimp and fish feed. We keep them as context and as the record: they show how far a protein has been tested, not a recommended use.
 
-> **Method note.** The core of this appendix is the wave 2 science review: 48 sources found and read through the Scite literature database, recorded in `science_facts.csv` (43 claims, each with a DOI, a full-text flag and a retraction check). Every paper cited from that review was checked for editorial notices; none carries a retraction, correction or expression of concern. One withdrawn preprint seen in passing is not used. We add techno-economic analyses (TEAs) from the wave 1 cost review (`tea_benchmarks.csv`), feed replacement trials from the wave 2 feed-market review (`replacement_trials.csv`), the Vietnamese research record from wave 1 and the wave 2 bibliometric counts. Where only an abstract was read, confidence is at most Medium. Claims that the science review found unsupported are listed in section S13.15 and are not used anywhere else.
+> **Method note.** The core of this appendix is the wave 2 science review: 48 sources found and read through the Scite literature database, recorded in `science_facts.csv` (42 active claims, each with a DOI, a full-text flag and a retraction check). Every paper cited from that review was checked for editorial notices; none carries a retraction, correction or expression of concern. One withdrawn preprint seen in passing is not used. We add techno-economic analyses (TEAs) from the wave 1 cost review (`tea_benchmarks.csv`), feed replacement trials from the wave 2 feed-market review (`replacement_trials.csv`), the Vietnamese research record from wave 1 and the wave 2 bibliometric counts. Where only an abstract was read, confidence is at most Medium. Claims that the science review found unsupported are listed in section S13.14 and are not used anywhere else.
 
 ## S13.1 Overview: where each family stands in 2026
 
@@ -47,7 +47,6 @@ Some terms recur. DIAAS (Digestible Indispensable Amino Acid Score) and the olde
 | Seaweed | Not reviewed in depth in this study | none | 3 to 5 small feed studies | none |
 | Mushrooms and mycelium | Mycelium foods approved in Singapore | 4 mycelium or Neurospora approvals in Singapore (5 fungal biomass approvals including Rhizomucor) | Moderate for cultivation; thin for food protein | [@RGN-04] {VN-adjacent\|High} |
 | Cultivated meat and seafood | Approvals exist; cost and density far from food economics | Up to 130 million cells/mL (chicken, animal-free medium) | No fish or shrimp cell line developed in Vietnam | [@SCI-16; @RGN-04] {general\|Medium} |
-| Insects (benchmark) | Commercial in feed; limited fishmeal replacement in shrimp | 20% fishmeal replacement without loss in shrimp | Thin to moderate (feeding trials) | [@SCI-27] {general\|High} |
 | Tropical fermentation | Thermotolerant strains documented; cooling saving not measured | 36 to 46 g/L yeast at 40 C on raw cassava starch | Tropical Fermentation Network links | [@SCI-44] {VN-adjacent\|High} |
 | AI in R&D | Not reviewed in this study | none | none found | none |
 
@@ -66,6 +65,8 @@ Some terms recur. DIAAS (Digestible Indispensable Amino Acid Score) and the olde
 - **Products.** Replacing 10 to 15% of meat with germinated mung bean flour was accepted in sausage (doi:10.1111/ijfs.17089); mangosteen peel extract extended the shelf life of soy burgers (doi:10.17113/ftb.63.01.25.8629) [@RD-26; @RD-27] {VN-direct|High}. A 2026 review of plant-based fish analogues has a Vietnamese first author at Duy Tan University, Da Nang (affiliation from OpenAlex, not checked on the paper) [@RD-66; @HSC-01] {VN-direct|Low}.
 - **Counts.** The OpenAIRE query for plant-based meat returned 9 Vietnam-tagged records for 2015 to September 2026; we first judged about 6 to be on topic. One of them, a 2025 study of the texture of meat-analogue extrudates (doi:10.1093/ijfood/vvae080), is Taiwan-led, but its first author is also at Can Tho University of Technology, so about 6 remain on topic [@BIB-01; @HSC-01] {VN-direct|Medium}.
 - **Equipment.** We found no extruder for food texturisation on the pages of pilot facilities we read; the Vietnamese literature holds one or two extrusion-related papers (2025 to 2026) [@RD-01; @RD-07; @TIC-21] {VN-direct|Medium}. No local maker of extruders was confirmed, and the Vietnam presence of the main foreign vendors could not be verified [@INF-27] {VN-direct|Medium}.
+- **Thailand is the nearest trial route.** An OpenAlex query (October 2026) counts 3 Vietnam-affiliated papers on extrusion, high-moisture or shear-cell texturisation of meat analogues from 2015 to 2026, against 31 Thai papers. These are query counts on a different basis from the counts above [@SLP-07] {VN-direct|Medium}. The Thai work includes high-moisture extrusion of mung bean protein at the National Metal and Materials Technology Center (MTEC) [@SLP-06] {VN-adjacent|Medium}. So Thai public extrusion capacity is the nearest place to trial high-moisture work for play T1 and mung bean texturisation for play T10 (our inference).
+- **Local-crop proteins are studied for bioactivity, not function.** Vietnamese work since 2015 on broken rice, rice bran, black sesame meal, and mung bean and other bean hydrolysates is laboratory-scale. It focuses on extraction yield and bioactivity (for example antioxidant effects) more than the functions buyers specify, such as gelling or heat stability [@SLP-01; @SLP-02; @SLP-03; @SLP-04; @SLP-07] {VN-direct|Medium}.
 
 ### S13.2.3 What it means for Vietnam
 
@@ -230,7 +231,7 @@ The study no longer treats feed as something to make, so most of the points belo
 
 - A Vietnamese precision-fermentation startup using public strains would start about 5 to 14 times below the bulk-protein titre benchmark (our calculation from published titres). High-value, low-dose ingredients (heme proteins, sweet proteins, enzymes) are the only near-term fit (our inference) [@SCI-01; @SCI-04; @SCI-05] {general|Medium}.
 - OPENPichia removes one freedom-to-operate barrier for Vietnamese groups already working with *Pichia*; product-specific patents (for example on leghemoglobin constructs) still apply [@SCI-08] {general|High}.
-- *K. marxianus* links precision fermentation to thermotolerance (section S13.13), which suits Vietnam's climate [@SCI-04; @SCI-44] {general|High}.
+- *K. marxianus* links precision fermentation to thermotolerance (section S13.12), which suits Vietnam's climate [@SCI-04; @SCI-44] {general|High}.
 - Legally, a precision-fermented protein is probably a "product of a GMO" in Vietnam, and a plant using a GM strain needs MAE's closed-production certificate [@REG2-11] {VN-direct|Medium}. See [[app-s9-regulation]].
 
 > **Correction.** Earlier drafts treated ">50 g/L" as a derived techno-economic threshold. It is an expert assertion in a review, repeated by the same authors; we found no cost model behind it in either paper [@SCI-01; @SCI-02] {general|Medium}. The highest published leghemoglobin titre we found is now 10.1 g/L (Chen et al. 2026), superseding the 7.27 g/L of Tian et al. 2024 [@SCI-04; @SCI-05] {general|High}. OPENPichia is "licence-free" only in a loose sense: users accept a liberal licence [@SCI-08] {general|High}. The *T. reesei* paper of Aro et al. is in *Food Research International* 163 (2023), online November 2022; its abstract reports 1 g/L beta-lactoglobulin and 2 g/L ovalbumin [@SCI-06] {general|Low}.
@@ -240,7 +241,7 @@ The study no longer treats feed as something to make, so most of the points belo
 ### S13.7.1 State of the science in 2026
 
 - No DIAAS for microalgal biomass was available as of a 2021 review [@SCI-39] {general|Medium}. We did not verify spirulina protein content or digestibility in this study.
-- In a whiteleg shrimp digestibility screen at 30% of the test diet, *Chlorella* did not reduce growth, while methanotroph meal and insect meals did [@SCI-23] {general|High}.
+- In a whiteleg shrimp digestibility screen at 30% of the test diet, *Chlorella* did not reduce growth, while methanotroph meal did [@SCI-23] {general|High}.
 - Singapore has approved two *Chlamydomonas reinhardtii* algae biomass ingredients from Triton Algae Innovations (2019 and 2022) [@RGN-04] {VN-adjacent|High}.
 
 ### S13.7.2 Vietnamese evidence
@@ -291,12 +292,16 @@ The study no longer treats feed as something to make, so most of the points belo
 
 ### S13.11.1 State of the science in 2026
 
-- **Cell lines for Vietnamese species.** Striped catfish (*Pangasianodon hypophthalmus*, Vietnamese *tra*) cell lines exist in India, at the National Bureau of Fish Genetic Resources of the Indian Council of Agricultural Research (ICAR-NBFGR): a thymus line, PHT (accession NRFC-078; 52 passages; L-15 medium with 20% fetal bovine serum; 28 C; epithelial) (doi:10.56093/ijans.v93i2.128796), a gill line (2022, authors at ICAR-CIFE, doi:10.1007/s10695-022-01053-9) and a caudal fin line (2018, doi:10.1016/j.actatropica.2018.03.015). A skin epithelial line was published from Taiwan in 2025. All were built for virology and toxicology, not food [@SCI-10; @SCI-11; @SCI-46; @SCI-47] {VN-adjacent|Medium}.
-- **Shrimp.** "PmLyO-Sf9" is a black tiger shrimp lymphoid cell x insect Sf9 hybrid from Cochin University of Science and Technology (CUSAT), used for virus work (doi:10.1016/j.fsi.2021.03.023). It contains insect genetic material. We found no true continuous shrimp cell line in the literature [@SCI-12; @SCI-13] {general|High}.
+- **Cell lines for Vietnamese species.** Striped catfish (*Pangasianodon hypophthalmus*, Vietnamese *tra*) cell lines exist in India, at the National Bureau of Fish Genetic Resources of the Indian Council of Agricultural Research (ICAR-NBFGR): a thymus line, PHT (accession NRFC-078; 52 passages; L-15 medium with 20% fetal bovine serum; 28 C; epithelial) (doi:10.56093/ijans.v93i2.128796), a gill line (2022, authors at ICAR-CIFE, doi:10.1007/s10695-022-01053-9) and a caudal fin line (2018, doi:10.1016/j.actatropica.2018.03.015). A skin epithelial line was published from Taiwan in 2025. All were built for virology and toxicology, not food [@SCI-10; @SCI-11; @SCI-46; @SCI-47] {VN-adjacent|Medium}. Gill-line papers of 2021 and 2022 appear by title; the line's name is still not confirmed [@SLS-13] {VN-adjacent|Low}.
+- **Food-oriented lines for other fish farmed in Vietnam.** An immortalised muscle cell line of seven-band grouper (Pukyong National University, Korea, 2024) was characterised for cultured seafood, including taste and flavour. Asian seabass muscle and fin lines (Thiruvalluvar University, India, 2025) were used to make small amounts of lab-grown fish meat and micro-tissue on scaffolds. We read these papers as metadata only (titles and authors), so the details are unchecked [@SLS-14; @SLS-15; @SLS-16] {general|Low}. Title searches in OpenAlex found no food-relevant line for striped catfish, snakehead, tilapia or shrimp [@SLS-13] {general|Medium}.
+- **Shrimp.** "PmLyO-Sf9" is a hybrid of black tiger shrimp lymphoid cells and Sf9, a moth cell line, from Cochin University of Science and Technology (CUSAT), used for virus work (doi:10.1016/j.fsi.2021.03.023). It is partly derived from a moth cell line. We found no true continuous shrimp cell line in the literature [@SCI-12; @SCI-13] {general|High}.
 - **Density limits (Humbird 2021, doi:10.1002/bit.27848).** Absolute maximum 258 g/L of wet cells; 110 g/L in fed-batch before ammonia inhibition; 140 g/L with one perfusion filter; 195 g/L oxygen-limited. With inefficient metabolism, inhibition caps density at 7 to 20 g/L. The conclusion is that economics "would likely preclude" affordability as food [@SCI-14] {general|High}.
 - **Best documented animal-free result.** Chicken cells reached up to 130 million cells/mL (reported as a 43% w/v yield) with repeated harvests over 20 days, in animal-component-free medium costing USD 0.63 per litre; the same paper models USD 6.2 per lb (about USD 13.67/kg) for a 50,000 L perfusion facility (Pasitka et al. 2024, doi:10.1038/s43016-024-01022-w) [@SCI-16] {general|Medium}. A 2025 review of this work gives 28 million cells/mL and a 38% cut in medium cost [@SCI-17] {general|Low}. The 43% w/v yield is above Humbird's modelled 140 to 195 g/L; the bases may differ and we have not reconciled them. No comparable data exist for fish or shrimp cells.
-- **Growth factor cost depends on the price assumption.** Humbird models growth factors at only USD 3 to 4 per kg of wet cells at 100,000 t/yr, assuming bulk recombinant prices [@SCI-14] {general|High}. At current prices, growth factors can be up to 95% of serum-free medium cost, and medium about 98% of raw-material cost at scale (preprint citing Semper and Savchenko 2023 for the 95% and Negulescu et al. 2023 for the 98%) [@SCI-15] {general|Medium}. Both are true; they describe different futures (DG-104).
+- **Growth factor cost depends on the price assumption.** Humbird models growth factors at only USD 3 to 4 per kg of wet cells, assuming bulk recombinant prices at 100,000 t a year of world output (not plant size) [@SCI-14] {general|High}. In the same model, amino acids cost about USD 19 per kg of cells, so they, not growth factors, are the larger medium cost at scale [@COST-47] {general|High}. At current prices, growth factors can be up to 95% of serum-free medium cost, and medium about 98% of raw-material cost at scale (preprint citing Semper and Savchenko 2023 for the 95% and Negulescu et al. 2023 for the 98%) [@SCI-15] {general|Medium}. Both are true; they describe different futures (DG-104).
+- **Cheaper media: progress, not yet a solution.** Rapeseed protein isolate replaced recombinant albumin in a serum-free beef-cell medium (Beefy-R), with better growth over four passages [@SLC-03] {general|High}. Food-grade stabilisers replaced serum albumin and cut medium price by up to 73% for some cell lines (2025), and a plant and yeast hydrolysate basal medium matched a chemically defined one for cattle muscle stem cells (2026) [@SLC-04; @SLC-08] {general|Medium}. In zebrafish stem cells, plant, yeast and algal hydrolysates supported growth only alongside 1 to 2.5% serum [@SLC-02] {general|Medium}. None of this yet adds up to a cheap serum-free medium for food cells.
 - **Production cost models.** Humbird: USD 37/kg of wet cell mass in fed-batch (24 x 20 m3 reactors, 6.8 kt/yr) and USD 51/kg in perfusion, with USD 663 million of capital for 6.9 kt/yr [@COST-47] {general|High}. A 2022 estimate of USD 63/kg at 540 t/yr is known only through a 2026 review [@COST-49] {general|Low}.
+- **Humbird's own affordability test is not met.** His target is about USD 25 per kg of bulk cells, about USD 50 per kg at the shelf. Both base cases exceed it. Only fed-batch with a USD 2 per kg protein hydrolysate in place of amino acids (USD 22 per kg) gets under it, and he says suitable hydrolysates do not exist today. Both cases also assume a cell line with much more efficient metabolism than a wild-type line [@COST-47] {general|High}.
+- **Against Vietnamese retail meat.** Factory cost is 7 to 15 times the shop price of lean pork or chicken breast, but that compares a factory cost with a shop price. Shelf to shelf, on Humbird's doubling from bulk cells to shelf, the gap is about 15 to 29 times (our calculation; inputs in [[app-s12-costs]], S12.11) {VN-direct|Low}.
 - **Approvals.** Singapore lists six cultivated products, including cultivated duck (April 2026) and Singapore's first cultivated beef (July 2026) [@RGN-04] {VN-adjacent|High}. The US Food and Drug Administration (FDA) has completed five cultivated-cell consultations, including Wildtype's coho salmon on 28 May 2025, the first cultivated seafood cleared in the US [@RGN-03] {general|High}. See [[app-s3-regional]].
 
 ### S13.11.2 Vietnamese evidence
@@ -304,52 +309,59 @@ The study no longer treats feed as something to make, so most of the points belo
 - Vietnam already expresses some of the costliest ingredients of cell culture media, but not for food: FGF-2, KGF/FGF7 and PDGF-BB in *Pichia* at VNU-HCM [@SCI-15; @RD-36; @RD-37; @RD-38] {VN-direct|Medium}.
 - Vinmec tested four commercial serum-free and xeno-free kits for cord-blood mesenchymal stem cells; only one worked (doi:10.1186/s13287-021-02694-y) [@RD-39] {VN-direct|High}. Other work compares fetal bovine serum with serum-free long-term culture [@RD-40] {VN-direct|High}.
 - The only livestock stem-cell paper found is on porcine female germline stem cells (2019) [@RD-42] {VN-direct|High}. The only Vietnamese cultivated-meat paper is a 2024 legal analysis of EU and Singapore rules [@RD-43] {VN-direct|High}.
+- **Laboratory work outside journals.** The tissue-engineering and biomedical-materials laboratory at the University of Science, Vietnam National University Ho Chi Minh City (HCMUS) biopsied beef, cultured the cells and 3D-bioprinted a scaffold that mimics beef texture. The work was about two years old when it was announced in December 2022, and its lead called it a very early step. It rests on one press report; we found no peer-reviewed output (OQ-488) [@SLC-01] {VN-direct|Low}.
+- **Possible scaffold materials.** Vietnam makes bacterial cellulose from coconut water (*thạch dừa*, nata de coco). A 2016 VNU-HCM study used a bacterial-cellulose membrane from *Acetobacter xylinum* as a scaffold for mouse fibroblast culture [@SLC-07] {VN-direct|Medium}. GFI's solutions database also names textured plant proteins and chitosan as scaffold materials [@GSD-01] {general|Medium}. Vietnam's shrimp side streams already go partly to chitin, the raw material for chitosan ([[app-s4-feedstocks]], sheet C26).
 - We found no fish or shrimp cell line developed in Vietnam, in either database [@RD-01; @BIB-01] {VN-direct|Medium}.
 
 ### S13.11.3 What it means for Vietnam
 
 - We found no food-grade fish or shrimp cell line in Vietnam to start from [@RD-01; @BIB-01] {VN-direct|Medium}. The Indian catfish lines are a useful research tool for the same species as Vietnamese *tra*, but would need serum-free adaptation, suspension growth and muscle or fat character [@SCI-10] {VN-adjacent|High}.
-- Any shrimp cultivated-seafood claim built on PmLyO-Sf9 should be treated as misinformed: the line is part insect [@SCI-12] {general|High}.
-- The science supports "watch, do not build" for food production. Useful public research steps are serum-free adaptation of catfish cells and testing Vietnamese *Pichia* growth factors on fish cells.
+- Any shrimp cultivated-seafood claim built on PmLyO-Sf9 should be treated as misinformed: the line is partly derived from a moth cell line [@SCI-12] {general|High}.
+- The science supports "watch, do not build" for food production. Useful public research steps (play T8, [[ch26-plays]]):
+  - test low-cost hydrolysates from Vietnamese soy, rice bran or pangasius side streams as fish-cell media, the lever that brings modelled cost down most (OQ-521; we found no such test) [@COST-47] {general|High};
+  - adapt fish cells to serum-free growth, with Asian seabass or grouper as candidate target species and striped catfish as a low-cost model. This species choice rests on metadata-level evidence for the new lines (DG-384) [@SLS-14; @SLS-15; @SLS-16] {general|Low};
+  - test Vietnamese *Pichia* growth factors on fish cells.
+- **Partners.** Holders of the grouper and seabass lines abroad, with Nha Trang University or the Research Institute for Aquaculture No. 3 (RIA3) as Vietnamese hosts (OQ-496), and the HCMUS tissue-engineering laboratory as a domestic research partner [@SLS-13; @SLC-01] {VN-direct|Low}.
+- **Scaffolds.** Coconut bacterial cellulose and shrimp-shell chitosan could become scaffold inputs, but we found no cultivated-meat buyer for them. Treat them as possible future supply, not a play (OQ-489; our inference) {VN-direct|Low}.
 
-> **Correction.** Earlier drafts grouped PHT, a gill line called "PHG" and PmLyO-Sf9 as ICAR-NBFGR food-relevant lines. PHT is real (NRFC-078) but is a serum-dependent virology line [@SCI-10] {VN-adjacent|High}. A striped catfish gill line exists, but the name "PHG" is not confirmed [@SCI-11] {VN-adjacent|Medium}. PmLyO-Sf9 is a black tiger shrimp x insect hybrid from CUSAT, not ICAR-NBFGR [@SCI-12] {general|High}. The claim that growth factors dominate media cost is true only at current prices [@SCI-14; @SCI-15] {general|Medium}.
+> **Correction.** Earlier drafts grouped PHT, a gill line called "PHG" and PmLyO-Sf9 as ICAR-NBFGR food-relevant lines. PHT is real (NRFC-078) but is a serum-dependent virology line [@SCI-10] {VN-adjacent|High}. A striped catfish gill line exists, but the name "PHG" is not confirmed [@SCI-11] {VN-adjacent|Medium}. PmLyO-Sf9 is a hybrid of black tiger shrimp cells and a moth cell line, from CUSAT, not ICAR-NBFGR [@SCI-12] {general|High}. The claim that growth factors dominate media cost is true only at current prices [@SCI-14; @SCI-15] {general|Medium}.
 
-## S13.12 Insects (benchmark only)
+### S13.11.4 The nearer alternative-seafood route: fish and plant protein blends
 
-Insect protein appears in this report as an incumbent and a benchmark, not as a recommended play. The trials below are in feed, so they are context and the record.
+Cell culture is not the only route to alternative seafood, and for Vietnam it is the far one. Blends of fish and plant protein in surimi products (fish cakes, fish balls, fish tofu) are a near-term route that uses Vietnam's surimi industry. They are candidate play T11 ([[ch26-plays]], section 26.8).
 
-- **Shrimp.** Black soldier fly (BSF) larvae meal replaced 20% of fishmeal in whiteleg shrimp without growth loss; 30% reduced growth (BSF at 9.5% of the diet replaced 20% of fishmeal protein, about 5% of the diet as fishmeal; doi:10.1017/s0007114521004670) [@SCI-27] {general|High}. BSF meal had lower protein digestibility than the control in a shrimp screen [@SCI-23] {general|High}. Yellow mealworm meal replaced 50% of fishmeal with better growth and cut post-challenge mortality by 76.9% (a company-linked product; doi:10.3390/ani9050258) [@FM-26] {general|Medium}.
-- **Fish.** BSF meal replaced up to 60% of fishmeal in juvenile striped catfish (174 g/kg of diet), but 100% cut growth [@FM-22] {general|Medium}. A meta-analysis finds BSF meal can replace no more than about 30% of fishmeal, and only in some species [@FM-25] {general|Medium}. Cricket meal replaced 100% of fishmeal protein in snakehead without growth loss [@FM-23] {general|Medium}.
-- **Vietnamese evidence.** 30% BSF larvae meal gave the best result in swamp eel (feed conversion ratio 2.33) (doi:10.3390/aquacj5010007); fresh or dried BSF larvae have been tested in snakehead [@RD-54; @RD-55] {VN-direct|High}. The BSF cluster (34 Vietnam-tagged records) is led by papers on biodiesel from larval fat [@BIB-01] {VN-direct|Medium}.
-- **Industry.** Entobel's Vietnamese plants have a design capacity of 11,000 t/yr [@ECO-01; @ECO-03] {VN-direct|Medium}.
-- **What it means (context).** As a shrimp-feed benchmark, insect meal displaces only a small share of fishmeal. Microbial proteins such as CAP match or exceed it on digestibility [@SCI-23; @SCI-27] {general|High}. Many of the gains claimed for novel proteins in shrimp are functional (survival, palatability) rather than protein supply [@FM-20; @FM-26; @FM-45] {general|Medium}.
+- **The blend science is mature.** An OpenAlex query found 111 papers since 2018 on plant proteins in surimi gels, none with a Vietnamese affiliation [@SLS-08] {general|Medium}. In one study, sensory panels rejected surimi gels at 30% replacement of the fish protein with wheat or rice protein and at 40% with soy or pea protein; gel strength and whiteness fell as replacement rose [@SLS-07] {general|Medium}.
+- **Vietnamese work stops short of protein substitution.** Vietnamese fish-cake research already adds starch and fat (about 10% each) [@SLS-25] {VN-direct|Medium}. We found no Vietnamese study that replaces a share of the fish protein with plant protein [@SLS-06] {VN-direct|Medium}.
+- **A plant fish cake has about half the carbon footprint in a neighbouring market.** A Singapore life cycle assessment (LCA) found 8.94 kg CO2 eq per kg for a surimi fish cake, of which surimi was 76.1%, against 4.11 to 5.36 kg for a brown rice protein fish cake, depending on where the rice came from [@SLS-12] {VN-adjacent|Medium}. Rice protein links this to play T10.
+- **The largest buyer market is moving the other way.** Korea's largest fish-cake maker opened a 40 t a day plant in June 2026 and is focusing on premium products with 80% or more fish meat [@SLS-11] {general|Medium}. A hybrid with a lower, labelled fish share has to win buyers who are not asking for it (OQ-491, OQ-493).
+- **Cultivated or fermentation-made surimi is not for Vietnam.** Vietnamese frozen surimi sold for USD 1.67 to 2.24 per kg in 2025, far below any modelled cultivated cost [@SLS-05; @COST-47] {VN-direct|Medium}.
 
-## S13.13 Tropical fermentation
+## S13.12 Tropical fermentation
 
-### S13.13.1 State of the science in 2026
+### S13.12.1 State of the science in 2026
 
 - ***Kluyveromyces marxianus* SS106**, isolated from Thai cassava pulp and starch-factory soil, grows at 35 to 45 C. On raw cassava starch at 40 C in 5 L stirred tanks it reached 39.3 g/L of cell dry weight (3.28 g/L/h) in a single batch and 36 to 46 g/L in repeated batches. The authors chose 40 C over 42 C to save energy (doi:10.3390/pr8080898) [@SCI-44] {VN-adjacent|High}.
 - The genome of *K. marxianus* DMKU 3-1042 points to candidate mechanisms for its thermotolerance. High-temperature fermentation is "expected" to reduce cost, but we found no published study that quantifies the cooling cost saved in a tropical plant (doi:10.1186/s13068-015-0227-x) [@SCI-45] {general|Medium}.
 - *K. marxianus* is also a precision-fermentation host (leghemoglobin at 7 to 10 g/L), and *C. utilis* tolerates up to 41 C [@SCI-04; @SCI-05; @SCI-22] {general|High}.
 
-### S13.13.2 Engineering benchmarks
+### S13.12.2 Engineering benchmarks
 
 - Aerobic growth releases about 460 kJ per mol of oxygen consumed, and cooling water is 4 to 8 times cheaper than chilled water per unit of heat (Roels 1983 and Towler and Sinnott 2013, as cited) [@COST-50] {general|Medium}. A simulated German baker's yeast plant with 7 x 150 m3 reactors releases about 11 MW of heat on average [@COST-52] {general|High}. A temperate design case uses 0.56 kW of compressor power per ton of refrigeration [@COST-51] {general|High}.
 - **Our indicative cooling penalty for southern Vietnam** is about 0.7 to 1.35 kWh per kg of dry biomass, plus chiller capex: about USD 70 to 180 per tonne of dry biomass, or roughly 2 to 4% of the indicative cost of fungal biomass protein in cost stack A of [[app-s12-costs]] (1 to 8% at the extremes). This is our calculation from general engineering rules and an assumed design wet-bulb temperature, not a published measurement [@COST-50; @COST-51; @COST-52] {VN-direct|Low}. Vietnamese manufacturing power costs about USD 0.073 to 0.081 per kWh for a plant running 24 hours a day (our calculation from the 2026 tariff, 110 kV and above to under 6 kV, at 26,000 VND per USD; see [[app-s12-costs]]) [@COST-01; @COST-03] {VN-direct|Medium}.
 
-### S13.13.3 Vietnamese evidence
+### S13.12.3 Vietnamese evidence
 
 - The Tropical Fermentation Network, supported by the Erasmus+ AsiFood project, links HUST with French and Southeast Asian partners on starters, safety and by-product valorisation (doi:10.3389/fmicb.2018.02278) [@RD-56] {VN-direct|Medium}.
 - We found no Vietnamese measurement of fermentation cooling energy [@SCI-45; @COST-50] {VN-direct|Medium}.
 
-### S13.13.4 What it means for Vietnam
+### S13.12.4 What it means for Vietnam
 
 - At least one thermotolerant strain (SS106) for 40 to 45 C fermentation has been shown on cassava starch [@SCI-44] {VN-adjacent|High}. Design for thermotolerant strains or hybrid cooling from day one.
 - One call to a Vietnamese yeast or MSG (monosodium glutamate) plant for its chiller energy per m3 of broth would replace our estimate with a measurement.
 
 > **Correction.** An earlier draft claimed that tropical cooling "may offset" Vietnam's power-cost advantage. Our estimate is that the extra cooling electricity is real (about half to 1.7 times the plant's other electricity use) but electricity is a small share of total cost, so the overall effect is about 2 to 4% of the cost of fungal biomass protein and avoidable with thermotolerant strains [@COST-50; @COST-51] {VN-direct|Low}. See DG-088.
 
-## S13.14 AI in research and development
+## S13.13 AI in research and development
 
 - **State of the evidence.** This study did not review the literature on artificial intelligence (AI) in protein design, strain engineering or formulation. We make no claim about its state of the art.
 - **Money.** The Bezos Earth Fund's Future of Food programme has committed USD 1 billion and lists 23 grants worth USD 194.8 million, several on AI for alternative protein (for example taste prediction, protein design and plant protein chemistry); we found no open call [@CAP-61] {general|Medium}.
@@ -357,7 +369,7 @@ Insect protein appears in this report as an incumbent and a benchmark, not as a 
 - **Vietnamese capacity.** VINIF, Vingroup's research foundation, gives priority to big data in its project funding [@RD-05] {VN-direct|Medium}. We found no Vietnamese publication applying AI to alternative-protein R&D.
 - **What it means.** AI tools may shorten strain and formulation development, but we have no evidence in this study to size the effect. Treat AI claims in pitches as unverified until backed by published or audited results.
 
-## S13.15 Corrections to earlier claims
+## S13.14 Corrections to earlier claims
 
 This table collects every science claim from earlier drafts that the wave 2 review checked. Claims marked "Unsupported" or "Wrong" are not used anywhere in the report. Conflicts are logged in [[app-r2-disagreements]].
 
@@ -370,8 +382,9 @@ This table collects every science claim from earlier drafts that the wave 2 revi
 | OPENPichia is "licence-free" | Partly right | Liberal licence with royalty-free commercial manufacture | [@SCI-08] {general\|High} | none |
 | ICAR-NBFGR striped catfish thymus line PHT | Right | NRFC-078; a serum-dependent virology line, not a food line | [@SCI-10] {VN-adjacent\|High} | none |
 | ICAR-NBFGR gill line "PHG" | Partly right | A gill line exists (2022; authors at ICAR-CIFE, Mumbai, per OpenAlex); the name is not confirmed | [@SCI-11] {VN-adjacent\|Medium} | none |
-| PmLyO-Sf9 shrimp line, grouped with ICAR-NBFGR | Partly wrong | Black tiger shrimp x insect hybrid from CUSAT; not a shrimp food cell line | [@SCI-12] {general\|High} | none |
+| PmLyO-Sf9 shrimp line, grouped with ICAR-NBFGR | Partly wrong | Hybrid of black tiger shrimp cells and a moth cell line, from CUSAT; not a shrimp food cell line | [@SCI-12] {general\|High} | none |
 | Growth factors dominate cultivated-meat media cost | Depends on price assumption | Up to 95% of medium cost today; USD 3 to 4/kg in Humbird's scaled model | [@SCI-14; @SCI-15] {general\|Medium} | DG-104 |
+| Cultivated meat costs 7 to 15 times retail meat in Vietnam (wave 13 check) | Right, but not like for like | The ratio sets a factory-gate cost against a shop price. Shelf to shelf, on Humbird's own doubling, the gap is about 15 to 29 times (our calculation, S12.11 of [[app-s12-costs]]) | [@COST-47; @COST-39; @COST-40] {VN-direct\|Low} | none |
 | 118.5 g/L *A. oryzae* biomass on vinasse (Karimi et al. 2019) | Wrong as a titre | Probably per litre of undiluted vinasse, about 5.9 g/L in the flask; do not use | [@SCI-18] {general\|High} | DG-105, DG-106 |
 | *A. oryzae* metabolite burden (CPA, kojic acid, 3-NPA, aflatoxin) | Partly right | No aflatoxin; CPA and 3-NPA real; kojic acid not a mycotoxin | [@SCI-19] {general\|High} | none |
 | Mycoprotein RNA must fall below 1% | Source conflict | Primary study: about 10% to about 2% of dry weight after heat treatment | [@SCI-20; @SCI-21] {general\|Medium} | DG-107 |
@@ -387,7 +400,7 @@ This table collects every science claim from earlier drafts that the wave 2 revi
 | A single "capex per m3" can be borrowed from a TEA | Wrong | Capex per m3 differs about 7-fold between verified TEAs (about USD 51,000 vs 350,000 per m3) | [@COST-43; @COST-44] {general\|High} | DG-087 |
 | China holds "70% of world fermentation capacity" | Unsupported | Even the GFI China report author could not verify it; do not use | [@RGN-24] {general\|Low} | DG-080 |
 
-## S13.16 Techno-economic benchmarks used in this appendix
+## S13.15 Techno-economic benchmarks used in this appendix
 
 All values are from `tea_benchmarks.csv`. They are global models, mostly for US or European sites, and are not Vietnamese costs. Capex per annual tonne is our derivation from the verified inputs [@COST-43; @COST-44; @COST-47] {general|High}.
 
@@ -400,10 +413,11 @@ All values are from `tea_benchmarks.csv`. They are global models, mostly for US 
 | SCP on renewable electricity | Protein cost at optimal sites | EUR 5.5 to 6.1/kg (2028); EUR 2.1 to 2.3/kg (2050) | projections | doi:10.1038/s41467-025-56364-1 [@COST-46] {general\|High} |
 | Cultivated meat, fed-batch | Cost of wet cell mass | USD 37/kg | about 2020, US | doi:10.1002/bit.27848 [@COST-47] {general\|High} |
 | Cultivated meat, perfusion | Cost; capex | USD 51/kg; USD 663 million for 6.9 kt/yr (about USD 96,000 per annual t wet) | about 2020, US | [@COST-47] {general\|High} |
+| Cultivated meat, fed-batch with hydrolysate media | Cost of wet cell mass | USD 22/kg, with a USD 2/kg hydrolysate in place of amino acids; the author's affordability target is about USD 25/kg | about 2020, US | [@COST-47] {general\|High} |
 | Precision-fermented food proteins | Peer-reviewed TEA | None verified | n/a | wave 1 cost review |
 | Plant protein isolate, high-moisture extrusion | Capex and opex | None verified | n/a | wave 1 cost review |
 
-The H2 and CO2 row rests on an abstract only; the others on full text or main excerpts.
+The H2 and CO2 row rests on an abstract only; the others on full text or main excerpts. For Humbird 2021 we read the results, conclusion and acknowledgements in full (wave 13): Open Philanthropy, now Coefficient Giving, funded it [@COST-47] {general|High}.
 
 ## Gaps and how to close them
 
@@ -426,12 +440,14 @@ Gaps 4, 8 and 9 concern feed. We keep them as the record, but closing them is no
 | 13 | Peer-reviewed TEA for precision-fermented food proteins | GFI APAC cost analyses; capacity reports; company data |
 | 14 | AI in alternative-protein R&D | A dedicated literature review and a call for Vietnamese examples |
 | 15 | The mycoprotein TEA re-run with Vietnamese inputs | Re-run the open model from Risner et al. 2023 with `cost_inputs.csv` |
+| 16 | Full text of the grouper and Asian seabass muscle-line papers (read so far as metadata only) | Read the open-access copy of the seabass micro-tissue paper; ask the authors whether they would share a line with a Vietnamese host (OQ-496) |
+| 17 | Whether a Vietnamese side-stream hydrolysate can replace most amino acids in a fish-cell medium | A literature check, then a bench test with a fish cell line (OQ-521) |
 
 ## Related data files
 
-- `science_facts.csv`: the 43 checked science claims behind sections S13.3 to S13.13, with DOI, full-text flag and retraction check.
-- `tea_benchmarks.csv`: the 25 techno-economic benchmarks behind section S13.16 (see [[app-s12-costs]]).
-- `replacement_trials.csv`: the 20 feed replacement trials behind sections S13.5 and S13.12 (see [[app-s6-feed-market]]).
+- `science_facts.csv`: the 42 active checked science claims behind sections S13.3 to S13.12, with DOI, full-text flag and retraction check.
+- `tea_benchmarks.csv`: the 25 techno-economic benchmarks behind section S13.15 (see [[app-s12-costs]]).
+- `replacement_trials.csv`: the 12 active feed replacement trials behind section S13.5 (see [[app-s6-feed-market]]).
 - `publications.csv`: Vietnam-affiliated publications, including those cited here (see [[app-s7-research]]).
 - `biblio_counts.csv`: OpenAIRE counts by topic and country.
 - `cost_inputs.csv`: Vietnamese input costs used in the indicative cost estimates.

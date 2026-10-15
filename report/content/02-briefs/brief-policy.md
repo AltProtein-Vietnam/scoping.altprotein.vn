@@ -61,7 +61,7 @@ Three options lead. They are cheap and time-critical (2026 to 2027): the new-foo
 | 3 | Novel-food decree: "not novel" determination, traditional-food lane, reliance lane, recognised assessment units, public positive list | MOH; Government | Medium | Drafting Q4 2026 |
 | 4 to 9 | Hanoi sandbox pilot; closed-production certificate guidance; high-tech tax guidance; shared food-grade pilot fermentation line; capital grants over tax holidays; fund priorities | MOST, MAE, MOF, cities | Low to High | 2027 to 2028 |
 
-Ranks 10 to 19 include protein-quality testing, a by-product atlas, allergen and naming rules, and transition rules. All 33 options in the register, with instruments and precedents: [[ch27-policy-options]].
+Ranks 10 to 19 include protein-quality testing, a by-product atlas, allergen and naming rules, and transition rules. All 34 options in the register (19 ranked; PO-034, added in v0.10, is not yet ranked), with instruments and precedents: [[ch27-policy-options]].
 
 {{chart:chart-policy-effort-impact}}
 

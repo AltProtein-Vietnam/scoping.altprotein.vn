@@ -190,7 +190,7 @@ All values are our assumptions for the years shown {VN-direct|Low} {fx:estimate}
 | Fermented share of the food substitute | n/a | n/a | n/a | 30%, 35%, 40%, 50% | BLA-211 to BLA-214 |
 
 Shared by all: population, SSR, dressing yields, export shares, compound shares, domestic maize output (4.1 Mt), non-feed maize (1.61 Mt) and yields abroad.
-- **S-ALT shares are what-if levels, not targets.** The 40% fishmeal share by 2050 sits within trials that replaced 25 to 60% of fishmeal without growth loss ([[app-s6-feed-market]], section S6.9) [@FM-08; @FM-17; @FM-22] {general|Medium}. The 10% SBM share by 2050 implies large cost falls or policy support: at 2026 costs microbial feed protein costs 4.6 to 5.1 times SBM protein (our calculation in [[ch09-economics]] and [[app-s6-feed-market]], from the fungal feed-protein cost stack and the World Bank soybean-meal price [@FM-01]) {VN-direct|Low} {fx:estimate}.
+- **S-ALT shares are what-if levels, not targets.** The 40% fishmeal share by 2050 sits within trials that replaced 25 to 60% of fishmeal without growth loss ([[app-s6-feed-market]], section S6.9) [@FM-08; @FM-17] {general|Medium}. The 10% SBM share by 2050 implies large cost falls or policy support: at 2026 costs microbial feed protein costs 4.6 to 5.1 times SBM protein (our calculation in [[ch09-economics]] and [[app-s6-feed-market]], from the fungal feed-protein cost stack and the World Bank soybean-meal price [@FM-01]) {VN-direct|Low} {fx:estimate}.
 - **S-HIGH is a stress case,** not a central view.
 - **A combined S-EFF plus S-ALT case was not modelled,** so we give no number for it. The two act through different channels and add up.
 
@@ -275,7 +275,6 @@ Other S-BASE outputs: eggs 235 per person (2030) and 275 (2050); milk 2.75 Mt (2
 | of which replacing SBM / fishmeal | 39 / 17 | 222 / 44 | 449 / 65 | kt protein |
 | Share of high-protein feed protein | 1.0 | 4.4 | 8.4 | % |
 | Microbial feed product (dry) | 102 | 460 | 863 | kt |
-| Multiples of Entobel's Vietnamese design capacity (11 kt a year across its 1 kt and 10 kt plants) | 9 | 42 | 78 | multiples |
 | Plants of 20 kt a year (Calysseo, China) | 5 | 23 | 43 | plants |
 | Food substitute protein | 12 | 69 | 145 | kt protein |
 | Food protein ingredient (dry); finished product (15% protein) | 23; 79 | 136; 457 | 292; 964 | kt |
@@ -295,7 +294,7 @@ Other S-BASE outputs: eggs 235 per person (2030) and 275 (2050); milk 2.75 Mt (2
 | SBM and fishmeal emissions avoided | 0.10 | 0.43 | 0.81 | Mt CO2e |
 | Net electricity balance | minus 0.02 | plus 0.37 | minus 0.57 | Mt CO2 |
 
-The 2035 column is in `balance_outputs.csv` (our calculation; for example 160 kt of microbial feed protein, 2.7% of high-protein feed protein). The share is microbial protein divided by microbial protein plus protein-meal demand x 0.46. Plant equivalents are our arithmetic from the design sizes of Entobel's insect-meal plant in Vietnam (a size benchmark only) and Calysseo's FeedKind plant in China, which halted in 2026 [@ECO-01; @ECO-03; @FM-13; @COST-55; @FTG-06] {VN-direct|Low}.
+The 2035 column is in `balance_outputs.csv` (our calculation; for example 160 kt of microbial feed protein, 2.7% of high-protein feed protein). The share is microbial protein divided by microbial protein plus protein-meal demand x 0.46. Plant equivalents are our arithmetic from the design size of Calysseo's FeedKind plant in China, which halted in 2026 [@FM-13; @COST-55; @FTG-06] {VN-direct|Low}.
 
 {{kn:kn-salt-plants-2050}}
 
@@ -395,6 +394,30 @@ On the livestock-only reading, the 2030 target looks out of reach on both our tr
 - **S-HIGH (11.72 Mt) is an upside risk.**
 
 **Credible ambitious range (context).** On this evidence, a credible ambitious range for Vietnam's SBM need in 2050 is about 7 to 9 Mt (7.0 to 8.8 Mt, the S-EFF to S-ALT span), against 10.4 Mt on trend {VN-direct|Low} {fx:estimate}. Matching ranges are 7.8 to 8.3 Mt (2030), 8.1 to 9.0 Mt (2035) and 7.8 to 9.2 Mt (2040), with microbial feed protein at about 1% of high-protein feed protein by 2030 and 4 to 8% by 2050 {fx:estimate}. Holding imports at the 2025 level (7.2 Mt) through 2050 is a stretch case. With no combined S-EFF plus S-ALT run, the range has no value below S-EFF. The study sets no soybean-meal goal: [[ch22-protein-balance-2050]] (section 22.5) gives this range as context, and the vision in [[ch24-vision-2050]] no longer uses it.
+
+### F4.8.1 A target-first check: the EU soy-dependency method on Vietnam's numbers
+
+A 2026 scenario analysis by The Protein Project, a Brussels advocacy group, works the other way round from our model. It builds an EU protein matrix from FAO food balance sheets, sets a target first (soy protein imports down 20%, from 15.1 Mt to 12.1 Mt by 2035), solves for what each of four levers must deliver, and grades each required input against ranges from the literature. Even with flat demand, all four levers must work near their feasibility limits, and diet change carries 40% of the cut [@PPE-03; @PPE-04] {general|Medium} {fx:projection} (published scenario analysis). The method has no feed-efficiency lever, no prices and no trade response, and its new-protein lever rests on a market projection this study would not use [@PPE-04] {general|High}.
+
+We ran the same target on Vietnam's numbers (our calculation, `working-papers/wave13/L7-protein-project-eu/tools/vn_backcalc.py`) {VN-direct|Low} {fx:estimate}:
+- Imported soy protein was about 3.50 Mt in 2025: 3.31 Mt fed as soybean meal and 0.19 Mt eaten as beans.
+- A 20% cut gives a 2035 target of 2.80 Mt. On the S-BASE trend, with food beans held at the 2025 level, imported soy protein reaches 4.55 Mt in 2035 (up 30%).
+- So the cut needed against trend is 1.74 Mt of protein, about 3.8 Mt of soybean-meal equivalent.
+
+**Levers graded against the cut, 2035** (our calculation; grades are our judgement against the benchmarks named) {VN-direct|Low} {fx:estimate}
+
+| Lever | What it takes | Share of the 1.74 Mt cut | Grade against benchmarks | In this study's scope? |
+|---|---|---|---|---|
+| Domestic soybean at the 2010 area (205,000 ha), 2.0 to 2.5 t per ha | 410 to 510 kt of beans; 0.13 to 0.17 Mt of protein above 2025 output | 7.6% to 9.7% | A stretch: the area was reached in 2010, but the yield is above today's about 1.6 t per ha [@AQF-20; @AIB-06] | Yes, on the food side (the beans behind soy foods) |
+| Domestic soybean at the 300,000 ha press proposal, 2.5 t per ha | 750 kt of beans; 0.26 Mt of protein | 14.6% | Beyond the record: area and yield never reached together [@AQF-20] | Yes, on the food side |
+| Food routes, benchmark demand path (D-BENCH) | 2.35 kt of meat protein displaced; 10.6 kt of soybean meal | 0.3% | The demand evidence path ([[app-d8-demand-model]]) | Yes |
+| Food routes, stretch demand path (D-STRETCH) | 9.25 kt of meat protein displaced; 41.6 kt of soybean meal | 1.1% | Stretch | Yes |
+| S-EFF, feed efficiency | 1.39 Mt of soybean meal | 36.6% | Credible against China's pace of formulation change (F4.8) | No: feed, context only |
+| S-ALT, food and microbial feed | 0.46 Mt of soybean meal | 12.1% | Ambitious: a 2.7% microbial share of high-protein feed protein in 2035, against 0.4% novel ingredients in Norwegian salmon feed (F4.8) | Mostly no: most of it is feed |
+
+Inputs: soybean meal at 46% protein and beans at 36% (the balance model's basis); 540 kt of food beans in 2025 and 98.4% imported, and 42.5 kt of domestic output [@MAC-04]; 205,000 ha in 2010 [@AQF-20]; 2.5 t per ha for VINASOY 05 at one site [@AIB-06]; about 4.5 t of soybean meal avoided per t of meat protein displaced (F4.5.5); 2035 values of S-BASE, S-EFF and S-ALT from `balance_outputs.csv`.
+
+**How to read it.** Read each share on its own. The balance-model levers (S-EFF and S-ALT) were not run together, with each other or with the other rows, so their shares must not be added. Domestic soybean and the food routes act on different imports, so we add them only for an upper bound: together they give about 9% to 16% of the cut (domestic soybean at 7.6% to 14.6%, plus the stretch food routes at 1.1%). With demand still growing, Vietnam would need about 1.74 Mt against a rising trend, where the EU needs about 3 Mt against flat demand. This supports the credible ambitious range above (7 to 9 Mt of soybean meal in 2050) and the study's choice to set no soybean goal. The one in-scope lever with weight is domestic soybean, and its weight is on the food side ([[ch22-protein-balance-2050]], section 22.3; candidate play T12 in [[ch26-plays]]).
 
 ## F4.9 Reproduce, extend, limits and disagreements
 

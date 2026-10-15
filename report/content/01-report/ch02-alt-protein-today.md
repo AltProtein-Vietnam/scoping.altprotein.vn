@@ -102,7 +102,7 @@ For comparison, eggs and chicken breast retail at about VND 34,000 to 45,000 per
 
 ## 2.5 Feed: context, not the subject of this study
 
-Novel protein is already sold into Vietnamese animal feed, but this study treats feed only as context. Entobel, held in Singapore, makes black soldier fly larvae meal in Vietnam. It has run a 1,000 t a year plant in Dong Nai since 2019. A 10,000 t a year plant in Ho Chi Minh City (former Ba Ria-Vung Tau) opened on 23 November 2023 [@ECO-01; @ECO-02; @ECO-03; @ECO-06; @VCO-18] {VN-direct|High}. The pangasius exporter Vinh Hoan agreed in February 2024 to buy at least 15,000 t of Entobel insect protein over 2025 to 2027 (about 5,000 t a year) [@ECO-05] {VN-direct|High}. Chinese microbial protein, a by-product of glutamic-acid (monosodium glutamate, MSG) fermentation, is imported and sold for pig, poultry, fish and shrimp feed [@ECO-69; @FM-12] {VN-direct|Medium}. The full record of feed actors is in [[app-s1-directory]] and [[app-s6-feed-market]], and [[ch08-capital]] covers how the Entobel deal was financed.
+Novel protein is already sold into Vietnamese animal feed, but this study treats feed only as context. Chinese microbial protein, a by-product of glutamic-acid (monosodium glutamate, MSG) fermentation, is imported and sold for pig, poultry, fish and shrimp feed [@ECO-69; @FM-12] {VN-direct|Medium}. The full record of feed actors is in [[app-s1-directory]] and [[app-s6-feed-market]].
 
 ## 2.6 The support ecosystem is thin
 

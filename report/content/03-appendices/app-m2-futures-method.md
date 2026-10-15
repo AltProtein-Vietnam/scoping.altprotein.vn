@@ -25,7 +25,7 @@ charts: []
 
 ## M2.1 Purpose and scope of the futures round
 
-Version 0.1 (September 2026) describes Vietnam's alternative-protein supply today and its outlook to 2035 ([[ch19-outlook-2035]]). The futures round asked what could change between 2030 and 2050, and what actors should do now while the answer is uncertain. The research ran on 24 September 2026. The project owner took five decisions before it started.
+Version 0.1 (September 2026) describes Vietnam's alternative-protein supply today and its outlook to 2035 ([[ch19-outlook-2035]]). The futures round asked what could change between 2030 and 2050, and what actors should do now while the answer is uncertain. The research ran on 24 September 2026. The project owner took four decisions before it started.
 
 | Decision | What was decided | Consequence in Part IV |
 |---|---|---|
@@ -33,7 +33,6 @@ Version 0.1 (September 2026) describes Vietnam's alternative-protein supply toda
 | Stance | Evidence-anchored foresight plus one bold normative vision, clearly labelled | Horizon scan, exploratory scenarios and signposts; one "Vietnam 2050" vision with backcast milestones ([[ch24-vision-2050]]) |
 | Topics | All four: frontier technology; drivers and shocks; economy and policy futures; quantitative projections | Chapters 20 to 22, and a transparent protein and feed balance model for 2030 to 2050 ([[app-f4-balance-model]]) |
 | Demand | Demand enters only as a macro input (population, income, diet, published outlooks) | No consumer research; no market-size forecast for Vietnamese alternative-protein products |
-| Insects | Incumbent and benchmark only | No insect play recommended; insect papers in the bibliometric screen set aside as benchmark material |
 
 Unchanged from v0.1: the supply-side scope; food and feed together; neutral framing led by food and feed security, industry and trade; English text with a Vietnamese summary. Version 0.8 later narrowed the scope to protein for people, with feed as context only.
 
@@ -250,7 +249,7 @@ The horizon scan listed 26 wildcards (`wildcards.csv`), each with an impact chan
 - **Path-switchers**: disease, a novel-food safety scandal or a biosecurity incident change the path inside a world rather than define one.
 - **Revision triggers** for the vision (section 24.8).
 
-The shocks in `shock_register.csv` (17 when the axes were chosen; 20 now) give a sense of scale: African swine fever removed nearly 6 million pigs in 2019, over a fifth of the herd [@GEO-14; @GEO-15] {VN-direct|Medium}. Published probabilities are quoted where they exist: simultaneous maize production losses above 10% in the four largest exporters has a 7% chance in a given year at 2 °C of warming and 86% at 4 °C [@CLM-24] {general|High} {fx:projection}.
+The shocks in `shock_register.csv` (17 when the axes were chosen; 21 now) give a sense of scale: African swine fever removed nearly 6 million pigs in 2019, over a fifth of the herd [@GEO-14; @GEO-15] {VN-direct|Medium}. Published probabilities are quoted where they exist: simultaneous maize production losses above 10% in the four largest exporters has a 7% chance in a given year at 2 °C of warming and 86% at 4 °C [@CLM-24] {general|High} {fx:projection}.
 
 ## M2.6 Stress test of plays and moves
 
@@ -318,7 +317,7 @@ Version 0.8 kept these steps but reframed chapter 24 around protein for people. 
 | Microbial feed protein, share of high-protein feed protein | 4 to 8% | S-ALT gives 1.0% (2030), 2.7% (2035), 4.4% (2040), 8.4% (2050); top near S-ALT, bottom about half | Novel ingredients were 0.4% of Norwegian salmon feed in 2020 | [@QNT-01; @VIS-18; @VIS-20] {VN-direct\|Low} {fx:estimate} |
 | Domestic-origin share of feed protein | 11 to 22 points above a 2028 baseline | 0.5 to 1 point a year for 22 years; 3.5 to 7 points by 2035 and 6 to 12 by 2040 | EU target pace (0.92 points a year, 2025 to 2035) as the top; Japan's flat record (26% in FY2000, 26% in FY2024) as the downside | [@VIS-15; @VIS-12] {VN-direct\|Low} {fx:estimate} |
 | Non-marine share of aquafeed omega-3 | 15 to 50% | The aquafeed stream's range on the middle aquaculture path | Algal and oilseed omega-3 oils are commercial; a modified canola oil replaced fish oil in shrimp diets | [@AQF-19; @AQF-23; @AQF-24] {VN-direct\|Low} {fx:estimate} |
-| Public protein and feed-innovation line (2027 to 2035) | USD 5 to 15 M a year | Peer budgets annualised in `vis_calc.py` | Denmark about USD 12 M, Germany about EUR 6 M, Canada about USD 22 M a year; Vietnam's feed scheme about USD 6.3 M a year | [@VIS-01; @VIS-24; @VIS-06; @NTS-23] {general\|Medium} {fx:estimate} |
+| Public protein and feed-innovation line (2027 to 2035) | USD 5 to 15 M a year | Peer budgets annualised in `vis_calc.py` | Denmark about USD 12 M, Germany about EUR 6 M, Canada about USD 22 M a year; Vietnam's feed scheme about USD 6.3 M a year. In Vietnamese terms, USD 5 to 15 M equals about 47% to 140% of all new projects NAFOSTED approved in 2023 (v0.10, our calculation) | [@VIS-01; @VIS-24; @VIS-06; @NTS-23; @SLW-01] {general\|Medium} {fx:estimate} |
 
 **Left out on purpose.** No consumption ratio such as the Dutch 50:50 ambition, because diet is out of scope and we found no tracking of such ratios abroad [@VIS-05] {general|Medium}. No overall feed self-sufficiency ratio: Japan's land-based ratio moved less than half a point a year between FY2000 and FY2024 [@VIS-12] {VN-adjacent|High}. No diet target: the vision tracks meat protein displaced only to show the size of the second source, not as a target for what people eat.
 

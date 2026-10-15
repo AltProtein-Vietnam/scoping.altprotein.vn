@@ -41,7 +41,7 @@ From 1 July 2025 the country also moved from 63 to 34 provinces and abolished th
 | Processed food declarations, additives, health supplements, the Food Safety Law revision | Ministry of Health (MOH), through the Vietnam Food Administration | [@REG-08] |
 | Livestock feed (lists, trials) | MAE, Department of Livestock Production and Animal Health; many procedures now with provinces | [@REG-42; @REG-35; @REG-41] |
 | Aquafeed (lists, trials) | MAE, Department of Fisheries and Fisheries Surveillance; trial recognition with provinces | [@REG-42; @REG-41] |
-| GMO biosafety and genetic resources | MAE | [@REG-18; @REG-60] |
+| GMO biosafety and genetic resources | MAE; licences to use genetic resources come from provincial People's Committee chairs since January 2026 | [@REG-18; @REG-60; @SLF-02] |
 | High-tech lists, standards, sandbox law, intellectual property (IP) | MOST | [@GT-06; @REG-47; @REG-48] |
 | Tax incentives | MOF | [@REG-45] |
 
@@ -99,9 +99,9 @@ Making a precision-fermented protein in Vietnam needs the closed-production cert
 
 Feed rules matter to this study only as context. They govern the feed behind the meat, eggs, milk and farmed fish that people eat. The full analysis is in [[app-s9-regulation]]; the main facts are these.
 
-- **Livestock feed is more open than food.** The permitted raw-material list already includes **insects**, aquatic plants including **duckweed (*bèo*) and algae**, and since February 2023 **inactive yeasts**. The list is Circular 21/2019 Appendix VI as amended by Circular 31/2022. The yeasts are Torula or Candida yeast, yeast grown on molasses, and by-products of amino-acid production [@REG-32; @REG-33] {VN-direct|High}. These need no feeding trial, only a certified factory, a conformity declaration against the feed contaminant standard QCVN 01-190:2020 and a label [@REG-36; @REG-29; @REG-32] {VN-direct|High}.
+- **Livestock feed is more open than food.** The permitted raw-material list already includes aquatic plants including **duckweed (*bèo*) and algae**, and since February 2023 **inactive yeasts**. The list is Circular 21/2019 Appendix VI as amended by Circular 31/2022. The yeasts are Torula or Candida yeast, yeast grown on molasses, and by-products of amino-acid production [@REG-32; @REG-33] {VN-direct|High}. These need no feeding trial, only a certified factory, a conformity declaration against the feed contaminant standard QCVN 01-190:2020 and a label [@REG-36; @REG-29; @REG-32] {VN-direct|High}.
 - **A new feed material needs a trial.** Feed containing a "new substance" must be trialled under the Law on Animal Husbandry (Art 37) and Circular 94/2025. Agency time is about 40 working days; the trial itself and the wait for the annual list update come on top [@REG-29; @REG-34; @REG-32] {VN-direct|High}.
-- **The aquafeed list has no raw-material section.** Under the Law on Fisheries (Art 35(1)), aquafeed containing any raw material "not on the list" must be trialled [@REG2-01; @REG2-02] {VN-direct|High}. But the list (Circular 16/2026 Appendix II) covers chemicals, bioactives, 30 microorganisms, vitamins and enzymes, not insect meal, single-cell protein, microalgae, duckweed or fermented soybean meal [@REG2-01] {VN-direct|High}.
+- **The aquafeed list has no raw-material section.** Under the Law on Fisheries (Art 35(1)), aquafeed containing any raw material "not on the list" must be trialled [@REG2-01; @REG2-02] {VN-direct|High}. But the list (Circular 16/2026 Appendix II) covers chemicals, bioactives, 30 microorganisms, vitamins and enzymes, not single-cell protein, microalgae, duckweed or fermented soybean meal [@REG2-01] {VN-direct|High}.
 - **Unlisted feed materials are fined.** Since 5 August 2026, using a feed raw material not on the permitted list costs VND 10 to 20 million per material (Decree 211/2026). The penalty also brings a one-to-three-month suspension of feed production and forced repurposing of the material, or destruction if that is impossible [@REG2-10] {VN-direct|High}.
 
 > **Correction.** Earlier drafts attributed feed trials to Article 11 of Decree 13/2020 and quoted a 12 to 18 month timeline. Article 11 covers factory inspections; trials come from the Law on Animal Husbandry and Circular 94/2025, and no text gives a total duration [@REG-30; @REG-34].
@@ -119,7 +119,7 @@ Feed rules matter to this study only as context. They govern the feed behind the
 | Precision-fermented protein, imported | Self-declaration or own-use exemption; GM label above 5% of ingredients | Immediate | Whether a GMO food-use certificate is also needed |
 | Precision-fermented protein, made in Vietnam | Closed-production GMO certificate, then food route | Not published | Timeline, fee, issuing level |
 | Cultivated meat or seafood | No national route; Hanoi sandbox is the most concrete option | Not published | Whether a city sandbox can set aside national food law |
-| Feed materials (context only): insect meal, duckweed, algae, yeast, new microbial biomass | Listed livestock materials: factory certificate and conformity declaration; new materials: trial and list update | Factory about 35 working days; new material about 40 working days plus trial | Aquafeed list gap; unlisted use now fined |
+| Feed materials (context only): duckweed, algae, yeast, new microbial biomass | Listed livestock materials: factory certificate and conformity declaration; new materials: trial and list update | Factory about 35 working days; new material about 40 working days plus trial | Aquafeed list gap; unlisted use now fined |
 
 Sources: [@REG-02; @REG-29; @REG-30; @REG-32; @REG-34; @REG-35; @REG-36; @REG-37; @REG-38; @REG-40; @REG-41; @REG2-01; @REG2-02; @REG2-10; @REG2-11; @REG2-16; @REG2-17] {VN-direct|Medium}. The full table with legal bases is in [[app-s9-regulation]] and `routes.csv`.
 
@@ -155,7 +155,13 @@ Hanoi does have one. Resolution 29/2025 sets the procedure under the Capital Law
 
 ## 7.10 Genetic resources and strains: budget for benefit sharing
 
-Commercial use of Vietnamese genetic resources needs an access licence. That includes microorganisms isolated from Vietnamese fermented foods or cassava waste. The licence takes a council review of up to 90 days, then a decision within 15 days. Benefit sharing is at least 1% of annual product revenue or 2% of the value of an IP transfer (Decree 59/2017) [@REG-60] {VN-direct|High}. Any "indigenous strain" business model has to budget for this.
+Commercial use of Vietnamese genetic resources needs an access licence. That includes microorganisms isolated from Vietnamese fermented foods or cassava waste. Decree 43/2026 (26 January 2026) rewrote the licence route in Decree 59/2017 (12 May 2017) [@SLF-02; @REG-60] {VN-direct|High}:
+- the chairman of the provincial People's Committee now issues the licence, not the ministry;
+- a council is formed within 3 working days and reports within 10, and the decision follows in about 19 working days from a complete file (our calculation);
+- the separate registration step and the commune's certification of the contract are gone, and contracts follow a standard form (Form 12);
+- a licence lasts up to 5 years.
+
+Benefit sharing is unchanged: at least 1% of annual product revenue or 2% of the value of an IP transfer (Decree 59/2017, Art 22) [@REG-60; @SLF-02] {VN-direct|High}. So access is now faster, but it costs the same. Any "indigenous strain" business model has to budget for benefit sharing. We could not read the standard forms, so the terms of Form 12 are unknown ([[app-s9-regulation]], section S9.16).
 
 ## 7.11 How neighbours built their routes
 

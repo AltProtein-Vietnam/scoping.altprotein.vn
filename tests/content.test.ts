@@ -25,7 +25,7 @@ const strip = (html: string) =>
 
 test('the seed holds every manifest page once, with its Markdown body', () => {
   assert.equal(entries.length, PAGES.length);
-  assert.equal(entries.length, 81);
+  assert.equal(entries.length, 82);
   assert.deepEqual(new Set(entries.map((e) => e.id)), new Set(PAGES.map((p) => p.id)));
   for (const e of entries) {
     const file = fs.readFileSync(

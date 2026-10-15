@@ -14,7 +14,7 @@ charts: []
 
 # The report in two minutes
 
-> **Draft for review.** Version 0.8. Not for citation.
+> **Draft for review.** Version 0.10. Not for citation.
 
 **Protein for people first; feed only as context.** The study asks what Vietnam could make at home for people to eat, and who would buy it, now and to 2050.
 

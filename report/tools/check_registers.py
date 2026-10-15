@@ -6,7 +6,9 @@ Standard library only. Exit code 0 when no errors.
 
 Checks:
 - data/sources.csv and sources/sources.csv are identical copies.
-- Every source ID is unique, has an anchor in Appendix R4 and an entry in bibliography.md, and vice versa.
+- Every source ID is unique. Every active source has an anchor in Appendix R4 and an entry in
+  bibliography.md, and every anchor and entry has an active row. Retired sources (a status_v0_9
+  value other than "active") stay in sources.csv as the record only: no page, tile or chart may cite them.
 - Open question (OQ-) and disagreement (DG-) IDs are unique and numbered without gaps.
 - Every source ID used by key-numbers.json and chart-specs.json resolves.
 
@@ -32,6 +34,9 @@ for i, n in Counter(ids).items():
     if n > 1:
         errors.append(f'sources.csv: duplicate source_id {i}')
 idset = set(ids)
+# Rows retired in v0.9 stay as the record; listings and citations use active rows only.
+retired = {r['source_id'] for r in rows if r.get('status_v0_9', 'active') != 'active'}
+active = idset - retired
 for r in rows:
     if r['prefix'] and not r['source_id'].startswith(r['prefix'] + '-'):
         errors.append(f'sources.csv: {r["source_id"]} has prefix column {r["prefix"]}')
@@ -42,16 +47,27 @@ anchors = re.findall(r'<a id="([^"]+)"></a>', r4)
 for i, n in Counter(anchors).items():
     if n > 1:
         errors.append(f'app-r4-sources.md: duplicate anchor {i}')
-for i in sorted(idset - set(anchors)):
+for i in sorted(active - set(anchors)):
     errors.append(f'app-r4-sources.md: no anchor for {i}')
 for i in sorted(set(anchors) - idset):
     errors.append(f'app-r4-sources.md: anchor {i} has no row in sources.csv')
+for i in sorted(set(anchors) & retired):
+    errors.append(f'app-r4-sources.md: anchor {i} is a retired source')
 
 bib = set(re.findall(r'^- \*\*([A-Za-z0-9]+-[A-Za-z0-9]+)\.\*\*', open('sources/bibliography.md', encoding='utf-8').read(), re.M))
-for i in sorted(idset - bib):
+for i in sorted(active - bib):
     errors.append(f'bibliography.md: no entry for {i}')
 for i in sorted(bib - idset):
     errors.append(f'bibliography.md: entry {i} has no row in sources.csv')
+for i in sorted(bib & retired):
+    errors.append(f'bibliography.md: entry {i} is a retired source')
+
+# Pages must not cite retired sources
+for d, _, fs in os.walk('content'):
+    for f in sorted(fs):
+        if f.endswith('.md'):
+            for i in sorted(set(re.findall(r'@([A-Za-z0-9]+-[A-Za-z0-9]+)', open(os.path.join(d, f), encoding='utf-8').read())) & retired):
+                errors.append(f'{f}: cites retired source {i}')
 
 # 3. Registers numbered without gaps
 def check_seq(path, col, pfx):
@@ -79,14 +95,18 @@ for k in json.load(open('data/key-numbers.json', encoding='utf-8')):
     for s in k.get('source_ids', []):
         if s not in idset:
             errors.append(f'key-numbers.json: {k["id"]} cites unknown source {s}')
+        elif s in retired:
+            errors.append(f'key-numbers.json: {k["id"]} cites retired source {s}')
 for c in json.load(open('charts/chart-specs.json', encoding='utf-8'))['charts']:
     for s in c.get('source_ids', []) or []:
         if s not in idset:
             errors.append(f'chart-specs.json: {c["id"]} cites unknown source {s}')
+        elif s in retired:
+            errors.append(f'chart-specs.json: {c["id"]} cites retired source {s}')
 
 prefixes = Counter(r['prefix'] for r in rows)
 waves = Counter(r['wave'] for r in rows)
-print(f'{len(ids)} sources in {len(prefixes)} prefixes; waves: ' + ', '.join(f'{w} ({n})' for w, n in sorted(waves.items(), key=lambda x: int(re.sub(r"\D", "", x[0]) or 0))))
+print(f'{len(ids)} sources ({len(active)} active, {len(retired)} retired) in {len(prefixes)} prefixes; waves: ' + ', '.join(f'{w} ({n})' for w, n in sorted(waves.items(), key=lambda x: int(re.sub(r"\D", "", x[0]) or 0))))
 print('Prefixes taken: ' + ' '.join(sorted(prefixes)))
 print(f'Next free open question: OQ-{last_oq + 1:03d}; next free disagreement: DG-{last_dg + 1:03d}')
 for e in errors:

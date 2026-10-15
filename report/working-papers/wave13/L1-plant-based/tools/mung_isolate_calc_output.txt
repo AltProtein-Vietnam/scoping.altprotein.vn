@@ -1,0 +1,9 @@
+mirror FOB 2023        USD 0.666/kg, recovery 60%:  6.1 kg beans per kg isolate; raw material USD 4.74/kg protein, USD 4.03/kg isolate
+mirror FOB 2023        USD 0.666/kg, recovery 80%:  4.5 kg beans per kg isolate; raw material USD 3.56/kg protein, USD 3.02/kg isolate
+mirror FOB 2024        USD 0.696/kg, recovery 60%:  6.1 kg beans per kg isolate; raw material USD 4.96/kg protein, USD 4.21/kg isolate
+mirror FOB 2024        USD 0.696/kg, recovery 80%:  4.5 kg beans per kg isolate; raw material USD 3.72/kg protein, USD 3.16/kg isolate
+mirror FOB 2025        USD 0.811/kg, recovery 60%:  6.1 kg beans per kg isolate; raw material USD 5.78/kg protein, USD 4.91/kg isolate
+mirror FOB 2025        USD 0.811/kg, recovery 80%:  4.5 kg beans per kg isolate; raw material USD 4.33/kg protein, USD 3.68/kg isolate
+VN-reported CIF 2023   USD 1.331/kg, recovery 60%:  6.1 kg beans per kg isolate; raw material USD 9.48/kg protein, USD 8.06/kg isolate
+VN-reported CIF 2023   USD 1.331/kg, recovery 80%:  4.5 kg beans per kg isolate; raw material USD 7.11/kg protein, USD 6.04/kg isolate
+Benchmarks: Chinese pea USD 2 to 3/kg; Western pea USD 6.75 to 8.50/kg (TPP-05); Indian egg white powder USD 5.90/kg (ch16)

@@ -4,7 +4,7 @@ title: "M5. Changelog and corrections"
 short_title: "M5. Changelog"
 section: appendix
 order: 5
-summary: "Every version of this draft report and what it changed, including the refocus on protein for people and the food-security research of v0.8, the citation check of v0.7 and where each page moved in the v0.6 restructure. It lists every correction to earlier drafts, with what it was, what the report now uses, the source and where it appears."
+summary: "Every version of this draft report and what it changed, including the removal of insect protein in v0.9, the refocus on protein for people and the food-security research of v0.8, the citation check of v0.7 and where each page moved in the v0.6 restructure. It lists every correction to earlier drafts, with what it was, what the report now uses, the source and where it appears."
 audiences: [investors, policy, research, international, startups, manufacturers]
 reading_time_min: 49
 key_numbers: []
@@ -28,7 +28,9 @@ This report is a draft. Version 1.0 will be the public launch; every version bef
 | 0.5 | September 2026 | A prologue for newcomers in English and Vietnamese; a complete bibliography | "Edition 1.4" |
 | 0.6 | September 2026 | A reader-first restructure, 0.x version numbers, this changelog, a two-minute summary, an FAQ, draft labels and consistency fixes (M5.2) | |
 | 0.7 | September 2026 | A citation check of every source the report cites, with corrections across the report, a repaired source register and 70 new open questions (M5.13) | |
-| 0.8 | October 2026 | Protein for people: the scope narrowed to protein for human consumption, with feed only as context; retired feed plays, moves and policy options; a research round testing food-security hypotheses (90 sources); every page rewritten in clear language (M5.14) | This draft |
+| 0.8 | October 2026 | Protein for people: the scope narrowed to protein for human consumption, with feed only as context; retired feed plays, moves and policy options; a research round testing food-security hypotheses (90 sources); every page rewritten in clear language (M5.14) | |
+| 0.9 | October 2026 | Insect protein removed from the study; a record of regional alternative-protein deals in East and Southeast Asia (wave 12, 50 sources) (M5.15) | |
+| 0.10 | October 2026 | A screen of 170 published solutions for Vietnam, including GFI's Solutions Database (wave 13, 185 sources); three unranked candidates; corrections to rules, costs and moves (M5.16) | This draft |
 
 Files, zips and project notes made before v0.6 use the earlier labels.
 
@@ -567,4 +569,113 @@ The editor logs flagged eight points while this record was first written. All ei
 - **Vietnam Innovation Network.** OQ-056 used to name a "Vietnam Innovation Network" next to NIC. We did not verify that it exists as a separate body, so the question now names NIC only.
 - **Heme as a colour.** The FDA letter gives flavour as the use of soy leghemoglobin. A later US colour-additive listing (2019) was not checked, so the glossary no longer says heme gives colour.
 
+## M5.15 Changes made in v0.9
+
+Version 0.9 removes insect protein from the study and adds a regional deal record. Earlier versions kept it as an incumbent, a benchmark and a financing example; it no longer appears in any page, stat tile or chart. Earlier sections of this changelog are unchanged, as the record.
+
+- **Capital finding rescoped.** The evidence did not change; the scope did. No disclosed deal in Vietnam in the protein families this study covers has exceeded USD 5 million, and there is no proven local template for financing a plant. The structure of a private-equity lead, a development-finance ticket and a buyer's offtake is now our suggestion, not a precedent ([[ch08-capital]], [[app-s11-capital]]). We found no development finance institution with a direct ticket in Vietnam in the protein families this study covers.
+- **Pages.** Chapter 8 lost section 8.2 (8.3 to 8.8 are now 8.2 to 8.7), and Appendix S11 section S11.4 was retitled and rewritten. The prologue's table of families lost a row, and the FAQ lost a question. Chapter 10 lost its benchmark section (10.9; "What this means" is now 10.9), Appendix S1 its insect section (S1.9 to S1.13 renumbered), Appendix S13 one section (S13.12 to S13.15 renumbered) and Appendix S9 one route in its explainer (routes 7 to 12 renumbered). Registers: four open questions (OQ-035, OQ-066, OQ-120, OQ-437), five disagreements (DG-037, DG-038, DG-039, DG-062, DG-063) and two glossary terms (GL-053, GL-054) were removed, leaving 469 open questions, 368 disagreements and 234 terms.
+- **Stat tiles.** Three were removed, leaving 156. kn-salt-plants-2050 is now expressed as plants of 20 kt a year; kn-open-questions, kn-disagreements and kn-sources-count count active rows.
+- **Data files.** Rows about insect protein stay in the data files as the record, marked in a `status_v0_9` column in 15 files and in `sources.csv`. Views, charts, the glossary and search use active rows only. Other rows that mentioned insects in passing were reworded.
+- **Sources.** 46 sources that no page, tile or chart cites any more are retired, leaving 2,434 in Appendix R4 and the bibliography.
+- **Regional deal record (wave 12).** One research round logged alternative-protein deals in East and Southeast Asia from 2020 to October 2026 (`regional_deals.csv`, 43 rows; 50 sources, prefix RDL). It finds about USD 355 million to 365 million of disclosed private money, mostly raised in 2020 to 2022, and no direct DFI ticket in the region; plants were built by corporate joint ventures and state-scheme loans. New section S11.6 (S11.6 to S11.12 renumbered S11.7 to S11.13) and a paragraph in section 8.1. The round added OQ-474 to OQ-476 and DG-374 to DG-377, so the registers now hold 472 open questions and 372 disagreements, and sources number 2,484. It also confirms that the Shiok Meats merger closed and that Avant's Singapore unit went into liquidation (section S11.5).
+
+- **Register check (added when v0.9 moved to this repository).** The v0.9 edit was first made in the website repository, whose copy never ran `check_registers.py`. That check now requires an R4 anchor and a bibliography entry for every active source, and fails if a retired source is listed there or cited by any page, tile or chart.
+
 **Related:** [[app-r2-disagreements]] (where sources disagree rather than an earlier draft being wrong).
+
+## M5.16 Changes made in v0.10
+
+Version 0.10 adds one research round, wave 13: a screen of 170 published solutions for Vietnam ([[app-s14-solutions-screen]]; method in [[app-m1-method]], section M1.16). It covered the 112 entries of the Good Food Institute's Solutions Database and 58 items from The Protein Project, the Berkeley Alt:Meat Lab and Coefficient Giving's grantees. The leading plays (T1, T4, T5) and their ranking are unchanged. The editor changed the version label from 0.9 to 0.10 on 15 October 2026, when this version went to the website.
+
+- **Solutions screen.** New Appendix S14 and data file `solutions_screen.csv` (170 rows), tile kn-solutions-screened and chart chart-solutions-screen.
+  - **Verdicts.** 55 items are frontier work Vietnam would buy, 35 strengthen an existing item, 31 are already covered, 30 are not for Vietnam now, 14 are out of scope, and 5 are new candidates.
+- **Three candidates, not ranked ([[ch26-plays]], new section 26.8).**
+  - **T11, hybrid fish cakes and fish balls.** Balanced score 3.50; it would place third or fourth under every preset. Not ranked until a maker trial and a sensory panel pass.
+  - **T12, domestic food-grade soybean and mung bean.** Balanced score 3.50. Not ranked until a farm-economics test and buyer contracts.
+  - **P7, a characterised Vietnamese food-strain set.**
+  - **Candidate product profile.** TPP-12 is the candidate profile for T11.
+  - **Folded into existing moves.** A buyer-set product challenge lab joins RM-09, and open flavour profiles of farmed fish join RM-14.
+- **Plays.**
+  - **T1.** Gains finance routes under Vietnamese law (factoring, finance leases, SME guarantees) and a financing kill test.
+  - **T5.** Gains named users and a pilot-plant benchmark.
+  - **T7.** Gains low-dose flavour fats.
+  - **T8.** Gains cheap hydrolysate media, candidate species (Asian seabass, grouper; metadata only) and partners.
+  - **T9.** Gains the national strain collection and a commercial precedent.
+  - **T10.** Gains a raw-material condition (mung bean isolate needs a paid starch co-product or a higher-priced job) and co-product kill tests.
+  - **P1.** Gains the FAO and WHO framework for cell-based food.
+  - **P4.** Now covers protein function as well as quality.
+  - **P6.** Starts from the open GFI and Hawkwood cost dataset.
+- **What we do not recommend ([[ch26-plays]], section 26.6).** Adds bulk fats made by fermentation, and cultivated or fermentation-made surimi.
+- **Rules ([[ch07-rules]], [[app-s9-regulation]], [[ch27-policy-options]]).**
+  - **Licence for using Vietnamese strains corrected.** See the corrections table.
+  - **New policy option PO-034.** A directed NAFOSTED research call, not yet ranked, so the register holds 34 options and 19 are ranked.
+  - **Updated options.** PO-011, PO-016, PO-019 and PO-027.
+- **Capital ([[ch08-capital]], [[app-s11-capital]]).** New section S11.14 covers leasing, factoring and supply-chain finance. S11.9 gains the SME Development Fund, the Ho Chi Minh City guarantee fund and Decree 57/2018 support. We found no corporate venture arm of a Vietnamese food group. RM-12 is narrowed to T4 and T5 scale.
+- **Industrial base ([[ch05-industrial-base]], [[app-s5-facilities]]).**
+  - The E10 mandate needs the idle ethanol plants, so they are no longer retrofit candidates.
+  - YERA, a food yeast-protein maker, is added to `companies.csv`, `facilities.csv` and Appendix S1.
+- **Costs and science ([[ch09-economics]], [[ch10-technology-fit]], [[app-s12-costs]], [[app-s13-science]]).**
+  - **Cultivated meat.** The cost comparison is now like for like. The model's affordability target and hydrolysate case are added.
+  - **Fish and surimi.** Grouper and seabass cell lines are added, and a new section S13.11.4 covers hybrid fish pastes.
+- **Demand ([[ch25-demand-to-frontier]], [[ch16-business-buyers]], [[ch13-consumers]]).**
+  - TPP-05 gains a second job as an egg-white replacer.
+  - T1 and T10 gain demand-side kill tests.
+  - DMV-05, DMV-11 and DMV-16 are updated.
+  - Coefficient Giving's 2026 taste call is added to funder fit.
+  - A funded US choice experiment is added to "little displacement" in chapter 13, and a caution on egg replacement (potato protein is the benchmark) to TPP-05's egg-white job.
+- **Coefficient Giving's grant list ([[app-s14-solutions-screen]], [[app-s11-capital]], [[ch08-capital]], [[ch25-demand-to-frontier]]).** The funder's site refused automated access, so the editor read the grant list in a separate browser session on 15 October 2026, and the lead checked it against line L9.
+  - **The focus area.** 61 grants worth USD 49.3 million (2016 to 2026). Only 9 fund research or R&D, about USD 2.1 million. None names Vietnam or Southeast Asia. The list is in the new `coefficient_giving_grants.csv`.
+  - **Funded elsewhere.** Several outputs L9 had found came from Open Philanthropy's other programmes or contracts, not this focus area.
+  - **Funders named.** The Berkeley Alt:Meat Lab received five grants worth USD 3.4 million. The Protein Project received USD 353,764 in September 2025, which names one of its funders.
+  - **Screen.** Four outputs were added to the screen (CGG-I25 to CGG-I28).
+  - **Sources and registers.** Six sources were registered (CGG-19 to CGG-24). OQ-522 is closed, OQ-524 and DG-398 are added, and DG-397 now uses the funder's figure. Source CGG-17, which held search summaries only, is no longer needed for any grant fact.
+- **Knowledge and moves ([[ch06-knowledge-talent]], [[app-s7-research]], [[app-s8-labs-talent]], [[ch28-robust-moves]]).**
+  - **RM-09.** Splits into a senior-engineer track and an operator track. Hands-on training waits for pilot equipment.
+  - **NAFOSTED grant sizes.** Added, with a scale check on RM-11.
+  - **Gaps confirmed.** We found no Vietnamese author among 270 works funded by GFI's research grants. We also found no alternative-protein course, centre or student group in Vietnam.
+- **Futures ([[ch20-drivers-2050]], [[ch21-frontier-technology]], [[ch22-protein-balance-2050]], [[app-f4-balance-model]]).**
+  - **Wild-fish squeeze.** The squeeze on wild fish now also reaches surimi, a human-food export.
+  - **Soy back-cast.** The Protein Project's back-casting method, run on the study's data, confirms chapter 22. A 20% cut in imported soy protein by 2035 is out of reach (new section F4.8.1).
+  - **New shock.** SHK-021 is added.
+- **Front pages and briefs.**
+  - The executive summaries (English and Vietnamese) gain a paragraph on the screen.
+  - How to read decodes the new codes.
+  - The investor, manufacturer, policy, research and international briefs carry the changes above.
+- **Registers.**
+  - **New entries.** 185 sources (now 2,669 active), open questions OQ-477 to OQ-524 (now 520) and disagreements DG-378 to DG-398 (now 393).
+  - **Existing questions.** OQ-387 and OQ-522 are closed. OQ-038, OQ-054, OQ-060, OQ-070, OQ-094, OQ-126 and OQ-434 are partly closed. OQ-020, OQ-053, OQ-100, OQ-306, OQ-386 and OQ-463 have new notes.
+  - **Duplicate merged.** SLS-09 duplicated RD-52 and was merged into it.
+- **Data files.**
+  - **New files.** `solutions_screen.csv`, `surimi_trade.csv` and `coefficient_giving_grants.csv`.
+  - **Rows added.** `plays.csv` (T11, T12, P7), `target_product_profiles.csv` (TPP-12), `play_demand_check.csv` (T11), `instruments.csv` (INS-079 to INS-086), `funding_programs.csv` (FP-021 to FP-024), `policy_options.csv` (PO-034), `export_base.csv` (EB-31 to EB-33), `shock_register.csv` (SHK-021), `companies.csv` (CO-098) and `facilities.csv` (FAC-083).
+  - **Rows changed.** Each carries a "v0.10" note.
+
+### M5.16.1 Corrections
+
+| Topic | Previous version | New version | Where |
+|---|---|---|---|
+| Licence to use Vietnamese genetic resources (for example microbial strains) | Decree 59/2017 route, with a council of up to 90 days, a registration step and commune certification | Decree 43/2026: the provincial chairman issues the licence in about 19 working days (our calculation); standard contract form; licences up to 5 years; benefit sharing of at least 1% of product revenue unchanged [@SLF-02] | ch07 7.10, S9.16, S10, INS-049, PO-011, MIN-001, OQ-434 |
+| Cultivated meat against retail meat | 7 to 15 times retail meat | Factory cost is 7 to 15 times the shop price; on the model's own doubling to the shelf, about 15 to 29 times (our calculation) [@COST-47] | ch09 9.5, ch10 10.8, ch26 26.6, S12.11, S13, FAQ, kn-cultivated-cost-multiple |
+| The 100 kt a year in the cultured-meat cost model | Read as a scale | World output; the modelled plant is about 6.8 to 6.9 kt a year [@COST-47] | DG-104, SF-014, TEA-015, TEA-016 |
+| Innovation fund of USD 5 to 15 M a year | Listed among the "cheap" first steps | About 47% to 140% of everything NAFOSTED approved for new projects in 2023 (our calculation) [@SLW-01] | ch24, M2, F5, RM-11 |
+| Idle ethanol plants as retrofit candidates | Possible hosts for fermentation | Needed for E10; Vietnam imports about 75,000 m3 of ethanol a month [@SLF-13] | S5.1.3, ch05, RM-15 |
+| P4 | Protein-quality laboratory | Protein-quality and function laboratory | ch26, ch27 option 10, PO-027, summaries, briefs |
+| Policy options | 33 in the register | 34 (PO-034 not yet ranked; 19 ranked) | ch27, kn-policy-options-count, briefs |
+| Research rounds and sources in the summaries | Eleven rounds; 2,484 sources (Vietnamese summary: 2,480) | Thirteen rounds; 2,663 sources | Executive summaries, How to read, cover, FAQ |
+| T8 target species | Striped catfish and shrimp | Asian seabass or grouper as candidates (metadata only); catfish as a low-cost model; shrimp deferred | ch26 T8, RM-14, ch10 10.8, brief-research |
+
+### M5.16.2 Open issues carried forward
+
+- **Data rows citing retired sources.** 45 active data rows in 12 files still cite sources retired in v0.9 (for example rows in `funder_fit.csv`, `balance_assumptions.csv` and `actor_register.csv`). The v0.9 rule covers pages, tiles and charts only. Review each row and either replace or drop the retired source. RM-12 and INST-010 were cleaned in v0.10.
+- **Coefficient Giving's 2026 call.** Its page returned "Page not found" on 15 October 2026, and no awards had been announced (OQ-519). The fish species reported for its flavour priority could not be re-checked.
+- **Calls, not desk research.** Most new questions now need calls or trials:
+  - fish-cake makers (OQ-491);
+  - Vinasoy and tofu makers (OQ-510, OQ-511);
+  - VTCC licence terms (OQ-482, OQ-483);
+  - lessors and banks (OQ-498 to OQ-503);
+  - YERA (OQ-484);
+  - fermentation plants on operator training (OQ-504).
+- **Funder fit for TPP-12.** `funder_fit.csv` has no rows for the new candidate profile.
+- **HUST admission quotas.** These wait until the official admissions plan can be read (OQ-053).
+

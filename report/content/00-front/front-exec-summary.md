@@ -14,11 +14,11 @@ charts: []
 
 # Executive summary
 
-> **Draft for review.** Version 0.8. Not for citation.
+> **Draft for review.** Version 0.10. Not for citation.
 
 *New to alternative protein? Read the prologue first: [[front-prologue]]. Short on time? Read [[front-two-minute]].*
 
-**Protein for people first; feed only as context.** This study asks what Vietnam could make at home for people to eat, at what cost and under which rules, and who would buy it, now and to 2050. It treats demand as a design input, not a marketing plan. Feed appears only as context: it is the hidden import behind the meat, eggs, milk and farmed fish that people eat. Earlier drafts also assessed feed ingredients as products to make; that record stays in Appendices S6 and F6 and in the changelog ([[app-s6-feed-market]], [[app-f6-aquafeed-feedstock-futures]], [[app-m5-changelog]]). Insect protein is a benchmark, not a recommendation.
+**Protein for people first; feed only as context.** This study asks what Vietnam could make at home for people to eat, at what cost and under which rules, and who would buy it, now and to 2050. It treats demand as a design input, not a marketing plan. Feed appears only as context: it is the hidden import behind the meat, eggs, milk and farmed fish that people eat. Earlier drafts also assessed feed ingredients as products to make; that record stays in Appendices S6 and F6 and in the changelog ([[app-s6-feed-market]], [[app-f6-aquafeed-feedstock-futures]], [[app-m5-changelog]]).
 
 **Why Vietnam.** Vietnamese people eat more meat each year. Meat intake was 136.4 g per person per day in 2020, against a recommendation of 50 to 80 g, and animal foods supply 42% of protein. Most of that meat (about 90% in 2023), and the eggs and farmed fish, is produced in Vietnam on imported feed. About 99% of the soy protein in feed and about 74% of the maize supply were imported in 2025, for a feed-ingredient import bill of about USD 10 billion.
 
@@ -52,7 +52,7 @@ We tested the main food-security claims made for alternative protein in Vietnam 
 
 6. **Food rules have an open door but no gate.** New protein foods are sold through self-declaration. But the law also treats unpermitted "new-technology food" as recallable, and there is no procedure to get permission. Precision-fermented proteins probably count as products of a genetically modified organism (GMO) under a January 2026 decree. The new Food Safety Law, with first comments in October 2026 and a vote considered in May 2027, is a one-off window ([[ch07-rules]]).
 
-7. **Capital is thin.** Only one alternative-protein deal has exceeded USD 5 million: Entobel's USD 32.5 million insect-meal plant. It is an insect-feed deal, outside this study's scope, but it shows a deal structure: a buyer's offtake (an agreement to buy the output), local private equity and a development-finance ticket. Agritech venture capital in Vietnam was about USD 1 million in 2025 ([[ch08-capital]]).
+7. **Capital is thin.** No disclosed deal in Vietnam in the protein families this study covers has exceeded USD 5 million, and there is no proven local template for financing a plant. Agritech venture capital in Vietnam was about USD 1 million in 2025 ([[ch08-capital]]).
 
 8. **Capital, not operating cost, decides fermentation economics.** On indicative numbers, fungal biomass protein made in Vietnam costs USD 4,050 to 14,700 per tonne of protein, 54 to 67% of it capital charges and maintenance. It costs more than the commodity plant proteins food makers import, so it fits as a functional food ingredient, not a bulk one. Textured plant protein is cheap to make and to equip. But Chinese product enters duty-free at about USD 1.29 to 1.38 per kg, so the delivered price of food-grade soy flour decides whether a Vietnamese line pays ([[ch09-economics]]).
 
@@ -100,7 +100,14 @@ Part IV ([[ch19-outlook-2035]] to [[ch24-vision-2050]]) never presents a scenari
 - **T4. A cassava-starch-to-fermentation-sugar hub** (a cluster of plants on one site) next to starch factories, so a food-fermentation step stays in Vietnam (1 to 3 years; needs a committed fermenter).
 - **T5. Shared pilot and tolling fermentation** for food, which most fermentation plays need first (2 to 4 years). Tolling means renting time on someone else's fermenter.
 
-Koji and fungal foods (T9) and mung bean and rice protein for plant drinks (T10) are worth proving. Precision fermentation fits only as contract-made, high-value ingredients (T7), and cultivated seafood is research for this decade (T8). Earlier drafts also assessed three feed plays; they are retired. Four public goods would lower the cost of every play: a proportionate new-food procedure, a protein-quality laboratory, a by-product atlas, and an open cost model and price series.
+Koji and fungal foods (T9) and mung bean and rice protein for plant drinks (T10) are worth proving. Precision fermentation fits only as contract-made, high-value ingredients (T7), and cultivated seafood is research for this decade (T8). Earlier drafts also assessed three feed plays; they are retired. Four public goods would lower the cost of every play: a proportionate new-food procedure, a protein-quality and function laboratory, a by-product atlas, and an open cost model and price series.
+
+**Solutions screened.** In version 0.10 we checked 170 published solutions for Vietnam, including all 112 entries of the Good Food Institute's solutions database ([[app-s14-solutions-screen]]). None displaces T1, T4 or T5. The screen adds conditions:
+
+- Mung bean protein (T10) needs a paid starch co-product, or a higher-priced job such as replacing egg white.
+- A textured-protein line (T1) can be financed with leasing, factoring and supply-chain finance that already exist under Vietnamese law.
+
+Three candidates are listed but not yet ranked: hybrid fish cakes and fish balls (T11), domestic food-grade soybean and mung bean (T12), and a characterised set of Vietnamese food strains (P7).
 
 **First public steps.** The three highest-ranked policy options need no new agency. The first two cost little; the third takes more drafting ([[ch27-policy-options]]):
 
@@ -158,4 +165,4 @@ The eighteen unknowns that matter most, four of them on food security, and who c
 
 ---
 
-*About this report.* AltProtein Vietnam, draft version 0.8, October 2026, for review and not for citation; version 1.0 will be the public launch. It rests on eleven rounds of desk research (2,480 sources), a retail audit in Nha Trang and Ho Chi Minh City, a reproducible protein and feed balance model, a reproducible demand model and a check against 80 named actors. Each claim carries an evidence tag and a confidence level, and forward-looking and demand claims carry a further tag ([[front-how-to-read]], [[app-m1-method]]). Corrections are listed in [[app-m5-changelog]]. This is scoping research, not investment, legal or engineering advice.
+*About this report.* AltProtein Vietnam, draft version 0.10, October 2026, for review and not for citation; version 1.0 will be the public launch. It rests on thirteen rounds of desk research (2,669 sources), a retail audit in Nha Trang and Ho Chi Minh City, a reproducible protein and feed balance model, a reproducible demand model and a check against 80 named actors. Each claim carries an evidence tag and a confidence level, and forward-looking and demand claims carry a further tag ([[front-how-to-read]], [[app-m1-method]]). Corrections are listed in [[app-m5-changelog]]. This is scoping research, not investment, legal or engineering advice.

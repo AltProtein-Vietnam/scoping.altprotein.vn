@@ -1,0 +1,20 @@
+Imported soy protein, Mt protein
+  2025: feed 3.312 + food 0.191 = 3.503; food share 5.5%
+  EU-style target for 2035 (20% below 2025): 2.803
+  S-BASE 2035 trend: 4.546 (+29.8% on 2025)
+  Cut needed against trend: 1.743 Mt protein = 3.79 Mt soybean-meal equivalent
+EU reference: BAU change 2025 to 2035 = -3.2% (labelled -1% in the report figure)
+  domestic soy, 2010 peak area at 2.0 t/ha: 410 kt beans = 76% of 2025 food soy use; net extra protein 0.132 Mt = 7.6% of the cut; as meal-equivalent 0.32 Mt = 3.4% of 2035 trend meal
+  domestic soy, 2010 peak area at 2.5 t/ha: 512 kt beans = 95% of 2025 food soy use; net extra protein 0.169 Mt = 9.7% of the cut; as meal-equivalent 0.40 Mt = 4.2% of 2035 trend meal
+  domestic soy, 300 kha proposal at 2.5 t/ha: 750 kt beans = 139% of 2025 food soy use; net extra protein 0.255 Mt = 14.6% of the cut; as meal-equivalent 0.58 Mt = 6.2% of 2035 trend meal
+  D-BENCH food routes: 10.6 kt soybean meal = 0.0049 Mt protein = 0.3% of the cut
+  D-STRETCH food routes: 41.6 kt soybean meal = 0.0191 Mt protein = 1.1% of the cut
+  S-EFF 2035 (balance model): 1.387 Mt soybean meal = 0.638 Mt protein = 36.6% of the cut
+  S-ALT 2035 (balance model): 0.460 Mt soybean meal = 0.212 Mt protein = 12.1% of the cut
+Soybean (HS 1201) import unit values 2023, USD per t:
+  World: 648 (= VND 16,844 per kg at 26,000 VND per USD); value USD 1169.2 M
+  Brazil: 627 (= VND 16,294 per kg at 26,000 VND per USD); value USD 586.0 M
+  Canada: 686 (= VND 17,827 per kg at 26,000 VND per USD); value USD 78.4 M
+  United States: 673 (= VND 17,506 per kg at 26,000 VND per USD); value USD 450.7 M
+  domestic 25,000 VND/kg = USD 962 per t; ratio to Canadian 2023 unit value 1.40
+  domestic 30,000 VND/kg = USD 1154 per t; ratio to Canadian 2023 unit value 1.68

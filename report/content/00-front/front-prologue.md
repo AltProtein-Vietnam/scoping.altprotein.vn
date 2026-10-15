@@ -38,7 +38,7 @@ Many labels give "crude protein": the nitrogen content multiplied by 6.25. This 
 
 **Where protein comes from today.** Animal foods supply about a third of the world's protein. By FAO's count, livestock supply 34%; a widely cited global study gives 37%, including farmed fish [@PRB-17; @PRB-01] {general|High}. The rest comes from cereals, legumes, nuts and other plants.
 
-**Alternative protein.** In general use, alternative protein means protein made from plants, microorganisms, fungi, algae, insects or cultivated cells, rather than from conventional livestock and fish ([[app-r3-glossary]]). Worldwide it is made for both food and animal feed. Feed takes a large share of some crops. About 77% of the world's soy is fed to livestock, and only about 6% is eaten directly by people [@PRA-21; @PRA-20] {general|Medium}.
+**Alternative protein.** In general use, alternative protein means protein made from plants, microorganisms, fungi, algae or cultivated cells, rather than from conventional livestock and fish ([[app-r3-glossary]]). Worldwide it is made for both food and animal feed. Feed takes a large share of some crops. About 77% of the world's soy is fed to livestock, and only about 6% is eaten directly by people [@PRA-21; @PRA-20] {general|Medium}.
 
 So a protein that replaces soybean meal or fishmeal in animal feed also counts as alternative protein. Soybean meal is what is left of soybeans after the oil is pressed out; fishmeal is ground, dried fish.
 
@@ -69,10 +69,9 @@ The table describes each family of alternative protein and where it stands in 20
 | Fermentation: precision | Engineered microbes make one specific protein, which is then purified | Insulin (approved 1982) and cheese rennet (1990) came first. US regulators raised no questions on Impossible Foods' soy leghemoglobin, a heme-carrying protein made by yeast and used for flavour (2018; the burger has sold since 2016), and Perfect Day's whey (2020) | Commercial for high-value ingredients used in small doses. Too costly for bulk protein so far | [@PRA-10; @PRA-07; @PRA-11; @PRA-14; @PRA-12; @SCI-01] {general\|High} |
 | Cultivated meat and seafood | Animal cells multiplied in a nutrient liquid inside bioreactors (closed growing tanks), sometimes on edible scaffolds that the cells grow on | First tasting 2013 (London). First approved for sale in Singapore, November 2020 | Approved in a few countries; tiny volumes; high and debated costs | [@PRA-16; @PRA-15; @RGN-04; @RGN-03] {general\|High} |
 | Microalgae and duckweed | Single-celled algae (spirulina, chlorella) or tiny floating plants (duckweed) grown in ponds or tanks | Spirulina supplements. Duckweed protein concentrate judged safe in the EU (2023) | Niche; mostly supplements and research | [@PRA-18; @SCI-30] {general\|Medium} |
-| Insects | Mainly black soldier fly larvae reared on by-products, sold as feed | A 10,000-tonne-a-year feed plant has run in Vietnam since 2023 | In this report, a benchmark (a point of comparison) only, not a recommendation | [@ECO-01; @ECO-03] {VN-direct\|High} |
 | Blends (hybrids) | Animal protein mixed with plant, fungal or cultivated ingredients | Soy already extends processed meat: 22 of 67 (33%) of one Vietnamese processor's meat recipes list soy protein. Singapore's retail cultivated chicken (2024) was 3% cultivated cells | In the report's reading, the likeliest route for new proteins into ordinary food ([[ch14-frontier-demand]]) | [@BUY-05; @NOV-10; @NOV-11] {VN-adjacent\|Medium} |
 
-**Feed uses are context here.** Some families are also made as animal feed, such as bacterial protein from gas and insect meal. This study records them as background only, because it is about protein for people.
+**Feed uses are context here.** Some families are also made as animal feed, such as bacterial protein from gas. This study records them as background only, because it is about protein for people.
 
 **Making it is the easy part; making it cheaply is the hard part.** Each family has a different cost problem ([[app-s13-science]], [[ch21-frontier-technology]]):
 
@@ -162,7 +161,7 @@ Some firms are in trouble. Beyond Meat's revenue fell from USD 464.7 million (20
 
 Others have stepped back. Singapore dropped its "30 by 30" local production goal in November 2025 and left alternative protein out of its 2035 targets. The US revoked its 2022 biotechnology executive order in March 2025 [@RGN-08; @RGN-09; @PRC-28] {general|High}. Thailand's 2026 to 2035 biotechnology framework names future food and alternative proteins, and Korea's Food Tech Industry Promotion Act took effect in December 2025 [@RGN-35; @RGN-21] {VN-adjacent|Medium}.
 
-**Feed: background only.** Alternative proteins are also sold as animal feed, which this study treats only as context (section P.6; detail in [[app-s6-feed-market]]). In feed, they compete on price with soybean meal and fishmeal. Per tonne of protein, soybean meal cost about USD 880 in August 2026 and fishmeal about USD 3,846, at 46% and 65% protein (our calculation) [@FM-01; @FM-02] {general|High}. China's Shougang LanzaTech produced about 10,200 t of bacterial feed protein from steel-mill gas in 2023. Insect meal and methane-fed protein plants in Europe and China have struggled [@FTG-08; @FTG-06; @AIS-21] {general|Medium}.
+**Feed: background only.** Alternative proteins are also sold as animal feed, which this study treats only as context (section P.6; detail in [[app-s6-feed-market]]). In feed, they compete on price with soybean meal and fishmeal. Per tonne of protein, soybean meal cost about USD 880 in August 2026 and fishmeal about USD 3,846, at 46% and 65% protein (our calculation) [@FM-01; @FM-02] {general|High}. China's Shougang LanzaTech produced about 10,200 t of bacterial feed protein from steel-mill gas in 2023. Methane-fed protein plants in Europe and China have struggled [@FTG-08; @FTG-06] {general|Medium}.
 
 ## P.6 Where Vietnam fits, and what this study covers
 
@@ -182,7 +181,7 @@ Vietnam has strengths: a strong plant-protein tradition in *chay*, a large starc
 - Under which rules?
 - Who would buy it?
 
-Feed appears only as context. It is the hidden import behind the meat, eggs, milk and farmed fish that people eat, and so part of the food-security picture. The study does not treat feed ingredients (fishmeal replacements, or microbial, insect or duckweed feed) as something to make. Earlier drafts assessed them, and that record stays in [[app-s6-feed-market]], [[app-f6-aquafeed-feedstock-futures]] and the changelog ([[app-m5-changelog]]).
+Feed appears only as context. It is the hidden import behind the meat, eggs, milk and farmed fish that people eat, and so part of the food-security picture. The study does not treat feed ingredients (fishmeal replacements, or microbial or duckweed feed) as something to make. Earlier drafts assessed them, and that record stays in [[app-s6-feed-market]], [[app-f6-aquafeed-feedstock-futures]] and the changelog ([[app-m5-changelog]]).
 
 **What Vietnam could make first.** The report's plays, meaning specific businesses or programmes someone could start, are all about food. Three lead ([[ch26-plays]]):
 

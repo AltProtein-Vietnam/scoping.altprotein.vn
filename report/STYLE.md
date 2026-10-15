@@ -60,7 +60,7 @@ charts: [chart-feed-imports]                                 # ids in charts/cha
 
 ## 6. Scope reminder
 
-Supply side: raw materials, processes, manufacturing, rules, capital, science (Parts I, II and IV). From version 0.8 the study is about protein for people (human food). Feed appears only as context: it is the hidden import behind the meat, eggs, milk and farmed fish people eat. Feed ingredients (fishmeal replacements, microbial, insect or duckweed feed) are not treated as a production target or a recommended play. Insect protein appears as an incumbent and benchmark, not as a recommended play. Part III covers the demand side as a design input: households, foodservice and institutions, business buyers and export demand. Consumer marketing plans and market-size forecasts remain out of scope; demand is sized only as labelled scenarios, and published market sizes without a traceable method are not used.
+Supply side: raw materials, processes, manufacturing, rules, capital, science (Parts I, II and IV). From version 0.8 the study is about protein for people (human food). Feed appears only as context: it is the hidden import behind the meat, eggs, milk and farmed fish people eat. Feed ingredients (fishmeal replacements, microbial or duckweed feed) are not treated as a production target or a recommended play. Part III covers the demand side as a design input: households, foodservice and institutions, business buyers and export demand. Consumer marketing plans and market-size forecasts remain out of scope; demand is sized only as labelled scenarios, and published market sizes without a traceable method are not used.
 
 ## 7. Versions and structure
 

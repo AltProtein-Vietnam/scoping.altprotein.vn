@@ -10,7 +10,7 @@ audiences: [research, policy, international, startups, investors]
 reading_time_min: 8
 key_numbers: [kn-novel-food-research-intensity, kn-ctu-places]
 related_data: [publications.csv, biblio_counts.csv, institutions.csv, research_funding.csv, pilot_labs.csv, talent.csv]
-related_pages: [app-s7-research, app-s8-labs-talent, app-s13-science, ch27-policy-options]
+related_pages: [app-s7-research, app-s8-labs-talent, app-s13-science, ch27-policy-options, ch28-robust-moves]
 charts: [chart-research-benchmark]
 ---
 
@@ -22,6 +22,7 @@ charts: [chart-research-benchmark]
 - They publish almost nothing on texturisation, mycoprotein, precision-fermented food proteins or food-grade fish cell lines.
 - Vietnam's research intensity on novel foods is about a quarter to a third of Thailand's (a quarter on OpenAIRE; about 31% on a broader OpenAlex basket [@HSC-01] {VN-direct|Medium}).
 - The binding constraint is not ideas but shared infrastructure. We found no open pilot fermentation facility, no food extrusion line and no laboratory offering the accredited amino-acid and digestibility tests that a protein-quality claim or a novel-food dossier needs.
+- Training and research money are thin too. We found no alternative-protein course, research centre or student group in Vietnam [@VCO-21; @SLW-03] {VN-direct|Medium}. An ordinary project from the national science foundation averaged about USD 36,500 in 2023 (our conversion) [@SLW-01] {VN-direct|High}.
 
 ---
 
@@ -41,6 +42,10 @@ Source: [@BIB-01] {VN-direct|Medium}. Indonesia is excluded from the intensity c
 
 **Reading.** Vietnam's weakness is specific to novel food technologies. In algae and in aquafeed protein replacement it is at the regional level. The aquafeed count is certainly an undercount: broader term searches found at least 10 and up to about 20 Vietnamese replacement studies [@BIB-06; @RD-01] {VN-direct|Medium}. After reading titles, Vietnam has **zero or near-zero** published work in precision fermentation or recombinant food proteins, mycoprotein, fish or shrimp cell lines for food, and cultivated meat (one 2024 legal analysis). It has at most one study on meat-analogue extrusion [@BIB-01; @RD-43] {VN-direct|Medium}. About six Vietnamese papers address plant-based meat products (reviews, a soy-burger shelf-life study, a partly meat-free sausage) [@BIB-01; @RD-26; @RD-27] {VN-direct|Medium}.
 
+Two later findings sit outside these counts:
+- **Meat analogues at IUH.** The Industrial University of Ho Chi Minh City (IUH) published two meat-analogue papers in 2026: a high-moisture analogue with jackfruit fibre and a plant-based jackfruit pate. That makes it the most visible Vietnamese meat-analogue group, although we read both papers as metadata only [@TIC-21; @SLW-18; @SLW-02] {VN-direct|Low}.
+- **Cultivated meat outside journals.** In December 2022 the press reported that a tissue-engineering laboratory at the University of Science of Vietnam National University, Ho Chi Minh City (HCMUS), had cultured beef cells and 3D-printed a scaffold for them. We found no peer-reviewed paper from this work [@SLC-01] {VN-direct|Low}.
+
 > **Correction.** Earlier drafts said no Vietnamese study had reported RNA reduction, mycotoxin testing or protein digestibility. That was too strong: nucleic-acid reduction in spent brewer's yeast (2018), aflatoxin testing in traditional fermented soy (2025) and in vitro digestibility of rice distillers'-grain protein (2025) are all published. What remains true is that none has been applied to a novel microbial biomass, and **no Vietnamese DIAAS or PDCAAS study was found** [@RD-31; @RD-61; @RD-23] {VN-direct|Medium}. DIAAS and PDCAAS are two scores of protein quality ([[app-r3-glossary]]).
 
 ## 6.2 Five adjacent strengths
@@ -59,7 +64,7 @@ Two further assets are specific and under-used:
 
 Each of these combines a Vietnamese raw material, species or skill with an absence of published work (detail in [[app-s7-research]]):
 
-1. Food-grade adaptation of striped catfish (*tra*) and shrimp cells. Continuous striped-catfish lines exist in India, but they are serum-dependent virology lines [@SCI-10] {general|High}. We know of no true continuous shrimp line (the "PmLyO-Sf9" line is part insect) [@SCI-12] {general|Medium}.
+1. Food-grade adaptation of striped catfish (*tra*) and shrimp cells. Continuous striped-catfish lines exist in India, but they are serum-dependent virology lines [@SCI-10] {general|High}. We know of no true continuous shrimp line (the "PmLyO-Sf9" line is partly derived from a moth cell line) [@SCI-12] {general|Medium}.
 2. Low-cost *Pichia*-made growth factors tested on fish cells.
 3. Fungal biomass from cassava pulp and peel with a food-grade safety package (cyanide, mycotoxins, RNA, digestibility).
 4. Characterised Vietnamese *A. oryzae* (*tương*, fermented soybean paste) strains as biomass-protein hosts, with the strain safety data regulators will ask for (cyclopiazonic acid and 3-nitropropionic acid) [@SCI-19] {general|High}.
@@ -75,7 +80,7 @@ An earlier list had an eleventh gap: bacterial single-cell protein and fungal me
 ## 6.4 Shared infrastructure: the binding constraint
 
 - **Pilot fermentation.** We found no Vietnamese facility that publishes an open, food-grade pilot fermentation service. The Food Industries Research Institute's (FIRI) pilot centre in Hanoi lists soy-milk, tofu, juice and powder processes but no fermenters. The HCMC Biotechnology Center lists agriculture and aquaculture technology transfer, not contract fermentation [@INF-02; @INF-04; @INF-05] {VN-direct|Medium}.
-- **Extrusion.** We found no food extruder listed by a Vietnamese university or institute [@RD-01; @INF-02] {VN-direct|Medium}. A team at the Industrial University of Ho Chi Minh City (IUH) published high-moisture meat-analogue work in 2026, so IUH should be checked first [@TIC-21] {VN-direct|Low}.
+- **Extrusion.** We found no food extruder listed by a Vietnamese university or institute [@RD-01; @INF-02] {VN-direct|Medium}. A team at IUH published high-moisture meat-analogue work in 2026, so IUH should be checked first [@TIC-21] {VN-direct|Low}. An OpenAlex search found 3 Vietnam-affiliated papers on texturisation from 2015 to 2026, against 31 from Thailand [@SLP-07] {VN-direct|Medium}. Thailand's National Metal and Materials Technology Center (MTEC) has published high-moisture extrusion of mung bean protein [@SLP-06] {VN-adjacent|Medium}. So Thai public extrusion capacity is the nearest trial route for high-moisture work on textured protein and for mung bean texturisation (plays T1 and T10 in [[ch26-plays]]; our inference).
 - **Testing.** FIRI's National Center for Food Analysis and Assessment (NACEFA; VILAS 259, its number under the Vietnam Laboratory Accreditation Scheme) lists proximate, contaminant, mycotoxin and microbiology tests, and HPLC equipment (high-performance liquid chromatography) for amino-acid analysis. The page we read for the National Institute for Food Control (NIFC) shows no test scope. No laboratory page we read lists accredited amino-acid profiles or protein digestibility (DIAAS) testing [@INF-03; @INF-10; @INF-11; @INF-13; @INF-14] {VN-direct|Medium}. PDCAAS and DIAAS work will probably need an overseas laboratory for now.
 - **Feed trials (context).** The Ministry of Agriculture and Environment (MAE) has restructured its state centres that run feed and aquafeed trials, and both may sell services [@INF-18; @INF-28] {VN-direct|High}.
 - **Parks.** Saigon Hi-Tech Park (913 ha) has an incubator, a research and development (R&D) centre and a biotech centre [@INF-06] {VN-direct|High}. A 2026 decree lets provinces create high-tech agriculture zones with R&D and interest-subsidy incentives [@INF-23] {VN-direct|Medium}.
@@ -86,13 +91,23 @@ Degrees in food technology, biotechnology and aquaculture are offered at several
 
 The skills gap is specialist rather than general. The literature shows almost no Vietnamese work in extrusion, food-grade downstream processing of microbial biomass, sensory and structure work on meat analogues, protein-quality scoring, or cell culture of fish and livestock cells for food [@RD-01; @BIB-01] {VN-direct|Low}. Startups in those areas will import know-how and people, which adds cost and key-person risk. We found no salary survey for food or biotech engineers.
 
+**No alternative-protein teaching.** We found no alternative-protein course, major, research centre or student group in Vietnam. On 15 October 2026 the Good Food Institute's (GFI) ecosystem database listed 2 Vietnamese companies and none of these [@VCO-21] {VN-direct|Medium}. GFI's student network, the Alt Protein Project, had 70 chapters in 21 countries in August 2024, none in Vietnam [@SLW-03] {general|Medium}. The database also lists no courses or research centres in Thailand, so it understates Southeast Asia as a whole [@SLW-04; @SLW-05] {VN-adjacent|Medium}.
+
+**A low-cost teaching model exists abroad.** From 2017 to 2024 the Alt: Meat Lab at the University of California, Berkeley, ran 4-unit product-design "challenge labs" on problems set by industry partners. About 32 students took part each semester (our calculation), and at least three startups came out of the classes [@AML-21; @AML-22; @AML-11; @AML-13; @AML-15] {general|Medium}. Vietnam already has a national student contest: the Food Innovation and Development (FID) contest at the Ho Chi Minh City University of Industry and Trade (HUIT) drew 144 projects from 58 universities and high schools in 2025. No plant-protein product was among its winners [@AML-33] {VN-direct|Medium}. We found no credit-bearing alternative-protein course (open question OQ-516 in [[app-r1-open-questions]]).
+
+**Who trains fermentation operators.** We found no published fermentation short course for industry. FIRI has departments of fermentation technology and of enzyme and protein technology, but its training page lists only doctoral training and one 2018 analysis course [@SLW-14; @INF-01] {VN-direct|Medium}. A 2013 national framework for intermediate-level fermentation technicians exists on paper; we could not confirm that any college teaches it now [@SLW-20] {VN-direct|Low}. Fees are not the barrier: a 21-hour hands-on fermentation course in the United States costs USD 3,100, half of it at a pilot-scale bioreactor [@SLW-09] {general|High}. The barrier is access to pilot-scale equipment, which no open Vietnamese facility offers (section 6.4).
+
+The skills move RM-09 in [[ch28-robust-moves]] responds with separate tracks for senior engineers and operators.
+
 ## 6.6 Research funding
 
-- **NAFOSTED** (the national science foundation) and **VINIF** (the Vingroup Innovation Foundation) are both often acknowledged in relevant Vietnamese papers; typical grant sizes were not established [@RD-05; @RD-06; @RD-12] {VN-direct|Medium}.
-- **VINIF** mainly funds people: about 1,300 master's and doctoral scholarships, 180 postdoctoral fellowships and 117 projects in 2018 to 2023 [@RD-05] {VN-direct|Medium}.
+- **NAFOSTED is the main domestic funder.** NAFOSTED is the National Foundation for Science and Technology Development, under the Ministry of Science and Technology (MOST). On one OpenAlex query of 525 Vietnam-affiliated food-protein works (2015 to 2026), it is acknowledged on 36. VINIF (the Vingroup Innovation Foundation) is acknowledged on 5, and Vingroup itself on 7 more [@SLW-02] {VN-direct|Medium}.
+- **NAFOSTED grants are small.** In 2023 it approved VND 278.3 billion (about USD 10.7 million) for 284 new projects across all fields. An ordinary basic-research project averaged about VND 950 million (about USD 36,500), and a strong-research-group project about VND 3 billion (about USD 115,000). Applied and international-cooperation projects averaged about VND 1.5 billion (about USD 58,000). These are our conversions at 26,000 VND per USD [@SLW-01] {VN-direct|High}.
+- **NAFOSTED co-funds with foreign agencies.** Its 2023 joint projects were with the research foundations of Flanders (FWO) and Germany (DFG). It also names the Swiss National Science Foundation (SNSF), UK research bodies and Australia's National Health and Medical Research Council (NHMRC) as partners [@SLW-01] {VN-direct|High}.
+- **VINIF** mainly funds people: about 1,300 master's and doctoral scholarships, 180 postdoctoral fellowships and 117 projects in 2018 to 2023 [@RD-05] {VN-direct|Medium}. Its latest dated programme announcement is from 20 December 2024; its website showed no 2025 or 2026 call on 15 October 2026 [@RD-05] {VN-direct|Medium}.
 - **International funders:**
   - the Australian Centre for International Agricultural Research (ACIAR) spends about AUD 5.4 million across 23 Vietnamese projects in 2025/26, none on alternative protein [@RD-04] {VN-direct|High};
-  - the Good Food Institute (GFI) research grant programme lists no featured grantee in Vietnam or elsewhere in Southeast Asia on the page we read, and is closed [@RD-02; @RD-03] {general|Medium};
+  - GFI's research grant programme lists no featured grantee in Vietnam or elsewhere in Southeast Asia on the page we read, and was still closed on 15 October 2026 [@RD-02; @RD-03] {general|Medium}. None of 270 GFI-funded works in OpenAlex has a Vietnamese author; their authors come from 39 countries, and none from Thailand either [@SLW-02] {general|Medium};
   - the largest recent open call (Coefficient Giving's alternative-protein R&D request, up to USD 30 million, international applicants welcome) closed on 15 September 2026 [@CAP-57] {general|High}.
 - **Law 93/2025** allows acceptance of research risk and liability exemption when procedures are followed, which a national protein-research programme could use [@RD-08; @REG-48] {VN-direct|Medium}.
 
@@ -104,8 +119,8 @@ The skills gap is specialist rather than general. The literature shows almost no
   - a pilot extrusion line;
   - amino-acid and digestibility methods added to an accredited laboratory's scope.
 
-  A directed call on "protein from Vietnamese side streams and species" would turn scattered groups into a network ([[ch27-policy-options]]).
+  A directed call on "protein from Vietnamese side streams and species" would turn scattered groups into a network ([[ch27-policy-options]]). NAFOSTED is the natural owner. A first round in 2027 of about VND 9 to 10 billion (about USD 0.35 to 0.38 million) would fund 10 ordinary or 3 strong-group projects (our calculation) [@SLW-01] {VN-direct|Medium} {fx:estimate}. NAFOSTED's joint-call partners or a foreign foundation could co-fund it (OQ-507).
 - **Investors and startups:** credible research partners exist for side-stream food protein (HUST) and for koji genetics (the University of Science in Hanoi); ask founders for their trial data. Strong aquafeed trial groups (Can Tho, Nha Trang, the state aquafeed centre) are a fact, but feed is context only here. Do not assume any Vietnamese partner owns an extruder or a 100-litre-plus food-grade fermenter until confirmed.
-- **International bodies:** the GFI research grant page we read lists no featured grantee in Vietnam. The most fundable public goods are a food-grade catfish or shrimp cell-line adaptation project, a Vietnamese protein-quality database and duckweed germplasm protein screening.
+- **International bodies:** we found no GFI grantee and no GFI-funded author in Vietnam (section 6.6). The most fundable public goods are a food-grade catfish or shrimp cell-line adaptation project, a Vietnamese protein-quality database and duckweed germplasm protein screening.
 
-**Related:** [[app-s7-research]], [[app-s8-labs-talent]], [[app-s13-science]].
+**Related:** [[app-s7-research]], [[app-s8-labs-talent]], [[app-s13-science]], [[ch28-robust-moves]].

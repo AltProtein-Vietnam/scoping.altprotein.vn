@@ -5,7 +5,7 @@ short_title: "Technology fit"
 section: report
 part: "II. Supply: what Vietnam can make"
 order: 10
-summary: "We test ten technology families against seven Vietnamese conditions: feedstock, industrial base, science readiness, route to market, buyers, competition and capital intensity. Textured plant protein for food fits now. Local legume and rice proteins and fungal foods are worth proving. Precision fermentation fits only as high-value, low-dose ingredients made under contract. Cultivated meat and seafood are research topics for this decade. Feed uses stay in the matrix as a record but are context only, and insects are a benchmark, not a recommendation."
+summary: "We test ten technology families against seven Vietnamese conditions: feedstock, industrial base, science readiness, route to market, buyers, competition and capital intensity. Textured plant protein for food fits now. Local legume and rice proteins and fungal foods are worth proving. Precision fermentation fits only as high-value, low-dose ingredients made under contract. Cultivated meat and seafood are research topics for this decade. Feed uses stay in the matrix as a record but are context only."
 audiences: [investors, startups, manufacturers, research, policy, international]
 reading_time_min: 11
 key_numbers: [kn-pf-titer-gap, kn-mung-diaas, kn-cultivated-cost-multiple]
@@ -22,8 +22,8 @@ charts: [chart-technology-fit-matrix]
 - **Fits now: textured plant protein for food.** The rules are clear, the buyers exist and Vietnam imports what a domestic plant would replace.
 - **Worth proving with pilots:** local legume and rice protein ingredients, and fungal foods, starting with koji (mycoprotein is one to watch).
 - **Precision fermentation** fits only for high-value, low-dose products made under contract. The best published titers (the concentration of product in the fermenter) are about 5 to 14 times below what the literature expects for bulk proteins. The product probably counts as a product of a genetically modified organism (GMO) in Vietnam.
-- **Cultivated meat and seafood** remain research topics. Vietnam has no food cell line, and costs are 7 to 15 times the retail price of meat.
-- **Feed is context, not a target.** The matrix keeps its ratings for microbial feed ingredients and duckweed feed as a record, but the study no longer treats feed as something to make. Insects are an established feed incumbent and appear here only as a benchmark.
+- **Cultivated meat and seafood** remain research topics. Vietnam has no food cell line. Modelled factory cost is 7 to 15 times the shop price of meat; compared shelf to shelf, the gap is about 15 to 29 times.
+- **Feed is context, not a target.** The matrix keeps its ratings for microbial feed ingredients and duckweed feed as a record, but the study no longer treats feed as something to make.
 
 ---
 
@@ -59,7 +59,6 @@ The matrix keeps every family we assessed, including the feed uses, as a record.
 | Precision fermentation | Strong | Weak | Weak | Weak | Weak | Weak | Weak | **Contract-made, high-value, low-dose only** |
 | Gas fermentation (CO2, methane, off-gas) | Weak | Weak | Moderate | Moderate | Moderate | Weak | Weak | **Watch** |
 | Cultivated meat and seafood | Weak | Weak | Weak | Weak | Weak | Weak | Weak | **Research and watch** |
-| Insects (benchmark) | Strong | Strong | Strong | Strong | Strong | n/a | Moderate | **Incumbent; not a recommendation of this report** |
 
 {{chart:chart-technology-fit-matrix}}
 
@@ -75,6 +74,10 @@ Protein quality measured in pigs is reasonable. DIAAS, a measure of protein qual
 
 Vinamilk's high-protein nut milks and plant yoghurts already use imported pea protein [@FORM-01] {VN-direct|Medium} {dx:revealed}. The plausible first market is replacing that imported pea protein, not replacing textured soy {VN-direct|Medium} {dx:inferred}. Competition from Chinese pea and rice proteins is strong, so this needs a buyer specification and a pilot before a plant.
 
+Raw material alone is a hurdle. At 2023 to 2025 import prices, mung beans cost USD 3.0 to 4.9 per kg of isolate before any processing, against USD 2 to 3 per kg for Chinese pea protein. So the starch, about half the bean, has to be sold too (our calculation, assuming 60 to 80% protein recovery) [@SLP-14; @DIE-12; @BUY-09] {VN-direct|Low}. Rice protein pays only as a co-product of rice syrup or starch, and we found no such host in Vietnam ([[app-s4-feedstocks]], sheet C7). Both are constraints on play T10 ([[ch26-plays]]).
+
+A second job pays better: replacing egg white in meat products and bakery. Vietnam imported 2,536 t of egg white and egg powders in 2025, with Indian egg white powder at USD 5.90 per kg [@BUY-02] {VN-direct|Medium} {dx:revealed}. Mung bean protein isolate already has US GRAS status (generally recognised as safe) for use in many foods [@SLP-11] {general|High}. But that market is small, tens to a few hundred tonnes of isolate a year (our calculation) {VN-direct|Low}.
+
 ## 10.4 Microbial protein for feed: context, not a target
 
 The study no longer treats microbial feed ingredients as something to make. Earlier drafts assessed them as functional ingredients for shrimp and fish feed and as bulk replacements for fishmeal. That record stays in the matrix above and in [[app-s6-feed-market]] and [[app-s13-science]]. Two points remain useful context:
@@ -84,7 +87,8 @@ The study no longer treats microbial feed ingredients as something to make. Earl
 
 ## 10.5 Fungal foods: koji first
 
-- **Koji and solid-state fermentation** (growing a mould on a moist solid food). Vietnam has a *tương* (fermented soybean paste) tradition and research groups with gene tools for *Aspergillus oryzae* [@RD-33; @RD-34] {VN-direct|Medium}. The route to market is clear: koji on food substrates goes through ordinary self-declaration ([[ch07-rules]]). *A. oryzae* cannot make the toxin aflatoxin, but it can make two other toxins, cyclopiazonic acid and 3-nitropropionic acid. Industrial strains carry a deletion that removes the risk, so a koji business needs a characterised strain, not a wild starter [@SCI-19] {general|High}.
+- **Koji and solid-state fermentation** (growing a mould on a moist solid food). Vietnam has a *tương* (fermented soybean paste) tradition and research groups with gene tools for *Aspergillus oryzae* [@RD-33; @RD-34] {VN-direct|Medium}. The route to market is clear: koji on food substrates goes through ordinary self-declaration ([[ch07-rules]]). *A. oryzae* cannot make the toxin aflatoxin, but it can make two other toxins, cyclopiazonic acid and 3-nitropropionic acid. Industrial strains carry a deletion that removes the risk, so a koji business needs a characterised strain, not a wild starter [@SCI-19] {general|High}. Characterised local strains are candidate public good P7 ([[ch26-plays]], section 26.8).
+- **A commercial precedent abroad.** Koji mycelium deli meats are sold commercially in the United States. Their maker grew out of a University of California, Berkeley student challenge [@AML-10; @AML-11] {general|Medium}. It raised USD 30 million in May 2023 (USD 50 million in total), and the Philippine food group Monde Nissin was among the investors [@AML-29] {general|Medium}. Monde Nissin has written down and cut back its own meat-alternatives business, so one investor's bet is not proof of a market [@RDL-40; @AIS-44] {VN-adjacent|Medium}.
 - **Mycoprotein and yeast food protein.** Published costs are about USD 29.6 per kg of protein [@COST-43] {general|High}. Every fungal or yeast food protein needs a step to cut its RNA content, from about 10% to 2% of dry weight by a 68 °C heat step [@SCI-20] {general|High}. Chinese capacity sets the price: China added 11,000 t of yeast-protein capacity in 2025, and a 20,000 t mycoprotein plant is under construction ([[ch03-regional]]). There is no novel-food route for a new fungal species ([[ch07-rules]]).
 - **Published yields need care.** The widely repeated "118.5 g/L" *A. oryzae* biomass on vinasse (the liquid left after distilling alcohol) is not a broth concentration. The plausible flask value is about 5.9 g/L (our inference: 118.5 × 5% vinasse) [@SCI-18] {general|Medium}.
 - **Heat-tolerant strains.** Thermotolerant yeasts such as *Kluyveromyces marxianus*, isolated from Thai cassava pulp, grow at 40 °C on raw cassava starch [@SCI-44; @SCI-45] {VN-adjacent|High}. That cuts the cooling penalty of fermenting in the tropics ([[ch09-economics]]).
@@ -103,24 +107,30 @@ The study no longer treats microbial feed ingredients as something to make. Earl
 - **Strains.** OPENPichia offers a *Pichia* host (the yeast strain engineered to make the protein) under a liberal licence that allows royalty-free commercial manufacture. Users still accept a licence, and product patents still apply [@SCI-08] {general|High}.
 - **Rules.** Precision-fermented proteins probably count as "products of a GMO" under Decree 43/2026. Production with a genetically modified strain needs a closed-production certificate, whose timeline is unpublished ([[ch07-rules]]).
 - **Infrastructure.** Vietnam has no food-grade contract fermentation and no open pilot fermenter ([[ch05-industrial-base]]). The nearest are in Singapore, Thailand and China ([[ch03-regional]]).
+- **Fats.** Low-dose flavour fats follow the same model: one Western brand has its fat made under contract by a Chinese microbial-oil producer [@SLF-09] {general|Medium}. Bulk fats do not fit. Even an ideal microbial-oil plant would sell at USD 1.20 to 1.81 per kg, against palm oil at USD 1.12 per kg in August 2026 [@SLF-08; @FM-01] {general|Medium}.
 
-**Fit.** High-value, low-dose ingredients (enzymes, heme and sweet proteins, specialty functional proteins), developed by Vietnamese groups that already express proteins in yeast ([[ch06-knowledge-talent]]). They would be made under contract abroad until a domestic tolling option exists; tolling means renting time on someone else's fermenter. Not commodity dairy or egg proteins.
+**Fit.** High-value, low-dose ingredients (enzymes, heme and sweet proteins, specialty functional proteins and flavour fats), developed by Vietnamese groups that already express proteins in yeast ([[ch06-knowledge-talent]]). They would be made under contract abroad until a domestic tolling option exists; tolling means renting time on someone else's fermenter. Not commodity dairy or egg proteins, and not bulk fats.
 
 ## 10.8 Cultivated meat and seafood: research for this decade
 
-- **No food cell line.** The striped catfish cell lines that exist (India, Taiwan) were built for virology and toxicology. The best documented, PHT, needs 20% fetal bovine serum (an animal-derived growth supplement) and grows attached to surfaces [@SCI-10] {VN-adjacent|High}. The others are known only from their published descriptions [@SCI-11; @SCI-46; @SCI-47] {VN-adjacent|Medium}. The "shrimp" line PmLyO-Sf9 is a black tiger shrimp and insect hybrid [@SCI-12; @SCI-13] {general|High}. We found no true continuous shrimp cell line.
-- **Cost.** Modelled cost is USD 37 to 51 per kg of wet cells [@COST-47] {general|High}, 7 to 15 times the retail price of lean pork or chicken breast in Vietnam ([[ch09-economics]]). The best documented animal-free culture, of chicken cells under continuous perfusion (a constant flow of fresh growth medium), reached up to 130 million cells per mL [@SCI-16] {general|Medium}.
+- **No food cell line for catfish or shrimp.** The striped catfish cell lines that exist (India, Taiwan) were built for virology and toxicology. The best documented, PHT, needs 20% fetal bovine serum (an animal-derived growth supplement) and grows attached to surfaces [@SCI-10] {VN-adjacent|High}. The others are known only from their published descriptions [@SCI-11; @SCI-46; @SCI-47] {VN-adjacent|Medium}. The "shrimp" line PmLyO-Sf9 is a hybrid of black tiger shrimp cells and a moth cell line (Sf9) [@SCI-12; @SCI-13] {general|High}. We found no true continuous shrimp cell line.
+- **Food-oriented lines exist abroad for two fish farmed in Vietnam.** Muscle cell lines aimed at food were published for seven-band grouper (Korea, 2024) and Asian seabass (India, 2025). We read these papers at metadata level only (titles and authors) [@SLS-13; @SLS-14; @SLS-15; @SLS-16] {general|Low}.
+- **Cost.** The published model gives USD 37 to 51 per kg of wet cells at the factory gate [@COST-47] {general|High}. That is 7 to 15 times the shop price of lean pork or chicken breast in Vietnam, but it sets a factory cost against a shop price. On the model author's own doubling from bulk cells to shelf, the gap is about 15 to 29 times (our calculation; inputs in [[app-s12-costs]], S12.11, and [[ch09-economics]], section 9.5) {VN-direct|Low}. Both modelled cases also miss the author's affordability target of about USD 25 per kg of bulk cells [@COST-47] {general|High}.
+- **Media.** Amino acids, not growth factors, are the larger medium cost at scale in that model: about USD 19 against USD 3 per kg of cells [@COST-47] {general|High}. Cheaper inputs are arriving but do not yet add up to a cheap medium. Rapeseed protein replaced recombinant albumin in one beef-cell medium [@SLC-03] {general|High}. Food-grade substitutes for serum albumin cut medium price by up to 73% for some cell lines, and plant and yeast hydrolysates matched a defined basal medium for cattle muscle stem cells [@SLC-04; @SLC-08] {general|Medium}. In fish stem cells, plant and microbial hydrolysates supported growth only alongside 1 to 2.5% serum [@SLC-02] {general|Medium}. We found no cheap serum-free medium proven for food cells.
+- **Density.** The best documented animal-free culture, of chicken cells under continuous perfusion (a constant flow of fresh growth medium), reached up to 130 million cells per mL [@SCI-16] {general|Medium}.
 - **Rules.** No route in Vietnam; the nearest approvals are in Singapore ([[ch03-regional]]).
 
 > **Correction.** In v0.6 this said the best animal-free culture reached about 28 million cells per mL, below cost-model densities; the source reports up to 130 million cells per mL in animal-component-free medium.
 
-**Fit.** Research, not production: serum-free adaptation of striped catfish cells, growth-factor expression (which Vietnamese groups already do), and regulatory preparation. Watch Singapore and Korea for signals.
+**Fit.** Research, not production ([[ch26-plays]] play T8):
+- low-cost hydrolysate media from Vietnamese soy, rice bran or fish by-products (our inference: we found no test of such media on fish cells);
+- serum-free adaptation of fish cells, with Asian seabass or grouper as candidate target species, striped catfish as a low-cost model and shrimp deferred (a candidate choice resting on metadata-level evidence);
+- growth-factor expression, which Vietnamese groups already do;
+- regulatory preparation.
 
-## 10.9 Insects: the benchmark
+Watch Singapore and Korea for signals.
 
-Black soldier fly meal is the one alternative protein made at industrial scale in Vietnam. It has an 11,000 t a year design capacity and a seafood exporter's offtake ([[ch02-alt-protein-today]], [[ch08-capital]]). It is on the livestock feed list. As agreed in scope, this report treats insects as the feed incumbent and a benchmark, not as a play we recommend. For protein for people, its main lesson is about finance: it shows how a new protein plant was funded in Vietnam ([[ch08-capital]]).
-
-## 10.10 What this means
+## 10.9 What this means
 
 - **Investors:** textured plant protein, the one "build now" family, has modest capital needs and business buyers. Everything else needs a pilot, a partner or a rule change first.
 - **Startups:** pick a family where the route to market is already clear (textured protein, koji) and sell function or import substitution, not novelty.

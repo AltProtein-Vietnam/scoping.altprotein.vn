@@ -1,0 +1,9 @@
+export quote low   price USD  368.0/t, protein 7.9%:  43.5 kg protein/t,  56.8 kg product/t, raw material USD  8.47 per kg protein, USD  6.48 per kg of 76.5% product, carbohydrate-rich residue  943.2 kg/t
+export quote low   price USD  368.0/t, protein 9.0%:  49.5 kg protein/t,  64.7 kg product/t, raw material USD  7.43 per kg protein, USD  5.69 per kg of 76.5% product, carbohydrate-rich residue  935.3 kg/t
+export quote high  price USD  372.0/t, protein 7.9%:  43.5 kg protein/t,  56.8 kg product/t, raw material USD  8.56 per kg protein, USD  6.55 per kg of 76.5% product, carbohydrate-rich residue  943.2 kg/t
+export quote high  price USD  372.0/t, protein 9.0%:  49.5 kg protein/t,  64.7 kg product/t, raw material USD  7.52 per kg protein, USD  5.75 per kg of 76.5% product, carbohydrate-rich residue  935.3 kg/t
+domestic low       price USD  326.9/t, protein 7.9%:  43.5 kg protein/t,  56.8 kg product/t, raw material USD  7.52 per kg protein, USD  5.76 per kg of 76.5% product, carbohydrate-rich residue  943.2 kg/t
+domestic low       price USD  326.9/t, protein 9.0%:  49.5 kg protein/t,  64.7 kg product/t, raw material USD  6.60 per kg protein, USD  5.05 per kg of 76.5% product, carbohydrate-rich residue  935.3 kg/t
+domestic high      price USD  330.8/t, protein 7.9%:  43.5 kg protein/t,  56.8 kg product/t, raw material USD  7.61 per kg protein, USD  5.82 per kg of 76.5% product, carbohydrate-rich residue  943.2 kg/t
+domestic high      price USD  330.8/t, protein 9.0%:  49.5 kg protein/t,  64.7 kg product/t, raw material USD  6.68 per kg protein, USD  5.11 per kg of 76.5% product, carbohydrate-rich residue  935.3 kg/t
+Benchmark: Chinese pea protein USD 2 to 3 per kg (TPP-05)
