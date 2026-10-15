@@ -345,7 +345,7 @@
     "international"
    ],
    "reading_time_min": 10,
-   "summary": "Only one alternative-protein deal in Vietnam has exceeded USD 5 million: Entobel's insect-meal plant. It is an insect-feed deal outside this study's focus, but its structure (local private equity, a small development-finance ticket and a seafood exporter's offtake) is the one proven template. Agriculture venture capital in Vietnam was about USD 1 million in 2025, new state venture funds are small, and global alternative-protein investment has shifted towards fermentation and ingredients.",
+   "summary": "No disclosed alternative-protein deal in Vietnam has exceeded USD 5 million, and there is no proven local template for financing a plant. Agriculture venture capital in Vietnam was about USD 1 million in 2025, new state venture funds are small, and global alternative-protein investment has shifted towards fermentation and ingredients.",
    "path": "content/01-report/ch08-capital.md",
    "lang": "en"
   },
@@ -384,7 +384,7 @@
     "international"
    ],
    "reading_time_min": 11,
-   "summary": "We test ten technology families against seven Vietnamese conditions: feedstock, industrial base, science readiness, route to market, buyers, competition and capital intensity. Textured plant protein for food fits now. Local legume and rice proteins and fungal foods are worth proving. Precision fermentation fits only as high-value, low-dose ingredients made under contract. Cultivated meat and seafood are research topics for this decade. Feed uses stay in the matrix as a record but are context only, and insects are a benchmark, not a recommendation.",
+   "summary": "We test nine technology families against seven Vietnamese conditions: feedstock, industrial base, science readiness, route to market, buyers, competition and capital intensity. Textured plant protein for food fits now. Local legume and rice proteins and fungal foods are worth proving. Precision fermentation fits only as high-value, low-dose ingredients made under contract. Cultivated meat and seafood are research topics for this decade. Feed uses stay in the matrix as a record but are context only.",
    "path": "content/01-report/ch10-technology-fit.md",
    "lang": "en"
   },
@@ -782,7 +782,7 @@
     "manufacturers"
    ],
    "reading_time_min": 10,
-   "summary": "Desk research has reached diminishing returns. The eighteen unknowns that matter most for protein for people can mostly be closed by a letter to a ministry, a phone call to a starch factory or food maker, or a query to customs. Four of them decide how far the food-security case reaches. We list them in priority order, with the play or move each one unblocks and who to ask. The full register holds 473 open questions and 372 recorded disagreements between sources.",
+   "summary": "Desk research has reached diminishing returns. The eighteen unknowns that matter most for protein for people can mostly be closed by a letter to a ministry, a phone call to a starch factory or food maker, or a query to customs. Four of them decide how far the food-security case reaches. We list them in priority order, with the play or move each one unblocks and who to ask. The full register holds 469 open questions and 368 recorded disagreements between sources.",
    "path": "content/01-report/ch30-unknowns.md",
    "lang": "en"
   },
@@ -1188,7 +1188,7 @@
     "manufacturers"
    ],
    "reading_time_min": 26,
-   "summary": "Every disclosed alternative-protein and adjacent agrifood deal linked to Vietnam, the size of Vietnamese venture and private equity markets, the Entobel insect-feed financing as a deal template, global and regional investment trends, development finance, the new state venture funds, grants open in 2026, accelerators and exit routes.",
+   "summary": "Every disclosed alternative-protein and adjacent agrifood deal linked to Vietnam, the size of Vietnamese venture and private equity markets, a possible financing structure for a first plant, global and regional investment trends, development finance, the new state venture funds, grants open in 2026, accelerators and exit routes.",
    "path": "content/03-appendices/app-s11-capital.md",
    "lang": "en"
   },
@@ -1528,7 +1528,7 @@
     "international"
    ],
    "reading_time_min": 106,
-   "summary": "All 473 open questions left by the research, grouped by topic, with why each matters, the cheapest way to close it, who to ask, and its status. The eighteen priorities are ranked in chapter 30.",
+   "summary": "All 469 open questions left by the research, grouped by topic, with why each matters, the cheapest way to close it, who to ask, and its status. The eighteen priorities are ranked in chapter 30.",
    "path": "content/03-appendices/app-r1-open-questions.md",
    "lang": "en"
   },
@@ -1548,7 +1548,7 @@
     "manufacturers"
    ],
    "reading_time_min": 87,
-   "summary": "All 373 cases where sources disagree, with both claims and the position this report takes. We never average disagreeing numbers.",
+   "summary": "All 368 cases where sources disagree, with both claims and the position this report takes. We never average disagreeing numbers.",
    "path": "content/03-appendices/app-r2-disagreements.md",
    "lang": "en"
   },
@@ -1568,7 +1568,7 @@
     "international"
    ],
    "reading_time_min": 44,
-   "summary": "236 terms used in the report, in English and Vietnamese, with short definitions in both languages, grouped by theme, with sections for futures and foresight, the demand side, the actor check and newcomers. Thuật ngữ song ngữ Anh - Việt dùng trong báo cáo.",
+   "summary": "234 terms used in the report, in English and Vietnamese, with short definitions in both languages, grouped by theme, with sections for futures and foresight, the demand side, the actor check and newcomers. Thuật ngữ song ngữ Anh - Việt dùng trong báo cáo.",
    "path": "content/03-appendices/app-r3-glossary.md",
    "lang": "en"
   },

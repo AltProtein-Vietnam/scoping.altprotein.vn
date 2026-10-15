@@ -5,7 +5,7 @@ short_title: "Unknowns"
 section: report
 part: "V. What to do"
 order: 30
-summary: "Desk research has reached diminishing returns. The eighteen unknowns that matter most for protein for people can mostly be closed by a letter to a ministry, a phone call to a starch factory or food maker, or a query to customs. Four of them decide how far the food-security case reaches. We list them in priority order, with the play or move each one unblocks and who to ask. The full register holds 473 open questions and 372 recorded disagreements between sources."
+summary: "Desk research has reached diminishing returns. The eighteen unknowns that matter most for protein for people can mostly be closed by a letter to a ministry, a phone call to a starch factory or food maker, or a query to customs. Four of them decide how far the food-security case reaches. We list them in priority order, with the play or move each one unblocks and who to ask. The full register holds 469 open questions and 368 recorded disagreements between sources."
 audiences: [research, policy, investors, startups, international, manufacturers]
 reading_time_min: 10
 key_numbers: [kn-open-questions, kn-disagreements]
@@ -23,7 +23,7 @@ charts: []
 - We list the eighteen unknowns that matter most for protein for people. They are ranked by how much each would change a decision in this report, with the play or move it unblocks ([[ch26-plays]], [[ch28-robust-moves]]) and who to ask.
 - Four come from the food-security research of 2026 and decide how far the security case reaches: where the inputs of alternative-protein foods made in Vietnam come from, the share of Vietnamese soybeans in tofu and soy milk, whether any Vietnamese agency compiles a food balance, and whether an African swine fever vaccine protects against the new recombinant strains.
 - Six unknowns mattered only for feed plays. Those plays were retired in version 0.8, so the six appear as context below the list.
-- The full register holds 473 open questions (`open_questions.csv`) and 373 disagreements between sources, each with the position we took (`disagreements.csv`).
+- The full register holds 469 open questions (`open_questions.csv`) and 368 disagreements between sources, each with the position we took (`disagreements.csv`).
 
 > **Demand questions.** Part III, the demand chapters, adds 114 demand-side open questions (OQ-156 to OQ-269, [[app-r1-open-questions]]). The ones that most change the demand picture ([[ch25-demand-to-frontier]]) are:
 >
@@ -99,7 +99,7 @@ Source: `open_questions.csv` (fields `unblocks`, `cheapest_way_to_close`, `owner
 
 ## 30.2 Where sources disagree
 
-We recorded 372 disagreements between sources and stated the position we took for each ([[app-r2-disagreements]]). These are the ones that most affect this report's conclusions on protein for people:
+We recorded 368 disagreements between sources and stated the position we took for each ([[app-r2-disagreements]]). These are the ones that most affect this report's conclusions on protein for people:
 
 | Topic | The disagreement | Position taken |
 |---|---|---|
@@ -125,4 +125,4 @@ Three disagreements now matter only as feed context. The first is aquafeed volum
 
 Ministries, starch factories, food makers, fermentation plants, laboratories and investors may hold these answers. If you hold one, you can help close the gap. AltProtein Vietnam will record corrections in `open_questions.csv` and `disagreements.csv` and date each change, so the website can show what has been closed since publication.
 
-**Related:** [[app-r1-open-questions]] (all 473), [[app-r2-disagreements]] (all 373), [[app-m1-method]].
+**Related:** [[app-r1-open-questions]] (all 469), [[app-r2-disagreements]] (all 368), [[app-m1-method]].
