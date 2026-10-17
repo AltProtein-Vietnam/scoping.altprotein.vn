@@ -5,6 +5,8 @@
    (categorical: adjacent-pair colour-blind separation and contrast on the paper colour). */
 :root {
   color-scheme: light;
+  /* Headings: Archivo Extended (width 125%, set with font-stretch). */
+  --display: 'Archivo Variable', 'Archivo', system-ui, -apple-system, 'Segoe UI', sans-serif;
   --sans: 'Be Vietnam Pro', system-ui, -apple-system, 'Segoe UI', sans-serif;
   --serif: 'Literata Variable', 'Literata', Georgia, 'Times New Roman', serif;
 

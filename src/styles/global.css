@@ -47,7 +47,8 @@ h2,
 h3,
 h4,
 h5 {
-  font-family: var(--sans);
+  font-family: var(--display);
+  font-stretch: 125%;
   font-weight: 600;
   line-height: 1.2;
   letter-spacing: -0.012em;
@@ -490,7 +491,8 @@ main:focus {
 }
 .toc-tree h2,
 .toc-tree .tt-group {
-  font: 700 0.7rem/1.3 var(--sans);
+  font: 700 0.7rem/1.3 var(--display);
+  font-stretch: 125%;
   letter-spacing: 0.08em;
   text-transform: uppercase;
   color: var(--muted);
@@ -575,7 +577,8 @@ main:focus {
   margin-bottom: 0.9rem;
 }
 .foot-grid h2 {
-  font: 700 0.72rem/1.3 var(--sans);
+  font: 700 0.72rem/1.3 var(--display);
+  font-stretch: 125%;
   letter-spacing: 0.08em;
   text-transform: uppercase;
   color: var(--muted);
@@ -1561,6 +1564,8 @@ sup.cite a:hover {
   margin-top: 1rem;
 }
 .hero-sub {
+  font-family: var(--display);
+  font-stretch: 125%;
   font-size: clamp(1.25rem, 1rem + 1.3vw, 2rem);
   font-weight: 400;
   letter-spacing: -0.02em;
@@ -1874,7 +1879,8 @@ sup.cite a:hover {
   margin-top: 1.5rem;
 }
 .legend h3 {
-  font: 700 0.72rem/1.3 var(--sans);
+  font: 700 0.72rem/1.3 var(--display);
+  font-stretch: 125%;
   letter-spacing: 0.08em;
   text-transform: uppercase;
   color: var(--muted);
