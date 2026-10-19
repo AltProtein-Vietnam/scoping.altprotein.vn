@@ -36,7 +36,7 @@ While the report is a draft, the public site carries the findings and the eviden
 - **English or Vietnamese interface** under `/vi/…`. Report text stays in English, except the bilingual glossary and the Vietnamese key-number labels. The Vietnamese executive summary and prologue are held back until a translation pass for version 1.0 (`report/working-papers/vi-pages/`); their old addresses `/tom-tat` and `/loi-mo-dau` redirect to the English pages (`WITHDRAWN_PATHS` in `src/lib/redirects.ts`).
 - Light and dark themes, print styles, keyboard navigation, no trackers.
 
-Type: Archivo Extended (headings, width 125%), Be Vietnam Pro (interface, numbers, charts) and Literata (reading text), all under the SIL Open Font License (`docs/`).
+Type: Archivo Extended (headings, chapter and search-result titles, width 125%), Be Vietnam Pro (interface, numbers, charts) and Literata (reading text), all under the SIL Open Font License (`docs/`).
 
 ## Local development
 
