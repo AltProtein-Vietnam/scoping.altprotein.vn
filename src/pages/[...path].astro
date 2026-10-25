@@ -49,9 +49,10 @@ if (Astro.url.searchParams.has('_preview') && !mayPreview(Astro.locals.user))
 const partMatch = /^\/report\/part-(i|ii|iii|iv|v)$/.exec(path);
 const part = partMatch ? PART_BY_KEY.get(partMatch[1]) : undefined;
 let partAnswers: string | undefined;
+let cover: Awaited<ReturnType<typeof loadPage>>['entry'] = null;
 if (part) {
   try {
-    const cover = (await loadPage(ROLE.cover)).entry;
+    cover = (await loadPage(ROLE.cover)).entry;
     partAnswers = coverPartAnswers(cover?.data.body ?? '')[part.numeral];
   } catch (error) {
     console.error(error);
@@ -95,7 +96,7 @@ const rendered =
     nav={`part-${part.key}`}
     pageClass="page-part"
   >
-    <PartView partKey={part.key} answers={partAnswers} />
+    <PartView partKey={part.key} answers={partAnswers} edit={cover?.edit} />
   </Base>
 ) : locked && meta ? (
   <Base title={s.lockedTitle} noindex current={meta.id} pageClass="page-locked">
@@ -117,7 +118,8 @@ const rendered =
       title={data.title}
       summary={data.summary}
       rendered={rendered}
-      isPreview={loaded?.isPreview}
+      isPreview={loaded?.isPreview && !loaded.editing}
+      edit={entry!.edit}
     />
   </Base>
 ) : (

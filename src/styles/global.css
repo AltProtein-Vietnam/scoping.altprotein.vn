@@ -236,6 +236,14 @@ main:focus {
 .editor-bar a {
   color: var(--paper);
 }
+/* EmDash's edit mode outlines every annotated element on hover. The article (or the home page's
+   hero) only carries the entry's status for the toolbar, so only the fields inside it are outlined. */
+body:has(#emdash-toolbar[data-edit-mode='true'])
+  [data-emdash-ref]:not([data-emdash-ref*='"field"']):hover {
+  box-shadow: none;
+  background-color: transparent;
+  cursor: auto;
+}
 .draft-banner {
   background: var(--draft-wash);
   color: var(--draft);

@@ -1,13 +1,16 @@
 ---
 // A part of the report as a question: what it answers, then each chapter with its own answer.
+import type { EditProxy } from 'emdash';
 import { t } from '../lib/i18n';
 import { PART_BY_KEY, PART_LIST, chapterNumber, href, localize, partPath } from '../lib/site';
 interface Props {
   partKey: string;
   /** The cover's "What it answers" text for this part (report text, in English). */
   answers?: string;
+  /** The cover's EmDash edit annotations: in edit mode the answers open the cover in the CMS. */
+  edit?: EditProxy;
 }
-const { partKey, answers } = Astro.props;
+const { partKey, answers, edit } = Astro.props;
 const lang = Astro.locals.lang ?? 'en';
 const s = t(lang);
 const part = PART_BY_KEY.get(partKey)!;
@@ -25,7 +28,7 @@ const contentLang = lang === 'vi' ? 'en' : undefined;
     </p>
     <h1>{s.parts[part.key]?.question ?? part.label}</h1>
     {answers && (
-      <p class="lede" lang={contentLang}>
+      <p class="lede" lang={contentLang} {...edit?.body}>
         {answers}.
       </p>
     )}

@@ -12,8 +12,10 @@ const editor = Astro.locals.editor;
 // The method note is the executive summary's own "About this report" paragraph, so the counts
 // (research rounds, sources, actors) follow the published text.
 let method = '';
+let summaryEntry: Awaited<ReturnType<typeof loadPage>>['entry'] = null;
 try {
-  const summary = (await loadPage(ROLE.summary)).entry?.data.body ?? '';
+  summaryEntry = (await loadPage(ROLE.summary)).entry;
+  const summary = summaryEntry?.data.body ?? '';
   const m = /^\*(About this report|Về báo cáo)\.\*\s*(.+)$/m.exec(summary);
   if (m) method = renderInline(m[2], { lang, editor, citeTarget: 'sources' });
 } catch (error) {
@@ -93,7 +95,7 @@ const versions = [...SITE.versions].reverse();
         {method && (
           <>
             <h2 id="method">{vi ? 'Cách nghiên cứu được thực hiện' : 'How the study was done'}</h2>
-            <p lang={vi ? 'vi' : 'en'} set:html={method} />
+            <p lang={vi ? 'vi' : 'en'} set:html={method} {...summaryEntry?.edit.body} />
           </>
         )}
         <h2 id="evidence">{s.howToRead}</h2>

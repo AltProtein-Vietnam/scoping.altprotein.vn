@@ -8,8 +8,10 @@ const lang = Astro.locals.lang ?? 'en';
 const s = t(lang);
 const contentLang = lang === 'vi' ? 'en' : undefined;
 let answers: Record<string, string> = {};
+let cover: Awaited<ReturnType<typeof loadPage>>['entry'] = null;
 try {
-  answers = coverPartAnswers((await loadPage(ROLE.cover)).entry?.data.body ?? '');
+  cover = (await loadPage(ROLE.cover)).entry;
+  answers = coverPartAnswers(cover?.data.body ?? '');
 } catch (error) {
   console.error(error);
 }
@@ -34,7 +36,11 @@ try {
                 {s.parts[part.key]?.question ?? part.label}
               </a>
             </h2>
-            {answers[part.numeral] && <p lang={contentLang}>{answers[part.numeral]}.</p>}
+            {answers[part.numeral] && (
+              <p lang={contentLang} {...cover?.edit.body}>
+                {answers[part.numeral]}.
+              </p>
+            )}
           </header>
           <ol class="chapter-list">
             {part.chapters.map((p) => (
