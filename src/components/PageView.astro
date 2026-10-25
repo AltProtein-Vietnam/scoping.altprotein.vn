@@ -1,4 +1,5 @@
 ---
+import type { EditProxy } from 'emdash';
 import SourcesList from './SourcesList.astro';
 import { audienceLabel, t, type Lang } from '../lib/i18n';
 import { canReadPage } from '../lib/access';
@@ -26,9 +27,16 @@ interface Props {
   title: string;
   summary?: string | null;
   rendered: RenderResult;
+  /** Opened from a preview link. Not in edit mode, where EmDash's toolbar shows the status. */
   isPreview?: boolean;
+  /**
+   * The entry's EmDash edit annotations. In edit mode they let editors click the summary to
+   * change it in place, and the heading or text to open the body in the CMS (it is Markdown, so
+   * it is never edited as the rendered text). Outside edit mode they add nothing.
+   */
+  edit?: EditProxy;
 }
-const { meta, title, summary, rendered, isPreview } = Astro.props;
+const { meta, title, summary, rendered, isPreview, edit } = Astro.props;
 const lang: Lang = Astro.locals.lang ?? 'en';
 const editor = Astro.locals.editor;
 const s = t(lang);
@@ -172,7 +180,7 @@ const toc2 = rendered.toc.filter((h) => h.depth === 2);
       </nav>
     )}
   </aside>
-  <article class="doc" lang={otherLang}>
+  <article class="doc" lang={otherLang} {...edit}>
     <header class="doc-head">
       <p class="doc-kicker" lang={uiLang}>
         {kicker.filter(Boolean).map((k, i) =>
@@ -194,8 +202,12 @@ const toc2 = rendered.toc.filter((h) => h.depth === 2);
           </span>
         )}
       </p>
-      <h1 set:html={heading} />
-      {(summary || meta.summary) && !hasAnswer && <p class="lede">{summary ?? meta.summary}</p>}
+      <h1 set:html={heading} {...edit?.body} />
+      {(summary || meta.summary) && !hasAnswer && (
+        <p class="lede" {...edit?.summary}>
+          {summary ?? meta.summary}
+        </p>
+      )}
       <div class="doc-meta" lang={uiLang}>
         {meta.reading_time_min && <span>{s.minRead(meta.reading_time_min)}</span>}
         {meta.audiences.length > 0 && meta.audiences.length < 6 && (
@@ -256,6 +268,7 @@ const toc2 = rendered.toc.filter((h) => h.depth === 2);
     <div
       class={`prose${meta.id === ROLE.vision ? ' prose-vision' : ''}`}
       set:html={rendered.html}
+      {...edit?.body}
     />
     <SourcesList ids={rendered.citations} lang={lang} />
     <footer class="doc-foot" lang={lang}>

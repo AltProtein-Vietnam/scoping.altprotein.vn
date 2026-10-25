@@ -54,3 +54,85 @@ test('editor can save, privately preview and publish a page; reseeding preserves
     await editor.dispose();
   }
 });
+
+test('editors can edit a page in EmDash edit mode; drafts stay out of other views', async ({
+  page,
+  request,
+}) => {
+  test.setTimeout(120000);
+  const editor = await apiRequest.newContext({
+    baseURL,
+    extraHTTPHeaders: { Origin: baseURL, 'X-EmDash-Request': '1' },
+  });
+  expect((await editor.post('/_emdash/api/setup/dev-bypass')).ok()).toBeTruthy();
+  const path = '/summary';
+  const endpoint = '/_emdash/api/content/pages/front-exec-summary';
+  const originalResponse = await editor.get(endpoint);
+  expect(originalResponse.ok()).toBeTruthy();
+  const original = (await originalResponse.json()).data.item;
+  // A draft of the body with the same length as the published one: it shares the published
+  // page's render-cache key, so it must not be cached when edit mode shows it.
+  const bodyMarker = 'qzx';
+  const body = original.data.body.replace(/(?<=\n[A-Z][^\n]*?) the /, ` ${bodyMarker} `);
+  expect(body).not.toBe(original.data.body);
+  expect(body.length).toBe(original.data.body.length);
+  const summaryMarker = 'Summary edited in edit mode.';
+  try {
+    const saved = await editor.put(endpoint, { data: { data: { ...original.data, body } } });
+    expect(saved.ok(), await saved.text()).toBeTruthy();
+    const session = (await editor.storageState()).cookies;
+    await page
+      .context()
+      .addCookies([...session, { name: 'emdash-edit-mode', value: 'true', url: baseURL }]);
+    await page.goto(path);
+    await expect(page.locator('#emdash-toolbar')).toHaveAttribute('data-edit-mode', 'true');
+    const ref = async (selector: string) =>
+      JSON.parse((await page.locator(selector).first().getAttribute('data-emdash-ref')) ?? '{}');
+    expect(await ref('article.doc')).toEqual(
+      expect.objectContaining({ collection: 'pages', id: original.id, hasDraft: true }),
+    );
+    expect((await ref('article.doc')).field).toBeUndefined();
+    expect((await ref('.doc-head h1')).field).toBe('body');
+    expect((await ref('.lede')).field).toBe('summary');
+    expect((await ref('.prose')).field).toBe('body');
+    await expect(page.locator('.prose')).toContainText(` ${bodyMarker} `);
+    await expect(page.locator('#emdash-tb-status')).toContainText('Unpublished changes');
+    // The toolbar shows the draft's status, so the preview-link note is not shown.
+    await expect(page.locator('.page-note.is-preview')).toHaveCount(0);
+
+    // The summary is shown as stored, so it is edited in place and saved to the draft.
+    await page.locator('.lede').click();
+    await expect(page.locator('.lede[data-emdash-editing]')).toBeVisible();
+    const put = page.waitForResponse(
+      (r) => r.url().includes('/_emdash/api/content/pages/') && r.request().method() === 'PUT',
+    );
+    await page.keyboard.type(summaryMarker);
+    await page.keyboard.press('Enter');
+    expect((await put).ok()).toBeTruthy();
+    await page.reload();
+    await expect(page.locator('.lede')).toHaveText(summaryMarker);
+
+    // The body is Markdown with report tokens, so its text opens the entry in the CMS instead.
+    const popup = page.waitForEvent('popup');
+    await page.locator('.prose p').first().click();
+    const admin = await popup;
+    expect(admin.url()).toContain(`/_emdash/admin/content/pages/${original.id}?field=body`);
+    await admin.close();
+
+    // Outside edit mode, editors and visitors see the published page.
+    await page.context().clearCookies({ name: 'emdash-edit-mode' });
+    await page.goto(path);
+    await expect(page.locator('#emdash-toolbar')).toHaveAttribute('data-edit-mode', 'false');
+    await expect(page.locator('[data-emdash-ref]')).toHaveCount(0);
+    await expect(page.locator('.prose')).not.toContainText(` ${bodyMarker} `);
+    await expect(page.locator('.lede')).toHaveText(original.data.summary);
+    const visitor = await (await request.get(path)).text();
+    expect(visitor).not.toContain(` ${bodyMarker} `);
+    expect(visitor).not.toContain(summaryMarker);
+    expect(visitor).not.toContain('data-emdash-ref="');
+  } finally {
+    const discarded = await editor.post(endpoint + '/discard-draft', { data: {} });
+    expect(discarded.ok(), await discarded.text()).toBeTruthy();
+    await editor.dispose();
+  }
+});

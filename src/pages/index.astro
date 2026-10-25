@@ -114,6 +114,11 @@ const titleLines = vi
     };
 const contentLang = vi ? 'en' : undefined;
 const legendScope = ['direct', 'adjacent', 'general'] as const;
+// In EmDash's edit mode, text taken from the body of the cover or the two-minute summary opens that
+// page in the CMS, and the cover's subtitle is edited in place. The Vietnamese title lines are
+// interface text.
+const coverBodyEdit = vi ? undefined : cover?.edit.body;
+const argumentEdit = twoMinute?.edit.body;
 ---
 
 <Base
@@ -124,20 +129,24 @@ const legendScope = ['direct', 'adjacent', 'general'] as const;
   pageClass="page-home"
   banner
 >
-  <section class="hero">
+  <section class="hero" {...cover?.edit}>
     <div class="wrap hero-grid">
       <div>
         <p class="kicker">
           {SITE.publisher} · {s.draft(SITE.version)}
           {released && `, ${released}`}
         </p>
-        <h1 class="hero-title" lang={vi ? 'vi' : undefined}>
+        <h1 class="hero-title" lang={vi ? 'vi' : undefined} {...coverBodyEdit}>
           {titleLines.h1}
         </h1>
-        <p class="hero-sub" lang={vi ? 'vi' : undefined}>
+        <p class="hero-sub" lang={vi ? 'vi' : undefined} {...coverBodyEdit}>
           {titleLines.sub}
         </p>
-        {!vi && cover?.data.subtitle && <p class="hero-q">{cover.data.subtitle}</p>}
+        {!vi && cover?.data.subtitle && (
+          <p class="hero-q" {...cover.edit.subtitle}>
+            {cover.data.subtitle}
+          </p>
+        )}
         <div class="hero-cta">
           <a
             class="btn btn-primary"
@@ -152,9 +161,9 @@ const legendScope = ['direct', 'adjacent', 'general'] as const;
         </div>
       </div>
       <aside class="hero-note" aria-label={s.homeAbout}>
-        {lede && <p class="lede" lang={contentLang} set:html={lede} />}
+        {lede && <p class="lede" lang={contentLang} set:html={lede} {...argumentEdit} />}
         {coverDraft && (
-          <p class="draft-note" lang={contentLang}>
+          <p class="draft-note" lang={contentLang} {...coverBodyEdit}>
             <strong>{vi ? SITE.draft_notice.vi : 'Draft for review.'}</strong>{' '}
             {vi ? s.draftNotice : coverDraft}
           </p>
@@ -176,8 +185,8 @@ const legendScope = ['direct', 'adjacent', 'general'] as const;
               {st.n}
             </p>
             <div class="step-text" lang={contentLang}>
-              <h3>{st.lead}</h3>
-              <div class="step-body" set:html={st.html} />
+              <h3 {...argumentEdit}>{st.lead}</h3>
+              <div class="step-body" set:html={st.html} {...argumentEdit} />
               {st.pages.length > 0 && (
                 <p class="step-links" lang={lang}>
                   <span>{s.homeEvidenceIn}</span>
@@ -276,7 +285,7 @@ const legendScope = ['direct', 'adjacent', 'general'] as const;
               <span class="kicker">{s.part(part.numeral)}</span>
               <h3>{s.parts[part.key]?.question ?? part.label}</h3>
               {partAnswers[part.numeral] && (
-                <p class="part-answers" lang={contentLang}>
+                <p class="part-answers" lang={contentLang} {...cover?.edit.body}>
                   {partAnswers[part.numeral]}.
                 </p>
               )}
