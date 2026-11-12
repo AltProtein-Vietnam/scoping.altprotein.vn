@@ -1,12 +1,12 @@
 # scoping.altprotein.vn
 
-The website for **Alternative protein in Vietnam: a supply-side scoping study** (AltProtein Vietnam, draft v0.10, October 2026). It publishes the report package in `report/`: 80 pages (seven front pages, 30 chapters in five parts, six audience briefs and 37 appendices coded M, S, D, F and R), 198 data tables, 2,669 active sources, 57 charts and the working papers.
+The website for **Alternative protein in Vietnam: a supply-side scoping study** (AltProtein Vietnam, version 1.0, November 2026). It publishes the report package in `report/`: 80 pages (seven front pages, 30 chapters in five parts, six audience briefs and 37 appendices coded M, S, D, F and R), 198 data tables, 2,669 active sources, 57 charts and the working papers.
 
 Astro and EmDash on Cloudflare Workers, with D1 (content), R2 (CMS media) and KV (editor sessions).
 
 ## Who sees what
 
-While the report is a draft, the public site carries the findings and the evidence stays with reviewers.
+The public site carries the findings; the evidence appendices, registers and data stay with signed-in editors.
 
 |                                                                           | Public                     | Signed-in Editors and Administrators |
 | ------------------------------------------------------------------------- | -------------------------- | ------------------------------------ |
@@ -33,7 +33,7 @@ While the report is a draft, the public site carries the findings and the eviden
 - **Charts** are drawn as inline SVG at build time from `report/charts/chart-specs.json` (no chart library), in light and dark themes, each with its data table and source line. Their colours were checked with a palette validator in both themes.
 - **Plays ranking** (chapter 26) and **scenario explorer** (chapter 23), with static fallbacks.
 - **Search** across the pages the reader may open and the glossary (editors: also companies, facilities, open questions, disagreements and policy options); a bilingual glossary at `/glossary`.
-- **English or Vietnamese interface** under `/vi/…`. Report text stays in English, except the bilingual glossary and the Vietnamese key-number labels. The Vietnamese executive summary and prologue are held back until a translation pass for version 1.0 (`report/working-papers/vi-pages/`); their old addresses `/tom-tat` and `/loi-mo-dau` redirect to the English pages (`WITHDRAWN_PATHS` in `src/lib/redirects.ts`).
+- **English or Vietnamese interface** under `/vi/…`. Report text stays in English, except the bilingual glossary and the Vietnamese key-number labels. The Vietnamese executive summary and prologue are held back until a translation pass (`report/working-papers/vi-pages/`); their old addresses `/tom-tat` and `/loi-mo-dau` redirect to the English pages (`WITHDRAWN_PATHS` in `src/lib/redirects.ts`).
 - Light and dark themes, print styles, keyboard navigation, no trackers.
 
 Type: Archivo Extended (headings, chapter and search-result titles, width 125%), Be Vietnam Pro (interface, numbers, charts) and Literata (reading text), all under the SIL Open Font License (`docs/`).

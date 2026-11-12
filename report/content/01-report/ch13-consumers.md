@@ -5,9 +5,9 @@ short_title: "Consumers"
 section: report
 part: "III. Demand: who would buy it"
 order: 13
-summary: "Vietnamese survey respondents are open to plant-based meat, yet only 15% intend to eat less meat and only 3% eat it weekly. Imported analogues cost 12 to 18 times chicken or eggs per gram of protein. Plant milk is the one modern plant category that sells at scale, and people want more protein choice in familiar dishes, not a meat replacement."
+summary: "Urban Vietnamese say yes to plant-based meat but rarely buy it, and imported meat copies have left the shelves. Plant milk is the one modern plant category that sells at scale, so new protein should go into familiar foods with a printed protein claim."
 audiences: [startups, investors, research, manufacturers, policy, international]
-reading_time_min: 20
+reading_time_min: 11
 key_numbers: [kn-intend-cut-meat, kn-pbm-weekly, kn-parity-choice, kn-search-ratio, kn-protein-cost-serving, kn-us-pbm-decline, kn-west-ceiling, kn-sugary-drink-excise, kn-high-protein-claim]
 related_data: [consumer_surveys.csv, consumer_barriers.csv, consumer_wtp.csv, launches_exits.csv, google_trends.csv, retail_demand_signals.csv, adoption_benchmarks.csv, price_elasticities.csv, plant_milk_excise.csv, plant_milk_sugar.csv, protein_claim_eligibility.csv, label_rules.csv, marketplace_sku_counters.csv, kitchen_platform_counters.csv, firm_outcomes.csv, firm_base_rates.csv, diet_quality_vietnam.csv]
 related_pages: [ch11-protein-diet, ch12-chay-baseline, ch14-frontier-demand, ch15-channels, ch18-demand-sizing, app-d2-consumer-evidence, app-d7-global-benchmarks, app-d3-retail-demand-signals]
@@ -17,41 +17,29 @@ charts: [chart-pbm-funnel, chart-price-parity-choice, chart-search-interest, cha
 # 13. Consumers and new proteins: what people say and what they buy
 
 **In brief.**
-- **People say yes to plant-based meat but rarely buy it.** In an online survey of urban Vietnamese, 74% would choose it at the same price as meat, the highest of six Southeast Asian countries. Yet only 15% intend to eat less meat, and only 3% eat plant-based meat weekly.
-- **Imported meat analogues came and went.** These products, made to look and taste like meat, cost 12 to 18 times chicken or eggs per gram of protein. By 2026 they had left the shelves we audited. Even 20 g of protein from a *chay* (Buddhist-style vegetarian) wrapper costs more than a whole street meal.
-- **Plant milk is the one modern plant category that sells at scale.** It is priced at or below dairy and made by established local firms. Online, the best-selling plant milk sells 60 to 79% of the litres of the best-selling dairy milk. A sugary-drink tax from 2027 may fall on sweetened plant milks but not on dairy. So new plant milks should stay at or below 5 g of sugar per 100 ml.
-- **Abroad, trial did not become habit.** Plant-based meat peaked in 2020 to 2021, price parity alone did not create growth, and meat purchases did not fall.
-- **People want familiar food with more protein, not a meat replacement.** Vietnamese respondents ask for variety, food they know how to cook, fewer additives and safer food. That points to protein ingredients inside familiar foods, with a printed protein claim (10 g per 100 g for "high protein") where the food earns it.
+- **People say yes to plant-based meat but rarely buy it.** In an online survey of urban Vietnamese, 74% would choose it at the same price as meat. Yet only 15% intend to eat less meat, and only 3% eat plant-based meat weekly.
+- **Imported meat copies came and went.** They cost 12 to 18 times as much as chicken or eggs per gram of protein, and by 2026 they had left the shelves we audited.
+- **Plant milk is the one modern plant category that sells at scale.** It is priced at or below dairy and made by established local firms.
+- **Abroad, trying did not become habit.** Plant-based meat peaked in 2020 to 2021, and meat purchases did not fall.
+- **People want familiar food with more protein, not a meat replacement.** That points to protein ingredients inside familiar foods, with a printed protein claim where the food earns it.
 
 ---
 
 ## 13.1 The evidence is thin, and almost all of it is what people say
 
-In this report, "stated" evidence is what people say in surveys, "revealed" evidence is what people and firms do, such as what they buy and pay, and "tested" evidence comes from tastings, auctions and experiments. For new proteins in Vietnam, nearly all the evidence is stated.
+For new proteins in Vietnam, nearly all the evidence is stated: what people say in surveys. We found 26 consumer studies with Vietnamese data. Only one large survey gives Vietnam numbers on plant-based meat: "Decoding demand", published in 2023 by the Good Food Institute Asia Pacific (GFI APAC), an alternative-protein advocacy group. It used an online panel of 5,971 people in six countries, 1,049 of them in Hanoi and Ho Chi Minh City [@CON-01; @CON-02; @CON-03] {VN-direct|Medium} {dx:stated}. The other sources are smaller online panels and student samples [@CON-06; @CON-07; @CON-08] {VN-direct|Medium} {dx:stated}.
 
-We built a register of every consumer study with Vietnamese data on plant-based foods, meat reduction or new proteins (26 studies, [[app-d2-consumer-evidence]]). Only one large survey gives Vietnam numbers on plant-based meat. It is "Decoding demand", published by the Good Food Institute Asia Pacific (GFI APAC), an alternative-protein advocacy group. The Good Growth Co. ran it in 2023 on an online panel of 5,971 people in six countries, 1,049 of them in the Hanoi region and Ho Chi Minh City [@CON-01; @CON-02; @CON-03] {VN-direct|Medium} {dx:stated}.
-
-The other sources are smaller [@CON-06; @CON-07; @CON-08] {VN-direct|Medium} {dx:stated}:
-
-- two commercial online panels (Rakuten Insight, 2021 and 2025);
-- one academic urban survey (Delley et al., n = 616), a snowball sample in which respondents recruit others;
-- about ten small student or convenience samples.
-
-No Vietnamese study of new proteins reaches our top quality grade, a probability sample with a full method. The one national probability survey that touches the subject is the Diet Quality Questionnaire (Gallup, 2021). It asks only whether people ate soy foods or meat the day before: 40% of adults had eaten beans, tofu or soy milk ([[ch11-protein-diet]], [[ch12-chay-baseline]]) [@APR-36; @BRD-01] {VN-direct|Medium} {dx:revealed}.
-
-We found no choice experiment, auction or in-store price test for plant-based meat or milk in Vietnam, and no household purchase panel data for these categories. Online marketplace sales counters, which we read for this report, are the nearest thing to purchase data (section 13.5). Read every consumer number below with that in mind.
+We found no taste test, auction or in-store price test for plant-based meat or milk in Vietnam, and no household purchase data. Online marketplace sales counters are the nearest thing (section 13.5). Read every consumer number below with that in mind.
 
 ## 13.2 Aware and curious, but rarely buying
 
-Most urban respondents know plant-based meat, and many have tried it, but few eat it often.
-
-| Measure (GFI APAC, 2023, online panel) | Vietnam (n = 1,049) | Six-country average | Source |
+| Measure (GFI APAC, 2023, online panel) | Vietnam | Six-country average | Source |
 |---|---|---|---|
 | Have heard of plant-based meat | 90% | 91% | [@CON-02] {VN-direct\|Medium} {dx:stated} |
 | Have ever tried it | 42% | 47% | [@CON-02] {VN-direct\|Medium} {dx:stated} |
 | Eat it monthly or more | 20% | 20% | [@CON-02] {VN-direct\|Medium} {dx:stated} |
 | Eat it weekly or more | 3% | 5% | [@CON-02] {VN-direct\|Medium} {dx:stated} |
-| Intend to reduce meat | 15% (lowest of six) | 21% | [@CON-02] {VN-direct\|Medium} {dx:stated} |
+| Intend to eat less meat | 15% (lowest of six) | 21% | [@CON-02] {VN-direct\|Medium} {dx:stated} |
 | Would choose it at the same price as meat | 74% (highest of six) | 62% | [@CON-02] {VN-direct\|Medium} {dx:stated} |
 
 {{chart:chart-pbm-funnel}}
@@ -60,61 +48,41 @@ Most urban respondents know plant-based meat, and many have tried it, but few ea
 
 Three cautions apply.
 
-- **Many respondents probably meant traditional mock meat.** Modern analogues were almost absent from Vietnamese shops, and the Vietnamese questionnaire wording is not public (our inference) {VN-direct|Low} {dx:inferred}.
-- **People want more kinds of protein, not less meat.** Vietnamese respondents report 43.3 meat-eating occasions a month, second only to Thailand. An urban survey found only 4% flexitarians (people who deliberately eat less meat) among meat eaters [@CON-02; @CON-08] {VN-direct|Medium} {dx:stated}.
-- **The much-quoted "5% to 63%" is regional and hypothetical.** Of all six-country respondents, 5% eat plant-based meat weekly, and 63% say they would eat it "always" or "often" if all their concerns were resolved. No Vietnam split is public [@CON-02; @ECO-24] {VN-adjacent|Medium} {dx:stated}. It is not a forecast.
-
-Rakuten's panels show the same gap. For its broader category, "plant-based alternatives" (mostly plant milk), Vietnam has the highest trial rate of any Asian market (86% in 2021, 92% in 2025). But the share of Vietnamese triers who have tried meat alternatives stayed at 47 to 49% [@CON-06; @CON-07] {VN-direct|Medium} {dx:stated}.
+- **Many respondents probably meant traditional mock meat**, because modern products were almost absent from shops (our inference) {VN-direct|Low} {dx:inferred}.
+- **People want more kinds of protein, not less meat.** Vietnamese respondents eat meat 43 times a month, second only to Thailand [@CON-02; @CON-08] {VN-direct|Medium} {dx:stated}.
+- **The much-quoted "5% to 63%" is regional and hypothetical.** It compares those who eat plant-based meat weekly with those who say they would if all their concerns were met. It is not a forecast [@CON-02; @ECO-24] {VN-adjacent|Medium} {dx:stated}.
 
 ## 13.3 What would make people eat more: availability, variety and know-how
 
-Vietnamese respondents put availability, variety and cooking know-how ahead of price. Asked what would make them eat more plant-based meat, they chose affordability less often than any other country (38% against an average of 47%). They chose availability (31%), variety (29%), fewer additives (27%, highest of six) and knowing how to cook it (22%, highest of six) more often. They were the least likely to want a product that "tasted more like meat" (23%) [@CON-02] {VN-direct|Medium} {dx:stated}.
+Vietnamese respondents put availability, variety and cooking know-how ahead of price. They chose price less often than any other country, and asked for fewer additives and cooking know-how more often. They were the least likely to want a product that "tasted more like meat" [@CON-02; @CON-07] {VN-direct|Medium} {dx:stated}.
 
-Rakuten's 2025 panel agrees. "Difficult to find where I live" is the top Vietnamese barrier (33%), and only 21% cite cost, the lowest of the six Southeast Asian markets in the survey [@CON-07] {VN-direct|Medium} {dx:stated}.
+**Health is the first reason people give,** and food safety the motive specific to Vietnam. Urban Vietnamese rate food safety far higher than Swiss respondents do, and worry about hormones and drug residues in meat [@CON-07; @CON-08; @CON-10] {VN-direct|Medium} {dx:stated}. Environmental concern is weak [@CON-07; @CON-13] {VN-direct|Low} {dx:stated}. Meat is "non-negotiable" at special meals [@CON-08; @CON-10] {VN-direct|Medium} {dx:stated}.
 
-Health is the first reason people give in every source: 55% of Rakuten's Vietnamese panel say plant-based products are healthier [@CON-07] {VN-direct|Medium} {dx:stated}. A soy-milk maker already uses that motive. A sponsored soy-nutrition article cites the new Law on Disease Prevention and the Ministry of Health's Ten tips on nutrition [@APR-43] {VN-direct|Low} {dx:revealed}.
-
-Food safety is the motive specific to Vietnam. Urban Vietnamese rate "a very high level of food safety" at 5.35 on a 6-point scale, against 4.59 in Switzerland, and worry about hormones and drug residues in meat [@CON-08; @CON-10] {VN-direct|Medium} {dx:stated}. Environmental concern is weak: it ranks sixth of seven Rakuten reasons and had a small negative effect in one Hanoi student sample [@CON-07; @CON-13] {VN-direct|Low} {dx:stated}. Family influence is strong, and meat is "non-negotiable" at special meals [@CON-08; @CON-10] {VN-direct|Medium} {dx:stated}.
-
-Do not over-read the low stated concern about price. It sits next to a real price gap of 12 to 18 times (section 13.4). In a Hanoi study, price had the largest effect of any factor on attitudes to new proteins [@NOV-02] {VN-direct|High} {dx:stated}.
+Do not over-read the low stated concern about price. In a Hanoi study, price had the largest effect of any factor [@NOV-02] {VN-direct|High} {dx:stated}.
 
 ## 13.4 Price: what people say, what they pay and what they face
 
-**Stated (what people say).** GFI APAC asked respondents to choose between plant-based meat and meat in a grocery shop as the relative price changed. Vietnamese respondents choosing plant-based meat fell from 74% at the same price to 64% at 20% dearer, 47% at 50% dearer and 26% at double the price [@CON-02] {VN-direct|Medium} {dx:stated}. GFI APAC itself says this shows relative interest, not willingness to pay. The design lesson is to reach about the same price as the meat replaced, because stated interest falls by over a third at 50% dearer. {{kn:kn-parity-choice}}
+**Stated.** The share choosing plant-based meat over meat fell from 74% at the same price to 47% at 50% dearer, and 26% at double [@CON-02] {VN-direct|Medium} {dx:stated}. The lesson is to match the price of the meat replaced. {{kn:kn-parity-choice}}
 
 {{chart:chart-price-parity-choice}}
 
-**Revealed (what people pay).** The imported analogue on Vietnamese shelves in September 2026 cost VND 542,000 to 622,000 per 100 g of protein, 12 to 18 times eggs and chicken ([[ch11-protein-diet]]) [@FORM-01; @COST-40; @COST-41] {VN-direct|Medium} {dx:revealed}. The clearest evidence that urban Vietnamese pay a premium for a plant product is café oat milk. In 2023 Oatside oat milk was used in nearly 100 cafés and outlets. Drinks made with nut milks such as Oatside were listed VND 10,000 to 15,000 dearer per cup than cow-milk drinks [@CON-35] {VN-direct|Medium} {dx:revealed}.
+**Revealed.** The imported meat copies on shelves in 2026 cost 12 to 18 times as much as eggs and chicken per gram of protein ([[ch11-protein-diet]]) [@FORM-01; @COST-40; @COST-41] {VN-direct|Medium} {dx:revealed}. The clearest sign that urban Vietnamese pay more for a plant product is café oat milk: coffee made with it costs VND 10,000 to 15,000 more a cup [@CON-35] {VN-direct|Medium} {dx:revealed}.
 
-**Tested (tastings, auctions and experiments).** We found none in Vietnam for plant-based meat, blends or plant milk. The nearest tested Vietnamese evidence is about safety and labels for genetically modified organisms (GMOs). A real-money auction put the premium for safer pork at 20% [@DIE-30] {VN-direct|Medium} {dx:tested}, and another found an 84% premium for soymilk labelled non-GM (not genetically modified) [@NOV-08] {VN-direct|Medium} {dx:tested} ([[ch14-frontier-demand]]).
+**Tested.** We found none for plant-based foods in Vietnam. The nearest is an auction that found a 20% premium for safer pork, and another that found an 84% premium for soy milk labelled non-GM [@DIE-30; @NOV-08] {VN-direct|Medium} {dx:tested} ([[ch14-frontier-demand]]).
 
-**What 20 g of protein costs.** In most packaged alternatives, the protein costs more than a whole meal. We re-read the retail audit for demand ([[app-d3-retail-demand-signals]]).
-
-The median cost of 20 g of protein, a meal's protein, is about VND 13,000 from tofu or dried textured soy and VND 56,000 from a frozen meat analogue. It is VND 74,000 from a filled chay wrapper and VND 91,000 from plant milk [@FORM-01] {VN-direct|Medium} {dx:inferred}. From eggs or chicken it is VND 7,000 to 9,000, and from lean pork about VND 14,000 ([[ch11-protein-diet]]). A street rice plate with meat costs VND 29,000 to 35,000 in Ho Chi Minh City (2026) [@CHY-40] {VN-direct|Low} {dx:revealed}.
-
-The exception is bulk. Dry soy-and-gluten pieces bought online in 1 kg bags give 20 g of protein for about VND 1,800 to 6,000. That is the cheapest protein in our retail data (our calculation, using a protein range taken from audited labels, because the listings give none) [@MKT-03; @FORM-01] {VN-direct|Low} {dx:inferred}. {{kn:kn-protein-cost-serving}}
+**What 20 g of protein costs.** A meal's protein costs about VND 7,000 to 9,000 from eggs or chicken, and VND 13,000 from tofu. It costs VND 56,000 from a frozen meat copy, VND 74,000 from a filled chay wrapper and VND 91,000 from plant milk [@FORM-01] {VN-direct|Medium} {dx:inferred}. A whole street rice plate with meat costs VND 29,000 to 35,000 [@CHY-40] {VN-direct|Low} {dx:revealed}. The exception is dry soy pieces bought online in bulk, the cheapest protein in our data (our calculation) [@MKT-03; @FORM-01] {VN-direct|Low} {dx:inferred}. {{kn:kn-protein-cost-serving}}
 
 {{chart:chart-protein-cost-serving}}
 
 ## 13.5 What people buy: plant milk, not plant meat
 
-**Plant-based meat has not found a footing.** Mintel, a market research firm, logged no plant-based meat launches in Vietnam from 2022 to the second quarter of 2023 [@ECO-23] {VN-direct|Medium} {dx:revealed}. Imported brands came through restaurants and gourmet shops: Beyond Meat (2019, a craft-beer bar), OmniFoods (gourmet retail 2022; Starbucks Vietnam's summer 2023 menu), Next Meats and Heura [@ECO-15; @ECO-16; @ECO-20] {VN-direct|Medium} {dx:revealed}. None was on the shelves of the 11 stores we audited in September 2026, including the two gourmet chains that stocked them in 2022. The only extruded modern analogue (pressed through a heated machine to give a meat-like texture) was one Italian brand in one gourmet store [@FORM-01; @ECO-15] {VN-direct|Medium} {dx:revealed}.
+**Plant-based meat has not found a footing.** A launch database logged none in Vietnam from 2022 to mid-2023 [@ECO-23] {VN-direct|Medium} {dx:revealed}. Imported brands came through restaurants and gourmet shops. By September 2026, none was on the shelves of the 11 stores we audited [@ECO-15; @ECO-16; @ECO-20; @FORM-01] {VN-direct|Medium} {dx:revealed}. Online, sales were tiny [@AIS-25; @ECR-06; @MKT-03; @MKT-05] {VN-direct|Low} {dx:revealed}. Meanwhile established makers extend their chay lines [@CHY-29] {VN-direct|Medium} {dx:revealed}.
 
-Other brands left little trace. CP's Meat Zero chay range is listed on Kamereo, a platform supplying restaurants and cafés. But it was not orderable in September 2026, and its eight listings show 386 units (80 kg) sold in all. No Meat Zero, Beyond or Omni listing appeared on Lazada or Tiki, the two online marketplaces we read [@AIS-25; @ECR-06; @MKT-03; @MKT-05] {VN-direct|Low} {dx:revealed}.
+**Plant milk is the category that sells.** The branded soy-milk market was about USD 204 million in 2025 (our estimate) [@CON-26; @CON-27; @CON-28] {VN-direct|Low} {dx:inferred}. Vinasoy's revenue rose 14%, with nut milks up 50% [@AIB-05; @AIB-06] {VN-direct|High} {dx:revealed}. Vinamilk reported double-digit growth in nut milk in early 2026 [@ECO-44] {VN-direct|Medium} {dx:revealed}.
 
-We found no trace of a local startup (VMEAT) after 2022, and no Vietnam launch by a Korean startup backed by a Vietnamese fund in 2024 [@ECO-19; @BRD-18; @ECO-65] {VN-direct|Low} {dx:revealed}. Meanwhile established makers extend their chay lines: Vissan launched two chay products for Vu Lan 2026, the Buddhist festival when chay demand peaks [@CHY-29] {VN-direct|Medium} {dx:revealed}.
+**Online, plant milk rivals dairy.** On two big marketplaces, the best-selling plant milk sells 60% to 79% of the litres of the best-selling dairy milk. Domestic nut and soy milks lead (our calculation) [@MKT-03; @MKT-05] {VN-direct|Low} {dx:revealed}. Restaurant kitchens buy less: plant milks are about 4% of their milk, mostly oat milk for coffee [@ECR-06] {VN-direct|Low} {dx:revealed}.
 
-**Plant milk is the category that sells.** Vinasoy's soy-milk revenue was about VND 4,800 billion in 2025 (our sum of nine-month and fourth-quarter segment revenue). That implies a branded soy-milk market of about VND 5,300 billion (USD 204 million), using Vinasoy's 90.6% share of branded soy milk in 2024 (our derivation). The basis of that share, value or volume, is not stated, and the supply chapters' figure of about 80% refers to all soy milk on an older base [@CON-26; @CON-27; @CON-28] {VN-direct|Low} {dx:inferred}. Vinasoy sold 264 million litres in 2025 (up 4%). Its revenue rose 14%, with Veyo nut milks up 50%, premium Fami up 36% and e-commerce sales up 135% [@AIB-05; @AIB-06] {VN-direct|High} {dx:revealed}.
-
-Plant milks were 51 of the 186 products in the retail audit, across 14 brands [@FORM-01] {VN-direct|High} {dx:revealed}. Vinamilk reported double-digit growth in nut milk in early 2026 [@ECO-44] {VN-direct|Medium} {dx:revealed}. Vietnam imported USD 3.9 billion of tree nuts in 2025 (up 40%), which the US Department of Agriculture attributes partly to plant-milk demand among younger consumers [@APR-34; @AIB-40] {VN-direct|Medium} {dx:revealed}.
-
-Online sales by households now show the scale. On 25 September 2026 we read the sales counters on 96 Lazada and Tiki listings, without logging in. The counters are cumulative: they add up all sales since a listing began. The best-selling plant milk sells 60% and 79% of the litres of the best-selling dairy milk. Domestic nut and soy milks lead, and imported oat is under 2% of the plant-milk litres read (our calculation) [@MKT-03; @MKT-05] {VN-direct|Low} {dx:revealed}.
-
-Kitchens buy differently. On Kamereo, plant milks are about 4% of milk litres and 1.5 to 2.1% of milk protein. The plant best seller there is imported Oatside oat milk, marketed for coffee (our inference: bought for coffee, not protein) [@ECR-06] {VN-direct|Low} {dx:revealed} (`kitchen_platform_counters.csv`).
-
-Inside Vietnam's largest dairy company, plant milk is still small. Plant-based products were 1.30% of Vinamilk's range in the 2024 index of FAIRR, an investor network, with no time-bound target [@AFN-21] {VN-direct|Low} {dx:revealed}. Vinamilk's 2025 annual report positions plant milk as a nutrition product that is "no longer seen as a substitute for animal milk" [@AIB-01] {VN-direct|High} {dx:stated}.
-
-**Search behaviour tells the same story.** From 2019 to 2026, Google search interest in *sữa hạt* (nut or seed milk) averaged about 17 to 19 times that in *thịt thực vật* (plant meat). *Sữa hạt* has about tripled since 2019. *Thịt thực vật* peaked in 2021 to 2022 and has fallen by about 60% since; its top query is "what is plant meat?". *Thuần chay* (vegan) rose about tenfold from 2019 to 2024 [@CON-37] {VN-direct|Medium} {dx:revealed}. {{kn:kn-search-ratio}}
+**Search tells the same story.** Searches for *sữa hạt* (nut milk) run 17 to 19 times those for *thịt thực vật* (plant meat). Nut milk searches have tripled since 2019; plant meat searches have fallen by 60% since their 2021 peak [@CON-37] {VN-direct|Medium} {dx:revealed}. {{kn:kn-search-ratio}}
 
 {{chart:chart-search-interest}}
 
@@ -122,79 +90,64 @@ Inside Vietnam's largest dairy company, plant milk is still small. Plant-based p
 
 | Factor | Plant milk | Plant-based meat |
 |---|---|---|
-| Price against the animal product | Mass soy milk about VND 22,900 per litre (2026, on promotion); cow milk about VND 33,000 to 45,000 per litre (2023); soy milk about VND 25,200 in 2028 if the sugary-drink excise applies and is passed on [@FORM-01; @CON-35; @FTR-18] | Imported analogues (n = 2): 12 to 18 times chicken or eggs per gram of protein [@FORM-01; @COST-40; @COST-41] |
-| Maker | Established local firms with plants and national distribution | Imports and micro-startups |
-| Familiarity | Soy milk long established, made at home too | Burger and sausage formats; the familiar version is cheap *đồ chay* (traditional vegetarian food) |
+| Price against the animal product | Soy milk is a third to a half cheaper than cow's milk [@FORM-01; @CON-35; @FTR-18] | 12 to 18 times chicken or eggs per gram of protein [@FORM-01; @COST-40; @COST-41] |
+| Maker | Established local firms with national distribution | Imports and micro-startups |
+| Familiarity | Soy milk is long established | Burger and sausage formats |
 | Role in the diet | A healthy addition, a children's drink, a coffee ingredient | Sold as a replacement to people who do not want to cut meat |
-| Channel | Traditional and modern trade, cafés, e-commerce (mostly the makers' official stores) | Restaurants and gourmet shops only |
+| Channel | Shops, cafés and online | Restaurants and gourmet shops only |
 
-**A tax may fall on plant milk but not on dairy.** From 1 January 2027 some sweet drinks pay an 8% excise (special consumption tax), rising to 10% from 2028. The tax applies to drinks above 5 g of total sugar per 100 ml that count as *nước giải khát* (soft drinks) under the Vietnamese national standard (TCVN) 12828:2019. Since 1 January 2026 these drinks have also lost the 2% VAT cut. Milk and dairy products are exempt [@FTR-01; @FTR-02; @FTR-05; @FTR-09] {VN-direct|High} {dx:revealed}.
+**A tax may fall on plant milk but not on dairy.** From 2027, sweet soft drinks with over 5 g of sugar per 100 ml pay an 8% tax, rising to 10% in 2028. Milk is exempt [@FTR-01; @FTR-02; @FTR-05; @FTR-09] {VN-direct|High} {dx:revealed}. Whether soy and nut milks count as soft drinks is unresolved [@FTR-05; @FTR-13] {VN-direct|Medium} {dx:revealed}. Core soy milks carry 6.5 to 9.3 g of sugar per 100 ml, above the line [@FTR-17; @FTR-18] {VN-direct|Medium} {dx:revealed}. Even taxed, soy milk would stay well below the price of cow's milk (our calculation) [@FORM-01; @CON-35] {VN-direct|Low} {dx:inferred}. The design rule for new plant milks is to stay at or below 5 g of sugar per 100 ml. {{kn:kn-sugary-drink-excise}}
 
-Cereal milks are named in the standard's scope. Whether soy and nut milks are in scope is unresolved, and we found no official letter or ruling on it [@FTR-05; @FTR-13] {VN-direct|Medium} {dx:revealed}. Core Fami soy milks carry 6.5 to 9.3 g of sugar per 100 ml, above the line [@FTR-17; @FTR-18] {VN-direct|Medium} {dx:revealed}. If the tax applies and is passed on in full, mass soy milk would cost about VND 25,200 per litre in 2028. That is still 24 to 44% below the 2023 cow-milk price (our calculation from a 2026 promotional soy-milk price) [@FORM-01; @CON-35] {VN-direct|Low} {dx:inferred}.
-
-So the finding that plant milk sells at or below dairy prices survives. The design rule for new plant milks is to stay at or below 5 g of total sugar per 100 ml. Policy otherwise leaves plant milk out. The 2026 dairy strategy (Prime Minister's Decision 309/QĐ-TTg) does not mention it and says school milk programmes use "only fresh milk" [@FTR-31; @APR-11] {VN-direct|High} {dx:revealed}. {{kn:kn-sugary-drink-excise}}
-
-**Plant milk did not succeed on protein, and protein sells in it only as a niche.** Most plant milks carry 0.7 to 2.5 g of protein per 100 ml [@FORM-01] {VN-direct|Medium} {dx:revealed}. Vinamilk's high-protein nut milk (5 g per 100 ml, mainly pea protein), and searches for it, were the first sign that protein content itself sells in this aisle [@BUY-16; @CON-37] {VN-direct|Medium} {dx:revealed}. Purchases now confirm it, as a premium niche.
-
-At Vinamilk's Lazada store, the high-protein nut milk shows about 16,100 cases sold (about 70,300 L and 3.5 t of protein). That is about 11% of the Vinamilk nut-milk litres read but 29% of their protein. It costs 24% more per litre but only about 37% as much per gram of protein (cumulative counters; our calculation) [@MKT-03; @MKT-04] {VN-direct|Low} {dx:revealed}.
-
-A protein claim alone does not lift sales. Vinamilk's GoldSoy soy milk, sold with "up to 3.2 g protein per 100 ml", sells less than soy milks without a claim. On Lazada it shows 3,100 cases sold against 14,800 for a walnut soy milk at 2.0 g, although GoldSoy costs 39% less per litre. On the Kamereo kitchen platform it shows 2,609 units against 5,758 and 5,828 for two dearer unsweetened soy milks [@MKT-03; @MKT-05; @ECR-06] {VN-direct|Low} {dx:revealed}. The same company promotes its high-protein dairy milk as "more easily absorbed than plant-origin protein" [@AIB-03] {VN-direct|Medium} {dx:stated}.
+**Protein sells in plant milk, but only as a niche.** Most plant milks carry 0.7 to 2.5 g of protein per 100 ml [@FORM-01] {VN-direct|Medium} {dx:revealed}. Vinamilk's high-protein nut milk (5 g per 100 ml) is about 11% of its nut-milk litres sold online, and costs less per gram of protein (our calculation) [@BUY-16; @CON-37; @MKT-03; @MKT-04] {VN-direct|Low} {dx:revealed}. But a protein claim alone does not lift sales: Vinamilk's soy milk with a protein claim sells less than soy milks without one [@MKT-03; @MKT-05; @ECR-06] {VN-direct|Low} {dx:revealed}.
 
 ## 13.6 Who buys first: urban meat eaters, not students
 
-The likely first buyers are urban 25 to 44 year olds who eat a lot of meat and want variety, and urban households anxious about health and food safety. Students are not. GFI APAC's "Curious" segment (aware, not yet tried, leaning towards cutting red meat) is 43% of the Vietnamese sample. About two-thirds of the region's most enthusiastic buyers are over 35 [@CON-02; @CON-03; @ECO-23] {VN-direct|Medium} {dx:stated}. Delley et al. place 65% of urban meat eaters in three segments (anxious, suggestible, proactive) that are open to change for health and safety reasons [@CON-08] {VN-direct|Medium} {dx:stated}.
+The likely first buyers are urban 25 to 44 year olds who eat a lot of meat and want variety, and urban households anxious about health and food safety. GFI APAC's "Curious" segment is 43% of the Vietnamese sample, and most enthusiasts in the region are over 35 [@CON-02; @CON-03; @ECO-23; @CON-08] {VN-direct|Medium} {dx:stated}. Students, the focus of most Vietnamese papers, have low incomes and are the least aware [@CON-13; @CON-02] {VN-direct|Low} {dx:stated}.
 
-Students, the focus of most Vietnamese papers, have low incomes. Across the six markets, 18 to 24 year olds are the least aware of plant-based meat [@CON-13; @CON-02] {VN-direct|Low} {dx:stated}.
-
-**A ceiling, not an estimate.** If the 3% weekly rate held for all 39.4 million urban residents, weekly eaters would number about 1.2 million (our calculation) [@MAC-19; @CON-02] {VN-direct|Low} {dx:inferred}. The real number is smaller for three reasons: the panel is online adults in two cities, stated frequency overstates purchase, and much of what people call plant-based meat is probably mock meat.
+**A ceiling, not an estimate.** If 3% of all 39.4 million urban residents ate plant-based meat weekly, that would be about 1.2 million people (our calculation) [@MAC-19; @CON-02] {VN-direct|Low} {dx:inferred}. The real number is smaller, because surveys overstate buying.
 
 ## 13.7 Abroad, plant-based meat peaked and then stalled
 
-Vietnam can learn from markets that ran the modern plant-based experiment first. Most of this evidence is general or from comparable Asian markets ([[app-d7-global-benchmarks]]).
-
-- **Peak and plateau.** US plant-based meat sales fell from USD 1.4 billion (2021) to USD 1.0 billion (2025), and units from 281 million to 173 million. The category's share of meat sales halved, from 1.4% to about 0.7% [@GLB-01; @GLB-02] {general|High} {dx:revealed}. UK and Dutch volumes fell; Germany was flat [@GLB-08; @GLB-09; @GLB-10; @GLB-11] {general|High} {dx:revealed}. {{kn:kn-us-pbm-decline}}
-- **The ceiling.** In the most favourable markets, modern plant-based meat reached 3.1% (Germany) and 4.1% (Netherlands) of pre-packaged meat volume in 2024. Frequent buyers (12 or more times a year) were 8.6% of UK and 9.7% of German households in 2024 [@GLB-09; @GLB-10; @GLB-11] {general|High} {dx:revealed}. {{kn:kn-west-ceiling}}
-- **Trial without habit.** The share of US households buying plant-based meat fell from 19 to 20% to 11%. The repeat rate (the share of buyers who buy again) stayed above 60% [@GLB-01; @GLB-02]. In an earlier household panel (Neuhofer and Lusk, 2018 to 2020), 40% of buyers bought only once [@GLB-19] {general|High} {dx:revealed}.
-- **Price matters, but parity is not enough.** Demand responds to price. In US till (scanner) data, the price elasticity, a measure of how far sales fall as price rises, is about -0.8 to -1.6. Yet Dutch retailers' price-parity pledges left the plant share of protein sold flat at about 42 to 43% from 2023 to 2025, while plant-based meat volume fell [@GLB-16; @GLB-03; @GLB-12; @GLB-08; @GLB-10] {general|High} {dx:revealed}.
-- **Little displacement.** Most US plant-based meat buyers keep buying meat, and household ground-meat purchases did not fall after a first plant-based purchase. Plant milk, by contrast, displaces 0.43 to 0.93 units of dairy per unit bought [@GLB-19; @GLB-28; @GLB-22] {general|High} {dx:revealed}. An analysis of 1.2 million transactions in seven restaurants in the US, Canada and Australia (2026) found essentially no evidence that modern alternative proteins reduced meat purchases [@AFN-07] {general|Medium} {dx:revealed}. A preregistered online menu experiment with 4,431 US adults (2026), using hypothetical choices, points the same way. Adding one or two meat analogues to a menu cut meat choice by only 1.14 and 2.14 percentage points, and neither result was significant. A chicken-style analogue cut chicken choice by 3.65 points [@CGG-11] {general|Medium} {dx:tested}. So what a new dish displaces depends on the meat it imitates (our inference). That is why the canteen trial in [[ch25-demand-to-frontier]] logs the dish species replaced. A US choice experiment with 1,011 food shoppers (2023) found that plant-based meat complements conventional meat at home, and that lower plant-based prices are unlikely to change livestock output much [@CGG-20; @CGG-21] {general|Medium} {dx:stated}.
-- **Formats that hold up** are ingredient-like (strips, pieces, tofu); burgers lost share in the Netherlands [@GLB-09; @GLB-10; @GLB-11; @GLB-01] {general|High} {dx:revealed}.
-- **Vegetarian traditions in Asia did not create analogue markets.** In Thailand, meat alternatives sold USD 21 million against USD 803 million of dairy alternatives (2020). Taiwan, with about 3 million vegetarians, had USD 36 million of modern plant-based retail sales (2021). Japanese soy milk is near record output while soy meat contracted [@GLB-52; @GLB-57; @GLB-55; @GLB-56] {VN-adjacent|Medium} {dx:revealed}. Beyond Meat suspended its China operations in 2025 [@AIS-45] {VN-adjacent|Medium} {dx:revealed}. Where a modern analogue did sell well, it was hidden inside a familiar dish at a low price: a Hong Kong-made pork substitute (OmniPork) in dumplings at a Taiwanese chain [@GLB-59] {VN-adjacent|Low} {dx:revealed}.
-- **Regional firms moved away from their own consumer brands.** We tracked 24 alternative-protein startups and scale-ups that entered, tested or left Vietnam and Southeast Asia from 2019 to 2026 (our register, `firm_outcomes.csv`). Of these, 7 are active, 4 pivoted, 2 exited and 11 show no activity. Every pivot moved towards private label (shop own brands), co-manufacturing (making products for other brands), a retail blend or non-food uses. TiNDLE moved to private label from 2026, GOOD Meat to a 3% cultivated blend and Vow to co-manufacturing. Brands launched in restaurants, such as Karana, Float Foods and Phuture, went quiet [@AIS-28; @AIS-37; @NOV-10; @NOV-12; @BRD-08; @BRD-09; @BRD-10] {VN-adjacent|Low} {dx:revealed}.
-- **One founder sees no real demand to move away from meat.** TiNDLE's co-founder and former chief executive, Andre Menezes, told AgFunderNews in 2025 that there is "no real underlying consumer demand to shift away from meat" [@AIS-29] {general|Medium} {dx:stated}.
-- **In Vietnam, familiar formats survived.** We found no sign of activity after 2022 for any of four meat-analogue startups. All three makers of traditional or whole-food formats (mushroom floss, cashew cheese, tempeh) are trading [@AIS-39; @AIS-42; @AIS-43; @ECO-15; @ECO-17; @ECO-19; @BRD-18; @BRD-19] {VN-direct|Low} {dx:revealed} (`firm_outcomes.csv`; [[ch15-channels]]).
+- **Peak and plateau.** US plant-based meat sales fell from USD 1.4 billion in 2021 to USD 1.0 billion in 2025, and its share of meat sales halved to about 0.7% [@GLB-01; @GLB-02] {general|High} {dx:revealed}. UK and Dutch volumes fell [@GLB-08; @GLB-09; @GLB-10; @GLB-11] {general|High} {dx:revealed}. {{kn:kn-us-pbm-decline}}
+- **The ceiling.** In the best markets, plant-based meat reached 3% to 4% of packaged meat volume [@GLB-09; @GLB-10; @GLB-11] {general|High} {dx:revealed}. {{kn:kn-west-ceiling}}
+- **Trial without habit.** The share of US households buying plant-based meat fell from 20% to 11% [@GLB-01; @GLB-02; @GLB-19] {general|High} {dx:revealed}.
+- **Price parity is not enough.** Dutch retailers matched meat prices, yet plant-based meat volume fell [@GLB-16; @GLB-03; @GLB-12; @GLB-08; @GLB-10] {general|High} {dx:revealed}.
+- **Little meat displaced.** Most US buyers kept buying meat as before, while plant milk did displace dairy [@GLB-19; @GLB-28; @GLB-22] {general|High} {dx:revealed}. A study of 1.2 million restaurant sales found no evidence that new proteins cut meat purchases [@AFN-07] {general|Medium} {dx:revealed}. In a US menu experiment, a chicken-style product cut chicken choices most [@CGG-11] {general|Medium} {dx:tested}. So what a new dish displaces depends on the meat it copies (our inference) [@CGG-20; @CGG-21] {general|Medium} {dx:stated}.
+- **Formats that hold up** are ingredient-like: strips, pieces, tofu [@GLB-09; @GLB-10; @GLB-11; @GLB-01] {general|High} {dx:revealed}.
+- **Vegetarian traditions in Asia did not create markets for meat copies.** In Thailand and Taiwan, meat alternatives stayed small next to dairy alternatives [@GLB-52; @GLB-57; @GLB-55; @GLB-56; @AIS-45] {VN-adjacent|Medium} {dx:revealed}. Where a modern product did sell, it was hidden in a familiar dish at a low price [@GLB-59] {VN-adjacent|Low} {dx:revealed}.
+- **Regional firms left their own consumer brands.** Of 24 alternative-protein startups we tracked in Southeast Asia, only 7 are active. Every pivot moved towards store brands, making products for others, or blends [@AIS-28; @AIS-37; @NOV-10; @NOV-12; @BRD-08; @BRD-09; @BRD-10] {VN-adjacent|Low} {dx:revealed}. One founder said there is "no real underlying consumer demand to shift away from meat" [@AIS-29] {general|Medium} {dx:stated}.
+- **In Vietnam, familiar formats survived.** None of four meat-copy startups has been active since 2022. All three makers of familiar foods (mushroom floss, cashew cheese, tempeh) are trading [@AIS-39; @AIS-42; @AIS-43; @ECO-15; @ECO-17; @ECO-19; @BRD-18; @BRD-19] {VN-direct|Low} {dx:revealed}.
 
 {{chart:chart-us-pbm-trend}}
 
-In Vietnam the price gap is ten times larger than in the markets that stalled. The lesson is not to copy the branded-analogue model (our inference) {general|Medium} {dx:inferred}.
+Vietnam's price gap is ten times larger than in the markets that stalled. So do not copy the branded meat-copy model (our inference) {general|Medium} {dx:inferred}.
 
 ## 13.8 Words on the pack: a protein claim is an open position
 
-*Chay* is the established word. It appears in 87 of 186 audited product names, and it carries Buddhist and traditional associations and a cheap, low-protein reputation (our inference) [@FORM-01; @CON-37] {VN-direct|Medium} {dx:revealed}. *Thuần chay* (vegan) is the modern word; its search interest rose to a 2024 peak and has eased since. *Thịt thực vật* (plant meat) and *đạm thực vật* (plant protein) were media words of 2021 to 2022 and have faded [@CON-37] {VN-direct|Medium} {dx:revealed}. Established makers use *thực vật* (plant) for modern dairy alternatives and as a protein claim ("100% protein từ thực vật", 100% protein from plants, on one frozen dumpling) [@FORM-01] {VN-direct|Medium} {dx:revealed}.
+**The words.** *Chay* appears in 87 of 186 audited product names. It carries Buddhist associations and a cheap, low-protein reputation (our inference) [@FORM-01; @CON-37] {VN-direct|Medium} {dx:revealed}. *Thuần chay* (vegan) is the modern word. *Thịt thực vật* (plant meat) has faded [@CON-37] {VN-direct|Medium} {dx:revealed}.
 
-**The protein claim is already defined.** TCVN 14429:2025, a voluntary national standard taken from Codex, the international food standards code, defines two claims. "Source of protein" needs 5 g and "high protein" (*cao đạm*) needs 10 g per 100 g of food, or 2.5 g and 5 g per 100 kcal [@LBL-03; @LBL-04] {VN-direct|High} {dx:revealed}. *Giàu đạm* (rich in protein) is not a defined term, so it is judged only against the rule that labels be truthful. The per 100 kcal route lets watery foods claim "high" at 4 to 5 g per 100 g. So a maker who wants the word to carry weight should print the number on the front, for example "10 g đạm/100 g" (10 g of protein per 100 g).
+**The protein claim is already defined.** A voluntary national standard allows "source of protein" at 5 g and "high protein" (*cao đạm*) at 10 g per 100 g [@LBL-03; @LBL-04] {VN-direct|High} {dx:revealed}. *Giàu đạm* (rich in protein) is not a defined term, so print the number on the front: "10 g đạm/100 g" (10 g of protein per 100 g). The claim needs no registration [@LBL-03; @LBL-05; @REG-02; @LBL-19] {VN-direct|Medium} {dx:revealed}. Protein must appear on most packaged labels since 2026, though small makers are exempt [@LBL-01; @LBL-02] {VN-direct|High} {dx:revealed}. {{kn:kn-high-protein-claim}}
 
-The claim needs no registration and no advertising approval. For function claims such as "builds muscle", we found no approval route for ordinary foods [@LBL-03; @LBL-05; @REG-02; @LBL-19] {VN-direct|Medium} {dx:revealed}. Since 1 January 2026, protein itself has had to appear on non-exempt pre-packaged labels (Circular 29/2023, now Circular 30/2026). Foods from small food businesses are exempt, and these cover (our inference) most wet-market chay [@LBL-01; @LBL-02] {VN-direct|High} {dx:revealed}. {{kn:kn-high-protein-claim}}
+**The shelf already qualifies without claiming.** Of 43 audited plant-protein foods, 20 meet the "source" condition and 7 meet "high". None carries a claim (our calculation) [@FORM-01; @LBL-03] {VN-direct|Medium} {dx:revealed}. The claim is an open position.
 
-**The shelf already qualifies without claiming.** Of 43 audited plant-protein foods with a label value, 20 (47%) meet the "source" condition per 100 g and 7 (16%) meet "high". All seven are frozen analogues, and none carries a claim. Counting the per 100 kcal route, 27 of 38 and 13 of 38 would qualify (our calculation) [@FORM-01; @LBL-03] {VN-direct|Medium} {dx:revealed}. The protein claim is an open position, not a regulatory problem.
+**Fake chay does not undercut it today.** We found no confirmed case of meat in Vietnamese chay. A protein claim is credible when it rides on a registered maker, a full label and few additives ([[ch12-chay-baseline]]) [@TRU-18; @CHY-23; @TRU-24; @TRU-04] {VN-direct|Medium} {dx:inferred}.
 
-**Fake chay does not undercut it today.** We found no confirmed case of meat in a Vietnamese chay product from 2015 to 2026. Chay's live trust problems are borax, microbes and unlabelled goods ([[ch12-chay-baseline]]) [@TRU-18; @CHY-23] {VN-direct|Medium} {dx:revealed}. In our reading, a protein claim is credible when it rides on a registered maker, a full label and a short additive list. A "verified meat-free" label, from a DNA screen (PCR) once the state testing centre QUATEST 3 offers one, would be a secondary reassurance [@TRU-24; @TRU-04] {VN-direct|Medium} {dx:inferred}.
-
-No study has tested which words Vietnamese shoppers trust. The one revealed test is discouraging: a protein claim on soy milk did not lift its sales (section 13.5). Our inference is that *chay* works for religious and periodic occasions. For meat eaters, a numeric protein claim with a food-safety signal is more promising, if the food is dense enough to make it (10 g per 100 g) {VN-direct|Low} {dx:inferred}. The words around fermentation and cultivated meat are in [[ch14-frontier-demand]].
+No study has tested which words Vietnamese shoppers trust. Our inference is that *chay* works for religious occasions, while a numeric protein claim with a food-safety signal is more promising for meat eaters {VN-direct|Low} {dx:inferred}. Words for fermentation and cultivated meat are in [[ch14-frontier-demand]].
 
 ## 13.9 What this means for new protein products
 
-- **Make products for the meals people already eat.** Vietnamese respondents asked for variety and cooking know-how more than any other country, and for meat-like taste less than any other.
-- **Price each serving against the meat it replaces.** Aim for the same price or lower for the mass market; stated interest falls by over a third at 50% dearer.
-- **Raise protein visibly.** Aim for 10 g or more per 100 g for meat-like foods, the "high protein" level of TCVN 14429:2025, and 5 g or more per 100 ml for drinks. Print the number, keep ingredient lists short and signal food safety.
-- **Plant milk is the proven category.** Barista milks for *cà phê sữa đá* (iced milk coffee), high-protein milks and local nut, seed and bean bases are the consumer openings with revealed demand. High-protein milks sell as a premium niche, not the volume line. A sugary-drink excise from 2027 may fall on sweetened plant milks but not on dairy. So design new plant milks at or below 5 g of total sugar per 100 ml.
-- **Measure repeat purchase, not launches.** Abroad, trial did not turn into habit, so ignore launch spikes. Marketplace counters are cumulative, so read them twice, a month apart, to get a rate.
+- **Make products for the meals people already eat.** Vietnamese respondents asked for variety and cooking know-how, not meat-like taste.
+- **Price each serving against the meat it replaces.** Aim for the same price or lower.
+- **Raise protein visibly.** Aim for 10 g or more per 100 g in meat-like foods, and 5 g per 100 ml in drinks. Print the number, keep ingredient lists short and signal food safety.
+- **Plant milk is the proven category.** Barista milks for *cà phê sữa đá* (iced milk coffee), high-protein milks and local nut and bean bases have proven demand. Keep sugar at or below 5 g per 100 ml.
+- **Measure repeat purchase, not launches.** Abroad, trial did not become habit.
 
 **For each reader.**
-- **Startups:** do not launch premium imported-style analogues into gourmet channels expecting mass uptake; that route has been tried since 2019. In the region, brands placed on restaurant menus mostly went quiet or pivoted. The Vietnamese survivors make familiar foods with little capital ([[ch15-channels]]).
-- **Investors:** the revealed demand is in plant milk and in established makers' chay lines. Judge deals on repeat purchase and cost per gram of protein, not survey intent.
-- **Manufacturers:** protein content, food safety and fewer additives are open positions on the shelf. About half of the audited plant-protein foods could already claim "source of protein". Check whether your sweetened plant milks are *nước giải khát* and plan recipes at or below 5 g of sugar per 100 ml.
-- **Research bodies:** build capacity for tested evidence (sensory panels in Vietnamese dishes, choice experiments, label tests of numeric protein claims) instead of more small student surveys.
-- **Policy makers:** food-safety and healthy-protein messages match consumer motives. Meat-reduction messages do not, since only 15% intend to cut meat. A written ruling, before 1 January 2027, on whether soy, nut and cereal milks above 5 g of sugar are *nước giải khát* would remove an avoidable uncertainty ([[ch25-demand-to-frontier]]).
-- **International organisations and funders:** fund a Vietnamese choice experiment, an in-store price test and a label-trust test; each costs tens of thousands of USD ([[ch25-demand-to-frontier]]).
+- **Startups:** do not launch premium meat copies into gourmet channels expecting mass uptake; that has been tried since 2019. The Vietnamese survivors make familiar foods with little capital ([[ch15-channels]]).
+- **Investors:** the proven demand is in plant milk and in established makers' chay lines. Judge deals on repeat purchase and cost per gram of protein, not survey intent.
+- **Manufacturers:** protein content, food safety and fewer additives are open positions on the shelf. Check whether your sweetened plant milks count as soft drinks for the new tax.
+- **Researchers:** build capacity for tested evidence, such as taste panels in Vietnamese dishes and label tests, instead of more small student surveys.
+- **Policy makers:** food-safety and healthy-protein messages match what people want; meat-reduction messages do not. A ruling before 2027 on whether sweetened plant milks are soft drinks would remove avoidable uncertainty ([[ch25-demand-to-frontier]]).
+- **International organisations and funders:** fund a Vietnamese choice experiment, an in-store price test and a label-trust test. Each costs tens of thousands of USD ([[ch25-demand-to-frontier]]).
 
-**Related:** [[app-d2-consumer-evidence]], [[app-d7-global-benchmarks]], [[app-d3-retail-demand-signals]].
+**Related:** [[ch11-protein-diet]], [[ch12-chay-baseline]], [[ch14-frontier-demand]].

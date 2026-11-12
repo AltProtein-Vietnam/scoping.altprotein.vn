@@ -127,7 +127,6 @@ test('callouts are classified, with corrections styled consistently', () => {
     .reduce((a, b) => a + b, 0);
   assert.ok(corrections > 0);
   assert.equal(all.match(/callout-correction/g)?.length, corrections);
-  assert.ok(all.includes('callout-draft'));
   assert.ok(all.includes('callout-vision'));
   assert.ok(all.includes('callout-speculative'));
   assert.ok(!all.includes('<blockquote><p><strong>'));

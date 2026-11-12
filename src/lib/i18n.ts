@@ -9,6 +9,7 @@ const en = {
   studyTitle: 'Alternative protein in Vietnam',
   studySub: 'A supply-side scoping study',
   draft: (v: string) => `Draft ${v}`,
+  version: (v: string) => `Version ${v}`,
   draftNotice: 'This report is a draft and subject to change.',
   home: 'Home',
   summary: 'Summary',
@@ -128,7 +129,7 @@ const en = {
   appendicesIntro:
     'The detailed evidence by theme: method and record (M), context and supply (S), demand (D), futures (F) and registers (R).',
   appendicesPublic:
-    'While the report is a draft, the evidence appendices and the registers of open questions and disagreements are shared with reviewers only. The glossary and the full source list are open to everyone.',
+    'The glossary and the full source list are open to everyone. The detailed evidence appendices and the registers of open questions and disagreements are not published on this site; the chapters and briefs carry their findings.',
 
   // Home -------------------------------------------------------------------------------
   homeReadSummary: 'Executive summary',
@@ -148,9 +149,9 @@ const en = {
   homeAbout: 'About this study',
 
   // Access ------------------------------------------------------------------------------
-  lockedTitle: 'This page is for reviewers',
+  lockedTitle: 'This page is not published',
   lockedText:
-    'While the report is a draft, the evidence appendices, the registers of open questions and disagreements, and the data tables are shared with reviewers only. The chapters, briefs and summaries carry the findings, and every source is listed.',
+    'The detailed evidence appendices, the registers of open questions and disagreements, and the data tables are not published on this site. The chapters, briefs and summaries carry the findings, and every source is listed.',
   lockedKind: {
     evidence: 'Evidence appendix',
     register: 'Register',
@@ -158,7 +159,7 @@ const en = {
   } as Record<string, string>,
   lockedSignIn: 'Editor sign in',
   lockedBack: 'Read the report',
-  lockedLink: 'Shared with reviewers while the report is a draft',
+  lockedLink: 'Not published on this site',
   editorView: 'Editor view',
   editorViewText: 'You can see the appendices, registers, data and files that the public cannot.',
   publicView: 'Public view',
@@ -303,6 +304,7 @@ const vi: Dict = {
   studyTitle: 'Protein thay thế tại Việt Nam',
   studySub: 'Nghiên cứu xác định phạm vi phía cung',
   draft: (v: string) => `Bản thảo ${v}`,
+  version: (v: string) => `Phiên bản ${v}`,
   draftNotice: 'Báo cáo này là bản dự thảo và có thể thay đổi.',
   home: 'Trang chủ',
   summary: 'Tóm tắt',
@@ -413,7 +415,7 @@ const vi: Dict = {
   appendicesIntro:
     'Bằng chứng chi tiết theo chủ đề: phương pháp và hồ sơ (M), bối cảnh và phía cung (S), phía cầu (D), tương lai (F) và các sổ đăng ký (R).',
   appendicesPublic:
-    'Trong giai đoạn dự thảo, các phụ lục bằng chứng và sổ đăng ký câu hỏi mở, điểm bất đồng chỉ được chia sẻ với người góp ý. Bảng thuật ngữ và danh sách nguồn đầy đủ được công khai.',
+    'Bảng thuật ngữ và danh sách nguồn đầy đủ được công khai. Các phụ lục bằng chứng chi tiết và sổ đăng ký câu hỏi mở, điểm bất đồng không được công bố trên trang này; các chương và bản tóm lược nêu các kết luận của chúng.',
 
   homeReadSummary: 'Tóm tắt (tiếng Anh)',
   homeNewcomers: 'Lời mở đầu cho người mới',
@@ -431,9 +433,9 @@ const vi: Dict = {
   homeHowWeKnow: 'Cơ sở của các kết luận',
   homeAbout: 'Về nghiên cứu này',
 
-  lockedTitle: 'Trang này dành cho người góp ý',
+  lockedTitle: 'Trang này không được công bố',
   lockedText:
-    'Trong giai đoạn dự thảo, các phụ lục bằng chứng, sổ đăng ký câu hỏi mở và điểm bất đồng, cùng các bảng dữ liệu chỉ được chia sẻ với người góp ý. Các chương, bản tóm lược và bản tóm tắt nêu các kết luận, và mọi nguồn đều được liệt kê.',
+    'Các phụ lục bằng chứng chi tiết, sổ đăng ký câu hỏi mở và điểm bất đồng, cùng các bảng dữ liệu không được công bố trên trang này. Các chương, bản tóm lược và bản tóm tắt nêu các kết luận, và mọi nguồn đều được liệt kê.',
   lockedKind: {
     evidence: 'Phụ lục bằng chứng',
     register: 'Sổ đăng ký',
@@ -441,7 +443,7 @@ const vi: Dict = {
   },
   lockedSignIn: 'Đăng nhập biên tập',
   lockedBack: 'Đọc báo cáo',
-  lockedLink: 'Chỉ chia sẻ với người góp ý trong giai đoạn dự thảo',
+  lockedLink: 'Không được công bố trên trang này',
   editorView: 'Chế độ biên tập',
   editorViewText:
     'Bạn đang xem cả phụ lục, sổ đăng ký, dữ liệu và tệp mà công chúng không xem được.',

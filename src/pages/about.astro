@@ -3,7 +3,7 @@ import Base from '../layouts/Base.astro';
 import { loadPage } from '../lib/content';
 import { t } from '../lib/i18n';
 import { KEY_NUMBERS, renderInline, renderKeyNumber } from '../lib/markdown';
-import { ROLE, SITE, href, localize } from '../lib/site';
+import { IS_DRAFT, ROLE, SITE, href, localize } from '../lib/site';
 const lang = Astro.locals.lang ?? 'en';
 const s = t(lang);
 const vi = lang === 'vi';
@@ -38,15 +38,17 @@ const versions = [...SITE.versions].reverse();
     </header>
     <div class="about-grid">
       <div class="prose">
-        <aside class="callout callout-draft">
-          <p class="callout-label">{vi ? 'Bản thảo' : 'Draft for review'}</p>
-          <p>
-            <strong>{vi ? SITE.draft_notice.vi : SITE.draft_notice.en}</strong>{' '}
-            {vi
-              ? 'Phiên bản 1.0 sẽ là bản công bố chính thức; cách trích dẫn sẽ được xác định khi đó.'
-              : 'Version 1.0 will be the public launch; the citation format will be set then.'}
-          </p>
-        </aside>
+        {IS_DRAFT && (
+          <aside class="callout callout-draft">
+            <p class="callout-label">{vi ? 'Bản thảo' : 'Draft for review'}</p>
+            <p>
+              <strong>{vi ? SITE.draft_notice.vi : SITE.draft_notice.en}</strong>{' '}
+              {vi
+                ? 'Phiên bản 1.0 sẽ là bản công bố chính thức; cách trích dẫn sẽ được xác định khi đó.'
+                : 'Version 1.0 will be the public launch; the citation format will be set then.'}
+            </p>
+          </aside>
+        )}
         {vi ? (
           <>
             <h2 id="scope">Phạm vi</h2>
@@ -72,21 +74,18 @@ const versions = [...SITE.versions].reverse();
           <>
             <h2 id="scope">Scope and framing</h2>
             <p>
-              The study covers the supply side (raw materials, processes, manufacturing, rules,
-              capital, science), today and to 2050. It is about protein for people: what Vietnam
-              could make at home for people to eat, from what, at what cost, under which rules, and
-              who would buy it. Feed appears only as context: it is the hidden import behind the
-              meat, eggs, milk and farmed fish that people eat, not something the study proposes to
-              make. Cultivated meat is fully scoped.
+              The study asks what Vietnam could make at home for people to eat, from what, at what
+              cost, under which rules, and who would buy it, today and to 2050. It covers the supply
+              side: raw materials, processes, factories, rules, capital and science. Feed appears
+              only as context: the hidden import behind the meat, eggs, milk and farmed fish people
+              eat.
             </p>
             <p>
-              The futures part uses foresight: scenarios with signposts and one clearly labelled
-              normative vision; none of it is a forecast. The demand part treats demand as a design
-              input. It sizes demand routes as labelled scenarios, gives no market-size forecast,
-              sets no diet goal and is not a marketing plan. The framing is neutral and led by the
-              security of the protein people eat, industrial value and trade; animal welfare and
-              environment are stated as motivations for some actors. The study is not investment,
-              legal or engineering advice.
+              The futures part uses scenarios with signposts and one clearly labelled vision; none
+              of it is a forecast. The demand part sizes demand only as labelled scenarios, gives no
+              market forecast and is not a marketing plan. The framing leads with the security of
+              the protein people eat, industrial value and trade. This is not investment, legal or
+              engineering advice.
             </p>
           </>
         )}
@@ -104,12 +103,12 @@ const versions = [...SITE.versions].reverse();
           <a href={`${localize('/', lang)}#evidence`}>{s.legendTitle}</a> ·{' '}
           <a href={href(ROLE.howToRead, lang)}>{s.legendMore}</a>
         </p>
-        <h2 id="reviewers">{s.forReviewers}</h2>
+        <h2 id="reviewers">{vi ? 'Những gì được công bố' : 'What is published'}</h2>
         <p>{s.appendicesPublic}</p>
         <p>
           {vi
-            ? 'Các bảng dữ liệu, mô hình và tài liệu làm việc cũng chỉ dành cho người góp ý trong giai đoạn này.'
-            : 'The data tables, the models and the working papers are also shared with reviewers only at this stage.'}
+            ? 'Các bảng dữ liệu, mô hình và tài liệu làm việc cũng chưa được công bố. Liên hệ AltProtein Vietnam nếu bạn muốn sử dụng lại.'
+            : 'The data tables, the models and the working papers are not yet published. Please contact AltProtein Vietnam if you would like to reuse them.'}
         </p>
         <h2 id="versions">{vi ? 'Các phiên bản' : 'Versions'}</h2>
         <ul>
@@ -122,8 +121,8 @@ const versions = [...SITE.versions].reverse();
         <h2 id="site">{vi ? 'Về trang web' : 'About this website'}</h2>
         <p>
           {vi
-            ? 'Nội dung báo cáo bằng tiếng Anh, có lời mở đầu, bản tóm tắt tiếng Việt và bảng thuật ngữ song ngữ. Giao diện có thể xem bằng tiếng Anh hoặc tiếng Việt. Trang web không dùng công cụ theo dõi. Biểu đồ được dựng sẵn dưới dạng SVG và mỗi biểu đồ có bảng số liệu đi kèm.'
-            : 'The report is in English, with a Vietnamese prologue, a Vietnamese executive summary and a bilingual glossary; the interface can be switched between English and Vietnamese. The site uses no trackers. Charts are drawn as inline SVG when the site is built, and each has its data table.'}
+            ? 'Nội dung báo cáo bằng tiếng Anh, có bảng thuật ngữ song ngữ. Giao diện có thể xem bằng tiếng Anh hoặc tiếng Việt. Trang web không dùng công cụ theo dõi. Biểu đồ được dựng sẵn dưới dạng SVG và mỗi biểu đồ có bảng số liệu đi kèm.'
+            : 'The report is in English, with a bilingual glossary; the interface can be switched between English and Vietnamese. The site uses no trackers. Charts are drawn as inline SVG when the site is built, and each has its data table.'}
         </p>
       </div>
       <aside class="about-side">

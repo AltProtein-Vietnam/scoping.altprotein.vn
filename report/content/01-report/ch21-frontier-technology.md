@@ -5,9 +5,9 @@ short_title: "Frontier technology"
 section: report
 part: "IV. Futures: 2035 and 2050"
 order: 21
-summary: "The frontier technologies that could reshape protein supply by 2050 all work in the laboratory, but none has yet shown the cost fall that solar power did. Against the food protein ingredients Vietnam already buys, fermentation protein made in Vietnam competes first with egg and dairy proteins, not with cheap plant proteins. For protein for people the windows open in sequence: imported, approved novel ingredients from about 2028 if a new-food route exists, contract precision fermentation and food mycoprotein in 2030 to 2035, and protein from power made in Vietnam not before the 2040s."
+summary: "Every frontier route to protein works technically, but none is cheap and costs fall slowly. Vietnam's windows open mostly after 2030, starting with imported, already-approved ingredients from about 2028 if the law allows, so the task now is to prepare the inputs every route needs."
 audiences: [investors, startups, research, policy, manufacturers, international]
-reading_time_min: 16
+reading_time_min: 10
 key_numbers: [kn-p2p-cost-vn-2050, kn-learning-rate-fermentation, kn-p2p-energy-per-mt, kn-vn-gas-protein-papers]
 related_data: [frontier_gas_tech.csv, frontier_bio_tech.csv, learning_rates.csv, feedstock_futures.csv, ai_biodesign_evidence.csv, approvals_trend.csv, biblio_trends_frontier.csv, frontier_windows.csv]
 related_pages: [ch09-economics, ch10-technology-fit, ch16-business-buyers, app-f3-frontier-tech, app-f6-aquafeed-feedstock-futures, app-d8-demand-model, ch23-scenarios-2050]
@@ -17,15 +17,13 @@ charts: [chart-frontier-windows]
 # 21. Frontier technology: which windows open for Vietnam, and when
 
 **In brief.**
-- **Every frontier route to protein we reviewed works technically, and none is yet cheap.** Protein from hydrogen and CO2 is made at up to 160 t a year in Finland, in a plant scaling to 230 t. Calysseo's methane-protein plant in Chongqing, China, halted production in 2026.
-- **Costs fall slowly.** AI shortens the research loop but has not yet lowered a factory's cost. Fermentation industries have historically cut costs by 13 to 20% each time output doubled, far slower than solar panels. We found no observed learning rate for any alternative protein.
-- **We compare frontier protein with the food proteins Vietnam already buys.** On our estimates, protein from renewable power made in Vietnam would still cost more than imported commodity plant proteins in 2050, but less than egg and dairy proteins. Fungal protein reaches the price of commodity plant proteins only at its low-cost end, around 2040 to 2050.
-- **Vietnam's windows open in sequence and mostly after 2030.** The nearest is formulating imported, approved novel food ingredients from about 2028, if the Food Safety Law creates a route for new foods.
-- **What Vietnam can do now is prepare the inputs every route needs:** residue carbon, clean power at a fixed site, cheap capital, skilled process staff and a legal route for each product.
+- **Every frontier route to protein we reviewed works technically, and none is yet cheap.**
+- **Costs fall slowly.** Fermentation industries have cut costs by 13% to 20% each time output doubled, far slower than solar panels. Nobody has measured a learning rate for any alternative protein.
+- **Against the food proteins Vietnam already buys,** protein from renewable power made in Vietnam would still cost more than imported plant proteins in 2050, but less than egg and dairy proteins. Fungal protein reaches the price of plant proteins only at its low-cost end, around 2040 to 2050.
+- **Vietnam's windows open in sequence, mostly after 2030.** The nearest is formulating imported, already-approved new ingredients from about 2028, if the Food Safety Law creates a route for new foods.
+- **What Vietnam can do now is prepare the inputs every route needs:** carbon from residues, clean power, cheap capital, skilled staff and a legal route for each product.
 
-> **Method note.** Cost paths here are bottom-up estimates, not observed trends. Global figures come from published techno-economic models; Vietnamese figures are our calculations with Vietnamese input prices, shown in [[app-f3-frontier-tech]]. Every window below is an *estimate* with its conditions stated.
->
-> **The prices to beat are food prices, not feed prices.** This study is about protein for people, so we compare frontier protein with food protein ingredients, using the price ladder in [[ch16-business-buyers]]. At the border in 2025, commodity plant proteins (Chinese gluten, textured protein and soy isolate) cost about USD 1.7 to 2.4 per kg of protein; egg, dairy and premium plant proteins cost USD 7 to 11 and more [@BUY-02; @BUY-07; @BUY-09] {VN-direct|Medium}. Chinese textured protein lands at about USD 2.0 to 2.1 per kg of protein (our calculation) [@TIC-12; @FTR-32] {VN-direct|Low}. Our comparisons convert costs per tonne to costs per kg: USD 1,000 per t of protein equals USD 1 per kg. Feed prices are context only: fishmeal protein costs USD 2,625 (2025 average) to 3,846 (August 2026) per t, and soybean-meal protein about USD 880 per t [@FM-01] {general|High}.
+> **Method note.** Cost paths here are our estimates from published models and Vietnamese input prices, not observed trends. We compare frontier protein with food protein prices: commodity plant proteins at about USD 1.7 to 2.4 per kg of protein, and egg, dairy and premium plant proteins at USD 7 to 11 and more [@BUY-02; @BUY-07; @BUY-09] {VN-direct|Medium} ([[ch16-business-buyers]]). Chinese textured protein lands at about USD 2.0 to 2.1 per kg of protein (our calculation) [@TIC-12; @FTR-32] {VN-direct|Low}.
 
 ---
 
@@ -33,116 +31,100 @@ charts: [chart-frontier-windows]
 
 | Route | Where the world is (2026) | Cost evidence | Vietnam today | Sources |
 |---|---|---|---|---|
-| Protein from hydrogen and CO2 (power-to-protein) | Largest plant up to 160 t a year, scaling to 230 t (Finland); first commercial plant (3,200 t a year) planned for late 2028, investment decision pending {fx:signal} | EUR 4.0 to 4.5 per kg of protein in 2030 and 2.1 to 2.3 in 2050 at the world's best sites {fx:projection} (Fasihi et al. model) | 2 of 494 papers worldwide (2016 to 2026) have a Vietnamese author | [@FTG-01; @FTG-03; @FTG-04; @FTG-05; @FTG-14] {general\|High} |
-| Methane and steel-gas protein | Calysseo's methane-protein plant in Chongqing, China, halted production in 2026; Shougang LanzaTech's steel-gas protein plant made 10,200 t in 2023 as an ethanol by-product {fx:signal} | Gas alone at Vietnam's 2026 price for liquefied natural gas (LNG) costs about USD 720 to 1,250 per t of protein, before any other cost (our calculation, [[app-f3-frontier-tech]]) | No project | [@FTG-06; @FTG-08; @FTG-09; @FTG-31] {VN-adjacent\|Medium} |
-| Biomass fermentation on sugar (yeast, fungal, bacterial) | Commercial in China (Angel Yeast 11,000 t a year, 2025); processes of the PEKILO type (a Finnish fungal-protein process) revived on side streams {fx:signal} | Floor set by glucose and urea, not by capital (section 21.2) | Thai Duong Feed made yeast protein in a 2016 to 2019 research project (record 16724/2019 of the National Agency for Science and Technology Information), building a yeast-protein line; current status unknown | [@HSC-14; @NGF-17; @HSC-06; @HSC-07] {VN-direct\|Medium} |
-| Precision fermentation (microbes programmed to make one specific protein) | US Food and Drug Administration (FDA) "no questions" letters, which accept a firm's safety conclusion, for several animal proteins in 2025, including one for a Chinese firm {fx:signal} | Works today for high-value proteins (lactoferrin at USD 750 to 1,500 per kg); no published evidence of commodity cost parity | 2 indexed papers, 2015 to 2025 | [@FTB-18; @FTB-19; @FTB-23; @FTB-41; @HSC-01] {general\|Medium} |
-| AI-assisted bio-design | From 38% fewer to 30 times fewer experiments to optimise media and strains; an autonomous biofoundry (an automated laboratory that designs and tests microbes) raised a feed phytase's activity 26-fold at neutral pH in four weeks (2025) {fx:trend} | No study shows lower production cost at scale | Top-40 AI compute; no biofoundry | [@FTB-02; @FTB-04; @FTB-06; @FTB-11; @FTB-15; @FTB-16] {general\|High} |
-| Cellulosic (second-generation) sugar, made from straw and other plant fibre | Every US and European commercial cellulosic ethanol plant has shut; India's rice-straw plant reached 62% of design capacity in December 2025 {fx:trend} | Mature-plant models give USD 342 to 467 per t of sugar; first plants cost USD 2,100 to 2,400 per t of annual capacity | No pilot | [@NGF-33; @NGF-34; @NGF-10; @NGF-11; @NGF-06; @NGF-07] {general\|Medium} |
-| Cultivated meat and seafood | Largest run 20,000 L; Believer Meats shut in December 2025 after FDA clearance; firms fell from 155 to 142 {fx:trend} | 1% of world meat would need about 30 times the 2021 culture capacity | First livestock stem-cell characterisation (2025 to 2026) | [@FTB-24; @FTB-45; @FTB-26; @HSC-01] {general\|Medium} |
-| Molecular farming (crops grown to make animal proteins) | Clearances from the US Department of Agriculture for crops making animal proteins (2024); no completed FDA food review found | About 50 to 300 kg of target protein per hectare (our estimate) | None | [@FTB-28; @FTB-31] {general\|Low} |
-| Cell-free synthesis (making protein without living cells) | A design tool | About USD 2.8 to 3.6 per mg (with and without DNA re-use), 5 to 6 orders of magnitude above food protein (more for fully purified PURE systems) | None | [@FTB-35; @FTB-36] {general\|Medium} |
-| Algal and oilseed omega-3 (a feed ingredient, context only; also a food oil) | Commercial; omega-3 canola oil replaced all fish oil in low-fishmeal shrimp diets {fx:trend} | Priced against fish oil | Buyer only. For food, the Vietnam Academy of Science and Technology (VAST) holds research-scale DHA-producing strains (*Schizochytrium mangrovei* PQ6, run in a 30 L fermenter); we found no production [@SLS-17; @SLS-19] {VN-direct\|Medium} | [@AQF-19; @AQF-23; @AQF-24] {general\|Medium} |
-
-Full registers: `frontier_gas_tech.csv`, `frontier_bio_tech.csv`, `feedstock_futures.csv`; detail in [[app-f3-frontier-tech]].
+| Protein from hydrogen and CO2 | Largest plant up to 160 t a year (Finland); first commercial plant planned for 2028 {fx:signal} | EUR 4.0 to 4.5 per kg of protein in 2030, falling to 2.1 to 2.3 by 2050, at the world's best sites {fx:projection} | 2 of 494 papers worldwide have a Vietnamese author | [@FTG-01; @FTG-03; @FTG-04; @FTG-05; @FTG-14] {general\|High} |
+| Protein from methane and steel-mill gas | A Chinese methane-protein plant halted in 2026; a steel-gas plant made 10,200 t in 2023 {fx:signal} | Gas alone at Vietnam's 2026 price costs USD 720 to 1,250 per t of protein (our calculation) | No project | [@FTG-06; @FTG-08; @FTG-09; @FTG-31] {VN-adjacent\|Medium} |
+| Microbial protein grown on sugar | Commercial in China (11,000 t a year, 2025) {fx:signal} | Floor set by glucose and urea, not capital (section 21.2) | One past research project; status unknown | [@HSC-14; @NGF-17; @HSC-06; @HSC-07] {VN-direct\|Medium} |
+| Precision fermentation | US clearances for several animal proteins in 2025 {fx:signal} | Works for high-value proteins (lactoferrin at USD 750 to 1,500 per kg); no evidence for bulk | 2 papers, 2015 to 2025 | [@FTB-18; @FTB-19; @FTB-23; @FTB-41; @HSC-01] {general\|Medium} |
+| AI-assisted biological design | Far fewer experiments to optimise strains; one automated lab improved a feed enzyme 26-fold in four weeks {fx:trend} | No study shows lower factory cost | Strong computing; no automated biology lab | [@FTB-02; @FTB-04; @FTB-06; @FTB-11; @FTB-15; @FTB-16] {general\|High} |
+| Sugar from straw and plant fibre | Every Western commercial plant has shut; India's rice-straw plant reached 62% of capacity in 2025 {fx:trend} | Costly first plants | No pilot | [@NGF-33; @NGF-34; @NGF-10; @NGF-11; @NGF-06; @NGF-07] {general\|Medium} |
+| Cultivated meat and seafood | Largest run 20,000 L; firms fell from 155 to 142 {fx:trend} | 1% of world meat would need 30 times the 2021 capacity | Early stem-cell research | [@FTB-24; @FTB-45; @FTB-26; @HSC-01] {general\|Medium} |
+| Crops grown to make animal proteins | US clearances for such crops in 2024 | About 50 to 300 kg of protein per hectare (our estimate) | None | [@FTB-28; @FTB-31] {general\|Low} |
+| Cell-free protein synthesis | A design tool | 100,000 to 1,000,000 times dearer than food protein | None | [@FTB-35; @FTB-36] {general\|Medium} |
+| Algal omega-3 oil | Commercial {fx:trend} | Priced against fish oil | Research-scale strains only [@SLS-17; @SLS-19] {VN-direct\|Medium} | [@AQF-19; @AQF-23; @AQF-24] {general\|Medium} |
 
 ## 21.2 How fast will costs fall? Slowly, and no one has measured it
 
-**No one has measured it.** Every forward cost path for alternative protein is an engineering model or a company claim. An OpenAlex search (an open index of research papers) for learning-curve studies of alternative protein returned 9 works (2015 to 2026), none of them empirical [@ECF-09] {general|Medium}.
+**No one has measured it.** Every forward cost path for alternative protein is an engineering model or a company claim. We found no study that measures learning in alternative protein [@ECF-09] {general|Medium}.
 
-**The best analogues are fermentation industries, not solar.** A learning rate is the cost fall each time cumulative output doubles. US corn ethanol cut costs 13% per doubling of output (1983 to 2005) and Brazilian cane ethanol 19 to 20% (1975 to 2005). Site-built process plants learn more slowly than mass-produced panels and cells [@ECF-01; @ECF-02; @ECF-05; @ECF-10; @ECF-11] {general|Medium}. For 2030 to 2050 we judge a 5 to 20% learning rate on capital cost defensible; solar-style curves for fermented protein are not {fx:estimate}.
+**The best comparisons are fermentation industries, not solar.** US corn ethanol cut costs 13% per doubling of output, and Brazilian cane ethanol 19% to 20%. Plants built on site learn more slowly than mass-produced panels [@ECF-01; @ECF-02; @ECF-05; @ECF-10; @ECF-11] {general|Medium}. We judge a 5% to 20% learning rate on capital cost defensible for 2030 to 2050 {fx:estimate}.
 
 {{kn:kn-learning-rate-fermentation}}
 
-**Learning cannot push fungal protein below its input floor.** Even with free capital, fungal biomass protein made in Vietnam on cassava glucose costs at least about USD 1,870 per t of protein at 2026 input prices. Glucose and urea set that floor (our calculation) {VN-direct|Low} {fx:estimate}. The cost stack behind it ([[ch09-economics]]) was built for a feed-grade product; we have not costed the extra steps a food-grade product needs (open question OQ-473). The floor, about USD 1.87 per kg of protein, sits inside the border price of commodity plant proteins (USD 1.7 to 2.4 per kg of protein). So even with free capital, fungal protein would only reach the price of the cheapest food proteins it would compete with (our comparison).
+**Learning cannot push fungal protein below its input floor.** Even with free capital, fungal protein made in Vietnam on cassava glucose costs at least about USD 1.87 per kg of protein at 2026 prices. Glucose and urea set that floor (our calculation) {VN-direct|Low} {fx:estimate}. That sits inside the price band of the cheapest plant proteins it would compete with. A food-grade product would cost more.
 
-Our planning range for that product (fast-case low end to central-case high end) is about USD 3,000 to 12,500 per t of protein in 2030, 2,400 to 10,800 in 2040 and 2,200 to 9,500 in 2050 {fx:estimate}. Against food proteins at 2025 border prices (our comparison):
-- **The low end** is below egg and dairy proteins (USD 7 to 11 per kg of protein) from 2030, at USD 3.0 per kg. It reaches the top of the commodity plant-protein band (USD 2.4 per kg) around 2040 and sits inside it (USD 2.2 per kg) by 2050 {VN-direct|Low} {fx:estimate}.
-- **The high end** is above egg and dairy proteins in 2030 (USD 12.5 per kg) and falls into their range by 2040 (USD 10.8) and 2050 (USD 9.5) {VN-direct|Low} {fx:estimate}.
-- **So fungal protein made in Vietnam competes first as a functional ingredient priced against egg and dairy proteins,** such as a binder, not as a bulk protein. Chapter 16 reaches the same view from the buyers' side ([[ch16-business-buyers]]).
+**Our planning range for fungal protein made in Vietnam** is about USD 3.0 to 12.5 per kg of protein in 2030, 2.4 to 10.8 in 2040 and 2.2 to 9.5 in 2050 {fx:estimate}. Against 2025 border prices (our comparison) {VN-direct|Low} {fx:estimate}:
+- **The low end** is below egg and dairy proteins from 2030, and reaches the plant-protein band around 2040 to 2050.
+- **The high end** falls into the egg and dairy range by 2040.
+- **So fungal protein competes first as a functional ingredient,** such as a binder priced against egg and dairy, not as bulk protein ([[ch16-business-buyers]]).
 
-**Cheap capital does as much as the learning expected by 2030.** Cutting the capital charge from 12% to 9% a year, with no learning at all, lowers the low-end cost to about USD 3,610 per t of protein. That is close to the central learning case in 2030 (USD 3,557, after two doublings of output) (our calculation) {VN-direct|Low} {fx:estimate}. So concessional (below-market) debt and loan guarantees are first-order levers ([[ch28-robust-moves]]).
+**Cheap capital does as much as the learning expected by 2030.** Cutting the cost of capital from 12% to 9% a year has about the same effect as two doublings of output (our calculation) {VN-direct|Low} {fx:estimate}. So cheap loans and loan guarantees are first-order levers ([[ch28-robust-moves]]).
 
-**Protein from power costs more in Vietnam than at the world's best sites.** Our indicative estimate for hydrogen-route protein made in Vietnam is USD 6.9 to 12.6 per kg in 2030, 4.7 to 8.6 in 2040 and 3.3 to 6.5 in 2050 (our calculation from [@FTG-01; @FTG-19]) {VN-direct|Low} {fx:estimate}. Against food proteins at 2025 border prices, the 2030 range spans egg and dairy proteins (USD 7 to 11 per kg of protein). By 2050 it falls below them but stays above commodity plant proteins (USD 1.7 to 2.4) (our comparison) {VN-direct|Low} {fx:estimate}.
-- Each USD 1 per kg of hydrogen adds about USD 690 per t of protein, at 0.69 t of hydrogen per t of protein in the global model [@FTG-01] (our calculation).
-- BloombergNEF's financing inputs for Vietnamese solar imply a cost of capital of about 9 to 11%, 2 to 4 points more than the 7% used in the global model [@FTG-19] {VN-direct|Low}. BloombergNEF is an energy research firm.
+**Protein from power costs more in Vietnam than at the world's best sites:** USD 6.9 to 12.6 per kg in 2030, falling to 3.3 to 6.5 in 2050 (our calculation from [@FTG-01; @FTG-19]) {VN-direct|Low} {fx:estimate}. By 2050 it falls below egg and dairy proteins, but stays above plant proteins. Every USD 1 per kg of hydrogen adds about USD 0.69 per kg of protein [@FTG-01]. Vietnam's cost of capital for solar is 2 to 4 points higher than the global model assumes [@FTG-19] {VN-direct|Low}.
 
 {{kn:kn-p2p-cost-vn-2050}}
 
 ## 21.3 Protein from power in Vietnam: an electricity business
 
-**It is an electricity business.** A plant built to 2030 designs uses about 69 MWh of electricity, 0.69 t of hydrogen and 2.95 t of CO2 per t of protein. Electrolysers, which split water into hydrogen, take over half the power [@FTG-01] {general|High} {fx:projection}. Scaled to Vietnam:
-- **Energy volume fits the plans.** One million tonnes of protein a year would need 64 to 83 TWh (4 to 6% of planned 2050 supply). That means 43 to 56 GW of solar or 14 to 22 GW of offshore wind, and 0.69 Mt of hydrogen (3.5 to 6.9% of the 2050 hydrogen target) (our calculation from [@FTG-01; @FTG-15; @FTG-16; @FTG-19]) {VN-direct|Low} {fx:estimate}.
-- **Energy carbon does not, yet.** At Vietnam's 2023 grid factor, electricity alone gives about 46 t CO2 per t of protein. At the grid intensity implied by the power plan, it falls to about 24 to 28 t in 2030 and 1.1 to 1.4 t in 2050, if the plan's power-sector cap is met (our calculation) {VN-direct|Low} {fx:estimate}. Dedicated renewable power is a precondition.
-- **CO2 is not the bottleneck; free, pure CO2 is scarce.** 100 kt of protein needs about 0.30 Mt of CO2 a year, more than Vietnam's three operating ethanol plants release (our estimate from [@FS-09]) {VN-direct|Low} {fx:estimate}. Steel-mill gas is larger but dilute, and already burned for power [@FTG-20] {VN-direct|Medium}.
-- **Failures come from capital intensity, not biology.** NovoNutrients closed and Arkeon became insolvent in 2025; survivors have state or strategic backing [@FTG-07; @FTG-10; @FTG-11] {general|Medium} {fx:trend}.
-- **Food-grade protein from power already exists.** Solar Foods' Solein was approved as a novel food in Singapore in 2022 [@RGN-04] {VN-adjacent|High}.
+**It is an electricity business.** Each tonne of protein needs about 69 MWh of electricity, 0.69 t of hydrogen and 2.95 t of CO2 [@FTG-01] {general|High} {fx:projection}. Scaled to Vietnam:
+- **The energy volume fits the plans.** One million tonnes of protein a year would need 4% to 6% of planned 2050 power supply (our calculation from [@FTG-01; @FTG-15; @FTG-16; @FTG-19]) {VN-direct|Low} {fx:estimate}.
+- **The carbon does not, yet.** On today's grid, electricity alone gives about 46 t of CO2 per t of protein. That falls to about 1 t by 2050 only if the power plan is met (our calculation) {VN-direct|Low} {fx:estimate}. Dedicated renewable power is a precondition.
+- **Pure, free CO2 is scarce.** 100,000 t of protein needs more CO2 than Vietnam's ethanol plants release [@FS-09; @FTG-20] {VN-direct|Low} {fx:estimate}.
+- **Failures come from capital cost, not biology.** Two firms closed in 2025; survivors have state or strategic backing [@FTG-07; @FTG-10; @FTG-11] {general|Medium} {fx:trend}.
+- **Food-grade protein from power already exists.** Singapore approved one in 2022 [@RGN-04] {VN-adjacent|High}.
 
 {{kn:kn-p2p-energy-per-mt}}
 
-> **Speculative.** For people, the nearest window is formulating imported, already-approved protein-from-air food ingredients from about 2028, if a new-food route exists {VN-direct|Low} {fx:estimate}. A by-product line could follow if a steel-gas ethanol or aviation-fuel project is built. Making bulk protein from power in Vietnam is further off. For feed, which is now context, our judgement is that it opens not before about 2040 to 2045, and only if five conditions align {VN-direct|Low} {fx:estimate}:
-> - delivered green hydrogen at or below about USD 1.5 to 2 per kg;
-> - firmed renewable power at or below about USD 30 to 45 per MWh;
-> - capital costs near the 2050 learning path, with financing at or below about 8%;
-> - a sustained fishmeal-protein price above about USD 3,000 per t, or a carbon price on competing protein;
-> - a feed-list entry for bacterial biomass.
->
-> We have not re-estimated the window for food. The first three conditions are about cost and would apply to food too. For food, the price test is the food-ingredient ladder in [[ch16-business-buyers]], and the rule is a new-food route rather than a feed-list entry (our judgement).
+> **Speculative.** For people, the nearest window is formulating imported, already-approved protein-from-air ingredients from about 2028, if a new-food route exists {VN-direct|Low} {fx:estimate}. Making bulk protein from power in Vietnam is further off. For feed, our judgement is not before about 2040 to 2045, and only if green hydrogen costs USD 2 per kg or less, firm renewable power USD 45 per MWh or less, and financing 8% or less {VN-direct|Low} {fx:estimate}. The same cost conditions would apply to food.
 
 ## 21.4 Biology, AI and the pull of Chinese scale
 
-- **AI speeds the research loop, not the factory.** An independent review (June 2026) found AI adoption in cultivated meat "far below the ceiling" and named open data as the binding constraint [@FTB-01] {general|High}. The nearest result for Vietnam is an AI-improved phytase (2025), a feed enzyme that Vietnam already makes; applying such tools here is a 2026 to 2030 opportunity [@FTB-06] {general|Medium} {fx:signal}.
-- **Compute is no longer Vietnam's constraint; wet-lab automation, data and people are.** The AI Law (in force 1 March 2026) enables a national AI computing centre. The national AI strategy (Decision 1671/QD-TTg, August 2026) targets 10,000 advanced AI experts by 2030 and names AI in breeding, livestock and aquaculture, but neither mentions fermentation or biofoundries [@FTB-13; @FTB-14; @FTB-48] {VN-direct|Medium} {fx:projection} (official target).
-- **Money has moved to precision fermentation.** Fermentation funding fell from USD 632 million (2024) to USD 357 million (2025), while precision fermentation's share rose from 33% to 66% (2023 to 2025) [@FTB-17] {general|Medium} {fx:trend}.
-- **First-generation patents lapse in the mid-2030s.** Core families behind heme analogues (molecules that give plant burgers a meat-like taste) and animal-free dairy were filed in 2013 to 2016. So the earliest expire around 2033 to 2036 [@FTB-21] {general|Low} {fx:estimate}. That lowers the entry cost for contract manufacturers.
-- **Distressed Western capacity is moving to Asia.** Meati's fermentation assets, which the buyer estimates cost Meati USD 15 to 20 million, sold for USD 75,000 in 2026 and are going to India [@FTB-38] {general|Medium} {fx:signal}. Cheap second-hand tanks are a real window for fermentation ventures in 2027 to 2030.
-- **China sets the price.** A plant that costs USD 100 million in the US costs about USD 15 million in China. Cabio has capacity to formulate about 170,000 t of finished products containing Nourish's fats [@HSC-13; @HSC-14] {VN-adjacent|Medium}. Any Vietnamese plant has to beat the landed price of a Chinese product.
-- **Cultivated meat's constraint is money and scale, not approval.** A 2021 forecaster panel gave a 54% chance that world output stays below 100,000 t a year through 2051 [@HSC-18] {general|Medium} {fx:projection}. Only 9 of 84 resolved cultured-meat timeline predictions, in a non-representative collection, were right [@HSC-19] {general|Medium}. Hybrids "may reach foodservice price points first within the decade", that is, by about 2030 to 2035 (our reading) [@FTB-44] {general|Medium} {fx:projection}.
+- **AI speeds research, not the factory.** A 2026 review named open data as the binding constraint [@FTB-01] {general|High}. Applying AI tools to enzymes and strains is a 2026 to 2030 opportunity for Vietnam [@FTB-06] {general|Medium} {fx:signal}.
+- **Vietnam's constraint is lab automation, data and people, not computing.** The national AI strategy targets 10,000 AI experts by 2030, but does not mention fermentation [@FTB-13; @FTB-14; @FTB-48] {VN-direct|Medium} {fx:projection} (official target).
+- **Money has moved to precision fermentation.** Its share of fermentation funding rose from 33% to 66% from 2023 to 2025 [@FTB-17] {general|Medium} {fx:trend}.
+- **Early patents lapse in the mid-2030s,** lowering costs for contract makers [@FTB-21] {general|Low} {fx:estimate}.
+- **Distressed Western equipment is moving to Asia.** One US firm's fermentation assets sold for a fraction of their cost in 2026 [@FTB-38] {general|Medium} {fx:signal}. Cheap second-hand tanks are a real window in 2027 to 2030.
+- **China sets the price.** A plant costs about a seventh as much to build there as in the US [@HSC-13; @HSC-14] {VN-adjacent|Medium}.
+- **Cultivated meat's constraint is money and scale.** Forecasters gave a 54% chance that world output stays below 100,000 t a year through 2051 [@HSC-18; @HSC-19] {general|Medium} {fx:projection}. Blends may reach foodservice prices first, by about 2030 to 2035 [@FTB-44] {general|Medium} {fx:projection}.
 
 ## 21.5 Carbon beyond cassava
 
-Sugar-route fermentation at the scale of chapter 22's alternative-protein scenario (S-ALT) would need 1.32 Mt of glucose in 2050, equal to about half of Vietnam's 2025 cassava roots ([[ch22-protein-balance-2050]]). Most of that sugar is for feed, which is now context. In 2050 S-ALT puts about 257 kt of microbial feed protein and 72 kt of fermented food protein on the sugar route. So the food part needs about 0.29 Mt of glucose, 22% of the total (our calculation) {VN-direct|Low} {fx:estimate}. The inputs are the model's 514.1 kt of feed protein, half of it from gas; 144.6 kt of food protein, half of it fermented on sugar; and 4.0 t of glucose per t of protein. Food at the scale the demand evidence supports would need less still ([[ch18-demand-sizing]]; our inference). The alternatives to cassava:
-- **Rice straw is plentiful.** Vietnam makes about 52 Mt a year (our 2025 estimate; a 2021 study on 2019 data gives about 54 Mt). Covering the full 2050 S-ALT need would take 3.0 to 4.3 Mt, 6 to 10% of projected 2050 straw (41.6 to 48.8 Mt) (our calculation from [@NGF-01; @NGF-04; @NGF-05]) {VN-direct|Low} {fx:estimate}. The 1 million ha low-emission rice programme is set to collect 100% of its straw by 2030 [@NTS-32] {VN-direct|Medium} {fx:projection} (official target).
-- **The technology, not the biomass, is the constraint.** India's Panipat straw plant made next to nothing in its first year [@NGF-10; @NGF-11] {VN-adjacent|Medium}. Covering the whole 2050 need with cellulosic sugar would take USD 2.8 to 4.5 billion of first-of-a-kind plants (our calculation) {VN-direct|Low} {fx:estimate}. Residues are a sugar route first, not yet a protein route. In 2026 a laboratory group at Pennsylvania State University, funded by Open Philanthropy (now Coefficient Giving), turned lime-treated plant residues into glucose (up to 22% of the residue) and an edible alga. But the alga held only 5 to 10% protein, and the authors say protein production remains limited [@CGG-08] {general|Medium}. The same group's 2023 assessment found plant residues could feed people carbohydrate, but that protein would have to come from elsewhere, such as single-cell protein [@CGG-07] {general|Medium}.
-- **One-carbon routes are limited by cost, not volume.** Methanol-fed yeast protein was at pilot scale in China in 2023, a route for the 2040s here [@NGF-13] {VN-adjacent|Medium} {fx:signal}. E-methanol (methanol made from hydrogen and CO2) in Vietnam would reach cassava-glucose parity only with hydrogen at USD 1.5 to 2 per kg (our calculation from [@NGF-12]) {VN-direct|Low} {fx:estimate}.
-- **Residue carbon is not low-carbon by default.** One Indian bagasse-sugar study gives 1.57 kg CO2e per kg of sugar, above Thai cassava starch [@NGF-08; @ECF-25] {general|Low}. A cassava-based microbial protein made in Vietnam emits 3.8 to 11.7 t CO2e per t of protein on the 2023 grid (our calculation) {VN-direct|Low} {fx:estimate}.
-- **That is far below meat, but no lower than plant protein** (our comparison; 1 t CO2e per t equals 1 kg CO2e per kg). Global means are 76.1 kg CO2e per kg of protein for pig meat and 57.0 for poultry, which the package treats as an upper bound for Vietnam [@FUF-07] {general|Medium}. For textured soy the package uses 8.36 kg CO2e per kg of protein (a pulses proxy; range 1.31 to 19.75) [@FUF-07; @FUF-08] {general|Low}. So fungal protein would cut emissions where it replaces meat, not where it replaces plant protein ([[app-d8-demand-model]]).
-
-Three cases for 2050, from no cellulosic breakthrough (residues cover 7 to 10% of the need) to cellulosic and one-carbon routes at scale (more than twice the need), are in [[app-f6-aquafeed-feedstock-futures]].
+At the scale of Part IV's alternative-protein scenario, sugar-based fermentation would need 1.32 Mt of glucose in 2050, about half of Vietnam's cassava roots ([[ch22-protein-balance-2050]]). Most of that is for feed. The food part needs only about a fifth (our calculation) {VN-direct|Low} {fx:estimate}. Food at the scale demand supports would need less still ([[ch18-demand-sizing]]). The alternatives to cassava:
+- **Rice straw is plentiful.** Vietnam makes about 52 Mt a year. The full 2050 need would take 6% to 10% of it (our calculation from [@NGF-01; @NGF-04; @NGF-05]) {VN-direct|Low} {fx:estimate}. A national rice programme aims to collect all its straw by 2030 [@NTS-32] {VN-direct|Medium} {fx:projection} (official target).
+- **The technology, not the straw, is the constraint.** India's straw plant made almost nothing in its first year [@NGF-10; @NGF-11] {VN-adjacent|Medium}. Residues are a sugar route first, not yet a protein route [@CGG-08; @CGG-07] {general|Medium}.
+- **Routes using methanol or CO2 are limited by cost.** They would match cassava glucose only with hydrogen at USD 1.5 to 2 per kg [@NGF-13; @NGF-12] {VN-direct|Low} {fx:estimate}.
+- **Residue carbon is not low-carbon by default.** A cassava-based microbial protein made in Vietnam emits 3.8 to 11.7 kg of CO2e per kg of protein on today's grid (our calculation) [@NGF-08; @ECF-25] {VN-direct|Low} {fx:estimate}.
+- **That is far below meat, but no lower than plant protein.** Pork averages about 76 and poultry 57 kg of CO2e per kg of protein worldwide; textured soy about 8 [@FUF-07; @FUF-08] {general|Medium}. So fungal protein cuts emissions where it replaces meat, not plant protein.
 
 ## 21.6 The research pipeline: growing fast worldwide, thin in Vietnam
 
-Frontier fields are growing far faster than science as a whole: precision-fermentation papers rose from 9 (2020) to 188 (2025) [@HSC-01] {general|Medium} {fx:trend}. Vietnam's alternative-protein research intensity is about a quarter to a third of Thailand's, depending on the database [@HSC-01; @BIB-01] {VN-direct|Medium}. Indexed Vietnamese work, 2015 to 2025, includes no papers on mycoprotein (protein from fungi) or molecular farming, 1 on cultivated meat and 2 on precision fermentation [@HSC-01] {VN-direct|Medium}. The 2025 to 2026 wave is mostly domestic food-technology work, a shift away from aquafeed trials with Australian partners (our reading of OpenAlex records [@HSC-01]) {fx:signal}. Vietnam's protein-design base (46 papers, 2019 to 2026, our count in `ai_biodesign_evidence.csv`) is small but growing fast [@FTB-10] {VN-direct|Medium} {fx:trend}.
+Frontier research is growing fast: precision-fermentation papers rose from 9 in 2020 to 188 in 2025 [@HSC-01] {general|Medium} {fx:trend}. Vietnam's output is about a quarter to a third of Thailand's, with almost nothing on fungal protein, cultivated meat or precision fermentation [@HSC-01; @BIB-01] {VN-direct|Medium}. Its protein-design research is small but growing fast [@FTB-10] {VN-direct|Medium} {fx:trend}.
 
 {{kn:kn-vn-gas-protein-papers}}
 
 ## 21.7 When the windows open
 
-Food windows come first in the table. The last three rows are feed windows, kept as context.
-
-| Window (our estimate) | Route | Condition that opens it |
+| Window (our estimate) | Route | What opens it |
 |---|---|---|
-| Now to 2030 | AI-assisted design of enzymes and yeast media (shown so far for a feed enzyme) | Shared wet-lab and data access |
-| From about 2028 | Formulating imported, approved novel food ingredients | A new-food route in the Food Safety Law |
-| 2030 to 2035 | Contract precision fermentation of high-value proteins; food mycoprotein | New-food route; open pilot plant; mid-2030s patent expiries |
-| 2035 or later | Contained molecular farming | Biosafety route under Decree 43/2026 |
-| 2040s | Cellulosic and one-carbon sugar at modest scale | A working straw-sugar plant in Asia; hydrogen at USD 1.5 to 2 per kg |
-| 2040s | Cultivated seafood cells from Vietnamese species | Cell lines and media costs from abroad |
-| Not before 2050 | Cell-free synthesis for food | A cost fall of several orders of magnitude {fx:wildcard} |
-| 2027 to 2030 (feed, context only) | Single-cell feed protein on sugar and side streams, possibly in second-hand tanks | A feed-list entry and one anchor buyer |
-| Now to 2035 (feed, context only) | Algal and oilseed omega-3 in aquafeed (as buyer) | Fish-oil price and aquafeed specifications |
-| 2040 to 2045 at the earliest (feed, context only) | Bulk feed protein from renewable power | The five conditions in section 21.3 |
+| Now to 2030 | AI-assisted design of enzymes and yeast media | Shared lab and data access |
+| From about 2028 | Formulating imported, approved new ingredients | A new-food route in the Food Safety Law |
+| 2030 to 2035 | Contract precision fermentation of high-value proteins; food mycoprotein | New-food route; open pilot plant; patent expiries |
+| 2035 or later | Crops grown to make animal proteins, in containment | A biosafety route |
+| 2040s | Sugar from straw or methanol at modest scale | A working straw-sugar plant in Asia; cheap hydrogen |
+| 2040s | Cultivated seafood from Vietnamese species | Cell lines and cheap media from abroad |
+| Not before 2050 | Cell-free protein for food | A huge cost fall {fx:wildcard} |
+| 2027 to 2030 (feed, context only) | Microbial feed protein in second-hand tanks | A feed-list entry and an anchor buyer |
+| 2040 to 2045 at the earliest (feed, context only) | Bulk feed protein from renewable power | The conditions in section 21.3 |
 
-All rows: {VN-direct|Low} {fx:estimate}, from [@FTG-01; @FTB-21; @FTB-38; @NGF-11; @AQF-22; @FTB-18; @AQF-23; @NGF-12; @HSC-14; @REG-12; @FTB-31] and the stream analyses in [[app-f3-frontier-tech]].
+All rows: {VN-direct|Low} {fx:estimate}, from [@FTG-01; @FTB-21; @FTB-38; @NGF-11; @AQF-22; @FTB-18; @AQF-23; @NGF-12; @HSC-14; @REG-12; @FTB-31].
 
 {{chart:chart-frontier-windows}}
 
 ## 21.8 What this means
 
-- **Investors:** the cost curves are engineering estimates, not observed trends. Price fermentation protein against the food ingredient it would replace: commodity plant proteins at about USD 1.7 to 2.4 per kg of protein, or egg and dairy proteins at USD 7 to 11 ([[ch16-business-buyers]]). Treat cheaper capital as worth as much as the learning expected by 2030.
-- **Policy makers:** the frontier needs four inputs Vietnam can provide without picking winners: residue carbon, clean power at named sites, concessional capital and a legal route for each product.
-- **Startups:** the near windows are AI-assisted enzyme design, tolling on existing tanks (renting time on someone else's fermenter), and formulating imported, approved novel ingredients once a new-food route exists. Protein from power is a 2040s option.
-- **Manufacturers:** food makers can first use frontier ingredients as imports already approved abroad, from about 2028 if the Food Safety Law creates a new-food route. Contract precision fermentation and food mycoprotein made in Vietnam are a 2030 to 2035 prospect.
-- **Research bodies:** Vietnam is nearly absent from gas fermentation, mycoprotein and molecular farming. Process know-how on local feedstocks, strains and species is the realistic route to 2040.
+- **Investors:** cost curves are engineering estimates. Price fermentation protein against the food ingredient it would replace, and treat cheaper capital as worth as much as the learning expected by 2030.
+- **Policy makers:** the frontier needs four inputs Vietnam can provide without picking winners: residue carbon, clean power at named sites, cheap capital and a legal route for each product.
+- **Startups:** the near windows are AI-assisted enzyme design, renting time on existing tanks, and formulating imported, approved ingredients once a new-food route exists. Protein from power is a 2040s option.
+- **Manufacturers:** you can first use frontier ingredients as imports approved abroad, from about 2028 if the law allows. Contract precision fermentation and fungal protein made in Vietnam are a 2030 to 2035 prospect.
+- **Researchers:** Vietnam is nearly absent from gas fermentation and fungal protein. Process know-how on local raw materials, strains and species is the realistic route to 2040.
 
-**Related:** [[app-f3-frontier-tech]] (full evidence and calculations), [[ch10-technology-fit]] (the technology screen), [[ch16-business-buyers]] (the food-ingredient price ladder), [[ch23-scenarios-2050]].
+**Related:** [[ch10-technology-fit]], [[ch16-business-buyers]], [[ch23-scenarios-2050]].

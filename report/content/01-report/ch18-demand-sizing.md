@@ -5,9 +5,9 @@ short_title: "Demand sizing"
 section: report
 part: "III. Demand: who would buy it"
 order: 18
-summary: "Instead of a market-size number, we size seven routes by which domestic or novel protein could reach buyers, in three labelled scenarios. On a benchmark path they create demand for about 19,000 t of protein a year by 2035, mostly by replacing imported ingredients, but displace only about 2,350 t of meat protein (0.2%)."
+summary: "We size seven routes, not a market. On a benchmark path they create demand for about 19,000 t of protein a year by 2035, mostly replacing imported soy and gluten, but displace only about 0.2% of meat protein, far below Part IV's alternative-protein scenario."
 audiences: [investors, policy, startups, research, international, manufacturers]
-reading_time_min: 20
+reading_time_min: 12
 key_numbers: [kn-demand-bench-2035, kn-animals-spared-2035, kn-co2e-avoided-2035, kn-salt-translation, kn-chay-days-share, kn-forecast-overshoot]
 related_data: [demand_assumptions.csv, demand_outputs.csv, demand_sensitivity.csv, demand_funder_units.csv, impact_per_tonne.csv, funder_route_guide.csv, funder_fit.csv, canteen_dish_summary.csv, school_menu_weeks.csv, diet_quality_vietnam.csv, trade_seasonal_summary.csv, hybrid_savings.csv, forecast_track_record.csv, balance_outputs.csv]
 related_pages: [app-d8-demand-model, ch22-protein-balance-2050, ch23-scenarios-2050, ch12-chay-baseline, ch15-channels, ch25-demand-to-frontier, app-d7-global-benchmarks, app-f4-balance-model, app-m4-actor-check-waves]
@@ -17,58 +17,55 @@ charts: [chart-funder-units, chart-demand-routes, chart-displacement-vs-salt, ch
 # 18. How much demand? Seven routes to 2050
 
 **In brief.**
-- We give no market-size number. Published figures for Vietnam have no traceable method, and global forecasts made in 2019 to 2021 overshot by one to two orders of magnitude.
-- Instead, a small reproducible model (`tools/demand_model.py`) sizes seven routes by which domestic or novel protein could reach Vietnamese plates and foreign buyers. It uses three labelled scenarios and counts the protein a route supplies separately from the meat protein it displaces.
-- On a benchmark path, the routes create demand for about 19,000 t of protein a year by 2035. Most of it replaces imported textured soy and gluten in foods Vietnam already makes. About 11,000 to 17,000 t would be made in Vietnam. For soy extrusion (the process that makes textured soy), that supports about one line of 1 t per hour by 2035.
-- The routes displace only about 2,350 t of meat protein in 2035, 0.2% of the total. That spares about 2.4 to 2.7 million animals a year, 93 to 94% of them chickens and ducks, and avoids about 0.14 Mt (million tonnes) of carbon dioxide equivalent (CO2e). Import substitution, the largest route, spares none.
-- A stretch path displaces 0.7% by 2035 and 1.5% by 2050. The balance model's exploratory alternative-protein scenario in Part IV (S-ALT) assumes 3% and 10%. Existing *chay* days (days of vegetarian eating) already avoid about 25,000 t of meat protein a year.
-- The demand that exists is for ingredients. The food side of S-ALT is exploratory.
+- We give no market-size number. Published figures for Vietnam have no traceable method, and global forecasts made in 2019 to 2021 overshot badly.
+- Instead, a small reproducible model sizes seven routes by which new protein could reach buyers, in three labelled scenarios. It counts the protein a route supplies separately from the meat it displaces.
+- On a benchmark path, the routes create demand for about 19,000 t of protein a year by 2035. Most of it replaces imported soy and gluten in foods Vietnam already makes. About 11,000 to 17,000 t would be made in Vietnam.
+- The routes displace only about 0.2% of meat protein in 2035, sparing about 2.5 million animals a year, almost all chickens and ducks.
+- Even a stretch path displaces only 0.7% by 2035, far below the 3% that Part IV's alternative-protein scenario assumes. Existing *chay* (vegetarian) days already avoid about 2.5%.
 
-> **Scenarios, not forecasts.** Every value after 2025 in this chapter is our estimate from stated assumptions {VN-direct|Low} {fx:estimate} {dx:inferred}. Most assumptions have no Vietnamese measurement behind them: how many people keep chay days, how much meat goes into processed products, how much protein a canteen meal holds. Each is listed with its basis in `demand_assumptions.csv` and [[app-d8-demand-model]]. The model uses the population and meat demand of the balance model's trend scenario in Part IV (S-BASE), so its numbers sit on the same basis as [[ch22-protein-balance-2050]].
+> **Scenarios, not forecasts.** Every value after 2025 in this chapter is our estimate from stated assumptions {VN-direct|Low} {fx:estimate} {dx:inferred}. Most assumptions have no Vietnamese measurement behind them. The model uses the same population and meat demand as the trend scenario in [[ch22-protein-balance-2050]].
 
 ---
 
 ## 18.1 Why we give no market-size number
 
-- **Vietnamese market sizes are untraceable.** Figures such as "VND 1,000 billion", "USD 500 million" and "USD 103 to 112 million" for plant-based or vegetarian food carry no visible method. They conflict with shelf and launch evidence, and the supply study and every Part III stream rejected them [@ECO-17; @ECO-18; @CHY-13; @CHY-18] {VN-direct|Low} {dx:stated}.
-- **Global forecasts overshot.** In 2019 Kearney forecast that novel plant-based meat would be 10% of a USD 1,200 billion meat market in 2025. Global retail sales were about USD 6.6 billion in 2025, about 0.55% (our comparison). Barclays' USD 140 billion by 2029 would need about 115% growth a year from 2025. BCG and Blue Horizon's plant-based price parity "by 2023" was not met at category level [@GLB-45; @GLB-44; @GLB-42; @GLB-05] {general|Medium} {dx:inferred}. {{kn:kn-forecast-overshoot}}
+- **Vietnamese market sizes are untraceable.** Figures such as "USD 500 million" for plant-based food show no method, and conflict with shelf and launch evidence [@ECO-17; @ECO-18; @CHY-13; @CHY-18] {VN-direct|Low} {dx:stated}.
+- **Global forecasts overshot.** In 2019 one consultancy forecast that plant-based meat would be 10% of the global meat market in 2025. Actual retail sales were about 0.55% (our comparison). Another forecast of USD 140 billion by 2029 would need 115% growth a year from 2025 [@GLB-45; @GLB-44; @GLB-42; @GLB-05] {general|Medium} {dx:inferred}. {{kn:kn-forecast-overshoot}}
 
 {{chart:chart-forecast-vs-actual}}
 
-Forecasts made at the 2019 to 2021 peak projected launch-year growth forward, and several came from parties with an interest ([[app-d7-global-benchmarks]]). So we size routes, not markets, and we label every result.
+Forecasts made at the 2019 to 2021 peak projected launch-year growth forward, and several came from interested parties. So we size routes, not markets, and label every result.
 
 ## 18.2 Seven routes and three scenarios
 
-We size seven routes, R1 to R7, by which protein could reach buyers. For each route the model counts two things separately: the protein it delivers (supplies to buyers) and the meat protein it displaces. Here kt means thousand tonnes.
+We size seven routes, R1 to R7. For each, the model counts the protein it delivers and the meat protein it displaces. Here kt means thousand tonnes.
 
-| Route | What it is | How it is sized | Displaces meat? |
-|---|---|---|---|
-| R1 Ingredient import substitution | Domestic or novel protein replacing imported textured soy, soy concentrate and gluten bought by chay makers, meat processors and other food makers | Food share of 2025 plant-protein imports (about 40,000 t of product, about 26,000 t of protein; monthly trade points nearer 35,000 t), growing 4 to 8% a year; domestic share by scenario | No: replaces imports |
-| R2 Chay occasions | Upgraded protein on existing chay days, plus any added chay days | 30% of people keeping 2.5 chay days a month (assumption); 20 g of protein per upgraded chay day; added days only in two scenarios | Only added days, net of 30% compensation (extra meat eaten on other days) |
-| R3 Hybrid processed meat | Plant or fungal protein replacing part of the meat in *giò* and *chả* (pork rolls and loaves), sausages and fillings | 5% of meat eaten as processed products (assumption); adoption and replacement share by scenario; plant protein of any origin | Yes, 0.9 per unit replaced |
-| R4 Institutional meals | Plant or novel protein in factory canteens and school lunches | 1.0 billion canteen and 0.8 billion school meals a year; 20 g of protein per protein dish (assumptions); adoption by scenario | Yes, 0.8 per unit (meal level); school protein sold into the plant slot would replace tofu, not meat |
-| R5 Household modern analogues | Analogues (products that imitate meat) bought by urban households | Regular (monthly) buyers as a share of urban residents; 3 kg a year each at 15% protein | Little: 0.2 per unit |
-| R6 High-protein plant milks | Protein isolates added to plant milks | Plant milk volume (about 300 million litres in 2025) times high-protein share times 30 g per litre | No (dairy, if anything) |
-| R7 Exports | Products or ingredients made in Vietnam and sold abroad | Tonnes by scenario at 25% protein (no revealed base for the ingredient part) | No (not in Vietnam) |
+| Route | What it is | Displaces meat? |
+|---|---|---|
+| R1 Replacing imported ingredients | Domestic or new protein replacing imported textured soy, soy concentrate and gluten | No: replaces imports |
+| R2 Chay occasions | Upgraded protein on existing chay days, plus any added chay days | Only added days, net of extra meat eaten on other days |
+| R3 Blended processed meat | Plant or fungal protein replacing part of the meat in sausages, pork rolls and fillings | Yes |
+| R4 Canteens and schools | Plant or new protein in factory canteens and school lunches | Yes, at the meal; in schools' plant slot it replaces tofu |
+| R5 Household meat copies | Plant-based meat bought by urban households | Little |
+| R6 High-protein plant milks | Protein added to plant milks | No |
+| R7 Exports | Products or ingredients made in Vietnam and sold abroad | No (not in Vietnam) |
 
-The displacement factor in the last column is the meat protein removed for each unit of protein a route delivers. The factors follow the evidence of [[ch13-consumers]] and [[app-d7-global-benchmarks]]. Blends and canteen swaps remove meat by construction, while consumer analogues have not measurably displaced meat anywhere [@GLB-19; @GLB-17; @GLB-35; @GLB-39] {general|Medium} {dx:inferred}. A 2026 analysis of 1.2 million restaurant transactions in the US, Canada and Australia found "essentially no evidence" that modern alternative proteins reduced the meat people bought [@AFN-07] {general|Medium} {dx:revealed}.
+Blends and canteen swaps remove meat by design. Consumer meat copies have not measurably displaced meat anywhere ([[ch13-consumers]]) [@GLB-19; @GLB-17; @GLB-35; @GLB-39; @AFN-07] {general|Medium} {dx:inferred}.
 
 **The three scenarios** {fx:estimate}:
-- **D-DRIFT, incumbent drift.** Novel protein stays a small import-substitution business. There are no hybrids to speak of, and analogues remain a niche.
-- **D-BENCH, benchmark path.** Each route grows to levels anchored on comparable cases observed elsewhere, scaled to Vietnam's channels and price gap. For example: 25% of the ingredient pool supplied domestically by 2035, 6% of processed meat sold as hybrids, 3% of canteen protein, and 2% of urban residents buying analogues monthly (against a Western ceiling of about 9 to 10% of households).
-- **D-STRETCH, stretch.** Conditions not yet observed anywhere. They include per-serving price parity in local formats, and hybrids in 15% of processed meat by 2035 and 35% by 2050. That hybrid share needs openly declared blends to be accepted, since extension already pays. They also include canteen protein defaults, and chay keepers adding half a day a month by 2035 and one day by 2050.
+- **D-DRIFT:** new protein stays a small import-replacement business, with few blends.
+- **D-BENCH, the benchmark path:** each route grows to levels seen in comparable cases elsewhere, scaled to Vietnam. For example, 25% of the imported ingredient pool made at home by 2035, and blends in 6% of processed meat.
+- **D-STRETCH:** conditions not yet seen anywhere, such as per-serving price parity, blends in 15% of processed meat by 2035, and chay keepers adding half a day a month.
 
-We compare the three paths with S-ALT, the exploratory alternative-protein scenario of the balance model in Part IV ([[ch22-protein-balance-2050]]). S-ALT is a what-if for supply planning, not a demand path (18.6).
+We compare these with S-ALT, the exploratory alternative-protein scenario in Part IV ([[ch22-protein-balance-2050]]). S-ALT is a what-if for supply planning, not a demand path.
 
-**What the route bases rest on.** We tested the bases of four routes against revealed evidence ([[app-m4-actor-check-waves]]). No model value changed; the readings below qualify them.
+**What the route assumptions rest on.** We tested four routes against real-world evidence. No model value changed; the readings below qualify them.
 
-- **R2 chay days: national diet data set a ceiling.** No probability survey asks about *chay* (vegetarian eating on lunar days), but the national Diet Quality Questionnaire asks about diet. In late 2021, 7.9% (5.3 to 11.0%) of adults ate no meat, poultry or fish on the previous day. That caps chay-day person-days. The central assumption (2.5% of person-days) uses about a third of the ceiling; the top of the range in [[ch12-chay-baseline]] would need nearly every flesh-free day to be a chay day [@APR-36; @BRD-01] {VN-direct|Medium} {dx:revealed}.
-- **R3 hybrids: cost does not limit this route.** Extending pork products with soy saves 14 to 16% of raw-material cost at 20% replacement, at every annual hog price from 2019 to 2024 (our calculation) [@DIE-25; @TIC-12; @BUY-05] {VN-direct|Low} {dx:inferred}.
-- **R3 hybrids: identity and trust limit it.** Product identity, sensory ceilings and trust limit adoption. The sensory ceiling is about 10 to 20% of the meat in fine emulsions (smooth, finely ground meat) and 30% in coarse mince. No Vietnamese brand sells a declared meat and plant-protein blend, buyers read hidden extension (*độn*, filler) as cheating, and 2026 is a processed-meat trust crisis [@HXE-04; @HXE-09; @TRU-22; @TRU-07] {VN-direct|Medium} {dx:revealed}. So the benchmark's 6% of processed meat by 2035 fits extension inside industrial *xúc xích* (sausages) and fillings under ingredient names. The stretch path's 15% needs a positive frame for declared blends, not price parity. National diet surveillance cannot test the 5% processed share: its processed-meat item, eaten by 18.1% of adults on a given day, leaves out *giò* and *chả* [@APR-36; @BRD-01] {VN-direct|Medium} {dx:revealed}.
-- **R4 canteens: menus lead with meat and fish.** Five caterers' published menus lead with pork (33% of protein dishes), fish (26%) and chicken (13%). Tofu appears in 9% (plant-only 3%), and none names textured soy [@UPL-27; @UPL-28; @UPL-29; @UPL-30; @UPL-32] {VN-direct|Medium} {dx:stated}. School caterers' portions support the 20 g of protein per dish [@PMR-24; @PMR-26] {VN-direct|Medium} {dx:revealed}.
-- **R4 schools: the plant slot goes to tofu.** For schools, the old basis (Decision 1340's animal-protein target, which ended in 2020) no longer holds [@CHN-33] {VN-direct|High} {dx:revealed}. Ministry of Health Decision 3958/QĐ-BYT (December 2025) sets no animal share and asks for plant protein (legumes, tofu) at least twice a week. Audited menus meet that rule in only 9 of 48 school-weeks and fill the plant slot with tofu beside meat (our audit of [@PMR-10] to [@PMR-31], `school_menu_weeks.csv`) [@AIB-39; @PMR-10; @PMR-26] {VN-direct|High} {dx:revealed}. A plant ingredient sold into that slot replaces tofu. Only a labelled blend in minced-meat and fish-cake dishes, served on 28.5% of audited days, removes meat.
-- **R4 scale: beyond any programme we found.** D-BENCH's canteen share implies 36.6 million canteen meal-equivalents (20 g protein dishes switched) a year by 2035. That is about 37 times the meals Sinergia Animal's partner institutions expected to replace in three countries in 2023. It is also 16 times Humane World's 2025 commitments outside the US (2.3 million meals a year in seven countries) [@AFN-26; @AFN-23]. Only caterers' own commercial use could reach it ([[app-d7-global-benchmarks]]) {VN-direct|Low} {fx:estimate} {dx:inferred}.
-- **R7 exports: less protein than assumed.** The 25% protein share assumes that about 60% of exports are ingredients. Vietnam's textured-protein exports to the EU, the UK, Japan, Korea and Australia were 0 to 73 t each in 2024 to 2025. The Vietnam-made wrapped plant foods found abroad carry 3.6 to 6.2 g of protein per 100 g [@XBA-28; @XBA-26; @ORG-12] {VN-direct|Low} {dx:revealed}. At 5 to 12% protein, R7 would deliver 0.5 to 1.2 kt in 2035, not 2.5 kt (our calculation) {fx:estimate}. The export evidence is in [[ch17-export-demand]].
+- **Chay days have a ceiling.** In 2021, 7.9% of adults ate no meat, poultry or fish on a given day. The central assumption uses about a third of that ceiling [@APR-36; @BRD-01] {VN-direct|Medium} {dx:revealed}.
+- **Blends are not limited by cost.** Soy extension saves 14% to 16% of raw-material cost at every pork price since 2019 (our calculation) [@DIE-25; @TIC-12; @BUY-05] {VN-direct|Low} {dx:inferred}. Identity, texture and trust limit them. No Vietnamese brand sells a declared blend, and buyers read hidden filler as cheating [@HXE-04; @HXE-09; @TRU-22; @TRU-07] {VN-direct|Medium} {dx:revealed}. So the benchmark's 6% fits blends in factory sausages and fillings; the stretch path's 15% needs declared blends to be accepted.
+- **Canteens lead with meat and fish.** Tofu is in 9% of canteen protein dishes, and none names textured soy [@UPL-27; @UPL-28; @UPL-29; @UPL-30; @UPL-32; @PMR-24; @PMR-26] {VN-direct|Medium} {dx:stated}. In schools, plant-protein days go to tofu beside meat ([[ch15-channels]]) [@AIB-39; @PMR-10; @PMR-26; @CHN-33] {VN-direct|High} {dx:revealed}.
+- **The canteen scale is beyond any programme we found.** The benchmark implies 37 million canteen dishes switched a year by 2035, 16 to 37 times what the largest meal-change programmes deliver [@AFN-26; @AFN-23]. Only caterers' own commercial use could reach it {VN-direct|Low} {fx:estimate} {dx:inferred}.
+- **Exports carry less protein than assumed.** Vietnam's textured-protein exports are tiny, and its wrapped plant foods abroad are low in protein [@XBA-28; @XBA-26; @ORG-12] {VN-direct|Low} {dx:revealed}. So R7 would deliver 0.5 to 1.2 kt in 2035, not 2.5 kt (our calculation) {fx:estimate} ([[ch17-export-demand]]).
 
 ## 18.3 What the routes deliver: mostly replaced ingredient imports
 
@@ -77,35 +74,33 @@ We compare the three paths with S-ALT, the exploratory alternative-protein scena
 | D-DRIFT, delivered | 1.3 | 3.2 | 10.7 |
 | D-BENCH, delivered | 5.9 | 19.1 | 66.7 |
 | D-STRETCH, delivered | 14.1 | 45.6 | 171.5 |
-| of which R1 import substitution (D-BENCH) | 3.5 | 11.6 | 44.6 |
+| of which R1 import replacement (D-BENCH) | 3.5 | 11.6 | 44.6 |
 | of which R7 exports (D-BENCH) | 0.8 | 2.5 | 7.5 |
 | For comparison: Part IV S-ALT, food protein replacing meat | 11.8 | 39.3 | 144.6 |
 | For context only: Part IV S-ALT, microbial protein in feed | 55.8 | 160.2 | 514.1 |
 
-All rows are our estimates. They use the S-BASE population (United Nations World Population Prospects [@GT-12]) and the meat demand of Part IV, which follows the OECD-FAO outlook to 2035 [@QNT-01] {VN-direct|Low} {fx:estimate} {dx:inferred}.
+All rows are our estimates [@GT-12; @QNT-01] {VN-direct|Low} {fx:estimate} {dx:inferred}.
 
 {{chart:chart-demand-routes}}
 
 Three readings follow {VN-direct|Low} {fx:estimate} {dx:inferred}:
 
-1. **Ingredient import substitution is most of the demand.** In D-BENCH, R1 is about 60% of delivered protein in 2035 and two-thirds in 2050. The pool it draws on is revealed demand today: food-grade plant-protein ingredients now imported mostly from China ([[ch16-business-buyers]]). Monthly trade suggests the food part of that pool is nearer 35,000 t of product than 40,000 t. The reason is that much of the post-2023 jump in imports under harmonised system (HS) code 3504 is priced like feed protein and shows no *chay* season. At 35,000 t, R1 in 2035 is about 10,200 t of protein, not 11,600 t (our calculation) [@BRD-05; @BRD-06; @BUY-02] {VN-direct|Low} {dx:inferred}.
-2. **The food volumes are real but modest, and only part of them is textured soy.** At about USD 3 per kg of protein, D-BENCH is an ingredient business of roughly USD 57 million a year by 2035 and USD 200 million by 2050. The model converts all R1 to R4 ingredient output into textured-line equivalents: about 3.5 lines of 1 t per hour by 2035, and 12 by 2050. But most of the R1 pool is gluten and isolates (purified protein powders), which need wet-milling or isolate plants. For soy extrusion, 25% of a textured-type import pool of about 23,000 t in 2035 is about 5,700 t. That fills one 1 t per hour line or two 0.5 t per hour lines, not three to four (our calculation) [@BUY-02; @TIC-12]. This supports a few specialised ingredient plants, as in play T1 (domestic textured plant protein, [[ch25-demand-to-frontier]]), not a consumer-led boom.
-3. **Feed is context, not a target.** In the balance model's exploratory S-ALT scenario, microbial protein in feed is about four times its food volumes ([[ch22-protein-balance-2050]]). This study concentrates on protein for people, so this chapter does not size feed demand. Trade codes do not separate the two: Vietnam imports about 9,200 t of inactive yeast a year for food and feed together ([[ch17-export-demand]]).
+1. **Replacing imported ingredients is most of the demand,** about 60% of delivered protein in 2035. Its pool is real demand today: food-grade plant protein now imported mostly from China ([[ch16-business-buyers]]). If part of recent imports is feed, R1 in 2035 is about 10,200 t, not 11,600 t (our calculation) [@BRD-05; @BRD-06; @BUY-02] {VN-direct|Low} {dx:inferred}.
+2. **The volumes are real but modest.** The benchmark path is an ingredient business of roughly USD 57 million a year by 2035. Most of the pool is gluten and isolates, which need other kinds of plant. For textured soy, it supports about one 1 t-an-hour line by 2035, not three or four (our calculation) [@BUY-02; @TIC-12]. That means a few specialised ingredient plants (play T1, [[ch25-demand-to-frontier]]), not a consumer boom.
+3. **Feed is context.** In S-ALT, microbial protein in feed is about four times the food volume ([[ch22-protein-balance-2050]]). This chapter does not size it.
 
 ### How much of it is made in Vietnam
 
-The 19,000 t headline counts protein the routes deliver, not protein made in Vietnam. Only R1 applies an explicit domestic share (25% of the pool by 2035 on D-BENCH). R2 to R6 count all plant or novel protein used in those routes. Much of it would be imported soy or pea unless a domestic maker wins the business, because Chinese, ASEAN and Korean textured protein, isolates and gluten enter Vietnam duty-free [@FTR-32] {VN-direct|High} {dx:revealed}.
-
-Hybrids are the clearest case, because processors would extend with soy they already import. At R1's 25% domestic share, the domestic part of R3 in 2035 is about 0.20 of 0.79 kt. R7 counts protein exported, not eaten in Vietnam.
+The 19,000 t counts protein delivered, not protein made in Vietnam. Only R1 applies a domestic share. The other routes count protein of any origin, much of which would be imported soy or pea, which enters duty-free [@FTR-32] {VN-direct|High} {dx:revealed}.
 
 | D-BENCH, 2035, kt of protein | Model reading | Strict reading |
 |---|---|---|
-| R1 import substitution | 11.6 (pool of 40,000 t of product) | 10.2 (pool of 35,000 t) |
-| R2 to R6 (chay, hybrids, meals, analogues, plant milks) | 4.9 (protein of any origin) | 1.2 (25% domestic, as in R1) |
+| R1 import replacement | 11.6 | 10.2 (smaller food pool) |
+| R2 to R6 | 4.9 (any origin) | 1.2 (25% domestic, as in R1) |
 | Made in Vietnam for the home market | 16.55 | about 11.4 |
-| R7 exports (made in Vietnam, sold abroad) | 2.5 (25% protein) | 0.5 to 1.2 (5 to 12% protein) |
+| R7 exports | 2.5 | 0.5 to 1.2 |
 
-So the benchmark path creates demand for about 19,000 t of protein a year by 2035. About 11,000 to 17,000 t of it would be made in Vietnam for the home market (our calculation) {VN-direct|Low} {fx:estimate} {dx:inferred}. The model's outputs are unchanged; this is a reading of them, and [[app-d8-demand-model]] (D8.3) shows the arithmetic.
+So the benchmark path creates demand for about 19,000 t of protein a year by 2035, of which about 11,000 to 17,000 t would be made in Vietnam for the home market (our calculation) {VN-direct|Low} {fx:estimate} {dx:inferred}.
 
 ## 18.4 What the routes displace: far below S-ALT
 
@@ -121,44 +116,36 @@ All rows are our estimates {VN-direct|Low} {fx:estimate} {dx:inferred}. {{kn:kn-
 
 {{chart:chart-displacement-vs-salt}}
 
-Even in D-STRETCH the food routes reach about a quarter of S-ALT's 2035 assumption and about 15% of its 2050 assumption {fx:estimate}.
-
-In D-BENCH, the displacing routes in 2035 are added chay days (about 0.9 kt), hybrids (0.7 kt) and canteens and schools (0.6 kt); consumer analogues contribute about 0.1 kt. The institutional figure includes about 0.06 kt from schools. School protein sold into the plant slot would replace tofu, not meat. Counting it at zero lowers D-BENCH displacement in 2035 from 2.35 kt to about 2.29 kt, so "about 0.2%" stands (our calculation).
+Even the stretch path reaches only about a quarter of S-ALT's 2035 assumption {fx:estimate}. On the benchmark path, the routes that displace meat in 2035 are added chay days, blends, and canteens and schools. Consumer meat copies add almost nothing.
 
 ### The same routes in funder units
 
-Welfare, climate and market-shaping funders do not count tonnes of meat protein. So we converted the displaced protein into animals spared, net CO2e avoided and meal-equivalents [@FUF-03; @FUF-04; @FUF-05; @FUF-07] {VN-direct|Low} {fx:estimate} {dx:inferred}.
+Welfare and climate funders do not count tonnes of meat protein. So we converted the displaced protein into animals spared, emissions avoided and meals switched [@FUF-03; @FUF-04; @FUF-05; @FUF-07] {VN-direct|Low} {fx:estimate} {dx:inferred}.
 
-- **Animals spared** use carcass weight per animal for Vietnam from FAOSTAT, the statistics database of the Food and Agriculture Organization.
-- **Net CO2e avoided** uses life-cycle intensities for East and Southeast Asia, minus the footprint of the replacing protein.
-- **A meal-equivalent** is one 20 g protein dish supplied by plant or novel protein instead of meat.
-
-Method and factors are in [[app-d8-demand-model]] (D8.7).
-
-| Displacing routes R2 to R5 | 2030 | 2035 | 2050 |
+| Routes that displace meat | 2030 | 2035 | 2050 |
 |---|---|---|---|
 | D-BENCH, animals spared (million a year) | 0.34 to 0.39 | 2.4 to 2.7 | 6.0 to 6.8 |
-| D-BENCH, chickens and ducks as share of animals | 91 to 92% | 93 to 94% | 93 to 94% |
-| D-BENCH, net CO2e avoided (Mt a year) | 0.02 (0.01 to 0.05) | 0.14 (0.08 to 0.25) | 0.36 (0.20 to 0.65) |
-| D-BENCH, canteen and school meal-equivalents (million a year) | 11.0 and 0 | 36.6 and 4.0 | 98.4 and 16.0 |
+| D-BENCH, share that are chickens and ducks | 91% to 92% | 93% to 94% | 93% to 94% |
+| D-BENCH, emissions avoided (Mt CO2e a year) | 0.02 | 0.14 | 0.36 |
+| D-BENCH, canteen and school meals switched (million a year) | 11.0 and 0 | 36.6 and 4.0 | 98.4 and 16.0 |
 | D-STRETCH, animals spared (million a year) | 3.2 to 3.4 | 9.8 to 10.6 | 23.1 to 25.3 |
-| D-STRETCH, net CO2e avoided (Mt a year) | 0.19 (0.11 to 0.34) | 0.55 (0.33 to 0.99) | 1.35 (0.80 to 2.39) |
-| R1 import substitution: animals and CO2e | none | none | none |
-| R1 import substitution: imports replaced, D-BENCH (USD million a year, gross) | 4.8 to 7.0 | 16.1 to 23.3 | 61.8 to 89.3 |
+| D-STRETCH, emissions avoided (Mt CO2e a year) | 0.19 | 0.55 | 1.35 |
+| R1 import replacement: animals and emissions | none | none | none |
+| R1 import replacement: imports replaced (USD million a year) | 4.8 to 7.0 | 16.1 to 23.3 | 61.8 to 89.3 |
 
-All rows are our calculation from `demand_funder_units.csv` {VN-direct|Low} {fx:estimate} {dx:inferred}. Animal ranges run from the meat mix observed on caterers' menus (low) to the national consumption mix (high); CO2e ranges reflect emission factors.
+Our calculation {VN-direct|Low} {fx:estimate} {dx:inferred}.
 
 | Per tonne of protein delivered, 2035 | Meat protein displaced (t) | Animals spared | Net t CO2e avoided |
 |---|---|---|---|
-| R1 import substitution | 0 | 0 | about 0 |
-| R2 upgrades on existing chay days; R6 plant-milk protein | 0 | 0 | about minus 8 (adds emissions) |
-| R3 hybrids | 0.9 | about 540 (mostly birds, about 68 pigs) | about 57 |
-| R4 canteens, caterer to national meat mix | 0.8 | about 745 to 1,090 | about 45 to 51 |
+| R1 import replacement | 0 | 0 | about 0 |
+| R2 upgrades on existing chay days; R6 plant-milk protein | 0 | 0 | adds about 8 |
+| R3 blends | 0.9 | about 540 | about 57 |
+| R4 canteens | 0.8 | about 745 to 1,090 | about 45 to 51 |
 | R4, a chicken dish replaced | 0.8 | about 2,760 | about 19 |
 | R4, a pork dish replaced | 0.8 | about 81 | about 24 |
-| R5 household analogues | 0.2 | about 270 | about 5 |
+| R5 household meat copies | 0.2 | about 270 | about 5 |
 
-Source: `impact_per_tonne.csv` and the caterer-mix check in [[app-d8-demand-model]] {general|Low} {fx:estimate} {dx:inferred}.
+Our calculation {general|Low} {fx:estimate} {dx:inferred}.
 
 {{kn:kn-animals-spared-2035}}
 
@@ -168,53 +155,44 @@ Source: `impact_per_tonne.csv` and the caterer-mix check in [[app-d8-demand-mode
 
 Three things follow {VN-direct|Low} {fx:estimate} {dx:inferred}:
 
-- **Import substitution scores zero in funder units.** R1, 60% of delivered protein, replaces soy protein with soy protein: no animals, about no CO2e. Its value is an import bill of about USD 16 to 23 million a year replaced by 2035 (gross), processing capacity and jobs.
-- **Nearly all animals spared are chickens and ducks.** A bird carries about 2 kg of carcass and a pig about 66 kg, so even the pork-heavy hybrid route spares about seven birds for every pig. The benchmark path spares about 0.15% of the 1.7 billion birds Vietnam would eat in 2035. A Vietnamese canteen meal shifted spares about 0.015 to 0.020 animals, against about 0.13 in the estimate for Sinergia Animal's programme [@AFN-26] {general|Medium} {dx:revealed}. Only chicken dishes (0.055) come near it, and chicken leads just 13% of canteen protein dishes. Fish, which leads 26% of canteen dishes, and eggs are not counted.
-- **CO2e is small, and about half comes from beef and buffalo,** which are 8.5% of the meat eaten in 2035. Climate is a co-benefit of these routes, not their case.
+- **Import replacement scores zero in funder units.** It swaps soy protein for soy protein. Its value is about USD 16 to 23 million a year of imports replaced by 2035, plus jobs and processing capacity.
+- **Nearly all animals spared are chickens and ducks.** A bird carries about 2 kg of meat and a pig about 66 kg. A canteen meal switched in Vietnam spares far fewer animals than in programmes abroad, because pork and fish lead the menus [@AFN-26] {general|Medium} {dx:revealed}.
+- **Emissions savings are small**, and about half come from beef. Climate is a co-benefit, not the case.
 
-**What S-ALT 2030 would need, route by route** (our calculation) {VN-direct|Low} {fx:estimate} {dx:inferred}. To displace 11,800 t of meat protein in 2030, one route on its own would need:
+**What S-ALT's 2030 figure would need** (our calculation) {VN-direct|Low} {fx:estimate} {dx:inferred}. To displace 11,800 t of meat protein in 2030, one route alone would need:
 
-- **Hybrids alone:** 74% of all processed meat reformulated with 30% of its meat replaced.
-- **Institutional meals alone:** 39% of all protein in canteen and school protein dishes switched.
-- **Consumer analogues alone:** about 131 million regular buyers, more than Vietnam's population, at today's displacement evidence.
-- **Added chay days alone:** about 0.43 extra meat-free days per person per month across the whole population (about five a year), with 30% compensation.
+- **Blends:** 74% of all processed meat, with 30% of its meat replaced.
+- **Canteens and schools:** 39% of all their protein dishes switched.
+- **Household meat copies:** about 131 million regular buyers, more than Vietnam's population.
+- **Added chay days:** about five more meat-free days per person per year.
 
 {{kn:kn-salt-translation}}
 
-On paper, the cheapest route to S-ALT's food volumes is cultural, not technological: a small rise in chay occasions, which Vietnam already practises at scale. We have no evidence that chay days are rising ([[ch12-chay-baseline]]), and no evidence on compensation. So this is a hypothesis for funders and researchers, not a finding. It is also the route that funders find hardest to pay for in Vietnam (18.6).
+On paper, the cheapest route to S-ALT's food volumes is cultural: a small rise in chay days, which Vietnam already practises. But we have no evidence that chay days are rising ([[ch12-chay-baseline]]). So this is a hypothesis to test, not a finding. It is also the route funders find hardest to pay for in Vietnam (section 18.6).
 
 ## 18.5 Sensitivity: no single assumption closes the gap
 
-No single assumption moves the 2035 result by more than 0.6 kt, so no plausible single correction brings D-BENCH near S-ALT's 39 kt. We varied one assumption at a time between its low and high value and recorded total meat protein displaced in D-BENCH in 2035 (2.35 kt at central values) {VN-direct|Low} {fx:estimate}. The largest effects come from:
+We varied each assumption between its low and high value. None moves the benchmark's 2035 displacement (2.35 kt) by more than 0.6 kt, so no plausible correction brings it near S-ALT's 39 kt {VN-direct|Low} {fx:estimate}. The largest effects come from the share of people keeping chay days, the share of meat eaten processed, and how much extra meat chay keepers eat on other days.
 
-- the share of people keeping chay days (20 to 50%: 2.0 to 3.0 kt);
-- the share of meat eaten as processed products (3 to 8%: 2.1 to 2.8 kt);
-- compensation on added chay days (0 to 60%: 2.7 to 2.0 kt).
-
-The full table is in [[app-d8-demand-model]].
-
-Three corrections outside the model move delivered protein more than displaced protein (our calculation) {VN-direct|Low} {fx:estimate}. A food pool of 35,000 t lowers R1 in 2035 by about 1.4 kt. An export protein share of 5 to 12% lowers R7 by 1.3 to 2.0 kt, taking the D-BENCH total to 17.1 to 17.8 kt. Counting school plant-slot protein as non-displacing lowers displacement by about 0.06 kt. None changes a conclusion of this chapter.
+Three corrections outside the model, for a smaller food pool, lower export protein and the school tofu slot, each change delivered protein a little and no conclusion (our calculation) {VN-direct|Low} {fx:estimate}.
 
 ## 18.6 What this means for Part IV, and for the frontier
 
-- **Label S-ALT's food side exploratory.** The benchmark evidence and our routes both say that 1% of meat protein displaced by 2030 is beyond anything observed. That evidence is a ceiling of 3 to 4% of pre-packaged meat volume in the most favourable rich markets in 2024, little displacement, and a price gap ten times larger in Vietnam. S-ALT remains useful as a what-if for supply planning; it should not be read as a demand path. Unless S-ALT is defined to include growth of traditional chay eating, its food shares are a stretch above every route we can document {general|Medium} {fx:estimate} {dx:inferred}. The feed side of S-ALT is context only, outside this study's concentration on protein for people.
-- **Count three things separately.** Delivered protein (import substitution, protein upgrades, exports) is what an ingredient maker sells. Displaced meat protein is what the supply-security case needs. Animals spared and CO2e avoided are what welfare and climate funders count. On the benchmark path in 2035, delivered protein is about eight times displaced protein. The displacing routes spare about 2.4 to 2.7 million animals a year, 93 to 94% of them chickens and ducks, and avoid about 0.14 Mt CO2e (0.08 to 0.25). Import substitution, 60% of delivered protein, spares none and avoids about none {VN-direct|Low} {fx:estimate} {dx:inferred}.
-- **The routes that displace meat run through businesses and institutions.** They are hybrids made by processors, canteen menus set by caterers and, if it happens, more chay days. In schools, only a labelled blend in minced-meat dishes removes meat; the plant slot belongs to tofu. These are the routes to design for if displacement is the goal.
+- **Read S-ALT's food side as exploratory.** Displacing 1% of meat protein by 2030 is beyond anything observed. Even in the best rich markets, plant-based meat reached only 3% to 4% of packaged meat, and Vietnam's price gap is ten times larger. S-ALT stays useful as a what-if for supply planning, not a demand path {general|Medium} {fx:estimate} {dx:inferred}.
+- **Count three things separately.** Delivered protein is what an ingredient maker sells. Displaced meat is what the security case needs. Animals spared and emissions avoided are what welfare and climate funders count. On the benchmark path in 2035, delivered protein is about eight times displaced protein {VN-direct|Low} {fx:estimate} {dx:inferred}.
+- **The routes that displace meat run through businesses and institutions:** blends made by processors, canteen menus set by caterers and, if it happens, more chay days.
 
 **For each reader.**
-- **Investors:** size an ingredient business on the import-substitution pool, not on consumer forecasts. That pool is about 23,000 to 26,000 t of protein a year today, from 35,000 to 40,000 t of product. For soy extrusion, the benchmark path supports about one 1 t per hour line (or two 0.5 t per hour lines) by 2035. The rest of the pool is gluten and isolates, which need other plants. Import substitution will not pass a climate or welfare screen. Pitch it on the import bill (about USD 16 to 23 million a year replaced by 2035, gross), jobs and processing capacity. Per tonne of protein, a hybrid extender avoids about 57 t CO2e and a canteen ingredient about 45 to 51 t; climate or welfare money fits those, not import substitution.
-- **Startups:** the volumes that exist are business-to-business. Each 1 t per hour line needs about 7,000 t a year of offtake (agreed sales to buyers), more than half of Vietnam's 2025 imports of textured-type protein.
-- **Policy makers:** do not set national targets from consultancy forecasts. If meat displacement is a goal, institutional menus and processed-meat reformulation are the levers. Both need rules: labelling of blends, and a protein-quality basis for public meals. Count school sales into the plant slot as tofu replaced, not meat.
-- **Research bodies:** the three numbers that most change this chapter are unmeasured. First, the share of people keeping chay days is capped by national diet data at 7.9% flesh-free person-days; a lunar-date tabulation of the existing survey interviews is the cheapest test. Second, the share of meat eaten processed is not captured, because the national diet item omits *giò* and *chả*. Third, the species mix and protein of canteen dishes decide animals per meal: published menus support about 20 g per dish, but species vary by caterer.
+- **Investors:** size an ingredient business on the import pool, about 23,000 to 26,000 t of protein a year today, not on consumer forecasts. For textured soy, the benchmark path supports about one line by 2035; the rest of the pool is gluten and isolates. Pitch import replacement on the import bill and jobs, not climate or welfare.
+- **Startups:** the volumes that exist are business-to-business. Each 1 t-an-hour line needs about 7,000 t a year of agreed sales, more than half of today's textured-protein imports.
+- **Policy makers:** do not set national targets from consultancy forecasts. If less meat is a goal, the levers are canteen menus and processed-meat recipes, with rules for labelling blends and a protein-quality basis for public meals.
+- **Researchers:** three unmeasured numbers matter most: how many people keep chay days, how much meat is eaten processed, and the species and protein in canteen dishes.
 - **International organisations and funders:** match the route to your unit and your rules.
-  - *Welfare funders:* canteens spare the most animals per tonne of protein. That is about 745 to 1,090 at the observed and national meat mixes, about 2,760 if chicken dishes are replaced and about 81 if pork dishes are (our calculation from FAOSTAT carcass weights and caterers' menus, [[app-d8-demand-model]]) [@FUF-03; @UPL-27; @UPL-28; @UPL-29; @UPL-30; @UPL-32]. Added chay days spare the most in total but are unmeasured.
-  - *Who pays:* the funders we found that pay for menu or chay-day work either do not cover Vietnam (ReRoot Asia, Lever, Sinergia Animal, Good Food Fund) or exclude diet change. ACE Movement Grants exclude it from September 2026. Nova Vista also excludes it: its USD 10 million request funds procurement, advance market commitments and retailer protein ratios, and it wants more policy staff, especially in Japan and Korea. Humane World included Viet Nam in its 2025 chef and nutritionist training [@AFN-05; @AFN-29; @AFN-39; @AFN-26; @AFN-27; @FUF-01; @AFN-23] {VN-direct|Medium} {dx:stated}.
-  - *Market-shaping funders:* procurement of a canteen protein ingredient, processors' blend commitments, and naming rules and rules on genetically modified organisms, not chay days.
+  - *Welfare funders:* canteens spare the most animals per tonne, especially where chicken dishes are replaced [@FUF-03; @UPL-27; @UPL-28; @UPL-29; @UPL-30; @UPL-32].
+  - *Who pays:* the funders we found that pay for menu or chay-day work either do not cover Vietnam or exclude diet change [@AFN-05; @AFN-29; @AFN-39; @AFN-26; @AFN-27; @FUF-01; @AFN-23] {VN-direct|Medium} {dx:stated}. Only 4 of the original 19 demand moves have a funder that fits and accepts Vietnam ([[ch25-demand-to-frontier]]).
+  - *Market-shaping funders:* public buying of a canteen ingredient, processors' blend commitments, and naming and GMO rules.
   - *Climate funders:* totals are small; treat climate as a co-benefit.
-  - *Development finance:* import substitution for its import bill and industrial value, not for displacement.
-  - Only 4 of the original 19 demand moves in [[ch25-demand-to-frontier]] have a funder whose scope fits and that accepts Vietnam.
-- **Manufacturers:** hybrids and chay upgrades are small in tonnes, but they are where your existing brands and lines meet the demand that exists. For hybrids, cost is not the constraint, because soy extension already pays at every hog price. A new extender has to win on sensory tolerance and on the label.
+  - *Development finance:* import replacement, for its import bill and industrial value.
+- **Manufacturers:** blends and chay upgrades are small in tonnes, but they are where your brands meet the demand that exists. A new extender must win on texture and label, because soy already wins on cost.
 
-> **Correction.** In v0.6 this section said Humane World is the one implementer with Vietnam staff and gave the animals-per-tonne figures without a basis; the sources show only that Humane World included Viet Nam in its 2025 training, and the figures are our calculation from FAOSTAT carcass weights and caterers' menus (D8.7).
-
-**Related:** [[app-d8-demand-model]], [[ch22-protein-balance-2050]], [[ch25-demand-to-frontier]], [[ch17-export-demand]].
+**Related:** [[ch22-protein-balance-2050]], [[ch25-demand-to-frontier]], [[ch17-export-demand]].

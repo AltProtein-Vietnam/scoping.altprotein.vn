@@ -12,7 +12,7 @@ import { EmDashHead, EmDashBodyStart, EmDashBodyEnd } from 'emdash/ui';
 import { createPublicPageContext } from 'emdash/page';
 import NavTree from '../components/NavTree.astro';
 import { t, type Lang } from '../lib/i18n';
-import { PART_LIST, ROLE, SITE, href, localize, partPath } from '../lib/site';
+import { IS_DRAFT, PART_LIST, ROLE, SITE, href, localize, partPath } from '../lib/site';
 
 interface Props {
   title: string;
@@ -137,7 +137,7 @@ const back = encodeURIComponent(Astro.url.pathname + Astro.url.search);
         </div>
       </div>
     )}
-    {banner && (
+    {banner && IS_DRAFT && (
       <div class="draft-banner" role="note">
         <strong>{draftNotice}</strong> {s.draftNotice}
       </div>
@@ -149,7 +149,7 @@ const back = encodeURIComponent(Astro.url.pathname + Astro.url.search);
           <span class="mh-title">
             <span>{s.studyTitle}</span>
             <small>
-              {s.studySub} · {s.draft(SITE.version)}
+              {s.studySub} · {IS_DRAFT ? s.draft(SITE.version) : s.version(SITE.version)}
             </small>
           </span>
         </a>
@@ -368,7 +368,8 @@ const back = encodeURIComponent(Astro.url.pathname + Astro.url.search);
       </div>
       <div class="wrap foot-base">
         <span class="foot-draft">
-          {SITE.publisher} · <strong>{draftNotice}</strong>
+          {SITE.publisher} ·{' '}
+          {IS_DRAFT ? <strong>{draftNotice}</strong> : s.version(SITE.version)}
         </span>
         <span>{s.notAdvice}</span>
       </div>

@@ -4,7 +4,7 @@ title: "M5. Changelog and corrections"
 short_title: "M5. Changelog"
 section: appendix
 order: 5
-summary: "Every version of this draft report and what it changed, including the removal of insect protein in v0.9, the refocus on protein for people and the food-security research of v0.8, the citation check of v0.7 and where each page moved in the v0.6 restructure. It lists every correction to earlier drafts, with what it was, what the report now uses, the source and where it appears."
+summary: "Every version of this report and what it changed, including the removal of insect protein in v0.9, the refocus on protein for people and the food-security research of v0.8, the citation check of v0.7 and where each page moved in the v0.6 restructure. It lists every correction to earlier drafts, with what it was, what the report now uses, the source and where it appears."
 audiences: [investors, policy, research, international, startups, manufacturers]
 reading_time_min: 49
 key_numbers: []
@@ -15,7 +15,7 @@ charts: []
 
 # M5. Changelog and corrections
 
-This report is a draft. Version 1.0 will be the public launch; every version before it is a draft for review, numbered 0.x. This appendix is the record of what changed between drafts, so the chapters themselves can read cleanly. Readers who used an earlier draft should update to the values below.
+Version 1.0 is the first public version; every version before it was a draft for review, numbered 0.x. This appendix is the record of what changed between versions, so the chapters themselves can read cleanly. Readers who used an earlier draft should update to the values below.
 
 ## M5.1 Versions
 
@@ -30,7 +30,8 @@ This report is a draft. Version 1.0 will be the public launch; every version bef
 | 0.7 | September 2026 | A citation check of every source the report cites, with corrections across the report, a repaired source register and 70 new open questions (M5.13) | |
 | 0.8 | October 2026 | Protein for people: the scope narrowed to protein for human consumption, with feed only as context; retired feed plays, moves and policy options; a research round testing food-security hypotheses (90 sources); every page rewritten in clear language (M5.14) | |
 | 0.9 | October 2026 | Insect protein removed from the study; a record of regional alternative-protein deals in East and Southeast Asia (wave 12, 50 sources) (M5.15) | |
-| 0.10 | October 2026 | A screen of 170 published solutions for Vietnam, including GFI's Solutions Database (wave 13, 185 sources); three unranked candidates; corrections to rules, costs and moves (M5.16) | This draft |
+| 0.10 | October 2026 | A screen of 170 published solutions for Vietnam, including GFI's Solutions Database (wave 13, 185 sources); three unranked candidates; corrections to rules, costs and moves (M5.16) | |
+| 1.0 | November 2026 | First public version. Every public page edited for readability: shorter paragraphs and sentences, about 40% less text, and no references to material the public cannot open. Draft labels removed. No finding changed | |
 
 Files, zips and project notes made before v0.6 use the earlier labels.
 

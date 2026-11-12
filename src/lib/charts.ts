@@ -29,14 +29,32 @@ const READER_NOTES: Record<string, string | null> = {
     'Shown as a province-by-stream matrix. Tay Ninh (cassava starch) and the Mekong Delta (aquaculture by-products) are highlighted.',
   'chart-timeline': null,
   'chart-route-to-market':
-    'Green: self-declaration or listed feed. Amber: self-declaration with legal risk, or aquafeed trial ambiguity. Red: GMO closed-production, cultivated or new microbial biomass.',
+    'Green: self-declaration. Amber: self-declaration with legal risk. Red: GMO closed production, cultivated food or new microbial biomass.',
   'chart-plays-scoring':
-    'Scores are judgements, not ratings. The feed plays retired in version 0.8 (T2, T3 and T6) are not shown. The candidate plays added in version 0.10 (T11 and T12) are listed in section 26.8 but not ranked.',
+    'Scores are judgements, not ratings. Candidate plays T11 and T12 are listed in section 26.8 but not ranked.',
   'chart-sbm-scenarios-2050':
-    'The vision band shown in earlier versions is dropped: soybean-meal need is no longer a vision goal.',
-  'chart-sbm-tornado': 'Bars run from the low-case to the high-case value.',
+    'Soybean meal need is shown as context; it is not a goal of the vision.',
+  'chart-sbm-tornado': 'Bars run from the low-case to the high-case value. Source: our balance model.',
   'chart-play-robustness': null,
+  'chart-fishmeal-price': 'Feed is context only in this study.',
+  'chart-price-to-beat':
+    'Feed prices, shown as context. The study compares new protein with food prices (chapter 9, section 9.3).',
+  'chart-robust-moves': 'Our judgement of where each move pays off.',
+  'chart-demand-routes': 'Our demand model; scenarios, not forecasts.',
+  'chart-displacement-vs-salt':
+    'Uneven year spacing. Values come from our demand model; the S-ALT values come from Part IV.',
+  'chart-demand-sensitivity':
+    'One assumption changed at a time. Values come from our demand model; the share of people keeping chay days is assumed.',
+  'chart-actor-coverage': 'Our coding of the actor questions against Part III.',
 };
+
+/** Subtitles that referred to draft versions, rewritten for readers. */
+const READER_SUBTITLES: Record<string, string> = {
+  'chart-sources-by-type': '2,669 sources by type and research round',
+  'chart-actor-coverage': '118 demand questions from 80 named actors, by group and how far Part III answered them',
+};
+export const readerSubtitle = (c: ChartOutput) =>
+  c.id in READER_SUBTITLES ? READER_SUBTITLES[c.id] : c.subtitle;
 export const readerNote = (c: ChartOutput) => (c.id in READER_NOTES ? READER_NOTES[c.id] : c.notes);
 
 const PLAYS_FALLBACK: ChartOutput = {
@@ -76,7 +94,7 @@ export function renderChartFigure(
   const srcLabel =
     c.source_ids.length > 1 ? s.sources : c.source_ids.length ? s.source : s.evidence;
   return `<figure class="chart chart-${e(c.type)} wide" id="${e(id)}" aria-labelledby="${e(id)}-cap">
-<div class="chart-head"><p class="chart-title" id="${e(id)}-cap" lang="en">${e(c.title)}</p>${c.subtitle ? `<p class="chart-sub" lang="en">${e(c.subtitle)}</p>` : ''}</div>
+<div class="chart-head"><p class="chart-title" id="${e(id)}-cap" lang="en">${e(c.title)}</p>${readerSubtitle(c) ? `<p class="chart-sub" lang="en">${e(readerSubtitle(c)!)}</p>` : ''}</div>
 ${body}
 <figcaption class="chart-foot">${note ? `<p class="chart-notes" lang="en">${e(note)}</p>` : ''}<p class="chart-src"><span class="chart-src-label">${e(srcLabel)}</span>${c.source_ids.length ? ` ${cite(c.source_ids)}` : ''}${c.evidence && c.confidence ? ` ${evidenceBadge(c.evidence, c.confidence, lang)}` : ''}</p>
 ${c.table ? `<details class="chart-data"><summary><span class="show">${e(s.showData)}</span><span class="hide">${e(s.hideData)}</span></summary><div class="table-wrap" tabindex="0" role="region" aria-label="${e(c.title)}">${c.table}</div></details>` : ''}
