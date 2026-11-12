@@ -56,7 +56,7 @@ test('every public page loads with working anchors; restricted pages need sign-i
     const response = await page.goto(pathOf(entry.id));
     if (restricted(entry.id)) {
       expect(response?.status(), entry.id).toBe(403);
-      await expect(page.locator('h1')).toContainText('This page is for reviewers');
+      await expect(page.locator('h1')).toContainText('This page is not published');
       continue;
     }
     expect(response?.status(), entry.id).toBe(200);
@@ -81,7 +81,7 @@ test('editors can read every page, including the appendices', async ({ page }) =
   }
 });
 
-test('routes, redirects, the Vietnamese interface and the draft notice', async ({ request }) => {
+test('routes, redirects, the Vietnamese interface and the version label', async ({ request }) => {
   const sitemap = await request.get('/sitemap.xml');
   expect(sitemap.status()).toBe(200);
   const xml = await sitemap.text();
@@ -103,7 +103,7 @@ test('routes, redirects, the Vietnamese interface and the draft notice', async (
   expect(movedChapter.headers()['location']).toBe('/report/ch26-plays');
   const movedAppendix = await request.get('/vi/appendices/app-t-sources', { maxRedirects: 0 });
   expect(movedAppendix.headers()['location']).toBe('/vi/appendices/app-r4-sources');
-  // The Vietnamese summary and prologue are held back until the v1.0 translation pass.
+  // The Vietnamese summary and prologue are held back until a translation pass.
   const summaryVi = await request.get('/tom-tat', { maxRedirects: 0 });
   expect(summaryVi.status()).toBe(302);
   expect(summaryVi.headers()['location']).toBe('/summary');
@@ -114,12 +114,14 @@ test('routes, redirects, the Vietnamese interface and the draft notice', async (
   expect(vi.status()).toBe(200);
   const html = await vi.text();
   expect(html).toContain('<html lang="vi"');
-  expect(html).toContain(site.draft_notice.vi);
+  expect(html).toContain(`Phiên bản ${site.version}`);
   expect(html).toContain('href="/vi/report/ch27-policy-options"');
   const home = await (await request.get('/')).text();
-  expect(home).toContain('This report is a draft and subject to change.');
-  // The manifest's draft notice appears in the banner and the footer.
-  expect(home.split(site.draft_notice.en).length - 1).toBeGreaterThanOrEqual(2);
+  // From version 1.0 there is no draft banner; the version shows in the header and the footer.
+  expect(site.status).toBe('published');
+  expect(home).not.toContain('class="draft-banner"');
+  expect(home).not.toContain('Draft for review');
+  expect(home.split(`Version ${site.version}`).length - 1).toBeGreaterThanOrEqual(2);
   expect(home).not.toContain('Suggested citation');
   for (const path of [
     '/report',
@@ -188,7 +190,7 @@ test('an editor can switch to the public view and back', async ({ page }) => {
   await page.goto('/appendices/app-s4-feedstocks');
   await expect(page.locator('.editor-bar')).toContainText('Editor view');
   await page.getByRole('link', { name: 'See the public view' }).click();
-  await expect(page.locator('h1')).toContainText('This page is for reviewers');
+  await expect(page.locator('h1')).toContainText('This page is not published');
   await expect(page.locator('.editor-bar')).toContainText('Public view');
   await page.getByRole('link', { name: 'Back to the editor view' }).click();
   await expect(page.locator('h1')).toContainText('Feedstock data sheets');
