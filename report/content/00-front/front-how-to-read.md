@@ -4,141 +4,129 @@ title: "How to read this report"
 short_title: "How to read"
 section: front
 order: 8
-summary: "What the report covers (protein for people, with feed only as context), how it is organised, which pages to read for which purpose, what the tags, codes and scenario names mean, and the conventions for numbers, names and corrections."
+summary: "What the report covers, how it is organised, what the evidence tags and codes mean, and the conventions for numbers and names."
 audiences: [investors, policy, startups, manufacturers, research, international]
 reading_time_min: 9
 key_numbers: []
-related_pages: [front-two-minute, front-prologue, front-faq, app-m1-method, app-m2-futures-method, app-m3-demand-method, app-m4-actor-check-waves, app-m5-changelog, app-r3-glossary, app-r4-sources]
+related_pages: [front-two-minute, front-prologue, front-faq, app-r3-glossary, app-r4-sources]
 charts: []
 ---
 
 # How to read this report
 
-> **Draft for review.** Version 0.8. Not for citation. Changes between drafts are listed in [[app-m5-changelog]].
-
 ## What it covers: protein for people
 
 New to alternative protein? Start with the prologue ([[front-prologue]]).
 
-The report is about protein for people: what Vietnam could make at home for people to eat, from what, at what cost, under which rules, and who would buy it, now and to 2050. In short: protein for people first; feed only as context.
+The report asks what Vietnam could make at home for people to eat, from what, at what cost, under which rules, and who would buy it, now and to 2050.
 
-- **Supply.** Raw materials, processes, factories, rules, capital, science and skills: what Vietnam could make, and at what cost.
-- **Demand.** What households, kitchens, food makers and foreign buyers eat, pay and buy, used as a design input for what to make. Demand is sized only as labelled scenarios. The report gives no market-size forecast and is not a marketing plan.
+- **Supply.** Raw materials, factories, rules, capital, science and skills.
+- **Demand.** What households, kitchens, food makers and foreign buyers eat and buy. Demand is sized only as labelled scenarios, never as a market forecast.
 - **Futures.** The outlook to 2035, and scenarios, a protein balance model and a labelled vision for 2050.
-- **What to do.** Product targets, plays, policy options and moves that pay off in any 2050, checked against the questions of 80 named funders, investors, food makers and public bodies.
-- **Technologies.** Plant-based protein; fermentation (biomass, and precision fermentation, where microbes are engineered to make one specific protein); microalgae and duckweed; and cultivated meat and seafood.
-- **Feed is context only.** Feed is the hidden import behind the meat, eggs, milk and farmed fish that people eat, so it is part of the food-security picture. The report no longer treats feed ingredients (fishmeal replacements, or microbial or duckweed feed) as something to make. Earlier drafts assessed them; that record stays in [[app-s6-feed-market]], [[app-f6-aquafeed-feedstock-futures]] and [[app-m5-changelog]].
-- **Motivation.** The report leads with the security of the protein people eat, industrial value and trade. It states environmental and animal-welfare benefits as motivations for some actors, not as the main case.
+- **What to do.** Product targets, plays, policy options and moves that pay off in any 2050, checked against 80 named actors.
+- **Technologies.** Plant-based protein, fermentation, microalgae and duckweed, and cultivated meat and seafood.
+- **Feed is context only.** It is the hidden import behind meat, eggs, milk and farmed fish. The report does not treat feed ingredients as something to make.
+- **Motivation.** The report leads with food security, industrial value and trade. Environment and animal welfare are motivations for some actors, not the main case.
 
 ## How it is organised
 
 | Layer | What it is | Who it is for |
 |---|---|---|
 | [[front-two-minute]] | The report on one screen | Everyone |
-| Executive summary and [[front-at-a-glance]] | The findings and recommended steps | Everyone |
-| Prologue and [[front-faq]] | Background for newcomers and answers to common questions | Readers new to the field |
-| Six audience briefs | What matters for one type of reader, with links into the report | Investors, policy makers, startups, manufacturers, research bodies, international organisations |
-| Main report: 30 chapters in five parts | The argument, from context to what to do | Readers who want the reasoning |
-| Appendices, grouped by theme | The detailed evidence behind each part | Analysts, due diligence, researchers |
-| Data files (`data/`) and tools (`tools/`) | 194 tables behind the chapters, and the reproducible balance and demand models | Anyone who wants to reuse or check the numbers |
+| [[front-exec-summary]] and [[front-at-a-glance]] | The findings and recommended steps | Everyone |
+| [[front-prologue]] and [[front-faq]] | Background and common questions | Readers new to the field |
+| Six briefs | What matters for one type of reader | Investors, policy makers, startups, manufacturers, researchers, international organisations |
+| 30 chapters in five parts | The argument, from context to what to do | Readers who want the reasoning |
+| [[app-r3-glossary]] and [[app-r4-sources]] | Terms in English and Vietnamese, and every source | Anyone checking a term or a number |
 
-| Part | Chapters | Evidence appendices |
-|---|---|---|
-| I. Context | 1 to 3: why Vietnam, the alternative-protein economy today, Vietnam in the region | S1 directory, S2 retail audit, S3 regional comparators |
-| II. Supply | 4 to 10: raw materials, industrial base, knowledge and talent, rules, capital, economics, technology by technology | S4 to S13 |
-| III. Demand | 11 to 18: diet and prices, chay, consumers, frontier demand, channels, business buyers, export, demand sizing | D1 to D8 |
-| IV. Futures | 19 to 24: outlook to 2035, drivers, frontier technology, the protein people will eat and the imports behind it, four 2050 worlds, the 2050 vision | F1 to F6 |
-| V. What to do | 25 to 30: product targets, plays, policy options, moves that pay off in any 2050, the actor check, what nobody has measured | R1 open questions, M4 actor check |
-| Method and record | How the report was built, and the changelog | M1 to M5 |
-| Registers | Open questions, disagreements, glossary, sources | R1 to R4 |
-
-Appendix codes show their theme: M for method, S for context and supply, D for demand, F for futures and R for registers.
+| Part | Chapters |
+|---|---|
+| I. Context | 1 to 3: why Vietnam, the alternative-protein economy today, Vietnam in the region |
+| II. Supply | 4 to 10: raw materials, industry, skills, rules, capital, economics, technology fit |
+| III. Demand | 11 to 18: diet and prices, chay, consumers, new-protein demand, channels, business buyers, export, demand sizing |
+| IV. Futures | 19 to 24: outlook to 2035, drivers, frontier technology, protein balance, four 2050 worlds, the 2050 vision |
+| V. What to do | 25 to 30: product targets, plays, policy options, moves for any 2050, the actor check, what nobody has measured |
 
 ## Codes and scenario names
 
-Several chapters use short codes. This table decodes them; the glossary has more ([[app-r3-glossary]]).
+Several chapters use short codes. The glossary has more ([[app-r3-glossary]]).
 
 | Code | Meaning | Where |
 |---|---|---|
-| T1, T4, T5, T7 to T10 | The seven plays: T1 domestic textured plant protein; T4 cassava starch to fermentation sugar hub (a cluster of plants on one site); T5 shared pilot and tolling fermentation (tolling means renting time on someone else's fermenter); T7 high-value, low-dose precision-fermentation ingredients; T8 cultivated seafood research; T9 koji and fungal foods on food-grade side streams; T10 mung bean and rice protein for plant drinks. T2, T3 and T6 were feed plays, retired because feed is now context only; the other plays keep their numbers | [[ch26-plays]] |
-| T11, T12, P7 | Candidates from the version 0.10 solutions screen, listed but not ranked: T11 hybrid fish cakes and fish balls; T12 domestic food-grade soybean and mung bean; P7 a characterised set of Vietnamese food strains | [[ch26-plays]], [[app-s14-solutions-screen]] |
-| GFI-001 to GFI-112 | Entries of the Good Food Institute's solutions database, as screened for Vietnam | [[app-s14-solutions-screen]] |
-| P1, P4 to P6 | The four public goods: P1 proportionate new-food procedure; P4 protein-quality and function laboratory; P5 by-product atlas; P6 open cost model and price series for food protein ingredients. P2 and P3 were feed public goods, retired | [[ch26-plays]] |
-| PO-001 to PO-034 | Policy options (19 are ranked; five feed options are no longer ranked; PO-034, added in v0.10, is not yet ranked; the rest were superseded or merged) | [[ch27-policy-options]] |
-| TPP-01 to TPP-12 | Target product profiles: what a product has to be for the demand that exists (TPP-11, a feed profile, is retired; TPP-12 is a candidate profile for T11) | [[ch25-demand-to-frontier]] |
-| DMV-01 to DMV-21 | Demand moves: cheap demand-side tests and rules, each with who would pay (DMV-12, a feed carbon-footprint benchmark, is retired) | [[ch25-demand-to-frontier]] |
-| RM-01 to RM-21 | Moves that pay off in any 2050: steps to take now, tested against the four 2050 worlds (16 are active; five feed moves were retired) | [[ch28-robust-moves]] |
-| R1 to R7 (routes) | Demand routes (not Appendices R1 to R4): R1 ingredient import substitution, R2 chay occasions, R3 hybrid processed meat, R4 canteens and school meals, R5 household analogues, R6 high-protein plant milks, R7 exports | [[ch18-demand-sizing]] |
-| D-DRIFT, D-BENCH, D-STRETCH | Demand scenarios: drift, benchmark and stretch paths | [[ch18-demand-sizing]] |
-| S-BASE, S-HIGH, S-EFF, S-ALT | Protein balance scenarios to 2050: trend, official growth path, feed efficiency, and alternative protein (1% of meat demand replaced in 2030, 5% in 2040, 10% in 2050, plus microbial feed protein) | [[ch22-protein-balance-2050]] |
-| Worlds A to D | The four 2050 scenarios, built on two questions (stress on imported protein, and whether Asia's fermentation market stays open): A Regional workshop, B Comfortable price-taker, C Security build-out, D Squeezed importer | [[ch23-scenarios-2050]] |
+| T1, T4, T5, T7 to T10 | The seven plays: T1 domestic textured plant protein; T4 a hub turning cassava starch into fermentation sugar; T5 shared pilot and tolling fermentation (renting time on someone else's fermenter); T7 high-value precision-fermentation ingredients; T8 cultivated seafood research; T9 koji and fungal foods; T10 mung bean and rice protein for plant drinks. The missing numbers were feed plays, now dropped | [[ch26-plays]] |
+| T11, T12, P7 | Candidates listed but not ranked: T11 hybrid fish cakes and fish balls; T12 domestic food-grade soybean and mung bean; P7 a set of characterised Vietnamese food strains | [[ch26-plays]] |
+| P1, P4 to P6 | Public goods: P1 a new-food procedure; P4 a protein-quality laboratory; P5 a by-product atlas; P6 an open cost model and price series | [[ch26-plays]] |
+| PO-001 to PO-034 | Policy options | [[ch27-policy-options]] |
+| TPP-01 to TPP-12 | Target product profiles: what a product has to be for the demand that exists | [[ch25-demand-to-frontier]] |
+| DMV-01 to DMV-21 | Demand moves: cheap tests and rules, each with who would pay | [[ch25-demand-to-frontier]] |
+| RM-01 to RM-21 | Moves that pay off in any 2050 | [[ch28-robust-moves]] |
+| R1 to R7 (routes) | Demand routes: R1 replacing imported ingredients, R2 chay occasions, R3 hybrid processed meat, R4 canteens and schools, R5 household analogues, R6 high-protein plant milks, R7 exports | [[ch18-demand-sizing]] |
+| D-DRIFT, D-BENCH, D-STRETCH | Demand paths: drift, benchmark and stretch | [[ch18-demand-sizing]] |
+| S-BASE, S-HIGH, S-EFF, S-ALT | Protein balance scenarios to 2050: trend, official growth, feed efficiency, and alternative protein (10% of meat demand replaced by 2050) | [[ch22-protein-balance-2050]] |
+| Worlds A to D | The four 2050 worlds: A Regional workshop, B Comfortable price-taker, C Security build-out, D Squeezed importer | [[ch23-scenarios-2050]] |
 | Scenarios 1 to 3 (2035) | Import price-taker; feed-first domestic build-out; regulated regional hub | [[ch19-outlook-2035]] |
-| AQ-LOW, AQ-BASE, AQ-HIGH | Aquaculture paths to 2050 (feed context) | [[app-f6-aquafeed-feedstock-futures]] |
-| OQ-, DG- | Open questions, disagreements (glossary terms carry GL- ids in `glossary.csv`) | [[app-r1-open-questions]], [[app-r2-disagreements]], [[app-r3-glossary]] |
 
 ## Evidence tags
 
-Most claims end with a tag like {VN-direct|High}.
+Most claims carry a mark for where the evidence comes from and how sure we are.
 
 | Label | Meaning |
 |---|---|
 | **VN-direct** | Evidence about Vietnam itself |
-| **VN-adjacent** | Evidence from a comparable country (usually Thailand, Singapore, China or Korea) or the same species or crop, with the transfer stated |
-| **general** | Global evidence, with no claim that it applies to Vietnam as is |
+| **VN-adjacent** | Evidence from a comparable country (usually Thailand, Singapore, China or Korea), with the transfer stated |
+| **general** | Global evidence, with no claim that it applies to Vietnam |
 
 | Confidence | Meaning |
 |---|---|
-| **High** | Primary source read directly (a law, official statistics, a peer-reviewed paper, a company filing) |
+| **High** | Primary source read directly: a law, official statistics, a peer-reviewed paper, a company filing |
 | **Medium** | Reputable secondary source, or a primary source read in part |
-| **Low** | A single claim, press or company marketing, or our own derivation from weak inputs |
+| **Low** | A single claim, press or company marketing, or our own calculation from weak inputs |
 
-Numbers we calculated ourselves are marked "our calculation" or "derived", with inputs shown in the appendices.
+Numbers we calculated ourselves are marked "our calculation".
 
 ## Foresight tags
 
-Forward-looking claims carry a second badge after the evidence tag, and always state the year or years they refer to. They appear mainly in chapters 18, 20 to 24 and 28 and appendices M2, D8 and F2 to F6.
+Claims about the future carry a second badge and always state the year they refer to.
 
 | Tag | Meaning |
 |---|---|
-| **trend** | An observed, measured change that we expect to continue |
-| **projection** | A number from a published model, or an official target; the text says which |
+| **trend** | An observed change we expect to continue |
+| **projection** | A published model result or an official target; the text says which |
 | **estimate** | Our own calculation from stated assumptions |
-| **signal** | An early development (a pilot, paper, patent or draft policy) that may or may not scale |
+| **signal** | An early development that may or may not scale |
 | **wildcard** | A low-probability, high-impact event |
-| **vision** | A normative goal we put forward for discussion; used only for the vision in [[ch24-vision-2050]] and its stat tiles |
+| **vision** | A goal we put forward for discussion; used only in [[ch24-vision-2050]] |
 
-Scenarios describe what could happen, not what will; we give no probabilities unless a published source does. The method is in [[app-m2-futures-method]]. Where sources disagree, we give both and state the position we took; we never average disagreeing numbers ([[app-r2-disagreements]]).
+Scenarios describe what could happen, not what will. Where sources disagree, we give both and say which we use. We never average disagreeing numbers.
 
 ## Demand evidence tags
 
-Demand claims carry a third badge that says what kind of evidence they rest on. They appear mainly in Part III, chapters 25 and 29 and appendices D1 to D8. Surveys of intentions usually overstate what people do, so the report follows revealed evidence where the two disagree.
+Demand claims carry a third badge for the kind of evidence. Surveys usually overstate what people do, so where the two disagree, we follow what people do.
 
 | Tag | Meaning |
 |---|---|
-| **stated** | What people say: surveys, focus groups, stated intentions and stated willingness to pay |
-| **revealed** | What people or firms actually do: sales, purchases, prices, trade, menus, shelves, consumption statistics |
-| **tested** | Controlled tests: tastings, real-money auctions, choice experiments, field trials |
+| **stated** | What people say: surveys, focus groups, stated willingness to pay |
+| **revealed** | What people or firms do: sales, prices, trade, menus, shelves |
+| **tested** | Tastings, real-money auctions, choice experiments, field trials |
 | **inferred** | Our inference or calculation from indirect evidence |
-
-The method is in [[app-m3-demand-method]].
 
 ## Citations
 
-Bracketed codes such as [@MAC-04] link to entries in the source list ([[app-r4-sources]], `data/sources.csv`). The prefix shows which research stream found the source: for example MAC for the macro protein economy, REG for regulation, FM for feed markets, QNT for the balance model, CLM for climate, DIE for diet, CHY for chay, CON for consumers, BUY for business buyers, GLB for global benchmarks, and PRA to PRC for the prologue.
+Bracketed codes such as [@MAC-04] link to the source list ([[app-r4-sources]]). The prefix shows the research stream: for example MAC for the protein economy, REG for regulation, DIE for diet, CON for consumers and BUY for business buyers.
 
-## Corrections and versions
+## Corrections
 
-Earlier drafts of this work contained errors. Where a figure replaces one that circulated earlier, a **Correction** box says so. This is draft version 0.10; versions 0.1 to 0.9 were earlier drafts, and version 1.0 will be the public launch. Every correction, and what changed in each version, is in [[app-m5-changelog]]. Version 0.8 narrowed the study to protein for people, with feed only as context, tested food-security hypotheses in an eleventh research round and rewrote every page in clear language (section M5.14 of the changelog).
+Where a figure replaces one that circulated earlier, a **Correction** box says so.
 
 ## Conventions
 
-- **Units.** Mt = million tonnes; kt = thousand tonnes; t = tonne. Ranges are written "4 to 8 Mt". The report counts tonnes of protein and tonnes of product separately.
-- **Currency.** USD unless stated. VND is converted at 26,000 VND per USD unless stated.
-- **Dates.** The year a number refers to is stated. "2025/26" is a marketing year.
-- **Places.** Vietnam merged its provinces on 1 July 2025 (63 to 34) and abolished the district tier. We use current names, with the former unit in brackets where it helps: "Tay Ninh (former Long An)". A crosswalk is in [[app-s10-admin-map]].
-- **Ministries.** Current names after the March 2025 mergers: MAE (agriculture and environment), MOST (science and technology), MOF (finance, including former planning and investment), MOIT (industry and trade), MOH (health).
-- **Vietnamese terms** are italicised with a gloss on first use, for example *đồ chay* (traditional vegetarian food). *Chay* (vegetarian practice and cuisine) is used throughout. A bilingual glossary is in [[app-r3-glossary]].
+- **Units.** Mt = million tonnes; kt = thousand tonnes; t = tonne. Ranges are written "4 to 8 Mt". Tonnes of protein and tonnes of product are counted separately.
+- **Currency.** USD unless stated, at 26,000 VND per USD.
+- **Dates.** Every number states its year. "2025/26" is a marketing year.
+- **Places.** Vietnam merged its provinces on 1 July 2025, from 63 to 34. We use current names, with the former unit in brackets where it helps: "Tay Ninh (former Long An)".
+- **Ministries.** Current names after the 2025 mergers: MAE (agriculture and environment), MOST (science and technology), MOF (finance), MOIT (industry and trade), MOH (health).
+- **Vietnamese terms** are in italics with a gloss on first use, for example *đồ chay* (traditional vegetarian food).
 
 ## Limits
 
-Desk research in thirteen rounds, with limited general web search in several of them; a retail audit in two cities; a check against 80 named actors from their own documents; no interviews or stakeholder workshops. See [[app-m1-method]] and [[ch30-unknowns]]. This is not investment, legal or engineering advice.
+The study rests on thirteen rounds of desk research, a retail audit in two cities and a check against 80 named actors from their own documents. It did not include interviews or workshops ([[ch30-unknowns]]). This is not investment, legal or engineering advice.
