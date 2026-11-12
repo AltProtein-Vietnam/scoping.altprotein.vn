@@ -309,8 +309,9 @@ const back = encodeURIComponent(Astro.url.pathname + Astro.url.search);
           <img src="/logo.svg" width="146" height="36" alt="AltProtein Vietnam" />
           <p>{s.footerLine}</p>
           <p class="foot-credit">
-            {s.footerAi} {s.footerThanks}{' '}
-            <a href="https://globalforumaltproteins.org" rel="noopener" class="ext">{s.footerThanksOrg}</a>.
+            {s.footerLead} {s.footerMentor}{' '}
+            <a href="https://globalforumaltproteins.org" rel="noopener" class="ext">{s.footerMentorOrg}</a>.{' '}
+            {s.footerIncubator} <a href={`${localize('/about', lang)}#ai-use`}>{s.footerAiLink}</a>.
           </p>
         </div>
         <div>
