@@ -10,7 +10,7 @@ audiences: [startups, investors, research, policy, manufacturers, international]
 reading_time_min: 10
 key_numbers: [kn-gmo-premium, kn-cultivated-sg-servings, kn-blend-preference, kn-vissan-soy-share, kn-hybrid-saving, kn-imported-meat-displaceable-2035]
 related_data: [novel_acceptance.csv, meat_dairy_imports.csv, frontier_sales.csv, media_framing.csv, vissan_label_audit.csv, hybrid_savings.csv, hybrid_prize.csv, hybrid_sensory_limits.csv, filler_trust_register.csv, label_rules.csv, protein_quality.csv, firm_outcomes.csv]
-related_pages: [ch01-why-vietnam, ch10-technology-fit, ch21-frontier-technology, ch07-rules, ch13-consumers, ch16-business-buyers, ch18-demand-sizing, ch25-demand-to-frontier, ch26-plays]
+related_pages: [ch01-why-vietnam, ch10-technology-fit, ch21-frontier-technology, ch07-rules, ch13-consumers, ch16-business-buyers, ch18-demand-sizing, ch25-demand-to-frontier, ch26-plays, app-d2-consumer-evidence, app-s3-regional]
 charts: []
 ---
 

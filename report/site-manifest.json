@@ -32,7 +32,7 @@
     "international"
    ],
    "reading_time_min": 3,
-   "summary": "A draft, evidence-tagged scoping study of what alternative protein Vietnam could make for people to eat, and of the demand that would pull it, with feed only as context. Written for investors, policy makers, startups, manufacturers, research bodies and international organisations.",
+   "summary": "An evidence-tagged scoping study of what alternative protein Vietnam could make for people to eat, and who would buy it. Written for investors, policy makers, startups, manufacturers, researchers and international organisations.",
    "path": "content/00-front/front-cover.md",
    "lang": "en"
   },
@@ -51,8 +51,8 @@
     "research",
     "international"
    ],
-   "reading_time_min": 2,
-   "summary": "The whole report on one screen: why Vietnam, what the food-security evidence does and does not support, what it could make for people to eat, who would buy it, what stands in the way, what to do first and what 2050 looks like.",
+   "reading_time_min": 3,
+   "summary": "The whole report on one screen: why Vietnam, what it could make, who would buy it, what stands in the way, what to do first and what 2050 looks like.",
    "path": "content/00-front/front-two-minute.md",
    "lang": "en"
   },
@@ -71,8 +71,8 @@
     "research",
     "international"
    ],
-   "reading_time_min": 14,
-   "summary": "Vietnam's case for making more protein for people at home is a security case, real but narrow: about two thirds of the animal protein people eat rests on imports, directly or through feed, and only protein made from domestic inputs reduces that. The first openings are domestic textured plant protein, a cassava-starch-to-fermentation-sugar hub and shared pilot fermentation; firms, not shoppers, would buy new protein as an ingredient; and the main public lever is a new-food clause in the Food Safety Law.",
+   "reading_time_min": 11,
+   "summary": "Vietnam's case for making protein at home is a security case, real but narrow. The first openings are domestic textured plant protein, a cassava-to-fermentation-sugar hub and shared pilot fermentation. Firms, not shoppers, would buy first, and the main public lever is the new Food Safety Law.",
    "path": "content/00-front/front-exec-summary.md",
    "lang": "en"
   },
@@ -91,8 +91,8 @@
     "research",
     "international"
    ],
-   "reading_time_min": 4,
-   "summary": "The numbers that frame protein for people in Vietnam, where it comes from, supply and demand, today and to 2050, on one page, with links to the chapters behind them. Feed numbers appear only as context.",
+   "reading_time_min": 5,
+   "summary": "The numbers that frame the report on one page: where Vietnam's protein comes from, what it could make, who would buy it, and 2050.",
    "path": "content/00-front/front-at-a-glance.md",
    "lang": "en"
   },
@@ -111,8 +111,8 @@
     "research",
     "international"
    ],
-   "reading_time_min": 22,
-   "summary": "For readers new to the field: what alternative protein is, the main families of technology and how each is made, the general arguments for and against it, where the world stands in 2026 on markets, money and rules, where Vietnam fits and why this study is about protein for people, and the terms and conventions needed to read the report.",
+   "reading_time_min": 12,
+   "summary": "For readers new to the field: what alternative protein is, how each kind is made, the arguments for and against it, where the world stands in 2026, and where Vietnam fits.",
    "path": "content/00-front/front-prologue.md",
    "lang": "en"
   },
@@ -131,8 +131,8 @@
     "research",
     "international"
    ],
-   "reading_time_min": 9,
-   "summary": "What the report covers (protein for people, with feed only as context), how it is organised, which pages to read for which purpose, what the tags, codes and scenario names mean, and the conventions for numbers, names and corrections.",
+   "reading_time_min": 7,
+   "summary": "What the report covers, how it is organised, what the evidence tags and codes mean, and the conventions for numbers and names.",
    "path": "content/00-front/front-how-to-read.md",
    "lang": "en"
   },
@@ -151,8 +151,8 @@
     "research",
     "international"
    ],
-   "reading_time_min": 8,
-   "summary": "Short answers to the questions people ask most about this draft report, its scope (protein for people), alternative protein, Vietnam's prospects and food security, and using the report and its data, with links to the pages that give the full answer.",
+   "reading_time_min": 7,
+   "summary": "Short answers to the questions people ask most about the report, alternative protein, Vietnam's prospects and food security, with links to the full answers.",
    "path": "content/00-front/front-faq.md",
    "lang": "en"
   },
@@ -171,8 +171,8 @@
     "research",
     "international"
    ],
-   "reading_time_min": 20,
-   "summary": "Vietnamese people eat more meat each year. About one fifth of their protein is imported food, and about two thirds of the animal protein rests on imports, directly or through the feed behind domestic meat, eggs and fish. Imported meat and dairy are a second, smaller exposure, driven by lower costs abroad rather than subsidies. The import exposure, with industrial value and trade, is the strongest case for making more protein for people at home. But only protein made from domestic inputs reduces it, and at the scale demand supports, new protein adds a second source rather than cutting the exposure.",
+   "reading_time_min": 12,
+   "summary": "Vietnamese people eat more meat each year, and about two thirds of their animal protein rests on imports, directly or through feed. Only protein made from domestic inputs reduces that, and at the scale demand supports it adds a second source rather than cutting the exposure.",
    "path": "content/01-report/ch01-why-vietnam.md",
    "lang": "en"
   },
@@ -191,8 +191,8 @@
     "research",
     "international"
    ],
-   "reading_time_min": 9,
-   "summary": "Vietnam's real non-animal protein economy is incumbent: soy milk, tofu and industrial đồ chay made by meat and frozen-food processors. Most of it is low in protein, and every locally made high-protein product runs on imported textured soy or wheat gluten, much of it from China. Modern plant-based brands are nearly absent, and we found no Vietnamese maker of fermented protein ingredients for food.",
+   "reading_time_min": 6,
+   "summary": "Vietnam's real non-animal protein economy is soy milk, tofu and factory-made chay food. Most of the shelf is low in protein, every high-protein local product runs on imported soy or gluten, and modern plant-based meat is nearly absent.",
    "path": "content/01-report/ch02-alt-protein-today.md",
    "lang": "en"
   },
@@ -210,8 +210,8 @@
     "international",
     "manufacturers"
    ],
-   "reading_time_min": 12,
-   "summary": "Vietnam ranks near the top in Asia on production cost and at the bottom on rules. Singapore approves, Thailand and Korea have routes but few approvals, and China builds at scale. Vietnam already supplies the region's bio-industries with cassava starch, but the starch it exports is turned into fermentation sugar in China. The regional lesson is that a published procedure with a fixed timeline matters more than cheap labour.",
+   "reading_time_min": 9,
+   "summary": "Vietnam ranks near the top in Asia on production cost and at the bottom on rules. Its cassava starch already feeds the region, but is turned into fermentation sugar in China. A published approval procedure with a fixed timeline matters more than cheap labour.",
    "path": "content/01-report/ch03-regional.md",
    "lang": "en"
   },
@@ -229,8 +229,8 @@
     "research",
     "policy"
    ],
-   "reading_time_min": 14,
-   "summary": "Vietnam is rich in fermentable carbohydrate (cassava, rice, sugar) and poor in protein-rich side streams. For protein for people, the carbohydrate is clean carbon for food fermentation, and small food-grade side streams such as okara and brewer's grain suit koji and fungal foods. The carbohydrate is mostly already traded, often to China, and nobody measures the residues.",
+   "reading_time_min": 8,
+   "summary": "Vietnam is rich in carbohydrate and poor in protein. Cassava starch, surplus sugar and broken rice are clean carbon for food fermentation, while protein-rich side streams are small and best used for food near the source.",
    "path": "content/01-report/ch04-asset-map.md",
    "lang": "en"
   },
@@ -248,8 +248,8 @@
     "policy",
     "international"
    ],
-   "reading_time_min": 9,
-   "summary": "Vietnam has large, modern food, brewing and fermentation industries, but its aerobic fermentation capacity is captive inside three amino-acid makers. There is no food-grade contract fermentation, open pilot plant, protein-isolate plant or domestic textured-protein extruder. A new food-protein venture can use frozen-food co-packers, cassava glucose and trained staff, but has to bring its own process equipment or negotiate with an incumbent.",
+   "reading_time_min": 6,
+   "summary": "Vietnam's industry is strong in food co-packing and thin in process equipment. Sterile fermentation sits inside three amino-acid makers that offer no contract work, and we found no open pilot fermenter, protein-isolate plant or textured-soy maker.",
    "path": "content/01-report/ch05-industrial-base.md",
    "lang": "en"
   },
@@ -267,8 +267,8 @@
     "startups",
     "investors"
    ],
-   "reading_time_min": 8,
-   "summary": "Vietnam's research base sits next to alternative protein rather than inside it: strong in aquafeed trials, yeast protein expression, stem-cell culture, koji genetics and microalgae; near zero in texturisation, mycoprotein, precision fermentation and food cell lines. Its novel-food research intensity is about a quarter to a third of Thailand's. For protein for people, the binding gap is shared infrastructure: no open pilot fermentation, no food extrusion line and no protein-digestibility testing.",
+   "reading_time_min": 7,
+   "summary": "Vietnam has adjacent research strengths but almost no work on turning them into food. The binding constraint is shared infrastructure: no open pilot fermenter, no food extruder and no protein-quality testing, with thin training and research money.",
    "path": "content/01-report/ch06-knowledge-talent.md",
    "lang": "en"
   },
@@ -286,8 +286,8 @@
     "manufacturers",
     "international"
    ],
-   "reading_time_min": 16,
-   "summary": "Vietnam has no novel-food gate: new protein foods enter through self-declaration, under legal uncertainty and with no way to get an ingredient positively cleared, and precision-fermented proteins probably count as GMO products. The new Food Safety Law, due for first comments in October 2026 and considered for passage in May 2027, is a one-off window to add a proportionate new-food procedure. Feed rules appear only as context.",
+   "reading_time_min": 9,
+   "summary": "Vietnam has an open door for new protein foods but no gate: no novel-food category and no way to get permission in advance. Precision-fermented proteins probably count as GMO products, tariffs give no shelter, and the new Food Safety Law is the one near-term window.",
    "path": "content/01-report/ch07-rules.md",
    "lang": "en"
   },
@@ -304,8 +304,8 @@
     "policy",
     "international"
    ],
-   "reading_time_min": 10,
-   "summary": "No disclosed deal in Vietnam in the protein families this study covers has exceeded USD 5 million, and there is no proven local template for financing a plant. Agriculture venture capital in Vietnam was about USD 1 million in 2025, new state venture funds are small, and global alternative-protein investment has shifted towards fermentation and ingredients.",
+   "reading_time_min": 6,
+   "summary": "No disclosed alternative-protein deal in Vietnam has exceeded USD 5 million, little venture money reaches food, and new state funds fit pilot plants, not production. Global money has moved to fermentation and ingredients, where Vietnam's advantages lie.",
    "path": "content/01-report/ch08-capital.md",
    "lang": "en"
   },
@@ -323,8 +323,8 @@
     "policy",
     "research"
    ],
-   "reading_time_min": 17,
-   "summary": "Vietnam's power and labour are cheap, but in fermentation capital is most of the cost. On indicative numbers, fungal biomass protein made in Vietnam costs USD 4,050 to 14,700 per tonne of protein: more than the commodity plant proteins food makers import, but overlapping egg and dairy proteins, so it fits as a functional food ingredient, not a bulk one. Textured soy is cheap to make; the delivered price of food-grade soy flour decides whether a domestic line beats duty-free Chinese imports.",
+   "reading_time_min": 10,
+   "summary": "In fermentation, capital decides cost, and fungal protein made in Vietnam is a premium ingredient, not a bulk one. Textured soy is cheap to make, but duty-free Chinese imports mean the price of food-grade soy flour decides whether a domestic line pays.",
    "path": "content/01-report/ch09-economics.md",
    "lang": "en"
   },
@@ -343,8 +343,8 @@
     "policy",
     "international"
    ],
-   "reading_time_min": 11,
-   "summary": "We test ten technology families against seven Vietnamese conditions: feedstock, industrial base, science readiness, route to market, buyers, competition and capital intensity. Textured plant protein for food fits now. Local legume and rice proteins and fungal foods are worth proving. Precision fermentation fits only as high-value, low-dose ingredients made under contract. Cultivated meat and seafood are research topics for this decade. Feed uses stay in the matrix as a record but are context only.",
+   "reading_time_min": 9,
+   "summary": "One technology family fits Vietnam now: textured plant protein for food. Local legume and rice proteins and koji are worth proving, precision fermentation fits only as contract-made high-value ingredients, and cultivated meat and seafood remain research.",
    "path": "content/01-report/ch10-technology-fit.md",
    "lang": "en"
   },
@@ -363,8 +363,8 @@
     "manufacturers",
     "international"
    ],
-   "reading_time_min": 19,
-   "summary": "Vietnamese adults eat enough protein and far more meat than national guidance advises, and eggs and chicken are cheap protein. Tofu and soy milk, the plant protein people already eat, rest almost wholly on imported soybeans. Imported plant-based analogues cost 12 to 18 times as much per gram of protein, so any new protein faces clear targets on price, protein content and format.",
+   "reading_time_min": 10,
+   "summary": "Vietnamese people eat a lot of meat, more each year, and adults have no protein gap. Protein is cheap, with eggs and chicken setting the price floor, and it is eaten as toppings, fillings and side dishes. When pork prices jumped, people switched to chicken, not tofu.",
    "path": "content/01-report/ch11-protein-diet.md",
    "lang": "en"
   },
@@ -383,8 +383,8 @@
     "policy",
     "international"
    ],
-   "reading_time_min": 17,
-   "summary": "Chay, vegetarian eating on lunar days and festivals, is Vietnam's largest plant-protein occasion, and we estimate that existing chay days already avoid about 25,000 t of meat protein a year. It is the cheapest place to launch a higher-protein ingredient, but the wrong place to count meat displacement.",
+   "reading_time_min": 10,
+   "summary": "Chay, the practice of eating no meat on set lunar days, is Vietnam's largest plant-protein occasion and already avoids about 2.5% of meat protein. It is a ready shelf and set of buyers for a higher-protein ingredient, but the wrong place to count less meat.",
    "path": "content/01-report/ch12-chay-baseline.md",
    "lang": "en"
   },
@@ -403,8 +403,8 @@
     "policy",
     "international"
    ],
-   "reading_time_min": 20,
-   "summary": "Vietnamese survey respondents are open to plant-based meat, yet only 15% intend to eat less meat and only 3% eat it weekly. Imported analogues cost 12 to 18 times chicken or eggs per gram of protein. Plant milk is the one modern plant category that sells at scale, and people want more protein choice in familiar dishes, not a meat replacement.",
+   "reading_time_min": 11,
+   "summary": "Urban Vietnamese say yes to plant-based meat but rarely buy it, and imported meat copies have left the shelves. Plant milk is the one modern plant category that sells at scale, so new protein should go into familiar foods with a printed protein claim.",
    "path": "content/01-report/ch13-consumers.md",
    "lang": "en"
   },
@@ -423,8 +423,8 @@
     "manufacturers",
     "international"
    ],
-   "reading_time_min": 19,
-   "summary": "Vietnam has no tested or revealed consumer evidence for cultivated meat or precision-fermented foods, only stated attitudes from young or online samples. Blending into foods people already buy is the most likely entry route. But a new fungal or fermented extender has to beat hydrated soy, not lean meat, and avoid being seen as filler.",
+   "reading_time_min": 10,
+   "summary": "There is little consumer evidence for cultivated meat and precision-fermented food in Vietnam, and Asian sales are tiny. Blends are the likeliest route: Vietnamese already eat soy in processed meat, so a new extender has to beat hydrated soy and avoid the word for filler.",
    "path": "content/01-report/ch14-frontier-demand.md",
    "lang": "en"
   },
@@ -443,8 +443,8 @@
     "research",
     "international"
    ],
-   "reading_time_min": 26,
-   "summary": "Most food is still sold in traditional markets and small grocers (83% of food retail), so a new chilled or frozen protein fits the frozen vegetarian aisle, retailer own brands or kitchens. In factory canteens, where price decides, only an ingredient cheaper than tofu and dry soy-gluten pieces fits; schools are the wrong place to start with a branded meat replacement.",
+   "reading_time_min": 13,
+   "summary": "Channels decide what form a new protein can take. Wet markets dominate retail, restaurants have shown no meat-free success, and factory canteens buy on price. Schools fill plant-protein days with tofu beside meat, so they are the wrong place to start.",
    "path": "content/01-report/ch15-channels.md",
    "lang": "en"
   },
@@ -463,8 +463,8 @@
     "research",
     "international"
    ],
-   "reading_time_min": 22,
-   "summary": "Food firms give the clearest evidence of demand for new protein in Vietnam: they imported about USD 285 million of protein ingredients in 2023, and domestic makers have no tariff shelter. A new ingredient has to match the landed cost of Chinese commodity grades, match hydrated soy as a meat extender, or compete with egg and dairy proteins on function.",
+   "reading_time_min": 13,
+   "summary": "Food firms are the clearest buyers of new protein, led by chay makers who already import textured soy and gluten duty-free from China. No Vietnamese buyer is trying novel protein, and a new ingredient must choose its price rung: commodity plant protein or egg and dairy protein.",
    "path": "content/01-report/ch16-business-buyers.md",
    "lang": "en"
   },
@@ -483,8 +483,8 @@
     "international",
     "research"
    ],
-   "reading_time_min": 17,
-   "summary": "Vietnam exports almost no protein ingredients, but it exported USD 128.2 million of dumplings and other stuffed pasta in 2023. Its tariff edge abroad comes with conditions, and retail demand for finished plant-based meat is falling in the United States and flat in Europe.",
+   "reading_time_min": 9,
+   "summary": "Vietnam exports almost no protein ingredients but sells dumplings and other wrapped foods at scale, with a zero-tariff edge in the EU, the UK and Japan. A plant-protein export would join that base through food exporters, while demand for finished plant-based meat falls abroad.",
    "path": "content/01-report/ch17-export-demand.md",
    "lang": "en"
   },
@@ -503,8 +503,8 @@
     "international",
     "manufacturers"
    ],
-   "reading_time_min": 20,
-   "summary": "Instead of a market-size number, we size seven routes by which domestic or novel protein could reach buyers, in three labelled scenarios. On a benchmark path they create demand for about 19,000 t of protein a year by 2035, mostly by replacing imported ingredients, but displace only about 2,350 t of meat protein (0.2%).",
+   "reading_time_min": 12,
+   "summary": "We size seven routes, not a market. On a benchmark path they create demand for about 19,000 t of protein a year by 2035, mostly replacing imported soy and gluten, but displace only about 0.2% of meat protein, far below Part IV's alternative-protein scenario.",
    "path": "content/01-report/ch18-demand-sizing.md",
    "lang": "en"
   },
@@ -523,8 +523,8 @@
     "manufacturers",
     "research"
    ],
-   "reading_time_min": 11,
-   "summary": "Almost every rule change that matters for new protein foods in Vietnam lands in 2025 to 2027, so the direction of the next decade will be visible within about 18 months. We sketch three plausible states for 2035 (import price-taker, feed-first domestic build-out, regulated regional hub), say what each would mean for the protein people eat, and give the signposts that would show which is unfolding. These are scenarios, not forecasts.",
+   "reading_time_min": 7,
+   "summary": "The rule changes that decide the next decade fall in 2025 to 2027, and the Food Safety Law is the window that closes. Three plausible states for 2035 follow, and only the regulated regional hub has Vietnam making new protein foods at home.",
    "path": "content/01-report/ch19-outlook-2035.md",
    "lang": "en"
   },
@@ -543,8 +543,8 @@
     "manufacturers",
     "startups"
    ],
-   "reading_time_min": 16,
-   "summary": "Some forces acting on the protein Vietnamese people eat to 2050 are close to certain: an ageing workforce, fewer smallholder livestock farms, endemic pig disease increasingly from strains the licensed vaccines do not cover, fewer wild fish, tight agricultural emission caps, a sinking and saltier Mekong Delta, and continued dependence on imported soy and maize for the feed behind meat. Others are open. Two external uncertainties matter most for protein made in Vietnam for people: whether imported protein, mostly the feed behind domestic meat, comes under chronic stress, and whether Asia's fermentation industry stays an open market or falls under Chinese price dominance. They become the axes of the 2050 scenarios in chapter 23.",
+   "reading_time_min": 11,
+   "summary": "Near-certain trends make the meat Vietnamese people eat more industrial and more reliant on imported feed, while swine fever and shrinking wild fish hit protein directly. Two outside questions decide most: stress on imported protein, and whether Asia's fermentation market stays open.",
    "path": "content/01-report/ch20-drivers-2050.md",
    "lang": "en"
   },
@@ -563,8 +563,8 @@
     "manufacturers",
     "international"
    ],
-   "reading_time_min": 16,
-   "summary": "The frontier technologies that could reshape protein supply by 2050 all work in the laboratory, but none has yet shown the cost fall that solar power did. Against the food protein ingredients Vietnam already buys, fermentation protein made in Vietnam competes first with egg and dairy proteins, not with cheap plant proteins. For protein for people the windows open in sequence: imported, approved novel ingredients from about 2028 if a new-food route exists, contract precision fermentation and food mycoprotein in 2030 to 2035, and protein from power made in Vietnam not before the 2040s.",
+   "reading_time_min": 10,
+   "summary": "Every frontier route to protein works technically, but none is cheap and costs fall slowly. Vietnam's windows open mostly after 2030, starting with imported, already-approved ingredients from about 2028 if the law allows, so the task now is to prepare the inputs every route needs.",
    "path": "content/01-report/ch21-frontier-technology.md",
    "lang": "en"
   },
@@ -583,8 +583,8 @@
     "international",
     "startups"
    ],
-   "reading_time_min": 14,
-   "summary": "On trend, the meat protein Vietnamese people eat rises from about 1.01 Mt in 2025 to about 1.45 Mt in 2050 (our model). The share of it resting on imports, directly or through feed, rises from 70% to 78% to about 79% to 87%, and the imported soybean meal behind it from 7.2 Mt to about 10.4 Mt. Replacing meat protein in diets saves the most imports per tonne, but a plant food made from imported soy stays import-dependent, and at the scale demand supports, new protein adds a second source rather than replacing meat.",
+   "reading_time_min": 9,
+   "summary": "On trend, Vietnamese people eat more meat protein each year to 2050, and the imported soybean meal behind it rises 44%. New protein made at the scale demand supports adds a second source of protein but does not change national import exposure on its own.",
    "path": "content/01-report/ch22-protein-balance-2050.md",
    "lang": "en"
   },
@@ -603,8 +603,8 @@
     "manufacturers",
     "research"
    ],
-   "reading_time_min": 11,
-   "summary": "We cross two uncertainties, stress on imported protein and whether Asia's fermentation market stays open or falls under Chinese price dominance, to build four scenarios for 2050, not forecasts. Two public goods pay off in every world, five of the seven plays hold in every world with conditions, and high-value precision fermentation is a bet that needs signposts; where Chinese prices dominate, only protein made from domestic inputs adds security.",
+   "reading_time_min": 9,
+   "summary": "Crossing stress on imported protein with whether Asia's fermentation market stays open gives four worlds for 2050. A protein-quality laboratory and an open price series pay off in all of them, and Vietnam's own choices decide where it lands inside each.",
    "path": "content/01-report/ch23-scenarios-2050.md",
    "lang": "en"
   },
@@ -623,8 +623,8 @@
     "manufacturers",
     "startups"
    ],
-   "reading_time_min": 16,
-   "summary": "A vision for discussion, not a forecast: by 2050 Vietnam measures the protein its people eat, makes more of it at home and adds new sources beside meat. New routes would supply about 67,000 to 172,000 t of protein a year, about 59,000 to 147,000 t of it made in Vietnam, with milestones tied to the five-year plans from 2026 to 2050.",
+   "reading_time_min": 10,
+   "summary": "A proposed vision, not a forecast: by 2050 Vietnam feeds its people from a protein supply that is measured, more diverse and more secure, with new protein as a second source beside meat. Most first steps are cheap and fall in the 2026 to 2030 plan.",
    "path": "content/01-report/ch24-vision-2050.md",
    "lang": "en"
   },
@@ -643,8 +643,8 @@
     "manufacturers",
     "international"
    ],
-   "reading_time_min": 24,
-   "summary": "Demand in Vietnam pulls new protein as an ingredient inside foods people already eat, sold to the firms and kitchens that make them, and soy, not meat, is the price an extender must beat. We turn this into ten active target product profiles (TPP-01 to TPP-10), a demand check of the seven active plays and twenty cheap moves, each with a funder or budget.",
+   "reading_time_min": 16,
+   "summary": "Demand pulls new protein as an ingredient inside familiar foods, sold to firms and kitchens, not as branded meat replacements. This chapter sets ten product profiles, checks the seven plays against demand and lists twenty cheap moves with who would pay.",
    "path": "content/01-report/ch25-demand-to-frontier.md",
    "lang": "en"
   },
@@ -663,8 +663,8 @@
     "research",
     "international"
    ],
-   "reading_time_min": 15,
-   "summary": "We describe seven concrete plays for making protein for people in Vietnam, each with the tests that would kill it, and score them on seven criteria with weights readers can change. Domestic textured plant protein, a cassava-starch-to-fermentation-sugar hub and shared pilot and tolling fermentation lead, and four public goods would lower the cost of every play. A screen of 170 published solutions adds three candidates that are not yet ranked.",
+   "reading_time_min": 17,
+   "summary": "Seven plays for protein for people, each with what must be true and the tests that would kill it. Domestic textured plant protein, a cassava-starch-to-fermentation-sugar hub and shared pilot fermentation lead, and four cheap public goods lower the cost of all of them.",
    "path": "content/01-report/ch26-plays.md",
    "lang": "en"
   },
@@ -681,8 +681,8 @@
     "research",
     "investors"
    ],
-   "reading_time_min": 11,
-   "summary": "Most of what would help Vietnam make protein for people is cheap: a short new-food clause in the Food Safety Law before the vote considered in May 2027, a joint note on precision-fermented proteins and a proportionate novel-food procedure in the law's decree. We rank 19 current options by impact, effort and timing; the expensive ones are shared pilot fermentation and testing capacity.",
+   "reading_time_min": 9,
+   "summary": "Vietnam needs no new law or agency for new protein foods. The top step is a short new-food clause in the Food Safety Law before the May 2027 vote, followed by a note on precision-fermented proteins and a proportionate novel-food procedure.",
    "path": "content/01-report/ch27-policy-options.md",
    "lang": "en"
   },
@@ -702,7 +702,7 @@
     "research"
    ],
    "reading_time_min": 10,
-   "summary": "We tested 21 candidate moves against four possible worlds in 2050. Seven no-regret moves pay off in all of them, such as a national protein balance, a new-food route with deadlines and shared food-grade pilot capacity. Most are public and cheap and can start in 2026 to 2028, while two bets should wait for named signposts.",
+   "summary": "Tested against four 2050 worlds, seven moves pay off whatever happens, most of them cheap public goods that can start by 2028. The most urgent is a new-food route in the Food Safety Law; two bets wait for named triggers.",
    "path": "content/01-report/ch28-robust-moves.md",
    "lang": "en"
   },
@@ -721,8 +721,8 @@
     "research",
     "international"
    ],
-   "reading_time_min": 13,
-   "summary": "We checked the demand chapters against 80 named actors, from funders to food makers and regulators. Follow-up research changed how to act: schools fill plant-protein days with tofu, and only four of the original nineteen demand moves have a funder that fits and accepts Vietnam. The core conclusion stands: demand pulls new protein as an ingredient sold to the firms that already make food.",
+   "reading_time_min": 8,
+   "summary": "We turned the stated priorities of 80 named actors into 118 decision questions. The core conclusion held, but the answers changed how to act: schools, textured soy, extenders, labels, plant milks and who would pay.",
    "path": "content/01-report/ch29-actor-check.md",
    "lang": "en"
   },
@@ -741,8 +741,8 @@
     "international",
     "manufacturers"
    ],
-   "reading_time_min": 10,
-   "summary": "Desk research has reached diminishing returns. The eighteen unknowns that matter most for protein for people can mostly be closed by a letter to a ministry, a phone call to a starch factory or food maker, or a query to customs. Four of them decide how far the food-security case reaches. We list them in priority order, with the play or move each one unblocks and who to ask. The full register holds 472 open questions and 372 recorded disagreements between sources.",
+   "reading_time_min": 7,
+   "summary": "The eighteen unknowns that matter most, ranked by how much each would change a decision, with who can answer each. Most sit in ministry files, company plants and customs records, and can be closed with a letter, a call or a data request.",
    "path": "content/01-report/ch30-unknowns.md",
    "lang": "en"
   },
@@ -756,8 +756,8 @@
    "audiences": [
     "investors"
    ],
-   "reading_time_min": 9,
-   "summary": "For venture capital, impact investors, private equity and development finance. The study is about protein for people; feed is context only. The near-term theses are business-to-business food ingredients and fermentation services, and most are not venture-shaped. Domestic textured plant protein is an import-substitution plant financed with debt; a cassava-sugar hub and shared pilot fermentation need strategic partners. Underwrite capital cost, input prices and rule risk, price against Chinese imports, and plan for trade-sale exits. The food-security case is real but narrow and favours plays on domestic inputs.",
+   "reading_time_min": 6,
+   "summary": "For venture capital, impact investors, private equity and development finance. The near-term theses are business-to-business food ingredients and fermentation services, mostly not venture-shaped: underwrite capital cost, input prices and rule risk, and price against Chinese imports.",
    "path": "content/02-briefs/brief-investors.md",
    "lang": "en"
   },
@@ -771,8 +771,8 @@
    "audiences": [
     "policy"
    ],
-   "reading_time_min": 11,
-   "summary": "For ministries, the National Assembly and provinces. The study is about protein for people; feed is context only. The case is the security of the protein people eat, industrial value and trade. The first security move is a national protein balance, because the food-security resolution has no import or protein indicator. The cheapest high-value step is a new-food clause in the Food Safety Law before passage is considered in May 2027. Most label rules already exist and need enforcing, and the largest gap public money can fill is shared pilot and testing capacity.",
+   "reading_time_min": 7,
+   "summary": "For policy makers in Vietnam and abroad. Most of the fix is cheap: a new-food clause in the Food Safety Law before the May 2027 vote, a national protein balance, school menu software that counts protein quality, and shared pilot capacity.",
    "path": "content/02-briefs/brief-policy.md",
    "lang": "en"
   },
@@ -786,8 +786,8 @@
    "audiences": [
     "startups"
    ],
-   "reading_time_min": 8,
-   "summary": "The study is about protein for people; feed is context only. Founders should start where the legal route for food is already clear, with familiar plant foods or koji, and aim first to supply food makers rather than launch their own analogue brand. Domestic textured protein is a debt-financed plant to build with a vegetarian food maker or distributor, not alone on venture money. If food security is part of the pitch, prefer domestic inputs.",
+   "reading_time_min": 6,
+   "summary": "For founders. Pick a familiar food with a legal route today, need little capital, supply established firms first as an ingredient, store brand or co-packed line, and borrow capacity rather than build it.",
    "path": "content/02-briefs/brief-startups.md",
    "lang": "en"
   },
@@ -801,8 +801,8 @@
    "audiences": [
     "manufacturers"
    ],
-   "reading_time_min": 9,
-   "summary": "Food and beverage companies run on mostly imported protein. They are the natural owners of a domestic textured-protein line and the first customer every play needs. Near-term options are to pool orders behind such a line, test new extenders against the soy already in use, and design plant milks at or below 5 g sugar. Imported frozen pork, cheaper than domestic lean, is the only meat import blends could plausibly displace. Feed appears only as context.",
+   "reading_time_min": 6,
+   "summary": "For food and beverage makers. You are the natural owner of a domestic textured-protein line and the first customer for new extenders and drink proteins, which must beat the soy and pea protein you already buy.",
    "path": "content/02-briefs/brief-manufacturers.md",
    "lang": "en"
   },
@@ -816,8 +816,8 @@
    "audiences": [
     "research"
    ],
-   "reading_time_min": 8,
-   "summary": "The study is about protein for people; feed is context only. Vietnam's research strengths, in fish and shrimp feeding trials, yeast protein expression, stem-cell culture, koji genetics and microalgae, sit next to food protein rather than inside it. The most useful work pairs a Vietnamese raw material or species with a missing food study, such as protein quality, phytate and zinc, strain safety, sensory tests or duckweed food safety. The binding constraint is shared pilot fermentation, food extrusion and protein-quality testing. For food security, the missing data are the domestic share of soybeans in tofu and soy milk, the input origin of new protein foods, a Vietnamese food balance and a swine fever vaccine for the new strains.",
+   "reading_time_min": 6,
+   "summary": "For universities and research institutes. The most useful research pairs a Vietnamese raw material or species with a missing food study, the most useful infrastructure is shared, and the biggest gap is tested consumer and taste evidence.",
    "path": "content/02-briefs/brief-research.md",
    "lang": "en"
   },
@@ -831,8 +831,8 @@
    "audiences": [
     "international"
    ],
-   "reading_time_min": 9,
-   "summary": "For development agencies, foundations, NGOs and foreign governments. The study is about protein for people; feed is context only. Vietnam's capacity to make more protein for people at home is held back by missing public goods: a national protein balance, a novel-food procedure, shared pilot fermentation and protein-quality testing. These fit technical assistance, research grants and first-loss development finance. The evidence does not support funding alternative protein as pandemic prevention. On the demand side, only 4 of the original 19 demand moves have a funder that fits and accepts Vietnam.",
+   "reading_time_min": 6,
+   "summary": "For international organisations and development finance. Outside help goes furthest on public goods and first-plant finance: new-food rules, a protein-quality laboratory, shared pilot fermentation and open data. Treat climate as a co-benefit and do not fund alternative protein as pandemic prevention.",
    "path": "content/02-briefs/brief-international.md",
    "lang": "en"
   },
@@ -2141,12 +2141,12 @@
    "required_on": "Part III pages (warning if absent)"
   }
  },
- "version": "0.10",
- "status": "draft",
+ "version": "1.0",
+ "status": "published",
  "draft_notice": {
-  "en": "Draft for review, version 0.10. Not for citation.",
-  "vi": "Bản thảo để góp ý, phiên bản 0.10. Không dùng để trích dẫn.",
-  "placement": "Show on every page as a footer, and as a banner on the cover and the summary pages, until version 1.0."
+  "en": "",
+  "vi": "",
+  "placement": "Not shown from version 1.0. Earlier versions showed a draft banner on the cover and the summary pages, and a draft footer on every page."
  },
  "versions": [
   {
@@ -2183,31 +2183,37 @@
    "version": "0.6",
    "date": "2026-09",
    "earlier_label": null,
-   "note": "Reader-first restructure, 0.x versions, changelog, two-minute summary, FAQ, draft labels and consistency fixes; no finding changed. See Appendix M5."
+   "note": "Reader-first restructure, 0.x versions, changelog, two-minute summary, FAQ, draft labels and consistency fixes; no finding changed."
   },
   {
    "version": "0.7",
    "date": "2026-09",
    "earlier_label": null,
-   "note": "Citation check of every source the report cites (7,003 citations, 2,015 sources): corrected wrong figures, sources and overstatements, repaired the source register, added 70 open questions. See Appendix M5."
+   "note": "Citation check of every source the report cites (7,003 citations, 2,015 sources): corrected wrong figures, sources and overstatements, repaired the source register, added 70 open questions."
   },
   {
    "version": "0.8",
    "date": "2026-10",
    "earlier_label": null,
-   "note": "Protein for people: scope narrowed to protein for human consumption, feed only as context; feed plays, moves and policy options retired; research round testing food-security hypotheses (wave 11: imported meat and subsidies, disease and pandemic risk, other exposures, a protein balance for people); every page edited to the GOV.UK clear-language standard. See Appendix M5, M5.14."
+   "note": "Protein for people: scope narrowed to protein for human consumption, feed only as context; feed plays, moves and policy options retired; research round testing food-security hypotheses (wave 11: imported meat and subsidies, disease and pandemic risk, other exposures, a protein balance for people); every page edited to the GOV.UK clear-language standard."
   },
   {
    "version": "0.9",
    "date": "2026-10",
    "earlier_label": null,
-   "note": "Insect protein removed from the study; regional deal record for East and Southeast Asia (wave 12). See Appendix M5, M5.15."
+   "note": "Insect protein removed from the study; regional deal record for East and Southeast Asia (wave 12)."
   },
   {
    "version": "0.10",
    "date": "2026-10",
    "earlier_label": null,
-   "note": "A screen of 170 published solutions for Vietnam, including GFI's Solutions Database (wave 13, 185 sources): new Appendix S14, three candidates listed but not ranked (T11, T12, P7), policy option PO-034, and corrections to rules, costs and moves. See Appendix M5, M5.16."
+   "note": "A screen of 170 published solutions for Vietnam, including GFI's Solutions Database (wave 13, 185 sources): new Appendix S14, three candidates listed but not ranked (T11, T12, P7), policy option PO-034, and corrections to rules, costs and moves."
+  },
+  {
+   "version": "1.0",
+   "date": "2026-11",
+   "earlier_label": null,
+   "note": "First public version. Every public page edited for readability: shorter paragraphs and sentences, about 40% less text, and no references to material the public cannot open. No finding changed."
   }
  ]
 }

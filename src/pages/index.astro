@@ -15,6 +15,7 @@ import {
   PAGES,
   PAGE_BY_ID,
   PART_LIST,
+  IS_DRAFT,
   ROLE,
   SITE,
   chapterNumber,
@@ -128,7 +129,7 @@ const legendScope = ['direct', 'adjacent', 'general'] as const;
     <div class="wrap hero-grid">
       <div>
         <p class="kicker">
-          {SITE.publisher} · {s.draft(SITE.version)}
+          {SITE.publisher} · {IS_DRAFT ? s.draft(SITE.version) : s.version(SITE.version)}
           {released && `, ${released}`}
         </p>
         <h1 class="hero-title" lang={vi ? 'vi' : undefined}>
@@ -153,7 +154,7 @@ const legendScope = ['direct', 'adjacent', 'general'] as const;
       </div>
       <aside class="hero-note" aria-label={s.homeAbout}>
         {lede && <p class="lede" lang={contentLang} set:html={lede} />}
-        {coverDraft && (
+        {IS_DRAFT && coverDraft && (
           <p class="draft-note" lang={contentLang}>
             <strong>{vi ? SITE.draft_notice.vi : 'Draft for review.'}</strong>{' '}
             {vi ? s.draftNotice : coverDraft}

@@ -8,7 +8,7 @@ summary: "For founders. Pick a familiar food with a legal route today, need litt
 audiences: [startups]
 reading_time_min: 6
 key_numbers: [kn-tvp-cost, kn-china-share-plant-protein-ingredients, kn-cooling-penalty, kn-power-blended, kn-min-wage-2026, kn-protein-price-floor, kn-protein-cost-serving, kn-firm-outcomes, kn-tvp-line-capex, kn-food-law-window]
-related_pages: [ch01-why-vietnam, ch07-rules, ch10-technology-fit, ch26-plays, ch27-policy-options, ch21-frontier-technology, ch23-scenarios-2050, ch24-vision-2050, ch28-robust-moves, ch11-protein-diet, ch12-chay-baseline, ch14-frontier-demand, ch15-channels, ch16-business-buyers, ch25-demand-to-frontier, ch29-actor-check, front-exec-summary]
+related_pages: [ch01-why-vietnam, ch07-rules, ch10-technology-fit, ch26-plays, ch27-policy-options, app-s4-feedstocks, app-s5-facilities, app-s8-labs-talent, app-s11-capital, ch21-frontier-technology, ch23-scenarios-2050, ch24-vision-2050, ch28-robust-moves, ch11-protein-diet, ch12-chay-baseline, ch14-frontier-demand, ch15-channels, ch16-business-buyers, ch25-demand-to-frontier, ch29-actor-check, app-d2-consumer-evidence, front-exec-summary]
 charts: [chart-route-to-market]
 ---
 

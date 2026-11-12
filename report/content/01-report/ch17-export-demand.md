@@ -10,7 +10,7 @@ audiences: [startups, investors, policy, manufacturers, international, research]
 reading_time_min: 9
 key_numbers: [kn-textured-protein-exports, kn-stuffed-pasta-exports, kn-eu-tariff-edge, kn-us-301-tariff]
 related_data: [export_base.csv, destination_markets.csv, market_access.csv, wrapped_food_trade.csv, retailer_protein_split.csv, export_buyer_register.csv, origin_rules_by_agreement.csv, export_tariff_at_stake.csv, inactive_yeast_trade.csv, asc_feed_mills.csv, funding_programs.csv]
-related_pages: [ch03-regional, ch07-rules, ch16-business-buyers, ch25-demand-to-frontier]
+related_pages: [ch03-regional, ch07-rules, ch16-business-buyers, ch25-demand-to-frontier, app-d6-export, app-s3-regional, app-s6-feed-market, app-m4-actor-check-waves]
 charts: [chart-tariff-edge]
 ---
 

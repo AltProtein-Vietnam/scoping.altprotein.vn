@@ -10,7 +10,7 @@ audiences: [policy, investors, startups, manufacturers, international]
 reading_time_min: 9
 key_numbers: [kn-food-law-window, kn-cit-hightech, kn-fta-duty-china]
 related_data: [instruments.csv, routes.csv, policy_options.csv, tariffs.csv, ministries.csv, label_rules.csv, protein_tariffs_preferential.csv]
-related_pages: [ch27-policy-options, ch14-frontier-demand, ch15-channels]
+related_pages: [app-s9-regulation, ch27-policy-options, app-s10-admin-map, app-s3-regional, ch14-frontier-demand, ch15-channels]
 charts: [chart-route-to-market]
 ---
 

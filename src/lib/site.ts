@@ -92,7 +92,10 @@ export const ROLE = {
   actorCheck: 'ch29-actor-check',
 } as const;
 
-/** Pages that show the draft banner (the brief: the cover and the summary pages). */
+/** Versions before 1.0 are drafts: they show the draft banner and draft labels. */
+export const IS_DRAFT = SITE.status === 'draft';
+
+/** Pages that show the draft banner while the report is a draft (the cover and the summary pages). */
 export const DRAFT_BANNER_PAGES = new Set<string>([
   ROLE.cover,
   ROLE.twoMinute,

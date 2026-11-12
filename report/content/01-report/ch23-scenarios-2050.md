@@ -10,7 +10,7 @@ audiences: [policy, investors, international, startups, manufacturers, research]
 reading_time_min: 9
 key_numbers: [kn-anchoveta-2026, kn-no-regret-plays]
 related_data: [scenarios_2050.csv, signposts_2050.csv, play_robustness.csv, wildcards.csv, signals_register.csv, security_exposures.csv, route_input_origin.csv]
-related_pages: [ch19-outlook-2035, ch20-drivers-2050, ch01-why-vietnam, ch22-protein-balance-2050, ch28-robust-moves, ch26-plays]
+related_pages: [ch19-outlook-2035, ch20-drivers-2050, ch01-why-vietnam, ch22-protein-balance-2050, ch28-robust-moves, ch26-plays, app-m2-futures-method, app-f2-drivers-signals]
 charts: [chart-scenarios-2050, chart-play-robustness]
 ---
 

@@ -10,7 +10,7 @@ audiences: [research, policy, international, startups, investors]
 reading_time_min: 7
 key_numbers: [kn-novel-food-research-intensity, kn-ctu-places]
 related_data: [publications.csv, biblio_counts.csv, institutions.csv, research_funding.csv, pilot_labs.csv, talent.csv]
-related_pages: [ch27-policy-options, ch28-robust-moves]
+related_pages: [app-s7-research, app-s8-labs-talent, app-s13-science, ch27-policy-options, ch28-robust-moves]
 charts: [chart-research-benchmark]
 ---
 

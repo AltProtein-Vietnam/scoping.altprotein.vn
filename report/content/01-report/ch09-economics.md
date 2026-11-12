@@ -10,7 +10,7 @@ audiences: [investors, startups, manufacturers, policy, research]
 reading_time_min: 10
 key_numbers: [kn-power-blended, kn-min-wage-2026, kn-grid-emission-factor, kn-tvp-cost, kn-retail-protein-floor, kn-cooling-penalty, kn-tvp-line-capex, kn-t1-flour-breakeven]
 related_data: [cost_inputs.csv, commodity_prices.csv, tea_benchmarks.csv, ingredient_prices.csv, t1_cost_per_kg.csv, t1_equipment_listings.csv, t1_landed_competitor.csv, t1_margin_payback.csv, inactive_yeast_trade.csv, tariffs.csv]
-related_pages: [ch16-business-buyers, ch11-protein-diet, ch04-asset-map, ch10-technology-fit, ch26-plays]
+related_pages: [app-s12-costs, ch16-business-buyers, ch11-protein-diet, ch04-asset-map, ch10-technology-fit, ch26-plays, app-s6-feed-market]
 charts: [chart-cost-stack-fungal, chart-capex-per-tonne, chart-retail-price-per-protein]
 ---
 

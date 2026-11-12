@@ -10,7 +10,7 @@ audiences: [policy, international, research, investors]
 reading_time_min: 9
 key_numbers: [kn-food-law-window, kn-policy-options-count, kn-low-effort-options]
 related_data: [policy_options.csv, instruments.csv, routes.csv, ministries.csv, label_rules.csv, protein_quality.csv]
-related_pages: [ch07-rules, ch26-plays, brief-policy, brief-international, ch25-demand-to-frontier, ch28-robust-moves, app-r3-glossary]
+related_pages: [ch07-rules, app-s9-regulation, ch26-plays, brief-policy, brief-international, ch25-demand-to-frontier, ch28-robust-moves, app-r3-glossary]
 charts: [chart-policy-effort-impact]
 ---
 

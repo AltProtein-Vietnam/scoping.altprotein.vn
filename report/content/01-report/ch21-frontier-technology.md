@@ -10,7 +10,7 @@ audiences: [investors, startups, research, policy, manufacturers, international]
 reading_time_min: 10
 key_numbers: [kn-p2p-cost-vn-2050, kn-learning-rate-fermentation, kn-p2p-energy-per-mt, kn-vn-gas-protein-papers]
 related_data: [frontier_gas_tech.csv, frontier_bio_tech.csv, learning_rates.csv, feedstock_futures.csv, ai_biodesign_evidence.csv, approvals_trend.csv, biblio_trends_frontier.csv, frontier_windows.csv]
-related_pages: [ch09-economics, ch10-technology-fit, ch16-business-buyers, ch23-scenarios-2050]
+related_pages: [ch09-economics, ch10-technology-fit, ch16-business-buyers, app-f3-frontier-tech, app-f6-aquafeed-feedstock-futures, app-d8-demand-model, ch23-scenarios-2050]
 charts: [chart-frontier-windows]
 ---
 

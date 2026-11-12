@@ -6,9 +6,9 @@ section: front
 order: 3
 summary: "Vietnam's case for making protein at home is a security case, real but narrow. The first openings are domestic textured plant protein, a cassava-to-fermentation-sugar hub and shared pilot fermentation. Firms, not shoppers, would buy first, and the main public lever is the new Food Safety Law."
 audiences: [investors, policy, startups, manufacturers, research, international]
-reading_time_min: 14
+reading_time_min: 11
 key_numbers: [kn-actor-check, kn-fta-duty-china, kn-school-plant-days, kn-funder-fit, kn-meat-intake-2020, kn-soy-protein-import, kn-feed-import-bill, kn-cassava-pulp, kn-aerobic-volume, kn-retail-median-protein, kn-imported-protein-ingredient-share, kn-agritech-vc-2025, kn-hawkwood-regulatory-score, kn-food-law-window, kn-sbm-need-2050, kn-no-regret-moves, kn-analogue-price-gap, kn-intend-cut-meat, kn-china-plant-protein-tonnage, kn-demand-bench-2035, kn-protein-supply-imported, kn-animal-protein-on-imports, kn-soybean-import-dependence, kn-milk-self-sufficiency, kn-meat-imports-2025, kn-origin-price-support, kn-imported-meat-displaceable-2035, kn-pork-price-2020, kn-asf-recombinant-share, kn-asf-culls-vs-spared, kn-china-share-plant-protein-ingredients, kn-marine-stock-fall]
-related_pages: [front-prologue, front-at-a-glance, ch01-why-vietnam, ch11-protein-diet, ch20-drivers-2050, ch30-unknowns, ch29-actor-check, ch26-plays, ch27-policy-options, ch22-protein-balance-2050, ch23-scenarios-2050, ch24-vision-2050, ch28-robust-moves, ch18-demand-sizing, ch25-demand-to-frontier]
+related_pages: [front-prologue, front-at-a-glance, ch01-why-vietnam, ch11-protein-diet, ch20-drivers-2050, ch30-unknowns, ch29-actor-check, app-m4-actor-check-waves, ch26-plays, ch27-policy-options, ch22-protein-balance-2050, ch23-scenarios-2050, ch24-vision-2050, ch28-robust-moves, ch18-demand-sizing, ch25-demand-to-frontier, app-m5-changelog]
 charts: []
 ---
 

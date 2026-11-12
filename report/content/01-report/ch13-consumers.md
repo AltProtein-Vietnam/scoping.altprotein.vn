@@ -10,7 +10,7 @@ audiences: [startups, investors, research, manufacturers, policy, international]
 reading_time_min: 11
 key_numbers: [kn-intend-cut-meat, kn-pbm-weekly, kn-parity-choice, kn-search-ratio, kn-protein-cost-serving, kn-us-pbm-decline, kn-west-ceiling, kn-sugary-drink-excise, kn-high-protein-claim]
 related_data: [consumer_surveys.csv, consumer_barriers.csv, consumer_wtp.csv, launches_exits.csv, google_trends.csv, retail_demand_signals.csv, adoption_benchmarks.csv, price_elasticities.csv, plant_milk_excise.csv, plant_milk_sugar.csv, protein_claim_eligibility.csv, label_rules.csv, marketplace_sku_counters.csv, kitchen_platform_counters.csv, firm_outcomes.csv, firm_base_rates.csv, diet_quality_vietnam.csv]
-related_pages: [ch11-protein-diet, ch12-chay-baseline, ch14-frontier-demand, ch15-channels, ch18-demand-sizing]
+related_pages: [ch11-protein-diet, ch12-chay-baseline, ch14-frontier-demand, ch15-channels, ch18-demand-sizing, app-d2-consumer-evidence, app-d7-global-benchmarks, app-d3-retail-demand-signals]
 charts: [chart-pbm-funnel, chart-price-parity-choice, chart-search-interest, chart-protein-cost-serving, chart-us-pbm-trend]
 ---
 

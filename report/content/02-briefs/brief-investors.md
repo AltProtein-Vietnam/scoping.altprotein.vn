@@ -8,7 +8,7 @@ summary: "For venture capital, impact investors, private equity and development 
 audiences: [investors]
 reading_time_min: 6
 key_numbers: [kn-agritech-vc-2025, kn-food-law-window, kn-animal-protein-on-imports, kn-china-share-plant-protein-ingredients, kn-capital-charge-lever, kn-china-plant-protein-tonnage, kn-demand-bench-2035, kn-fta-duty-china, kn-tvp-line-capex, kn-t1-flour-breakeven]
-related_pages: [ch01-why-vietnam, ch08-capital, ch09-economics, ch26-plays, ch27-policy-options, ch21-frontier-technology, ch22-protein-balance-2050, ch23-scenarios-2050, ch24-vision-2050, ch28-robust-moves, ch14-frontier-demand, ch16-business-buyers, ch17-export-demand, ch18-demand-sizing, ch25-demand-to-frontier, ch29-actor-check, front-exec-summary]
+related_pages: [ch01-why-vietnam, ch08-capital, ch09-economics, ch26-plays, ch27-policy-options, app-s11-capital, app-s1-directory, ch21-frontier-technology, ch22-protein-balance-2050, ch23-scenarios-2050, ch24-vision-2050, ch28-robust-moves, ch14-frontier-demand, ch16-business-buyers, ch17-export-demand, ch18-demand-sizing, ch25-demand-to-frontier, ch29-actor-check, app-d5-buyers, front-exec-summary]
 charts: [chart-plays-scoring]
 ---
 

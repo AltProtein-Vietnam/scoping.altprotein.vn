@@ -10,7 +10,7 @@ audiences: [startups, manufacturers, investors, policy, research, international]
 reading_time_min: 13
 key_numbers: [kn-protein-ingredient-imports, kn-china-plant-protein-tonnage, kn-border-protein-price, kn-fta-duty-china, kn-vissan-soy-share, kn-imported-meat-displaceable-2035]
 related_data: [ingredient_imports.csv, meat_dairy_imports.csv, ingredient_prices.csv, buyer_map.csv, buyer_segments.csv, vissan_label_audit.csv, protein_tariffs_preferential.csv, t1_landed_competitor.csv, trade_seasonal_summary.csv, b2b_competitor_prices.csv, hybrid_savings.csv, hybrid_prize.csv, corporate_commitments.csv, private_label.csv, marketplace_sku_counters.csv]
-related_pages: [ch01-why-vietnam, ch02-alt-protein-today, ch26-plays, ch14-frontier-demand, ch15-channels, ch18-demand-sizing, ch25-demand-to-frontier, ch09-economics]
+related_pages: [ch01-why-vietnam, ch02-alt-protein-today, ch26-plays, ch14-frontier-demand, ch15-channels, ch18-demand-sizing, ch25-demand-to-frontier, app-d5-buyers, app-s2-retail-audit, app-s1-directory, ch09-economics]
 charts: [chart-plant-protein-imports, chart-ingredient-price-ladder]
 ---
 

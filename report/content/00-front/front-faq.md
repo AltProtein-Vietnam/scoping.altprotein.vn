@@ -6,9 +6,9 @@ section: front
 order: 9
 summary: "Short answers to the questions people ask most about the report, alternative protein, Vietnam's prospects and food security, with links to the full answers."
 audiences: [investors, policy, startups, manufacturers, research, international]
-reading_time_min: 8
+reading_time_min: 7
 key_numbers: []
-related_pages: [front-two-minute, front-prologue, front-how-to-read, front-exec-summary, ch01-why-vietnam, ch26-plays, ch27-policy-options, ch18-demand-sizing, ch28-robust-moves, ch30-unknowns]
+related_pages: [front-two-minute, front-prologue, front-how-to-read, front-exec-summary, app-m1-method, app-m5-changelog, ch01-why-vietnam, ch26-plays, ch27-policy-options, ch18-demand-sizing, ch28-robust-moves, ch30-unknowns]
 charts: []
 ---
 

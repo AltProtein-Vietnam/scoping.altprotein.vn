@@ -10,7 +10,7 @@ audiences: [startups, investors, research, policy, manufacturers, international]
 reading_time_min: 10
 key_numbers: [kn-meat-intake-2020, kn-animal-protein-share, kn-soybean-import-dependence, kn-meat-growth-2035, kn-protein-price-floor, kn-analogue-price-gap, kn-stunting]
 related_data: [demand_protein_intake.csv, protein_supply_by_source.csv, self_sufficiency_by_food.csv, disease_shocks.csv, demand_protein_prices.csv, demand_food_spending.csv, demand_protein_ladder.csv, demand_drivers.csv, diet_quality_vietnam.csv, upland_school_weeks.csv, protein_quality.csv, protein_food_micronutrients.csv, nutrition_trials.csv, public_meal_rules.csv, hybrid_savings.csv]
-related_pages: [ch12-chay-baseline, ch13-consumers, ch14-frontier-demand, ch15-channels, ch18-demand-sizing, ch22-protein-balance-2050, ch09-economics]
+related_pages: [app-d1-diet-chay-prices, ch12-chay-baseline, ch13-consumers, ch14-frontier-demand, ch15-channels, ch18-demand-sizing, ch22-protein-balance-2050, ch09-economics]
 charts: [chart-protein-price-ladder, chart-animal-protein-ladder]
 ---
 

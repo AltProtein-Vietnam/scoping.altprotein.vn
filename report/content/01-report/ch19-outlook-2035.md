@@ -10,7 +10,7 @@ audiences: [investors, policy, international, startups, manufacturers, research]
 reading_time_min: 7
 key_numbers: [kn-food-law-window, kn-population-2035, kn-feed-target-2030]
 related_data: [milestones.csv, outlook.csv, timeline.csv]
-related_pages: [ch27-policy-options, ch30-unknowns, ch23-scenarios-2050, ch18-demand-sizing, ch26-plays]
+related_pages: [app-f1-outlook, ch27-policy-options, ch30-unknowns, ch23-scenarios-2050, ch18-demand-sizing, ch26-plays]
 charts: [chart-milestones-timeline, chart-scenarios]
 ---
 

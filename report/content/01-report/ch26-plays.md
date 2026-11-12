@@ -10,7 +10,7 @@ audiences: [investors, startups, manufacturers, policy, research, international]
 reading_time_min: 17
 key_numbers: [kn-plays-count, kn-top-play-balanced]
 related_data: [plays.csv, solutions_screen.csv, play_criteria.csv, play_weight_presets.csv, policy_options.csv, play_demand_check.csv, t1_cost_per_kg.csv, t1_margin_payback.csv, t1_equipment_listings.csv]
-related_pages: [ch10-technology-fit, ch27-policy-options, brief-investors, brief-startups, brief-manufacturers, ch25-demand-to-frontier, ch23-scenarios-2050, ch28-robust-moves]
+related_pages: [ch10-technology-fit, app-s14-solutions-screen, ch27-policy-options, brief-investors, brief-startups, brief-manufacturers, ch25-demand-to-frontier, ch23-scenarios-2050, ch28-robust-moves, app-m5-changelog]
 charts: [chart-plays-scoring, chart-plays-horizon]
 ---
 

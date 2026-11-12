@@ -10,7 +10,7 @@ audiences: [investors, startups, manufacturers, policy, research, international]
 reading_time_min: 6
 key_numbers: [kn-retail-median-protein, kn-imported-protein-ingredient-share, kn-china-tvp-exports, kn-vinasoy-share]
 related_data: [retail_audit_skus.csv, brands.csv, ingredient_suppliers.csv, companies.csv, timeline.csv]
-related_pages: [ch26-plays, ch05-industrial-base, ch11-protein-diet, ch13-consumers]
+related_pages: [app-s2-retail-audit, app-s1-directory, ch26-plays, ch05-industrial-base, ch11-protein-diet, ch13-consumers, app-d3-retail-demand-signals]
 charts: [chart-retail-protein-archetypes, chart-retail-price-per-protein, chart-timeline]
 ---
 

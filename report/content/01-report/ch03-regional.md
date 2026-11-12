@@ -10,7 +10,7 @@ audiences: [investors, policy, startups, international, manufacturers]
 reading_time_min: 9
 key_numbers: [kn-hawkwood-regulatory-score, kn-sfa-approvals, kn-cassava-starch-exports, kn-food-protein-ingredient-imports-2023, kn-labour-share-cost]
 related_data: [countries.csv, approvals.csv, facilities_regional.csv, trade_flows.csv]
-related_pages: [ch07-rules, ch09-economics, ch27-policy-options, brief-international, ch17-export-demand]
+related_pages: [app-s3-regional, ch07-rules, ch09-economics, ch27-policy-options, brief-international, ch17-export-demand]
 charts: [chart-hawkwood-scores, chart-regional-approvals, chart-cassava-starch-trade]
 ---
 

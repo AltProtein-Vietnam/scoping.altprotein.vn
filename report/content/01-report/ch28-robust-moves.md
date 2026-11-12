@@ -10,7 +10,7 @@ audiences: [policy, international, investors, manufacturers, startups, research]
 reading_time_min: 10
 key_numbers: [kn-no-regret-moves, kn-capital-charge-lever]
 related_data: [robust_moves.csv, play_robustness.csv, signposts_2050.csv, vision_milestones.csv, policy_options.csv, protein_supply_by_source.csv, self_sufficiency_by_food.csv, animal_protein_import_reliance.csv]
-related_pages: [ch01-why-vietnam, ch06-knowledge-talent, ch27-policy-options, ch23-scenarios-2050, ch24-vision-2050, ch26-plays, ch22-protein-balance-2050]
+related_pages: [ch01-why-vietnam, ch06-knowledge-talent, ch27-policy-options, ch23-scenarios-2050, ch24-vision-2050, ch26-plays, ch22-protein-balance-2050, app-m2-futures-method, app-r1-open-questions]
 charts: [chart-robust-moves]
 ---
 

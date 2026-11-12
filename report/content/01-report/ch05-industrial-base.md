@@ -10,7 +10,7 @@ audiences: [investors, startups, manufacturers, policy, international]
 reading_time_min: 6
 key_numbers: [kn-aerobic-volume, kn-feed-mills, kn-val-crush]
 related_data: [facilities.csv, fermentation_volume_estimate.csv, pilot_labs.csv, companies.csv]
-related_pages: [ch06-knowledge-talent, ch26-plays]
+related_pages: [app-s5-facilities, app-s8-labs-talent, ch06-knowledge-talent, ch26-plays, app-s6-feed-market]
 charts: [chart-capability-matrix]
 ---
 

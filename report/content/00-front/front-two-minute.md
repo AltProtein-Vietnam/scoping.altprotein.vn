@@ -6,7 +6,7 @@ section: front
 order: 2
 summary: "The whole report on one screen: why Vietnam, what it could make, who would buy it, what stands in the way, what to do first and what 2050 looks like."
 audiences: [investors, policy, startups, manufacturers, research, international]
-reading_time_min: 2
+reading_time_min: 3
 key_numbers: [kn-soy-protein-import, kn-animal-protein-on-imports, kn-demand-bench-2035, kn-sbm-need-2050]
 related_pages: [front-exec-summary, front-prologue, front-faq, ch01-why-vietnam, ch26-plays, ch27-policy-options, ch18-demand-sizing, ch22-protein-balance-2050, ch28-robust-moves]
 charts: []

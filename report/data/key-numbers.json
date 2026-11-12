@@ -353,7 +353,7 @@
   "value_high": 34000,
   "unit": "m3",
   "as_of": "2026",
-  "context": "Our modelled 2026 estimate from published and assumed plant capacities for sterile, aerated tanks (Vedan's current capacity assumed; see fermentation_volume_estimate.csv). Almost all of it sits inside Vedan, Ajinomoto and Daesang, and we found no published offer of contract fermentation.",
+  "context": "Our modelled 2026 estimate from published and assumed plant capacities for sterile, aerated tanks. Almost all of it sits inside Vedan, Ajinomoto and Daesang, and we found no published offer of contract fermentation.",
   "source_ids": [
    "IND-08",
    "IND-01",
@@ -550,7 +550,7 @@
   "value_high": null,
   "unit": "date",
   "as_of": "September 2026",
-  "context": "The National Assembly Standing Committee agreed on 24 September 2026 to take first comments at the October 2026 session and to consider passage at the May 2027 session, so a new-food clause needs to be in the draft revised between the two sessions, in practice by early 2027. The draft was notified to the WTO in August 2026.",
+  "context": "The National Assembly agreed in September 2026 to take first comments in October 2026 and to consider passage in May 2027. So a new-food clause needs to be in the draft by early 2027.",
   "source_ids": [
    "REG-12",
    "REG2-04",
@@ -916,7 +916,7 @@
   "value_high": 5310000,
   "unit": "VND per month",
   "as_of": "2026",
-  "context": "From 1 January 2026 under Decree 293/2025, about USD 204. Earlier drafts used the 2024 to 2025 level of VND 4,960,000. Labour is a small share of fermentation cost.",
+  "context": "From 1 January 2026, about USD 204 a month. Labour is a small share of fermentation cost.",
   "source_ids": [
    "COST-19",
    "COST-20"
@@ -1170,7 +1170,7 @@
   "value_high": 29,
   "unit": "times",
   "as_of": "2026",
-  "context": "Our calculation: a modelled USD 37 to 51 per kg of wet cells (factory cost) against Vietnamese retail prices of lean pork and chicken breast in September 2026 gives 7 to 15 times. On the cost model's own doubling from factory to shelf, the gap is about 15 to 29 times (v0.10; shelf basis Low). The model's author sets an affordability target of about USD 25 per kg of cells, which both base cases exceed. There is no near-term production case.",
+  "context": "Our calculation: a modelled factory cost of USD 37 to 51 per kg of cells, against Vietnamese shop prices of lean pork and chicken breast in September 2026, gives 7 to 15 times. Compared shelf to shelf, the gap is about 15 to 29 times. Both modelled cases miss the model author's own affordability target, so there is no near-term production case.",
   "source_ids": [
    "COST-47",
    "COST-39",
@@ -1195,7 +1195,7 @@
   "value_high": 7,
   "unit": "count",
   "as_of": "Oct 2026",
-  "context": "Our count from plays.csv (October 2026): seven businesses or programmes for protein people eat, each with conditions, kill tests, first customers and a horizon, plus four public goods that lower the cost of all of them. Three feed plays and two feed public goods assessed earlier are kept in the file as the record but no longer recommended.",
+  "context": "Our count (October 2026): seven businesses or programmes for protein people eat, each with conditions, kill tests, first customers and a horizon, plus four public goods that lower the cost of all of them.",
   "source_ids": [],
   "derived": true,
   "evidence": "VN-direct",
@@ -1236,7 +1236,7 @@
   "value_high": 34,
   "unit": "count",
   "as_of": "Oct 2026",
-  "context": "Our count from policy_options.csv (October 2026): 34 options, of which chapter 27 ranks 19 (PO-034, a directed NAFOSTED research call added in v0.10, is not yet ranked); nine earlier options are superseded by more specific ones and five feed options are kept as the record but no longer ranked.",
+  "context": "Our count (October 2026): 34 options, of which chapter 27 ranks 19. One newer option, a themed research call, is not yet ranked; the rest were merged into more specific options or concerned feed.",
   "source_ids": [],
   "derived": true,
   "evidence": "VN-direct",
@@ -1256,7 +1256,7 @@
   "value_high": 13,
   "unit": "count",
   "as_of": "Oct 2026",
-  "context": "Derived from policy_options.csv: ranked options rated Low effort (a letter, guidance or list update), as of October 2026. The report text does not state this total; ranks 1 and 2 are low effort.",
+  "context": "Our count of ranked options rated low effort (a letter, guidance or list update), as of October 2026. The top two options are both low effort.",
   "source_ids": [],
   "derived": true,
   "evidence": "VN-direct",
@@ -1347,7 +1347,7 @@
   "value_high": 520,
   "unit": "count",
   "as_of": "Oct 2026",
-  "context": "Our count of active rows in open_questions.csv (v0.10, October 2026), including 28 added by the futures round, 114 by the demand round, 107 by the actor check and expansion waves 7 to 9, 70 by the v0.7 citation check, 26 by the food-security round (wave 11) one added in consolidation (OQ-473), 3 by the regional deals round (wave 12) and 48 by the solutions screen (wave 13). Each question records why it matters, the cheapest way to close it and who to ask; chapter 30 ranks the eighteen questions that matter most.",
+  "context": "Our count of open questions recorded across thirteen research rounds (October 2026). Each records why it matters, the cheapest way to close it and who to ask; chapter 30 ranks the eighteen that matter most.",
   "source_ids": [],
   "derived": true,
   "evidence": "VN-direct",
@@ -1369,7 +1369,7 @@
   "value_high": 393,
   "unit": "count",
   "as_of": "Oct 2026",
-  "context": "Our count of active rows in disagreements.csv (v0.10, October 2026), including 28 added by the futures round, 89 by the demand round, 93 by the actor check and expansion waves 7 to 9 21 by the food-security round (wave 11), 4 by the regional deals round (wave 12) and 21 by the solutions screen (wave 13). Each entry gives both claims and the position we took; we never average disagreeing numbers.",
+  "context": "Our count of disagreements between sources recorded across the research rounds (October 2026). Each gives both claims and the position we took; we never average disagreeing numbers.",
   "source_ids": [],
   "derived": true,
   "evidence": "VN-direct",
@@ -1391,7 +1391,7 @@
   "value_high": 2669,
   "unit": "count",
   "as_of": "Oct 2026",
-  "context": "Our count of active rows in sources.csv (v0.10): 571 sources from wave 1 and 194 from wave 2 (v0.1), 469 from the futures round (waves 3 to 5, v0.2), 450 from the demand round (wave 6, v0.3), 573 from the actor check and expansion waves 7 to 9 (v0.4), 81 from the prologue research (wave 10, v0.5) 96 from the food-security round (wave 11, v0.8, six of them from its editorial checks), 50 from the regional deals round (wave 12, v0.9) and 185 from the solutions screen (wave 13, v0.10), including press, peer-reviewed papers, company pages, statistics and legal texts.",
+  "context": "Our count of sources cited across thirteen research rounds, including press, peer-reviewed papers, company pages, statistics and legal texts. Every source is in the source list.",
   "source_ids": [],
   "derived": true,
   "evidence": "VN-direct",
@@ -1714,7 +1714,7 @@
   "value_high": 11.7,
   "unit": "Mt",
   "as_of": "2025 base",
-  "context": "S-EFF 7.0, S-ALT 8.8, S-BASE 10.4, S-HIGH 11.7 Mt. Only the efficiency scenario keeps soybean-meal import need (meal plus crushed beans) at or below the 2025 level of 7.2 Mt. Our estimate from the balance model (app-f4-balance-model); QNT-01 is used only for calibration to 2035.",
+  "context": "S-EFF 7.0, S-ALT 8.8, S-BASE 10.4, S-HIGH 11.7 Mt. Only the efficiency scenario keeps soybean meal import need at or below the 2025 level of 7.2 Mt. Our estimate from the balance model; QNT-01 is used only to calibrate it to 2035.",
   "source_ids": [
    "QNT-01"
   ],
@@ -1766,7 +1766,7 @@
   "value_high": 3.4,
   "unit": "Mt soybean meal",
   "as_of": "2050",
-  "context": "Against trend, feed conversion improving 1.0% a year (livestock) and 0.8% (aquaculture) instead of 0.4% and 0.3%, and soybean-meal inclusion falling 1% a year, save 3.4 Mt in 2050; replacing 10% of soybean-meal protein, 40% of fishmeal protein and 10% of meat demand with alternatives saves 1.6 Mt. The two act through different channels (combined case not modelled). Our estimate from the balance model (tools/balance_model.py, app-f4-balance-model); QNT-01 is used only for 2025 to 2035 calibration.",
+  "context": "Faster gains in feed conversion and less soybean meal per tonne of feed save 3.4 Mt in 2050. Replacing 10% of soybean meal protein, 40% of fishmeal protein and 10% of meat demand with alternatives saves 1.6 Mt. The two act through different channels; we did not model them together. Our estimate from the balance model; QNT-01 is used only to calibrate it to 2035.",
   "source_ids": [
    "QNT-01"
   ],
@@ -1841,7 +1841,7 @@
   "value_high": 32,
   "unit": "Mt",
   "as_of": "2023 (Decision 1625)",
-  "context": "Decision 1625/QD-TTg sets 24 to 25 Mt of industrial livestock feed for 2025 (probably missed: about 21.5 Mt in 2024) and 30 to 32 Mt for 2030. Our model gives 26.4 Mt of livestock and poultry feed in 2030. Answers OQ-127 at Medium confidence.",
+  "context": "A 2023 scheme sets 24 to 25 Mt of industrial livestock feed for 2025 (probably missed: about 21.5 Mt in 2024) and 30 to 32 Mt for 2030. Our model gives 26.4 Mt of livestock and poultry feed in 2030.",
   "source_ids": [
    "NTS-23",
    "REG-54",
@@ -2849,7 +2849,7 @@
   "value_high": 19.05,
   "unit": "kt protein",
   "as_of": "2035",
-  "context": "Demand model (demand_outputs.csv), scenario D-BENCH. Most delivered protein replaces imported ingredients; about 11,000 to 17,000 t of it would be made in Vietnam (v0.4 reading: only import substitution applies an explicit domestic share). Displacement falls to about 2,290 t if school sales into the plant-protein slot displace tofu, not meat. The Part IV S-ALT scenario assumes 39,300 t (3%) displaced in 2035. Our estimate, not a forecast.",
+  "context": "Our demand model, benchmark path. Most delivered protein replaces imported ingredients; about 11,000 to 17,000 t of it would be made in Vietnam. The Part IV alternative-protein scenario assumes 39,300 t (3%) displaced in 2035. Our estimate, not a forecast.",
   "source_ids": [
    "BUY-02",
    "CHY-06",
@@ -2884,7 +2884,7 @@
   "value_high": 74,
   "unit": "% of processed meat",
   "as_of": "2030",
-  "context": "Alternatives: 39% of all canteen and school meal protein; about 131 million regular analogue buyers; or about 0.43 extra chay days per person per month. Our estimate (demand model, demand_outputs.csv).",
+  "context": "Alternatives: 39% of all canteen and school meal protein; about 131 million regular buyers of meat copies; or about five extra chay days per person a year. Our estimate from the demand model.",
   "source_ids": [
    "BUY-04",
    "CHN-37",
@@ -2904,14 +2904,14 @@
  },
  {
   "id": "kn-actor-check",
-  "label": "Actor questions that Part III (v0.3) answered in full",
+  "label": "Actor questions that Part III answered in full",
   "label_vi": "Số câu hỏi của các bên liên quan được Phần III (phiên bản 0.3) trả lời đầy đủ",
   "value": "1 of 118",
   "value_low": 1,
   "value_high": 118,
   "unit": "questions",
   "as_of": "September 2026",
-  "context": "80 named actors in four groups; Part III partly answered 71 questions and did not answer 42; 4 were out of scope. Our assessment (actor_questions.csv; ch29-actor-check).",
+  "context": "80 named actors in four groups; Part III partly answered 71 questions and did not answer 42; 4 were out of scope. Our assessment.",
   "source_ids": [],
   "derived": true,
   "evidence": "VN-direct",
@@ -2988,7 +2988,7 @@
   "value_high": 99.2,
   "unit": "meals",
   "as_of": "2026",
-  "context": "Our coding of published menus (upland_school_weeks.csv): 13 ethnic-minority boarding schools in five provinces, 22 published school-weeks; pork was in 102 of 124 lunches (82%); 86% of breakfasts had little or no animal food.",
+  "context": "Our coding of published menus from 13 ethnic-minority boarding schools in five provinces: pork was in 102 of 124 lunches (82%), and 86% of breakfasts had little or no animal food.",
   "source_ids": [
    "UPL-01",
    "UPL-02",
@@ -3163,7 +3163,7 @@
   "value_high": 19,
   "unit": "moves",
   "as_of": "September 2026",
-  "context": "Our coding of funder scopes (funder_fit.csv). Consumer-acceptance studies and a label test are judged to fit the Bezos Centre at NUS; naming and novel-food rules fit Nova Vista. Diet-change and culture-change work is excluded by Nova Vista and ACE Movement Grants; ReRoot Asia has no Vietnam track. Of the two moves added in v0.4, DMV-20 has no external payer and DMV-21 needs none.",
+  "context": "Our coding of funder scopes. Consumer studies and a label test fit the Bezos Centre in Singapore; naming and novel-food rules fit Nova Vista. Diet-change work is excluded by the main funders that cover Vietnam.",
   "source_ids": [
    "AFN-05",
    "AFN-15",
@@ -3248,7 +3248,7 @@
   "value_high": 4,
   "unit": "firms",
   "as_of": "September 2026",
-  "context": "From our firm register (firm_outcomes.csv): all three Vietnamese makers of traditional formats are active. Of 24 regional and Vietnamese firms since 2019, 7 are active, 4 pivoted (all towards private label, co-manufacturing, a retail blend or non-food), 2 exited and 11 are dormant. One dormant firm (Bien Phuong) has an unknown first channel, so the channel rows in Appendix D4 sum to 23 firms and 10 dormant.",
+  "context": "From our firm register: of 24 regional and Vietnamese alternative-protein firms since 2019, 7 are active, 4 pivoted, 2 exited and 11 show no recent activity. All three Vietnamese makers of familiar foods are active.",
   "source_ids": [
    "AIS-28",
    "AIS-39",
@@ -4034,7 +4034,7 @@
   "value_high": 170,
   "unit": "count",
   "as_of": "Oct 2026",
-  "context": "Our count from solutions_screen.csv (research wave 13, October 2026): the 112 entries of the Good Food Institute's Solutions Database and 58 publications, research outputs and grants from The Protein Project, the Berkeley Alt:Meat Lab and Coefficient Giving's grantees. 35 strengthen an existing play, public good, move or rule; three candidates (T11, T12, P7) are listed but not ranked; none displaces the leading plays.",
+  "context": "Our count (October 2026): the 112 entries of the Good Food Institute's Solutions Database and 58 publications, research outputs and grants from three other sources. Three candidates are listed but not ranked; none displaces the leading plays.",
   "source_ids": [
    "GSD-01"
   ],

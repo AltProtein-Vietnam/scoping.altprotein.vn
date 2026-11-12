@@ -10,7 +10,7 @@ audiences: [research, policy, investors, startups, international, manufacturers]
 reading_time_min: 7
 key_numbers: [kn-open-questions, kn-disagreements]
 related_data: [open_questions.csv, disagreements.csv]
-related_pages: [ch01-why-vietnam, ch26-plays, ch28-robust-moves, ch25-demand-to-frontier, ch29-actor-check]
+related_pages: [app-r1-open-questions, app-r2-disagreements, app-m1-method, ch01-why-vietnam, ch26-plays, ch28-robust-moves, ch25-demand-to-frontier, ch29-actor-check]
 charts: []
 ---
 

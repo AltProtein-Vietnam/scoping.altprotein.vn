@@ -8,7 +8,7 @@ summary: "For policy makers in Vietnam and abroad. Most of the fix is cheap: a n
 audiences: [policy]
 reading_time_min: 7
 key_numbers: [kn-meat-intake-2020, kn-soy-protein-import, kn-feed-import-bill, kn-protein-supply-imported, kn-animal-protein-on-imports, kn-pork-price-2020, kn-asf-recombinant-share, kn-asf-culls-vs-spared, kn-china-share-plant-protein-ingredients, kn-meat-imports-2025, kn-origin-price-support, kn-feed-target-2030, kn-food-law-window, kn-hawkwood-regulatory-score, kn-no-regret-moves, kn-sbm-need-2050, kn-chay-days-share, kn-canteen-meals, kn-school-plant-days, kn-sugary-drink-excise, kn-fta-duty-china]
-related_pages: [ch01-why-vietnam, ch07-rules, ch26-plays, ch27-policy-options, ch19-outlook-2035, ch20-drivers-2050, ch22-protein-balance-2050, ch24-vision-2050, ch28-robust-moves, ch11-protein-diet, ch12-chay-baseline, ch13-consumers, ch15-channels, ch17-export-demand, ch18-demand-sizing, ch25-demand-to-frontier, ch29-actor-check, front-exec-summary]
+related_pages: [ch01-why-vietnam, ch07-rules, app-d8-demand-model, ch26-plays, ch27-policy-options, ch19-outlook-2035, app-s9-regulation, app-s10-admin-map, ch20-drivers-2050, ch22-protein-balance-2050, ch24-vision-2050, ch28-robust-moves, app-f5-targets-hubs, ch11-protein-diet, ch12-chay-baseline, ch13-consumers, ch15-channels, ch17-export-demand, ch18-demand-sizing, ch25-demand-to-frontier, ch29-actor-check, front-exec-summary, app-d4-channels]
 charts: [chart-policy-effort-impact]
 ---
 

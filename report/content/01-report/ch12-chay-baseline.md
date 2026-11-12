@@ -10,7 +10,7 @@ audiences: [startups, manufacturers, investors, research, policy, international]
 reading_time_min: 10
 key_numbers: [kn-chay-days-share, kn-vu-lan-uplift, kn-chay-listings, kn-soy-milk-market, kn-flesh-free-days, kn-meat-in-chay-cases]
 related_data: [chay_practice.csv, chay_market.csv, demand_food_spending.csv, retail_demand_signals.csv, diet_quality_vietnam.csv, trade_seasonal_summary.csv, filler_trust_register.csv, label_rules.csv, protein_claim_eligibility.csv, private_label.csv]
-related_pages: [ch02-alt-protein-today, ch11-protein-diet, ch13-consumers, ch18-demand-sizing, ch25-demand-to-frontier]
+related_pages: [ch02-alt-protein-today, ch11-protein-diet, ch13-consumers, ch18-demand-sizing, ch25-demand-to-frontier, app-d1-diet-chay-prices, app-d3-retail-demand-signals]
 charts: [chart-tofu-by-region]
 ---
 

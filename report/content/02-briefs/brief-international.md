@@ -8,7 +8,7 @@ summary: "For international organisations and development finance. Outside help 
 audiences: [international]
 reading_time_min: 6
 key_numbers: [kn-meat-intake-2020, kn-feed-import-bill, kn-animal-protein-on-imports, kn-asf-culls-vs-spared, kn-china-share-plant-protein-ingredients, kn-agritech-vc-2025, kn-hawkwood-regulatory-score, kn-food-law-window, kn-no-regret-moves, kn-delta-subsidence, kn-chay-days-share, kn-demand-bench-2035, kn-funder-fit, kn-animals-spared-2035, kn-co2e-avoided-2035]
-related_pages: [ch01-why-vietnam, ch08-capital, ch03-regional, ch26-plays, ch27-policy-options, ch22-protein-balance-2050, ch24-vision-2050, ch28-robust-moves, ch11-protein-diet, ch12-chay-baseline, ch15-channels, ch18-demand-sizing, ch25-demand-to-frontier, ch29-actor-check, front-exec-summary]
+related_pages: [ch01-why-vietnam, app-d8-demand-model, ch08-capital, ch03-regional, ch26-plays, ch27-policy-options, app-s11-capital, app-s3-regional, ch22-protein-balance-2050, ch24-vision-2050, ch28-robust-moves, app-f5-targets-hubs, ch11-protein-diet, ch12-chay-baseline, ch15-channels, ch18-demand-sizing, ch25-demand-to-frontier, ch29-actor-check, app-d6-export, front-exec-summary]
 charts: [chart-hawkwood-scores]
 ---
 

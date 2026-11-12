@@ -10,7 +10,7 @@ audiences: [investors, startups, manufacturers, research, policy, international]
 reading_time_min: 9
 key_numbers: [kn-pf-titer-gap, kn-mung-diaas, kn-cultivated-cost-multiple]
 related_data: [science_facts.csv, publications.csv, tea_benchmarks.csv, instruments.csv]
-related_pages: [ch06-knowledge-talent, ch07-rules, ch09-economics, ch26-plays]
+related_pages: [app-s13-science, ch06-knowledge-talent, ch07-rules, ch09-economics, ch26-plays]
 charts: [chart-technology-fit-matrix]
 ---
 

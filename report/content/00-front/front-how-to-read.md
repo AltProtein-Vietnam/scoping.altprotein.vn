@@ -6,9 +6,9 @@ section: front
 order: 8
 summary: "What the report covers, how it is organised, what the evidence tags and codes mean, and the conventions for numbers and names."
 audiences: [investors, policy, startups, manufacturers, research, international]
-reading_time_min: 9
+reading_time_min: 7
 key_numbers: []
-related_pages: [front-two-minute, front-prologue, front-faq, app-r3-glossary, app-r4-sources]
+related_pages: [front-two-minute, front-prologue, front-faq, app-m1-method, app-m2-futures-method, app-m3-demand-method, app-m4-actor-check-waves, app-m5-changelog, app-r3-glossary, app-r4-sources]
 charts: []
 ---
 

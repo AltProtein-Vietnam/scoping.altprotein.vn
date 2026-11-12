@@ -10,7 +10,7 @@ audiences: [investors, policy, startups, manufacturers, research, international]
 reading_time_min: 8
 key_numbers: [kn-actor-check, kn-school-plant-days, kn-fta-duty-china, kn-funder-fit, kn-animals-spared-2035]
 related_data: [actor_register.csv, actor_questions.csv, expansion_lines.csv, funder_fit.csv, public_meal_rules.csv, label_rules.csv, corporate_commitments.csv, firm_outcomes.csv]
-related_pages: [ch25-demand-to-frontier, ch15-channels, ch16-business-buyers, ch18-demand-sizing, ch14-frontier-demand, ch17-export-demand, ch11-protein-diet]
+related_pages: [app-m4-actor-check-waves, ch25-demand-to-frontier, ch15-channels, ch16-business-buyers, ch18-demand-sizing, ch14-frontier-demand, ch17-export-demand, ch11-protein-diet, app-r1-open-questions]
 charts: [chart-actor-coverage]
 ---
 

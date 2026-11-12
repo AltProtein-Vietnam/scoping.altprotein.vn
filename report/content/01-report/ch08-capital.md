@@ -10,7 +10,7 @@ audiences: [investors, startups, policy, international]
 reading_time_min: 6
 key_numbers: [kn-vn-vc-2025, kn-agritech-vc-2025, kn-global-altprotein-2025]
 related_data: [deals.csv, regional_deals.csv, investors.csv, funding_programs.csv, funder_profiles.csv, funder_fit.csv, instruments.csv]
-related_pages: [ch26-plays, brief-investors, ch29-actor-check]
+related_pages: [app-s11-capital, ch26-plays, brief-investors, ch29-actor-check]
 charts: [chart-vn-vc-agritech, chart-global-altprotein-investment]
 ---
 

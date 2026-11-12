@@ -10,7 +10,7 @@ audiences: [policy, investors, manufacturers, research, international, startups]
 reading_time_min: 9
 key_numbers: [kn-meat-protein-on-imports-2050, kn-sbm-need-2050, kn-sbm-range-2050, kn-land-abroad-feed]
 related_data: [balance_outputs.csv, demand_outputs.csv, meat_protein_on_imports_projection.csv, animal_protein_import_reliance.csv, self_sufficiency_by_food.csv, balance_assumptions.csv, balance_sensitivity.csv, balance_published_projections.csv, protein_crops_vn.csv, protein_strategies_benchmark.csv]
-related_pages: [ch18-demand-sizing, ch11-protein-diet, ch19-outlook-2035, ch23-scenarios-2050, ch24-vision-2050, ch28-robust-moves, ch30-unknowns]
+related_pages: [ch18-demand-sizing, ch11-protein-diet, ch19-outlook-2035, ch23-scenarios-2050, ch24-vision-2050, ch28-robust-moves, ch30-unknowns, app-f4-balance-model, app-d8-demand-model, app-f6-aquafeed-feedstock-futures, app-s6-feed-market]
 charts: []
 ---
 

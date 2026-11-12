@@ -10,7 +10,7 @@ audiences: [policy, international, investors, research, manufacturers, startups]
 reading_time_min: 10
 key_numbers: [kn-protein-plan-horizons, kn-vision-protein-new-routes-2050, kn-vision-made-in-vietnam-2050, kn-vision-domestic-ingredient-share-2050, kn-demand-bench-2035]
 related_data: [vision_milestones.csv, demand_outputs.csv, demand_assumptions.csv, protein_strategies_benchmark.csv, foresight_methods.csv, national_targets_2050.csv, candidate_hubs.csv, signposts_2050.csv, play_robustness.csv]
-related_pages: [ch18-demand-sizing, ch22-protein-balance-2050, ch23-scenarios-2050, ch26-plays, ch27-policy-options, ch28-robust-moves]
+related_pages: [ch18-demand-sizing, app-d8-demand-model, ch22-protein-balance-2050, ch23-scenarios-2050, ch26-plays, ch27-policy-options, ch28-robust-moves, app-f5-targets-hubs, app-m2-futures-method]
 charts: [chart-vision-backcast]
 ---
 

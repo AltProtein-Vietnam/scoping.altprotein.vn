@@ -10,7 +10,7 @@ audiences: [investors, policy, startups, manufacturers, research, international]
 reading_time_min: 12
 key_numbers: [kn-meat-intake-2020, kn-animal-protein-share, kn-protein-supply-imported, kn-milk-self-sufficiency, kn-meat-imports-2025, kn-beef-import-share, kn-dairy-imports-2025, kn-animal-protein-on-imports, kn-soy-protein-import, kn-corn-import-share, kn-feed-import-bill, kn-pork-price-2020, kn-china-share-plant-protein-ingredients, kn-asf-culls-vs-spared, kn-origin-price-support, kn-imported-meat-displaceable-2035, kn-feed-output-2025, kn-pork-output-2025, kn-seafood-exports-2025, kn-livestock-ghg-share]
 related_data: [demand_protein_intake.csv, protein_supply_by_source.csv, self_sufficiency_by_food.csv, animal_protein_import_reliance.csv, meat_dairy_imports.csv, origin_support.csv, macro_indicators.csv, feed_imports.csv, disease_shocks.csv, security_exposures.csv, route_input_origin.csv, protein_import_concentration.csv, outlook.csv]
-related_pages: [ch11-protein-diet, ch22-protein-balance-2050, ch04-asset-map, ch09-economics]
+related_pages: [ch11-protein-diet, ch22-protein-balance-2050, app-s6-feed-market, app-f1-outlook, ch04-asset-map, ch09-economics]
 charts: [chart-animal-protein-output, chart-feed-import-dependence]
 ---
 

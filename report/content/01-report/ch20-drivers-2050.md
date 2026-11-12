@@ -10,7 +10,7 @@ audiences: [policy, investors, international, research, manufacturers, startups]
 reading_time_min: 11
 key_numbers: [kn-working-age-peak, kn-ag-emissions-cap-2050, kn-delta-subsidence, kn-asf-recombinant-share, kn-marine-stock-fall, kn-maize-joint-loss-4c]
 related_data: [macro_drivers_2050.csv, shock_register.csv, disease_shocks.csv, security_exposures.csv, climate_impacts_2050.csv, emissions_targets.csv, national_targets_2050.csv, wildcards.csv]
-related_pages: [ch19-outlook-2035, ch23-scenarios-2050, ch22-protein-balance-2050, ch01-why-vietnam, ch16-business-buyers, ch18-demand-sizing]
+related_pages: [ch19-outlook-2035, ch23-scenarios-2050, ch22-protein-balance-2050, ch01-why-vietnam, ch16-business-buyers, ch18-demand-sizing, app-m2-futures-method, app-f2-drivers-signals, app-f5-targets-hubs, app-r1-open-questions]
 charts: [chart-drivers-matrix]
 ---
 

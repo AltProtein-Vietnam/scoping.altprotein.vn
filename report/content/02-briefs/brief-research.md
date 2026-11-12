@@ -8,7 +8,7 @@ summary: "For universities and research institutes. The most useful research pai
 audiences: [research]
 reading_time_min: 6
 key_numbers: [kn-novel-food-research-intensity, kn-soybean-import-dependence, kn-protein-supply-imported, kn-asf-recombinant-share, kn-ctu-places, kn-pf-titer-gap, kn-mung-diaas, kn-vn-gas-protein-papers, kn-intend-cut-meat, kn-hybrid-saving, kn-funder-fit]
-related_pages: [ch01-why-vietnam, ch30-unknowns, ch06-knowledge-talent, ch10-technology-fit, ch26-plays, ch27-policy-options, ch21-frontier-technology, ch24-vision-2050, ch28-robust-moves, ch11-protein-diet, ch12-chay-baseline, ch13-consumers, ch14-frontier-demand, ch25-demand-to-frontier, ch29-actor-check, front-exec-summary]
+related_pages: [ch01-why-vietnam, ch30-unknowns, ch06-knowledge-talent, ch10-technology-fit, ch26-plays, ch27-policy-options, app-s13-science, app-s7-research, app-s8-labs-talent, ch21-frontier-technology, ch24-vision-2050, ch28-robust-moves, app-m2-futures-method, app-r1-open-questions, ch11-protein-diet, ch12-chay-baseline, ch13-consumers, ch14-frontier-demand, app-m3-demand-method, ch25-demand-to-frontier, ch29-actor-check, front-exec-summary, app-d2-consumer-evidence]
 charts: [chart-research-benchmark]
 ---
 

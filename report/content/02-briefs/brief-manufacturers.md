@@ -8,7 +8,7 @@ summary: "For food and beverage makers. You are the natural owner of a domestic 
 audiences: [manufacturers]
 reading_time_min: 6
 key_numbers: [kn-imported-protein-ingredient-share, kn-meat-imports-2025, kn-imported-meat-displaceable-2035, kn-retail-median-protein, kn-soy-protein-import, kn-sbm-need-2050, kn-maize-joint-loss-4c, kn-vissan-soy-share, kn-chay-days-share, kn-hybrid-saving, kn-sugary-drink-excise, kn-feed-yeast-imports, kn-stuffed-pasta-exports, kn-food-law-window]
-related_pages: [ch01-why-vietnam, ch05-industrial-base, ch02-alt-protein-today, ch09-economics, ch26-plays, ch27-policy-options, ch22-protein-balance-2050, ch23-scenarios-2050, ch24-vision-2050, ch28-robust-moves, ch12-chay-baseline, ch13-consumers, ch14-frontier-demand, ch15-channels, ch16-business-buyers, ch17-export-demand, ch25-demand-to-frontier, ch29-actor-check, front-exec-summary]
+related_pages: [ch01-why-vietnam, ch05-industrial-base, ch02-alt-protein-today, ch09-economics, ch26-plays, ch27-policy-options, app-s2-retail-audit, ch22-protein-balance-2050, ch23-scenarios-2050, ch24-vision-2050, ch28-robust-moves, ch12-chay-baseline, ch13-consumers, ch14-frontier-demand, ch15-channels, ch16-business-buyers, ch17-export-demand, ch25-demand-to-frontier, ch29-actor-check, app-d5-buyers, app-d4-channels, front-exec-summary]
 charts: [chart-retail-protein-archetypes]
 ---
 

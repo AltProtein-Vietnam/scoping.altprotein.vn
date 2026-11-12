@@ -10,7 +10,7 @@ status: "Version 1.0"
 publisher: "AltProtein Vietnam"
 summary: "An evidence-tagged scoping study of what alternative protein Vietnam could make for people to eat, and who would buy it. Written for investors, policy makers, startups, manufacturers, researchers and international organisations."
 audiences: [investors, policy, startups, manufacturers, research, international]
-reading_time_min: 2
+reading_time_min: 3
 key_numbers: [kn-meat-intake-2020, kn-soy-protein-import, kn-animal-protein-on-imports, kn-china-plant-protein-tonnage, kn-analogue-price-gap, kn-cassava-pulp, kn-food-law-window, kn-demand-bench-2035, kn-actor-check]
 related_pages: [front-two-minute, front-prologue, front-exec-summary, front-at-a-glance, front-how-to-read, front-faq, ch29-actor-check, ch23-scenarios-2050, ch18-demand-sizing, ch25-demand-to-frontier]
 charts: []

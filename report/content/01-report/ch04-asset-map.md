@@ -10,7 +10,7 @@ audiences: [investors, startups, manufacturers, research, policy]
 reading_time_min: 8
 key_numbers: [kn-cassava-roots-2025, kn-cassava-pulp, kn-tay-ninh-starch, kn-rice-bran, kn-bsg, kn-cassava-price-rise]
 related_data: [feedstocks.csv, feedstock_prices.csv, provinces.csv]
-related_pages: [ch05-industrial-base, ch09-economics, ch26-plays]
+related_pages: [app-s4-feedstocks, ch05-industrial-base, ch09-economics, ch26-plays, app-s10-admin-map]
 charts: [chart-feedstock-volumes, chart-feedstock-map]
 ---
 

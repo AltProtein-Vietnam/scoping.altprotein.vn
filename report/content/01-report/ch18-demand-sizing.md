@@ -10,7 +10,7 @@ audiences: [investors, policy, startups, research, international, manufacturers]
 reading_time_min: 12
 key_numbers: [kn-demand-bench-2035, kn-animals-spared-2035, kn-co2e-avoided-2035, kn-salt-translation, kn-chay-days-share, kn-forecast-overshoot]
 related_data: [demand_assumptions.csv, demand_outputs.csv, demand_sensitivity.csv, demand_funder_units.csv, impact_per_tonne.csv, funder_route_guide.csv, funder_fit.csv, canteen_dish_summary.csv, school_menu_weeks.csv, diet_quality_vietnam.csv, trade_seasonal_summary.csv, hybrid_savings.csv, forecast_track_record.csv, balance_outputs.csv]
-related_pages: [ch22-protein-balance-2050, ch23-scenarios-2050, ch12-chay-baseline, ch15-channels, ch25-demand-to-frontier]
+related_pages: [app-d8-demand-model, ch22-protein-balance-2050, ch23-scenarios-2050, ch12-chay-baseline, ch15-channels, ch25-demand-to-frontier, app-d7-global-benchmarks, app-f4-balance-model, app-m4-actor-check-waves]
 charts: [chart-funder-units, chart-demand-routes, chart-displacement-vs-salt, chart-forecast-vs-actual]
 ---
 

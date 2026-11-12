@@ -10,7 +10,7 @@ audiences: [startups, manufacturers, investors, policy, research, international]
 reading_time_min: 13
 key_numbers: [kn-food-retail-traditional, kn-two-chains-stores, kn-canteen-meals, kn-canteen-protein-budget, kn-canteen-dish-mix, kn-school-plant-days, kn-menu-software-floor, kn-upland-meals-animal, kn-firm-outcomes]
 related_data: [retail_structure.csv, foodservice.csv, meal_programmes.csv, tourism.csv, channel_ranking.csv, public_meal_rules.csv, menu_authority.csv, school_menu_weeks.csv, public_meal_protein_cost.csv, upland_school_weeks.csv, canteen_dishes.csv, canteen_dish_summary.csv, corporate_commitments.csv, private_label.csv, b2b_competitor_prices.csv, firm_outcomes.csv, firm_base_rates.csv, marketplace_sku_counters.csv, kitchen_platform_counters.csv]
-related_pages: [ch11-protein-diet, ch12-chay-baseline, ch16-business-buyers, ch18-demand-sizing, ch25-demand-to-frontier, ch09-economics, ch29-actor-check]
+related_pages: [ch11-protein-diet, ch12-chay-baseline, ch16-business-buyers, ch18-demand-sizing, ch25-demand-to-frontier, app-d4-channels, ch09-economics, ch29-actor-check]
 charts: [chart-canteen-dish-mix, chart-institutional-meals]
 ---
 
