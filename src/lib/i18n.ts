@@ -248,6 +248,9 @@ const en = {
   notAdvice: 'Scoping research. Not investment, legal or engineering advice.',
   footerLine:
     'An evidence-tagged scoping study of what Vietnam could make for people to eat, from what, under which rules, at what cost, and who would buy it.',
+  footerAi: 'Researched and written with Claude Opus 5.5, an AI model made by Anthropic.',
+  footerThanks: 'With thanks to Matt Tom of the',
+  footerThanksOrg: 'Global Forum for Plant-Based and Alternative Proteins',
   footerReport: 'The report',
   footerReference: 'Reference',
   footerAbout: 'About',
@@ -529,6 +532,9 @@ const vi: Dict = {
   notAdvice: 'Nghiên cứu xác định phạm vi. Không phải tư vấn đầu tư, pháp lý hay kỹ thuật.',
   footerLine:
     'Nghiên cứu xác định phạm vi có gắn nhãn bằng chứng: Việt Nam có thể sản xuất loại protein nào cho người dân ăn, từ nguyên liệu nào, theo quy định nào, với chi phí bao nhiêu, và ai sẽ mua.',
+  footerAi: 'Nghiên cứu và biên soạn với Claude Opus 5.5, một mô hình AI của Anthropic.',
+  footerThanks: 'Xin cảm ơn Matt Tom thuộc',
+  footerThanksOrg: 'Diễn đàn Toàn cầu về Protein Thực vật và Protein Thay thế',
   footerReport: 'Báo cáo',
   footerReference: 'Tra cứu',
   footerAbout: 'Giới thiệu',
