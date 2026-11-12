@@ -54,3 +54,9 @@ Every claim carries a tag for the kind of evidence behind it and a confidence le
 The study draws on 2,669 sources, 91 companies, 83 facilities and 186 audited retail products. Its protein balance and demand models are reproducible.
 
 *Scoping research, not investment, legal or engineering advice. Scope: the supply side, protein for people first, feed only as context, and demand as a design input.*
+
+### Use of AI and acknowledgements
+
+**Use of AI.** AltProtein Vietnam researched and wrote this study with Claude Opus 5.5, an AI model made by Anthropic. It ran the desk-research streams, drafted and edited the text, and ran the calculations. People at AltProtein Vietnam directed the work, checked the headline numbers and are responsible for the content.
+
+**Acknowledgements.** Parker Vu of AltProtein Vietnam led the project. Matt Tom of the [Global Forum for Plant-Based and Alternative Proteins](https://globalforumaltproteins.org) mentored it, under the Sentient Futures Project Incubator 2026.

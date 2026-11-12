@@ -29,7 +29,10 @@ The first public version, published in November 2026. It follows ten review draf
 It started from what Vietnam can make. Demand is a design input for that question: who would buy, at what price and in what form. The report gives no market-size forecast and is not a marketing plan ([[front-how-to-read]]).
 
 **How was it researched?**
-AltProtein Vietnam ran thirteen rounds of desk research, using AI research assistants as parallel research streams under a shared protocol. It added a retail audit of 186 products in Nha Trang and Ho Chi Minh City, and a check against the published priorities of 80 named actors. Independent review passes re-checked the headline numbers. There were no interviews or workshops.
+AltProtein Vietnam ran thirteen rounds of desk research with Claude Opus 5.5, an AI model made by Anthropic, as parallel research streams under a shared protocol. The same model drafted and edited the text and ran the calculations; people at AltProtein Vietnam directed the work and are responsible for the content. It added a retail audit of 186 products in Nha Trang and Ho Chi Minh City, and a check against the published priorities of 80 named actors. Independent review passes re-checked the headline numbers. There were no interviews or workshops.
+
+**Who helped?**
+Parker Vu of AltProtein Vietnam led the project. Matt Tom of the [Global Forum for Plant-Based and Alternative Proteins](https://globalforumaltproteins.org) mentored it, under the Sentient Futures Project Incubator 2026.
 
 **How reliable are the numbers?**
 Every claim says where its evidence comes from (Vietnam, a comparable country, or global) and how strong it is (High, Medium or Low). Numbers we calculated say so. Where sources disagree, we give both and never average them. The weakest numbers are prices nobody publishes, such as delivered soy flour, and costs of plants that do not yet exist ([[ch30-unknowns]]).

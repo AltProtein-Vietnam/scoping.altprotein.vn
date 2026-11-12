@@ -248,6 +248,14 @@ const en = {
   notAdvice: 'Scoping research. Not investment, legal or engineering advice.',
   footerLine:
     'An evidence-tagged scoping study of what Vietnam could make for people to eat, from what, under which rules, at what cost, and who would buy it.',
+  footerLead: 'Project lead: Parker Vu, AltProtein Vietnam.',
+  footerMentor: 'Mentor: Matt Tom,',
+  footerMentorOrg: 'Global Forum for Plant-Based and Alternative Proteins',
+  footerIncubator: 'Developed under the Sentient Futures Project Incubator 2026.',
+  footerAiLink: 'How we used AI',
+  aiUseTitle: 'Use of AI',
+  aiUseBody:
+    'AltProtein Vietnam researched and wrote this study with Claude Opus 5.5, an AI model made by Anthropic. The model ran the desk-research streams, drafted and edited the text, and ran the calculations. People at AltProtein Vietnam directed the work, checked the headline numbers and are responsible for the content. Every claim carries an evidence tag and links to its source, so readers can check it.',
   footerReport: 'The report',
   footerReference: 'Reference',
   footerAbout: 'About',
@@ -529,6 +537,14 @@ const vi: Dict = {
   notAdvice: 'Nghiên cứu xác định phạm vi. Không phải tư vấn đầu tư, pháp lý hay kỹ thuật.',
   footerLine:
     'Nghiên cứu xác định phạm vi có gắn nhãn bằng chứng: Việt Nam có thể sản xuất loại protein nào cho người dân ăn, từ nguyên liệu nào, theo quy định nào, với chi phí bao nhiêu, và ai sẽ mua.',
+  footerLead: 'Trưởng dự án: Parker Vu, AltProtein Vietnam.',
+  footerMentor: 'Cố vấn: Matt Tom,',
+  footerMentorOrg: 'Diễn đàn Toàn cầu về Protein Thực vật và Protein Thay thế',
+  footerIncubator: 'Thực hiện trong khuôn khổ Sentient Futures Project Incubator 2026.',
+  footerAiLink: 'Cách chúng tôi sử dụng AI',
+  aiUseTitle: 'Sử dụng AI',
+  aiUseBody:
+    'AltProtein Vietnam nghiên cứu và biên soạn báo cáo này với Claude Opus 5.5, một mô hình AI của Anthropic. Mô hình thực hiện các luồng nghiên cứu tài liệu, soạn thảo và biên tập văn bản, và chạy các phép tính. Nhóm AltProtein Vietnam định hướng công việc, kiểm tra các số liệu chính và chịu trách nhiệm về nội dung. Mỗi nhận định đều có nhãn bằng chứng và liên kết tới nguồn để người đọc kiểm tra.',
   footerReport: 'Báo cáo',
   footerReference: 'Tra cứu',
   footerAbout: 'Giới thiệu',
