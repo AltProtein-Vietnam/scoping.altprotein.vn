@@ -59,7 +59,9 @@ The misses share a pattern. Each is a different kind of question, not a harder v
 
 ## 29.3 What the answers changed
 
-**Schools already have plant-protein days, and tofu fills them.** The old target to raise the animal share of school protein ended in 2020 [@CHN-33] {VN-direct|High}. The 2025 guidance sets no animal share and asks for legumes or tofu twice a week [@APR-04; @AIB-39] {VN-direct|High} {dx:revealed}. In 48 school-weeks we read, plant protein appeared on 15% of days, almost always tofu beside meat [@PMR-10; @PMR-31] {VN-direct|High} {dx:revealed}. The menu software still prints "animal protein at least 48%" [@PMR-26] {VN-direct|Medium} {dx:revealed}. So a plant ingredient there replaces tofu, not meat. Only a labelled blend in minced dishes removes meat. The rule window is the School Health Programme 2026 to 2035 [@APR-12; @AFN-44] {VN-direct|Medium} {dx:revealed}. {{kn:kn-school-plant-days}} ([[ch15-channels]])
+**Schools already have plant-protein days, and tofu fills them.** The old target to raise the animal share of school protein ended in 2020 [@CHN-33] {VN-direct|High}. The 2025 guidance sets no animal share and asks for legumes or tofu twice a week [@APR-04; @AIB-39] {VN-direct|High} {dx:revealed}. In 48 school-weeks we read, plant protein appeared on 15% of days, almost always tofu beside meat [@PMR-10; @PMR-31] {VN-direct|High} {dx:revealed}.
+
+The menu software still prints "animal protein at least 48%" [@PMR-26] {VN-direct|Medium} {dx:revealed}. So a plant ingredient there replaces tofu, not meat. Only a labelled blend in minced dishes removes meat. The rule window is the School Health Programme 2026 to 2035 [@APR-12; @AFN-44] {VN-direct|Medium} {dx:revealed}. {{kn:kn-school-plant-days}} ([[ch15-channels]])
 
 **The Food Safety Law window runs into 2027.** The vote is considered for May 2027 [@APR-07] {VN-direct|Medium}, so recommendations tied to late 2026 now have until early 2027 ([[ch07-rules]], [[ch27-policy-options]]).
 
