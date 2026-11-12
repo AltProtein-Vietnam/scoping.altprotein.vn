@@ -59,4 +59,4 @@ The study draws on 2,669 sources, 91 companies, 83 facilities and 186 audited re
 
 **Use of AI.** AltProtein Vietnam researched and wrote this study with Claude Opus 5.5, an AI model made by Anthropic. It ran the desk-research streams, drafted and edited the text, and ran the calculations. People at AltProtein Vietnam directed the work, checked the headline numbers and are responsible for the content.
 
-**Acknowledgements.** We thank Matt Tom of the [Global Forum for Plant-Based and Alternative Proteins](https://globalforumaltproteins.org) for support of this study.
+**Acknowledgements.** Parker Vu of AltProtein Vietnam led the project. Matt Tom of the [Global Forum for Plant-Based and Alternative Proteins](https://globalforumaltproteins.org) mentored it, under the Sentient Futures Project Incubator 2026.
